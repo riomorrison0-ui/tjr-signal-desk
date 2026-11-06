@@ -2,49 +2,40 @@
 
 Data: **binance_paxg** 5m, 2020-08-28 → 2026-11-05. Settings picked on data before 2025-01-01, judged on data after it. 0.01 lots, max 2% risk, spread $0.3 per trade, entries at signal-candle close, UK hours 07–20.
 
-## £200 account (stop ≤ $5.2)
-
-| strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| london | `{"stop": "mid", "tp_mult": 1.0, "lo": 0.5, "hi": 1.5, "end_uk": 1100}` | 78 | 51.3 | -0.053 | 1 | 0.0 | -1.065 | 0.0 | £-3.79 | 1.4 | 10 |
-| orb | `{"open_uk": 1430, "minutes": 30, "stop": "range", "tp_mult": 1.0}` | 157 | 52.9 | -0.035 | 9 | 22.2 | -0.652 | 0.23 | £-17.25 | 2.4 | 7 |
-| ibretr | `{"open_uk": 1430, "entry_in": 0.25, "tgt_out": 0.5, "stop_in": 1.0}` | 106 | 50.0 | -0.048 | 7 | 42.9 | -0.196 | 0.57 | £-5.25 | 1.8 | 5 |
-| cci | — not enough trades within this risk limit | | | | | | | | | | |
-
-**Pick for £200:** nothing profitable in-sample
-
 ## £1000 account (stop ≤ $26.0)
 
 | strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| london | `{"stop": "range", "tp_mult": 0.75, "lo": 0.0, "hi": 9.0, "end_uk": 1300}` | 726 | 48.3 | -0.089 | 101 | 58.4 | 0.047 | 1.14 | £61.95 | 11.3 | 8 |
-| orb | `{"open_uk": 1430, "minutes": 30, "stop": "range", "tp_mult": 1.0}` | 922 | 46.2 | -0.105 | 319 | 48.9 | -0.027 | 0.94 | £-85.65 | 16.7 | 12 |
+| holygrail | `{"tf": "1h", "adx_min": 30, "sl_atr": 1.0, "tp_mult": 1.0}` | 62 | 56.5 | 0.041 | 9 | 22.2 | -0.582 | 0.27 | £-53.79 | 1.0 | 6 |
+| rsi2 | `{"tf": "30min", "lo": 20, "hi": 80, "sl_atr": 1.5, "tp_mult": 1.0}` | 2232 | 63.2 | 0.07 | 902 | 61.4 | 0.039 | 1.13 | £144.22 | 42.3 | 7 |
+| bbfade | `{"tf": "15min", "dev": 2.0, "adx_max": 20, "sl_atr": 0.5}` | 1703 | 64.3 | 0.058 | 546 | 56.4 | 0.04 | 1.1 | £-81.32 | 30.3 | 7 |
+| session | `{"enter_uk": 1300, "exit_uk": 1600, "side": "SELL", "sl_usd": 20}` | 1131 | 48.2 | -0.006 | 482 | 44.2 | 0.042 | 1.1 | £314.45 | 21.7 | 15 |
 | ibretr | `{"open_uk": 1430, "entry_in": 0.25, "tgt_out": 0.5, "stop_in": 1.0}` | 411 | 54.0 | 0.033 | 135 | 50.4 | 0.019 | 1.05 | £25.48 | 7.4 | 8 |
-| cci | `{"level": 300, "sl_usd": 8, "tp_mult": 3.0}` | 121 | 37.2 | 0.211 | 39 | 25.6 | -0.087 | 0.89 | £-20.87 | 2.2 | 8 |
 
-**Pick for £1000:** cci `{"level": 300, "sl_usd": 8, "tp_mult": 3.0}`
+**Pick for £1000:** rsi2 `{"tf": "30min", "lo": 20, "hi": 80, "sl_atr": 1.5, "tp_mult": 1.0}`
 
 ## £2000 account (stop ≤ $52.0)
 
 | strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| london | `{"stop": "range", "tp_mult": 1.0, "lo": 0.0, "hi": 9.0, "end_uk": 1100}` | 663 | 44.6 | -0.076 | 230 | 55.7 | 0.093 | 1.31 | £610.15 | 12.1 | 11 |
-| orb | `{"open_uk": 1430, "minutes": 30, "stop": "range", "tp_mult": 1.0}` | 931 | 46.1 | -0.105 | 410 | 46.8 | -0.035 | 0.91 | £-215.24 | 18.0 | 12 |
+| holygrail | `{"tf": "1h", "adx_min": 30, "sl_atr": 1.0, "tp_mult": 1.0}` | 62 | 56.5 | 0.041 | 9 | 22.2 | -0.582 | 0.27 | £-53.79 | 1.0 | 6 |
+| rsi2 | `{"tf": "30min", "lo": 20, "hi": 80, "sl_atr": 1.5, "tp_mult": 1.0}` | 2253 | 63.3 | 0.072 | 978 | 61.3 | 0.038 | 1.13 | £254.03 | 43.6 | 7 |
+| bbfade | `{"tf": "15min", "dev": 2.0, "adx_max": 20, "sl_atr": 0.5}` | 1713 | 64.4 | 0.059 | 559 | 57.4 | 0.042 | 1.1 | £-50.67 | 30.6 | 7 |
+| session | `{"enter_uk": 1300, "exit_uk": 1600, "side": "SELL", "sl_usd": 20}` | 1131 | 48.2 | -0.006 | 482 | 44.2 | 0.042 | 1.1 | £314.45 | 21.7 | 15 |
 | ibretr | `{"open_uk": 1430, "entry_in": 0.25, "tgt_out": 0.5, "stop_in": 1.0}` | 416 | 53.8 | 0.03 | 161 | 52.8 | 0.055 | 1.16 | £182.43 | 7.8 | 8 |
-| cci | `{"level": 300, "sl_usd": 8, "tp_mult": 3.0}` | 121 | 37.2 | 0.211 | 39 | 25.6 | -0.087 | 0.89 | £-20.87 | 2.2 | 8 |
 
-**Pick for £2000:** cci `{"level": 300, "sl_usd": 8, "tp_mult": 3.0}`
+**Pick for £2000:** rsi2 `{"tf": "30min", "lo": 20, "hi": 80, "sl_atr": 1.5, "tp_mult": 1.0}`
 
-## Portfolio £1000: ibretr + cci
+## Portfolio £1000: holygrail + rsi2 + bbfade + ibretr
 
-- 706 trades, 0.44 per trading day, a trade on 41.3% of days
-- win 48.9% · PF 1.13 · avg 0.054R · £335.88 · max DD £122.96 · worst streak 9 · green months 55.3%
-- in-sample avg 0.074R (532) · out-of-sample avg -0.005R (174), win 44.8%, PF 0.99, £4.61
-- years: 2020 -0.08R/61 · 2021 +0.03R/135 · 2022 +0.26R/106 · 2023 -0.03R/104 · 2024 +0.12R/126 · 2025 +0.00R/107 · 2026 -0.01R/67
+- 6000 trades, 3.72 per trading day, a trade on 97.2% of days
+- win 61.6% · PF 1.17 · avg 0.054R · £1608.42 · max DD £575.89 · worst streak 10 · green months 67.1%
+- in-sample avg 0.062R (4408) · out-of-sample avg 0.034R (1592), win 58.5%, PF 1.1, £34.58
+- years: 2020 +0.20R/340 · 2021 +0.09R/1152 · 2022 -0.03R/927 · 2023 +0.04R/912 · 2024 +0.09R/1077 · 2025 +0.06R/920 · 2026 -0.00R/672
 
-## Portfolio £2000: ibretr + cci
+## Portfolio £2000: holygrail + rsi2 + bbfade + ibretr
 
-- 737 trades, 0.46 per trading day, a trade on 43.2% of days
-- win 49.4% · PF 1.14 · avg 0.059R · £464.89 · max DD £117.91 · worst streak 7 · green months 55.3%
-- in-sample avg 0.071R (537) · out-of-sample avg 0.027R (200), win 47.5%, PF 1.06, £161.56
-- years: 2020 -0.08R/61 · 2021 +0.03R/137 · 2022 +0.25R/107 · 2023 -0.03R/104 · 2024 +0.12R/128 · 2025 +0.01R/109 · 2026 +0.05R/91
+- 6151 trades, 3.81 per trading day, a trade on 98.0% of days
+- win 61.7% · PF 1.18 · avg 0.055R · £1998.66 · max DD £416.66 · worst streak 10 · green months 67.1%
+- in-sample avg 0.062R (4444) · out-of-sample avg 0.038R (1707), win 59.1%, PF 1.11, £332.0
+- years: 2020 +0.20R/343 · 2021 +0.09R/1170 · 2022 -0.04R/932 · 2023 +0.04R/914 · 2024 +0.09R/1085 · 2025 +0.06R/940 · 2026 +0.01R/767
