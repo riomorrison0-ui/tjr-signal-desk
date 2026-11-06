@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T14:10:20.387310-05:00",
+ "updated": "2026-11-06T14:15:20.379776-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4074.399902,
-   "feed": "real-time gold (PAXG, matched to spot +9.23)",
-   "time": "2026-11-06T14:05:00-05:00"
+   "price": 4074.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.94)",
+   "time": "2026-11-06T14:10:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Opinion | Trump Outran His Leash With the Iran War - WSJ",
-    "Army, Partner Forces Begin Simulated Combat in Hawaii - U.S. Department of War (.gov)",
-    "Turkish parliament approves Mecca defense pact amid Middle East war - World Socialist Web Site"
+    "Strictly Come Dancing to honour World War II women with special Remembrance tribute - The Independent",
+    "EU Advances Sanctions Plan Against Smugglers - The European Times",
+    "Opinion | Trump Outran His Leash With the Iran War - WSJ"
    ]
   },
   "today": [
