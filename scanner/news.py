@@ -105,7 +105,7 @@ def headline_risk(h: dict, now: pd.Timestamp) -> dict:
         for it in h.get(key, []):
             if it["risk"] and it["time"] and now - pd.Timestamp(it["time"]) <= timedelta(hours=2):
                 recent.append(it)
-    level = "high" if len(recent) >= 3 else "elevated" if recent else "normal"
+    level = "high" if len(recent) >= 5 else "elevated" if len(recent) >= 2 else "normal"
     return dict(level=level, count=len(recent), examples=[r["title"] for r in recent[:3]])
 
 
