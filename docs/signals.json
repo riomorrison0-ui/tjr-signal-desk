@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T13:10:20.390009-05:00",
+ "updated": "2026-11-06T13:15:20.389838-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4061.600098,
-   "feed": "real-time gold (PAXG, matched to spot +12.45)",
-   "time": "2026-11-06T13:05:00-05:00"
+   "price": 4061.300049,
+   "feed": "real-time gold (PAXG, matched to spot +10.74)",
+   "time": "2026-11-06T13:10:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Reform's war crimes protection charter is chilling \u2013 even if they are deluded - The National Scot",
-    "How many Russian soldiers died in the war with Ukraine - Mediazona",
-    "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group - Decrypt"
+    "SATCOM AT WAR SPEED - Air & Space Forces Magazine",
+    "Identity politics may have cost the Democrats 2024, but the Iran war cost Trump 2026 - Fortune",
+    "Can Democrats stop Trump\u2019s war on Iran? - The New Arab"
    ]
   },
   "today": [
