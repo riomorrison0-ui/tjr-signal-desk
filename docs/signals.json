@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T12:30:20.476137-05:00",
+ "updated": "2026-11-06T12:33:13.363714-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4061.0,
-   "feed": "real-time gold (PAXG, matched to spot +10.12)",
+   "price": 4062.899902,
+   "feed": "real-time gold (PAXG, matched to spot +12.02)",
    "time": "2026-11-06T12:25:00-05:00"
   }
  },
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "What the U.S. Midterm Result Mean for the Ukraine War - Transitions Online",
     "Can Starlink keep Lebanon connected in the event of another war? - The New Arab",
-    "UN says struggling to help millions fleeing Sudan war find shelter - Arab News",
-    "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX - XBOX Wire"
+    "UN says struggling to help millions fleeing Sudan war find shelter - Arab News"
    ]
   },
   "today": [
@@ -119,8 +119,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.46,
-  "gbpusd": 1.33659
+  "stop_cap_usd": 53.47,
+  "gbpusd": 1.33668
  },
  "backtest": {
   "portfolio": {
