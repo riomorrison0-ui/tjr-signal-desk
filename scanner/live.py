@@ -39,6 +39,7 @@ STRATEGY_NAMES = {
     "channel": "Unger 5m channel breakout",
     "cci": "Unger CCI momentum",
     "tjr": "TJR liquidity sweep",
+    "rsi2": "Connors RSI(2) pullback",
 }
 
 
@@ -125,6 +126,8 @@ def signal_msg(s: dict, last: float) -> str:
     hold = s.get("hold_until")
     if s.get("strategy") == "cci":
         hold_txt = "No time limit. If momentum dies before stop or TP, I'll message you CLOSE NOW"
+    elif s.get("strategy") == "rsi2":
+        hold_txt = "If price snaps back to its 5-bar average before TP, I'll message you CLOSE NOW (take the profit)"
     else:
         hold_txt = (f"Hold up to {pd.Timestamp(hold).tz_convert(UK):%a %H:%M} UK if neither is hit" if hold
                     else "Closed by end of day if neither is hit")
@@ -158,7 +161,8 @@ def update_msg(s: dict) -> str:
         g = pnl_gbp(s)
         money = f"{'+' if g >= 0 else '-'}£{abs(g):.2f}, {'+' if s['r'] > 0 else ''}{s['r']}R"
         if "closed at" in notes:
-            why = "momentum faded" if s.get("strategy") == "cci" else ("end of day" if "end of day" in notes else "time limit")
+            why = ("momentum faded" if s.get("strategy") == "cci" else "back at its 5-bar average, job done" if s.get("strategy") == "rsi2"
+                   else "end of day" if "end of day" in notes else "time limit")
             return f"🚪 <b>CLOSE NOW</b> — {head}. Exit at market ({why}). Last price {fmt(s['exit_price'], dp)}  ({money})"
         if s["status"] == "win":
             return f"💰 TAKE PROFIT HIT — {head} → {fmt(s['exit_price'], dp)}  ({money})"

@@ -13,12 +13,13 @@ chat = os.getenv("TELEGRAM_CHAT_ID") or json.loads((ROOT / "data" / "state.json"
 DESCRIPTION = (
     "Gold Desk watches XAUUSD (spot gold) at every 5-minute candle close, 24/5, and sends trade calls automatically.\n\n"
     "Every call: entry, stop loss, take profit, 0.01-lot risk in £.\n"
-    "Strategy: Andrea Unger's systematic gold breakouts (4x World Cup Trading Champion), backtested on years of gold.\n"
+    "Strategy: Connors RSI(2) pullbacks on the 30-minute chart: buy sharp dips in uptrends, sell sharp rallies in downtrends. "
+    "Backtested 2020-2026: ~2 calls a day, 65% wins, 6 of 7 years profitable.\n"
     "News filter: no new trades ±30 min around red-folder USD news.\n"
     "Daily: 06:45 London brief · 08:30 news folders · 13:15 New York brief.\n\n"
     "Paper/demo trading only. Not financial advice."
 )
-SHORT = "Automatic gold (XAUUSD) signals: entry, stop, take profit. Checks every 5-min candle, 24/5. Demo only."
+SHORT = "Automatic gold (XAUUSD) signals, ~2 a day: entry, stop, take profit. Checks every 5-min candle, 24/5. Demo only."
 COMMANDS = [("price", "Live gold price"), ("levels", "4H/1H/daily levels map"), ("folders", "Today's news folders"),
             ("news", "News & headline risk"), ("status", "Is the bot running?")]
 

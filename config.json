@@ -2,14 +2,16 @@
   "instruments": [
     "XAUUSD"
   ],
-  "account_gbp": 1000,
+  "account_gbp": 2000,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "note": "Winner of the 2020-2026 shoot-out: Unger CCI momentum, level 350, $20 stop, 2R take profit. Needs a \u00a31,000 demo to stay under 2% risk at 0.01 lots.",
-  "strategy": "cci",
+  "note": "Daily winner: Connors RSI(2) on 30m (lo 20 / hi 80, stop 2.5 ATR, TP 1R, exit at 5-bar average). ~2 calls/day, 65% wins, PF 1.25, 6/7 years green. \u00a32,000 demo.",
+  "strategy": "rsi2",
   "strategy_params": {
-    "level": 350,
-    "sl_usd": 20,
-    "tp_mult": 2.0
+    "tf": "30min",
+    "lo": 20,
+    "hi": 80,
+    "sl_atr": 2.5,
+    "tp_mult": 1.0
   }
 }
