@@ -1,0 +1,42 @@
+name: Gold scanner (live)
+
+# Every 5 minutes, Sunday evening to Friday night (UTC). GitHub can start scheduled
+# runs a few minutes late at busy times; limit orders stay valid 35 min to absorb that.
+on:
+  schedule:
+    - cron: "*/5 * * * 0-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Scan gold
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
+        run: python scanner/live.py
+      - name: Save paper account
+        run: |
+          git config user.name "gold-desk-bot"
+          git config user.email "gold-desk-bot@users.noreply.github.com"
+          git add data/state.json docs/signals.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "scan $(date -u +%FT%TZ)" -q
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done

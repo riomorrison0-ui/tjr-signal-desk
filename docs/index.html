@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=Instrument+Sans:wght@400;600&display=swap">
+<style>
+/* Layout: one column trading slip — ticker band, live calls, record, proof */
+:root{
+  --ink:#15120d; --panel:#1f1a12; --line:#3a3123; --gold:#e2ab3b; --cream:#f3ead8; --mute:#a79a82;
+  --win:#5fc98a; --loss:#ef6a5a; --wait:#e2ab3b;
+  --display:"Big Shoulders Display",Impact,"Arial Narrow",sans-serif;
+  --body:"Instrument Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--ink);color:var(--cream);font:15px/1.5 var(--body);padding:0 max(16px,env(safe-area-inset-right)) 48px max(16px,env(safe-area-inset-left))}
+.wrap{max-width:980px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;padding:28px 0 18px;border-bottom:3px solid var(--gold)}
+h1{font:900 clamp(52px,12vw,112px)/.85 var(--display);margin:0;letter-spacing:.01em;text-transform:uppercase;color:var(--gold)}
+h1 small{display:block;font:600 13px/1.4 var(--mono);color:var(--mute);letter-spacing:.12em;margin-top:10px}
+.px{text-align:right;font-family:var(--mono)}
+.px b{display:block;font:700 clamp(34px,7vw,56px)/1 var(--display);color:var(--cream);font-variant-numeric:tabular-nums}
+.px span{color:var(--mute);font-size:12px}
+h2{font:700 30px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;margin:36px 0 12px;display:flex;gap:10px;align-items:baseline}
+h2 em{font:400 12px var(--mono);color:var(--mute);font-style:normal;letter-spacing:.08em}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);margin-top:20px}
+.stat{padding:14px 16px;border-right:1px solid var(--line)} .stat:last-child{border-right:0}
+.stat label{display:block;font:600 11px var(--mono);letter-spacing:.12em;color:var(--mute);text-transform:uppercase}
+.stat b{font:700 34px/1.1 var(--display);font-variant-numeric:tabular-nums}
+@media (max-width:620px){.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+.calls{display:grid;gap:12px}
+.call{background:var(--panel);border:1px solid var(--line);padding:18px;display:grid;grid-template-columns:auto 1fr;gap:6px 18px}
+.side{font:900 54px/.9 var(--display);grid-row:span 2}
+.side.BUY{color:var(--win)} .side.SELL{color:var(--loss)}
+.lv{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lv div label{display:block;font-size:11px;color:var(--mute);letter-spacing:.1em}
+.lv div b{font-size:20px}
+.why{color:var(--mute);font-size:13px;grid-column:2}
+.pill{display:inline-block;font:600 11px var(--mono);letter-spacing:.1em;padding:3px 8px;border:1px solid currentColor;text-transform:uppercase}
+.pill.pending{color:var(--wait)} .pill.open{color:var(--cream)} .pill.win{color:var(--win)} .pill.loss{color:var(--loss)} .pill.expired{color:var(--mute)}
+.empty{border:1px dashed var(--line);padding:22px;color:var(--mute)}
+.tbl{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font:13px var(--mono);font-variant-numeric:tabular-nums;min-width:640px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:11px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+td.r{text-align:right} .pos{color:var(--win)} .neg{color:var(--loss)}
+svg{display:block;width:100%;height:auto;background:var(--panel);border:1px solid var(--line)}
+.rules{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+@media (max-width:620px){.rules{grid-template-columns:1fr}}
+.rule{padding:14px 16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.rule b{font:700 22px var(--display);color:var(--gold);text-transform:uppercase;display:block}
+.rule p{margin:4px 0 0;color:var(--mute);font-size:13px}
+.bt p{color:var(--mute);max-width:65ch}
+footer{margin-top:40px;color:var(--mute);font:12px var(--mono)}
+a{color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Gold Desk<small>XAUUSD · TJR MODEL · £200 DEMO · 0.01 LOTS · MAX 2% RISK</small></h1>
+    <div class="px"><b id="price">—</b><span id="feed">waiting for first scan</span></div>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><label>Paper balance</label><b id="bal">£200</b></div>
+    <div class="stat"><label>Win rate</label><b id="wr">—</b></div>
+    <div class="stat"><label>Trades</label><b id="n">0</b></div>
+    <div class="stat"><label>Total R</label><b id="tr">0</b></div>
+  </div>
+
+  <h2>Live calls <em id="upd"></em></h2>
+  <div class="calls" id="live"><div class="empty">No live calls. The scanner checks gold every 5 minutes and only calls a trade in the London (07:00–10:00 UK) and New York (13:30–16:00 UK) killzones.</div></div>
+
+  <h2>Equity <em>£200 demo · 0.01 lots</em></h2>
+  <svg id="eq" viewBox="0 0 900 220" role="img" aria-label="Paper account equity curve"></svg>
+
+  <h2>Record <em>every call, nothing deleted</em></h2>
+  <div class="tbl"><table><thead><tr><th>Signal (UK)</th><th>Side</th><th>Entry</th><th>Stop</th><th>Take profit</th><th>Swept</th><th>Status</th><th class="r">R</th><th class="r">£</th></tr></thead><tbody id="hist"><tr><td colspan="9">No calls yet.</td></tr></tbody></table></div>
+
+  <h2>Backtest <em id="btmeta"></em></h2>
+  <div class="bt" id="bt"><p>Backtest numbers appear here after the first backtest run.</p></div>
+
+  <h2>The model</h2>
+  <div class="rules">
+    <div class="rule"><b>1 · Liquidity</b><p>Previous day high/low, Asia high/low, London high/low.</p></div>
+    <div class="rule"><b>2 · Killzone</b><p>London 07:00–10:00 UK, New York 13:30–16:00 UK.</p></div>
+    <div class="rule"><b>3 · Sweep</b><p>Price runs a level, then fails to hold beyond it.</p></div>
+    <div class="rule"><b>4 · Shift</b><p>5m close breaks structure the other way with displacement.</p></div>
+    <div class="rule"><b>5 · Entry</b><p>Retrace into the fair value gap (or market, per settings).</p></div>
+    <div class="rule"><b>6 · Stop / target</b><p>Stop past the sweep, one take profit. Skipped if the stop would risk more than 2% of £200 at 0.01 lots.</p></div>
+  </div>
+
+  <footer>Paper trading only. Refreshes every minute. <span id="params"></span></footer>
+</div>
+<script>
+const fmt=(x,d=2)=>x==null?'—':Number(x).toLocaleString('en-GB',{minimumFractionDigits:d,maximumFractionDigits:d});
+const uk=t=>t?new Date(t).toLocaleString('en-GB',{timeZone:'Europe/London',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):'—';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function equity(curve,start){
+  const svg=document.getElementById('eq');
+  const pts=[{balance:start},...curve]; const W=900,H=220,P=36;
+  const v=pts.map(p=>p.balance); let lo=Math.min(...v),hi=Math.max(...v); if(hi-lo<1){hi+=50;lo-=50}
+  const x=i=>P+(W-2*P)*(pts.length<2?0:i/(pts.length-1)), y=b=>H-P-(H-2*P)*(b-lo)/(hi-lo);
+  const d=pts.map((p,i)=>`${i?'L':'M'}${x(i).toFixed(1)},${y(p.balance).toFixed(1)}`).join('');
+  const last=pts[pts.length-1].balance;
+  svg.innerHTML=`<line x1="${P}" x2="${W-P}" y1="${y(start)}" y2="${y(start)}" stroke="#3a3123" stroke-dasharray="4 4"/>
+  <text x="${P}" y="${y(start)-6}" fill="#a79a82" font-family="IBM Plex Mono" font-size="11">start £${fmt(start,2)}</text>
+  <path d="${d}" fill="none" stroke="#e2ab3b" stroke-width="2.5"/>
+  <circle cx="${x(pts.length-1)}" cy="${y(last)}" r="4.5" fill="#e2ab3b"/>
+  <text x="${W-P}" y="${y(last)-10}" text-anchor="end" fill="#f3ead8" font-family="IBM Plex Mono" font-size="13">£${fmt(last,2)}</text>`;
+}
+function bt(b){
+  const el=document.getElementById('bt'); if(!b||!b.best_expectancy){return}
+  document.getElementById('btmeta').textContent=`${b.feed} · ${b.first} → ${b.last}`;
+  const rows=(r)=>['ins','oos'].map(k=>{const s=r[k];return `<tr><td>${k=='ins'?'In-sample (picked on)':'Out-of-sample (never seen)'}</td><td class="r">${s.n}</td><td class="r">${fmt(s.win_rate,1)}%</td><td class="r">${fmt(s.avg_r,2)}</td><td class="r">${fmt(s.total_r,1)}</td><td class="r">${s.pf??'—'}</td><td class="r">${fmt(s.max_dd_r,1)}</td></tr>`}).join('');
+  const blk=(t,r)=>r?`<p><b style="color:var(--cream)">${t}</b> — <code>${esc(r.label)}</code></p><div class="tbl"><table><thead><tr><th>Period</th><th class="r">Trades</th><th class="r">Win %</th><th class="r">Avg R</th><th class="r">Total R</th><th class="r">PF</th><th class="r">Max DD R</th></tr></thead><tbody>${rows(r)}</tbody></table></div>`:'';
+  el.innerHTML=blk('Best expectancy',b.best_expectancy)+blk('Highest win rate that still pays',b.best_win_rate)+`<p>Out-of-sample = data the settings never saw. That row is the honest one.</p>`;
+}
+async function load(){
+  try{
+    const d=await (await fetch('signals.json?'+Date.now())).json();
+    const g=d.prices&&d.prices.XAUUSD;
+    if(g){document.getElementById('price').textContent=fmt(g.price);document.getElementById('feed').textContent=`${g.feed} · ${uk(g.time)}`}
+    document.getElementById('upd').textContent='last scan '+uk(d.updated);
+    document.getElementById('params').textContent=d.params||'';
+    const s=d.stats; document.getElementById('bal').textContent='£'+fmt(s.balance,2);
+    document.getElementById('wr').textContent=s.win_rate==null?'—':s.win_rate+'%';
+    document.getElementById('n').textContent=s.trades;
+    const tr=document.getElementById('tr'); tr.textContent=(s.total_r>0?'+':'')+s.total_r; tr.className=s.total_r>0?'pos':s.total_r<0?'neg':'';
+    equity(s.curve||[],s.start_balance||200);
+    const live=d.signals.filter(x=>x.status=='pending'||x.status=='open');
+    if(live.length) document.getElementById('live').innerHTML=live.map(x=>`<div class="call"><div class="side ${x.side}">${x.side}</div>
+      <div class="lv"><div><label>${x.status=='pending'?'LIMIT':'ENTRY'}</label><b>${fmt(x.entry)}</b></div><div><label>STOP</label><b>${fmt(x.stop)}</b></div><div><label>TAKE PROFIT</label><b>${fmt(x.target)}</b></div><div><label>R:R</label><b>${x.rr}</b></div><div><label>STATUS</label><span class="pill ${x.status}">${x.status=='pending'?'waiting fill':'in trade'}</span></div></div>
+      <div class="why">${esc(x.level_name.replace('_',' '))} swept · ${x.killzone.toUpperCase()} killzone · 1H ${x.bias} · signalled ${uk(x.confirm_time)}${x.status=='pending'?' · valid till '+uk(x.valid_until):''}</div></div>`).join('');
+    if(d.signals.length) document.getElementById('hist').innerHTML=d.signals.map(x=>`<tr><td>${uk(x.confirm_time)}</td><td class="${x.side=='BUY'?'pos':'neg'}">${x.side}</td><td>${fmt(x.entry)}</td><td>${fmt(x.stop)}</td><td>${fmt(x.target)}</td><td>${esc(x.level_name.replace('_',' '))}</td><td><span class="pill ${x.status}">${x.status}</span></td><td class="r ${x.r>0?'pos':x.r<0?'neg':''}">${x.r==null?'':(x.r>0?'+':'')+fmt(x.r,2)}</td><td class="r ${x.pnl_gbp>0?'pos':x.pnl_gbp<0?'neg':''}">${x.pnl_gbp==null?'':(x.pnl_gbp>0?'+£':'-£')+fmt(Math.abs(x.pnl_gbp),2)}</td></tr>`).join('');
+    bt(d.backtest);
+  }catch(e){document.getElementById('feed').textContent='waiting for first scan'}
+}
+load(); setInterval(load,60000);
+</script>
+</body>
+</html>

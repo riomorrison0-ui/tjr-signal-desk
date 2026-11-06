@@ -1,0 +1,8 @@
+{
+  "instruments": ["XAUUSD"],
+  "account_gbp": 200,
+  "max_risk_pct": 2.0,
+  "lot": 0.01,
+  "params": {"entry": "fvg", "target": "2R", "bias": "structure", "zones": "both"},
+  "note": "Placeholder settings until the backtest picks them. Stop cap is computed live from account_gbp x max_risk_pct."
+}
