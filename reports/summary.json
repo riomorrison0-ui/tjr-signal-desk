@@ -1,0 +1,14 @@
+{
+ "generated": "2026-11-06T14:16:48.514481+00:00",
+ "feed": "binance_paxg",
+ "first": "2021-12-31",
+ "last": "2026-11-05",
+ "oos_start": "2025-01-01",
+ "account_gbp": 200.0,
+ "stop_cap_usd": 5.2,
+ "combos": 180,
+ "best_expectancy": null,
+ "best_win_rate": null,
+ "cross_check_yahoo_60d": {},
+ "runtime_s": 872
+}
