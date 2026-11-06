@@ -28,7 +28,7 @@ UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) gold-desk/1.0"}
 def duka_day(d: date) -> pd.DataFrame | None:
     # month is zero-based in the datafeed path
     url = f"https://datafeed.dukascopy.com/datafeed/XAUUSD/{d.year}/{d.month - 1:02d}/{d.day:02d}/BID_candles_min_1.bi5"
-    r = requests.get(url, headers=UA, timeout=30)
+    r = requests.get(url, headers=UA, timeout=60)
     if r.status_code != 200:
         raise RuntimeError(f"HTTP {r.status_code}")
     if not r.content:
@@ -47,7 +47,12 @@ def duka_day(d: date) -> pd.DataFrame | None:
 
 def dukascopy(start: date, end: date) -> pd.DataFrame:
     probe = date(2024, 3, 5)
-    duka_day(probe)  # raises if blocked
+    for k in range(3):  # raises if blocked
+        try:
+            duka_day(probe); break
+        except Exception:  # noqa: BLE001
+            if k == 2:
+                raise
     days = [start + timedelta(n) for n in range((end - start).days + 1)]
     days = [d for d in days if d.weekday() != 5]
     out, failed = [], []

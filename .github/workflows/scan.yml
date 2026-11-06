@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "*/5 * * * 0-5"
   workflow_dispatch:
+    inputs:
+      selftest:
+        description: "Send the full self-test pack to Telegram"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,6 +36,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
+          SELFTEST: ${{ inputs.selftest && '1' || '' }}
         run: python scanner/live.py
       - name: Save paper account
         run: |

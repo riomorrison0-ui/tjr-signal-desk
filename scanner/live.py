@@ -20,6 +20,8 @@ import requests
 sys.path.insert(0, os.path.dirname(__file__))
 from tjr import ET, INSTRUMENTS, Params, Setup, find_setups, simulate  # noqa: E402
 from data import gold_live  # noqa: E402
+import news as newsmod  # noqa: E402
+import briefs  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "state.json"
@@ -40,28 +42,31 @@ def load_json(p: Path, default):
 _CHAT = {}
 
 
-def chat_id(state) -> str | None:
-    """Use TELEGRAM_CHAT_ID if set, else learn it from whoever pressed Start on the bot."""
-    if os.getenv("TELEGRAM_CHAT_ID"):
-        return os.getenv("TELEGRAM_CHAT_ID")
-    if state.get("tg_chat"):
-        return state["tg_chat"]
+def read_updates(state) -> list[str]:
+    """Learn the chat from whoever pressed Start, and collect commands (/price, /levels, /news, /status)."""
     tok = os.getenv("TELEGRAM_BOT_TOKEN")
+    if os.getenv("TELEGRAM_CHAT_ID"):
+        state["tg_chat"] = os.getenv("TELEGRAM_CHAT_ID")
+    cmds = []
     if not tok:
-        return None
+        return cmds
     try:
-        resp = requests.get(f"https://api.telegram.org/bot{tok.strip()}/getUpdates", timeout=15).json()
-        print("telegram getUpdates ok=", resp.get("ok"), "updates=", len(resp.get("result", [])), resp.get("description", ""))
+        resp = requests.get(f"https://api.telegram.org/bot{tok.strip()}/getUpdates",
+                            params={"offset": state.get("tg_offset", 0), "timeout": 0}, timeout=15).json()
         ups = resp.get("result", [])
-        for u in reversed(ups):
-            m = u.get("message") or u.get("my_chat_member") or {}
+        print("telegram getUpdates ok=", resp.get("ok"), "updates=", len(ups), resp.get("description", ""))
+        for u in ups:
+            state["tg_offset"] = u["update_id"] + 1
+            m = u.get("message") or {}
             cid = (m.get("chat") or {}).get("id")
-            if cid:
+            if cid and not state.get("tg_chat"):
                 state["tg_chat"] = str(cid)
-                return state["tg_chat"]
+            txt = (m.get("text") or "").strip().lower()
+            if cid and str(cid) == state.get("tg_chat") and txt.startswith("/"):
+                cmds.append(txt.split()[0].split("@")[0])
     except Exception as e:  # noqa: BLE001
         print("getUpdates failed", e)
-    return None
+    return cmds
 
 
 def tg(text: str):
@@ -115,10 +120,19 @@ def signal_msg(s: dict, last: float) -> str:
         + money +
         f"\nWhy: {s['level_name'].replace('_', ' ')} swept → 5m break of structure"
         f"{' → FVG retrace' if kind == 'LIMIT' else ''}. 1H bias {s['bias']}. {s['killzone'].upper()} killzone.\n"
+        + news_line(s) +
         f"Signal {t} UK" + (f" · limit valid until {vu} UK" if kind == "LIMIT" else "") +
         ("\n<i>Levels are on COMEX futures (a few $ above spot) — on MT5 place it using the distances.</i>" if "futures" in s.get("feed", "") else "")
         + "\n#paper"
     )
+
+
+def news_line(s: dict) -> str:
+    n = s.get("news") or {}
+    risk = {"normal": "🟢 normal", "elevated": "🟠 elevated", "high": "🔴 HIGH — be careful"}.get(n.get("risk"), "⚪ unknown")
+    nxt = n.get("next")
+    nx = f" · next red folder: {nxt['title']} {pd.Timestamp(nxt['time']).tz_convert('Europe/London'):%a %H:%M} UK" if nxt else ""
+    return f"News: ✅ no red folder within 30 min{nx}\nHeadline risk: {risk}\n"
 
 
 def update_msg(s: dict) -> str:
@@ -176,13 +190,18 @@ def main():
     state = load_json(STATE, {"signals": {}, "created": pd.Timestamp.now(tz="UTC").isoformat()})
     now = pd.Timestamp.now(tz=ET)
     prices = {}
-    _CHAT["id"] = chat_id(state)
+    cmds = read_updates(state)
+    _CHAT["id"] = state.get("tg_chat")
     print("telegram: token", "set" if os.getenv("TELEGRAM_BOT_TOKEN") else "MISSING",
           "| chat", "found" if _CHAT["id"] else "not found (press Start on the bot)")
     if _CHAT["id"] and not state.get("tg_hello"):
         tg("🟡 <b>Gold Desk is live.</b>\nI watch XAUUSD every 5 minutes and call TJR setups in the London (07:00–10:00 UK) and New York (13:30–16:00 UK) killzones. Every call, fill, target and stop lands here. Paper trading only.")
         state["tg_hello"] = now.isoformat()
 
+    nws = newsmod.snapshot(now)
+    print("news: calendar", "ok" if nws["ok_calendar"] else "FAIL", "| headlines", "ok" if nws["ok_headlines"] else "FAIL",
+          "| blackout", (nws["blackout"] or {}).get("title"), "| headline risk", nws["risk"].get("level"))
+    mmap, feed = None, "none"
     for inst, ic in INSTRUMENTS.items():
         if inst not in cfg.get("instruments", list(INSTRUMENTS)):
             continue
@@ -196,6 +215,10 @@ def main():
             continue
         last = float(df["close"].iloc[-1])
         prices[inst] = dict(price=last, time=df.index[-1].isoformat(), feed=feed)
+        try:
+            mmap = briefs.market_map(df)
+        except Exception as e:  # noqa: BLE001
+            print("map error", e)
 
         # 1) new signals
         for s in find_setups(df, inst, p):
@@ -209,6 +232,14 @@ def main():
             d["feed"] = feed
             d["gbpusd"] = round(fx, 5)
             d["account_gbp"] = account
+            if nws.get("blackout"):
+                e = nws["blackout"]
+                d.update(status="skipped", notes=[f"news blackout: {e['title']}"])
+                state["signals"][s.id] = d
+                tg(f"⛔ Setup skipped — {s.side} XAUUSD. High-impact news: {e['title']} at "
+                   f"{pd.Timestamp(e['time']).tz_convert('Europe/London'):%H:%M} UK. Not trading ±30 min around it.")
+                continue
+            d["news"] = dict(risk=nws["risk"].get("level"), next=(nws["next"] or [None])[0])
             state["signals"][s.id] = d
             tg(signal_msg(d, last))
 
@@ -232,6 +263,44 @@ def main():
                     d2 = dict(d, status="open"); tg(update_msg(d2)); tg(update_msg(d))
 
     sigs = sorted(state["signals"].values(), key=lambda d: d["confirm_time"], reverse=True)
+    closed_ = [d for d in sigs if d["status"] in ("win", "loss")]
+    st = stats(sorted(closed_, key=lambda d: d["exit_time"]), account)
+    open_n = sum(d["status"] in ("pending", "open") for d in sigs)
+    cost = INSTRUMENTS["XAUUSD"]["cost"]
+
+    def send(kind):
+        if kind == "price" and mmap:
+            tg(briefs.price_msg(mmap, feed))
+        elif kind == "levels" and mmap:
+            tg(briefs.map_msg(mmap))
+        elif kind == "news":
+            tg(briefs.news_msg(nws, now))
+        elif kind == "status":
+            tg(briefs.status_msg(account, max_risk_pct, p.max_stop_usd, p.label(), now, open_n, st))
+        elif kind == "test" and mmap:
+            tg(briefs.test_trade_msg(mmap, account, fx, cost, p.max_stop_usd))
+
+    if os.getenv("SELFTEST"):
+        tg("🔧 <b>Self-test</b> — confirming the scanner can see price, charts and news right now.")
+        for k in ("price", "levels", "news", "test", "status"):
+            send(k)
+        ukn = now.tz_convert("Europe/London")
+        for name, hh in (("london", 6), ("ny", 13)):
+            if ukn.hour >= hh:
+                state[f"brief_{name}"] = str(ukn.date())  # self-test already covered this brief
+    for c in dict.fromkeys(cmds):
+        send({"/price": "price", "/levels": "levels", "/map": "levels", "/news": "news",
+              "/status": "status", "/test": "test", "/start": "status"}.get(c, "status"))
+
+    # scheduled briefs (Mon–Fri): London ~06:45 UK, New York ~13:15 UK
+    ukt = now.tz_convert("Europe/London")
+    if ukt.dayofweek < 5 and mmap:
+        for name, hh, mm in (("london", 6, 45), ("ny", 13, 15)):
+            key = f"brief_{name}"
+            if state.get(key) != str(ukt.date()) and (ukt.hour, ukt.minute) >= (hh, mm) and ukt.hour < hh + 2:
+                tg(f"☀️ <b>{'London' if name == 'london' else 'New York'} session brief</b>")
+                send("price"); send("levels"); send("news")
+                state[key] = str(ukt.date())
     closed = sorted([d for d in sigs if d["status"] in ("win", "loss")], key=lambda d: d["exit_time"])
     state["updated"] = now.isoformat()
     STATE.parent.mkdir(exist_ok=True)
@@ -239,6 +308,8 @@ def main():
     FEED.parent.mkdir(exist_ok=True)
     FEED.write_text(json.dumps(dict(
         updated=now.isoformat(), params=p.label(), prices=prices, stats=stats(closed, account),
+        news=dict(blackout=nws.get("blackout"), next=nws.get("next"), risk=nws.get("risk"),
+                  ok_calendar=nws.get("ok_calendar"), ok_headlines=nws.get("ok_headlines")),
         account=dict(gbp=account, max_risk_pct=max_risk_pct, lot=LOT, stop_cap_usd=p.max_stop_usd, gbpusd=round(fx, 5)),
         backtest=load_json(ROOT / "reports" / "summary.json", None),
         signals=sigs[:200]), indent=1, default=str))

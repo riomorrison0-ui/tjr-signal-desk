@@ -43,10 +43,13 @@ STOP_CAP = round(ACCOUNT_GBP * MAX_RISK_PCT / 100 * GBPUSD / LOT_OZ, 2)   # ~$5.
 
 GRID = dict(
     entry=["fvg", "market"],
-    target=["1R", "1.5R", "2R", "3R", "liq"],
-    bias=["structure", "ema", "none"],
-    zones=["both", "ny", "london"],
-    max_stop_usd=[STOP_CAP, None],   # None = what the raw model does with no account limit
+    target=["1R", "1.5R", "2R"],
+    bias=["htf", "structure", "none"],
+    m15=[True, False],
+    accept_atr=[0.5, 1.5],
+    confirm_bars=[12, 24],
+    zones=["both", "ny"],
+    max_stop_usd=[STOP_CAP],
 )
 
 
@@ -159,6 +162,12 @@ def main():
     pos = [r for r in elig if r["ins"]["avg_r"] > 0.05]
     pick_wr = max(pos, key=lambda r: r["ins"]["win_rate"]) if pos else None
 
+    # what the same settings do with no £200/2% cap (shows what the cap costs)
+    uncapped = {}
+    for name, r in (("best_expectancy", pick_exp), ("best_win_rate", pick_wr)):
+        if r:
+            pp = dict(r["params"]); pp["max_stop_usd"] = None
+            uncapped[name] = evaluate(run(ctxs[main_feed], Params(**pp)))
     # cross-check the picks on the independent Yahoo futures feed
     cross = {}
     if "yahoo_futures_60d" in ctxs and main_feed != "yahoo_futures_60d":
@@ -170,7 +179,7 @@ def main():
     summary = dict(
         generated=pd.Timestamp.now(tz="UTC").isoformat(), feed=main_feed,
         first=str(hist.index[0].date()), last=str(hist.index[-1].date()), oos_start=str(OOS_START.date()),
-        account_gbp=ACCOUNT_GBP, stop_cap_usd=STOP_CAP, combos=len(results), best_expectancy=pick_exp, best_win_rate=pick_wr, cross_check_yahoo_60d=cross,
+        account_gbp=ACCOUNT_GBP, stop_cap_usd=STOP_CAP, uncapped=uncapped, combos=len(results), best_expectancy=pick_exp, best_win_rate=pick_wr, cross_check_yahoo_60d=cross,
         runtime_s=round(time.time() - t0),
     )
     out = ROOT / "reports"; out.mkdir(exist_ok=True)

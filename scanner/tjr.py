@@ -43,7 +43,9 @@ FUNNEL: Counter = Counter()  # anything still open is closed here (intraday only
 class Params:
     entry: str = "fvg"        # "fvg" (limit at 50% of the gap) | "market"
     target: str = "2R"        # "1R" | "1.5R" | "2R" | "3R" | "liq"
-    bias: str = "structure"   # "structure" | "ema" | "none"
+    bias: str = "htf"         # "htf" (4H and 1H structure agree) | "structure" (1H) | "ema" | "none"
+    m15: bool = True          # the sweep must also show as a rejection on a closed 15m candle
+    accept_atr: float = 1.0   # sweep is void if a 5m candle CLOSES this many ATR beyond the level
     confirm_bars: int = 12    # bars allowed between sweep and break of structure
     fill_bars: int = 6        # bars a limit order stays valid
     disp_atr: float = 0.8     # displacement candle body >= this x ATR
@@ -55,7 +57,7 @@ class Params:
 
     def label(self) -> str:
         cap = f"${self.max_stop_usd:g}" if self.max_stop_usd else "none"
-        return f"entry={self.entry} target={self.target} bias={self.bias} zones={self.zones} stopcap={cap}"
+        return f"entry={self.entry} target={self.target} bias={self.bias} m15={'on' if self.m15 else 'off'} accept={self.accept_atr:g} wait={self.confirm_bars} zones={self.zones} stopcap={cap}"
 
 
 @dataclass
@@ -94,6 +96,15 @@ def atr(df: pd.DataFrame, n: int = 14) -> pd.Series:
     return tr.rolling(n, min_periods=n).mean()
 
 
+def market_hours(df: pd.DataFrame) -> pd.DataFrame:
+    """Keep only bars when spot gold actually trades: Sun 18:00 ET -> Fri 17:00 ET, minus the 17:00-18:00 daily break.
+    (Needed for 24/7 feeds like PAXG, harmless for real gold feeds.)"""
+    t = df.index
+    wd, hr = t.dayofweek, t.hour
+    closed = (wd == 5) | ((wd == 4) & (hr >= 17)) | ((wd == 6) & (hr < 18)) | (hr == 17)
+    return df[~closed]
+
+
 def trading_day(idx: pd.DatetimeIndex) -> np.ndarray:
     """CME-style day: starts 18:00 ET the evening before."""
     return (idx + timedelta(hours=6)).date
@@ -118,11 +129,30 @@ def confirmed_swings(df: pd.DataFrame, left: int = 2, right: int = 2):
     return last_sh, last_sl
 
 
+def htf_bars(df5: pd.DataFrame, rule: str) -> pd.DataFrame:
+    """Higher-timeframe candles indexed by their CLOSE time (so a bar is only 'known' after it closes)."""
+    return df5.resample(rule, label="right", closed="left").agg(
+        {"open": "first", "high": "max", "low": "min", "close": "last"}).dropna()
+
+
+def htf_swing_levels(df5: pd.DataFrame, rule: str):
+    """Most recent confirmed swing high/low on a higher timeframe, mapped onto 5m bars."""
+    hb = htf_bars(df5, rule)
+    sh, sl = confirmed_swings(hb)
+    m = lambda a: pd.Series(a, index=hb.index).reindex(df5.index + pd.Timedelta(minutes=5), method="ffill").values
+    return m(sh), m(sl)
+
+
 def hourly_bias(df5: pd.DataFrame, mode: str) -> pd.Series:
-    """Bias per 5m bar using only 1H candles that had closed."""
+    """Bias per 5m bar using only higher-timeframe candles that had closed."""
     if mode == "none":
         return pd.Series("neutral", index=df5.index)
-    h1 = df5.resample("1h", label="right", closed="left").agg(
+    if mode == "htf":
+        b1 = hourly_bias(df5, "structure").values
+        b4 = hourly_bias(df5, "structure4h").values
+        return pd.Series(np.where(b1 == b4, b1, "neutral"), index=df5.index)
+    rule = {"structure4h": "4h", "structure15m": "15min"}.get(mode, "1h")
+    h1 = df5.resample(rule, label="right", closed="left").agg(
         {"open": "first", "high": "max", "low": "min", "close": "last"}).dropna()
     if mode == "ema":
         ema = h1["close"].ewm(span=50, adjust=False).mean()
@@ -150,8 +180,9 @@ def hourly_bias(df5: pd.DataFrame, mode: str) -> pd.Series:
             else:
                 vals.append("neutral")
         out = pd.Series(vals, index=h1.index)
-    # h1 index is the candle CLOSE time (label=right) -> forward fill onto 5m bars
-    return out.reindex(df5.index, method="ffill").fillna("neutral")
+    # htf index is the candle CLOSE time; a 5m bar starting at t closes at t+5m
+    return pd.Series(out.reindex(df5.index + pd.Timedelta(minutes=5), method="ffill").values,
+                     index=df5.index).fillna("neutral")
 
 
 def session_levels(df: pd.DataFrame) -> pd.DataFrame:
@@ -197,7 +228,7 @@ def _target(side, entry, risk, mode, lv_row, swing_opp):
         return entry + m * risk if side == "BUY" else entry - m * risk
     # liquidity: nearest opposite pool at >= 1.5R, else 2R
     cands = []
-    keys = ["PDH", "Asia_H", "London_H"] if side == "BUY" else ["PDL", "Asia_L", "London_L"]
+    keys = ["PDH", "Asia_H", "London_H", "H4_H", "H1_H"] if side == "BUY" else ["PDL", "Asia_L", "London_L", "H4_L", "H1_L"]
     for k in keys:
         v = lv_row.get(k)
         if v is not None and not np.isnan(v):
@@ -216,13 +247,21 @@ def _target(side, entry, risk, mode, lv_row, swing_opp):
 class Context:
     """Everything that doesn't depend on the settings, computed once per dataset."""
     def __init__(self, df: pd.DataFrame, inst: str):
-        self.df = df.dropna(subset=["open", "high", "low", "close"]).copy()
+        self.df = market_hours(df.dropna(subset=["open", "high", "low", "close"])).copy()
         self.inst = inst
         self.atr = atr(self.df).values
         self.sh, self.sl = confirmed_swings(self.df)
         lv = session_levels(self.df)
         self.day = lv["day"].values
         self.lv = {k: lv[k].values for k in lv.columns if k != "day"}
+        # 4H and 1H swing highs/lows = higher-timeframe liquidity
+        self.lv["H4_H"], self.lv["H4_L"] = htf_swing_levels(self.df, "4h")
+        self.lv["H1_H"], self.lv["H1_L"] = htf_swing_levels(self.df, "1h")
+        # 15m candles (indexed by open time) for the rejection check
+        m15 = self.df.resample("15min", label="left", closed="left").agg(
+            {"open": "first", "high": "max", "low": "min", "close": "last"}).dropna()
+        self.m15_t = m15.index
+        self.m15_h, self.m15_l, self.m15_c = m15["high"].values, m15["low"].values, m15["close"].values
         self.kz = np.array([in_kz(t, INSTRUMENTS[inst]["kz"]) for t in self.df.index], dtype=object)
         self._bias = {}
 
@@ -256,8 +295,8 @@ def find_setups(df: pd.DataFrame, inst: str, p: Params, ctx: Context | None = No
     used_session = set()       # (day, killzone) -> one trade per instrument per killzone
     swept_today = set()        # (day, level name)
 
-    level_keys_hi = ["PDH", "Asia_H", "London_H"]
-    level_keys_lo = ["PDL", "Asia_L", "London_L"]
+    level_keys_hi = ["PDH", "Asia_H", "London_H", "H4_H", "H1_H"]
+    level_keys_lo = ["PDL", "Asia_L", "London_L", "H4_L", "H1_L"]
 
     for i in range(30, n):
         if np.isnan(a[i]):
@@ -271,30 +310,30 @@ def find_setups(df: pd.DataFrame, inst: str, p: Params, ctx: Context | None = No
             # outside the killzone a level that price closes through is spent
             for k in level_keys_hi:
                 if not np.isnan(row[k]) and c[i] > row[k]:
-                    swept_today.add((day, k))
+                    swept_today.add((day, k, round(row[k], 2)))
             for k in level_keys_lo:
                 if not np.isnan(row[k]) and c[i] < row[k]:
-                    swept_today.add((day, k))
+                    swept_today.add((day, k, round(row[k], 2)))
             continue
         if (day, kz) in used_session:
             continue
         events = []
         for k in level_keys_hi:
             L = row[k]
-            if not np.isnan(L) and (day, k) not in swept_today and h[i] > L:
+            if not np.isnan(L) and (day, k, round(L, 2)) not in swept_today and h[i] > L:
                 events.append(("SELL", k, L))
         for k in level_keys_lo:
             L = row[k]
-            if not np.isnan(L) and (day, k) not in swept_today and l[i] < L:
+            if not np.isnan(L) and (day, k, round(L, 2)) not in swept_today and l[i] < L:
                 events.append(("BUY", k, L))
         for side, k, L in events:
-            swept_today.add((day, k))
+            swept_today.add((day, k, round(L, 2)))
             FUNNEL["sweeps"] += 1
             b = bias[i]
             if p.bias != "none" and ((side == "BUY" and b != "bull") or (side == "SELL" and b != "bear")):
                 FUNNEL["bias_block"] += 1
                 continue
-            s = _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b)
+            s = _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b, ctx)
             if s:
                 FUNNEL["setups"] += 1
                 setups.append(s)
@@ -303,7 +342,20 @@ def find_setups(df: pd.DataFrame, inst: str, p: Params, ctx: Context | None = No
     return setups
 
 
-def _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b):
+def _m15_rejected(ctx, side, L, t_sweep, t_now) -> bool:
+    """A CLOSED 15m candle from the sweep onward wicked through L and closed back on the right side."""
+    start = t_sweep.floor("15min")
+    a = ctx.m15_t.searchsorted(start)
+    bnd = ctx.m15_t.searchsorted(t_now - pd.Timedelta(minutes=15), side="right")  # closed by t_now
+    for q in range(a, bnd):
+        if side == "SELL" and ctx.m15_h[q] > L and ctx.m15_c[q] < L:
+            return True
+        if side == "BUY" and ctx.m15_l[q] < L and ctx.m15_c[q] > L:
+            return True
+    return False
+
+
+def _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b, ctx=None):
     n = len(df)
     # structure level to break: last confirmed swing on the other side at sweep time
     ref = sl[i] if side == "SELL" else sh[i]
@@ -313,16 +365,18 @@ def _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b):
     for j in range(i + 1, min(i + 1 + p.confirm_bars, n)):
         if side == "SELL":
             extreme = max(extreme, h[j])
-            if c[j] > L + 0.5 * a[i]:             # sweep failed, price accepted above
+            if c[j] > L + p.accept_atr * a[i]:    # sweep failed, price accepted above
                 FUNNEL["accepted"] += 1; return None
             broke = c[j] < ref
         else:
             extreme = min(extreme, l[j])
-            if c[j] < L - 0.5 * a[i]:
+            if c[j] < L - p.accept_atr * a[i]:
                 FUNNEL["accepted"] += 1; return None
             broke = c[j] > ref
         if not broke:
             continue
+        if p.m15 and ctx is not None and not _m15_rejected(ctx, side, L, idx[i], idx[j] + timedelta(minutes=5)):
+            FUNNEL["no_15m_rejection"] += 1; return None
         # fair value gap inside the displacement leg (sweep .. confirm)
         fvg = None
         for m in range(j, i + 1, -1):
