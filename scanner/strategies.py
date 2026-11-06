@@ -352,3 +352,181 @@ GRIDS.update(
     ibretr=[dict(open_uk=o, entry_in=e, tgt_out=g, stop_in=s) for o in (1430, 800) for e in (0.1, 0.25)
             for g in (0.3, 0.5) for s in (0.6, 1.0)],
 )
+
+
+# ================================================================== MORE DAILY FAMILIES
+def _bars(ctx, rule):
+    k = "_bars_" + rule
+    if not hasattr(ctx, k):
+        b = ctx.df.resample(rule, label="right", closed="left").agg(
+            {"open": "first", "high": "max", "low": "min", "close": "last"}).dropna()
+        # position of the last 5m bar inside each higher-tf candle (signal = its close)
+        pos = ctx.df.index.get_indexer(b.index - timedelta(minutes=5))
+        b = b[pos >= 0]; pos = pos[pos >= 0]
+        setattr(ctx, k, (b, pos))
+    return getattr(ctx, k)
+
+
+def _atr_s(b, n=14):
+    pc = b["close"].shift()
+    tr = pd.concat([b["high"] - b["low"], (b["high"] - pc).abs(), (b["low"] - pc).abs()], axis=1).max(axis=1)
+    return tr.rolling(n).mean()
+
+
+def _adx(b, n=14):
+    up, dn = b["high"].diff(), -b["low"].diff()
+    pdm = np.where((up > dn) & (up > 0), up, 0.0)
+    ndm = np.where((dn > up) & (dn > 0), dn, 0.0)
+    tr = _atr_s(b, 1)
+    atr_ = tr.ewm(alpha=1 / n, adjust=False).mean()
+    pdi = 100 * pd.Series(pdm, index=b.index).ewm(alpha=1 / n, adjust=False).mean() / atr_
+    ndi = 100 * pd.Series(ndm, index=b.index).ewm(alpha=1 / n, adjust=False).mean() / atr_
+    dx = 100 * (pdi - ndi).abs() / (pdi + ndi)
+    return dx.ewm(alpha=1 / n, adjust=False).mean(), pdi, ndi
+
+
+def _rsi(x, n):
+    d = x.diff()
+    g = d.clip(lower=0).ewm(alpha=1 / n, adjust=False).mean()
+    ls = (-d.clip(upper=0)).ewm(alpha=1 / n, adjust=False).mean()
+    return 100 - 100 / (1 + g / ls)
+
+
+def _uk_ok_t(t, a=7, b=20):
+    h = t.tz_convert(UK).hour
+    return a <= h < b
+
+
+def holygrail(ctx: Context, tf="15min", adx_min=30, sl_atr=1.5, tp_mult=1.5, cap=None) -> list[Setup]:
+    """Raschke/Connors Holy Grail: ADX(14) > adx_min and rising, price pulls back to the 20 EMA,
+    enter on the close that turns back with the trend. Stop sl_atr x ATR, target tp_mult x stop. Out by 20:00 UK."""
+    b, pos = _bars(ctx, tf)
+    adx, pdi, ndi = _adx(b)
+    ema = b["close"].ewm(span=20, adjust=False).mean()
+    at = _atr_s(b)
+    o, h, l, c = (b[k].values for k in ("open", "high", "low", "close"))
+    out, last_day = [], None
+    for k in range(40, len(b)):
+        t = b.index[k]
+        if not _uk_ok_t(t) or np.isnan(adx.iat[k]) or adx.iat[k] < adx_min or adx.iat[k] < adx.iat[k - 3]:
+            continue
+        d = t.tz_convert(UK).date()
+        if d == last_day:
+            continue
+        up = pdi.iat[k] > ndi.iat[k]
+        touched = (l[k - 1] <= ema.iat[k - 1]) if up else (h[k - 1] >= ema.iat[k - 1])
+        resume = (c[k] > h[k - 1] and c[k] > ema.iat[k]) if up else (c[k] < l[k - 1] and c[k] < ema.iat[k])
+        if not (touched and resume):
+            continue
+        sl = sl_atr * at.iat[k]
+        if cap and sl + COST > cap:
+            continue
+        side = "BUY" if up else "SELL"
+        stop, tgt = _bracket(side, c[k], sl, tp_mult)
+        close_t = pd.Timestamp.combine(d, time(20, 0)).tz_localize(UK).tz_convert(ET)
+        out.append(_mk(ctx, pos[k], side, c[k], stop, tgt, "holygrail",
+                       f"Strong {tf} trend (ADX {adx.iat[k]:.0f}) pulled back to the 20 EMA and turned back {'up' if up else 'down'}", close_t))
+        last_day = d
+    return out
+
+
+def rsi2(ctx: Context, tf="1h", lo=10, hi=90, sl_atr=2.0, tp_mult=None, cap=None) -> list[Setup]:
+    """Connors RSI(2): in an uptrend (close > 200 EMA) buy when RSI(2) < lo; in a downtrend sell when RSI(2) > hi.
+    Exit when price closes back through the 5-period average (or at tp_mult x stop if set). Stop sl_atr x ATR."""
+    b, pos = _bars(ctx, tf)
+    c = b["close"]
+    r2, e200, s5, at = _rsi(c, 2), c.ewm(span=200, adjust=False).mean(), c.rolling(5).mean(), _atr_s(b)
+    out, k = [], 201
+    cv = c.values
+    while k < len(b):
+        t = b.index[k]
+        side = None
+        if cv[k] > e200.iat[k] and r2.iat[k] < lo:
+            side = "BUY"
+        elif cv[k] < e200.iat[k] and r2.iat[k] > hi:
+            side = "SELL"
+        if not side or not _uk_ok_t(t):
+            k += 1; continue
+        sl = sl_atr * at.iat[k]
+        if cap and sl + COST > cap:
+            k += 1; continue
+        e = k + 1
+        while e < len(b) and ((side == "BUY" and cv[e] <= s5.iat[e]) or (side == "SELL" and cv[e] >= s5.iat[e])):
+            e += 1
+        exit_t = b.index[e] if e < len(b) else t + timedelta(days=10)
+        stop, tgt = _bracket(side, cv[k], sl, tp_mult or 50)
+        out.append(_mk(ctx, pos[k], side, cv[k], stop, tgt, "rsi2",
+                       f"Sharp {'dip' if side == 'BUY' else 'rally'} (RSI(2) {r2.iat[k]:.0f}) against the {tf} trend: fade it back to the 5-bar average", exit_t))
+        k = e
+    return out
+
+
+def bbfade(ctx: Context, tf="15min", dev=2.0, adx_max=20, sl_atr=1.5, cap=None) -> list[Setup]:
+    """Quiet-market fade: ADX(14) < adx_max, a candle closes back inside the Bollinger band after poking outside
+    -> trade back to the middle band (20 SMA). Stop sl_atr x ATR beyond. Out by 20:00 UK."""
+    b, pos = _bars(ctx, tf)
+    c, h, l = b["close"], b["high"].values, b["low"].values
+    mid, sd = c.rolling(20).mean(), c.rolling(20).std()
+    upb, lob = mid + dev * sd, mid - dev * sd
+    adx, _, _ = _adx(b)
+    at = _atr_s(b)
+    cv = c.values
+    out, busy = [], None
+    for k in range(40, len(b)):
+        t = b.index[k]
+        if busy is not None and t < busy:
+            continue
+        if not _uk_ok_t(t) or np.isnan(adx.iat[k]) or adx.iat[k] > adx_max:
+            continue
+        side = None
+        if h[k - 1] > upb.iat[k - 1] and cv[k] < upb.iat[k]:
+            side = "SELL"
+        elif l[k - 1] < lob.iat[k - 1] and cv[k] > lob.iat[k]:
+            side = "BUY"
+        if not side:
+            continue
+        ext = max(h[k - 1], h[k]) if side == "SELL" else min(l[k - 1], l[k])
+        stop = ext + sl_atr * at.iat[k] if side == "SELL" else ext - sl_atr * at.iat[k]
+        risk = abs(cv[k] - stop)
+        tgt = mid.iat[k]
+        if risk <= 0 or (cap and risk + COST > cap) or (side == "SELL" and tgt >= cv[k]) or (side == "BUY" and tgt <= cv[k]):
+            continue
+        d = t.tz_convert(UK).date()
+        close_t = pd.Timestamp.combine(d, time(20, 0)).tz_localize(UK).tz_convert(ET)
+        out.append(_mk(ctx, pos[k], side, cv[k], stop, tgt, "bbfade",
+                       f"Quiet market (ADX {adx.iat[k]:.0f}); price rejected the {'upper' if side == 'SELL' else 'lower'} Bollinger band, target the middle", close_t))
+        busy = t + timedelta(hours=2)
+    return out
+
+
+def session(ctx: Context, enter_uk=1300, exit_uk=2000, side="SELL", sl_usd=15.0, cap=None) -> list[Setup]:
+    """Time-of-day drift: every weekday take `side` at enter_uk, close at exit_uk. Fixed $ stop."""
+    if cap and sl_usd + COST > cap:
+        return []
+    mins, dates = _uk(ctx)
+    c = ctx.df["close"].values
+    em = enter_uk // 100 * 60 + enter_uk % 100
+    out = []
+    for a, b2 in _day_slices(ctx):
+        hit = np.flatnonzero(mins[a:b2] == em - 5)
+        if not len(hit):
+            continue
+        q = a + hit[0]
+        stop, tgt = _bracket(side, c[q], sl_usd, 50)
+        out.append(_mk(ctx, q, side, c[q], stop, tgt, "session",
+                       f"Gold's time-of-day drift: {side.lower()} {enter_uk // 100:02d}:{enter_uk % 100:02d} → {exit_uk // 100:02d}:{exit_uk % 100:02d} UK",
+                       _at(ctx, q, exit_uk)))
+    return out
+
+
+STRATEGIES.update(holygrail=holygrail, rsi2=rsi2, bbfade=bbfade, session=session)
+GRIDS.update(
+    holygrail=[dict(tf=tf, adx_min=a, sl_atr=s, tp_mult=t) for tf in ("15min", "30min", "1h") for a in (25, 30)
+               for s in (1.0, 1.5) for t in (1.0, 1.5, 2.0)],
+    rsi2=[dict(tf=tf, lo=lo, hi=100 - lo, sl_atr=s, tp_mult=t) for tf in ("30min", "1h") for lo in (5, 10, 20)
+          for s in (1.5, 2.5) for t in (None, 1.0)],
+    bbfade=[dict(tf=tf, dev=d, adx_max=a, sl_atr=s) for tf in ("15min", "30min") for d in (2.0, 2.5)
+            for a in (20, 25) for s in (0.5, 1.0)],
+    session=[dict(enter_uk=e, exit_uk=x, side=sd, sl_usd=sl) for e, x in ((700, 1200), (800, 1330), (1300, 1600),
+             (1330, 2000), (1500, 2000), (1600, 2100)) for sd in ("BUY", "SELL") for sl in (10, 20)],
+)

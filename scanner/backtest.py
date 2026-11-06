@@ -96,7 +96,7 @@ def main():
             for acct in ACCOUNTS:
                 cap = cap_for(acct)
                 key = (name, json.dumps(params, sort_keys=True), cap)
-                if name in ("pdbreak", "compress", "cci") and params["sl_usd"] + COST > cap:
+                if name in ("pdbreak", "compress", "cci", "session") and params["sl_usd"] + COST > cap:
                     continue
                 t = run(ctx, name, params, cap)
                 ins = t[t.confirm_time < OOS_START] if len(t) else t
