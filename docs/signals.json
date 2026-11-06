@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T14:40:20.361415-05:00",
+ "updated": "2026-11-06T14:45:20.366314-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.100098,
-   "feed": "real-time gold (PAXG, matched to spot +8.10)",
-   "time": "2026-11-06T14:35:00-05:00"
+   "price": 4065.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.58)",
+   "time": "2026-11-06T14:40:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Gears Of War: E-Day Is Bringing Back Legacy Maps, Modes And Skins For Season 2 - Pure Xbox",
     "U.S. sanctions relatives of Cuban military business leaders - upi",
-    "Why transportation is critical to rebuilding countries after war and terrorism - USC Price School",
-    "EU Advances Sanctions Plan Against Smugglers - The European Times"
+    "Ukraine war latest: Komyshuvakha search operation enters 5th day as death toll rises to 53 - The Kyiv Independent"
    ]
   },
   "today": [
