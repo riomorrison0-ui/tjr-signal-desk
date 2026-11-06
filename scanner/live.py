@@ -219,6 +219,124 @@ def gbpusd() -> float:
         return 1.30
 
 
+PIP = 0.10   # gold pip on MT5 (XAUUSD): $0.10 move = 1 pip
+
+
+def _pips(d):
+    if d.get("exit_price") is None:
+        return 0.0
+    move = (d["exit_price"] - d["entry"]) if d["side"] == "BUY" else (d["entry"] - d["exit_price"])
+    return move / PIP
+
+
+def rsi2_diag(df, cfg, day):
+    """Why were there no calls? Look at today's 30m candles (07:00-20:00 UK) the way the strategy does."""
+    import strategies as S
+    p = cfg.get("strategy_params", {})
+    try:
+        ctx = Context(df, "XAUUSD")
+        b, _ = S._bars(ctx, p.get("tf", "30min"))
+        c = b["close"]; r2 = S._rsi(c, 2); e200 = c.ewm(span=200, adjust=False).mean()
+        uk = b.index.tz_convert(UK)
+        m = (uk.date == day) & (uk.hour >= 7) & (uk.hour < 20)
+        if not m.any():
+            return "No 30-minute candles in the trading window today."
+        up = (c > e200)[m]
+        trend = "up" if up.mean() > 0.66 else "down" if up.mean() < 0.34 else "mixed (flipping above/below the 200 EMA)"
+        lo_up = r2[m][up].min() if up.any() else None
+        hi_dn = r2[m][~up].max() if (~up).any() else None
+        parts = [f"30m trend was <b>{trend}</b>."]
+        if lo_up is not None:
+            parts.append(f"In the uptrend the deepest dip was RSI(2) {lo_up:.0f} (needs below {p.get('lo', 20)}).")
+        if hi_dn is not None:
+            parts.append(f"In the downtrend the strongest rally was RSI(2) {hi_dn:.0f} (needs above {p.get('hi', 80)}).")
+        if (lo_up is not None and lo_up < p.get("lo", 20)) or (hi_dn is not None and hi_dn > p.get("hi", 80)):
+            parts.append("The trigger was touched, but the setup was filtered out (red-folder news window, or a stop wider than 2% allows), "
+                         "or it came while a trade was already open.")
+        return " ".join(parts)
+    except Exception as e:  # noqa: BLE001
+        return f"(diagnostics unavailable: {e})"
+
+
+def daily_summary(state, cfg, df, now, account, max_risk_pct):
+    ukd = now.tz_convert(UK).date()
+    sig = list(state["signals"].values())
+    def uk_day(t):
+        return pd.Timestamp(t).tz_convert(UK).date() if t else None
+    called = [d for d in sig if uk_day(d["confirm_time"]) == ukd and d["status"] != "skipped" and not str(d.get("id", "")).startswith("demo")]
+    closed_today = [d for d in sig if d["status"] in ("win", "loss") and uk_day(d.get("exit_time")) == ukd]
+    skipped = [d for d in sig if uk_day(d["confirm_time"]) == ukd and d["status"] == "skipped"]
+    still_open = [d for d in sig if d["status"] in ("open", "pending")]
+    done_all = sorted([d for d in sig if d["status"] in ("win", "loss")], key=lambda x: x["exit_time"])
+    st = stats(done_all, account, state.get("balance_adjust"))
+    bal = st["balance"]
+
+    def kind(d):
+        n = " ".join(d.get("notes", []))
+        if "closed at" in n:
+            return "close"
+        return "tp" if d["status"] == "win" else "sl"
+    tp = [d for d in closed_today if kind(d) == "tp"]
+    sl = [d for d in closed_today if kind(d) == "sl"]
+    cl = [d for d in closed_today if kind(d) == "close"]
+    pips = [_pips(d) for d in closed_today]
+    gained = sum(x for x in pips if x > 0); lost = -sum(x for x in pips if x < 0)
+    gbp = sum(pnl_gbp(d) for d in closed_today)
+
+    def period(start):
+        ds = [d for d in done_all if pd.Timestamp(d["exit_time"]).tz_convert(UK).date() >= start]
+        return sum(pnl_gbp(d) for d in ds), sum(_pips(d) for d in ds), len(ds)
+    wk = period(ukd - timedelta(days=ukd.weekday()))
+    mo = period(ukd.replace(day=1))
+
+    L = [f"🌙 <b>DAILY WRAP — {pd.Timestamp(ukd):%A %d %b}</b>", ""]
+    if not called and not closed_today:
+        L += ["📭 <b>No trades today.</b>", "<b>Why:</b> " + rsi2_diag(df, cfg, ukd),
+              "No A+ setup = no trade. Sitting out is part of the strategy."]
+        if skipped:
+            L.append(f"⏭ {len(skipped)} setup(s) skipped: " + "; ".join(" ".join(d.get('notes', [])) for d in skipped))
+    else:
+        L += [f"📊 <b>Calls today: {len(called)}</b>  ·  closed today: {len(closed_today)}", ""]
+        for d in sorted(closed_today, key=lambda x: x["exit_time"]):
+            k = kind(d); pp = _pips(d); g = pnl_gbp(d)
+            tag = {"tp": "💰 TP HIT", "sl": "❌ SL HIT", "close": "🚪 CLOSED EARLY"}[k]
+            L.append(f"{tag} · {d['side']} @ {d['entry']:,.2f} → {d['exit_price']:,.2f} · {d.get('lots', LOT):.2f} lots · "
+                     f"{pp:+.0f} pips · {'+' if g >= 0 else '-'}£{abs(g):,.2f}")
+        for d in still_open:
+            L.append(f"⏳ STILL OPEN · {d['side']} @ {d['entry']:,.2f} · TP {d['target']:,.2f} · SL {d['stop']:,.2f} · {d.get('lots', LOT):.2f} lots")
+        for d in skipped:
+            L.append(f"⏭ SKIPPED · {d['side']} · {' '.join(d.get('notes', []))}")
+        L += ["",
+              f"✅ Take profits hit: <b>{len(tp)}</b>   ❌ Stop losses hit: <b>{len(sl)}</b>   🚪 Closed early: <b>{len(cl)}</b>",
+              f"📈 Pips gained: <b>+{gained:,.0f}</b>   📉 Pips lost: <b>−{lost:,.0f}</b>",
+              f"🧮 <b>Net: {gained - lost:+,.0f} pips · {'+' if gbp >= 0 else '-'}£{abs(gbp):,.2f}</b>"]
+        if (gained - lost) * gbp < 0:
+            L.append("<i>Pips and £ point different ways because each trade's lot size is set by its stop (2% risk): "
+                     "tight-stop trades use bigger lots, wide-stop trades smaller ones.</i>")
+        L.append("")
+        good, bad = [], []
+        if tp:
+            good.append(f"{len(tp)} trade(s) ran all the way to target: the dip/rally snapped back as the strategy expects.")
+        if cl:
+            w = [d for d in cl if pnl_gbp(d) > 0]
+            if w:
+                good.append(f"{len(w)} early exit(s) banked profit when price returned to its average.")
+            if len(w) < len(cl):
+                bad.append(f"{len(cl) - len(w)} early exit(s) closed slightly red: price reverted without making progress.")
+        if sl:
+            bad.append(f"{len(sl)} stop(s) hit: the move kept going instead of snapping back (trend push or news).")
+        if not good and not bad:
+            good.append("No trades closed yet today.")
+        L += ["<b>What went well:</b> " + (" ".join(good) or "Nothing closed in profit today."),
+              "<b>What went wrong:</b> " + (" ".join(bad) or "Nothing. No losing trades today.")]
+    L += ["",
+          f"💷 <b>Balance: £{bal:,.2f}</b>  ({'+' if bal >= account else ''}{(bal / account - 1) * 100:.1f}% since start) · next trade risks 2% = £{bal * max_risk_pct / 100:,.2f}",
+          f"📅 Week: {'+' if wk[0] >= 0 else '-'}£{abs(wk[0]):,.2f} ({wk[1]:+,.0f} pips, {wk[2]} trades) · "
+          f"Month: {'+' if mo[0] >= 0 else '-'}£{abs(mo[0]):,.2f} ({mo[1]:+,.0f} pips, {mo[2]} trades)",
+          f"<i>Strategy unchanged: {STRATEGY_NAMES.get(cfg.get('strategy'), cfg.get('strategy'))}, 2% risk, same rules every scan. 1 pip = $0.10.</i>"]
+    return "\n".join(L)
+
+
 def folder_msg(nws: dict, now: pd.Timestamp) -> str:
     ev = nws.get("today", [])
     ukd = now.tz_convert(UK)
@@ -348,6 +466,8 @@ def scan_once(state, cfg, mode="scan"):
         elif kind == "status":
             tg(briefs.status_msg(account, max_risk_pct, cap, label, now, open_n, st,
                                  strategy=STRATEGY_NAMES.get(cfg.get("strategy"), cfg.get("strategy"))))
+        elif kind == "wrap":
+            tg(daily_summary(state, cfg, df, now, account, max_risk_pct))
         elif kind == "test" and mmap:
             px = mmap["price"]; sl = 28.0
             demo = dict(side="BUY", entry=px, stop=px - sl, target=px + sl, rr=1.0, strategy=cfg.get("strategy"),
@@ -376,14 +496,15 @@ def scan_once(state, cfg, mode="scan"):
                 tg(f"💷 Current balance (as I track it): <b>£{st['balance']:,.2f}</b>. To correct it send e.g. /balance 2150")
             continue
         send({"/price": "price", "/levels": "levels", "/map": "levels", "/news": "news", "/folders": "folders",
-              "/status": "status", "/test": "test", "/start": "status"}.get(head, "status"))
+              "/status": "status", "/test": "test", "/start": "status", "/summary": "wrap", "/wrap": "wrap"}.get(head, "status"))
 
     # automatic briefs, Mon-Fri (UK time)
     ukt = now.tz_convert(UK)
     if ukt.dayofweek < 5:
         for key, hh, mm, kinds, title in (("folders", 8, 30, ("folders",), None),
                                           ("london", 6, 45, ("price", "levels"), "London session brief"),
-                                          ("ny", 13, 15, ("price", "levels", "news"), "New York session brief")):
+                                          ("ny", 13, 15, ("price", "levels", "news"), "New York session brief"),
+                                          ("wrap", 22, 0, ("wrap",), None)):
             k = f"brief_{key}"
             if state.get(k) != str(ukt.date()) and (ukt.hour, ukt.minute) >= (hh, mm) and ukt.hour < hh + 2:
                 if title:
