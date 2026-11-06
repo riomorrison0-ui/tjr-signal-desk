@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T10:10:20.000699-05:00",
- "params": "pdbreak {\"sl_usd\": 5, \"tp_mult\": 2.0, \"hold_days\": 1, \"window_end_uk\": 17}",
+ "updated": "2026-11-06T10:35:57.273755-05:00",
+ "params": "cci {\"level\": 350, \"sl_usd\": 20, \"tp_mult\": 2.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4052.199951,
-   "feed": "real-time gold (PAXG, matched to spot +12.90)",
-   "time": "2026-11-06T10:05:00-05:00"
+   "price": 4047.5,
+   "feed": "real-time gold (PAXG, matched to spot +9.83)",
+   "time": "2026-11-06T10:30:00-05:00"
   }
  },
  "stats": {
@@ -14,8 +14,8 @@
   "win_rate": null,
   "total_r": 0,
   "avg_r": null,
-  "balance": 200.0,
-  "start_balance": 200.0,
+  "balance": 1000.0,
+  "start_balance": 1000.0,
   "curve": []
  },
  "news": {
@@ -23,11 +23,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Iran war spurs crackdown on clerics in tiny Gulf state Bahrain - The Times of Israel",
-    "Guyana Welcomes US Sanctions Over Fraudulent Ship Registry - Caribbean Today",
-    "Who\u2019s on the Russia Sanctions List? People, Banks, and Companies Explained - UNITED24 Media"
+    "Layla Moran vows to pursue accountability, sanctions on Israel - The New Arab",
+    "The Iran War Isn't Over, but Oil Traders Are Already Pricing In Peace - Crude Oil Prices Today | OilPrice.com",
+    "Trump, Qatar\u2019s Emir Discuss De-Escalation as Saudi Strike Yemen - La Voce di New York"
    ]
   },
   "today": [
@@ -116,25 +116,590 @@
   "ok_headlines": true
  },
  "account": {
-  "gbp": 200.0,
+  "gbp": 1000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 5.34,
-  "gbpusd": 1.33588
+  "stop_cap_usd": 26.75,
+  "gbpusd": 1.33738
  },
  "backtest": {
-  "generated": "2026-11-06T14:16:48.514481+00:00",
+  "generated": "2026-11-06T15:33:08.076618+00:00",
   "feed": "binance_paxg",
-  "first": "2021-12-31",
+  "first": "2020-08-28",
   "last": "2026-11-05",
   "oos_start": "2025-01-01",
-  "account_gbp": 200.0,
-  "stop_cap_usd": 5.2,
-  "combos": 180,
-  "best_expectancy": null,
-  "best_win_rate": null,
-  "cross_check_yahoo_60d": {},
-  "runtime_s": 872
+  "combos": 84,
+  "picks": {
+   "500": {
+    "strategy": "cci",
+    "params": {
+     "level": 300,
+     "sl_usd": 8,
+     "tp_mult": 3.0
+    },
+    "account": 500,
+    "cap": 13.0,
+    "all": {
+     "n": 160,
+     "win_rate": 34.4,
+     "avg_r": 0.139,
+     "total_r": 22.2,
+     "pf": 1.22,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 136.81,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.2,
+     "avg_risk_pct": 1.28
+    },
+    "ins": {
+     "n": 121,
+     "win_rate": 37.2,
+     "avg_r": 0.211,
+     "total_r": 25.6,
+     "pf": 1.36,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 157.68,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.4,
+     "avg_risk_pct": 1.28
+    },
+    "oos": {
+     "n": 39,
+     "win_rate": 25.6,
+     "avg_r": -0.087,
+     "total_r": -3.4,
+     "pf": 0.89,
+     "max_dd_r": 7.3,
+     "streak": 7,
+     "pnl_gbp": -20.87,
+     "max_dd_gbp": 44.69,
+     "per_month": 2.0,
+     "avg_risk_pct": 1.28
+    },
+    "years": {
+     "2020": {
+      "n": 11,
+      "win_rate": 27.3,
+      "avg_r": 0.111,
+      "total_r": 1.2,
+      "pf": 1.16,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 7.52,
+      "max_dd_gbp": 19.15,
+      "per_month": 3.5,
+      "avg_risk_pct": 1.28
+     },
+     "2021": {
+      "n": 28,
+      "win_rate": 46.4,
+      "avg_r": 0.293,
+      "total_r": 8.2,
+      "pf": 1.53,
+      "max_dd_r": 4.3,
+      "streak": 4,
+      "pnl_gbp": 50.62,
+      "max_dd_gbp": 26.46,
+      "per_month": 2.5,
+      "avg_risk_pct": 1.28
+     },
+     "2022": {
+      "n": 32,
+      "win_rate": 43.8,
+      "avg_r": 0.552,
+      "total_r": 17.7,
+      "pf": 2.17,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 108.77,
+      "max_dd_gbp": 19.15,
+      "per_month": 2.8,
+      "avg_risk_pct": 1.28
+     },
+     "2023": {
+      "n": 30,
+      "win_rate": 30.0,
+      "avg_r": -0.063,
+      "total_r": -1.9,
+      "pf": 0.9,
+      "max_dd_r": 13.4,
+      "streak": 8,
+      "pnl_gbp": -11.54,
+      "max_dd_gbp": 82.46,
+      "per_month": 2.9,
+      "avg_risk_pct": 1.28
+     },
+     "2024": {
+      "n": 20,
+      "win_rate": 30.0,
+      "avg_r": 0.018,
+      "total_r": 0.4,
+      "pf": 1.03,
+      "max_dd_r": 4.8,
+      "streak": 5,
+      "pnl_gbp": 2.31,
+      "max_dd_gbp": 29.46,
+      "per_month": 1.8,
+      "avg_risk_pct": 1.28
+     },
+     "2025": {
+      "n": 18,
+      "win_rate": 33.3,
+      "avg_r": 0.133,
+      "total_r": 2.4,
+      "pf": 1.19,
+      "max_dd_r": 5.2,
+      "streak": 5,
+      "pnl_gbp": 14.75,
+      "max_dd_gbp": 31.92,
+      "per_month": 2.3,
+      "avg_risk_pct": 1.28
+     },
+     "2026": {
+      "n": 21,
+      "win_rate": 19.0,
+      "avg_r": -0.276,
+      "total_r": -5.8,
+      "pf": 0.67,
+      "max_dd_r": 7.3,
+      "streak": 7,
+      "pnl_gbp": -35.62,
+      "max_dd_gbp": 44.69,
+      "per_month": 2.1,
+      "avg_risk_pct": 1.28
+     }
+    }
+   },
+   "500_cci": {
+    "strategy": "cci",
+    "params": {
+     "level": 300,
+     "sl_usd": 8,
+     "tp_mult": 3.0
+    },
+    "account": 500,
+    "cap": 13.0,
+    "all": {
+     "n": 160,
+     "win_rate": 34.4,
+     "avg_r": 0.139,
+     "total_r": 22.2,
+     "pf": 1.22,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 136.81,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.2,
+     "avg_risk_pct": 1.28
+    },
+    "ins": {
+     "n": 121,
+     "win_rate": 37.2,
+     "avg_r": 0.211,
+     "total_r": 25.6,
+     "pf": 1.36,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 157.68,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.4,
+     "avg_risk_pct": 1.28
+    },
+    "oos": {
+     "n": 39,
+     "win_rate": 25.6,
+     "avg_r": -0.087,
+     "total_r": -3.4,
+     "pf": 0.89,
+     "max_dd_r": 7.3,
+     "streak": 7,
+     "pnl_gbp": -20.87,
+     "max_dd_gbp": 44.69,
+     "per_month": 2.0,
+     "avg_risk_pct": 1.28
+    },
+    "years": {
+     "2020": {
+      "n": 11,
+      "win_rate": 27.3,
+      "avg_r": 0.111,
+      "total_r": 1.2,
+      "pf": 1.16,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 7.52,
+      "max_dd_gbp": 19.15,
+      "per_month": 3.5,
+      "avg_risk_pct": 1.28
+     },
+     "2021": {
+      "n": 28,
+      "win_rate": 46.4,
+      "avg_r": 0.293,
+      "total_r": 8.2,
+      "pf": 1.53,
+      "max_dd_r": 4.3,
+      "streak": 4,
+      "pnl_gbp": 50.62,
+      "max_dd_gbp": 26.46,
+      "per_month": 2.5,
+      "avg_risk_pct": 1.28
+     },
+     "2022": {
+      "n": 32,
+      "win_rate": 43.8,
+      "avg_r": 0.552,
+      "total_r": 17.7,
+      "pf": 2.17,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 108.77,
+      "max_dd_gbp": 19.15,
+      "per_month": 2.8,
+      "avg_risk_pct": 1.28
+     },
+     "2023": {
+      "n": 30,
+      "win_rate": 30.0,
+      "avg_r": -0.063,
+      "total_r": -1.9,
+      "pf": 0.9,
+      "max_dd_r": 13.4,
+      "streak": 8,
+      "pnl_gbp": -11.54,
+      "max_dd_gbp": 82.46,
+      "per_month": 2.9,
+      "avg_risk_pct": 1.28
+     },
+     "2024": {
+      "n": 20,
+      "win_rate": 30.0,
+      "avg_r": 0.018,
+      "total_r": 0.4,
+      "pf": 1.03,
+      "max_dd_r": 4.8,
+      "streak": 5,
+      "pnl_gbp": 2.31,
+      "max_dd_gbp": 29.46,
+      "per_month": 1.8,
+      "avg_risk_pct": 1.28
+     },
+     "2025": {
+      "n": 18,
+      "win_rate": 33.3,
+      "avg_r": 0.133,
+      "total_r": 2.4,
+      "pf": 1.19,
+      "max_dd_r": 5.2,
+      "streak": 5,
+      "pnl_gbp": 14.75,
+      "max_dd_gbp": 31.92,
+      "per_month": 2.3,
+      "avg_risk_pct": 1.28
+     },
+     "2026": {
+      "n": 21,
+      "win_rate": 19.0,
+      "avg_r": -0.276,
+      "total_r": -5.8,
+      "pf": 0.67,
+      "max_dd_r": 7.3,
+      "streak": 7,
+      "pnl_gbp": -35.62,
+      "max_dd_gbp": 44.69,
+      "per_month": 2.1,
+      "avg_risk_pct": 1.28
+     }
+    }
+   },
+   "1000": {
+    "strategy": "cci",
+    "params": {
+     "level": 300,
+     "sl_usd": 8,
+     "tp_mult": 3.0
+    },
+    "account": 1000,
+    "cap": 26.0,
+    "all": {
+     "n": 160,
+     "win_rate": 34.4,
+     "avg_r": 0.139,
+     "total_r": 22.2,
+     "pf": 1.22,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 136.81,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.2,
+     "avg_risk_pct": 0.64
+    },
+    "ins": {
+     "n": 121,
+     "win_rate": 37.2,
+     "avg_r": 0.211,
+     "total_r": 25.6,
+     "pf": 1.36,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 157.68,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.4,
+     "avg_risk_pct": 0.64
+    },
+    "oos": {
+     "n": 39,
+     "win_rate": 25.6,
+     "avg_r": -0.087,
+     "total_r": -3.4,
+     "pf": 0.89,
+     "max_dd_r": 7.3,
+     "streak": 7,
+     "pnl_gbp": -20.87,
+     "max_dd_gbp": 44.69,
+     "per_month": 2.0,
+     "avg_risk_pct": 0.64
+    },
+    "years": {
+     "2020": {
+      "n": 11,
+      "win_rate": 27.3,
+      "avg_r": 0.111,
+      "total_r": 1.2,
+      "pf": 1.16,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 7.52,
+      "max_dd_gbp": 19.15,
+      "per_month": 3.5,
+      "avg_risk_pct": 0.64
+     },
+     "2021": {
+      "n": 28,
+      "win_rate": 46.4,
+      "avg_r": 0.293,
+      "total_r": 8.2,
+      "pf": 1.53,
+      "max_dd_r": 4.3,
+      "streak": 4,
+      "pnl_gbp": 50.62,
+      "max_dd_gbp": 26.46,
+      "per_month": 2.5,
+      "avg_risk_pct": 0.64
+     },
+     "2022": {
+      "n": 32,
+      "win_rate": 43.8,
+      "avg_r": 0.552,
+      "total_r": 17.7,
+      "pf": 2.17,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 108.77,
+      "max_dd_gbp": 19.15,
+      "per_month": 2.8,
+      "avg_risk_pct": 0.64
+     },
+     "2023": {
+      "n": 30,
+      "win_rate": 30.0,
+      "avg_r": -0.063,
+      "total_r": -1.9,
+      "pf": 0.9,
+      "max_dd_r": 13.4,
+      "streak": 8,
+      "pnl_gbp": -11.54,
+      "max_dd_gbp": 82.46,
+      "per_month": 2.9,
+      "avg_risk_pct": 0.64
+     },
+     "2024": {
+      "n": 20,
+      "win_rate": 30.0,
+      "avg_r": 0.018,
+      "total_r": 0.4,
+      "pf": 1.03,
+      "max_dd_r": 4.8,
+      "streak": 5,
+      "pnl_gbp": 2.31,
+      "max_dd_gbp": 29.46,
+      "per_month": 1.8,
+      "avg_risk_pct": 0.64
+     },
+     "2025": {
+      "n": 18,
+      "win_rate": 33.3,
+      "avg_r": 0.133,
+      "total_r": 2.4,
+      "pf": 1.19,
+      "max_dd_r": 5.2,
+      "streak": 5,
+      "pnl_gbp": 14.75,
+      "max_dd_gbp": 31.92,
+      "per_month": 2.3,
+      "avg_risk_pct": 0.64
+     },
+     "2026": {
+      "n": 21,
+      "win_rate": 19.0,
+      "avg_r": -0.276,
+      "total_r": -5.8,
+      "pf": 0.67,
+      "max_dd_r": 7.3,
+      "streak": 7,
+      "pnl_gbp": -35.62,
+      "max_dd_gbp": 44.69,
+      "per_month": 2.1,
+      "avg_risk_pct": 0.64
+     }
+    }
+   },
+   "1000_cci": {
+    "strategy": "cci",
+    "params": {
+     "level": 300,
+     "sl_usd": 8,
+     "tp_mult": 3.0
+    },
+    "account": 1000,
+    "cap": 26.0,
+    "all": {
+     "n": 160,
+     "win_rate": 34.4,
+     "avg_r": 0.139,
+     "total_r": 22.2,
+     "pf": 1.22,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 136.81,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.2,
+     "avg_risk_pct": 0.64
+    },
+    "ins": {
+     "n": 121,
+     "win_rate": 37.2,
+     "avg_r": 0.211,
+     "total_r": 25.6,
+     "pf": 1.36,
+     "max_dd_r": 13.4,
+     "streak": 8,
+     "pnl_gbp": 157.68,
+     "max_dd_gbp": 82.46,
+     "per_month": 2.4,
+     "avg_risk_pct": 0.64
+    },
+    "oos": {
+     "n": 39,
+     "win_rate": 25.6,
+     "avg_r": -0.087,
+     "total_r": -3.4,
+     "pf": 0.89,
+     "max_dd_r": 7.3,
+     "streak": 7,
+     "pnl_gbp": -20.87,
+     "max_dd_gbp": 44.69,
+     "per_month": 2.0,
+     "avg_risk_pct": 0.64
+    },
+    "years": {
+     "2020": {
+      "n": 11,
+      "win_rate": 27.3,
+      "avg_r": 0.111,
+      "total_r": 1.2,
+      "pf": 1.16,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 7.52,
+      "max_dd_gbp": 19.15,
+      "per_month": 3.5,
+      "avg_risk_pct": 0.64
+     },
+     "2021": {
+      "n": 28,
+      "win_rate": 46.4,
+      "avg_r": 0.293,
+      "total_r": 8.2,
+      "pf": 1.53,
+      "max_dd_r": 4.3,
+      "streak": 4,
+      "pnl_gbp": 50.62,
+      "max_dd_gbp": 26.46,
+      "per_month": 2.5,
+      "avg_risk_pct": 0.64
+     },
+     "2022": {
+      "n": 32,
+      "win_rate": 43.8,
+      "avg_r": 0.552,
+      "total_r": 17.7,
+      "pf": 2.17,
+      "max_dd_r": 3.1,
+      "streak": 3,
+      "pnl_gbp": 108.77,
+      "max_dd_gbp": 19.15,
+      "per_month": 2.8,
+      "avg_risk_pct": 0.64
+     },
+     "2023": {
+      "n": 30,
+      "win_rate": 30.0,
+      "avg_r": -0.063,
+      "total_r": -1.9,
+      "pf": 0.9,
+      "max_dd_r": 13.4,
+      "streak": 8,
+      "pnl_gbp": -11.54,
+      "max_dd_gbp": 82.46,
+      "per_month": 2.9,
+      "avg_risk_pct": 0.64
+     },
+     "2024": {
+      "n": 20,
+      "win_rate": 30.0,
+      "avg_r": 0.018,
+      "total_r": 0.4,
+      "pf": 1.03,
+      "max_dd_r": 4.8,
+      "streak": 5,
+      "pnl_gbp": 2.31,
+      "max_dd_gbp": 29.46,
+      "per_month": 1.8,
+      "avg_risk_pct": 0.64
+     },
+     "2025": {
+      "n": 18,
+      "win_rate": 33.3,
+      "avg_r": 0.133,
+      "total_r": 2.4,
+      "pf": 1.19,
+      "max_dd_r": 5.2,
+      "streak": 5,
+      "pnl_gbp": 14.75,
+      "max_dd_gbp": 31.92,
+      "per_month": 2.3,
+      "avg_risk_pct": 0.64
+     },
+     "2026": {
+      "n": 21,
+      "win_rate": 19.0,
+      "avg_r": -0.276,
+      "total_r": -5.8,
+      "pf": 0.67,
+      "max_dd_r": 7.3,
+      "streak": 7,
+      "pnl_gbp": -35.62,
+      "max_dd_gbp": 44.69,
+      "per_month": 2.1,
+      "avg_risk_pct": 0.64
+     }
+    }
+   }
+  },
+  "runtime_s": 85
  },
  "signals": []
 }
