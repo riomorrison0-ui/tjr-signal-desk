@@ -157,7 +157,7 @@ def channel(ctx: Context, n=96, sl_atr=2.0, tp_mult=2.0, max_per_day=2, cap=None
 
 
 # ------------------------------------------------------------------ Unger 4: CCI +/-300 (backtest only)
-def cci(ctx: Context, level=300, sl_usd=15.0, cap=None) -> list[Setup]:
+def cci(ctx: Context, level=300, sl_usd=15.0, tp_mult=None, cap=None) -> list[Setup]:
     if cap and sl_usd + COST > cap:
         return []
     h1 = ctx.df.resample("1h", label="right", closed="left").agg(
@@ -177,10 +177,12 @@ def cci(ctx: Context, level=300, sl_usd=15.0, cap=None) -> list[Setup]:
         e = k + 1
         while e < len(cc) and ((side == "BUY" and cc[e] > 0) or (side == "SELL" and cc[e] < 0)):
             e += 1
-        exit_t = t1[min(e, len(cc) - 1)]
+        # momentum exit = first 1H close where CCI is back through 0. Not happened yet (live) -> open-ended.
+        exit_t = t1[e] if e < len(cc) else t1[k] + timedelta(days=30)
         entry = h1["close"].values[k]
-        stop, tgt = _bracket(side, entry, sl_usd, 50)
-        out.append(_mk(ctx, i5[k], side, entry, stop, tgt, "cci", f"1H CCI through {'+' if side == 'BUY' else '-'}{level}", exit_t))
+        stop, tgt = _bracket(side, entry, sl_usd, tp_mult or 50)
+        why = (f"1H CCI(20) broke {'above +' if side == 'BUY' else 'below -'}{level}: explosive momentum, ride it")
+        out.append(_mk(ctx, i5[k], side, entry, stop, tgt, "cci", why, exit_t))
         k = e
     return out
 
@@ -197,7 +199,7 @@ GRIDS = dict(
              for s in (5, 8, 12, 20) for t in (1.5, 2.0, 3.0) for h in (1, 3) for w in (12, 17)],
     compress=[dict(sl_usd=s, tp_mult=t, squeeze=q) for s in (5, 8, 12, 20) for t in (1.5, 2.0, 3.0) for q in (0.7, 0.9)],
     channel=[dict(n=n, sl_atr=a, tp_mult=t) for n in (48, 96, 192) for a in (1.0, 2.0) for t in (1.5, 2.0, 3.0)],
-    cci=[dict(level=lv, sl_usd=s) for lv in (200, 300) for s in (8, 15, 25)],
+    cci=[dict(level=lv, sl_usd=s, tp_mult=t) for lv in (250, 300, 350) for s in (8, 12, 15, 20, 25) for t in (None, 1.5, 2.0, 3.0)],
     tjr=[dict(entry=e, target=t, bias=b, m15=m, accept_atr=1.5, confirm_bars=24, zones="both")
          for e in ("fvg", "market") for t in ("1.5R", "2R") for b in ("htf", "none") for m in (True, False)],
 )

@@ -9,6 +9,9 @@ on:
       oos_start:
         description: "Out-of-sample starts (yyyy-mm-dd)"
         default: "2025-01-01"
+      strats:
+        description: "Only these strategies, comma separated (blank = all)"
+        default: ""
       quick:
         description: "Only run the first N combinations (blank = all)"
         default: ""
@@ -38,6 +41,7 @@ jobs:
         env:
           OOS_START: ${{ inputs.oos_start || '2025-01-01' }}
           QUICK: ${{ inputs.quick }}
+          STRATS: ${{ inputs.strats }}
         run: python -u scanner/backtest.py
       - name: Save report
         run: |
