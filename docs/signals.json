@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T13:40:20.382870-05:00",
+ "updated": "2026-11-06T13:45:20.364175-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4068.699951,
-   "feed": "real-time gold (PAXG, matched to spot +7.82)",
-   "time": "2026-11-06T13:35:00-05:00"
+   "price": 4071.300049,
+   "feed": "real-time gold (PAXG, matched to spot +9.17)",
+   "time": "2026-11-06T13:40:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Space Force Goes to War - Air & Space Forces Magazine",
-    "AFA IN ACTION: Gulf War Air Campaign Map Featured in New Smithsonian Exhibit - Air & Space Forces Magazine",
-    "Israel\u2019s Economy Defied Three Years of War. Now the Bill Is Coming Due. - WSJ"
+    "Army, Partner Forces Begin Simulated Combat in Hawaii - U.S. Department of War (.gov)",
+    "Turkish parliament approves Mecca defense pact amid Middle East war - World Socialist Web Site",
+    "Crocker warns Democrats against cutting off Iran war funding - \u0627\u0644\u062d\u0631\u0629"
    ]
   },
   "today": [
