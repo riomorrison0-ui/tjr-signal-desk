@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T10:50:20.351501-05:00",
+ "updated": "2026-11-06T10:55:20.355682-05:00",
  "params": "cci {\"level\": 350, \"sl_usd\": 20, \"tp_mult\": 2.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4052.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.66)",
-   "time": "2026-11-06T10:45:00-05:00"
+   "price": 4054.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.91)",
+   "time": "2026-11-06T10:50:00-05:00"
   }
  },
  "stats": {
@@ -23,11 +23,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Layla Moran vows to pursue accountability, sanctions on Israel - The New Arab",
-    "The Iran War Isn't Over, but Oil Traders Are Already Pricing In Peace - Crude Oil Prices Today | OilPrice.com",
-    "Trump, Qatar\u2019s Emir Discuss De-Escalation as Saudi Strike Yemen - La Voce di New York"
+    "Australia sanctions El Burhan and Hemedti over Sudan war and human rights abuses - Dabanga Radio TV Online",
+    "The powerful story behind this World War statue in Wirral - The Guide Liverpool |",
+    "5 Steps That Congress Should Take To End the War in Iran - Center for American Progress"
    ]
   },
   "today": [
