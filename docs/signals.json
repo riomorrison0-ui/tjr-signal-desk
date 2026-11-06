@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T11:25:20.411612-05:00",
+ "updated": "2026-11-06T11:30:20.419845-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4062.699951,
-   "feed": "real-time gold (PAXG, matched to spot +9.93)",
-   "time": "2026-11-06T11:20:00-05:00"
+   "price": 4064.399902,
+   "feed": "real-time gold (PAXG, matched to spot +10.01)",
+   "time": "2026-11-06T11:25:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Yemeni army claims it recaptured areas in Taiz as Houthi missile kills, wounds dozens - Anadolu Ajans\u0131",
-    "EU states back one-year delay for methane rules amid Iran war - Al-Monitor",
-    "Review: New Monsters and a Post-War Mood at the Center of Godzilla Minus Zero - Third Coast Review"
+    "Satellite Analysis Reveals Iran Fast-Tracking Underground Bunkers and Rebuilding Missile Sites Amid Regional Escalation - oodaloop.com",
+    "Wynn Holds UAE Casino Date but Weighs How to Open Amid War - Skift",
+    "Ukraine war risk insurance now 10 times more than Second World War Atlantic convoys - Lloyd's List"
    ]
   },
   "today": [
