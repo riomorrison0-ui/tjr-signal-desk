@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T16:15:20.395983-05:00",
+ "updated": "2026-11-06T16:20:20.356514-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4067.100098,
-   "feed": "real-time gold (PAXG, matched to spot +9.62)",
-   "time": "2026-11-06T16:10:00-05:00"
+   "price": 4066.0,
+   "feed": "real-time gold (PAXG, matched to spot +11.23)",
+   "time": "2026-11-06T16:15:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "F-35 Jettisons Meteor Missile In Ongoing Integration Tests - Aviation Week",
-    "U.S. Treasury Announces New Sanctions on Iran - WANA News Agency",
-    "PepsiCo drags its own insurers into the ultra-processed food war - Insurance Business"
+    "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
+    "US Treasury sanctions Canadian money services firms over Iran-related transactions - Internazionale",
+    "Trump meets with national security team, says Iran war decision coming \"soon\" - Axios"
    ]
   },
   "today": [
