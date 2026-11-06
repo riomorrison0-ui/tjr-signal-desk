@@ -50,7 +50,9 @@ def chat_id(state) -> str | None:
     if not tok:
         return None
     try:
-        ups = requests.get(f"https://api.telegram.org/bot{tok}/getUpdates", timeout=15).json().get("result", [])
+        resp = requests.get(f"https://api.telegram.org/bot{tok.strip()}/getUpdates", timeout=15).json()
+        print("telegram getUpdates ok=", resp.get("ok"), "updates=", len(resp.get("result", [])), resp.get("description", ""))
+        ups = resp.get("result", [])
         for u in reversed(ups):
             m = u.get("message") or u.get("my_chat_member") or {}
             cid = (m.get("chat") or {}).get("id")
@@ -68,9 +70,11 @@ def tg(text: str):
     if not tok or not chat:
         return
     try:
-        requests.post(f"https://api.telegram.org/bot{tok}/sendMessage",
+        r = requests.post(f"https://api.telegram.org/bot{tok.strip()}/sendMessage",
                       json={"chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": True},
                       timeout=15)
+        if not r.ok:
+            print("telegram send failed", r.status_code, r.text[:200])
     except Exception as e:  # noqa: BLE001
         print("telegram failed", e)
 
