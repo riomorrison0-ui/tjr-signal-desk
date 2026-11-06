@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T15:45:20.378357-05:00",
+ "updated": "2026-11-06T15:50:20.360434-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4063.800049,
-   "feed": "real-time gold (PAXG, matched to spot +8.54)",
-   "time": "2026-11-06T15:40:00-05:00"
+   "price": 4067.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.50)",
+   "time": "2026-11-06T15:45:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "F-35 Jettisons Meteor Missile In Ongoing Integration Tests - Aviation Week",
     "U.S. Treasury Announces New Sanctions on Iran - WANA News Agency",
-    "PepsiCo drags its own insurers into the ultra-processed food war - Insurance Business",
-    "Women of Second World War to be honoured on Strictly this weekend - The Independent"
+    "PepsiCo drags its own insurers into the ultra-processed food war - Insurance Business"
    ]
   },
   "today": [
