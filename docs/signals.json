@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T12:20:20.502526-05:00",
+ "updated": "2026-11-06T12:20:56.814935-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4061.899902,
-   "feed": "real-time gold (PAXG, matched to spot +10.24)",
+   "price": 4061.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.54)",
    "time": "2026-11-06T12:15:00-05:00"
   }
  },
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Pupils from Redditch\u2019s Holyoakes School pay tribute to teacher who died in The Great War - The Redditch Standard",
-    "Major construction near Iran missile sites, satellite images show - BBC",
-    "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights - Law360"
+    "Can Starlink keep Lebanon connected in the event of another war? - The New Arab",
+    "UN says struggling to help millions fleeing Sudan war find shelter - Arab News",
+    "A Blade for the Innocent: Into the War-Torn Hutuo Region of Where Winds Meet on XBOX - XBOX Wire"
    ]
   },
   "today": [
@@ -120,7 +120,7 @@
   "max_risk_pct": 2.0,
   "lot": 0.01,
   "stop_cap_usd": 53.47,
-  "gbpusd": 1.33665
+  "gbpusd": 1.33683
  },
  "backtest": {
   "portfolio": {
