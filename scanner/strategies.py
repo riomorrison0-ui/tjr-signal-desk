@@ -157,10 +157,10 @@ def channel(ctx: Context, n=96, sl_atr=2.0, tp_mult=2.0, max_per_day=2, cap=None
 
 
 # ------------------------------------------------------------------ Unger 4: CCI +/-300 (backtest only)
-def cci(ctx: Context, level=300, sl_usd=15.0, tp_mult=None, cap=None) -> list[Setup]:
-    if cap and sl_usd + COST > cap:
+def cci(ctx: Context, level=300, sl_usd=15.0, tp_mult=None, tf="1h", sl_atr=None, cap=None) -> list[Setup]:
+    if cap and sl_usd + COST > cap and not sl_atr:
         return []
-    h1 = ctx.df.resample("1h", label="right", closed="left").agg(
+    h1 = ctx.df.resample(tf, label="right", closed="left").agg(
         {"high": "max", "low": "min", "close": "last"}).dropna()
     tp = (h1["high"] + h1["low"] + h1["close"]) / 3
     ma = tp.rolling(20).mean()
@@ -180,8 +180,13 @@ def cci(ctx: Context, level=300, sl_usd=15.0, tp_mult=None, cap=None) -> list[Se
         # momentum exit = first 1H close where CCI is back through 0. Not happened yet (live) -> open-ended.
         exit_t = t1[e] if e < len(cc) else t1[k] + timedelta(days=30)
         entry = h1["close"].values[k]
-        stop, tgt = _bracket(side, entry, sl_usd, tp_mult or 50)
-        why = (f"1H CCI(20) broke {'above +' if side == 'BUY' else 'below -'}{level}: explosive momentum, ride it")
+        sl = sl_usd
+        if sl_atr:
+            sl = sl_atr * _atr_s(h1).iat[k]
+            if cap and sl + COST > cap:
+                k = e; continue
+        stop, tgt = _bracket(side, entry, sl, tp_mult or 50)
+        why = (f"{tf.upper()} CCI(20) broke {'above +' if side == 'BUY' else 'below -'}{level}: explosive momentum, ride it")
         out.append(_mk(ctx, i5[k], side, entry, stop, tgt, "cci", why, exit_t))
         k = e
     return out
@@ -530,3 +535,74 @@ GRIDS.update(
     session=[dict(enter_uk=e, exit_uk=x, side=sd, sl_usd=sl) for e, x in ((700, 1200), (800, 1330), (1300, 1600),
              (1330, 2000), (1500, 2000), (1600, 2100)) for sd in ("BUY", "SELL") for sl in (10, 20)],
 )
+
+
+def imom(ctx: Context, from_uk=800, to_uk=1330, thresh_atr=1.0, hold_to_uk=1700, sl_atr=1.0, tp_mult=None, cap=None) -> list[Setup]:
+    """Intraday momentum: if gold moved more than thresh_atr x daily ATR between from_uk and to_uk,
+    trade the same direction at to_uk, out at hold_to_uk (or TP). Stop sl_atr x 1H ATR."""
+    d = _daily(ctx)
+    mins, dates = _uk(ctx)
+    c = ctx.df["close"].values
+    b1, _ = _bars(ctx, "1h")
+    a1 = _atr_s(b1)
+    f = from_uk // 100 * 60 + from_uk % 100
+    t = to_uk // 100 * 60 + to_uk % 100
+    out = []
+    for a, b2 in _day_slices(ctx):
+        m = mins[a:b2]
+        i0 = np.flatnonzero(m == f - 5); i1 = np.flatnonzero(m == t - 5)
+        if not len(i0) or not len(i1):
+            continue
+        q0, q1 = a + i0[0], a + i1[0]
+        dy = ctx.day[q1]
+        if dy not in d.index or np.isnan(d.at[dy, "atr20"]):
+            continue
+        move = c[q1] - c[q0]
+        if abs(move) < thresh_atr * d.at[dy, "atr20"] * 0.25:
+            continue
+        side = "BUY" if move > 0 else "SELL"
+        k = b1.index.searchsorted(ctx.df.index[q1])
+        sl = sl_atr * a1.iat[max(0, k - 1)]
+        if np.isnan(sl) or (cap and sl + COST > cap):
+            continue
+        stop, tgt = _bracket(side, c[q1], sl, tp_mult or 50)
+        out.append(_mk(ctx, q1, side, c[q1], stop, tgt, "imom",
+                       f"Strong London move ({move:+.0f} $ since {from_uk // 100:02d}:00 UK): ride it into New York", _at(ctx, q1, hold_to_uk)))
+    return out
+
+
+def nr7(ctx: Context, sl_mult=0.5, tp_mult=1.5, cap=None) -> list[Setup]:
+    """Raschke NR7: yesterday was the narrowest range of the last 7 days -> trade today's first 5m close beyond
+    yesterday's high/low (07:00-17:00 UK). Stop sl_mult x yesterday's range. Out by 20:00 UK."""
+    d = _daily(ctx)
+    nr = d["range"].rolling(7).apply(lambda x: float(x[-1] == x.min()), raw=True).shift(1)
+    c = ctx.df["close"].values
+    mins, _ = _uk(ctx)
+    out, done = [], set()
+    for i in range(1, len(c)):
+        dy = ctx.day[i]
+        if dy in done or dy not in d.index or nr.get(dy, 0) != 1 or not (7 * 60 <= mins[i] < 17 * 60):
+            continue
+        pdh, pdl, pr = d.at[dy, "pdh"], d.at[dy, "pdl"], d.at[dy, "prev_range"]
+        side = "BUY" if c[i] > pdh and c[i - 1] <= pdh else "SELL" if c[i] < pdl and c[i - 1] >= pdl else None
+        if not side:
+            continue
+        sl = sl_mult * pr
+        if cap and sl + COST > cap:
+            done.add(dy); continue
+        stop, tgt = _bracket(side, c[i], sl, tp_mult)
+        out.append(_mk(ctx, i, side, c[i], stop, tgt, "nr7", f"Yesterday was the quietest day in 7 (NR7); breakout {'up' if side == 'BUY' else 'down'}",
+                       _at(ctx, i, 2000)))
+        done.add(dy)
+    return out
+
+
+STRATEGIES.update(imom=imom, nr7=nr7)
+GRIDS.update(
+    cci_fast=[dict(tf=tf, level=lv, sl_usd=0, sl_atr=sa, tp_mult=t) for tf in ("15min", "30min") for lv in (200, 250, 300)
+              for sa in (1.0, 2.0) for t in (None, 1.5, 2.0)],
+    imom=[dict(from_uk=f, to_uk=t, thresh_atr=th, hold_to_uk=hz, sl_atr=sa, tp_mult=tp) for f, t in ((700, 1300), (800, 1330))
+          for th in (0.5, 1.0, 1.5) for hz in (1700, 2000) for sa in (1.0, 2.0) for tp in (None, 1.5)],
+    nr7=[dict(sl_mult=s, tp_mult=t) for s in (0.3, 0.5, 1.0) for t in (1.0, 1.5, 2.0)],
+)
+STRATEGIES["cci_fast"] = cci

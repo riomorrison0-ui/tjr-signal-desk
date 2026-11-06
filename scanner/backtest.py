@@ -96,7 +96,7 @@ def main():
             for acct in ACCOUNTS:
                 cap = cap_for(acct)
                 key = (name, json.dumps(params, sort_keys=True), cap)
-                if name in ("pdbreak", "compress", "cci", "session") and params["sl_usd"] + COST > cap:
+                if name in ("pdbreak", "compress", "cci", "session") and params.get("sl_usd", 0) and not params.get("sl_atr") and params["sl_usd"] + COST > cap:
                     continue
                 t = run(ctx, name, params, cap)
                 ins = t[t.confirm_time < OOS_START] if len(t) else t
@@ -147,7 +147,7 @@ def main():
     summary = dict(portfolio=port, generated=pd.Timestamp.now(tz="UTC").isoformat(), feed=src, first=str(hist.index[0].date()),
                    last=str(hist.index[-1].date()), oos_start=str(OOS_START.date()), combos=len(results),
                    picks=picks, runtime_s=round(time.time() - t0))
-    out = ROOT / "reports"; out.mkdir(exist_ok=True)
+    out = ROOT / "reports" / os.getenv("REPORT_TAG", ""); out.mkdir(parents=True, exist_ok=True)
     (out / "summary.json").write_text(json.dumps(summary, indent=1, default=str))
     (out / "backtest.json").write_text(json.dumps(results, indent=1, default=str))
 

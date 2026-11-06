@@ -15,6 +15,9 @@ on:
       accounts:
         description: "Account sizes in GBP"
         default: "200,1000,2000"
+      tag:
+        description: "Save results under reports/<tag>"
+        default: ""
       quick:
         description: "Only run the first N combinations (blank = all)"
         default: ""
@@ -45,6 +48,7 @@ jobs:
           OOS_START: ${{ inputs.oos_start || '2025-01-01' }}
           QUICK: ${{ inputs.quick }}
           STRATS: ${{ inputs.strats }}
+          REPORT_TAG: ${{ inputs.tag }}
           ACCOUNTS: ${{ inputs.accounts || '200,1000,2000' }}
         run: python -u scanner/backtest.py
       - name: Save report
@@ -53,4 +57,4 @@ jobs:
           git config user.email "gold-desk-bot@users.noreply.github.com"
           git add reports
           git commit -m "backtest $(date -u +%F)" -q || exit 0
-          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && break; sleep $((RANDOM % 20 + 5)); done
