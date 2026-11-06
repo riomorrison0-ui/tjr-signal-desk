@@ -116,8 +116,10 @@ def main():
     t0 = time.time()
     feeds = {}
     d = load_dukascopy()
+    src_file = HIST.parent / "source.txt"
+    LONG = src_file.read_text().strip() if src_file.exists() else "dukascopy_spot"
     if d is not None and len(d) > 1000:
-        feeds["dukascopy_spot"] = d
+        feeds[LONG] = d
     try:
         y = yahoo("GC=F", "5m", "60d")
         feeds["yahoo_futures_60d"] = y
@@ -125,9 +127,9 @@ def main():
         print("yahoo failed", e)
     for k, v in feeds.items():
         print(f"{k}: {len(v):,} bars {v.index[0]} -> {v.index[-1]}")
-    if "dukascopy_spot" not in feeds:
+    if LONG not in feeds:
         print("!! no long history; backtest limited to 60 days")
-    main_feed = "dukascopy_spot" if "dukascopy_spot" in feeds else "yahoo_futures_60d"
+    main_feed = LONG if LONG in feeds else "yahoo_futures_60d"
 
     ctxs = {k: Context(v, "XAUUSD") for k, v in feeds.items()}
     print(f"prepared in {time.time() - t0:.0f}s")
@@ -151,7 +153,7 @@ def main():
         a, o = ev["all"], ev["oos"]
         print(f"{p.label():70s} n={a['n']:4d} wr={a['win_rate']} avgR={a['avg_r']} | OOS n={o['n']} wr={o['win_rate']} avgR={o['avg_r']}", flush=True)
 
-    min_n = 40 if main_feed == "dukascopy_spot" else 10
+    min_n = 40 if main_feed != "yahoo_futures_60d" else 10
     elig = [r for r in results if r["params"]["max_stop_usd"] and r["ins"]["n"] >= min_n and r["ins"]["avg_r"] is not None]
     pick_exp = max(elig, key=lambda r: r["ins"]["avg_r"]) if elig else None
     pos = [r for r in elig if r["ins"]["avg_r"] > 0.05]
