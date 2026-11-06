@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T14:55:20.384181-05:00",
+ "updated": "2026-11-06T15:00:20.423766-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.47)",
-   "time": "2026-11-06T14:50:00-05:00"
+   "price": 4065.100098,
+   "feed": "real-time gold (PAXG, matched to spot +8.83)",
+   "time": "2026-11-06T14:55:00-05:00"
   }
  },
  "stats": {
@@ -23,11 +23,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Gears Of War: E-Day Is Bringing Back Legacy Maps, Modes And Skins For Season 2 - Pure Xbox",
-    "U.S. sanctions relatives of Cuban military business leaders - upi",
-    "Ukraine war latest: Komyshuvakha search operation enters 5th day as death toll rises to 53 - The Kyiv Independent"
+    "Israeli army preparing for possible resumption of war in Lebanon amid Iran tensions: Report - Anadolu Ajans\u0131",
+    "Blood, Toil, Tears, and Sweat: Miles Greenberg\u2019s WAR - Artforum",
+    "News - Playing Cards Found in Mongol Invasion Shipwreck Off Japan - Archaeology Magazine"
    ]
   },
   "today": [
