@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T09:48:28.619218-05:00",
+ "updated": "2026-11-06T09:50:20.000700-05:00",
  "params": "pdbreak {\"sl_usd\": 5, \"tp_mult\": 2.0, \"hold_days\": 1, \"window_end_uk\": 17}",
  "prices": {
   "XAUUSD": {
-   "price": 4047.300049,
-   "feed": "real-time gold (PAXG, matched to spot +19.61)",
-   "time": "2026-11-06T09:40:00-05:00"
+   "price": 4044.899902,
+   "feed": "real-time gold (PAXG, matched to spot +6.37)",
+   "time": "2026-11-06T09:45:00-05:00"
   }
  },
  "stats": {
