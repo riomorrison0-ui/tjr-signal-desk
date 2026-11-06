@@ -21,7 +21,7 @@ DESCRIPTION = (
 )
 SHORT = "Automatic gold (XAUUSD) signals, ~2 a day: entry, stop, take profit. Checks every 5-min candle, 24/5. Demo only."
 COMMANDS = [("price", "Live gold price"), ("levels", "4H/1H/daily levels map"), ("folders", "Today's news folders"),
-            ("news", "News & headline risk"), ("summary", "Today's wrap-up so far"), ("balance", "Show or set balance, e.g. /balance 2150"), ("status", "Is the bot running?")]
+            ("news", "News & headline risk"), ("status", "Is the bot running?")]
 
 CONFIRM = (
     "✅ <b>Confirmed: I send signals on my own.</b>\n\n"
