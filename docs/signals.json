@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T09:55:20.000651-05:00",
+ "updated": "2026-11-06T10:09:20.522597-05:00",
  "params": "pdbreak {\"sl_usd\": 5, \"tp_mult\": 2.0, \"hold_days\": 1, \"window_end_uk\": 17}",
  "prices": {
   "XAUUSD": {
-   "price": 4043.0,
-   "feed": "real-time gold (PAXG, matched to spot +8.10)",
-   "time": "2026-11-06T09:50:00-05:00"
+   "price": 4048.300049,
+   "feed": "real-time gold (PAXG, matched to spot +9.70)",
+   "time": "2026-11-06T10:00:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Seafarer killed in suspected missile attack on tanker in Gulf - Arab News",
-    "Key Pakistani Iran war mediators may face scrutiny after US Democrats\u2019 win - The Arab Weekly",
-    "Auction bidding war over Crawley house with potential - SussexWorld"
+    "Iran war spurs crackdown on clerics in tiny Gulf state Bahrain - The Times of Israel",
+    "Guyana Welcomes US Sanctions Over Fraudulent Ship Registry - Caribbean Today",
+    "Who\u2019s on the Russia Sanctions List? People, Banks, and Companies Explained - UNITED24 Media"
    ]
   },
   "today": [
@@ -120,7 +120,7 @@
   "max_risk_pct": 2.0,
   "lot": 0.01,
   "stop_cap_usd": 5.34,
-  "gbpusd": 1.33608
+  "gbpusd": 1.33588
  },
  "backtest": {
   "generated": "2026-11-06T14:16:48.514481+00:00",
