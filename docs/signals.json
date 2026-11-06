@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T13:25:20.371047-05:00",
+ "updated": "2026-11-06T13:30:20.380623-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4065.300049,
-   "feed": "real-time gold (PAXG, matched to spot +9.52)",
-   "time": "2026-11-06T13:20:00-05:00"
+   "price": 4065.100098,
+   "feed": "real-time gold (PAXG, matched to spot +7.45)",
+   "time": "2026-11-06T13:25:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "SATCOM AT WAR SPEED - Air & Space Forces Magazine",
-    "Identity politics may have cost the Democrats 2024, but the Iran war cost Trump 2026 - Fortune",
-    "Can Democrats stop Trump\u2019s war on Iran? - The New Arab"
+    "The Space Force Goes to War - Air & Space Forces Magazine",
+    "AFA IN ACTION: Gulf War Air Campaign Map Featured in New Smithsonian Exhibit - Air & Space Forces Magazine",
+    "Israel\u2019s Economy Defied Three Years of War. Now the Bill Is Coming Due. - WSJ"
    ]
   },
   "today": [
