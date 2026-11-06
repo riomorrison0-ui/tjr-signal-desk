@@ -40,4 +40,4 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
           SELFTEST: ${{ inputs.selftest && '1' || '' }}
-        run: python scanner/live.py
+        run: python -u scanner/live.py

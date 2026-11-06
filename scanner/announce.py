@@ -54,6 +54,8 @@ def main():
                 "It's now set as my profile photo." if state == "set" else
                 "To use it as my profile photo: open @BotFather → /setuserpic → pick @riogolddesk_bot → send this image."))
             call("sendPhoto", data={"chat_id": chat, "caption": cap, "parse_mode": "HTML"}, files={"photo": f})
+    if what == "custom":
+        call("sendMessage", json={"chat_id": chat, "text": os.environ["MESSAGE"], "parse_mode": "HTML"})
     if what in ("all", "confirm"):
         call("sendMessage", json={"chat_id": chat, "text": CONFIRM, "parse_mode": "HTML"})
 

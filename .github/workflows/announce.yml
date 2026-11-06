@@ -6,6 +6,9 @@ on:
       what:
         description: "all | profile | confirm"
         default: "all"
+      message:
+        description: "Text for what=custom"
+        default: ""
 
 jobs:
   announce:
@@ -18,4 +21,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           WHAT: ${{ inputs.what }}
+          MESSAGE: ${{ inputs.message }}
         run: python scanner/announce.py

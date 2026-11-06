@@ -348,15 +348,27 @@ def save(state, cfg, now, prices, st, nws, cap, account, max_risk_pct, fx, label
 
 
 def git_save(msg):
+    """Save the paper account on top of whatever is on GitHub now. The bot owns these two files,
+    so a soft reset onto the latest remote can never conflict."""
     if not os.getenv("GITHUB_ACTIONS"):
         return
-    cmds = [["git", "add", "data/state.json", "docs/signals.json"],
-            ["git", "-c", "user.name=gold-desk-bot", "-c", "user.email=gold-desk-bot@users.noreply.github.com", "commit", "-q", "-m", msg],
-            ["git", "pull", "-q", "--rebase", "-X", "theirs"], ["git", "push", "-q"]]
-    for c in cmds:
-        r = subprocess.run(c, cwd=ROOT, capture_output=True, text=True)
-        if r.returncode and c[1] == "commit":
-            return  # nothing to commit
+    files = ["data/state.json", "docs/signals.json"]
+    steps = [["git", "fetch", "-q", "--depth", "1", "origin", "main"],
+             ["git", "reset", "-q", "--soft", "FETCH_HEAD"],
+             ["git", "add"] + files,
+             ["git", "-c", "user.name=gold-desk-bot", "-c", "user.email=gold-desk-bot@users.noreply.github.com",
+              "commit", "-q", "-m", msg],
+             ["git", "push", "-q", "origin", "HEAD:main"]]
+    for c in steps:
+        try:
+            r = subprocess.run(c, cwd=ROOT, capture_output=True, text=True, timeout=60)
+        except subprocess.TimeoutExpired:
+            print("git timeout", c[1]); return
+        if r.returncode:
+            if c[1] == "commit" or "-c" in c and "commit" in c:
+                return  # nothing new to save
+            print("git step failed", c[1:3], r.stderr.strip()[:200]); return
+    print("saved", msg)
 
 
 def dispatch_next():
