@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T16:30:20.410144-05:00",
+ "updated": "2026-11-06T16:35:20.392507-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.82)",
-   "time": "2026-11-06T16:25:00-05:00"
+   "price": 4065.800049,
+   "feed": "real-time gold (PAXG, matched to spot +11.57)",
+   "time": "2026-11-06T16:30:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US Treasury sanctions Canadian money services firms over Iran-related transactions - Reuters",
-    "US Treasury sanctions Canadian money services firms over Iran-related transactions - Internazionale",
-    "Trump meets with national security team, says Iran war decision coming \"soon\" - Axios"
+    "Opportunity or trap? Vance's Iran war remarks divide Tehran - Iran International",
+    "Northern Iraq struggles with Kurdish political divisions and security - FDD's Long War Journal",
+    "US Treasury sanctions Canadian money services firms over Iran-related transactions - The Times of Israel"
    ]
   },
   "today": [
