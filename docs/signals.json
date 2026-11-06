@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T15:15:20.400005-05:00",
+ "updated": "2026-11-06T15:20:20.371764-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4065.600098,
-   "feed": "real-time gold (PAXG, matched to spot +8.77)",
-   "time": "2026-11-06T15:10:00-05:00"
+   "price": 4063.0,
+   "feed": "real-time gold (PAXG, matched to spot +8.35)",
+   "time": "2026-11-06T15:15:00-05:00"
   }
  },
  "stats": {
@@ -22,12 +22,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "MBDA says its 1,000 km-plus Naval Cruise Missile Mk2 will soon equip the French Navy - Defence Industry Europe",
     "Israeli army preparing for possible resumption of war in Lebanon amid Iran tensions: Report - Anadolu Ajans\u0131",
-    "Blood, Toil, Tears, and Sweat: Miles Greenberg\u2019s WAR - Artforum",
-    "News - Playing Cards Found in Mongol Invasion Shipwreck Off Japan - Archaeology Magazine"
+    "Blood, Toil, Tears, and Sweat: Miles Greenberg\u2019s WAR - Artforum"
    ]
   },
   "today": [
