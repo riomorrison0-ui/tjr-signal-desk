@@ -1,188 +1,39 @@
-# Gold (XAUUSD) TJR backtest — £200 account, 0.01 lots, max 2.0% risk (stop ≤ $5.2)
+# Gold strategy shoot-out: Andrea Unger's gold systems vs TJR
 
-Feed: **binance_paxg**, 2021-12-31 → 2026-11-05. In-sample before 2025-01-01, out-of-sample after. 180 setting combinations. Spread $0.3 per trade included. A candle that hits both stop and target counts as a loss.
+Data: **binance_paxg** 5m, 2020-08-28 → 2026-11-05. Settings picked on data before 2025-01-01, judged on data after it. 0.01 lots, max 2% risk, spread $0.3 per trade, entries at signal-candle close, UK hours 07–20.
 
-## All combinations (sorted by out-of-sample avg R)
+## £200 account (stop ≤ $5.2)
 
-| settings | IS n | IS win % | IS avg R | OOS n | OOS win % | OOS avg R | all total R |
-|---|---|---|---|---|---|---|---|
-| entry=fvg target=liq bias=structure zones=both stopcap=$5.2 | 3 | 33.3 | -0.614 | 2 | 50.0 | 2.014 | 2.2 |
-| entry=fvg target=liq bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | -0.377 | 2 | 50.0 | 2.014 | 3.3 |
-| entry=market target=2R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 0.415 | 1 | 100.0 | 1.93 | 2.8 |
-| entry=fvg target=liq bias=ema zones=ny stopcap=none | 8 | 12.5 | -0.759 | 5 | 100.0 | 1.897 | 3.4 |
-| entry=market target=2R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 0.415 | 2 | 100.0 | 1.568 | 4.0 |
-| entry=fvg target=2R bias=ema zones=ny stopcap=none | 8 | 12.5 | -0.759 | 5 | 100.0 | 1.559 | 1.7 |
-| entry=fvg target=2R bias=structure zones=ny stopcap=none | 4 | 0.0 | -1.049 | 4 | 100.0 | 1.546 | 2.0 |
-| entry=fvg target=liq bias=structure zones=ny stopcap=none | 5 | 0.0 | -1.057 | 4 | 100.0 | 1.489 | 0.7 |
-| entry=market target=liq bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 1.038 | 1 | 100.0 | 1.451 | 3.5 |
-| entry=market target=1.5R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 0.165 | 1 | 100.0 | 1.43 | 1.8 |
-| entry=market target=1.5R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 0.165 | 2 | 100.0 | 1.424 | 3.2 |
-| entry=market target=1.5R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.418 | 1.4 |
-| entry=market target=1.5R bias=ema zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.418 | 1.4 |
-| entry=market target=1.5R bias=none zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.418 | 1.4 |
-| entry=fvg target=1.5R bias=structure zones=ny stopcap=none | 3 | 33.3 | -0.221 | 4 | 100.0 | 1.358 | 4.8 |
-| entry=market target=liq bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 1.038 | 2 | 100.0 | 1.329 | 4.7 |
-| entry=fvg target=3R bias=ema zones=ny stopcap=none | 8 | 12.5 | -0.759 | 5 | 100.0 | 1.254 | 0.2 |
-| entry=market target=2R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=2R bias=ema zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=2R bias=none zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=3R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=3R bias=ema zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=3R bias=none zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=liq bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=liq bias=ema zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=market target=liq bias=none zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 1.206 | 1.2 |
-| entry=fvg target=1.5R bias=ema zones=ny stopcap=none | 7 | 28.6 | -0.252 | 4 | 100.0 | 1.205 | 3.1 |
-| entry=fvg target=liq bias=structure zones=both stopcap=none | 8 | 25.0 | -0.732 | 8 | 62.5 | 0.987 | 2.0 |
-| entry=fvg target=liq bias=none zones=ny stopcap=none | 15 | 26.7 | -0.328 | 9 | 77.8 | 0.98 | 3.9 |
-| entry=fvg target=1R bias=structure zones=ny stopcap=none | 2 | 0.0 | -1.053 | 4 | 100.0 | 0.979 | 1.8 |
-| entry=fvg target=1R bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.619 | 4 | 100.0 | 0.951 | 0.1 |
-| entry=fvg target=1R bias=ema zones=both stopcap=none | 8 | 37.5 | -0.224 | 5 | 100.0 | 0.947 | 2.9 |
-| entry=fvg target=2R bias=ema zones=both stopcap=none | 10 | 20.0 | -0.696 | 8 | 75.0 | 0.944 | 0.6 |
-| entry=fvg target=1R bias=structure zones=both stopcap=$5.2 | 2 | 100.0 | 0.924 | 1 | 100.0 | 0.934 | 2.8 |
-| entry=fvg target=1R bias=structure zones=london stopcap=$5.2 | 2 | 100.0 | 0.924 | 1 | 100.0 | 0.934 | 2.8 |
-| entry=fvg target=1R bias=ema zones=both stopcap=$5.2 | 3 | 33.3 | -0.201 | 1 | 100.0 | 0.934 | 0.3 |
-| entry=fvg target=1R bias=ema zones=london stopcap=$5.2 | 1 | 100.0 | 0.928 | 1 | 100.0 | 0.934 | 1.9 |
-| entry=fvg target=1R bias=ema zones=london stopcap=none | 2 | 100.0 | 0.96 | 1 | 100.0 | 0.934 | 2.9 |
-| entry=market target=1R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | -0.085 | 1 | 100.0 | 0.93 | 0.8 |
-| entry=market target=1R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | -0.085 | 2 | 100.0 | 0.923 | 1.7 |
-| entry=fvg target=3R bias=structure zones=ny stopcap=none | 5 | 0.0 | -1.057 | 4 | 100.0 | 0.915 | -1.6 |
-| entry=market target=1R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 0.915 | 0.9 |
-| entry=market target=1R bias=ema zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 0.915 | 0.9 |
-| entry=market target=1R bias=none zones=ny stopcap=$5.2 | 0 | None | None | 1 | 100.0 | 0.915 | 0.9 |
-| entry=fvg target=3R bias=ema zones=both stopcap=$5.2 | 3 | 0.0 | -0.868 | 2 | 50.0 | 0.908 | -0.8 |
-| entry=fvg target=3R bias=ema zones=london stopcap=$5.2 | 1 | 0.0 | -1.072 | 2 | 50.0 | 0.908 | 0.7 |
-| entry=fvg target=3R bias=none zones=both stopcap=$5.2 | 10 | 30.0 | -0.345 | 4 | 50.0 | 0.891 | 0.1 |
-| entry=fvg target=3R bias=none zones=london stopcap=$5.2 | 4 | 25.0 | -0.726 | 4 | 50.0 | 0.891 | 0.7 |
-| entry=fvg target=3R bias=ema zones=both stopcap=none | 10 | 20.0 | -0.696 | 8 | 75.0 | 0.879 | 0.1 |
-| entry=fvg target=3R bias=structure zones=both stopcap=$5.2 | 3 | 33.3 | -0.614 | 2 | 50.0 | 0.876 | -0.1 |
-| entry=fvg target=3R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | -0.377 | 2 | 50.0 | 0.876 | 1.0 |
-| entry=market target=1.5R bias=structure zones=ny stopcap=none | 5 | 20.0 | -0.811 | 8 | 100.0 | 0.805 | 2.4 |
-| entry=fvg target=2R bias=none zones=ny stopcap=none | 14 | 28.6 | -0.442 | 9 | 77.8 | 0.792 | 0.9 |
-| entry=fvg target=liq bias=ema zones=both stopcap=none | 10 | 20.0 | -0.696 | 8 | 62.5 | 0.781 | -0.7 |
-| entry=market target=liq bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.685 | 9 | 88.9 | 0.763 | 2.8 |
-| entry=market target=2R bias=structure zones=ny stopcap=none | 5 | 20.0 | -0.811 | 8 | 100.0 | 0.757 | 2.0 |
-| entry=market target=liq bias=structure zones=ny stopcap=none | 5 | 20.0 | -0.811 | 8 | 100.0 | 0.73 | 1.8 |
-| entry=market target=1R bias=structure zones=ny stopcap=none | 5 | 20.0 | -0.627 | 8 | 100.0 | 0.68 | 2.3 |
-| entry=market target=2R bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.685 | 9 | 88.9 | 0.661 | 1.8 |
-| entry=fvg target=3R bias=none zones=ny stopcap=none | 16 | 25.0 | -0.46 | 9 | 77.8 | 0.622 | -1.8 |
-| entry=market target=1.5R bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.685 | 9 | 88.9 | 0.622 | 1.5 |
-| entry=market target=liq bias=none zones=ny stopcap=none | 17 | 23.5 | -0.343 | 22 | 72.7 | 0.603 | 7.4 |
-| entry=fvg target=1.5R bias=ema zones=both stopcap=none | 9 | 33.3 | -0.295 | 7 | 71.4 | 0.583 | 1.4 |
-| entry=market target=1R bias=structure zones=both stopcap=none | 12 | 25.0 | -0.559 | 11 | 90.9 | 0.575 | -0.4 |
-| entry=market target=1R bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.532 | 9 | 88.9 | 0.56 | 1.8 |
-| entry=market target=1.5R bias=ema zones=both stopcap=none | 13 | 30.8 | -0.426 | 14 | 78.6 | 0.558 | 2.3 |
-| entry=fvg target=1.5R bias=none zones=ny stopcap=none | 13 | 38.5 | -0.022 | 8 | 75.0 | 0.55 | 4.1 |
-| entry=market target=liq bias=ema zones=both stopcap=none | 13 | 30.8 | -0.292 | 14 | 71.4 | 0.55 | 3.9 |
-| entry=market target=3R bias=ema zones=london stopcap=none | 7 | 42.9 | 0.011 | 5 | 40.0 | 0.543 | 2.8 |
-| entry=market target=2R bias=structure zones=both stopcap=none | 12 | 25.0 | -0.553 | 11 | 81.8 | 0.539 | -0.7 |
-| entry=market target=2R bias=none zones=ny stopcap=none | 17 | 23.5 | -0.329 | 22 | 72.7 | 0.537 | 6.2 |
-| entry=market target=1.5R bias=structure zones=both stopcap=none | 12 | 25.0 | -0.594 | 11 | 81.8 | 0.529 | -1.3 |
-| entry=market target=1.5R bias=none zones=ny stopcap=none | 17 | 23.5 | -0.388 | 22 | 72.7 | 0.52 | 4.8 |
-| entry=fvg target=liq bias=structure zones=london stopcap=none | 3 | 66.7 | -0.191 | 4 | 25.0 | 0.485 | 1.4 |
-| entry=market target=2R bias=ema zones=both stopcap=none | 13 | 30.8 | -0.387 | 14 | 71.4 | 0.476 | 1.6 |
-| entry=market target=3R bias=ema zones=both stopcap=none | 13 | 30.8 | -0.311 | 14 | 64.3 | 0.476 | 2.6 |
-| entry=market target=liq bias=structure zones=both stopcap=none | 12 | 25.0 | -0.449 | 11 | 81.8 | 0.476 | -0.1 |
-| entry=fvg target=liq bias=none zones=both stopcap=$5.2 | 9 | 33.3 | -0.113 | 4 | 25.0 | 0.459 | 0.8 |
-| entry=fvg target=liq bias=none zones=london stopcap=$5.2 | 4 | 25.0 | -0.726 | 4 | 25.0 | 0.459 | -1.1 |
-| entry=market target=1.5R bias=ema zones=london stopcap=none | 7 | 42.9 | -0.203 | 5 | 60.0 | 0.443 | 0.8 |
-| entry=market target=3R bias=ema zones=ny stopcap=none | 6 | 16.7 | -0.685 | 9 | 77.8 | 0.439 | -0.2 |
-| entry=fvg target=2R bias=structure zones=both stopcap=none | 7 | 28.6 | -0.453 | 7 | 57.1 | 0.433 | -0.1 |
-| entry=fvg target=3R bias=structure zones=both stopcap=none | 8 | 25.0 | -0.732 | 8 | 62.5 | 0.415 | -2.5 |
-| entry=market target=1R bias=ema zones=both stopcap=none | 13 | 30.8 | -0.372 | 14 | 78.6 | 0.411 | 0.9 |
-| entry=fvg target=2R bias=ema zones=both stopcap=$5.2 | 3 | 0.0 | -0.868 | 2 | 50.0 | 0.406 | -1.8 |
-| entry=fvg target=2R bias=ema zones=london stopcap=$5.2 | 1 | 0.0 | -1.072 | 2 | 50.0 | 0.406 | -0.3 |
-| entry=fvg target=1R bias=structure zones=both stopcap=none | 5 | 60.0 | 0.147 | 7 | 71.4 | 0.394 | 3.5 |
-| entry=market target=3R bias=structure zones=ny stopcap=none | 5 | 20.0 | -0.811 | 8 | 87.5 | 0.382 | -1.0 |
-| entry=market target=3R bias=none zones=ny stopcap=none | 17 | 23.5 | -0.343 | 22 | 63.6 | 0.379 | 2.5 |
-| entry=fvg target=1R bias=none zones=ny stopcap=none | 11 | 36.4 | -0.273 | 8 | 75.0 | 0.36 | -0.1 |
-| entry=market target=1R bias=none zones=ny stopcap=none | 17 | 29.4 | -0.287 | 22 | 72.7 | 0.357 | 3.0 |
-| entry=market target=liq bias=none zones=both stopcap=none | 33 | 30.3 | -0.247 | 36 | 58.3 | 0.348 | 4.4 |
-| entry=fvg target=liq bias=none zones=both stopcap=none | 22 | 31.8 | -0.293 | 20 | 50.0 | 0.33 | 0.1 |
-| entry=market target=1.5R bias=none zones=both stopcap=none | 33 | 30.3 | -0.31 | 36 | 61.1 | 0.33 | 1.6 |
-| entry=fvg target=1.5R bias=structure zones=both stopcap=none | 6 | 50.0 | -0.022 | 7 | 57.1 | 0.326 | 2.1 |
-| entry=market target=2R bias=none zones=both stopcap=none | 33 | 30.3 | -0.278 | 36 | 58.3 | 0.312 | 2.1 |
-| entry=market target=1R bias=structure zones=london stopcap=none | 7 | 28.6 | -0.511 | 3 | 66.7 | 0.293 | -2.7 |
-| entry=fvg target=3R bias=none zones=both stopcap=none | 23 | 30.4 | -0.343 | 20 | 55.0 | 0.255 | -2.8 |
-| entry=fvg target=3R bias=ema zones=london stopcap=none | 2 | 50.0 | -0.446 | 3 | 33.3 | 0.254 | -0.1 |
-| entry=market target=2R bias=none zones=both stopcap=$5.2 | 3 | 33.3 | 0.03 | 4 | 50.0 | 0.229 | 1.0 |
-| entry=market target=3R bias=none zones=both stopcap=none | 33 | 30.3 | -0.28 | 36 | 50.0 | 0.215 | -1.5 |
-| entry=fvg target=2R bias=none zones=both stopcap=none | 20 | 40.0 | -0.102 | 19 | 52.6 | 0.211 | 2.0 |
-| entry=market target=1R bias=none zones=both stopcap=none | 33 | 33.3 | -0.295 | 36 | 63.9 | 0.202 | -2.4 |
-| entry=fvg target=1R bias=none zones=both stopcap=none | 17 | 47.1 | -0.043 | 15 | 66.7 | 0.199 | 2.3 |
-| entry=market target=liq bias=ema zones=london stopcap=none | 7 | 42.9 | 0.046 | 5 | 40.0 | 0.167 | 1.2 |
-| entry=market target=1.5R bias=none zones=both stopcap=$5.2 | 3 | 33.3 | -0.136 | 4 | 50.0 | 0.157 | 0.2 |
-| entry=fvg target=1.5R bias=ema zones=both stopcap=$5.2 | 3 | 0.0 | -0.868 | 2 | 50.0 | 0.156 | -2.3 |
-| entry=fvg target=1.5R bias=ema zones=london stopcap=$5.2 | 1 | 0.0 | -1.072 | 2 | 50.0 | 0.156 | -0.8 |
-| entry=market target=1R bias=ema zones=london stopcap=none | 7 | 42.9 | -0.236 | 5 | 60.0 | 0.143 | -0.9 |
-| entry=market target=2R bias=ema zones=london stopcap=none | 7 | 42.9 | -0.132 | 5 | 40.0 | 0.143 | -0.2 |
-| entry=market target=1.5R bias=ema zones=both stopcap=$5.2 | 2 | 50.0 | 0.165 | 2 | 50.0 | 0.133 | 0.6 |
-| entry=market target=liq bias=none zones=both stopcap=$5.2 | 3 | 33.3 | 0.446 | 4 | 50.0 | 0.109 | 1.8 |
-| entry=market target=3R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 0.915 | 2 | 50.0 | 0.068 | 2.0 |
-| entry=market target=1.5R bias=none zones=london stopcap=none | 16 | 37.5 | -0.227 | 14 | 42.9 | 0.03 | -3.2 |
-| entry=market target=2R bias=ema zones=both stopcap=$5.2 | 2 | 50.0 | 0.415 | 2 | 50.0 | 0.027 | 0.9 |
-| entry=market target=3R bias=ema zones=both stopcap=$5.2 | 2 | 50.0 | 0.915 | 2 | 50.0 | 0.027 | 1.9 |
-| entry=market target=liq bias=ema zones=both stopcap=$5.2 | 2 | 50.0 | 1.038 | 2 | 50.0 | 0.027 | 2.1 |
-| entry=fvg target=1R bias=none zones=london stopcap=none | 7 | 71.4 | 0.462 | 7 | 57.1 | 0.016 | 3.3 |
-| entry=fvg target=1.5R bias=none zones=both stopcap=none | 19 | 47.4 | 0.125 | 18 | 50.0 | 0.016 | 2.7 |
-| entry=market target=3R bias=structure zones=both stopcap=none | 12 | 25.0 | -0.469 | 11 | 63.6 | -0.006 | -5.7 |
-| entry=market target=2R bias=structure zones=london stopcap=none | 7 | 28.6 | -0.368 | 3 | 33.3 | -0.04 | -2.7 |
-| entry=market target=1R bias=none zones=london stopcap=none | 16 | 37.5 | -0.304 | 14 | 50.0 | -0.041 | -5.4 |
-| entry=market target=2R bias=none zones=london stopcap=none | 16 | 37.5 | -0.223 | 14 | 35.7 | -0.043 | -4.2 |
-| entry=market target=3R bias=none zones=london stopcap=none | 16 | 37.5 | -0.213 | 14 | 28.6 | -0.043 | -4.0 |
-| entry=fvg target=3R bias=none zones=london stopcap=none | 8 | 37.5 | -0.158 | 11 | 36.4 | -0.045 | -1.8 |
-| entry=market target=liq bias=none zones=london stopcap=none | 16 | 37.5 | -0.145 | 14 | 35.7 | -0.052 | -3.1 |
-| entry=fvg target=1R bias=none zones=both stopcap=$5.2 | 7 | 71.4 | 0.441 | 2 | 50.0 | -0.065 | 3.0 |
-| entry=fvg target=1R bias=none zones=london stopcap=$5.2 | 3 | 100.0 | 0.926 | 2 | 50.0 | -0.065 | 2.6 |
-| entry=fvg target=2R bias=ema zones=london stopcap=none | 2 | 50.0 | -0.446 | 3 | 33.3 | -0.081 | -1.1 |
-| entry=fvg target=3R bias=structure zones=london stopcap=none | 3 | 66.7 | -0.191 | 4 | 25.0 | -0.084 | -0.9 |
-| entry=fvg target=2R bias=none zones=both stopcap=$5.2 | 7 | 57.1 | 0.486 | 3 | 33.3 | -0.085 | 3.1 |
-| entry=fvg target=2R bias=none zones=london stopcap=$5.2 | 3 | 66.7 | 0.924 | 3 | 33.3 | -0.085 | 2.5 |
-| entry=market target=1R bias=none zones=both stopcap=$5.2 | 3 | 33.3 | -0.303 | 4 | 50.0 | -0.094 | -1.3 |
-| entry=market target=2R bias=none zones=london stopcap=$5.2 | 3 | 33.3 | 0.03 | 3 | 33.3 | -0.097 | -0.2 |
-| entry=market target=1R bias=ema zones=both stopcap=$5.2 | 2 | 50.0 | -0.085 | 2 | 50.0 | -0.118 | -0.4 |
-| entry=market target=liq bias=structure zones=london stopcap=none | 7 | 28.6 | -0.19 | 3 | 33.3 | -0.2 | -1.9 |
-| entry=fvg target=liq bias=none zones=london stopcap=none | 8 | 37.5 | -0.283 | 11 | 27.3 | -0.202 | -4.5 |
-| entry=market target=1.5R bias=structure zones=london stopcap=none | 7 | 28.6 | -0.44 | 3 | 33.3 | -0.207 | -3.7 |
-| entry=fvg target=1.5R bias=ema zones=london stopcap=none | 2 | 50.0 | -0.446 | 3 | 33.3 | -0.247 | -1.6 |
-| entry=fvg target=1.5R bias=none zones=both stopcap=$5.2 | 7 | 57.1 | 0.441 | 3 | 33.3 | -0.251 | 2.3 |
-| entry=fvg target=1.5R bias=none zones=london stopcap=$5.2 | 3 | 66.7 | 0.592 | 3 | 33.3 | -0.251 | 1.0 |
-| entry=market target=liq bias=none zones=london stopcap=$5.2 | 3 | 33.3 | 0.446 | 3 | 33.3 | -0.257 | 0.6 |
-| entry=market target=1.5R bias=none zones=london stopcap=$5.2 | 3 | 33.3 | -0.136 | 3 | 33.3 | -0.264 | -1.2 |
-| entry=fvg target=2R bias=none zones=london stopcap=none | 7 | 57.1 | 0.488 | 10 | 30.0 | -0.312 | 0.3 |
-| entry=fvg target=1R bias=structure zones=london stopcap=none | 3 | 100.0 | 0.946 | 3 | 33.3 | -0.385 | 1.7 |
-| entry=fvg target=1.5R bias=none zones=london stopcap=none | 7 | 57.1 | 0.274 | 10 | 30.0 | -0.412 | -2.2 |
-| entry=market target=1R bias=none zones=london stopcap=$5.2 | 3 | 33.3 | -0.303 | 3 | 33.3 | -0.43 | -2.2 |
-| entry=market target=3R bias=none zones=both stopcap=$5.2 | 3 | 33.3 | 0.364 | 4 | 25.0 | -0.521 | -1.0 |
-| entry=market target=3R bias=structure zones=london stopcap=none | 7 | 28.6 | -0.225 | 3 | 0.0 | -1.04 | -4.7 |
-| entry=fvg target=1.5R bias=structure zones=london stopcap=none | 3 | 66.7 | 0.176 | 3 | 0.0 | -1.051 | -2.6 |
-| entry=fvg target=2R bias=structure zones=london stopcap=none | 3 | 66.7 | 0.342 | 3 | 0.0 | -1.051 | -2.1 |
-| entry=fvg target=1.5R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 0.174 | 1 | 0.0 | -1.063 | -0.7 |
-| entry=fvg target=1.5R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 0.174 | 1 | 0.0 | -1.063 | -0.7 |
-| entry=fvg target=2R bias=structure zones=both stopcap=$5.2 | 2 | 50.0 | 0.423 | 1 | 0.0 | -1.063 | -0.2 |
-| entry=fvg target=2R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 0.423 | 1 | 0.0 | -1.063 | -0.2 |
-| entry=market target=3R bias=structure zones=london stopcap=$5.2 | 2 | 50.0 | 0.915 | 1 | 0.0 | -1.07 | 0.8 |
-| entry=fvg target=liq bias=ema zones=london stopcap=none | 2 | 50.0 | -0.446 | 3 | 0.0 | -1.081 | -4.1 |
-| entry=fvg target=liq bias=ema zones=both stopcap=$5.2 | 3 | 0.0 | -0.868 | 2 | 0.0 | -1.095 | -4.8 |
-| entry=fvg target=liq bias=ema zones=london stopcap=$5.2 | 1 | 0.0 | -1.072 | 2 | 0.0 | -1.095 | -3.3 |
-| entry=market target=3R bias=none zones=london stopcap=$5.2 | 3 | 33.3 | 0.364 | 3 | 0.0 | -1.097 | -2.2 |
-| entry=market target=1R bias=ema zones=london stopcap=$5.2 | 2 | 50.0 | -0.085 | 1 | 0.0 | -1.152 | -1.3 |
-| entry=market target=1.5R bias=ema zones=london stopcap=$5.2 | 2 | 50.0 | 0.165 | 1 | 0.0 | -1.152 | -0.8 |
-| entry=market target=2R bias=ema zones=london stopcap=$5.2 | 2 | 50.0 | 0.415 | 1 | 0.0 | -1.152 | -0.3 |
-| entry=market target=3R bias=ema zones=london stopcap=$5.2 | 2 | 50.0 | 0.915 | 1 | 0.0 | -1.152 | 0.7 |
-| entry=market target=liq bias=ema zones=london stopcap=$5.2 | 2 | 50.0 | 1.038 | 1 | 0.0 | -1.152 | 0.9 |
-| entry=fvg target=1R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 0 | None | None | 0.0 |
-| entry=fvg target=1R bias=ema zones=ny stopcap=$5.2 | 2 | 0.0 | -0.766 | 0 | None | None | -1.5 |
-| entry=fvg target=1R bias=none zones=ny stopcap=$5.2 | 4 | 50.0 | 0.078 | 0 | None | None | 0.3 |
-| entry=fvg target=1.5R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 0 | None | None | 0.0 |
-| entry=fvg target=1.5R bias=ema zones=ny stopcap=$5.2 | 2 | 0.0 | -0.766 | 0 | None | None | -1.5 |
-| entry=fvg target=1.5R bias=none zones=ny stopcap=$5.2 | 4 | 50.0 | 0.328 | 0 | None | None | 1.3 |
-| entry=fvg target=2R bias=structure zones=ny stopcap=$5.2 | 0 | None | None | 0 | None | None | 0.0 |
-| entry=fvg target=2R bias=ema zones=ny stopcap=$5.2 | 2 | 0.0 | -0.766 | 0 | None | None | -1.5 |
-| entry=fvg target=2R bias=none zones=ny stopcap=$5.2 | 4 | 50.0 | 0.157 | 0 | None | None | 0.6 |
-| entry=fvg target=3R bias=structure zones=ny stopcap=$5.2 | 1 | 0.0 | -1.09 | 0 | None | None | -1.1 |
-| entry=fvg target=3R bias=ema zones=ny stopcap=$5.2 | 2 | 0.0 | -0.766 | 0 | None | None | -1.5 |
-| entry=fvg target=3R bias=none zones=ny stopcap=$5.2 | 6 | 33.3 | -0.09 | 0 | None | None | -0.5 |
-| entry=fvg target=liq bias=structure zones=ny stopcap=$5.2 | 1 | 0.0 | -1.09 | 0 | None | None | -1.1 |
-| entry=fvg target=liq bias=ema zones=ny stopcap=$5.2 | 2 | 0.0 | -0.766 | 0 | None | None | -1.5 |
-| entry=fvg target=liq bias=none zones=ny stopcap=$5.2 | 5 | 40.0 | 0.378 | 0 | None | None | 1.9 |
+| strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| pdbreak | — not enough trades within this risk limit | | | | | | | | | | |
+| compress | — not enough trades within this risk limit | | | | | | | | | | |
+| channel | `{"n": 192, "sl_atr": 2.0, "tp_mult": 3.0}` | 656 | 26.7 | -0.163 | 137 | 24.8 | -0.119 | 0.85 | £-35.84 | 10.7 | 19 |
+| cci | — not enough trades within this risk limit | | | | | | | | | | |
+| tjr | — not enough trades within this risk limit | | | | | | | | | | |
+
+**Pick for £200:** nothing profitable in-sample
+
+## £500 account (stop ≤ $13.0)
+
+| strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| pdbreak | `{"sl_usd": 12, "tp_mult": 3.0, "hold_days": 3, "window_end_uk": 17}` | 654 | 28.0 | -0.153 | 251 | 29.5 | 0.105 | 1.15 | £242.88 | 12.2 | 14 |
+| compress | `{"sl_usd": 12, "tp_mult": 1.5, "squeeze": 0.9}` | 233 | 41.6 | -0.053 | 95 | 44.2 | 0.021 | 1.04 | £18.08 | 4.5 | 11 |
+| channel | `{"n": 192, "sl_atr": 2.0, "tp_mult": 3.0}` | 965 | 24.6 | -0.261 | 491 | 28.3 | -0.012 | 0.98 | £-53.14 | 19.6 | 16 |
+| cci | `{"level": 300, "sl_usd": 8}` | 121 | 33.1 | 0.069 | 39 | 23.1 | 1.431 | 2.79 | £343.55 | 2.2 | 9 |
+| tjr | `{"entry": "fvg", "target": "2R", "bias": "none", "m15": true, "accept_atr": 1.5, "confirm_bars": 24, "zones": "both"}` | 62 | 50.0 | 0.209 | 12 | 25.0 | -0.293 | 0.63 | £-7.58 | 1.0 | 7 |
+
+**Pick for £500:** tjr `{"entry": "fvg", "target": "2R", "bias": "none", "m15": true, "accept_atr": 1.5, "confirm_bars": 24, "zones": "both"}`
+
+## £1000 account (stop ≤ $26.0)
+
+| strategy | settings | IS trades | IS win % | IS avg R | **OOS trades** | **OOS win %** | **OOS avg R** | OOS PF | OOS £ | trades/mo | worst streak |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| pdbreak | `{"sl_usd": 20, "tp_mult": 2.0, "hold_days": 1, "window_end_uk": 17}` | 654 | 44.5 | -0.064 | 251 | 39.0 | 0.019 | 1.03 | £73.62 | 12.2 | 10 |
+| compress | `{"sl_usd": 20, "tp_mult": 3.0, "squeeze": 0.9}` | 233 | 45.9 | -0.002 | 95 | 41.1 | 0.074 | 1.15 | £108.53 | 4.5 | 6 |
+| channel | `{"n": 192, "sl_atr": 2.0, "tp_mult": 3.0}` | 980 | 24.8 | -0.255 | 567 | 28.7 | -0.002 | 1.0 | £102.62 | 20.9 | 16 |
+| cci | `{"level": 300, "sl_usd": 8}` | 121 | 33.1 | 0.069 | 39 | 23.1 | 1.431 | 2.79 | £343.55 | 2.2 | 9 |
+| tjr | `{"entry": "fvg", "target": "2R", "bias": "none", "m15": true, "accept_atr": 1.5, "confirm_bars": 24, "zones": "both"}` | 66 | 50.0 | 0.191 | 25 | 32.0 | -0.15 | 0.78 | £-18.93 | 1.2 | 7 |
+
+**Pick for £1000:** tjr `{"entry": "fvg", "target": "2R", "bias": "none", "m15": true, "accept_atr": 1.5, "confirm_bars": 24, "zones": "both"}`
