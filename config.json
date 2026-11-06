@@ -2,15 +2,14 @@
   "instruments": [
     "XAUUSD"
   ],
-  "account_gbp": 200,
+  "account_gbp": 1000,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "note": "Placeholder until the strategy shoot-out backtest picks the winner.",
-  "strategy": "pdbreak",
+  "note": "Winner of the 2020-2026 shoot-out: Unger CCI momentum, level 350, $20 stop, 2R take profit. Needs a \u00a31,000 demo to stay under 2% risk at 0.01 lots.",
+  "strategy": "cci",
   "strategy_params": {
-    "sl_usd": 5,
-    "tp_mult": 2.0,
-    "hold_days": 1,
-    "window_end_uk": 17
+    "level": 350,
+    "sl_usd": 20,
+    "tp_mult": 2.0
   }
 }

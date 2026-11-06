@@ -123,8 +123,11 @@ def signal_msg(s: dict, last: float) -> str:
     rew_gbp = (rew - cfg["cost"]) * LOT_OZ / fx
     acct = s.get("account_gbp", 200)
     hold = s.get("hold_until")
-    hold_txt = (f"Hold up to {pd.Timestamp(hold).tz_convert(UK):%a %H:%M} UK if neither is hit" if hold
-                else "Closed by end of day if neither is hit")
+    if s.get("strategy") == "cci":
+        hold_txt = "No time limit. If momentum dies before stop or TP, I'll message you CLOSE NOW"
+    else:
+        hold_txt = (f"Hold up to {pd.Timestamp(hold).tz_convert(UK):%a %H:%M} UK if neither is hit" if hold
+                    else "Closed by end of day if neither is hit")
     return (
         f"<b>{arrow} XAUUSD</b>  (Gold) · {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))}\n"
         f"{kind} entry <b>{s['entry']:,.2f}</b>  — {where}\n"
@@ -148,15 +151,18 @@ def news_line(s: dict) -> str:
 def update_msg(s: dict) -> str:
     dp = INSTRUMENTS[s["instrument"]]["dp"]
     head = f"{s['side']} XAUUSD @ {fmt(s['entry'], dp)}"
+    notes = " ".join(s.get("notes", []))
     if s["status"] == "open":
-        return f"✅ FILLED — {head}. Stop {fmt(s['stop'], dp)}, target {fmt(s['target'], dp)}."
-    if s["status"] == "win":
+        return f"✅ FILLED — {head}. Stop {fmt(s['stop'], dp)}, take profit {fmt(s['target'], dp)}."
+    if s["status"] in ("win", "loss"):
         g = pnl_gbp(s)
-        return f"💰 TAKE PROFIT HIT — {head} → {fmt(s['exit_price'], dp)}  (+£{g:.2f}, +{s['r']}R)" if s["r"] > 0 else f"➖ CLOSED AT END OF DAY — {head} (£{g:.2f})"
-    if s["status"] == "loss":
-        g = pnl_gbp(s)
-        closed_eod = any("end of day" in n for n in s.get("notes", []))
-        return f"{'➖ CLOSED AT END OF DAY' if closed_eod else '❌ STOPPED'} — {head} → {fmt(s['exit_price'], dp)}  (£{g:.2f}, {s['r']}R)"
+        money = f"{'+' if g >= 0 else '-'}£{abs(g):.2f}, {'+' if s['r'] > 0 else ''}{s['r']}R"
+        if "closed at" in notes:
+            why = "momentum faded" if s.get("strategy") == "cci" else ("end of day" if "end of day" in notes else "time limit")
+            return f"🚪 <b>CLOSE NOW</b> — {head}. Exit at market ({why}). Last price {fmt(s['exit_price'], dp)}  ({money})"
+        if s["status"] == "win":
+            return f"💰 TAKE PROFIT HIT — {head} → {fmt(s['exit_price'], dp)}  ({money})"
+        return f"❌ STOPPED — {head} → {fmt(s['exit_price'], dp)}  ({money})"
     if s["status"] == "expired":
         return f"⌛ CANCELLED — {head} never filled. Delete the limit order."
     return head
@@ -250,7 +256,12 @@ def scan_once(state, cfg, mode="scan"):
         ctx = Context(df, "XAUUSD")
         print(f"{now:%H:%M:%S} feed: {feed} | last 5m {df.index[-1]:%H:%M} ET close {last:,.2f} | blackout {(nws.get('blackout') or {}).get('title')}")
         for s in strategy_setups(ctx, cfg, cap):
-            if s.id in state["signals"] or pd.Timestamp(s.confirm_time) < now - timedelta(minutes=15):
+            if s.id in state["signals"]:
+                old = state["signals"][s.id]
+                if old["status"] == "open" and s.hold_until and s.hold_until != old.get("hold_until"):
+                    old["hold_until"] = s.hold_until      # momentum exit now known (CCI back through 0)
+                continue
+            if pd.Timestamp(s.confirm_time) < now - timedelta(minutes=15):
                 continue
             d = s.to_dict()
             d.update(sent_at=now.isoformat(), initial_status=s.status, feed=feed, gbpusd=round(fx, 5), account_gbp=account)
@@ -401,6 +412,10 @@ def main():
     while _time.time() - t0 < budget:
         now = pd.Timestamp.now(tz=ET)
         bar = now.floor("5min")
+        if os.getenv("GITHUB_ACTIONS"):
+            subprocess.run(["git", "fetch", "-q", "--depth", "1", "origin", "main"], cwd=ROOT, capture_output=True, timeout=60)
+            subprocess.run(["git", "checkout", "FETCH_HEAD", "--", "config.json"], cwd=ROOT, capture_output=True, timeout=30)
+        cfg = load_json(CONFIG, cfg)   # settings changes apply on the next candle, no restart needed
         if market_open(now) and bar != last_scan_bar and now - bar >= pd.Timedelta(seconds=20):
             try:
                 scan_once(state, cfg, "scan")
