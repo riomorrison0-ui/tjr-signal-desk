@@ -383,13 +383,22 @@ def git_save(msg):
 
 
 def dispatch_next():
+    """Start the next watcher job before this one ends (retries; the 30-min cron is the backup)."""
     tok, repo = os.getenv("GITHUB_TOKEN"), os.getenv("GITHUB_REPOSITORY")
     if not tok or not repo:
         return
-    r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/scan.yml/dispatches",
-                      headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
-                      json={"ref": os.getenv("GITHUB_REF_NAME", "main")}, timeout=20)
-    print("handover dispatch", r.status_code, r.text[:120])
+    for attempt in range(5):
+        try:
+            r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/scan.yml/dispatches",
+                              headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
+                              json={"ref": os.getenv("GITHUB_REF_NAME", "main")}, timeout=20)
+            print("handover dispatch", r.status_code, r.text[:120])
+            if r.status_code == 204:
+                return
+        except Exception as e:  # noqa: BLE001
+            print("handover error", e)
+        _time.sleep(15 * (attempt + 1))
+    tg("⚠️ Gold Desk handover hiccup: restarting via the backup timer within 30 minutes.")
 
 
 def market_open(now_et: pd.Timestamp) -> bool:
