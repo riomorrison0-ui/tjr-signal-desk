@@ -24,6 +24,10 @@ def yahoo(symbol: str, interval: str = "5m", rng: str = "60d", tries: int = 3) -
             df = pd.DataFrame({k2: q[k2] for k2 in ("open", "high", "low", "close")},
                               index=pd.to_datetime(res["timestamp"], unit="s", utc=True).tz_convert(ET))
             df = df.dropna()
+            # Yahoo appends a live "current price" row with an odd timestamp: keep real bars only
+            step_s = int(pd.Timedelta(interval.replace("m", "min")).total_seconds())
+            secs = ((df.index - pd.Timestamp("1970-01-01", tz="UTC")) // pd.Timedelta("1s")).astype("int64")
+            df = df[secs % step_s == 0]
             df = df[~df.index.duplicated(keep="last")].sort_index()
             # drop the bar that is still forming
             step = pd.Timedelta(interval.replace("m", "min"))

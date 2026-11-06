@@ -173,6 +173,8 @@ def main():
     now = pd.Timestamp.now(tz=ET)
     prices = {}
     _CHAT["id"] = chat_id(state)
+    print("telegram: token", "set" if os.getenv("TELEGRAM_BOT_TOKEN") else "MISSING",
+          "| chat", "found" if _CHAT["id"] else "not found (press Start on the bot)")
     if _CHAT["id"] and not state.get("tg_hello"):
         tg("🟡 <b>Gold Desk is live.</b>\nI watch XAUUSD every 5 minutes and call TJR setups in the London (07:00–10:00 UK) and New York (13:30–16:00 UK) killzones. Every call, fill, target and stop lands here. Paper trading only.")
         state["tg_hello"] = now.isoformat()
