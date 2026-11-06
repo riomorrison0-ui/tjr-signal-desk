@@ -113,48 +113,41 @@ def entry_zone(s: dict) -> tuple[float, float]:
     return s["entry"] - w, s["entry"] + w
 
 
-def tp_block(s, risk, lots, fx, cost):
-    legs = s.get("legs") or make_legs(s["side"], s["entry"], s["stop"], lots)
-    if not legs:
-        return ""
-    lines = [f"🎯 <b>OPEN {len(legs)} TRADE{'S' if len(legs) > 1 else ''}, SAME STOP, DIFFERENT TAKE PROFITS:</b>"]
-    for l in legs:
-        g = (abs(l["tp"] - s["entry"]) - cost) * l["lots"] * CONTRACT_OZ / fx
-        lines.append(f"   <b>TP{l['n']}: SET YOUR TAKE PROFIT TO {l['tp']:,.2f}</b> · {l['lots']:.2f} lots  (+${abs(l['tp'] - s['entry']):.2f} · ≈ +£{g:,.2f})")
-    return "\n".join(lines) + "\n"
-
-
 def signal_msg(s: dict, last: float) -> str:
-    cfg = INSTRUMENTS["XAUUSD"]
+    cost = INSTRUMENTS["XAUUSD"]["cost"]
     buy = s["side"] == "BUY"
     lots = s.get("lots", LOT)
     fx = s.get("gbpusd", 1.30)
     risk = abs(s["entry"] - s["stop"])
-    rew = abs(s["target"] - s["entry"])
-    risk_gbp = (risk + cfg["cost"]) * lots * CONTRACT_OZ / fx
-    rew_gbp = (rew - cfg["cost"]) * lots * CONTRACT_OZ / fx
+    legs = s.get("legs") or make_legs(s["side"], s["entry"], s["stop"], lots)
+    risk_gbp = (risk + cost) * lots * CONTRACT_OZ / fx
     bal = s.get("account_gbp", 2000)
     lo, hi = entry_zone(s)
     t = pd.Timestamp(s["confirm_time"]).tz_convert(UK).strftime("%H:%M")
     if s.get("strategy") == "rsi2":
-        manage = "If price snaps back to its 5-bar average before TP, I'll message you CLOSE NOW (take the profit)."
+        manage = "If price snaps back to its 5-bar average first, I'll message 🚪 CLOSE NOW: close what's still open."
     elif s.get("strategy") == "cci":
-        manage = "If momentum dies before stop or TP, I'll message you CLOSE NOW."
+        manage = "If momentum dies first, I'll message 🚪 CLOSE NOW."
     else:
-        manage = "Closed by end of day if neither is hit."
+        manage = "Anything still open is closed by end of day."
     head = "🟢🟢 <b>BUY XAUUSD NOW</b> 🟢🟢" if buy else "🔴🔴 <b>SELL XAUUSD NOW</b> 🔴🔴"
-    return (
-        f"{head}\n\n"
-        f"📍 <b>ENTER BETWEEN {lo:,.2f} – {hi:,.2f}</b>\n"
-        f"<i>(signal price {s['entry']:,.2f} · don't chase outside this range)</i>\n\n"
-        + tp_block(s, risk, lots, fx, cfg["cost"]) +
-        f"🛑 <b>SET YOUR STOP LOSS TO {s['stop']:,.2f}</b> on every trade  (−${risk:.2f} · ≈ −£{risk_gbp:,.2f} total)\n\n"
-        f"📦 <b>TOTAL LOT SIZE: {lots:.2f}</b>  ({risk_gbp / bal * 100:.1f}% of £{bal:,.2f}; max 2%)\n\n"
-        f"<b>Why:</b> {s.get('why') or s['level_name']}\n"
-        f"<b>Strategy:</b> {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))} · TP1 0.5R / TP2 1R / TP3 1.5R\n"
-        + news_line(s) +
-        f"Signal {t} UK (candle close). {manage}\n#paper"
-    )
+    L = [head, "",
+         f"🟢 <b>ENTRY: {lo:,.2f} – {hi:,.2f}</b>"]
+    for l in legs:
+        L.append(f"🎯 <b>TP{l['n']}: {l['tp']:,.2f}</b>")
+    L += [f"🔴 <b>STOP LOSS: {s['stop']:,.2f}</b>", "",
+          "━━━━━━━━━━━━━━━", "",
+          f"📦 <b>LOT SIZES</b> (open {len(legs)} trade{'s' if len(legs) > 1 else ''}, same stop loss on each)"]
+    for l in legs:
+        g = (abs(l["tp"] - s["entry"]) - cost) * l["lots"] * CONTRACT_OZ / fx
+        L.append(f"🎯 TP{l['n']} trade: <b>{l['lots']:.2f} lots</b> → ≈ +£{g:,.2f}")
+    L += [f"🔴 If stopped: ≈ −£{risk_gbp:,.2f} total ({risk_gbp / bal * 100:.1f}% of £{bal:,.2f} · max 2%)", "",
+          f"📝 <b>Why:</b> {s.get('why') or s['level_name']}",
+          f"📊 <b>Strategy:</b> {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))} (TP1 0.5R · TP2 1R · TP3 1.5R)",
+          news_line(s).rstrip("\n"),
+          f"⏱ Signal {t} UK · signal price {s['entry']:,.2f} · don't chase outside the entry range.",
+          manage, "#paper"]
+    return "\n".join(L)
 
 
 def news_line(s: dict) -> str:
