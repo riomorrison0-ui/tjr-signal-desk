@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T11:40:20.435177-05:00",
+ "updated": "2026-11-06T11:45:20.423905-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4059.0,
-   "feed": "real-time gold (PAXG, matched to spot +11.00)",
-   "time": "2026-11-06T11:35:00-05:00"
+   "price": 4060.899902,
+   "feed": "real-time gold (PAXG, matched to spot +11.22)",
+   "time": "2026-11-06T11:40:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Satellite Analysis Reveals Iran Fast-Tracking Underground Bunkers and Rebuilding Missile Sites Amid Regional Escalation - oodaloop.com",
-    "Wynn Holds UAE Casino Date but Weighs How to Open Amid War - Skift",
-    "Ukraine war risk insurance now 10 times more than Second World War Atlantic convoys - Lloyd's List"
+    "War memorials in the borough get a fresh look ahead of Remembrance Sunday - Your Thurrock",
+    "Canadian art market takes hit from trade war with US - The Art Newspaper",
+    "Trump Says to \u2018Soon\u2019 Take Decision on Whether to Resume Iran War - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
