@@ -1,0 +1,30 @@
+{
+ "updated": "2026-11-06T09:07:44.404904-05:00",
+ "params": "entry=fvg target=2R bias=structure zones=both stopcap=$5.34",
+ "prices": {
+  "XAUUSD": {
+   "price": 4057.300048828125,
+   "time": "2026-11-06T08:57:57-05:00",
+   "feed": "COMEX gold futures (Yahoo)"
+  }
+ },
+ "stats": {
+  "trades": 0,
+  "wins": 0,
+  "win_rate": null,
+  "total_r": 0,
+  "avg_r": null,
+  "balance": 200.0,
+  "start_balance": 200.0,
+  "curve": []
+ },
+ "account": {
+  "gbp": 200.0,
+  "max_risk_pct": 2.0,
+  "lot": 0.01,
+  "stop_cap_usd": 5.34,
+  "gbpusd": 1.33572
+ },
+ "backtest": null,
+ "signals": []
+}
