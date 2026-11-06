@@ -4,7 +4,7 @@
   ],
   "account_gbp": 2000,
   "max_risk_pct": 2.0,
-  "lot": 0.01,
+  "lot": "auto (2% of balance, CoMarkets standard: 1 lot = 100 oz)",
   "note": "Daily winner: Connors RSI(2) on 30m (lo 20 / hi 80, stop 2.5 ATR, TP 1R, exit at 5-bar average). ~2 calls/day, 65% wins, PF 1.25, 6/7 years green. \u00a32,000 demo.",
   "strategy": "rsi2",
   "strategy_params": {

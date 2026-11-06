@@ -74,7 +74,8 @@ def read_updates(state) -> list[str]:
                 state["tg_chat"] = str(cid)
             txt = (m.get("text") or "").strip().lower()
             if cid and str(cid) == state.get("tg_chat") and txt.startswith("/"):
-                cmds.append(txt.split()[0].split("@")[0])
+                parts = txt.split()
+                cmds.append(" ".join([parts[0].split("@")[0]] + parts[1:2]))
     except Exception as e:  # noqa: BLE001
         print("getUpdates failed", e)
     return cmds
@@ -107,39 +108,41 @@ def unit(inst, d):
     return f"{d:.1f} pts"
 
 
+def entry_zone(s: dict) -> tuple[float, float]:
+    w = max(1.0, round(0.05 * abs(s["entry"] - s["stop"]), 0))
+    return s["entry"] - w, s["entry"] + w
+
+
 def signal_msg(s: dict, last: float) -> str:
     cfg = INSTRUMENTS["XAUUSD"]
-    arrow = "🟢 BUY" if s["side"] == "BUY" else "🔴 SELL"
+    buy = s["side"] == "BUY"
+    lots = s.get("lots", LOT)
+    fx = s.get("gbpusd", 1.30)
     risk = abs(s["entry"] - s["stop"])
     rew = abs(s["target"] - s["entry"])
+    risk_gbp = (risk + cfg["cost"]) * lots * CONTRACT_OZ / fx
+    rew_gbp = (rew - cfg["cost"]) * lots * CONTRACT_OZ / fx
+    bal = s.get("account_gbp", 2000)
+    lo, hi = entry_zone(s)
     t = pd.Timestamp(s["confirm_time"]).tz_convert(UK).strftime("%H:%M")
-    gap = s["entry"] - last
-    kind = {"limit": "LIMIT", "stop": "STOP"}.get(s.get("entry_type"), "MARKET")
-    if kind == "MARKET":
-        where = f"now (last price {last:,.2f})"
+    if s.get("strategy") == "rsi2":
+        manage = "If price snaps back to its 5-bar average before TP, I'll message you CLOSE NOW (take the profit)."
+    elif s.get("strategy") == "cci":
+        manage = "If momentum dies before stop or TP, I'll message you CLOSE NOW."
     else:
-        where = f"${abs(gap):.2f} {'below' if gap < 0 else 'above'} current price"
-    fx = s.get("gbpusd", 1.30)
-    risk_gbp = (risk + cfg["cost"]) * LOT_OZ / fx
-    rew_gbp = (rew - cfg["cost"]) * LOT_OZ / fx
-    acct = s.get("account_gbp", 200)
-    hold = s.get("hold_until")
-    if s.get("strategy") == "cci":
-        hold_txt = "No time limit. If momentum dies before stop or TP, I'll message you CLOSE NOW"
-    elif s.get("strategy") == "rsi2":
-        hold_txt = "If price snaps back to its 5-bar average before TP, I'll message you CLOSE NOW (take the profit)"
-    else:
-        hold_txt = (f"Hold up to {pd.Timestamp(hold).tz_convert(UK):%a %H:%M} UK if neither is hit" if hold
-                    else "Closed by end of day if neither is hit")
+        manage = "Closed by end of day if neither is hit."
+    head = "🟢🟢 <b>BUY XAUUSD NOW</b> 🟢🟢" if buy else "🔴🔴 <b>SELL XAUUSD NOW</b> 🔴🔴"
     return (
-        f"<b>{arrow} XAUUSD</b>  (Gold) · {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))}\n"
-        f"{kind} entry <b>{s['entry']:,.2f}</b>  — {where}\n"
-        f"Stop loss <b>{s['stop']:,.2f}</b>  (${risk:.2f})\n"
-        f"Take profit <b>{s['target']:,.2f}</b>  (${rew:.2f}, {s['rr']}R)\n"
-        f"\n<b>0.01 lots</b> · risk ≈ £{risk_gbp:.2f} ({risk_gbp / acct * 100:.1f}% of £{acct:.0f}) · profit ≈ £{rew_gbp:.2f}\n"
-        f"\nWhy: {s.get('why') or s['level_name']}\n"
+        f"{head}\n\n"
+        f"📍 <b>ENTER BETWEEN {lo:,.2f} – {hi:,.2f}</b>\n"
+        f"<i>(signal price {s['entry']:,.2f} · don't chase outside this range)</i>\n\n"
+        f"🎯 <b>SET YOUR TAKE PROFIT TO {s['target']:,.2f}</b>  (+${rew:.2f} · ≈ +£{rew_gbp:,.2f})\n"
+        f"🛑 <b>SET YOUR STOP LOSS TO {s['stop']:,.2f}</b>  (−${risk:.2f} · ≈ −£{risk_gbp:,.2f})\n\n"
+        f"📦 <b>LOT SIZE: {lots:.2f}</b>  ({risk_gbp / bal * 100:.1f}% of £{bal:,.2f}; max 2%)\n\n"
+        f"<b>Why:</b> {s.get('why') or s['level_name']}\n"
+        f"<b>Strategy:</b> {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))} · {rew / risk:.1f}R\n"
         + news_line(s) +
-        f"Signal {t} UK (candle close) · {hold_txt}\n#paper"
+        f"Signal {t} UK (candle close). {manage}\n#paper"
     )
 
 
@@ -159,7 +162,7 @@ def update_msg(s: dict) -> str:
         return f"✅ FILLED — {head}. Stop {fmt(s['stop'], dp)}, take profit {fmt(s['target'], dp)}."
     if s["status"] in ("win", "loss"):
         g = pnl_gbp(s)
-        money = f"{'+' if g >= 0 else '-'}£{abs(g):.2f}, {'+' if s['r'] > 0 else ''}{s['r']}R"
+        money = f"{'+' if g >= 0 else '-'}£{abs(g):,.2f} on {s.get('lots', LOT):.2f} lots, {'+' if s['r'] > 0 else ''}{s['r']}R"
         if "closed at" in notes:
             why = ("momentum faded" if s.get("strategy") == "cci" else "back at its 5-bar average, job done" if s.get("strategy") == "rsi2"
                    else "end of day" if "end of day" in notes else "time limit")
@@ -172,20 +175,37 @@ def update_msg(s: dict) -> str:
     return head
 
 
+CONTRACT_OZ = 100      # CoMarkets standard XAUUSD: 1.00 lot = 100 oz, so 0.01 lot = 1 oz = $1 per $1 move
+LOT_STEP, LOT_MIN = 0.01, 0.01
+
+
+def lot_size(balance_gbp, risk_pct, stop_usd, fx, cost):
+    """Largest lot (in 0.01 steps) whose stop loss costs no more than risk_pct of the balance. Never rounds up."""
+    risk_usd = balance_gbp * risk_pct / 100 * fx
+    per_lot = (stop_usd + cost) * CONTRACT_OZ
+    lots = int(risk_usd / per_lot / LOT_STEP + 1e-9) * LOT_STEP
+    return round(lots, 2) if lots >= LOT_MIN else 0.0
+
+
 def pnl_gbp(c) -> float:
     cost = INSTRUMENTS[c["instrument"]]["cost"]
     move = (c["exit_price"] - c["entry"]) if c["side"] == "BUY" else (c["entry"] - c["exit_price"])
-    return (move - cost) * LOT_OZ / c.get("gbpusd", 1.30)
+    return (move - cost) * c.get("lots", LOT) * CONTRACT_OZ / c.get("gbpusd", 1.30)
 
 
-def stats(closed, start):
+def stats(closed, start, adjust=None):
     rs = [c["r"] for c in closed]
     wins = [r for r in rs if r > 0]
     bal, curve = start, []
+    adj = sorted(adjust or [], key=lambda a: a["t"])
     for c in closed:
+        while adj and adj[0]["t"] <= c["exit_time"]:
+            bal = adj.pop(0)["balance"]
         c["pnl_gbp"] = round(pnl_gbp(c), 2)
         bal += c["pnl_gbp"]
         curve.append(dict(t=c["exit_time"], balance=round(bal, 2)))
+    for a in adj:
+        bal = a["balance"]
     return dict(trades=len(rs), wins=len(wins), win_rate=round(100 * len(wins) / len(rs), 1) if rs else None,
                 total_r=round(sum(rs), 2), avg_r=round(sum(rs) / len(rs), 3) if rs else None,
                 balance=round(bal, 2), start_balance=start, curve=curve)
@@ -228,7 +248,7 @@ def strategy_setups(ctx, cfg, cap):
 
 def scan_once(state, cfg, mode="scan"):
     """One full pass: data, news, new calls, manage calls, commands, briefs, save."""
-    account = float(cfg.get("account_gbp", 200))
+    account = float(cfg.get("account_gbp", 2000))
     max_risk_pct = float(cfg.get("max_risk_pct", 2.0))
     fx = state.get("_fx") or gbpusd()
     state["_fx"] = fx
@@ -268,7 +288,16 @@ def scan_once(state, cfg, mode="scan"):
             if pd.Timestamp(s.confirm_time) < now - timedelta(minutes=15):
                 continue
             d = s.to_dict()
-            d.update(sent_at=now.isoformat(), initial_status=s.status, feed=feed, gbpusd=round(fx, 5), account_gbp=account)
+            done_ = sorted([x for x in state["signals"].values() if x["status"] in ("win", "loss")], key=lambda x: x["exit_time"])
+            bal_now = stats(done_, account, state.get("balance_adjust"))["balance"]
+            lots = lot_size(bal_now, max_risk_pct, abs(s.entry - s.stop), fx, cost)
+            d.update(sent_at=now.isoformat(), initial_status=s.status, feed=feed, gbpusd=round(fx, 5),
+                     account_gbp=round(bal_now, 2), lots=lots, risk_pct=max_risk_pct)
+            if lots <= 0:
+                d.update(status="skipped", notes=["stop too wide for 2% even at 0.01 lots"])
+                state["signals"][s.id] = d
+                tg(f"⏭ Setup skipped — {s.side} XAUUSD needs a ${abs(s.entry - s.stop):.0f} stop; even 0.01 lots would risk more than {max_risk_pct:g}% of £{bal_now:,.0f}.")
+                continue
             if nws.get("blackout"):
                 e = nws["blackout"]
                 d.update(status="skipped", notes=[f"news blackout: {e['title']}"])
@@ -292,11 +321,16 @@ def scan_once(state, cfg, mode="scan"):
                 d.update(status=s.status, fill_time=s.fill_time, exit_time=s.exit_time, exit_price=s.exit_price, r=s.r, notes=s.notes)
                 if prev == "pending" and s.status in ("win", "loss"):
                     tg(update_msg(dict(d, status="open")))
-                tg(update_msg(d))
+                extra = ""
+                if s.status in ("win", "loss"):
+                    done_ = sorted([x for x in state["signals"].values() if x["status"] in ("win", "loss")], key=lambda x: x["exit_time"])
+                    b_ = stats(done_, account, state.get("balance_adjust"))["balance"]
+                    extra = f"\n💷 Balance now ≈ <b>£{b_:,.2f}</b> → next trade risks 2% = £{b_ * max_risk_pct / 100:,.2f}"
+                tg(update_msg(d) + extra)
 
     sigs = sorted(state["signals"].values(), key=lambda d: d["confirm_time"], reverse=True)
     closed = sorted([d for d in sigs if d["status"] in ("win", "loss")], key=lambda d: d["exit_time"])
-    st = stats(closed, account)
+    st = stats(closed, account, state.get("balance_adjust"))
     open_n = sum(d["status"] in ("pending", "open") for d in sigs)
     label = f"{cfg.get('strategy')} {json.dumps(cfg.get('strategy_params', {}))}"
 
@@ -315,7 +349,12 @@ def scan_once(state, cfg, mode="scan"):
             tg(briefs.status_msg(account, max_risk_pct, cap, label, now, open_n, st,
                                  strategy=STRATEGY_NAMES.get(cfg.get("strategy"), cfg.get("strategy"))))
         elif kind == "test" and mmap:
-            tg(briefs.test_trade_msg(mmap, account, fx, cost, cap))
+            px = mmap["price"]; sl = 28.0
+            demo = dict(side="BUY", entry=px, stop=px - sl, target=px + sl, rr=1.0, strategy=cfg.get("strategy"),
+                        why="Sharp dip (RSI(2) 14) inside the 30min uptrend: buy it back to the 5-bar average",
+                        level_name="", confirm_time=now.isoformat(), gbpusd=fx, account_gbp=st["balance"],
+                        lots=lot_size(st["balance"], max_risk_pct, sl, fx, cost), news={"risk": "normal", "next": None})
+            tg("🧪 <b>TEST — NOT A TRADE</b>\n\n" + signal_msg(demo, px).replace("#paper", "#test"))
 
     if os.getenv("SELFTEST") and not state.get("_selftest_done"):
         tg("🔧 <b>Self-test</b> — this is the bot confirming it can see live price, charts and news right now.")
@@ -327,8 +366,17 @@ def scan_once(state, cfg, mode="scan"):
             if ukn.hour >= hh:
                 state[f"brief_{key}"] = str(ukn.date())   # self-test already covered today's briefs
     for c in dict.fromkeys(cmds):
+        head, _, arg = c.partition(" ")
+        if head == "/balance":
+            try:
+                v = float(arg.replace("£", "").replace(",", ""))
+                state.setdefault("balance_adjust", []).append(dict(t=now.isoformat(), balance=v))
+                tg(f"✅ Balance set to <b>£{v:,.2f}</b>. Next call is sized at 2% of that = £{v * max_risk_pct / 100:,.2f} risk.")
+            except ValueError:
+                tg(f"💷 Current balance (as I track it): <b>£{st['balance']:,.2f}</b>. To correct it send e.g. /balance 2150")
+            continue
         send({"/price": "price", "/levels": "levels", "/map": "levels", "/news": "news", "/folders": "folders",
-              "/status": "status", "/test": "test", "/start": "status"}.get(c, "status"))
+              "/status": "status", "/test": "test", "/start": "status"}.get(head, "status"))
 
     # automatic briefs, Mon-Fri (UK time)
     ukt = now.tz_convert(UK)
