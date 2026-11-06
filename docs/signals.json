@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T11:45:20.423905-05:00",
+ "updated": "2026-11-06T12:08:20.129139-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4060.899902,
-   "feed": "real-time gold (PAXG, matched to spot +11.22)",
-   "time": "2026-11-06T11:40:00-05:00"
+   "price": 4061.199951,
+   "feed": "real-time gold (PAXG, matched to spot +10.60)",
+   "time": "2026-11-06T12:00:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War memorials in the borough get a fresh look ahead of Remembrance Sunday - Your Thurrock",
-    "Canadian art market takes hit from trade war with US - The Art Newspaper",
-    "Trump Says to \u2018Soon\u2019 Take Decision on Whether to Resume Iran War - ASHARQ AL-AWSAT English"
+    "Pupils from Redditch\u2019s Holyoakes School pay tribute to teacher who died in The Great War - The Redditch Standard",
+    "Major construction near Iran missile sites, satellite images show - BBC",
+    "VTB Ruling Limits Reach Of Sanctions Over Creditor Rights - Law360"
    ]
   },
   "today": [
@@ -119,8 +119,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.46,
-  "gbpusd": 1.33661
+  "stop_cap_usd": 53.47,
+  "gbpusd": 1.33665
  },
  "backtest": {
   "portfolio": {
