@@ -12,6 +12,9 @@ on:
       strats:
         description: "Only these strategies, comma separated (blank = all)"
         default: ""
+      accounts:
+        description: "Account sizes in GBP"
+        default: "200,1000,2000"
       quick:
         description: "Only run the first N combinations (blank = all)"
         default: ""
@@ -42,6 +45,7 @@ jobs:
           OOS_START: ${{ inputs.oos_start || '2025-01-01' }}
           QUICK: ${{ inputs.quick }}
           STRATS: ${{ inputs.strats }}
+          ACCOUNTS: ${{ inputs.accounts || '200,1000,2000' }}
         run: python -u scanner/backtest.py
       - name: Save report
         run: |

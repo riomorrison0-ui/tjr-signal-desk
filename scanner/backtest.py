@@ -28,7 +28,7 @@ HIST = ROOT / "data" / "hist" / "xauusd_m5.csv"
 OOS_START = pd.Timestamp(os.getenv("OOS_START", "2025-01-01"), tz=ET)
 COST = INSTRUMENTS["XAUUSD"]["cost"]
 GBPUSD, LOT_OZ, RISK_PCT = 1.30, 1.0, 2.0
-ACCOUNTS = [200, 500, 1000]
+ACCOUNTS = [int(x) for x in os.getenv("ACCOUNTS", "200,1000,2000").split(",")]
 
 
 def cap_for(acct):
@@ -121,7 +121,30 @@ def main():
             if e2:
                 picks[f"{acct}_{name}"] = max(e2, key=lambda r: (r["ins"]["avg_r"] or -9) * min(1.0, r["ins"]["n"] / 150))
 
-    summary = dict(generated=pd.Timestamp.now(tz="UTC").isoformat(), feed=src, first=str(hist.index[0].date()),
+    # PORTFOLIO: every strategy whose pick made money in-sample, all running together
+    port = {}
+    for acct in ACCOUNTS:
+        legs = [picks.get(f"{acct}_{n}") for n in only]
+        legs = [r for r in legs if r and (r["ins"]["avg_r"] or -9) > 0]
+        if not legs:
+            continue
+        ts = [run(ctx, r["strategy"], r["params"], r["cap"]) for r in legs]
+        ts = [t for t in ts if len(t)]
+        if not ts:
+            continue
+        t = pd.concat(ts).sort_values("confirm_time")
+        ins, oos = t[t.confirm_time < OOS_START], t[t.confirm_time >= OOS_START]
+        days = t.confirm_time.dt.date.nunique()
+        tdays = pd.bdate_range(t.confirm_time.min().date(), t.confirm_time.max().date()).size
+        monthly = t.groupby(t.confirm_time.dt.to_period("M"))["r"].sum()
+        port[str(acct)] = dict(legs=[dict(strategy=r["strategy"], params=r["params"]) for r in legs],
+                               all=stats(t, acct), ins=stats(ins, acct), oos=stats(oos, acct),
+                               years={str(y): stats(g, acct) for y, g in t.groupby(t.confirm_time.dt.year)},
+                               days_with_trade_pct=round(100 * days / max(1, tdays), 1),
+                               per_day=round(len(t) / max(1, tdays), 2),
+                               green_months_pct=round(100 * (monthly > 0).mean(), 1))
+
+    summary = dict(portfolio=port, generated=pd.Timestamp.now(tz="UTC").isoformat(), feed=src, first=str(hist.index[0].date()),
                    last=str(hist.index[-1].date()), oos_start=str(OOS_START.date()), combos=len(results),
                    picks=picks, runtime_s=round(time.time() - t0))
     out = ROOT / "reports"; out.mkdir(exist_ok=True)
@@ -143,6 +166,13 @@ def main():
             md.append(f"| {name} | `{json.dumps(r['params'])}` | {i['n']} | {i['win_rate']} | {i['avg_r']} | {o['n']} | {o['win_rate']} | {o['avg_r']} | {o['pf']} | £{o['pnl_gbp']} | {r['all']['per_month']} | {r['all']['streak']} |")
         b = picks.get(str(acct))
         md += ["", f"**Pick for £{acct}:** " + (f"{b['strategy']} `{json.dumps(b['params'])}`" if b else "nothing profitable in-sample"), ""]
+    for acct, pr in port.items():
+        a, i, o = pr["all"], pr["ins"], pr["oos"]
+        md += [f"## Portfolio £{acct}: " + " + ".join(l["strategy"] for l in pr["legs"]), "",
+               f"- {a['n']} trades, {pr['per_day']} per trading day, a trade on {pr['days_with_trade_pct']}% of days",
+               f"- win {a['win_rate']}% · PF {a['pf']} · avg {a['avg_r']}R · £{a['pnl_gbp']} · max DD £{a['max_dd_gbp']} · worst streak {a['streak']} · green months {pr['green_months_pct']}%",
+               f"- in-sample avg {i['avg_r']}R ({i['n']}) · out-of-sample avg {o['avg_r']}R ({o['n']}), win {o['win_rate']}%, PF {o['pf']}, £{o['pnl_gbp']}",
+               "- years: " + " · ".join(f"{y} {s_['avg_r']:+.2f}R/{s_['n']}" for y, s_ in pr["years"].items()), ""]
     (out / "backtest.md").write_text("\n".join(md))
     print("\n".join(md))
     print(f"done in {time.time() - t0:.0f}s")

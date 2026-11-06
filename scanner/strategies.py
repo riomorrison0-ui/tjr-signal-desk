@@ -203,3 +203,152 @@ GRIDS = dict(
     tjr=[dict(entry=e, target=t, bias=b, m15=m, accept_atr=1.5, confirm_bars=24, zones="both")
          for e in ("fvg", "market") for t in ("1.5R", "2R") for b in ("htf", "none") for m in (True, False)],
 )
+
+
+# ================================================================== DAILY SESSION STRATEGIES
+# Independent tests (2026): most daily gold setups lose after costs. These three published ones held up:
+#   london   London range breakout (MQL5 blog, Oct 2026: 715 trades, ~49% win, PF 1.38, DD 17%)
+#   orb      15-minute opening-range breakout, target 3R (Aurum: 2,003 trades, PF 1.77, walk-forward)
+#   ibretr   Initial Balance retracement (Trade That Swing: ~70% win rate)
+
+def _uk(ctx):
+    if not hasattr(ctx, "_ukt"):
+        u = ctx.df.index.tz_convert(UK)
+        ctx._ukt = (np.array(u.hour * 60 + u.minute), np.array(u.date))
+    return ctx._ukt
+
+
+def _day_slices(ctx):
+    """start/end positions of each UK calendar day."""
+    if not hasattr(ctx, "_ukdays"):
+        mins, dates = _uk(ctx)
+        cuts = np.flatnonzero(np.r_[True, dates[1:] != dates[:-1], True])
+        ctx._ukdays = [(cuts[k], cuts[k + 1]) for k in range(len(cuts) - 1)]
+    return ctx._ukdays
+
+
+def _at(ctx, i, hhmm):
+    """Timestamp of the same UK day at hh:mm."""
+    t = ctx.df.index[i].tz_convert(UK)
+    return pd.Timestamp.combine(t.date(), time(hhmm // 100, hhmm % 100)).tz_localize(UK).tz_convert(ET)
+
+
+def london(ctx: Context, stop="range", tp_mult=1.0, lo=0.5, hi=1.5, end_uk=1100, cap=None) -> list[Setup]:
+    """Asian range 00:00-07:00 UK. First 5m close outside it between 07:00 and end_uk -> trade the break.
+    Stop: opposite side of the range ('range') or the range midpoint ('mid'). Out by 16:00 UK."""
+    df = ctx.df
+    h, l, c = df["high"].values, df["low"].values, df["close"].values
+    mins, _ = _uk(ctx)
+    out, widths = [], []
+    for a, b in _day_slices(ctx):
+        m = mins[a:b]
+        asia = np.flatnonzero(m < 7 * 60)
+        if len(asia) < 60:
+            continue
+        rh, rl = h[a + asia].max(), l[a + asia].min()
+        w = rh - rl
+        avg = np.mean(widths[-20:]) if len(widths) >= 10 else None
+        widths.append(w)
+        if avg is None or not (lo * avg <= w <= hi * avg):
+            continue
+        end = end_uk // 100 * 60 + end_uk % 100
+        for q in range(a, b):
+            if not (7 * 60 <= mins[q] < end):
+                continue
+            side = "BUY" if c[q] > rh else "SELL" if c[q] < rl else None
+            if not side:
+                continue
+            e = c[q]
+            st = (rl if side == "BUY" else rh) if stop == "range" else (rl + rh) / 2
+            risk = abs(e - st)
+            if risk <= 0 or (cap and risk + COST > cap):
+                break
+            tgt = e + tp_mult * risk if side == "BUY" else e - tp_mult * risk
+            why = f"London broke the Asian range ({rl:,.2f}–{rh:,.2f}, ${w:.0f} wide) to the {'upside' if side == 'BUY' else 'downside'}"
+            out.append(_mk(ctx, q, side, e, st, tgt, "london", why, _at(ctx, q, 1600)))
+            break
+    return out
+
+
+def orb(ctx: Context, open_uk=1430, minutes=15, stop="range", tp_mult=3.0, cap=None) -> list[Setup]:
+    """Opening range of the first `minutes` after open_uk (14:30 UK = NY stock open, 13:30 = US data).
+    First 5m close outside it within 2h -> trade the break. Out by 20:00 UK."""
+    df = ctx.df
+    h, l, c = df["high"].values, df["low"].values, df["close"].values
+    mins, _ = _uk(ctx)
+    o = open_uk // 100 * 60 + open_uk % 100
+    out = []
+    for a, b in _day_slices(ctx):
+        m = mins[a:b]
+        rng = np.flatnonzero((m >= o) & (m < o + minutes))
+        if len(rng) < minutes // 5:
+            continue
+        rh, rl = h[a + rng].max(), l[a + rng].min()
+        for q in range(a + rng[-1] + 1, b):
+            if mins[q] >= o + 120:
+                break
+            side = "BUY" if c[q] > rh else "SELL" if c[q] < rl else None
+            if not side:
+                continue
+            e = c[q]
+            st = (rl if side == "BUY" else rh) if stop == "range" else (rl + rh) / 2
+            risk = abs(e - st)
+            if risk <= 0 or (cap and risk + COST > cap):
+                break
+            tgt = e + tp_mult * risk if side == "BUY" else e - tp_mult * risk
+            why = f"5m close {'above' if side == 'BUY' else 'below'} the {minutes}-min opening range ({rl:,.2f}–{rh:,.2f}) from {open_uk // 100:02d}:{open_uk % 100:02d} UK"
+            out.append(_mk(ctx, q, side, e, st, tgt, "orb", why, _at(ctx, q, 2000)))
+            break
+    return out
+
+
+def ibretr(ctx: Context, open_uk=1430, entry_in=0.25, tgt_out=0.5, stop_in=0.6, cap=None) -> list[Setup]:
+    """Initial Balance = first hour after open_uk. After a 5m close beyond it, LIMIT entry entry_in x IB back
+    inside, target tgt_out x IB beyond the IB edge, stop stop_in x IB inside. Out by 20:00 UK."""
+    df = ctx.df
+    h, l, c = df["high"].values, df["low"].values, df["close"].values
+    mins, _ = _uk(ctx)
+    o = open_uk // 100 * 60 + open_uk % 100
+    out = []
+    for a, b in _day_slices(ctx):
+        m = mins[a:b]
+        ib = np.flatnonzero((m >= o) & (m < o + 60))
+        if len(ib) < 10:
+            continue
+        hi_, lo_ = h[a + ib].max(), l[a + ib].min()
+        w = hi_ - lo_
+        if w <= 0:
+            continue
+        for q in range(a + ib[-1] + 1, b):
+            if mins[q] >= o + 240:
+                break
+            side = "BUY" if c[q] > hi_ else "SELL" if c[q] < lo_ else None
+            if not side:
+                continue
+            if side == "BUY":
+                e, st, tgt = hi_ - entry_in * w, hi_ - stop_in * w, hi_ + tgt_out * w
+            else:
+                e, st, tgt = lo_ + entry_in * w, lo_ + stop_in * w, lo_ - tgt_out * w
+            risk = abs(e - st)
+            if cap and risk + COST > cap:
+                break
+            s = _mk(ctx, q, side, e, st, tgt, "ibretr",
+                    f"New York broke its first-hour range ({lo_:,.2f}–{hi_:,.2f}); buying the pullback into it" if side == "BUY"
+                    else f"New York broke its first-hour range ({lo_:,.2f}–{hi_:,.2f}); selling the pullback into it",
+                    _at(ctx, q, 2000))
+            s.entry_type, s.status, s.fill_time = "limit", "pending", None
+            s.valid_until = _at(ctx, q, 1900).isoformat()
+            out.append(s)
+            break
+    return out
+
+
+STRATEGIES.update(london=london, orb=orb, ibretr=ibretr)
+GRIDS.update(
+    london=[dict(stop=s, tp_mult=t, lo=lo, hi=hi, end_uk=e) for s in ("range", "mid") for t in (0.75, 1.0, 1.5, 2.0)
+            for lo, hi in ((0.5, 1.5), (0.0, 9.0)) for e in (1100, 1300)],
+    orb=[dict(open_uk=o, minutes=mn, stop=s, tp_mult=t) for o in (1330, 1430, 800) for mn in (15, 30)
+         for s in ("range", "mid") for t in (1.0, 2.0, 3.0)],
+    ibretr=[dict(open_uk=o, entry_in=e, tgt_out=g, stop_in=s) for o in (1430, 800) for e in (0.1, 0.25)
+            for g in (0.3, 0.5) for s in (0.6, 1.0)],
+)
