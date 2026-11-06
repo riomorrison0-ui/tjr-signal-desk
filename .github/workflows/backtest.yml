@@ -15,6 +15,9 @@ on:
       accounts:
         description: "Account sizes in GBP"
         default: "200,1000,2000"
+      script:
+        description: "backtest | lastyear"
+        default: "backtest"
       tag:
         description: "Save results under reports/<tag>"
         default: ""
@@ -50,7 +53,7 @@ jobs:
           STRATS: ${{ inputs.strats }}
           REPORT_TAG: ${{ inputs.tag }}
           ACCOUNTS: ${{ inputs.accounts || '200,1000,2000' }}
-        run: python -u scanner/backtest.py
+        run: python -u scanner/${{ inputs.script || 'backtest' }}.py
       - name: Save report
         run: |
           git config user.name "gold-desk-bot"
