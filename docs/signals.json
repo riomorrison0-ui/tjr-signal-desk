@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T09:07:44.404904-05:00",
+ "updated": "2026-11-06T09:08:48.021924-05:00",
  "params": "entry=fvg target=2R bias=structure zones=both stopcap=$5.34",
  "prices": {
   "XAUUSD": {
-   "price": 4057.300048828125,
-   "time": "2026-11-06T08:57:57-05:00",
+   "price": 4055.39990234375,
+   "time": "2026-11-06T08:55:00-05:00",
    "feed": "COMEX gold futures (Yahoo)"
   }
  },
