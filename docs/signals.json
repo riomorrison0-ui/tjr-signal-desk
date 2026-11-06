@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T12:55:20.372833-05:00",
+ "updated": "2026-11-06T13:00:20.369275-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4058.199951,
-   "feed": "real-time gold (PAXG, matched to spot +10.70)",
-   "time": "2026-11-06T12:50:00-05:00"
+   "price": 4061.300049,
+   "feed": "real-time gold (PAXG, matched to spot +11.24)",
+   "time": "2026-11-06T12:55:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Houthi Ballistic Missile Attack Leaves Civilian Casualties in Taiz - ASHARQ AL-AWSAT English",
-    "What the U.S. Midterm Result Mean for the Ukraine War - Transitions Online",
-    "Can Starlink keep Lebanon connected in the event of another war? - The New Arab"
+    "Reform's war crimes protection charter is chilling \u2013 even if they are deluded - The National Scot",
+    "How many Russian soldiers died in the war with Ukraine - Mediazona",
+    "US Sanctions 45 More Targets Tied to Alleged Crypto Scam Empire Prince Group - Decrypt"
    ]
   },
   "today": [
