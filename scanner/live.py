@@ -113,6 +113,17 @@ def entry_zone(s: dict) -> tuple[float, float]:
     return s["entry"] - w, s["entry"] + w
 
 
+def tp_block(s, risk, lots, fx, cost):
+    legs = s.get("legs") or make_legs(s["side"], s["entry"], s["stop"], lots)
+    if not legs:
+        return ""
+    lines = [f"🎯 <b>OPEN {len(legs)} TRADE{'S' if len(legs) > 1 else ''}, SAME STOP, DIFFERENT TAKE PROFITS:</b>"]
+    for l in legs:
+        g = (abs(l["tp"] - s["entry"]) - cost) * l["lots"] * CONTRACT_OZ / fx
+        lines.append(f"   <b>TP{l['n']}: SET YOUR TAKE PROFIT TO {l['tp']:,.2f}</b> · {l['lots']:.2f} lots  (+${abs(l['tp'] - s['entry']):.2f} · ≈ +£{g:,.2f})")
+    return "\n".join(lines) + "\n"
+
+
 def signal_msg(s: dict, last: float) -> str:
     cfg = INSTRUMENTS["XAUUSD"]
     buy = s["side"] == "BUY"
@@ -136,11 +147,11 @@ def signal_msg(s: dict, last: float) -> str:
         f"{head}\n\n"
         f"📍 <b>ENTER BETWEEN {lo:,.2f} – {hi:,.2f}</b>\n"
         f"<i>(signal price {s['entry']:,.2f} · don't chase outside this range)</i>\n\n"
-        f"🎯 <b>SET YOUR TAKE PROFIT TO {s['target']:,.2f}</b>  (+${rew:.2f} · ≈ +£{rew_gbp:,.2f})\n"
-        f"🛑 <b>SET YOUR STOP LOSS TO {s['stop']:,.2f}</b>  (−${risk:.2f} · ≈ −£{risk_gbp:,.2f})\n\n"
-        f"📦 <b>LOT SIZE: {lots:.2f}</b>  ({risk_gbp / bal * 100:.1f}% of £{bal:,.2f}; max 2%)\n\n"
+        + tp_block(s, risk, lots, fx, cfg["cost"]) +
+        f"🛑 <b>SET YOUR STOP LOSS TO {s['stop']:,.2f}</b> on every trade  (−${risk:.2f} · ≈ −£{risk_gbp:,.2f} total)\n\n"
+        f"📦 <b>TOTAL LOT SIZE: {lots:.2f}</b>  ({risk_gbp / bal * 100:.1f}% of £{bal:,.2f}; max 2%)\n\n"
         f"<b>Why:</b> {s.get('why') or s['level_name']}\n"
-        f"<b>Strategy:</b> {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))} · {rew / risk:.1f}R\n"
+        f"<b>Strategy:</b> {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))} · TP1 0.5R / TP2 1R / TP3 1.5R\n"
         + news_line(s) +
         f"Signal {t} UK (candle close). {manage}\n#paper"
     )
@@ -187,7 +198,37 @@ def lot_size(balance_gbp, risk_pct, stop_usd, fx, cost):
     return round(lots, 2) if lots >= LOT_MIN else 0.0
 
 
+TP_R = (0.5, 1.0, 1.5)    # TP1 / TP2 / TP3 in R (backtested: beats a single 1R target; no break-even move)
+
+
+def make_legs(side, entry, stop, lots):
+    """Split the position into up to 3 trades with the same stop and their own take profit.
+    0.03+ lots -> thirds (extra 0.01s go to TP1 first); 0.02 -> TP1 + TP3; 0.01 -> TP2 only (= 1R)."""
+    risk = abs(entry - stop)
+    px = [round(entry + m * risk, 2) if side == "BUY" else round(entry - m * risk, 2) for m in TP_R]
+    n = int(round(lots / LOT_STEP))
+    if n >= 3:
+        base, rem = divmod(n, 3)
+        counts = [base + (1 if i < rem else 0) for i in range(3)]
+        idx = [0, 1, 2]
+    elif n == 2:
+        counts, idx = [1, 1], [0, 2]
+    elif n == 1:
+        counts, idx = [1], [1]
+    else:
+        return []
+    return [dict(n=i + 1, tp=px[i], r_mult=TP_R[i], lots=round(c * LOT_STEP, 2), status="open") for i, c in zip(idx, counts)]
+
+
+def _leg_pnl(d, leg):
+    cost = INSTRUMENTS["XAUUSD"]["cost"]
+    move = (leg["exit_price"] - d["entry"]) if d["side"] == "BUY" else (d["entry"] - leg["exit_price"])
+    return (move - cost) * leg["lots"] * CONTRACT_OZ / d.get("gbpusd", 1.30)
+
+
 def pnl_gbp(c) -> float:
+    if c.get("legs"):
+        return sum(_leg_pnl(c, l) for l in c["legs"] if l.get("exit_price") is not None)
     cost = INSTRUMENTS[c["instrument"]]["cost"]
     move = (c["exit_price"] - c["entry"]) if c["side"] == "BUY" else (c["entry"] - c["exit_price"])
     return (move - cost) * c.get("lots", LOT) * CONTRACT_OZ / c.get("gbpusd", 1.30)
@@ -223,10 +264,13 @@ PIP = 0.10   # gold pip on MT5 (XAUUSD): $0.10 move = 1 pip
 
 
 def _pips(d):
+    """Pips for a trade: summed over its TP legs (each leg is its own MT5 position)."""
+    sign = 1 if d["side"] == "BUY" else -1
+    if d.get("legs"):
+        return sum((l["exit_price"] - d["entry"]) * sign / PIP for l in d["legs"] if l.get("exit_price") is not None)
     if d.get("exit_price") is None:
         return 0.0
-    move = (d["exit_price"] - d["entry"]) if d["side"] == "BUY" else (d["entry"] - d["exit_price"])
-    return move / PIP
+    return (d["exit_price"] - d["entry"]) * sign / PIP
 
 
 def rsi2_diag(df, cfg, day):
@@ -271,15 +315,21 @@ def daily_summary(state, cfg, df, now, account, max_risk_pct):
     st = stats(done_all, account, state.get("balance_adjust"))
     bal = st["balance"]
 
-    def kind(d):
+    def legs_of(d):
+        if d.get("legs"):
+            return [l for l in d["legs"] if l.get("exit_price") is not None]
         n = " ".join(d.get("notes", []))
-        if "closed at" in n:
-            return "close"
-        return "tp" if d["status"] == "win" else "sl"
-    tp = [d for d in closed_today if kind(d) == "tp"]
-    sl = [d for d in closed_today if kind(d) == "sl"]
-    cl = [d for d in closed_today if kind(d) == "close"]
-    pips = [_pips(d) for d in closed_today]
+        k = "early" if "closed at" in n else ("tp" if d["status"] == "win" else "sl")
+        return [dict(n=0, status=k, exit_price=d["exit_price"], lots=d.get("lots", LOT))]
+    def leg_pips(d, l):
+        move = (l["exit_price"] - d["entry"]) if d["side"] == "BUY" else (d["entry"] - l["exit_price"])
+        return move / PIP
+    all_legs = [(d, l) for d in closed_today for l in legs_of(d)]
+    tp = [x for x in all_legs if x[1]["status"] == "tp"]
+    sl = [x for x in all_legs if x[1]["status"] == "sl"]
+    cl = [x for x in all_legs if x[1]["status"] == "early"]
+    tpn = {k: sum(1 for _, l in tp if l["n"] == k) for k in (1, 2, 3)}
+    pips = [leg_pips(d, l) for d, l in all_legs]
     gained = sum(x for x in pips if x > 0); lost = -sum(x for x in pips if x < 0)
     gbp = sum(pnl_gbp(d) for d in closed_today)
 
@@ -298,16 +348,21 @@ def daily_summary(state, cfg, df, now, account, max_risk_pct):
     else:
         L += [f"📊 <b>Calls today: {len(called)}</b>  ·  closed today: {len(closed_today)}", ""]
         for d in sorted(closed_today, key=lambda x: x["exit_time"]):
-            k = kind(d); pp = _pips(d); g = pnl_gbp(d)
-            tag = {"tp": "💰 TP HIT", "sl": "❌ SL HIT", "close": "🚪 CLOSED EARLY"}[k]
-            L.append(f"{tag} · {d['side']} @ {d['entry']:,.2f} → {d['exit_price']:,.2f} · {d.get('lots', LOT):.2f} lots · "
-                     f"{pp:+.0f} pips · {'+' if g >= 0 else '-'}£{abs(g):,.2f}")
+            g = pnl_gbp(d)
+            parts = []
+            for l in legs_of(d):
+                nm = {"tp": f"TP{l['n']} ✅" if l["n"] else "TP ✅", "sl": "SL ❌", "early": "closed early 🚪"}[l["status"]]
+                parts.append(f"{nm} {leg_pips(d, l):+.0f}p")
+            L.append(f"{'🟢' if g >= 0 else '🔴'} {d['side']} @ {d['entry']:,.2f} · {d.get('lots', LOT):.2f} lots · "
+                     + " · ".join(parts) + f" · <b>{'+' if g >= 0 else '-'}£{abs(g):,.2f}</b>")
         for d in still_open:
             L.append(f"⏳ STILL OPEN · {d['side']} @ {d['entry']:,.2f} · TP {d['target']:,.2f} · SL {d['stop']:,.2f} · {d.get('lots', LOT):.2f} lots")
         for d in skipped:
             L.append(f"⏭ SKIPPED · {d['side']} · {' '.join(d.get('notes', []))}")
         L += ["",
-              f"✅ Take profits hit: <b>{len(tp)}</b>   ❌ Stop losses hit: <b>{len(sl)}</b>   🚪 Closed early: <b>{len(cl)}</b>",
+              f"🎯 TP1 hit: <b>{tpn[1]}</b> · TP2 hit: <b>{tpn[2]}</b> · TP3 hit: <b>{tpn[3]}</b>"
+              + (f" · TP (single): <b>{sum(1 for _, l in tp if not l['n'])}</b>" if any(not l['n'] for _, l in tp) else ""),
+              f"❌ Stop losses hit: <b>{len(sl)}</b>   🚪 Closed early: <b>{len(cl)}</b>",
               f"📈 Pips gained: <b>+{gained:,.0f}</b>   📉 Pips lost: <b>−{lost:,.0f}</b>",
               f"🧮 <b>Net: {gained - lost:+,.0f} pips · {'+' if gbp >= 0 else '-'}£{abs(gbp):,.2f}</b>"]
         if (gained - lost) * gbp < 0:
@@ -316,15 +371,16 @@ def daily_summary(state, cfg, df, now, account, max_risk_pct):
         L.append("")
         good, bad = [], []
         if tp:
-            good.append(f"{len(tp)} trade(s) ran all the way to target: the dip/rally snapped back as the strategy expects.")
+            good.append(f"{len(tp)} take profit(s) banked" + (f", including {tpn[3]} TP3 runner(s)" if tpn[3] else "") +
+                        ": the dip/rally snapped back as the strategy expects.")
         if cl:
-            w = [d for d in cl if pnl_gbp(d) > 0]
+            w = [x for x in cl if leg_pips(*x) > 0]
             if w:
                 good.append(f"{len(w)} early exit(s) banked profit when price returned to its average.")
             if len(w) < len(cl):
                 bad.append(f"{len(cl) - len(w)} early exit(s) closed slightly red: price reverted without making progress.")
         if sl:
-            bad.append(f"{len(sl)} stop(s) hit: the move kept going instead of snapping back (trend push or news).")
+            bad.append(f"{len(sl)} position(s) stopped out: the move kept going instead of snapping back (trend push or news).")
         if not good and not bad:
             good.append("No trades closed yet today.")
         L += ["<b>What went well:</b> " + (" ".join(good) or "Nothing closed in profit today."),
@@ -333,7 +389,7 @@ def daily_summary(state, cfg, df, now, account, max_risk_pct):
           f"💷 <b>Balance: £{bal:,.2f}</b>  ({'+' if bal >= account else ''}{(bal / account - 1) * 100:.1f}% since start) · next trade risks 2% = £{bal * max_risk_pct / 100:,.2f}",
           f"📅 Week: {'+' if wk[0] >= 0 else '-'}£{abs(wk[0]):,.2f} ({wk[1]:+,.0f} pips, {wk[2]} trades) · "
           f"Month: {'+' if mo[0] >= 0 else '-'}£{abs(mo[0]):,.2f} ({mo[1]:+,.0f} pips, {mo[2]} trades)",
-          f"<i>Strategy unchanged: {STRATEGY_NAMES.get(cfg.get('strategy'), cfg.get('strategy'))}, 2% risk, same rules every scan. 1 pip = $0.10.</i>"]
+          f"<i>Strategy unchanged: {STRATEGY_NAMES.get(cfg.get('strategy'), cfg.get('strategy'))}, TP1/TP2/TP3, 2% risk, same rules every scan. 1 pip = $0.10.</i>"]
     return "\n".join(L)
 
 
@@ -410,7 +466,10 @@ def scan_once(state, cfg, mode="scan"):
             bal_now = stats(done_, account, state.get("balance_adjust"))["balance"]
             lots = lot_size(bal_now, max_risk_pct, abs(s.entry - s.stop), fx, cost)
             d.update(sent_at=now.isoformat(), initial_status=s.status, feed=feed, gbpusd=round(fx, 5),
-                     account_gbp=round(bal_now, 2), lots=lots, risk_pct=max_risk_pct)
+                     account_gbp=round(bal_now, 2), lots=lots, risk_pct=max_risk_pct,
+                     legs=make_legs(s.side, s.entry, s.stop, lots))
+            if d["legs"]:
+                d["target"] = d["legs"][-1]["tp"]
             if lots <= 0:
                 d.update(status="skipped", notes=["stop too wide for 2% even at 0.01 lots"])
                 state["signals"][s.id] = d
@@ -426,25 +485,45 @@ def scan_once(state, cfg, mode="scan"):
             d["news"] = dict(risk=(nws.get("risk") or {}).get("level"), next=(nws.get("next") or [None])[0])
             state["signals"][s.id] = d
             tg(signal_msg(d, last))
-        # manage open calls
+        # manage open calls (each TP leg is its own trade: same stop, own take profit, same early exit)
         for sid, d in state["signals"].items():
             if d["status"] not in ("pending", "open"):
                 continue
-            base = {k: d[k] for k in Setup.__dataclass_fields__ if k in d}
-            base.update(status=d["initial_status"], fill_time=None if d["initial_status"] == "pending" else d["confirm_time"],
-                        exit_time=None, exit_price=None, r=None, notes=[])
-            s = simulate(Setup(**base), ctx.df, cost)
-            if s.status != d["status"]:
-                prev = d["status"]
-                d.update(status=s.status, fill_time=s.fill_time, exit_time=s.exit_time, exit_price=s.exit_price, r=s.r, notes=s.notes)
-                if prev == "pending" and s.status in ("win", "loss"):
-                    tg(update_msg(dict(d, status="open")))
-                extra = ""
-                if s.status in ("win", "loss"):
-                    done_ = sorted([x for x in state["signals"].values() if x["status"] in ("win", "loss")], key=lambda x: x["exit_time"])
-                    b_ = stats(done_, account, state.get("balance_adjust"))["balance"]
-                    extra = f"\n💷 Balance now ≈ <b>£{b_:,.2f}</b> → next trade risks 2% = £{b_ * max_risk_pct / 100:,.2f}"
-                tg(update_msg(d) + extra)
+            legs = d.get("legs") or [dict(n=0, tp=d["target"], lots=d.get("lots", LOT), status="open")]
+            changed = []
+            for leg in legs:
+                if leg["status"] != "open":
+                    continue
+                base = {k: d[k] for k in Setup.__dataclass_fields__ if k in d}
+                base.update(target=leg["tp"], status=d["initial_status"],
+                            fill_time=None if d["initial_status"] == "pending" else d["confirm_time"],
+                            exit_time=None, exit_price=None, r=None, notes=[])
+                r = simulate(Setup(**base), ctx.df, cost)
+                if r.status in ("win", "loss"):
+                    how = "early" if any("closed at" in n for n in r.notes) else ("tp" if r.status == "win" else "sl")
+                    leg.update(status=how, exit_price=r.exit_price, exit_time=r.exit_time, r=r.r)
+                    changed.append(leg)
+            if not d.get("legs"):
+                d["legs"] = legs
+            for leg in changed:
+                g = _leg_pnl(d, leg)
+                label = {"tp": f"🎯 TP{leg['n']} HIT", "sl": "❌ STOP LOSS HIT", "early": "🚪 CLOSE NOW"}[leg["status"]] if leg["n"] else \
+                        {"tp": "💰 TAKE PROFIT HIT", "sl": "❌ STOPPED", "early": "🚪 CLOSE NOW"}[leg["status"]]
+                extra = " Exit the rest at market (price is back at its average)." if leg["status"] == "early" else ""
+                tg(f"{label} — {d['side']} XAUUSD @ {d['entry']:,.2f} · {leg['lots']:.2f} lots closed at {leg['exit_price']:,.2f} "
+                   f"({'+' if g >= 0 else '-'}£{abs(g):,.2f}).{extra}")
+            if all(l["status"] != "open" for l in legs):
+                tot = pnl_gbp(d)
+                risk_usd = abs(d["entry"] - d["stop"])
+                lots_tot = sum(l["lots"] for l in legs)
+                d.update(status="win" if tot > 0 else "loss",
+                         exit_time=max(l["exit_time"] for l in legs), exit_price=legs[-1]["exit_price"],
+                         r=round(tot / ((risk_usd + cost) * lots_tot * CONTRACT_OZ / d.get("gbpusd", 1.30)), 3),
+                         notes=[f"legs: {', '.join(('TP' + str(l['n']) if l['n'] else 'TP') + ' ' + l['status'] for l in legs)}"])
+                done_ = sorted([x for x in state["signals"].values() if x["status"] in ("win", "loss")], key=lambda x: x["exit_time"])
+                b_ = stats(done_, account, state.get("balance_adjust"))["balance"]
+                tg(f"🏁 <b>TRADE CLOSED</b> — {d['side']} XAUUSD @ {d['entry']:,.2f} · total {'+' if tot >= 0 else '-'}£{abs(tot):,.2f}\n"
+                   f"💷 Balance now ≈ <b>£{b_:,.2f}</b> → next trade risks 2% = £{b_ * max_risk_pct / 100:,.2f}")
 
     sigs = sorted(state["signals"].values(), key=lambda d: d["confirm_time"], reverse=True)
     closed = sorted([d for d in sigs if d["status"] in ("win", "loss")], key=lambda d: d["exit_time"])
