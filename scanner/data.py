@@ -56,28 +56,70 @@ def twelvedata(key: str, interval: str = "5min", size: int = 1500) -> pd.DataFra
     return df[df.index + pd.Timedelta(minutes=5) <= now]
 
 
+def binance_paxg(interval: str = "5m", limit: int = 1000) -> pd.DataFrame:
+    """Real-time tokenised gold (1 PAXG = 1 oz) from Binance's public market-data API. No key, no delay."""
+    r = requests.get("https://data-api.binance.vision/api/v3/klines",
+                     params=dict(symbol="PAXGUSDT", interval=interval, limit=limit), headers=UA, timeout=15)
+    r.raise_for_status()
+    k = r.json()
+    df = pd.DataFrame([[x[0], float(x[1]), float(x[2]), float(x[3]), float(x[4]), x[6]] for x in k],
+                      columns=["t", "open", "high", "low", "close", "close_t"])
+    df.index = pd.DatetimeIndex(pd.to_datetime(df["t"], unit="ms", utc=True)).tz_convert(ET)
+    now_ms = pd.Timestamp.now(tz="UTC").value // 10**6
+    df = df[df["close_t"] < now_ms]          # closed candles only
+    return df[["open", "high", "low", "close"]]
+
+
+def spot_gold() -> float | None:
+    """Live spot XAU/USD (what MT5 brokers quote), free, no key."""
+    for url, path in (("https://api.gold-api.com/price/XAU", ("price",)),
+                      ("https://data-asg.goldprice.org/dbXRates/USD", ("items", 0, "xauPrice"))):
+        try:
+            j = requests.get(url, headers=UA, timeout=10).json()
+            for k in path:
+                j = j[k]
+            v = float(j)
+            if 500 < v < 20000:
+                return v
+        except Exception:  # noqa: BLE001
+            continue
+    return None
+
+
+def _anchor(df: pd.DataFrame, spot: float | None) -> tuple[pd.DataFrame, float]:
+    """Shift candles so the last price equals live spot (removes PAXG premium / futures basis)."""
+    if spot is None or df.empty:
+        return df, 0.0
+    off = spot - float(df["close"].iloc[-1])
+    if abs(off) > 60:
+        return df, 0.0
+    return df + off, off
+
+
 def gold_live() -> tuple[pd.DataFrame, str]:
-    """Best free gold feed available right now. Returns (bars, feed name)."""
+    """Best free real-time gold feed. Returns (closed 5m candles in spot-gold terms, feed name)."""
     import os
     errors = []
     key = os.getenv("TWELVEDATA_KEY")
     if key:
         try:
-            return twelvedata(key), "spot XAU/USD (Twelve Data)"
+            return twelvedata(key), "spot XAU/USD (Twelve Data, real-time)"
         except Exception as e:  # noqa: BLE001
             errors.append(f"twelvedata: {e}")
-    for sym, name in (("XAUUSD=X", "spot XAU/USD (Yahoo)"), ("GC=F", "COMEX gold futures (Yahoo)")):
-        try:
-            df = yahoo(sym, "5m", "5d")
-            fresh = (pd.Timestamp.now(tz=ET) - df.index[-1]) < pd.Timedelta(minutes=40)
-            if len(df) > 300 and fresh:
-                return df, name
-            errors.append(f"{sym}: {len(df)} bars, last {df.index[-1]}")
-        except Exception as e:  # noqa: BLE001
-            errors.append(f"{sym}: {e}")
-    # market closed / stale: return futures anyway so open trades can still be managed
+    spot = spot_gold()
     try:
-        return yahoo("GC=F", "5m", "5d"), "COMEX gold futures (Yahoo, stale)"
+        df = binance_paxg("5m", 1000)
+        fresh = (pd.Timestamp.now(tz=ET) - df.index[-1]) < pd.Timedelta(minutes=15)
+        if len(df) > 300 and fresh:
+            df, off = _anchor(df, spot)
+            return df, f"real-time gold (PAXG, matched to spot {'%+.2f' % off})"
+        errors.append(f"paxg stale: last {df.index[-1]}")
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"paxg: {e}")
+    try:
+        df = yahoo("GC=F", "5m", "5d")
+        df, off = _anchor(df, spot)
+        return df, f"COMEX futures (Yahoo, ~10-15 min delayed, matched to spot {'%+.2f' % off})"
     except Exception as e:  # noqa: BLE001
         errors.append(str(e))
     raise RuntimeError(" | ".join(errors))

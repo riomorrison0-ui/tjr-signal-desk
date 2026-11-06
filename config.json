@@ -5,14 +5,12 @@
   "account_gbp": 200,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "params": {
-    "entry": "fvg",
-    "target": "2R",
-    "bias": "htf",
-    "m15": true,
-    "accept_atr": 1.0,
-    "confirm_bars": 12,
-    "zones": "both"
-  },
-  "note": "Placeholder settings until the backtest picks them. Stop cap is computed live from account_gbp x max_risk_pct."
+  "note": "Placeholder until the strategy shoot-out backtest picks the winner.",
+  "strategy": "pdbreak",
+  "strategy_params": {
+    "sl_usd": 5,
+    "tp_mult": 2.0,
+    "hold_days": 1,
+    "window_end_uk": 17
+  }
 }

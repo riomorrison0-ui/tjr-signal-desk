@@ -114,8 +114,10 @@ def snapshot(now: pd.Timestamp) -> dict:
     snap = dict(ok_calendar=False, ok_headlines=False, blackout=None, next=[], headlines={}, risk=dict(level="unknown"))
     try:
         ev = calendar()
+        ukd = now.tz_convert("Europe/London").date()
+        today = [e for e in ev if e["country"] == "USD" and pd.Timestamp(e["time"]).tz_convert("Europe/London").date() == ukd]
         snap.update(ok_calendar=True, blackout=blackout(ev, now), next=next_events(ev, now),
-                    week_high_usd=len(gold_events(ev)))
+                    week_high_usd=len(gold_events(ev)), today=sorted(today, key=lambda e: e["time"]), events=ev)
     except Exception as e:  # noqa: BLE001
         snap["calendar_error"] = str(e)
     h = headlines()

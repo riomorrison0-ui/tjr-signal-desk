@@ -1,16 +1,17 @@
 """
-Live scanner. Runs every 5 minutes on GitHub Actions.
+Gold Desk live engine (GitHub Actions).
 
-- fetches the latest closed 5m candles for every instrument
-- runs the TJR model; any setup confirmed in the last 45 min that we haven't sent -> NEW SIGNAL
-- re-checks every pending/open signal -> FILLED / TP HIT / STOPPED / EXPIRED updates
-- keeps the paper account (data/state.json) and the dashboard feed (docs/signals.json)
+LOOP mode (default on Actions): one job runs for ~5h45m. It wakes ~20s after every 5-minute candle
+closes, scans, manages open calls, answers Telegram commands every minute, then hands over to a fresh
+job by dispatching itself. A cron every 30 min restarts the chain if it ever breaks. Nobody has to prompt it.
 """
 from __future__ import annotations
 
 import json
 import os
+import subprocess
 import sys
+import time as _time
 from datetime import timedelta
 from pathlib import Path
 
@@ -18,8 +19,9 @@ import pandas as pd
 import requests
 
 sys.path.insert(0, os.path.dirname(__file__))
-from tjr import ET, INSTRUMENTS, Params, Setup, find_setups, simulate  # noqa: E402
-from data import gold_live  # noqa: E402
+from tjr import ET, INSTRUMENTS, Context, Setup, simulate  # noqa: E402
+from strategies import STRATEGIES  # noqa: E402
+from data import gold_live, spot_gold  # noqa: E402
 import news as newsmod  # noqa: E402
 import briefs  # noqa: E402
 
@@ -27,9 +29,17 @@ ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "state.json"
 FEED = ROOT / "docs" / "signals.json"
 CONFIG = ROOT / "config.json"
+UK = "Europe/London"
 
-LOT = 0.01                 # fixed lot size
+LOT = 0.01
 LOT_OZ = 1.0               # 0.01 lot XAUUSD = 1 oz -> $1 per $1 move
+STRATEGY_NAMES = {
+    "pdbreak": "Unger previous-day breakout",
+    "compress": "Unger compression breakout",
+    "channel": "Unger 5m channel breakout",
+    "cci": "Unger CCI momentum",
+    "tjr": "TJR liquidity sweep",
+}
 
 
 def load_json(p: Path, default):
@@ -97,33 +107,33 @@ def unit(inst, d):
 
 
 def signal_msg(s: dict, last: float) -> str:
-    cfg = INSTRUMENTS[s["instrument"]]
-    dp = cfg["dp"]
+    cfg = INSTRUMENTS["XAUUSD"]
     arrow = "🟢 BUY" if s["side"] == "BUY" else "🔴 SELL"
     risk = abs(s["entry"] - s["stop"])
     rew = abs(s["target"] - s["entry"])
-    t = pd.Timestamp(s["confirm_time"]).tz_convert("Europe/London").strftime("%H:%M")
-    vu = pd.Timestamp(s["valid_until"]).tz_convert("Europe/London").strftime("%H:%M")
+    t = pd.Timestamp(s["confirm_time"]).tz_convert(UK).strftime("%H:%M")
     gap = s["entry"] - last
-    where = "at market" if abs(gap) < 1e-9 else (f"{unit(s['instrument'], abs(gap))} {'below' if gap < 0 else 'above'} current price")
-    kind = "LIMIT" if s["status"] == "pending" else "MARKET"
+    kind = {"limit": "LIMIT", "stop": "STOP"}.get(s.get("entry_type"), "MARKET")
+    if kind == "MARKET":
+        where = f"now (last price {last:,.2f})"
+    else:
+        where = f"${abs(gap):.2f} {'below' if gap < 0 else 'above'} current price"
     fx = s.get("gbpusd", 1.30)
     risk_gbp = (risk + cfg["cost"]) * LOT_OZ / fx
     rew_gbp = (rew - cfg["cost"]) * LOT_OZ / fx
     acct = s.get("account_gbp", 200)
-    money = f"\n<b>0.01 lots</b> · risk ≈ £{risk_gbp:.2f} ({risk_gbp / acct * 100:.1f}% of £{acct:.0f}) · profit ≈ £{rew_gbp:.2f}\n"
+    hold = s.get("hold_until")
+    hold_txt = (f"Hold up to {pd.Timestamp(hold).tz_convert(UK):%a %H:%M} UK if neither is hit" if hold
+                else "Closed by end of day if neither is hit")
     return (
-        f"<b>{arrow} {s['instrument']}</b>  ({cfg['name']})\n"
-        f"{kind} entry <b>{fmt(s['entry'], dp)}</b>  — {where}\n"
-        f"Stop <b>{fmt(s['stop'], dp)}</b>  ({unit(s['instrument'], risk)} risk)\n"
-        f"Take profit <b>{fmt(s['target'], dp)}</b>  ({unit(s['instrument'], rew)}, {s['rr']}R)\n"
-        + money +
-        f"\nWhy: {s['level_name'].replace('_', ' ')} swept → 5m break of structure"
-        f"{' → FVG retrace' if kind == 'LIMIT' else ''}. 1H bias {s['bias']}. {s['killzone'].upper()} killzone.\n"
+        f"<b>{arrow} XAUUSD</b>  (Gold) · {STRATEGY_NAMES.get(s.get('strategy'), s.get('strategy'))}\n"
+        f"{kind} entry <b>{s['entry']:,.2f}</b>  — {where}\n"
+        f"Stop loss <b>{s['stop']:,.2f}</b>  (${risk:.2f})\n"
+        f"Take profit <b>{s['target']:,.2f}</b>  (${rew:.2f}, {s['rr']}R)\n"
+        f"\n<b>0.01 lots</b> · risk ≈ £{risk_gbp:.2f} ({risk_gbp / acct * 100:.1f}% of £{acct:.0f}) · profit ≈ £{rew_gbp:.2f}\n"
+        f"\nWhy: {s.get('why') or s['level_name']}\n"
         + news_line(s) +
-        f"Signal {t} UK" + (f" · limit valid until {vu} UK" if kind == "LIMIT" else "") +
-        ("\n<i>Levels are on COMEX futures (a few $ above spot) — on MT5 place it using the distances.</i>" if "futures" in s.get("feed", "") else "")
-        + "\n#paper"
+        f"Signal {t} UK (candle close) · {hold_txt}\n#paper"
     )
 
 
@@ -137,7 +147,7 @@ def news_line(s: dict) -> str:
 
 def update_msg(s: dict) -> str:
     dp = INSTRUMENTS[s["instrument"]]["dp"]
-    head = f"{s['side']} {s['instrument']} @ {fmt(s['entry'], dp)}"
+    head = f"{s['side']} XAUUSD @ {fmt(s['entry'], dp)}"
     if s["status"] == "open":
         return f"✅ FILLED — {head}. Stop {fmt(s['stop'], dp)}, target {fmt(s['target'], dp)}."
     if s["status"] == "win":
@@ -179,141 +189,223 @@ def gbpusd() -> float:
         return 1.30
 
 
-def main():
-    cfg = load_json(CONFIG, {})
-    p = Params(**cfg.get("params", {}))
+def folder_msg(nws: dict, now: pd.Timestamp) -> str:
+    ev = nws.get("today", [])
+    ukd = now.tz_convert(UK)
+    if not nws.get("ok_calendar"):
+        return "📁 <b>News folders today</b>\n⚠️ Calendar feed unreachable — check ForexFactory manually."
+    icon = {"High": "🔴", "Medium": "🟠", "Low": "🟡", "Holiday": "⚪"}
+    lines = [f"📁 <b>News folders — {ukd:%A %d %b}</b> (USD, UK times)"]
+    if not ev:
+        lines.append("No USD events today. Clean day for gold.")
+    for e in ev:
+        t = pd.Timestamp(e["time"]).tz_convert(UK)
+        extra = " · ".join(x for x in (f"forecast {e['forecast']}" if e.get("forecast") else "",
+                                        f"prev {e['previous']}" if e.get("previous") else "") if x)
+        lines.append(f"{icon.get(e['impact'], '•')} {t:%H:%M} {briefs.esc(e['title'])}" + (f"  <i>{briefs.esc(extra)}</i>" if extra else ""))
+    reds = [e for e in ev if e["impact"] == "High"]
+    if reds:
+        lines.append("\n⛔ No new trades from 30 min before to 30 min after each 🔴.")
+    lines.append("🔴 high · 🟠 medium · 🟡 low impact")
+    return "\n".join(lines)
+
+
+def strategy_setups(ctx, cfg, cap):
+    name = cfg.get("strategy", "tjr")
+    params = dict(cfg.get("strategy_params", cfg.get("params", {})))
+    return STRATEGIES[name](ctx, cap=cap, **params)
+
+
+def scan_once(state, cfg, mode="scan"):
+    """One full pass: data, news, new calls, manage calls, commands, briefs, save."""
     account = float(cfg.get("account_gbp", 200))
     max_risk_pct = float(cfg.get("max_risk_pct", 2.0))
-    fx = gbpusd()
-    # hard cap: stop + spread may never risk more than max_risk_pct of the account at 0.01 lots
-    p.max_stop_usd = round(account * max_risk_pct / 100 * fx / LOT_OZ, 2)
-    state = load_json(STATE, {"signals": {}, "created": pd.Timestamp.now(tz="UTC").isoformat()})
+    fx = state.get("_fx") or gbpusd()
+    state["_fx"] = fx
+    cap = round(account * max_risk_pct / 100 * fx / LOT_OZ, 2)
     now = pd.Timestamp.now(tz=ET)
-    prices = {}
     cmds = read_updates(state)
     _CHAT["id"] = state.get("tg_chat")
-    print("telegram: token", "set" if os.getenv("TELEGRAM_BOT_TOKEN") else "MISSING",
-          "| chat", "found" if _CHAT["id"] else "not found (press Start on the bot)")
-    if _CHAT["id"] and not state.get("tg_hello"):
-        tg("🟡 <b>Gold Desk is live.</b>\nI watch XAUUSD every 5 minutes and call TJR setups in the London (07:00–10:00 UK) and New York (13:30–16:00 UK) killzones. Every call, fill, target and stop lands here. Paper trading only.")
-        state["tg_hello"] = now.isoformat()
+    cost = INSTRUMENTS["XAUUSD"]["cost"]
 
-    nws = newsmod.snapshot(now)
-    print("news: calendar", "ok" if nws["ok_calendar"] else "FAIL", "| headlines", "ok" if nws["ok_headlines"] else "FAIL",
-          "| blackout", (nws["blackout"] or {}).get("title"), "| headline risk", nws["risk"].get("level"))
-    mmap, feed = None, "none"
-    for inst, ic in INSTRUMENTS.items():
-        if inst not in cfg.get("instruments", list(INSTRUMENTS)):
-            continue
-        try:
-            df, feed = gold_live()
-        except Exception as e:  # noqa: BLE001
-            print("data error", inst, e)
-            continue
-        print("feed:", feed, len(df), "bars, last", df.index[-1])
-        if df.empty:
-            continue
-        last = float(df["close"].iloc[-1])
-        prices[inst] = dict(price=last, time=df.index[-1].isoformat(), feed=feed)
-        try:
-            mmap = briefs.market_map(df)
-        except Exception as e:  # noqa: BLE001
-            print("map error", e)
+    # news: full refresh every 15 min, cheap otherwise
+    if True:
+        if not state.get("_news") or now - pd.Timestamp(state["_news_t"]) > timedelta(minutes=15):
+            state["_news"] = newsmod.snapshot(now)
+            state["_news_t"] = now.isoformat()
+    nws = state["_news"]
+    if nws.get("events"):
+        nws["blackout"] = newsmod.blackout(nws["events"], now)
+        nws["next"] = newsmod.next_events(nws["events"], now)
 
-        # 1) new signals
-        for s in find_setups(df, inst, p):
-            if s.id in state["signals"]:
+    df, feed, mmap = None, "none", None
+    try:
+        df, feed = gold_live()
+        mmap = briefs.market_map(df)
+    except Exception as e:  # noqa: BLE001
+        print("data error", e)
+    last = float(df["close"].iloc[-1]) if df is not None else None
+
+    if mode == "scan" and df is not None:
+        ctx = Context(df, "XAUUSD")
+        print(f"{now:%H:%M:%S} feed: {feed} | last 5m {df.index[-1]:%H:%M} ET close {last:,.2f} | blackout {(nws.get('blackout') or {}).get('title')}")
+        for s in strategy_setups(ctx, cfg, cap):
+            if s.id in state["signals"] or pd.Timestamp(s.confirm_time) < now - timedelta(minutes=15):
                 continue
-            if pd.Timestamp(s.confirm_time) < now - timedelta(minutes=45):
-                continue  # too old to act on
             d = s.to_dict()
-            d["sent_at"] = now.isoformat()
-            d["initial_status"] = s.status
-            d["feed"] = feed
-            d["gbpusd"] = round(fx, 5)
-            d["account_gbp"] = account
+            d.update(sent_at=now.isoformat(), initial_status=s.status, feed=feed, gbpusd=round(fx, 5), account_gbp=account)
             if nws.get("blackout"):
                 e = nws["blackout"]
                 d.update(status="skipped", notes=[f"news blackout: {e['title']}"])
                 state["signals"][s.id] = d
-                tg(f"⛔ Setup skipped — {s.side} XAUUSD. High-impact news: {e['title']} at "
-                   f"{pd.Timestamp(e['time']).tz_convert('Europe/London'):%H:%M} UK. Not trading ±30 min around it.")
+                tg(f"⛔ Setup skipped — {s.side} XAUUSD. 🔴 {briefs.esc(e['title'])} at "
+                   f"{pd.Timestamp(e['time']).tz_convert(UK):%H:%M} UK. No new trades ±30 min around red folders.")
                 continue
-            d["news"] = dict(risk=nws["risk"].get("level"), next=(nws["next"] or [None])[0])
+            d["news"] = dict(risk=(nws.get("risk") or {}).get("level"), next=(nws.get("next") or [None])[0])
             state["signals"][s.id] = d
             tg(signal_msg(d, last))
-
-        # 2) manage live signals
+        # manage open calls
         for sid, d in state["signals"].items():
-            if d["instrument"] != inst or d["status"] not in ("pending", "open"):
+            if d["status"] not in ("pending", "open"):
                 continue
-            if d.get("feed", feed).replace(" (stale)", "") != feed.replace(" (stale)", ""):
-                continue  # only judge a trade on the same price feed it was signalled on
             base = {k: d[k] for k in Setup.__dataclass_fields__ if k in d}
             base.update(status=d["initial_status"], fill_time=None if d["initial_status"] == "pending" else d["confirm_time"],
                         exit_time=None, exit_price=None, r=None, notes=[])
-            s = simulate(Setup(**base), df, ic["cost"])
+            s = simulate(Setup(**base), ctx.df, cost)
             if s.status != d["status"]:
                 prev = d["status"]
-                d.update(status=s.status, fill_time=s.fill_time, exit_time=s.exit_time,
-                         exit_price=s.exit_price, r=s.r, notes=s.notes)
-                if not (prev == "pending" and s.status in ("win", "loss")):
-                    tg(update_msg(d))
-                else:  # filled and finished between two runs
-                    d2 = dict(d, status="open"); tg(update_msg(d2)); tg(update_msg(d))
+                d.update(status=s.status, fill_time=s.fill_time, exit_time=s.exit_time, exit_price=s.exit_price, r=s.r, notes=s.notes)
+                if prev == "pending" and s.status in ("win", "loss"):
+                    tg(update_msg(dict(d, status="open")))
+                tg(update_msg(d))
 
     sigs = sorted(state["signals"].values(), key=lambda d: d["confirm_time"], reverse=True)
-    closed_ = [d for d in sigs if d["status"] in ("win", "loss")]
-    st = stats(sorted(closed_, key=lambda d: d["exit_time"]), account)
+    closed = sorted([d for d in sigs if d["status"] in ("win", "loss")], key=lambda d: d["exit_time"])
+    st = stats(closed, account)
     open_n = sum(d["status"] in ("pending", "open") for d in sigs)
-    cost = INSTRUMENTS["XAUUSD"]["cost"]
+    label = f"{cfg.get('strategy')} {json.dumps(cfg.get('strategy_params', {}))}"
 
     def send(kind):
-        if kind == "price" and mmap:
-            tg(briefs.price_msg(mmap, feed))
+        if kind == "price":
+            spot = spot_gold()
+            tg(f"💰 <b>XAUUSD {(spot or last or 0):,.2f}</b> (live spot {pd.Timestamp.now(tz=UK):%H:%M:%S} UK)\n"
+               + (f"Last closed 5m candle {mmap['time'].tz_convert(UK):%H:%M} UK · {briefs.esc(feed)}" if mmap else ""))
         elif kind == "levels" and mmap:
             tg(briefs.map_msg(mmap))
         elif kind == "news":
             tg(briefs.news_msg(nws, now))
+        elif kind == "folders":
+            tg(folder_msg(nws, now))
         elif kind == "status":
-            tg(briefs.status_msg(account, max_risk_pct, p.max_stop_usd, p.label(), now, open_n, st))
+            tg(briefs.status_msg(account, max_risk_pct, cap, label, now, open_n, st,
+                                 strategy=STRATEGY_NAMES.get(cfg.get("strategy"), cfg.get("strategy"))))
         elif kind == "test" and mmap:
-            tg(briefs.test_trade_msg(mmap, account, fx, cost, p.max_stop_usd))
+            tg(briefs.test_trade_msg(mmap, account, fx, cost, cap))
 
-    if os.getenv("SELFTEST"):
-        tg("🔧 <b>Self-test</b> — confirming the scanner can see price, charts and news right now.")
-        for k in ("price", "levels", "news", "test", "status"):
+    if os.getenv("SELFTEST") and not state.get("_selftest_done"):
+        tg("🔧 <b>Self-test</b> — this is the bot confirming it can see live price, charts and news right now.")
+        for k in ("price", "levels", "folders", "news", "test", "status"):
             send(k)
-        ukn = now.tz_convert("Europe/London")
-        for name, hh in (("london", 6), ("ny", 13)):
+        state["_selftest_done"] = True
+        ukn = now.tz_convert(UK)
+        for key, hh in (("london", 6), ("folders", 8), ("ny", 13)):
             if ukn.hour >= hh:
-                state[f"brief_{name}"] = str(ukn.date())  # self-test already covered this brief
+                state[f"brief_{key}"] = str(ukn.date())   # self-test already covered today's briefs
     for c in dict.fromkeys(cmds):
-        send({"/price": "price", "/levels": "levels", "/map": "levels", "/news": "news",
+        send({"/price": "price", "/levels": "levels", "/map": "levels", "/news": "news", "/folders": "folders",
               "/status": "status", "/test": "test", "/start": "status"}.get(c, "status"))
 
-    # scheduled briefs (Mon–Fri): London ~06:45 UK, New York ~13:15 UK
-    ukt = now.tz_convert("Europe/London")
-    if ukt.dayofweek < 5 and mmap:
-        for name, hh, mm in (("london", 6, 45), ("ny", 13, 15)):
-            key = f"brief_{name}"
-            if state.get(key) != str(ukt.date()) and (ukt.hour, ukt.minute) >= (hh, mm) and ukt.hour < hh + 2:
-                tg(f"☀️ <b>{'London' if name == 'london' else 'New York'} session brief</b>")
-                send("price"); send("levels"); send("news")
-                state[key] = str(ukt.date())
-    closed = sorted([d for d in sigs if d["status"] in ("win", "loss")], key=lambda d: d["exit_time"])
+    # automatic briefs, Mon-Fri (UK time)
+    ukt = now.tz_convert(UK)
+    if ukt.dayofweek < 5:
+        for key, hh, mm, kinds, title in (("folders", 8, 30, ("folders",), None),
+                                          ("london", 6, 45, ("price", "levels"), "London session brief"),
+                                          ("ny", 13, 15, ("price", "levels", "news"), "New York session brief")):
+            k = f"brief_{key}"
+            if state.get(k) != str(ukt.date()) and (ukt.hour, ukt.minute) >= (hh, mm) and ukt.hour < hh + 2:
+                if title:
+                    tg(f"☀️ <b>{title}</b>")
+                for kd in kinds:
+                    send(kd)
+                state[k] = str(ukt.date())
+
     state["updated"] = now.isoformat()
+    save(state, cfg, now, {"XAUUSD": dict(price=last, feed=feed, time=df.index[-1].isoformat() if df is not None else None)},
+         st, nws, cap, account, max_risk_pct, fx, label, sigs)
+
+
+def save(state, cfg, now, prices, st, nws, cap, account, max_risk_pct, fx, label, sigs):
     STATE.parent.mkdir(exist_ok=True)
-    STATE.write_text(json.dumps(state, indent=1, default=str))
+    keep = {k: v for k, v in state.items() if not k.startswith("_")}
+    STATE.write_text(json.dumps(keep, indent=1, default=str))
     FEED.parent.mkdir(exist_ok=True)
     FEED.write_text(json.dumps(dict(
-        updated=now.isoformat(), params=p.label(), prices=prices, stats=stats(closed, account),
-        news=dict(blackout=nws.get("blackout"), next=nws.get("next"), risk=nws.get("risk"),
+        updated=now.isoformat(), params=label, prices=prices, stats=st,
+        news=dict(blackout=nws.get("blackout"), next=nws.get("next"), risk=nws.get("risk"), today=nws.get("today"),
                   ok_calendar=nws.get("ok_calendar"), ok_headlines=nws.get("ok_headlines")),
-        account=dict(gbp=account, max_risk_pct=max_risk_pct, lot=LOT, stop_cap_usd=p.max_stop_usd, gbpusd=round(fx, 5)),
-        backtest=load_json(ROOT / "reports" / "summary.json", None),
-        signals=sigs[:200]), indent=1, default=str))
-    print("ok", len(sigs), "signals tracked")
+        account=dict(gbp=account, max_risk_pct=max_risk_pct, lot=LOT, stop_cap_usd=cap, gbpusd=round(fx, 5)),
+        backtest=load_json(ROOT / "reports" / "summary.json", None), signals=sigs[:200]), indent=1, default=str))
+
+
+def git_save(msg):
+    if not os.getenv("GITHUB_ACTIONS"):
+        return
+    cmds = [["git", "add", "data/state.json", "docs/signals.json"],
+            ["git", "-c", "user.name=gold-desk-bot", "-c", "user.email=gold-desk-bot@users.noreply.github.com", "commit", "-q", "-m", msg],
+            ["git", "pull", "-q", "--rebase", "-X", "theirs"], ["git", "push", "-q"]]
+    for c in cmds:
+        r = subprocess.run(c, cwd=ROOT, capture_output=True, text=True)
+        if r.returncode and c[1] == "commit":
+            return  # nothing to commit
+
+
+def dispatch_next():
+    tok, repo = os.getenv("GITHUB_TOKEN"), os.getenv("GITHUB_REPOSITORY")
+    if not tok or not repo:
+        return
+    r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/scan.yml/dispatches",
+                      headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
+                      json={"ref": os.getenv("GITHUB_REF_NAME", "main")}, timeout=20)
+    print("handover dispatch", r.status_code, r.text[:120])
+
+
+def market_open(now_et: pd.Timestamp) -> bool:
+    wd, h = now_et.dayofweek, now_et.hour
+    return not (wd == 5 or (wd == 4 and h >= 17) or (wd == 6 and h < 18))
+
+
+def main():
+    cfg = load_json(CONFIG, {})
+    state = load_json(STATE, {"signals": {}, "created": pd.Timestamp.now(tz="UTC").isoformat()})
+    if not os.getenv("LOOP"):
+        scan_once(state, cfg, "scan")
+        print("ok", len(state["signals"]), "signals tracked")
+        return
+    budget = float(os.getenv("LOOP_MINUTES", "345")) * 60
+    t0 = _time.time()
+    last_scan_bar = None
+    if not state.get("tg_loop_hello"):
+        _CHAT["id"] = state.get("tg_chat")
+    while _time.time() - t0 < budget:
+        now = pd.Timestamp.now(tz=ET)
+        bar = now.floor("5min")
+        if market_open(now) and bar != last_scan_bar and now - bar >= pd.Timedelta(seconds=20):
+            try:
+                scan_once(state, cfg, "scan")
+            except Exception as e:  # noqa: BLE001
+                print("scan error", repr(e))
+            last_scan_bar = bar
+            git_save(f"scan {now:%Y-%m-%d %H:%M} ET")
+        else:
+            try:
+                scan_once(state, cfg, "commands")   # answer /price etc. and run timed briefs
+            except Exception as e:  # noqa: BLE001
+                print("cmd error", repr(e))
+        # sleep until the next 20s-past-candle mark or 60s, whichever first
+        nxt = (bar + pd.Timedelta(minutes=5) + pd.Timedelta(seconds=20) - pd.Timestamp.now(tz=ET)).total_seconds()
+        _time.sleep(max(5, min(60, nxt)))
+    git_save("handover")
+    dispatch_next()
 
 
 if __name__ == "__main__":

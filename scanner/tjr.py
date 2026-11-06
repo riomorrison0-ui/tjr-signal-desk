@@ -83,6 +83,10 @@ class Setup:
     exit_price: float | None = None
     r: float | None = None
     notes: list = field(default_factory=list)
+    strategy: str = "tjr"
+    entry_type: str = "limit"     # limit (retrace) | stop (breakout) | market
+    hold_until: str | None = None  # None = intraday, flat at FLAT_TIME; else close at this time
+    why: str = ""
 
     def to_dict(self):
         return asdict(self)
@@ -421,38 +425,64 @@ def _confirm(i, side, k, L, df, a, sh, sl, o, h, l, c, idx, lv, p, inst, kz, b, 
 
 # ---------------------------------------------------------------- outcome
 
+_ARR = {}
+
+
+def _arrays(df):
+    k = (id(df), len(df))
+    if k not in _ARR:
+        _ARR.clear()
+        idx = df.index
+        _ARR[k] = (idx, idx.asi8, df["open"].values, df["high"].values, df["low"].values, df["close"].values,
+                   np.array([t.hour * 60 + t.minute for t in idx.time]), np.array(idx.date))
+    return _ARR[k]
+
+
 def simulate(s: Setup, df: pd.DataFrame, cost: float) -> Setup:
     """Walk bars after the signal. Same-bar stop+target counts as a LOSS (conservative).
     Costs (spread/commission) are taken off every filled trade."""
-    after = df[df.index >= pd.Timestamp(s.confirm_time)]
+    idx, ns, O, H, Lo, C, mins, dates = _arrays(df)
+    unit = pd.Timestamp(idx[0]).value // ns[0] if ns[0] else 1   # ns vs us resolution
+    def tsv(x):
+        return pd.Timestamp(x).value // unit
+    start = np.searchsorted(ns, tsv(s.confirm_time))
     risk = abs(s.entry - s.stop)
     filled = s.status == "open"
-    valid_until = pd.Timestamp(s.valid_until)
-    for ts, bar in after.iterrows():
+    vu = tsv(s.valid_until)
+    hu = tsv(s.hold_until) if s.hold_until else None
+    cdate = pd.Timestamp(s.confirm_time).tz_convert(ET).date()
+    flat_m = FLAT_TIME.hour * 60 + FLAT_TIME.minute
+    buy = s.side == "BUY"
+    for q in range(start, len(ns)):
+        ts = idx[q]
         end = ts + timedelta(minutes=5)
+        h, l = H[q], Lo[q]
         if not filled:
-            if ts >= valid_until:
+            if ns[q] >= vu:
                 s.status = "expired"; s.exit_time = ts.isoformat(); return s
-            # target traded before we got filled -> cancel
-            if (s.side == "BUY" and bar.high >= s.target) or (s.side == "SELL" and bar.low <= s.target):
+            if s.entry_type != "stop" and ((buy and h >= s.target) or (not buy and l <= s.target)):
                 s.status = "expired"; s.notes.append("ran to target without filling"); s.exit_time = ts.isoformat(); return s
-            touched = bar.low <= s.entry if s.side == "BUY" else bar.high >= s.entry
+            if s.entry_type == "stop":
+                touched = h >= s.entry if buy else l <= s.entry
+            else:
+                touched = l <= s.entry if buy else h >= s.entry
             if not touched:
                 continue
             filled = True; s.status = "open"; s.fill_time = ts.isoformat()
-            # same bar: did it also hit the stop?
-            hit_sl = bar.low <= s.stop if s.side == "BUY" else bar.high >= s.stop
-            if hit_sl:
+            if (l <= s.stop) if buy else (h >= s.stop):
                 return _close(s, "loss", s.stop, end, risk, cost)
             continue
-        hit_sl = bar.low <= s.stop if s.side == "BUY" else bar.high >= s.stop
-        hit_tp = bar.high >= s.target if s.side == "BUY" else bar.low <= s.target
+        hit_sl = l <= s.stop if buy else h >= s.stop
+        hit_tp = h >= s.target if buy else l <= s.target
         if hit_sl:
             return _close(s, "loss", s.stop, end, risk, cost)
         if hit_tp:
             return _close(s, "win", s.target, end, risk, cost)
-        if ts.time() >= FLAT_TIME or ts.date() > pd.Timestamp(s.confirm_time).date():
-            return _close(s, "flat", bar.close, end, risk, cost)
+        if hu is None:
+            if mins[q] >= flat_m or dates[q] > cdate:
+                return _close(s, "flat", C[q], end, risk, cost)
+        elif ns[q] >= hu:
+            return _close(s, "flat", C[q], end, risk, cost)
     return s  # still pending/open (live mode)
 
 
@@ -461,6 +491,6 @@ def _close(s, status, price, ts, risk, cost):
     s.r = round((pnl - cost) / risk, 3)
     if status == "flat":
         status = "win" if s.r > 0 else "loss"
-        s.notes.append("closed at end of day")
+        s.notes.append("closed at end of day" if s.hold_until is None else "closed at max hold time")
     s.status, s.exit_price, s.exit_time = status, round(float(price), 6), ts.isoformat()
     return s

@@ -52,7 +52,7 @@ def map_msg(m: dict) -> str:
             "\n\n<b>Daily / sessions</b>\n" + row("Prev day high", "PDH") + "\n" + row("Prev day low", "PDL") + "\n" +
             row("Asia high", "Asia_H") + "\n" + row("Asia low", "Asia_L") + "\n" + row("London high", "London_H") + "\n" + row("London low", "London_L") +
             f"\n\n<b>15m</b> structure {em.get(m['bias']['15m'], '?')}\n"
-            f"<b>Trade direction allowed:</b> {'BUYS only' if m['bias']['htf'] == 'bull' else 'SELLS only' if m['bias']['htf'] == 'bear' else 'none (4H and 1H disagree, stand aside)'}")
+            f"<b>4H + 1H together:</b> {'bullish' if m['bias']['htf'] == 'bull' else 'bearish' if m['bias']['htf'] == 'bear' else 'not aligned (choppy)'}")
 
 
 def news_msg(n: dict, now: pd.Timestamp) -> str:
@@ -88,36 +88,36 @@ def news_msg(n: dict, now: pd.Timestamp) -> str:
 
 def test_trade_msg(m: dict, account: float, fx: float, cost: float, stop_cap: float) -> str:
     p = m["price"]
-    above = [v for k, v in m["levels"].items() if v and v > p]
-    lvl = min(above) if above else p + 5
-    entry = round(lvl - 1.0, 2)
-    stop = round(lvl + 2.5, 2)
-    risk = stop - entry
-    tp = round(entry - 2 * risk, 2)
-    risk_gbp = (risk + cost) / fx
-    rew_gbp = (2 * risk - cost) / fx
+    sl = min(round(stop_cap - cost - 0.5, 2), 12.0)
+    entry, stop, tp = p, round(p - sl, 2), round(p + 2 * sl, 2)
+    risk_gbp = (sl + cost) / fx
+    rew_gbp = (2 * sl - cost) / fx
+    now = pd.Timestamp.now(tz=UK)
     return ("🧪 <b>TEST — NOT A TRADE. DO NOT TAKE.</b>\nThis is exactly how a real call will look:\n\n"
-            "<b>🔴 SELL XAUUSD</b>  (Gold)\n"
-            f"LIMIT entry <b>{entry:,.2f}</b>  — ${entry - p:,.2f} above current price\n"
-            f"Stop <b>{stop:,.2f}</b>  (${risk:.2f} risk)\n"
-            f"Take profit <b>{tp:,.2f}</b>  (${2 * risk:.2f}, 2.0R)\n\n"
+            "<b>🟢 BUY XAUUSD</b>  (Gold) · Unger previous-day breakout\n"
+            f"MARKET entry <b>{entry:,.2f}</b>  — now (last price {p:,.2f})\n"
+            f"Stop loss <b>{stop:,.2f}</b>  (${sl:.2f})\n"
+            f"Take profit <b>{tp:,.2f}</b>  (${2 * sl:.2f}, 2.0R)\n\n"
             f"<b>0.01 lots</b> · risk ≈ £{risk_gbp:.2f} ({risk_gbp / account * 100:.1f}% of £{account:.0f}) · profit ≈ £{rew_gbp:.2f}\n\n"
-            "Why: 1H high swept → 15m rejection → 5m break of structure → FVG retrace. 4H + 1H bias bearish. NY killzone.\n"
-            "News: ✅ clear · Headline risk 🟢 normal\n"
-            "Signal 14:05 UK · limit valid until 14:35 UK\n"
-            f"\nRules: one entry, one stop, one take profit. Stops wider than ${stop_cap:.2f} (2% of £{account:.0f}) are skipped.\n#test")
+            "Why: 5m close above previous-day high\n"
+            "News: ✅ no red folder within 30 min · next red folder: CPI Wed 13:30 UK\n"
+            "Headline risk: 🟢 normal\n"
+            f"Signal {now:%H:%M} UK (candle close) · Hold up to 3 days if neither is hit\n"
+            f"\nEvery call has one entry, one stop loss, one take profit. Anything needing a stop wider than ${stop_cap:.2f} (2% of £{account:.0f}) is skipped.\n#test")
 
 
-def status_msg(account, max_risk, stop_cap, params_label, last_scan, open_n, closed_stats, sched_ok=True) -> str:
+def status_msg(account, max_risk, stop_cap, params_label, last_scan, open_n, closed_stats, strategy="") -> str:
     wr = closed_stats.get("win_rate")
-    return ("✅ <b>Gold Desk status</b>\n"
-            "• Scans XAUUSD <b>every 5 minutes</b>, Sunday 23:00 → Friday 22:00 UK (gold is shut at weekends)\n"
-            "• Checks every scan: 4H + 1H structure & highs/lows, daily/Asia/London liquidity, 15m rejection, 5m break of structure + FVG entry\n"
-            "• Calls trades only in killzones: London 07:00–10:00 UK, New York 13:30–16:00 UK\n"
-            "• News: red-folder USD calendar (blocks new trades ±30 min) + live gold / Fed / war & world headlines on every scan\n"
-            f"• Risk: 0.01 lots, max {max_risk:g}% of £{account:.0f} → stop must be ≤ ${stop_cap:.2f}, otherwise skipped\n"
-            "• Expect 0–2 calls a day. Quiet days are normal: no A+ setup, no call.\n"
-            "• Morning brief ~06:45 UK and New York brief ~13:15 UK, Mon–Fri\n"
-            "• Commands: /price /levels /news /status\n"
-            f"\nLast scan {uk(last_scan)} UK · open calls {open_n} · closed {closed_stats.get('trades', 0)}"
+    return ("✅ <b>Gold Desk — running on its own</b>\n"
+            f"• Strategy: <b>{esc(strategy)}</b>\n"
+            "• Checks gold at <b>every 5-minute candle close</b> (about 20 seconds after it closes), 24 hours a day, Sunday 23:00 → Friday 22:00 UK. Gold is shut at weekends.\n"
+            "• Price: real-time feed matched to live spot gold, so levels line up with MT5.\n"
+            "• Charts: 4H and 1H swing highs and lows, previous-day high and low, Asia and London ranges, 15m and 5m candles.\n"
+            "• News: USD red-folder calendar (no new trades ±30 min around 🔴) plus gold, Fed and war/world headlines, refreshed every 15 min.\n"
+            "• Calls only between 07:00 and 20:00 UK so you can act on them.\n"
+            f"• Risk: 0.01 lots, max {max_risk:g}% of £{account:.0f}, so the stop must be ≤ ${stop_cap:.2f}, otherwise the setup is skipped.\n"
+            "• Every day, Mon–Fri: 06:45 London brief · 08:30 news folders · 13:15 New York brief\n"
+            "• <b>You never need to prompt it.</b> It restarts itself every few hours, and a backup timer restarts it if anything breaks.\n"
+            "• Optional commands: /price /levels /folders /news /status\n"
+            f"\nLast check {uk(last_scan)} UK · open calls {open_n} · closed {closed_stats.get('trades', 0)}"
             + (f" · win rate {wr}%" if wr is not None else "") + f"\n<code>{esc(params_label)}</code>")
