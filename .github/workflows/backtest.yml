@@ -5,7 +5,7 @@ on:
     inputs:
       from:
         description: "History start (yyyy-mm-dd)"
-        default: "2022-01-01"
+        default: "2019-11-01"
       oos_start:
         description: "Out-of-sample starts (yyyy-mm-dd)"
         default: "2025-01-01"
@@ -21,7 +21,7 @@ permissions:
 jobs:
   backtest:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,13 +32,13 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Download 5m gold history (free)
         run: |
-          python scanner/history.py "${{ inputs.from || '2022-01-01' }}"
+          python -u scanner/history.py "${{ inputs.from || '2019-11-01' }}"
           cat data/hist/source.txt; echo; wc -l data/hist/xauusd_m5.csv; head -3 data/hist/xauusd_m5.csv
       - name: Run backtest
         env:
           OOS_START: ${{ inputs.oos_start || '2025-01-01' }}
           QUICK: ${{ inputs.quick }}
-        run: python scanner/backtest.py
+        run: python -u scanner/backtest.py
       - name: Save report
         run: |
           git config user.name "gold-desk-bot"

@@ -121,13 +121,15 @@ def main():
     start = date.fromisoformat(sys.argv[1] if len(sys.argv) > 1 else "2022-01-01")
     end = date.today() - timedelta(1)
     OUT.mkdir(parents=True, exist_ok=True)
+    import os
     src, df = None, None
-    try:
-        df, src = dukascopy(start, end), "dukascopy_spot"
-    except Exception as e:  # noqa: BLE001
-        print("dukascopy unavailable:", e)
+    if os.getenv("HIST_SOURCE", "binance") == "dukascopy":
+        try:
+            df, src = dukascopy(start, end), "dukascopy_spot"
+        except Exception as e:  # noqa: BLE001
+            print("dukascopy unavailable:", e)
     if df is None:
-        df, src = binance(start, end), "binance_paxg"
+        df, src = binance(start, end), "binance_paxg"   # fast and reliable from GitHub
     ts = ((df.index - pd.Timestamp("1970-01-01", tz="UTC")) // pd.Timedelta("1ms")).astype("int64")
     out = df.copy()
     out.insert(0, "timestamp", ts)
