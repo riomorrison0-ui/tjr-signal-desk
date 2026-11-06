@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T16:55:20.350059-05:00",
+ "updated": "2026-11-06T18:26:22.189118-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4070.699951,
-   "feed": "real-time gold (PAXG, matched to spot +12.83)",
-   "time": "2026-11-06T16:50:00-05:00"
+   "price": 4072.100098,
+   "feed": "real-time gold (PAXG, matched to spot +13.56)",
+   "time": "2026-11-06T18:20:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iraq Braces for Possible US-Iran War with Emergency Military, Civilian Plans - ASHARQ AL-AWSAT English",
-    "Opportunity or trap? Vance's Iran war remarks divide Tehran - Iran International",
-    "Northern Iraq struggles with Kurdish political divisions and security - FDD's Long War Journal"
+    "US sanctions 8 Canadian money services over Iran digital asset ties - Yahoo Finance Singapore",
+    "Major construction ongoing near Iran missile bases | BBC News - Modern Ghana",
+    "US sanctions Canadian crypto, money services over Iran ties - The Jerusalem Post"
    ]
   },
   "today": [
