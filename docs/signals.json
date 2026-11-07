@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T05:58:25.931949-05:00",
+ "updated": "2026-11-07T11:44:29.035237-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +7.08)",
-   "time": "2026-11-07T05:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +8.77)",
+   "time": "2026-11-07T11:35:00-05:00"
   }
  },
  "stats": {
@@ -23,11 +23,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "China warns of response to US sanctions on firms over alleged Cuba links - TRT World",
-    "Sudan war and climate change see parents struggle to feed their children - Al Jazeera",
-    "Gazan couples tie knot in mass wedding offering brief respite from war - The National"
+    "22 Years Later, Nicolas Cage Officially Returns in First \u2018Lord of War\u2019 Sequel Trailer - IMDb",
+    "Mural commemorates City players killed in war - Bristol24/7",
+    "Life in Kyiv becoming increasingly difficult \u2013 EU ambassador on Russian missile strike - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430"
    ]
   },
   "today": [],
