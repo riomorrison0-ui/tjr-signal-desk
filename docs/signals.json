@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T00:12:24.278790-05:00",
+ "updated": "2026-11-07T05:58:25.931949-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +5.28)",
-   "time": "2026-11-07T00:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +7.08)",
+   "time": "2026-11-07T05:50:00-05:00"
   }
  },
  "stats": {
@@ -23,11 +23,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "US Treasury sanctions eight Canadian money exchange firms over Iran ties - Al Jazeera",
-    "Malvern care home residents share powerful memories of life during Second World War - malverngazette.co.uk",
-    "'Adeptus Mechanicus is by far the like biggest and, lore-wise, most important faction that never was part of a Dawn of War' \u2014 Warhammer 40,000: Dawn of War 4 creative director says King Art considered adding other factions to the game, but AdMech was the - TechRadar"
+    "China warns of response to US sanctions on firms over alleged Cuba links - TRT World",
+    "Sudan war and climate change see parents struggle to feed their children - Al Jazeera",
+    "Gazan couples tie knot in mass wedding offering brief respite from war - The National"
    ]
   },
   "today": [],
