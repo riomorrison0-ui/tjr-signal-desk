@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T18:26:22.189118-05:00",
+ "updated": "2026-11-07T00:12:24.278790-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +13.56)",
-   "time": "2026-11-06T18:20:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +5.28)",
+   "time": "2026-11-07T00:05:00-05:00"
   }
  },
  "stats": {
@@ -25,93 +25,12 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US sanctions 8 Canadian money services over Iran digital asset ties - Yahoo Finance Singapore",
-    "Major construction ongoing near Iran missile bases | BBC News - Modern Ghana",
-    "US sanctions Canadian crypto, money services over Iran ties - The Jerusalem Post"
+    "US Treasury sanctions eight Canadian money exchange firms over Iran ties - Al Jazeera",
+    "Malvern care home residents share powerful memories of life during Second World War - malverngazette.co.uk",
+    "'Adeptus Mechanicus is by far the like biggest and, lore-wise, most important faction that never was part of a Dawn of War' \u2014 Warhammer 40,000: Dawn of War 4 creative director says King Art considered adding other factions to the game, but AdMech was the - TechRadar"
    ]
   },
-  "today": [
-   {
-    "title": "FOMC Member Williams Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-06T09:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Average Hourly Earnings m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-06T13:30:00+00:00",
-    "forecast": "0.3%",
-    "previous": "0.1%"
-   },
-   {
-    "title": "Non-Farm Employment Change",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-06T13:30:00+00:00",
-    "forecast": "65K",
-    "previous": "29K"
-   },
-   {
-    "title": "Unemployment Rate",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-06T13:30:00+00:00",
-    "forecast": "4.2%",
-    "previous": "4.2%"
-   },
-   {
-    "title": "FOMC Member Musalem Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-06T14:10:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Prelim UoM Consumer Sentiment",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-06T15:00:00+00:00",
-    "forecast": "48.1",
-    "previous": "46.3"
-   },
-   {
-    "title": "Prelim UoM Inflation Expectations",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-06T15:00:00+00:00",
-    "forecast": "",
-    "previous": "4.7%"
-   },
-   {
-    "title": "FOMC Member Bowman Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-06T17:15:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Daly Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-06T18:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Consumer Credit m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-06T20:00:00+00:00",
-    "forecast": "13.4B",
-    "previous": "8.3B"
-   }
-  ],
+  "today": [],
   "ok_calendar": true,
   "ok_headlines": true
  },
@@ -119,8 +38,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.48,
-  "gbpusd": 1.33693
+  "stop_cap_usd": 53.42,
+  "gbpusd": 1.33558
  },
  "backtest": {
   "portfolio": {
