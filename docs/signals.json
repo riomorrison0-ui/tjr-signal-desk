@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T16:34:29.018839-05:00",
+ "updated": "2026-11-08T18:00:20.253377-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +18.09)",
-   "time": "2026-11-08T16:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +23.10)",
+   "time": "2026-11-08T17:55:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi defense forces destroy a Houthi missile platform in Sanaa that targeted the Eastern Province. - \u0635\u0648\u062a \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a",
-    "Election results cannot untie knots of Iran war | Daily Sabah - Daily Sabah",
-    "Lockheed Martin top managers say company will invest over $8 billion to expand missile production - Defence Industry Europe"
+    "'Southport War Memorial founders hoped future could be different' says Vicar at Remembrance Sunday - Stand Up For Southport",
+    "EP Review: The Great Emu War Casualties make a rapid fire return with the thrilling EP 'Mal du si\u00e8cle' - Backseat Mafia",
+    "Q&A: Tao Wong, Author of \u2018The First War\u2019 - The Nerd Daily"
    ]
   },
   "today": [],
