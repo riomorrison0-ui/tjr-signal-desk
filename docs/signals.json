@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T23:16:22.103747-05:00",
+ "updated": "2026-11-08T05:02:23.907821-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +11.03)",
-   "time": "2026-11-07T23:10:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +12.27)",
+   "time": "2026-11-08T04:55:00-05:00"
   }
  },
  "stats": {
@@ -20,14 +20,39 @@
  },
  "news": {
   "blackout": null,
-  "next": [],
+  "next": [
+   {
+    "title": "Core CPI m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-10T13:30:00+00:00",
+    "forecast": "0.2%",
+    "previous": "0.3%"
+   },
+   {
+    "title": "CPI m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-10T13:30:00+00:00",
+    "forecast": "0.3%",
+    "previous": "0.6%"
+   },
+   {
+    "title": "Core PPI m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-13T13:30:00+00:00",
+    "forecast": "0.3%",
+    "previous": "0.7%"
+   }
+  ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ukraine war briefing: Russia ramping up attacks to \u2018pressure\u2019 Kyiv at trilateral talks, Zelenskyy says - The Guardian",
-    "Houthi media says 27 killed in airstrikes near Sanaa, Saudi-led coalition downs missile - chinadailyhk",
-    "Historic Wirral war memorial illuminated for first time in 104-year history - Liverpool Echo"
+    "Photos Reveal Damage to Kyiv's Northern Bridge After Missile Strike - Caspian Post",
+    "Russian Strikes On Energy Targets Leave 600,000 Ukrainians Without Electricity - Radio Free Europe/Radio Liberty",
+    "Angola\u2019s Hidden War For Public Opinion - Genocide Watch"
    ]
   },
   "today": [],
