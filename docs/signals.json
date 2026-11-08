@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T17:30:20.241993-05:00",
+ "updated": "2026-11-07T23:16:22.103747-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +7.50)",
-   "time": "2026-11-07T17:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +11.03)",
+   "time": "2026-11-07T23:10:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Belarus sentences Catholic priest to 3 years after he opposed Ukraine war - National Catholic Reporter",
-    "Erdo\u011fan, Trump discuss de-escalation between Washington, Tehran - \u0633\u0627\u0646\u0627",
-    "Russo-Ukrainian war, day 1719: Russia digs tunnels on Kherson\u2019s occupied bank while Ukraine rolls out bigger ground robots - Euromaidan Press"
+    "Ukraine war briefing: Russia ramping up attacks to \u2018pressure\u2019 Kyiv at trilateral talks, Zelenskyy says - The Guardian",
+    "Houthi media says 27 killed in airstrikes near Sanaa, Saudi-led coalition downs missile - chinadailyhk",
+    "Historic Wirral war memorial illuminated for first time in 104-year history - Liverpool Echo"
    ]
   },
   "today": [],
