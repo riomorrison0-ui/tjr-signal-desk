@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T18:50:20.227775-05:00",
+ "updated": "2026-11-08T18:55:20.253401-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4062.300049,
-   "feed": "real-time gold (PAXG, matched to spot +5.68)",
-   "time": "2026-11-08T18:45:00-05:00"
+   "price": 4061.199951,
+   "feed": "real-time gold (PAXG, matched to spot +7.13)",
+   "time": "2026-11-08T18:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Black Sea war cover now costs more than WWII Atlantic convoys did. So why isn\u2019t the Gulf? - Insurance Business",
-    "Pierce Brosnan And Kate Mulgrew Starred In A Forgotten '80s Civil War Series - IMDb",
-    "Bassvictim Embraces Chaos on the Sprawling \u2018PEACE + WAR\u2019 - The Heights"
+    "Turkey\u2019s Somalia spaceport linked to military ambitions and long-range missile development - Nordic Monitor",
+    "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+    "Black Sea war cover now costs more than WWII Atlantic convoys did. So why isn\u2019t the Gulf? - Insurance Business"
    ]
   },
   "today": [],
