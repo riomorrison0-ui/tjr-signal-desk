@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T18:20:20.234757-05:00",
+ "updated": "2026-11-08T18:25:20.266399-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4071.600098,
-   "feed": "real-time gold (PAXG, matched to spot +7.27)",
-   "time": "2026-11-08T18:15:00-05:00"
+   "price": 4072.300049,
+   "feed": "real-time gold (PAXG, matched to spot +8.29)",
+   "time": "2026-11-08T18:20:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Warhammer 40,000: Dawn of War 4 creative director says balancing faction gameplay is 'super challenging' and King Art Games begins by figuring out how they should 'feel' \u2014 'We try to do it in a way where players who do not know the faction still intuitively pl - TechRadar",
-    "'Southport War Memorial founders hoped future could be different' says Vicar at Remembrance Sunday - Stand Up For Southport",
-    "EP Review: The Great Emu War Casualties make a rapid fire return with the thrilling EP 'Mal du si\u00e8cle' - Backseat Mafia"
+    "Bassvictim Embraces Chaos on the Sprawling \u2018PEACE + WAR\u2019 - The Heights",
+    "Rubio says progress made on 'security infrastructure' after Ukraine war - The Korea Times",
+    "Pierce Brosnan And Kate Mulgrew Starred In A Forgotten '80s Civil War Series - IMDb"
    ]
   },
   "today": [],
