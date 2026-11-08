@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T05:02:23.907821-05:00",
+ "updated": "2026-11-08T10:48:26.584141-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4072.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.27)",
-   "time": "2026-11-08T04:55:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +19.25)",
+   "time": "2026-11-08T10:40:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Photos Reveal Damage to Kyiv's Northern Bridge After Missile Strike - Caspian Post",
-    "Russian Strikes On Energy Targets Leave 600,000 Ukrainians Without Electricity - Radio Free Europe/Radio Liberty",
-    "Angola\u2019s Hidden War For Public Opinion - Genocide Watch"
+    "At Suez War Memorial, Herzog Says Military Victory Is Not Enough, Katz Sounds Alarm Over Iran\u2019s Nuclear Threat - The Media Line",
+    "Can the Transition to Clean Energy Survive the War in Iran? - The New York Times",
+    "How the Iran war has made it harder to buy a home - The Washington Post"
    ]
   },
   "today": [],
