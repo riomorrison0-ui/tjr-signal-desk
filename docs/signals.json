@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T09:15:20.246391-05:00",
+ "updated": "2026-11-09T09:20:20.264912-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4125.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.72)",
-   "time": "2026-11-09T09:10:00-05:00"
+   "price": 4128.299805,
+   "feed": "real-time gold (PAXG, matched to spot +11.24)",
+   "time": "2026-11-09T09:15:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "IRGC Claims Underground Missile Production Expanded After Recent Wars - IranWire",
-    "Ukraine\u2019s Patriot Missile Shortage Expected to Last Another Year, Analyst Says - UNITED24 Media",
-    "TRUMP\u2019S NEXT MOVES ON IRAN: Can He End the War After the Democrats\u2019 Midterm Victory? - EnergyNow.com"
+    "The Mosquito Bowl review: A competently made anti-war film that lacks emotional resonance - Radio Times",
+    "Putin is taking a leaf out of the IRA\u2019s book in his hybrid war on Europe - The Telegraph",
+    "Russian War Criminal Torden Seeks Lighter Sentence in Finland After Life Term Cut to 12.5 Years - UNITED24 Media"
    ]
   },
   "today": [
