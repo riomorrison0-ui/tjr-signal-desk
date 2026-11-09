@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T10:35:20.397964-05:00",
+ "updated": "2026-11-09T10:40:20.425051-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4121.100098,
-   "feed": "real-time gold (PAXG, matched to spot +11.96)",
-   "time": "2026-11-09T10:30:00-05:00"
+   "price": 4120.200195,
+   "feed": "real-time gold (PAXG, matched to spot +13.74)",
+   "time": "2026-11-09T10:35:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "IRGC strikes three tankers near Hormuz over \u2018US links\u2019 - Al Jazeera",
-    "Imperial War Museum\u2019s new conservation centre \u2018within reach\u2019 after \u00a310m DCMS grant - Arts Professional",
-    "MBDA on contract to study Aster 30 missile integration in MK 41 VLS - Naval News"
+    "Russia\u2019s new mini cruise missile is packed with American technology \u2014 Ukraine finds 52 US components among 93 foreign parts - Euromaidan Press",
+    "Zelenskyy, Modi discuss diplomatic efforts to end Russia-Ukraine war during phone call - Anadolu Ajans\u0131",
+    "IRGC strikes three tankers near Hormuz over \u2018US links\u2019 - Al Jazeera"
    ]
   },
   "today": [
