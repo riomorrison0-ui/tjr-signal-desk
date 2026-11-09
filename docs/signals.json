@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T19:40:20.236977-05:00",
+ "updated": "2026-11-08T19:45:20.218420-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4096.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.43)",
-   "time": "2026-11-08T19:35:00-05:00"
+   "price": 4100.799805,
+   "feed": "real-time gold (PAXG, matched to spot +5.77)",
+   "time": "2026-11-08T19:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "220,000 protesters march in Amsterdam demanding tougher sanctions against Israel - Ynetnews",
-    "Cold War Kids Celebrate 20 Years Of \u2018Robbers & Cowards\u2019 With \u201cThere Goes The Night\u201d - That Eric Alper",
-    "Trump says highly unlikely to resume Iran war if talks progress - The New Arab"
+    "Trump repeats that he was fine with Vance\u2019s comments tying Iran war to midterms loss - The Times of Israel",
+    "Despite Neutrality Claims, Beijing And Moscow Support Iran\u2019s War, Inflicting Collateral Costs On Indo-Pacific - Eurasia Review",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - CTV News"
    ]
   },
   "today": [
