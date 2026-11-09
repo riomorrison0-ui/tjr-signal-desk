@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T19:25:20.220700-05:00",
+ "updated": "2026-11-08T19:30:20.262338-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4071.800049,
-   "feed": "real-time gold (PAXG, matched to spot +2.93)",
-   "time": "2026-11-08T19:20:00-05:00"
+   "price": 4075.0,
+   "feed": "real-time gold (PAXG, matched to spot +6.86)",
+   "time": "2026-11-08T19:25:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How Emirates saved nearly $2bn on fuel during Iran war - Arabian Gulf Business Insight | AGBI",
-    "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Chicago",
-    "Trump eyes Xi, Putin meeting at APEC on Iran war, says he\u2019d \u2018certainly take\u2019 Huang - investingLive"
+    "220,000 protesters march in Amsterdam demanding tougher sanctions against Israel - Ynetnews",
+    "Cold War Kids Celebrate 20 Years Of \u2018Robbers & Cowards\u2019 With \u201cThere Goes The Night\u201d - That Eric Alper",
+    "Trump says highly unlikely to resume Iran war if talks progress - The New Arab"
    ]
   },
   "today": [
