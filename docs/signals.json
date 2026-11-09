@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:20:20.219276-05:00",
+ "updated": "2026-11-08T22:21:41.550834-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Trump Widens Pressure on Iran as Tehran Demands an End to the War - Open Magazine",
     "Germany Confirms No More Patriot Missiles for Ukraine: Missile Defence Crisis Worsens - Military Watch Magazine",
-    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - chinadailyhk",
-    "Ukraine will likely 'end up with a little bit different shape' after war, Trump tells 60 Minutes - The Kyiv Independent"
+    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - chinadailyhk"
    ]
   },
   "today": [
@@ -96,8 +96,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.42,
-  "gbpusd": 1.33558
+  "stop_cap_usd": 53.49,
+  "gbpusd": 1.33729
  },
  "backtest": {
   "portfolio": {
