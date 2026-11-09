@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T04:35:20.269337-05:00",
+ "updated": "2026-11-09T04:40:20.243850-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4089.3,
-   "feed": "real-time gold (PAXG, matched to spot +0.00)",
-   "time": "2026-11-09T04:30:00-05:00"
+   "price": 4097.200195,
+   "feed": "real-time gold (PAXG, matched to spot +10.09)",
+   "time": "2026-11-09T04:35:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor",
-    "Russia Masses 47 Nuclear-Capable Bombers at Far Eastern Airbase in Rare Fleet Concentration - UNITED24 Media",
-    "Remembrance services are held to honour those who fell in war time - Shetland Times"
+    "Deterrence and diplomacy needed to counter impact of Iran war, says Gargash - www.thenationalnews.com",
+    "From War to New Community: Support for Ukraine's Displaced People - Mirage News",
+    "Nonagenarians share childhood memories of war, evacuation and family sacrifice - SussexWorld"
    ]
   },
   "today": [
