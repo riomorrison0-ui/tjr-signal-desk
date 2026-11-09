@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T09:45:20.263759-05:00",
+ "updated": "2026-11-09T09:50:20.281999-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4121.700195,
-   "feed": "real-time gold (PAXG, matched to spot +12.52)",
-   "time": "2026-11-09T09:40:00-05:00"
+   "price": 4120.600098,
+   "feed": "real-time gold (PAXG, matched to spot +11.66)",
+   "time": "2026-11-09T09:45:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Emirates' Tim Clark said Iran war again derailed retirement plans - Quartz",
-    "Iraqi prime minister made unannounced visit to Tehran for talks on ending Iran-US war: Report - Anadolu Ajans\u0131",
-    "Canada Hits Russia With New Sanctions Targeting 62 Individuals and Entities Linked to Missiles and War Industry - UNITED24 Media"
+    "Iran stands by demands to end the war as US ramps up military pressure - Al Jazeera",
+    "US Now In A 'Forever War' With Iran Because Of Trump, Anthony Scaramucci Says - HuffPost UK",
+    "Police identify 30 of 55 bodies recovered from Komyshuvakha airstrike - The Kyiv Independent"
    ]
   },
   "today": [
