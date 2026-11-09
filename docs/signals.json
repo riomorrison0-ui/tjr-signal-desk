@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T07:40:20.271346-05:00",
+ "updated": "2026-11-09T07:45:20.236448-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4119.299805,
-   "feed": "real-time gold (PAXG, matched to spot +11.42)",
-   "time": "2026-11-09T07:35:00-05:00"
+   "price": 4117.399902,
+   "feed": "real-time gold (PAXG, matched to spot +10.38)",
+   "time": "2026-11-09T07:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump, Putin and the short war illusion - Financial Times",
-    "One war, two books: Aggregation crossing from aviation into marine - Global Reinsurance",
-    "Canada announces fresh Russia-related sanctions - Reuters"
+    "France, Cyprus and Sweden sign Akeron MP missile framework, plan to use EU SAFE initiative funding - Defence Industry Europe",
+    "US sanctions Canadian money services firms over Iran ties - www.engine.online",
+    "Russia built missile launchers for Iran, leaked documents suggest - Aerospace Global News"
    ]
   },
   "today": [
