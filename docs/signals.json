@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T19:05:20.227569-05:00",
+ "updated": "2026-11-08T19:10:20.253589-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.0,
-   "feed": "real-time gold (PAXG, matched to spot +3.77)",
-   "time": "2026-11-08T19:00:00-05:00"
+   "price": 4065.699951,
+   "feed": "real-time gold (PAXG, matched to spot +2.84)",
+   "time": "2026-11-08T19:05:00-05:00"
   }
  },
  "stats": {
@@ -50,12 +50,45 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Turkey\u2019s Somalia spaceport linked to military ambitions and long-range missile development - Nordic Monitor",
-    "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-    "Black Sea war cover now costs more than WWII Atlantic convoys did. So why isn\u2019t the Gulf? - Insurance Business"
+    "How Emirates saved nearly $2bn on fuel during Iran war - Arabian Gulf Business Insight | AGBI",
+    "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Chicago",
+    "Trump eyes Xi, Putin meeting at APEC on Iran war, says he\u2019d \u2018certainly take\u2019 Huang - investingLive"
    ]
   },
-  "today": [],
+  "today": [
+   {
+    "title": "FOMC Member Bowman Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-09T13:40:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Final Wholesale Inventories m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-09T15:00:00+00:00",
+    "forecast": "0.6%",
+    "previous": "0.6%"
+   },
+   {
+    "title": "FOMC Member Goolsbee Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-09T15:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Barkin Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-09T17:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   }
+  ],
   "ok_calendar": true,
   "ok_headlines": true
  },
