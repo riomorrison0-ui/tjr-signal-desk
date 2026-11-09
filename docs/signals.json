@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T04:20:20.227453-05:00",
+ "updated": "2026-11-09T04:25:20.246800-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4095.800049,
-   "feed": "real-time gold (PAXG, matched to spot +8.04)",
-   "time": "2026-11-09T04:15:00-05:00"
+   "price": 4094.0,
+   "feed": "real-time gold (PAXG, matched to spot +8.81)",
+   "time": "2026-11-09T04:20:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
-    "Pius XII: The Pope in War and Peace - EWTN Vatican",
-    "Inside the Vatican Archives: Untold Stories of War - EWTN Vatican"
+    "Iran De-escalation Cut Brent-WTI Spread to $7.06, Underpricing Supply Risk - Crux Investor",
+    "Russia Masses 47 Nuclear-Capable Bombers at Far Eastern Airbase in Rare Fleet Concentration - UNITED24 Media",
+    "Remembrance services are held to honour those who fell in war time - Shetland Times"
    ]
   },
   "today": [
