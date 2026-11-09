@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T01:10:20.309033-05:00",
+ "updated": "2026-11-09T01:15:20.376797-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4119.200195,
-   "feed": "real-time gold (PAXG, matched to spot +12.29)",
-   "time": "2026-11-09T01:05:00-05:00"
+   "price": 4120.5,
+   "feed": "real-time gold (PAXG, matched to spot +11.50)",
+   "time": "2026-11-09T01:10:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "\u2018The currency of war is death\u2019: Ex-SAS commander on the brutal deal for soldiers - The Independent",
     "Iran warns U.S. to accept war-ending proposal or risk renewed fighting - upi",
-    "'We're Trying to Survive': Iranians Tell MBN War, Sanctions Are Emptying Their Tables - \u0627\u0644\u062d\u0631\u0629",
-    "Russia's shadow war: How Europe fights back - DW.com"
+    "'We're Trying to Survive': Iranians Tell MBN War, Sanctions Are Emptying Their Tables - \u0627\u0644\u062d\u0631\u0629"
    ]
   },
   "today": [
