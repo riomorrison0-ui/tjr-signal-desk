@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T20:55:20.219054-05:00",
+ "updated": "2026-11-08T21:00:20.238353-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.299805,
-   "feed": "real-time gold (PAXG, matched to spot +11.51)",
-   "time": "2026-11-08T20:50:00-05:00"
+   "price": 4123.899902,
+   "feed": "real-time gold (PAXG, matched to spot +9.24)",
+   "time": "2026-11-08T20:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Rubio says Trump\u2019s war against Iran not \u2018necessarily popular\u2019 but needed to stop a nuclear threat - The Seattle Times",
-    "Billings family rebuilds after home invasion ends in devastating fire - KTVQ",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - The Hindu"
+    "Hacked records show 400,000 Russians killed in war on Ukraine - The Age",
+    "Rubio: Trump\u2019s war on Iran not \u2018necessarily popular\u2019 but needed to stop nuclear threat - The Times of Israel",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Toronto Star"
    ]
   },
   "today": [
