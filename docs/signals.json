@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T20:10:20.213759-05:00",
+ "updated": "2026-11-08T20:15:20.223312-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4103.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.63)",
-   "time": "2026-11-08T20:05:00-05:00"
+   "price": 4107.299805,
+   "feed": "real-time gold (PAXG, matched to spot +8.46)",
+   "time": "2026-11-08T20:10:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Trump thinks the Ukraine war could END soon, but Ukraine might not look the same on the map. \u201cThey're going to end up with a little bit different shape Ukraine.\u201d He's openly suggesting a peace deal could involve territorial changes. The big question is - X",
-    "Hacked records show 400,000 Russians killed in war on Ukraine - The Japan Times",
-    "Trump repeats that he was fine with Vance\u2019s comments tying Iran war to midterms loss - The Times of Israel"
+    "Cooper Informs Israeli Military Officials of Support for Resuming War on Iran and Targeting Its Infrastructure - \u0635\u062d\u064a\u0641\u0629 \u0633\u0628\u0642 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629",
+    "COP31 to open in Turkey, with climate goals under pressure from war and AI - Reuters",
+    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post"
    ]
   },
   "today": [
