@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T18:45:20.335067-05:00",
+ "updated": "2026-11-09T18:50:20.302369-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4138.799805,
-   "feed": "real-time gold (PAXG, matched to spot +16.23)",
-   "time": "2026-11-09T18:40:00-05:00"
+   "price": 4140.899902,
+   "feed": "real-time gold (PAXG, matched to spot +16.45)",
+   "time": "2026-11-09T18:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Donald Trump says Iran war could end soon, defends Pete Hegseth, Nvidia CEO - The Jerusalem Post",
-    "US sees progress toward bringing end to war in Ukraine \u2014 Trump - TRT World",
-    "US seeing 'strong inclination' Ukraine war to end - Trump - RTE.ie"
+    "Middle East latest: Attack on Saudi oil pipeline causes fire - The National",
+    "Trump says Iran war is \u2018military effectively over\u2019 at snap news conference - SMH.com.au",
+    "Trump says Iran war is \u2018effectively over\u2019 - The Times"
    ]
   },
   "today": [
