@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T15:50:20.381865-05:00",
+ "updated": "2026-11-09T15:55:20.401005-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4142.700195,
-   "feed": "real-time gold (PAXG, matched to spot +14.88)",
-   "time": "2026-11-09T15:45:00-05:00"
+   "price": 4142.5,
+   "feed": "real-time gold (PAXG, matched to spot +14.63)",
+   "time": "2026-11-09T15:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Houthi rebels say at least 44 killed in airstrike near Yemeni capital, and other Mideast news - AP News",
-    "Ghosts Of The Spanish Civil War: Why Spain Cannot Forget Its Bloodiest Conflict - The Friday Times",
-    "To end 'whack-a-mole' war on AI deepfakes, address the 'ecosystem,' researchers urge - Tech Xplore"
+    "Republican Launches Impeachment Against US Defence Chief Over Iran War - NDTV",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Sentinel Colorado",
+    "Iran\u2019s parliament speaker accuses Israel of trying to draw US into \u2018endless war\u2019 - Anadolu Ajans\u0131"
    ]
   },
   "today": [
