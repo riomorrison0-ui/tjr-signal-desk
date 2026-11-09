@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T14:30:20.379833-05:00",
+ "updated": "2026-11-09T14:35:20.557480-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4112.700195,
-   "feed": "real-time gold (PAXG, matched to spot +14.83)",
-   "time": "2026-11-09T14:25:00-05:00"
+   "price": 4114.0,
+   "feed": "real-time gold (PAXG, matched to spot +13.92)",
+   "time": "2026-11-09T14:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Coalition says it destroyed Houthi facilities producing ballistic missile components - Arab News",
-    "France blames Iran for supermarket fridge hack, seeks EU sanctions - Al-Monitor",
-    "When sanctions meet corruption: Iran and the risk of conflict \u2014 Part 1 - Devpolicy Blog from the Development Policy Centre"
+    "Opinion | The U.K. Aims Sanctions at Israel, Hits the Cayman Islands - WSJ",
+    "Hegseth calls Iran war necessary, waves off \u2018the noise\u2019 of expected impeachment push - Arab News",
+    "Bennet urges US Senate to reject more funding for Iran war - Colorado Politics"
    ]
   },
   "today": [
