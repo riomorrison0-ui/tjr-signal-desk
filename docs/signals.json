@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T14:45:20.333973-05:00",
+ "updated": "2026-11-09T14:50:20.337734-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4131.799805,
-   "feed": "real-time gold (PAXG, matched to spot +15.28)",
-   "time": "2026-11-09T14:40:00-05:00"
+   "price": 4127.299805,
+   "feed": "real-time gold (PAXG, matched to spot +10.81)",
+   "time": "2026-11-09T14:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Opinion | The U.K. Aims Sanctions at Israel, Hits the Cayman Islands - WSJ",
-    "Hegseth calls Iran war necessary, waves off \u2018the noise\u2019 of expected impeachment push - Arab News",
-    "Bennet urges US Senate to reject more funding for Iran war - Colorado Politics"
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+    "Israel is Trying to Drag the US Into an \u2018Endless War\u2019 With Iran, Ghalibaf Warns - Palestine Chronicle",
+    "Hegseth Mandates Military Education Reform - U.S. Department of War (.gov)"
    ]
   },
   "today": [
