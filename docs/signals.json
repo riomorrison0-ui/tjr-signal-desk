@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T08:45:20.233220-05:00",
+ "updated": "2026-11-09T08:50:20.277429-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4120.5,
-   "feed": "real-time gold (PAXG, matched to spot +11.70)",
-   "time": "2026-11-09T08:40:00-05:00"
+   "price": 4119.799805,
+   "feed": "real-time gold (PAXG, matched to spot +10.73)",
+   "time": "2026-11-09T08:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Syria confirms sending troops to Saudi Arabia amid battle against Houthis - Al Jazeera",
-    "\u2018Didn\u2019t Like War\u2019: Trump Blames Iran War, Dislike of Israel for Midterm Losses - Palestine Chronicle",
-    "Emirates\u2019 Clark Says Retirement Plans Derailed by Iran War - Bloomberg.com"
+    "IRGC Claims Underground Missile Production Expanded After Recent Wars - IranWire",
+    "TRUMP\u2019S NEXT MOVES ON IRAN: Can He End the War After the Democrats\u2019 Midterm Victory? - EnergyNow.com",
+    "Europe heads to the Abu Dhabi talks on ending Russia\u2019s war, but the Kremlin says it hasn\u2019t discussed a security deal with Europeans - Euromaidan Press"
    ]
   },
   "today": [
