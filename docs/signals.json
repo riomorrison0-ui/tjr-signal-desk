@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T02:45:20.314813-05:00",
+ "updated": "2026-11-09T02:50:20.365809-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4092.699951,
-   "feed": "real-time gold (PAXG, matched to spot +10.44)",
-   "time": "2026-11-09T02:40:00-05:00"
+   "price": 4090.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.01)",
+   "time": "2026-11-09T02:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Heading Into the Midterms, Americans Chose Prices Over the War, More Than Two to One - Institute for Global Affairs",
-    "Trump Says Ukraine Will Have \u2018Different Shape\u2019 After War, Claims Peace Deal Is Near - Kyiv Post",
-    "Who are the seafarers caught in the US-Israeli war on Iran? - Al Jazeera"
+    "Alta Ares founder Hadrien Canter on the drone war in Ukraine and European defence sovereignty - Dealroom",
+    "John le Carr\u00e9's son brings back George Smiley in new Cold War thriller - The Independent",
+    "\"We're in an era of agent-to-agent war\": Index Ventures' Shardul Shah on AI and cybersecurity - Dealroom"
    ]
   },
   "today": [
