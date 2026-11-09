@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T07:10:20.241031-05:00",
+ "updated": "2026-11-09T07:15:20.230685-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4109.600098,
-   "feed": "real-time gold (PAXG, matched to spot +10.60)",
-   "time": "2026-11-09T07:05:00-05:00"
+   "price": 4109.799805,
+   "feed": "real-time gold (PAXG, matched to spot +10.79)",
+   "time": "2026-11-09T07:10:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "'Thrown to the wolves': People think Trump trying to shift Iran war blame onto Pete Hegseth - Indy100",
-    "Assynt marks Remembrance Sunday with war memorial service - Northern Times",
-    "12-year-old in court charged with stealing Poppy Wreath from war memorial - The Irish News"
+    "Plans to move 124-year-old Ayr war memorial 'an affront to men who lost lives' - Ayr Advertiser",
+    "No Sanctions Relief, No Negotiations: Iran\u2019s Stance - WANA News Agency",
+    "51 moving images from Remembrance Day service at Blackpool War Memorial on the Prom - Blackpool Gazette"
    ]
   },
   "today": [
