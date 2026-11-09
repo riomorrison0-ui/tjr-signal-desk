@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T00:55:20.358719-05:00",
+ "updated": "2026-11-09T01:00:20.338287-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.700195,
-   "feed": "real-time gold (PAXG, matched to spot +12.29)",
-   "time": "2026-11-09T00:50:00-05:00"
+   "price": 4124.799805,
+   "feed": "real-time gold (PAXG, matched to spot +11.91)",
+   "time": "2026-11-09T00:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-    "Dutch more worried about digital threats than conventional war, natural disasters - NL Times",
-    "Trump expects talks with Xi and Putin on Iran war and nuclear disarmament - The Copenhagen Post"
+    "Iran warns U.S. to accept war-ending proposal or risk renewed fighting - upi",
+    "'We're Trying to Survive': Iranians Tell MBN War, Sanctions Are Emptying Their Tables - \u0627\u0644\u062d\u0631\u0629",
+    "Russia's shadow war: How Europe fights back - DW.com"
    ]
   },
   "today": [
