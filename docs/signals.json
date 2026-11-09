@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T14:00:20.396202-05:00",
+ "updated": "2026-11-09T14:05:20.391335-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4107.0,
-   "feed": "real-time gold (PAXG, matched to spot +14.15)",
-   "time": "2026-11-09T13:55:00-05:00"
+   "price": 4104.700195,
+   "feed": "real-time gold (PAXG, matched to spot +13.15)",
+   "time": "2026-11-09T14:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Russia rejects Ukraine war 'freeze' and claims Kyiv would use pause to rearm - www.thenationalnews.com",
     "Ukraine war latest: Russia suffers record daily losses for 2nd time in a month - The Kyiv Independent",
-    "China\u2019s Nvidia spy plot is straight out of the Cold War playbook - The Telegraph",
-    "Trump says he's not planning new Iran strikes, defends war after GOP midterm losses - Spectrum News"
+    "China\u2019s Nvidia spy plot is straight out of the Cold War playbook - The Telegraph"
    ]
   },
   "today": [
