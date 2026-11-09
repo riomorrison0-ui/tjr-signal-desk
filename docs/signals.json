@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T00:25:20.296987-05:00",
+ "updated": "2026-11-09T00:30:20.356244-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4124.399902,
-   "feed": "real-time gold (PAXG, matched to spot +10.83)",
-   "time": "2026-11-09T00:20:00-05:00"
+   "price": 4123.299805,
+   "feed": "real-time gold (PAXG, matched to spot +9.85)",
+   "time": "2026-11-09T00:25:00-05:00"
   }
  },
  "stats": {
@@ -47,8 +47,8 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
     "Ukraine-Russia war latest: Trump suggests Kyiv will \u2018\u200bend up with a different shape\u2019 after peace deal - inkl",
     "US voters care about the rent, not the war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
