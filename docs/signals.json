@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T08:30:20.237120-05:00",
+ "updated": "2026-11-09T08:35:20.239719-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4127.0,
-   "feed": "real-time gold (PAXG, matched to spot +11.97)",
-   "time": "2026-11-09T08:25:00-05:00"
+   "price": 4127.200195,
+   "feed": "real-time gold (PAXG, matched to spot +11.85)",
+   "time": "2026-11-09T08:30:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Euronaval 2026: France to procure MBDA's Naval Cruise Missile Mk 2 for deep strike - Janes Defence Intelligence",
-    "From Cargo Aircraft to Missile Carriers: C-17s Could Soon Launch Cruise Missiles - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
-    "Over 450,000 Russians killed in Ukraine war, leaked Rosstat figures expose staggering human cost - Firstpost"
+    "Syria confirms sending troops to Saudi Arabia amid battle against Houthis - Al Jazeera",
+    "\u2018Didn\u2019t Like War\u2019: Trump Blames Iran War, Dislike of Israel for Midterm Losses - Palestine Chronicle",
+    "Emirates\u2019 Clark Says Retirement Plans Derailed by Iran War - Bloomberg.com"
    ]
   },
   "today": [
