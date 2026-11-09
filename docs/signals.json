@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T19:55:20.258827-05:00",
+ "updated": "2026-11-08T20:00:20.222957-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4098.799805,
-   "feed": "real-time gold (PAXG, matched to spot +4.71)",
-   "time": "2026-11-08T19:50:00-05:00"
+   "price": 4104.5,
+   "feed": "real-time gold (PAXG, matched to spot +5.22)",
+   "time": "2026-11-08T19:55:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump repeats that he was fine with Vance\u2019s comments tying Iran war to midterms loss - The Times of Israel",
-    "Despite Neutrality Claims, Beijing And Moscow Support Iran\u2019s War, Inflicting Collateral Costs On Indo-Pacific - Eurasia Review",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - CTV News"
+    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Trump thinks the Ukraine war could END soon, but Ukraine might not look the same on the map. \u201cThey're going to end up with a little bit different shape Ukraine.\u201d He's openly suggesting a peace deal could involve territorial changes. The big question is - X",
+    "Hacked records show 400,000 Russians killed in war on Ukraine - The Japan Times",
+    "Trump repeats that he was fine with Vance\u2019s comments tying Iran war to midterms loss - The Times of Israel"
    ]
   },
   "today": [
