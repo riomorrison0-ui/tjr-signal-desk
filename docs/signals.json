@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T10:05:20.389758-05:00",
+ "updated": "2026-11-09T10:10:20.364366-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4118.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.72)",
-   "time": "2026-11-09T10:00:00-05:00"
+   "price": 4117.799805,
+   "feed": "real-time gold (PAXG, matched to spot +13.14)",
+   "time": "2026-11-09T10:05:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran stands by demands to end the war as US ramps up military pressure - Al Jazeera",
-    "US Now In A 'Forever War' With Iran Because Of Trump, Anthony Scaramucci Says - HuffPost UK",
-    "Police identify 30 of 55 bodies recovered from Komyshuvakha airstrike - The Kyiv Independent"
+    "MBDA on contract to study Aster 30 missile integration in MK 41 VLS - Naval News",
+    "Claes Bang Post World War Two Drama \u2018I Is Another\u2019 Unveils First Deals - Deadline",
+    "The bridge where the Cold War ended - Princeton University Press"
    ]
   },
   "today": [
