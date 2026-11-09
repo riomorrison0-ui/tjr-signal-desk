@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T13:45:20.326391-05:00",
+ "updated": "2026-11-09T13:50:20.367790-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4106.799805,
-   "feed": "real-time gold (PAXG, matched to spot +14.19)",
-   "time": "2026-11-09T13:40:00-05:00"
+   "price": 4105.600098,
+   "feed": "real-time gold (PAXG, matched to spot +12.71)",
+   "time": "2026-11-09T13:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump says he's not planning new Iran strikes, defends war after GOP midterm losses - Spectrum News",
-    "Bodmin pays moving tributes to remember the town's war heroes - Cornish & Devon Post",
-    "Everyone is talking about World War III. Sweden is preparing for it - The Kyiv Independent"
+    "Ukraine war latest: Russia suffers record daily losses for 2nd time in a month - The Kyiv Independent",
+    "China\u2019s Nvidia spy plot is straight out of the Cold War playbook - The Telegraph",
+    "Trump says he's not planning new Iran strikes, defends war after GOP midterm losses - Spectrum News"
    ]
   },
   "today": [
