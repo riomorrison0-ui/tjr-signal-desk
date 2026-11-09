@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T20:25:20.216251-05:00",
+ "updated": "2026-11-08T20:30:20.215048-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4108.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.13)",
-   "time": "2026-11-08T20:20:00-05:00"
+   "price": 4110.100098,
+   "feed": "real-time gold (PAXG, matched to spot +11.43)",
+   "time": "2026-11-08T20:25:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Cooper Informs Israeli Military Officials of Support for Resuming War on Iran and Targeting Its Infrastructure - \u0635\u062d\u064a\u0641\u0629 \u0633\u0628\u0642 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629",
-    "COP31 to open in Turkey, with climate goals under pressure from war and AI - Reuters",
-    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post"
+    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Toronto Star",
+    "Europe and China pull back from a trade war for now - Gulf News"
    ]
   },
   "today": [
