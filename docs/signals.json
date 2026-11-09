@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T23:05:20.323351-05:00",
+ "updated": "2026-11-08T23:10:20.368349-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4119.700195,
-   "feed": "real-time gold (PAXG, matched to spot +9.89)",
-   "time": "2026-11-08T23:00:00-05:00"
+   "price": 4120.600098,
+   "feed": "real-time gold (PAXG, matched to spot +9.54)",
+   "time": "2026-11-08T23:05:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - \u5df4\u58eb\u7684\u5831",
-    "Germany Confirms No More Patriot Missiles for Ukraine: Missile Defence Crisis Worsens - Military Watch Magazine",
-    "US big-deck amphibious push risks a Chinese missile trap - Asia Times"
+    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
+    "The next Congress shouldn\u2019t let Iran become a \u2018background war\u2019 - chronicleonline.com",
+    "How will the October 7 war affect children born into it? Israeli researchers launch major study - ynetnews"
    ]
   },
   "today": [
