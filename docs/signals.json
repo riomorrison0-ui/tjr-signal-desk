@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T18:30:20.319930-05:00",
+ "updated": "2026-11-09T18:35:20.317457-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4143.299805,
-   "feed": "real-time gold (PAXG, matched to spot +15.60)",
-   "time": "2026-11-09T18:25:00-05:00"
+   "price": 4140.799805,
+   "feed": "real-time gold (PAXG, matched to spot +15.71)",
+   "time": "2026-11-09T18:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Abu Dhabi to resume talks on ceasefire monitoring \u2014 The Japan Times - UA.NEWS",
-    "Few meet major clinical response criteria after treatment escalation for lupus - Medical Xpress",
-    "Will Secretary Pete Hegseth pay the price for the Iran war? - NPR"
+    "Donald Trump says Iran war could end soon, defends Pete Hegseth, Nvidia CEO - The Jerusalem Post",
+    "US sees progress toward bringing end to war in Ukraine \u2014 Trump - TRT World",
+    "US seeing 'strong inclination' Ukraine war to end - Trump - RTE.ie"
    ]
   },
   "today": [
