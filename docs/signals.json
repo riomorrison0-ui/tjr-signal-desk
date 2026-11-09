@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T22:50:20.319937-05:00",
+ "updated": "2026-11-08T22:55:20.367906-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4119.600098,
-   "feed": "real-time gold (PAXG, matched to spot +9.01)",
-   "time": "2026-11-08T22:45:00-05:00"
+   "price": 4121.799805,
+   "feed": "real-time gold (PAXG, matched to spot +12.31)",
+   "time": "2026-11-08T22:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - \u5df4\u58eb\u7684\u5831",
     "Germany Confirms No More Patriot Missiles for Ukraine: Missile Defence Crisis Worsens - Military Watch Magazine",
-    "US big-deck amphibious push risks a Chinese missile trap - Asia Times",
-    "Trump says Ukraine will emerge with 'different shape' after Russia war - Anadolu Ajans\u0131"
+    "US big-deck amphibious push risks a Chinese missile trap - Asia Times"
    ]
   },
   "today": [
