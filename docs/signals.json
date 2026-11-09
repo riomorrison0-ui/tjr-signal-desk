@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T09:30:20.269112-05:00",
+ "updated": "2026-11-09T09:35:20.266350-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.799805,
-   "feed": "real-time gold (PAXG, matched to spot +11.06)",
-   "time": "2026-11-09T09:25:00-05:00"
+   "price": 4125.600098,
+   "feed": "real-time gold (PAXG, matched to spot +12.32)",
+   "time": "2026-11-09T09:30:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "The Mosquito Bowl review: A competently made anti-war film that lacks emotional resonance - Radio Times",
-    "Putin is taking a leaf out of the IRA\u2019s book in his hybrid war on Europe - The Telegraph",
-    "Russian War Criminal Torden Seeks Lighter Sentence in Finland After Life Term Cut to 12.5 Years - UNITED24 Media"
+    "Emirates' Tim Clark said Iran war again derailed retirement plans - Quartz",
+    "Iraqi prime minister made unannounced visit to Tehran for talks on ending Iran-US war: Report - Anadolu Ajans\u0131",
+    "Canada Hits Russia With New Sanctions Targeting 62 Individuals and Entities Linked to Missiles and War Industry - UNITED24 Media"
    ]
   },
   "today": [
