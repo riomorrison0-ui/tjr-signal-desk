@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T05:50:20.232220-05:00",
+ "updated": "2026-11-09T05:55:20.258376-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4098.200195,
-   "feed": "real-time gold (PAXG, matched to spot +11.34)",
-   "time": "2026-11-09T05:45:00-05:00"
+   "price": 4097.399902,
+   "feed": "real-time gold (PAXG, matched to spot +10.42)",
+   "time": "2026-11-09T05:50:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Ukrainian and Belarusian Hackers Expose Russia\u2019s Secret War Death Records - UNITED24 Media",
-    "Abandoned and traumatised: child refugees at \u2018violent\u2019 breaking point in Egypt after fleeing Sudan war - The Guardian",
-    "History group honours Clackmannanshire war heroes at remembrance night - Alloa Advertiser"
+    "Democrats Take Congress: Living Costs and the Iran War Prove Decisive Issues for US Voters - International Banker",
+    "Wirral war memorial shines bright in tribute to the fallen - | Wirral View",
+    "Trump says US has \u2018won\u2019 Iran war as Rubio reports no progress in talks - Euronews.com"
    ]
   },
   "today": [
