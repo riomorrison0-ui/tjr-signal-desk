@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T23:35:20.335474-05:00",
+ "updated": "2026-11-08T23:40:20.299627-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4130.200195,
-   "feed": "real-time gold (PAXG, matched to spot +10.62)",
-   "time": "2026-11-08T23:30:00-05:00"
+   "price": 4130.0,
+   "feed": "real-time gold (PAXG, matched to spot +11.10)",
+   "time": "2026-11-08T23:35:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Missile Debris Damages Aramco Tower in Riyadh After Houthi Attack - The SOFX Report",
-    "War drove refugees into Turkey. Climate change is making it harder to leave. - Mezha.net",
-    "Rubio says war on Iran unpopular but \u2018necessary\u2019 to stop nuclear threat - Al Jazeera"
+    "War with Iran, gasoline prices, a 'great dislike' for Israel, Trump explains why GOP lost the elections | LIVE BLOG - i24NEWS",
+    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
+    "Missile Debris Damages Aramco Tower in Riyadh After Houthi Attack - The SOFX Report"
    ]
   },
   "today": [
