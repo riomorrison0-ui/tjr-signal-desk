@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T10:55:20.379786-05:00",
+ "updated": "2026-11-09T11:00:20.441914-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4121.0,
-   "feed": "real-time gold (PAXG, matched to spot +11.82)",
-   "time": "2026-11-09T10:50:00-05:00"
+   "price": 4122.200195,
+   "feed": "real-time gold (PAXG, matched to spot +12.09)",
+   "time": "2026-11-09T10:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russia\u2019s new mini cruise missile is packed with American technology \u2014 Ukraine finds 52 US components among 93 foreign parts - Euromaidan Press",
-    "Zelenskyy, Modi discuss diplomatic efforts to end Russia-Ukraine war during phone call - Anadolu Ajans\u0131",
-    "IRGC strikes three tankers near Hormuz over \u2018US links\u2019 - Al Jazeera"
+    "Press Release: Legal opinion challenges use of British bases in Iran war - Campaign for Nuclear Disarmament",
+    "British Pound reclaims 1.3400 as Iran war fears ease ahead of US CPI - FXStreet",
+    "As War Roils Energy Markets, China Sees Its Emissions Drop - Yale E360"
    ]
   },
   "today": [
