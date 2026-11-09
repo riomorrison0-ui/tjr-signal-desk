@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T03:15:20.319603-05:00",
+ "updated": "2026-11-09T03:20:20.312624-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4091.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.01)",
-   "time": "2026-11-09T03:10:00-05:00"
+   "price": 4091.699951,
+   "feed": "real-time gold (PAXG, matched to spot +8.80)",
+   "time": "2026-11-09T03:15:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Premature Pakistani triplets flourish after \u2018intense\u2019 start to life during Iran war - The National",
-    "Alta Ares founder Hadrien Canter on the drone war in Ukraine and European defence sovereignty - Dealroom",
-    "John le Carr\u00e9's son brings back George Smiley in new Cold War thriller - The Independent"
+    "War Damage Hits Iran\u2019s Pharmaceutical Industry - WANA News Agency",
+    "Top House Democrat backs impeaching Pentagon chief Hegseth over Iran war - Hromadske",
+    "Trump cites \u2018dislike for Israel,\u2019 Iran war among reasons for GOP midterm losses - JNS.org"
    ]
   },
   "today": [
