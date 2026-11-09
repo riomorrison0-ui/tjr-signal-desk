@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T12:25:20.387376-05:00",
+ "updated": "2026-11-09T12:30:20.392788-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4106.299805,
-   "feed": "real-time gold (PAXG, matched to spot +12.86)",
-   "time": "2026-11-09T12:20:00-05:00"
+   "price": 4106.200195,
+   "feed": "real-time gold (PAXG, matched to spot +11.93)",
+   "time": "2026-11-09T12:25:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "'A lot to look forward to': World War I recital to be held on Armistice Day - Lancashire Evening Post",
-    "103-year-old Second World War veteran joins Fenland town's Remembrance parade - Cambs Times",
-    "US, China officially extend trade war truce by 2 months - Supply Chain Dive"
+    "Donald Trump weighs up difficult options to resolve the war in Iran - The Irish Times",
+    "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels - Crude Oil Prices Today | OilPrice.com",
+    "'A lot to look forward to': World War I recital to be held on Armistice Day - Lancashire Evening Post"
    ]
   },
   "today": [
