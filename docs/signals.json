@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T07:25:20.238995-05:00",
+ "updated": "2026-11-09T07:30:20.236168-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4113.5,
-   "feed": "real-time gold (PAXG, matched to spot +11.46)",
-   "time": "2026-11-09T07:20:00-05:00"
+   "price": 4115.299805,
+   "feed": "real-time gold (PAXG, matched to spot +11.43)",
+   "time": "2026-11-09T07:25:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Plans to move 124-year-old Ayr war memorial 'an affront to men who lost lives' - Ayr Advertiser",
-    "No Sanctions Relief, No Negotiations: Iran\u2019s Stance - WANA News Agency",
-    "51 moving images from Remembrance Day service at Blackpool War Memorial on the Prom - Blackpool Gazette"
+    "Trump, Putin and the short war illusion - Financial Times",
+    "One war, two books: Aggregation crossing from aviation into marine - Global Reinsurance",
+    "Canada announces fresh Russia-related sanctions - Reuters"
    ]
   },
   "today": [
