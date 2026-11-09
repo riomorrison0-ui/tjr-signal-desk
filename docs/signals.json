@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T06:25:20.236676-05:00",
+ "updated": "2026-11-09T06:30:20.258843-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4103.799805,
-   "feed": "real-time gold (PAXG, matched to spot +10.43)",
-   "time": "2026-11-09T06:20:00-05:00"
+   "price": 4107.299805,
+   "feed": "real-time gold (PAXG, matched to spot +11.52)",
+   "time": "2026-11-09T06:25:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "The American and Ukrainian Chaplains Traveling to the War\u2019s Frontlines - Christianity Today",
-    "A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine - Nature",
-    "Democrats Take Congress: Living Costs and the Iran War Prove Decisive Issues for US Voters - International Banker"
+    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters",
+    "Russia\u2019s Iskander-M Missile Production Takes a Hit as Ukraine Strikes Key Factory Near St. Petersburg - UNITED24 Media",
+    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Internazionale"
    ]
   },
   "today": [
