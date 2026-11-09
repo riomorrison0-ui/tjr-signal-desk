@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T20:40:20.260763-05:00",
+ "updated": "2026-11-08T20:45:20.220231-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4110.0,
-   "feed": "real-time gold (PAXG, matched to spot +6.39)",
-   "time": "2026-11-08T20:35:00-05:00"
+   "price": 4125.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.58)",
+   "time": "2026-11-08T20:40:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Toronto Star",
-    "Europe and China pull back from a trade war for now - Gulf News"
+    "Rubio says Trump\u2019s war against Iran not \u2018necessarily popular\u2019 but needed to stop a nuclear threat - The Seattle Times",
+    "Billings family rebuilds after home invasion ends in devastating fire - KTVQ",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - The Hindu"
    ]
   },
   "today": [
