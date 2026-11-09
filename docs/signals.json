@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T12:10:20.558714-05:00",
+ "updated": "2026-11-09T12:15:21.296602-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4110.5,
-   "feed": "real-time gold (PAXG, matched to spot +12.54)",
-   "time": "2026-11-09T12:05:00-05:00"
+   "price": 4106.700195,
+   "feed": "real-time gold (PAXG, matched to spot +12.11)",
+   "time": "2026-11-09T12:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "France Says Iran\u2019s Guards Behind Cyberattacks on Fridges, Vows Sanctions - ASHARQ AL-AWSAT English",
-    "Secretary of War Pete Hegseth Orders Sweeping Overhaul of Military Education to Refocus on - U.S. Department of War (.gov)",
-    "Foreign Tourism Collapses in Historic Iranian City of Yazd Following War - IranWire"
+    "'A lot to look forward to': World War I recital to be held on Armistice Day - Lancashire Evening Post",
+    "103-year-old Second World War veteran joins Fenland town's Remembrance parade - Cambs Times",
+    "US, China officially extend trade war truce by 2 months - Supply Chain Dive"
    ]
   },
   "today": [
