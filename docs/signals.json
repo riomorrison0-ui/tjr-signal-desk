@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T04:00:20.339998-05:00",
+ "updated": "2026-11-09T04:05:20.319789-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4096.5,
-   "feed": "real-time gold (PAXG, matched to spot +8.74)",
-   "time": "2026-11-09T03:55:00-05:00"
+   "price": 4096.600098,
+   "feed": "real-time gold (PAXG, matched to spot +6.82)",
+   "time": "2026-11-09T04:00:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Lest we forget: Wreaths laid at Bettyhill War Memorial - Northern Times",
-    "Missile War Monitor: Ukrainian drones strike Kirishi, home of Russia's second-largest refinery - IntelliNews",
-    "Iraqis wary of escalation as Iran gloats over Trump\u2019s midterm losses - Al-Monitor"
+    "Pius XII: The Pope in War and Peace - EWTN Vatican",
+    "Inside the Vatican Archives: Untold Stories of War - EWTN Vatican",
+    "Rogart remembers: Rev John Chambers leads tributes at war memorial - Northern Times"
    ]
   },
   "today": [
