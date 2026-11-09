@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T12:40:20.371885-05:00",
+ "updated": "2026-11-09T12:45:20.340062-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4106.299805,
-   "feed": "real-time gold (PAXG, matched to spot +13.19)",
-   "time": "2026-11-09T12:35:00-05:00"
+   "price": 4103.799805,
+   "feed": "real-time gold (PAXG, matched to spot +11.12)",
+   "time": "2026-11-09T12:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Two children injured by war remnants in Tal Tamr - ANHA",
     "Donald Trump weighs up difficult options to resolve the war in Iran - The Irish Times",
-    "Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels - Crude Oil Prices Today | OilPrice.com",
-    "'A lot to look forward to': World War I recital to be held on Armistice Day - Lancashire Evening Post"
+    "Hybrid War Makes High North a Contest for NATO - Center for European Policy Analysis (CEPA)"
    ]
   },
   "today": [
