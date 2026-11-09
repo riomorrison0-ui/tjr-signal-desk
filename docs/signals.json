@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T23:50:20.331425-05:00",
+ "updated": "2026-11-08T23:55:20.422186-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4125.399902,
-   "feed": "real-time gold (PAXG, matched to spot +12.58)",
-   "time": "2026-11-08T23:45:00-05:00"
+   "price": 4122.299805,
+   "feed": "real-time gold (PAXG, matched to spot +9.63)",
+   "time": "2026-11-08T23:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War with Iran, gasoline prices, a 'great dislike' for Israel, Trump explains why GOP lost the elections | LIVE BLOG - i24NEWS",
-    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-    "Missile Debris Damages Aramco Tower in Riyadh After Houthi Attack - The SOFX Report"
+    "Trump Announces Talks with Xi Jinping and Putin to End Iran War - 8AM Media",
+    "Official report documents the escalation of occupation attacks on Al-Aqsa Mosque and the Ibrahimi Mosque during October - \u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633",
+    "A Shift in Iranian Military Doctrine: Lifting Restrictions on Ballistic Missile Range to Enhance Deterrence - \u062c\u0631\u064a\u062f\u0629 \u0627\u0644\u0642\u062f\u0633"
    ]
   },
   "today": [
