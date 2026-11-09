@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T01:25:20.342446-05:00",
+ "updated": "2026-11-09T01:30:20.337703-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4120.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.02)",
-   "time": "2026-11-09T01:20:00-05:00"
+   "price": 4117.399902,
+   "feed": "real-time gold (PAXG, matched to spot +13.85)",
+   "time": "2026-11-09T01:25:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "\u2018The currency of war is death\u2019: Ex-SAS commander on the brutal deal for soldiers - The Independent",
-    "Iran warns U.S. to accept war-ending proposal or risk renewed fighting - upi",
-    "'We're Trying to Survive': Iranians Tell MBN War, Sanctions Are Emptying Their Tables - \u0627\u0644\u062d\u0631\u0629"
+    "Saudi-led coalition forces destroy Houthi missile launch platform - thenationalnews.com",
+    "Russian losses in Ukraine war rise by 2,980 over past day - Ukrinform",
+    "Policy rift emerges within Seoul over N. Korea sanctions - The Korea Herald"
    ]
   },
   "today": [
