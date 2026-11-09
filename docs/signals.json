@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T21:10:20.215192-05:00",
+ "updated": "2026-11-08T21:15:20.262945-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4133.799805,
-   "feed": "real-time gold (PAXG, matched to spot +14.00)",
-   "time": "2026-11-08T21:05:00-05:00"
+   "price": 4130.600098,
+   "feed": "real-time gold (PAXG, matched to spot +9.29)",
+   "time": "2026-11-08T21:10:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Hacked records show 400,000 Russians killed in war on Ukraine - The Age",
-    "Rubio: Trump\u2019s war on Iran not \u2018necessarily popular\u2019 but needed to stop nuclear threat - The Times of Israel",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Toronto Star"
+    "Trump Says Iran War May Have Hurt Republicans in the Midterms - NOTUS",
+    "Trump pushes back on Vance\u2019s Iran war post, says he\u2019d make the same call - Politico",
+    "Trump cites 'great dislike' for Israel, Iran war among reasons for Republican midterm losses - Anadolu Ajans\u0131"
    ]
   },
   "today": [
