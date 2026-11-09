@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T09:00:20.268086-05:00",
+ "updated": "2026-11-09T09:05:20.245115-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.799805,
-   "feed": "real-time gold (PAXG, matched to spot +11.88)",
-   "time": "2026-11-09T08:55:00-05:00"
+   "price": 4125.399902,
+   "feed": "real-time gold (PAXG, matched to spot +12.24)",
+   "time": "2026-11-09T09:00:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
     "IRGC Claims Underground Missile Production Expanded After Recent Wars - IranWire",
-    "TRUMP\u2019S NEXT MOVES ON IRAN: Can He End the War After the Democrats\u2019 Midterm Victory? - EnergyNow.com",
-    "Europe heads to the Abu Dhabi talks on ending Russia\u2019s war, but the Kremlin says it hasn\u2019t discussed a security deal with Europeans - Euromaidan Press"
+    "Ukraine\u2019s Patriot Missile Shortage Expected to Last Another Year, Analyst Says - UNITED24 Media",
+    "TRUMP\u2019S NEXT MOVES ON IRAN: Can He End the War After the Democrats\u2019 Midterm Victory? - EnergyNow.com"
    ]
   },
   "today": [
