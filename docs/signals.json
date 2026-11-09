@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T04:50:20.273664-05:00",
+ "updated": "2026-11-09T04:55:20.255387-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4096.299805,
-   "feed": "real-time gold (PAXG, matched to spot +10.73)",
-   "time": "2026-11-09T04:45:00-05:00"
+   "price": 4098.700195,
+   "feed": "real-time gold (PAXG, matched to spot +10.98)",
+   "time": "2026-11-09T04:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Deterrence and diplomacy needed to counter impact of Iran war, says Gargash - www.thenationalnews.com",
-    "From War to New Community: Support for Ukraine's Displaced People - Mirage News",
-    "Nonagenarians share childhood memories of war, evacuation and family sacrifice - SussexWorld"
+    "\ud83d\udd34 Andy Burnham has said Vladimir Putin is 'not serious' about peace as Russia continues to wage war in Ukraine. The prime minister made the comment during a conversation this afternoon with the President of Finland Alexander Stubb. The Nordic nation sh - Facebook",
+    "A Middle East oil price war heralds post-conflict glut - Middle East Online",
+    "Abu Dhabi debate focuses on new rules of power after Iran war - The Arab Weekly"
    ]
   },
   "today": [
