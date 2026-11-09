@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T06:10:20.244188-05:00",
+ "updated": "2026-11-09T06:15:20.221654-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4100.899902,
-   "feed": "real-time gold (PAXG, matched to spot +11.75)",
-   "time": "2026-11-09T06:05:00-05:00"
+   "price": 4103.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.78)",
+   "time": "2026-11-09T06:10:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Democrats Take Congress: Living Costs and the Iran War Prove Decisive Issues for US Voters - International Banker",
-    "Wirral war memorial shines bright in tribute to the fallen - | Wirral View",
-    "Trump says US has \u2018won\u2019 Iran war as Rubio reports no progress in talks - Euronews.com"
+    "The American and Ukrainian Chaplains Traveling to the War\u2019s Frontlines - Christianity Today",
+    "A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine - Nature",
+    "Democrats Take Congress: Living Costs and the Iran War Prove Decisive Issues for US Voters - International Banker"
    ]
   },
   "today": [
