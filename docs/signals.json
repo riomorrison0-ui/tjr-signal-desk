@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T23:20:20.339784-05:00",
+ "updated": "2026-11-08T23:25:20.346448-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4122.100098,
-   "feed": "real-time gold (PAXG, matched to spot +9.81)",
-   "time": "2026-11-08T23:15:00-05:00"
+   "price": 4123.5,
+   "feed": "real-time gold (PAXG, matched to spot +10.03)",
+   "time": "2026-11-08T23:20:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Democrats will take aim at Medicaid cuts, Iran war and tariffs, Jeffries says - The Washington Post",
-    "The next Congress shouldn\u2019t let Iran become a \u2018background war\u2019 - chronicleonline.com",
-    "How will the October 7 war affect children born into it? Israeli researchers launch major study - ynetnews"
+    "Missile Debris Damages Aramco Tower in Riyadh After Houthi Attack - The SOFX Report",
+    "War drove refugees into Turkey. Climate change is making it harder to leave. - Mezha.net",
+    "Rubio says war on Iran unpopular but \u2018necessary\u2019 to stop nuclear threat - Al Jazeera"
    ]
   },
   "today": [
