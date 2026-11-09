@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T22:00:20.231710-05:00",
+ "updated": "2026-11-08T22:05:20.235008-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4121.0,
-   "feed": "real-time gold (PAXG, matched to spot +9.95)",
-   "time": "2026-11-08T21:55:00-05:00"
+   "price": 4119.899902,
+   "feed": "real-time gold (PAXG, matched to spot +11.01)",
+   "time": "2026-11-08T22:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-    "Trump says \u2018hatred\u2019 between Zelensky, Putin is main obstacle to ending war - The Hill",
-    "In Service of America: He inspected Soviet missile sites and was at the Pentagon on 9/11. Meet John Lohmann - Manchester Ink Link"
+    "Germany Confirms No More Patriot Missiles for Ukraine: Missile Defence Crisis Worsens - Military Watch Magazine",
+    "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport - chinadailyhk",
+    "Ukraine will likely 'end up with a little bit different shape' after war, Trump tells 60 Minutes - The Kyiv Independent"
    ]
   },
   "today": [
