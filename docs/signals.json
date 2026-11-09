@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T15:00:20.516519-05:00",
+ "updated": "2026-11-09T15:05:20.355593-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4134.700195,
-   "feed": "real-time gold (PAXG, matched to spot +11.20)",
-   "time": "2026-11-09T14:55:00-05:00"
+   "price": 4134.799805,
+   "feed": "real-time gold (PAXG, matched to spot +12.73)",
+   "time": "2026-11-09T15:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
-    "Israel is Trying to Drag the US Into an \u2018Endless War\u2019 With Iran, Ghalibaf Warns - Palestine Chronicle",
-    "Hegseth Mandates Military Education Reform - U.S. Department of War (.gov)"
+    "Great-great-great-nephew unveils portrait of his namesake killed in the Great War - The Northern Echo",
+    "Netflix Officially Removes Clint Eastwood\u2019s R-Rated War Thriller - IMDb",
+    "Hanwha WB Advanced System breaks ground for missile plant in Poland - Janes Defence Intelligence"
    ]
   },
   "today": [
