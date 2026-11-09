@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T11:10:20.366131-05:00",
+ "updated": "2026-11-09T11:15:20.419889-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.5,
-   "feed": "real-time gold (PAXG, matched to spot +13.07)",
-   "time": "2026-11-09T11:05:00-05:00"
+   "price": 4127.600098,
+   "feed": "real-time gold (PAXG, matched to spot +11.69)",
+   "time": "2026-11-09T11:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Press Release: Legal opinion challenges use of British bases in Iran war - Campaign for Nuclear Disarmament",
-    "British Pound reclaims 1.3400 as Iran war fears ease ahead of US CPI - FXStreet",
-    "As War Roils Energy Markets, China Sees Its Emissions Drop - Yale E360"
+    "Barmouth firework display takes time to remember war heroes - Cambrian News",
+    "Canada Adds 38 Entities, 24 Individuals to Russia Sanctions List - Kyiv Post",
+    "IRGC Spokesman: No War Mines Have Been Cleared in Strait of Hormuz - WANA News Agency"
    ]
   },
   "today": [
