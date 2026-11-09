@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T05:35:20.219798-05:00",
+ "updated": "2026-11-09T05:40:20.288820-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4098.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.73)",
-   "time": "2026-11-09T05:30:00-05:00"
+   "price": 4098.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.91)",
+   "time": "2026-11-09T05:35:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
     "Ukrainian and Belarusian Hackers Expose Russia\u2019s Secret War Death Records - UNITED24 Media",
-    "Abandoned and traumatised: child refugees at \u2018violent\u2019 breaking point in Egypt after fleeing Sudan war - AOL.co.uk",
-    "Iran\u2019s authorities harden domestic security controls amid US strike threats - Al Jazeera"
+    "Abandoned and traumatised: child refugees at \u2018violent\u2019 breaking point in Egypt after fleeing Sudan war - The Guardian",
+    "History group honours Clackmannanshire war heroes at remembrance night - Alloa Advertiser"
    ]
   },
   "today": [
