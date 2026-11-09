@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T14:15:20.404963-05:00",
+ "updated": "2026-11-09T14:20:20.359609-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4103.5,
-   "feed": "real-time gold (PAXG, matched to spot +12.59)",
-   "time": "2026-11-09T14:10:00-05:00"
+   "price": 4106.5,
+   "feed": "real-time gold (PAXG, matched to spot +13.75)",
+   "time": "2026-11-09T14:15:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russia rejects Ukraine war 'freeze' and claims Kyiv would use pause to rearm - www.thenationalnews.com",
-    "Ukraine war latest: Russia suffers record daily losses for 2nd time in a month - The Kyiv Independent",
-    "China\u2019s Nvidia spy plot is straight out of the Cold War playbook - The Telegraph"
+    "Coalition says it destroyed Houthi facilities producing ballistic missile components - Arab News",
+    "France blames Iran for supermarket fridge hack, seeks EU sanctions - Al-Monitor",
+    "When sanctions meet corruption: Iran and the risk of conflict \u2014 Part 1 - Devpolicy Blog from the Development Policy Centre"
    ]
   },
   "today": [
