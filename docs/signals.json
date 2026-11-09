@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T06:40:20.245066-05:00",
+ "updated": "2026-11-09T06:45:20.238651-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4110.600098,
-   "feed": "real-time gold (PAXG, matched to spot +8.28)",
-   "time": "2026-11-09T06:35:00-05:00"
+   "price": 4114.0,
+   "feed": "real-time gold (PAXG, matched to spot +11.38)",
+   "time": "2026-11-09T06:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters",
-    "Russia\u2019s Iskander-M Missile Production Takes a Hit as Ukraine Strikes Key Factory Near St. Petersburg - UNITED24 Media",
-    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Internazionale"
+    "Houthi rebels say at least 44 killed in airstrike near Yemeni capital, and other Mideast news - The Washington Post",
+    "Iraq's Oil Sales to America Fall to Lowest Since the 2003 War - Crude Oil Prices Today | OilPrice.com",
+    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters"
    ]
   },
   "today": [
