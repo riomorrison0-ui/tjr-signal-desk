@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T17:40:20.305517-05:00",
+ "updated": "2026-11-09T17:45:20.324823-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4141.399902,
-   "feed": "real-time gold (PAXG, matched to spot +17.85)",
-   "time": "2026-11-09T17:35:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +17.84)",
+   "time": "2026-11-09T17:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump believes war with Iran is militarily \u2018effectively over\u2019 - WRTV",
-    "Trump says US is seeing progress toward ending Russia-Ukraine war - Anadolu Ajans\u0131",
-    "Opinion | The War and the Fog of Trump - WSJ"
+    "Legal fight escalates over physician\u2019s sanctions for past drug use - Iowa Capital Dispatch",
+    "Trump calls Iran war \u2018effectively over\u2019 after talks with Qatar PM - Al Jazeera",
+    "Donald Trump says he believes war with Iran is militarily \u2018effectively over\u2019 - Somerset County Gazette"
    ]
   },
   "today": [
