@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-08T21:45:20.229096-05:00",
+ "updated": "2026-11-08T21:50:20.227071-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4131.700195,
-   "feed": "real-time gold (PAXG, matched to spot +11.58)",
-   "time": "2026-11-08T21:40:00-05:00"
+   "price": 4126.799805,
+   "feed": "real-time gold (PAXG, matched to spot +11.56)",
+   "time": "2026-11-08T21:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Analysis \u2022 The Iran war may end, but Tehran's threat to the Gulf won't - Haaretz",
-    "Trump Says Iran War May Have Hurt Republicans in the Midterms - NOTUS",
-    "Trump pushes back on Vance\u2019s Iran war post, says he\u2019d make the same call - Politico"
+    "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+    "Trump says \u2018hatred\u2019 between Zelensky, Putin is main obstacle to ending war - The Hill",
+    "In Service of America: He inspected Soviet missile sites and was at the Pentagon on 9/11. Meet John Lohmann - Manchester Ink Link"
    ]
   },
   "today": [
