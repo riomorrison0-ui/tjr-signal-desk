@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T08:10:20.269743-05:00",
+ "updated": "2026-11-09T08:15:20.246026-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4123.100098,
-   "feed": "real-time gold (PAXG, matched to spot +14.18)",
-   "time": "2026-11-09T08:05:00-05:00"
+   "price": 4120.0,
+   "feed": "real-time gold (PAXG, matched to spot +11.16)",
+   "time": "2026-11-09T08:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US-Israeli War on Iran Deepens America\u2019s Housing Affordability Crisis - \u062a\u0633\u0646\u06cc\u0645",
-    "France, Cyprus and Sweden sign Akeron MP missile framework, plan to use EU SAFE initiative funding - Defence Industry Europe",
-    "US sanctions Canadian money services firms over Iran ties - https://www.engine.online/"
+    "Euronaval 2026: France to procure MBDA's Naval Cruise Missile Mk 2 for deep strike - Janes Defence Intelligence",
+    "From Cargo Aircraft to Missile Carriers: C-17s Could Soon Launch Cruise Missiles - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
+    "Over 450,000 Russians killed in Ukraine war, leaked Rosstat figures expose staggering human cost - Firstpost"
    ]
   },
   "today": [
