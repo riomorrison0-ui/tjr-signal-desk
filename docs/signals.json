@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T11:25:20.374124-05:00",
+ "updated": "2026-11-09T11:30:20.396925-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4122.299805,
-   "feed": "real-time gold (PAXG, matched to spot +14.75)",
-   "time": "2026-11-09T11:20:00-05:00"
+   "price": 4115.5,
+   "feed": "real-time gold (PAXG, matched to spot +12.51)",
+   "time": "2026-11-09T11:25:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Barmouth firework display takes time to remember war heroes - Cambrian News",
-    "Canada Adds 38 Entities, 24 Individuals to Russia Sanctions List - Kyiv Post",
-    "IRGC Spokesman: No War Mines Have Been Cleared in Strait of Hormuz - WANA News Agency"
+    "School pupils honour fallen World War servicemen of Fife - Central Fife Times",
+    "Hacked records show staggering Russian death toll as war in Ukraine nears 5-year mark - Stars and Stripes",
+    "Barmouth firework display takes time to remember war heroes - Cambrian News"
    ]
   },
   "today": [
