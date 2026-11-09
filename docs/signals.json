@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T05:05:20.232801-05:00",
+ "updated": "2026-11-09T05:10:20.233891-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4100.899902,
-   "feed": "real-time gold (PAXG, matched to spot +12.32)",
-   "time": "2026-11-09T05:00:00-05:00"
+   "price": 4101.100098,
+   "feed": "real-time gold (PAXG, matched to spot +10.65)",
+   "time": "2026-11-09T05:05:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\ud83d\udd34 Andy Burnham has said Vladimir Putin is 'not serious' about peace as Russia continues to wage war in Ukraine. The prime minister made the comment during a conversation this afternoon with the President of Finland Alexander Stubb. The Nordic nation sh - Facebook",
-    "A Middle East oil price war heralds post-conflict glut - Middle East Online",
-    "Abu Dhabi debate focuses on new rules of power after Iran war - The Arab Weekly"
+    "Abandoned and traumatised: child refugees at \u2018violent\u2019 breaking point in Egypt after fleeing Sudan war - The Guardian",
+    "Iran\u2019s authorities harden domestic security controls amid US strike threats - Al Jazeera",
+    "History group honours Clackmannanshire war heroes at remembrance night - Alloa Advertiser"
    ]
   },
   "today": [
