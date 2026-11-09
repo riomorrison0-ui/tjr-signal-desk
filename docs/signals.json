@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T12:55:20.398619-05:00",
+ "updated": "2026-11-09T13:00:20.408100-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4103.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.35)",
-   "time": "2026-11-09T12:50:00-05:00"
+   "price": 4103.200195,
+   "feed": "real-time gold (PAXG, matched to spot +10.96)",
+   "time": "2026-11-09T12:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Two children injured by war remnants in Tal Tamr - ANHA",
-    "Donald Trump weighs up difficult options to resolve the war in Iran - The Irish Times",
-    "Hybrid War Makes High North a Contest for NATO - Center for European Policy Analysis (CEPA)"
+    "Senior UAE official says Gulf faces 'prolonged uncertainty' with no settlement to Iran war - Middle East Eye",
+    "Boosting healthcare and ending the Iran war are top of the to-do list for House Democrats once they have majority - PBS",
+    "Two children injured by war remnants in Tal Tamr - ANHA"
    ]
   },
   "today": [
