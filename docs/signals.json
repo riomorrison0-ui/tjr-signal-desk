@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T02:15:20.325015-05:00",
+ "updated": "2026-11-09T02:20:20.361381-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4105.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.74)",
-   "time": "2026-11-09T02:10:00-05:00"
+   "price": 4102.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.57)",
+   "time": "2026-11-09T02:15:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine War, Day 1,719: Kyiv Attacks Russia\u2019s 2nd-Largest Refinery - EA WorldView",
-    "Daily_Brief: #Houthis claim wave of missile, drone attacks on #Riyadh, #Saudi_Arabia reports intercepts and minor damage to #Aramco building - Addis Standard",
-    "Trump says Iran war 'highly unlikely' to resume - RFI"
+    "Trump Says Ukraine Will Have \u2018Different Shape\u2019 After War, Claims Peace Deal Is Near - Kyiv Post",
+    "Who are the seafarers caught in the US-Israeli war on Iran? - Al Jazeera",
+    "Philippine economic slump worsens on Iran war, bad weather - The Japan Times"
    ]
   },
   "today": [
