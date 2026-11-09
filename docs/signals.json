@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T13:10:20.394380-05:00",
+ "updated": "2026-11-09T13:15:20.337609-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4106.600098,
-   "feed": "real-time gold (PAXG, matched to spot +11.73)",
-   "time": "2026-11-09T13:05:00-05:00"
+   "price": 4104.700195,
+   "feed": "real-time gold (PAXG, matched to spot +11.27)",
+   "time": "2026-11-09T13:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Senior UAE official says Gulf faces 'prolonged uncertainty' with no settlement to Iran war - Middle East Eye",
-    "Boosting healthcare and ending the Iran war are top of the to-do list for House Democrats once they have majority - PBS",
-    "Two children injured by war remnants in Tal Tamr - ANHA"
+    "Bodmin pays moving tributes to remember the town's war heroes - Cornish & Devon Post",
+    "Everyone is talking about World War III. Sweden is preparing for it - The Kyiv Independent",
+    "Police appeal after wreaths stolen from Crumlin War Memorial hours after commemorations - www.loveballymena.online"
    ]
   },
   "today": [
