@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T11:55:20.377067-05:00",
+ "updated": "2026-11-09T12:00:20.480405-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4107.600098,
-   "feed": "real-time gold (PAXG, matched to spot +11.09)",
-   "time": "2026-11-09T11:50:00-05:00"
+   "price": 4111.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.35)",
+   "time": "2026-11-09T11:55:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iraqi PM Visited Iran Secretly to \u2018Ease Tensions and Defuse War\u2019 - ASHARQ AL-AWSAT English",
-    "France doubles up on Aster missile numbers for FDI frigates - Janes Defence Intelligence",
-    "The War Room newsletter: How long will Pete Hegseth last? - The Economist"
+    "France Says Iran\u2019s Guards Behind Cyberattacks on Fridges, Vows Sanctions - ASHARQ AL-AWSAT English",
+    "Secretary of War Pete Hegseth Orders Sweeping Overhaul of Military Education to Refocus on - U.S. Department of War (.gov)",
+    "Foreign Tourism Collapses in Historic Iranian City of Yazd Following War - IranWire"
    ]
   },
   "today": [
