@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T16:55:20.403512-05:00",
+ "updated": "2026-11-09T17:00:20.340933-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4141.600098,
-   "feed": "real-time gold (PAXG, matched to spot +14.06)",
-   "time": "2026-11-09T16:50:00-05:00"
+   "price": 4141.899902,
+   "feed": "real-time gold (PAXG, matched to spot +14.49)",
+   "time": "2026-11-09T16:55:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump Hosts Key Qatari Mediator to Discuss End to Iran War - Foreign Policy",
-    "Russian Pundits Wary of Implications of U.S. Midterm Results for War - The Jamestown Foundation",
-    "The Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Co - U.S. Department of War (.gov)"
+    "France Blames Refrigerator Hacks on Iran, Proposes Sanctions To Hit Back - PCMag",
+    "'Positive momentum' towards end to Iran war, Trump says - Sky News",
+    "U.S. Sanctions Cripple Financial Networks Sustaining the Iranian Regime - U.S. Virtual Embassy Iran (.gov)"
    ]
   },
   "today": [
