@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T15:15:20.395908-05:00",
+ "updated": "2026-11-09T15:20:20.395252-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4140.299805,
-   "feed": "real-time gold (PAXG, matched to spot +11.75)",
-   "time": "2026-11-09T15:10:00-05:00"
+   "price": 4139.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.31)",
+   "time": "2026-11-09T15:15:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Great-great-great-nephew unveils portrait of his namesake killed in the Great War - The Northern Echo",
-    "Netflix Officially Removes Clint Eastwood\u2019s R-Rated War Thriller - IMDb",
-    "Hanwha WB Advanced System breaks ground for missile plant in Poland - Janes Defence Intelligence"
+    "United Arab Emirates\u2019 Dark Wing Missile Enters Production - Aviation Week",
+    "2026 death toll echoes 1980s tanker war - Splash247",
+    "Now That the Midterms Are Over, Will Trump Ramp Up the Iran War Or Not? - U.S. News & World Report"
    ]
   },
   "today": [
