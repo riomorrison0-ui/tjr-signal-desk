@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T03:00:20.322211-05:00",
+ "updated": "2026-11-09T03:05:20.363183-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4086.600098,
-   "feed": "real-time gold (PAXG, matched to spot +8.87)",
-   "time": "2026-11-09T02:55:00-05:00"
+   "price": 4093.5,
+   "feed": "real-time gold (PAXG, matched to spot +10.65)",
+   "time": "2026-11-09T03:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Premature Pakistani triplets flourish after \u2018intense\u2019 start to life during Iran war - The National",
     "Alta Ares founder Hadrien Canter on the drone war in Ukraine and European defence sovereignty - Dealroom",
-    "John le Carr\u00e9's son brings back George Smiley in new Cold War thriller - The Independent",
-    "\"We're in an era of agent-to-agent war\": Index Ventures' Shardul Shah on AI and cybersecurity - Dealroom"
+    "John le Carr\u00e9's son brings back George Smiley in new Cold War thriller - The Independent"
    ]
   },
   "today": [
