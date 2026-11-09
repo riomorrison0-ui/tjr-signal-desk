@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T16:10:20.335461-05:00",
+ "updated": "2026-11-09T16:15:20.365641-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4140.399902,
-   "feed": "real-time gold (PAXG, matched to spot +15.41)",
-   "time": "2026-11-09T16:05:00-05:00"
+   "price": 4139.399902,
+   "feed": "real-time gold (PAXG, matched to spot +15.87)",
+   "time": "2026-11-09T16:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Republican Launches Impeachment Against US Defence Chief Over Iran War - NDTV",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Sentinel Colorado",
-    "Iran\u2019s parliament speaker accuses Israel of trying to draw US into \u2018endless war\u2019 - Anadolu Ajans\u0131"
+    "Europe Is Still Making Up Its Mind About Which Hypersonic Interceptor Missile It Wants - The National Interest",
+    "Trump and Vance Confront the Iran War After Midterm Rout - Bloomberg.com",
+    "The New Cold War: Hackers Are Targeting Internet-Connected Freezers - U.S. News & World Report"
    ]
   },
   "today": [
