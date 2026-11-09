@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T11:40:20.377396-05:00",
+ "updated": "2026-11-09T11:45:20.470192-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4116.799805,
-   "feed": "real-time gold (PAXG, matched to spot +10.73)",
-   "time": "2026-11-09T11:35:00-05:00"
+   "price": 4116.299805,
+   "feed": "real-time gold (PAXG, matched to spot +11.20)",
+   "time": "2026-11-09T11:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "School pupils honour fallen World War servicemen of Fife - Central Fife Times",
-    "Hacked records show staggering Russian death toll as war in Ukraine nears 5-year mark - Stars and Stripes",
-    "Barmouth firework display takes time to remember war heroes - Cambrian News"
+    "Iraqi PM Visited Iran Secretly to \u2018Ease Tensions and Defuse War\u2019 - ASHARQ AL-AWSAT English",
+    "France doubles up on Aster missile numbers for FDI frigates - Janes Defence Intelligence",
+    "The War Room newsletter: How long will Pete Hegseth last? - The Economist"
    ]
   },
   "today": [
