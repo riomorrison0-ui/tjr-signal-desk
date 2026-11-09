@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T02:30:20.345874-05:00",
+ "updated": "2026-11-09T02:35:20.325007-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4100.299805,
-   "feed": "real-time gold (PAXG, matched to spot +9.30)",
-   "time": "2026-11-09T02:25:00-05:00"
+   "price": 4097.100098,
+   "feed": "real-time gold (PAXG, matched to spot +9.18)",
+   "time": "2026-11-09T02:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Heading Into the Midterms, Americans Chose Prices Over the War, More Than Two to One - Institute for Global Affairs",
     "Trump Says Ukraine Will Have \u2018Different Shape\u2019 After War, Claims Peace Deal Is Near - Kyiv Post",
-    "Who are the seafarers caught in the US-Israeli war on Iran? - Al Jazeera",
-    "Philippine economic slump worsens on Iran war, bad weather - The Japan Times"
+    "Who are the seafarers caught in the US-Israeli war on Iran? - Al Jazeera"
    ]
   },
   "today": [
