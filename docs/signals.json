@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T06:55:20.262872-05:00",
+ "updated": "2026-11-09T07:00:20.279252-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4111.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.49)",
-   "time": "2026-11-09T06:50:00-05:00"
+   "price": 4110.299805,
+   "feed": "real-time gold (PAXG, matched to spot +11.38)",
+   "time": "2026-11-09T06:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Houthi rebels say at least 44 killed in airstrike near Yemeni capital, and other Mideast news - The Washington Post",
-    "Iraq's Oil Sales to America Fall to Lowest Since the 2003 War - Crude Oil Prices Today | OilPrice.com",
-    "Trump to meet Iran war mediator Qatar, no imminent deal seen to end the war - Reuters"
+    "'Thrown to the wolves': People think Trump trying to shift Iran war blame onto Pete Hegseth - Indy100",
+    "Assynt marks Remembrance Sunday with war memorial service - Northern Times",
+    "12-year-old in court charged with stealing Poppy Wreath from war memorial - The Irish News"
    ]
   },
   "today": [
