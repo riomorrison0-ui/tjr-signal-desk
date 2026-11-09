@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T04:06:23.454644-05:00",
+ "updated": "2026-11-09T04:07:44.744482-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4098.600098,
-   "feed": "real-time gold (PAXG, matched to spot +8.82)",
+   "price": 4097.299805,
+   "feed": "real-time gold (PAXG, matched to spot +7.52)",
    "time": "2026-11-09T04:00:00-05:00"
   }
  },
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "COMMENTARY: Middle East oil price war heralds post-conflict glut - Reuters",
     "Pius XII: The Pope in War and Peace - EWTN Vatican",
-    "Inside the Vatican Archives: Untold Stories of War - EWTN Vatican",
-    "Rogart remembers: Rev John Chambers leads tributes at war memorial - Northern Times"
+    "Inside the Vatican Archives: Untold Stories of War - EWTN Vatican"
    ]
   },
   "today": [
@@ -96,8 +96,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.49,
-  "gbpusd": 1.33729
+  "stop_cap_usd": 53.64,
+  "gbpusd": 1.34093
  },
  "backtest": {
   "portfolio": {
