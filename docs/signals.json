@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T17:55:20.339996-05:00",
+ "updated": "2026-11-09T18:00:20.389053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4141.399902,
-   "feed": "real-time gold (PAXG, matched to spot +18.48)",
-   "time": "2026-11-09T17:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +17.32)",
+   "time": "2026-11-09T17:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Legal fight escalates over physician\u2019s sanctions for past drug use - Iowa Capital Dispatch",
-    "Trump calls Iran war \u2018effectively over\u2019 after talks with Qatar PM - Al Jazeera",
-    "Donald Trump says he believes war with Iran is militarily \u2018effectively over\u2019 - Somerset County Gazette"
+    "Trump says US war in Iran \u2018effectively over\u2019 as he plays down escalation concerns - The Guardian",
+    "Protection of U.S. forces strengthened at two air bases in the United Kingdom \u2014 The War Zone - UA.NEWS",
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post"
    ]
   },
   "today": [
