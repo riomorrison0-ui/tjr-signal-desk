@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T03:45:20.316545-05:00",
+ "updated": "2026-11-09T03:50:20.309402-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4099.899902,
-   "feed": "real-time gold (PAXG, matched to spot +8.01)",
-   "time": "2026-11-09T03:40:00-05:00"
+   "price": 4097.799805,
+   "feed": "real-time gold (PAXG, matched to spot +9.26)",
+   "time": "2026-11-09T03:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "From war to a new community: local support for displaced people in western Ukraine - coe.int",
-    "War Damage Hits Iran\u2019s Pharmaceutical Industry - WANA News Agency",
-    "Top House Democrat backs impeaching Pentagon chief Hegseth over Iran war - Hromadske"
+    "Lest we forget: Wreaths laid at Bettyhill War Memorial - Northern Times",
+    "Missile War Monitor: Ukrainian drones strike Kirishi, home of Russia's second-largest refinery - IntelliNews",
+    "Iraqis wary of escalation as Iran gloats over Trump\u2019s midterm losses - Al-Monitor"
    ]
   },
   "today": [
