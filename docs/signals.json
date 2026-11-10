@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T12:50:20.462796-05:00",
+ "updated": "2026-11-10T12:55:20.464825-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4021.600098,
-   "feed": "real-time gold (PAXG, matched to spot +6.32)",
-   "time": "2026-11-10T12:45:00-05:00"
+   "price": 4022.100098,
+   "feed": "real-time gold (PAXG, matched to spot +7.50)",
+   "time": "2026-11-10T12:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "The Secret Handshake\u2019s Latest Statue Mocks President Trump for Toe-Related Deferment to Avoid Vietnam War Draft - ARTnews.com",
-    "Gotham FC\u2019s Turf War Exposes Bigger Problem For The NWSL - Forbes",
-    "Rubio: US Sanctions on Iran So Effective That Military Action Is Unnecessary - 8AM Media"
+    "Kiryat Shmona challenges Israel's war compensation deadlines in High Court - The Jerusalem Post",
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "Ottawa restores sanctions on Iran it lifted a decade ago - Yahoo News Canada"
    ]
   },
   "today": [
