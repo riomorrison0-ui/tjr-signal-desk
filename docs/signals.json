@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T10:10:20.471852-05:00",
+ "updated": "2026-11-10T10:15:20.635472-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4049.899902,
-   "feed": "real-time gold (PAXG, matched to spot +8.68)",
-   "time": "2026-11-10T10:05:00-05:00"
+   "price": 4050.899902,
+   "feed": "real-time gold (PAXG, matched to spot +8.60)",
+   "time": "2026-11-10T10:10:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Forgotten Putney football photo uncovers First World War stories - Your Local Guardian",
-    "Canada resurrects sanctions against Iranian entities - Anadolu Ajans\u0131",
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post"
+    "BAE Systems accelerates delivery of advanced LRASM missile sensors - Naval News",
+    "New statue in DC mocks Trump for \u2018dodging\u2019 Vietnam war draft over bone spurs - The Guardian",
+    "XLIO lands $100M debt facility, pushing its war chest to $150M - Dealroom"
    ]
   },
   "today": [
