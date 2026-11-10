@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T19:30:20.317452-05:00",
+ "updated": "2026-11-09T19:35:20.310744-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4128.799805,
-   "feed": "real-time gold (PAXG, matched to spot +15.34)",
-   "time": "2026-11-09T19:25:00-05:00"
+   "price": 4124.299805,
+   "feed": "real-time gold (PAXG, matched to spot +15.30)",
+   "time": "2026-11-09T19:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
     "Trump says Iran war \u2019effectively over\u2019 after Qatar talks - The New Arab",
-    "This Veterans Day, Let\u2019s Focus on Preventing War - Progressive.org",
-    "Beijing Doesn\u2019t Need to Invade Taiwan to Control It - Bloomberg.com"
+    "This Veterans Day, Let\u2019s Focus on Preventing War - Progressive.org"
    ]
   },
   "today": [
