@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T05:45:20.464717-05:00",
+ "updated": "2026-11-10T05:50:20.460092-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4078.899902,
-   "feed": "real-time gold (PAXG, matched to spot +11.21)",
-   "time": "2026-11-10T05:40:00-05:00"
+   "price": 4075.800049,
+   "feed": "real-time gold (PAXG, matched to spot +11.64)",
+   "time": "2026-11-10T05:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US, Ukraine, and European partners agree to move toward broader multilateral talks on ending war - Anadolu Ajans\u0131",
-    "Donald Trump\u2019s Iran war helps cut carbon emissions - The Telegraph",
-    "Meet Our Demands To End War, Iran Urges US - Channels Television"
+    "Canada Reimposes Sanctions Against 11 Iranian Companies - Channels Television",
+    "Canada reimposes sanctions on Iran nuclear entities - The Jerusalem Post",
+    "Hackers expose Russia\u2019s war death toll - The Bell"
    ]
   },
   "today": [
