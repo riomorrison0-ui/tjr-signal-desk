@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T05:10:20.464537-05:00",
+ "updated": "2026-11-10T05:15:20.486582-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4084.899902,
-   "feed": "real-time gold (PAXG, matched to spot +11.18)",
-   "time": "2026-11-10T05:05:00-05:00"
+   "price": 4084.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.32)",
+   "time": "2026-11-10T05:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Birmingham City Eye January Deal As Midfield Tug-Of-War Emerges - The Stacey West",
-    "Oil prices fall to lowest since August as Trump says Iran war is \u2018effectively over\u2019 - The Guardian",
-    "Canada reimposes sanctions on 11 Iranian entities it delisted under nuclear deal - Iran International"
+    "Vanishing vessels and missing sailors: The Iran war's human cost at sea - Reuters",
+    "Our readers' questions about the war, answered. Vol. 12 - The Kyiv Independent",
+    "NEWS: EU sets up crypto task force to tackle Russian sanctions evasion - AML Intelligence"
    ]
   },
   "today": [
