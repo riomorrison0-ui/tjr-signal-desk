@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T01:50:20.479533-05:00",
+ "updated": "2026-11-10T01:55:20.484302-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4122.399902,
-   "feed": "real-time gold (PAXG, matched to spot +12.50)",
-   "time": "2026-11-10T01:45:00-05:00"
+   "price": 4121.799805,
+   "feed": "real-time gold (PAXG, matched to spot +11.97)",
+   "time": "2026-11-10T01:50:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump says Iran war to end 'fairly soon' - www.thenationalnews.com",
-    "Enough is enough: Trump must act now to end war in Ukraine - The Herald",
-    "FTSE 100 Live: Stocks to climb; Trump says Iran war \u2018effectively over\u2019 - City AM"
+    "LNG Traffic Through Hormuz Hits Highest Level Since Iran War Began - Crude Oil Prices Today | OilPrice.com",
+    "Ukrainian intelligence has identified the Russians involved in the airstrike on Komyshuvaha \u2013 Sibiga - UA.NEWS",
+    "Trump says Iran war to end 'fairly soon' - www.thenationalnews.com"
    ]
   },
   "today": [
