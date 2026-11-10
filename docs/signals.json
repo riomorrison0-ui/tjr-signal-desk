@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T12:00:20.588889-05:00",
+ "updated": "2026-11-10T12:05:20.522160-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4021.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.36)",
-   "time": "2026-11-10T11:55:00-05:00"
+   "price": 4023.0,
+   "feed": "real-time gold (PAXG, matched to spot +6.33)",
+   "time": "2026-11-10T12:00:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Gilded statue in DC mocks Trump for \u2018dodging\u2019 Vietnam war draft over bone spurs - The Guardian",
-    "France Warns Risk of Renewed US-Iran Military Escalation Remains - Kurdistan24",
-    "New memorial honors Gulf War veterans - U.S. Embassy & Consulates in Russia (.gov)"
+    "Carbon Emissions Barely Dip in 2026 as Iran War Lifts Renewables - Impakter",
+    "Mauchline talk to explore global challenge of maintaining war cemeteries - Cumnock Chronicle",
+    "Iran war is over, says Trump, as US prises open Strait of Hormuz - The Telegraph"
    ]
   },
   "today": [
