@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T09:10:20.480749-05:00",
+ "updated": "2026-11-10T09:15:20.476320-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4056.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.51)",
-   "time": "2026-11-10T09:05:00-05:00"
+   "price": 4054.100098,
+   "feed": "real-time gold (PAXG, matched to spot +9.80)",
+   "time": "2026-11-10T09:10:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 3,
    "examples": [
-    "From October 7 tragedy to the Knesset: Bereaved families and war survivors enter Israeli politics - Ynetnews",
-    "Poland\u2019s lower house backs sanctions bill covering crypto freezes - TradingView",
-    "Oil falls as Trump downplays prospect of escalation with Iran - Yahoo Finance"
+    "Sudanese refugees in Egypt: caught between war, borders and European money - InfoMigrants",
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "Oil falls below $90 as Trump signals Iran war could end \u2018fairly soon\u2019 - London Business News"
    ]
   },
   "today": [
