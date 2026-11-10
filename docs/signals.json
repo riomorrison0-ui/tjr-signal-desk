@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T03:25:20.489135-05:00",
+ "updated": "2026-11-10T03:30:20.439088-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4117.399902,
-   "feed": "real-time gold (PAXG, matched to spot +9.56)",
-   "time": "2026-11-10T03:20:00-05:00"
+   "price": 4117.100098,
+   "feed": "real-time gold (PAXG, matched to spot +9.64)",
+   "time": "2026-11-10T03:25:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Manus on Markets: Pressure eases after Trump\u2019s comments on Iran war - www.thenationalnews.com",
-    "Global Carbon Emissions Set to Dip in 2026 After Iran War Oil Surge - Energy Connects",
-    "Smuggling of foreign cash continues despite sanctions - Arctic Today"
+    "America\u2019s data centre culture war reaches Britain - Firstpost",
+    "US officials seek \u2018final end\u2019 to Russia-Ukraine war as Abu Dhabi talks begin - The Guardian",
+    "Manus on Markets: Pressure eases after Trump\u2019s comments on Iran war - www.thenationalnews.com"
    ]
   },
   "today": [
