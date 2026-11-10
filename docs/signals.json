@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T08:35:20.443019-05:00",
+ "updated": "2026-11-10T08:40:20.502282-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4049.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.78)",
-   "time": "2026-11-10T08:30:00-05:00"
+   "price": 4050.899902,
+   "feed": "real-time gold (PAXG, matched to spot +4.69)",
+   "time": "2026-11-10T08:35:00-05:00"
   }
  },
  "stats": {
@@ -55,11 +55,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Iraq bars Iranian football team\u2019s flight over US sanctions - Middle East Online",
-    "Will the US and Iran return to war? - Wired Gov",
-    "Saudi-Led Coalition Destroys Three Houthi Ballistic Missile Production Facilities in Yemen - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439"
+    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
+    "One in three male deaths under age 50 in three Russian oblasts linked to Ukraine war - The New Voice of Ukraine",
+    "War hero, 100, who dug Hitler\u2019s bunker meets family of man he saved in 1944 - Discover SWNS"
    ]
   },
   "today": [
