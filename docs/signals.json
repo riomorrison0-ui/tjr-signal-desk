@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T13:50:20.467801-05:00",
+ "updated": "2026-11-10T13:55:20.449394-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4030.5,
-   "feed": "real-time gold (PAXG, matched to spot +6.18)",
-   "time": "2026-11-10T13:45:00-05:00"
+   "price": 4029.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.86)",
+   "time": "2026-11-10T13:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is \u2018Effectively Over\u2019 - 24/7 Wall St.",
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "Global CO\u00b2 Emissions to Fall as Iran War Cuts Fossil-Fuel Use - WSJ"
+    "Iran unveils new \u2018missile city\u2019 - The Telegraph",
+    "Israeli fire kills 5 Palestinians, wounds 14 others in Gaza amid ceasefire violations - Anadolu Ajans\u0131",
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post"
    ]
   },
   "today": [
