@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T23:10:20.440379-05:00",
+ "updated": "2026-11-09T23:15:20.505169-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4109.899902,
-   "feed": "real-time gold (PAXG, matched to spot +10.30)",
-   "time": "2026-11-09T23:05:00-05:00"
+   "price": 4113.399902,
+   "feed": "real-time gold (PAXG, matched to spot +12.39)",
+   "time": "2026-11-09T23:10:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Arkansas Advocate",
-    "China's October crude oil imports rise to highest level since March amid Middle East war - Reuters",
-    "Trump says \"positive momentum\" toward ending Iran war after talks with Qatari PM - Xinhua"
+    "The new \u2018cold\u2019 war: hacked fridges reveal infrastructure-security gaps - The Strategist | ASPI's analysis and commentary site",
+    "Family of D-Day hero say new war memorial 'should not be a political football' - Southend Echo",
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Arkansas Advocate"
    ]
   },
   "today": [
