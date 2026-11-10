@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T14:42:25.682942-05:00",
+ "updated": "2026-11-10T14:43:51.302670-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
@@ -160,8 +160,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.59,
-  "gbpusd": 1.33975
+  "stop_cap_usd": 53.38,
+  "gbpusd": 1.3346
  },
  "backtest": {
   "portfolio": {
