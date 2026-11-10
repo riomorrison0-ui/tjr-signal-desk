@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T20:00:20.323345-05:00",
+ "updated": "2026-11-09T20:05:20.302394-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4123.399902,
-   "feed": "real-time gold (PAXG, matched to spot +14.43)",
-   "time": "2026-11-09T19:55:00-05:00"
+   "price": 4131.100098,
+   "feed": "real-time gold (PAXG, matched to spot +11.64)",
+   "time": "2026-11-09T20:00:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Gatineau Park foliage reveals local Cold War nuclear testing legacy - Phys.org",
-    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
-    "Trump says Iran war \u2019effectively over\u2019 after Qatar talks - The New Arab"
+    "Global Carbon Emissions Set to Dip in 2026 After Iran War Oil Surge - Bloomberg.com",
+    "Slight fall in carbon emissions from fossil fuels as Iran war drives renewables push - The Guardian",
+    "War in Iran led global emissions to fall this year, research finds - NBC News"
    ]
   },
   "today": [
