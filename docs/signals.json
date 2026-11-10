@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T12:20:20.522078-05:00",
+ "updated": "2026-11-10T12:25:20.522133-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4023.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.24)",
-   "time": "2026-11-10T12:15:00-05:00"
+   "price": 4020.300049,
+   "feed": "real-time gold (PAXG, matched to spot +6.84)",
+   "time": "2026-11-10T12:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Carbon Emissions Barely Dip in 2026 as Iran War Lifts Renewables - Impakter",
-    "Mauchline talk to explore global challenge of maintaining war cemeteries - Cumnock Chronicle",
-    "Iran war is over, says Trump, as US prises open Strait of Hormuz - The Telegraph"
+    "Israeli Apartheid-Linked Firms Win UK Contracts Despite Sanctions Pledge - Novara Media",
+    "Firmer dollar, Middle East de-escalation hopes push aluminium to three-week low - Mining.com",
+    "Call it tough love, with the love removed: it\u2019s Kemi\u2019s war on benefits claimants - The Guardian"
    ]
   },
   "today": [
