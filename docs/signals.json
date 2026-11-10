@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T08:20:20.460107-05:00",
+ "updated": "2026-11-10T08:25:20.447174-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4072.699951,
-   "feed": "real-time gold (PAXG, matched to spot +7.77)",
-   "time": "2026-11-10T08:15:00-05:00"
+   "price": 4074.199951,
+   "feed": "real-time gold (PAXG, matched to spot +11.33)",
+   "time": "2026-11-10T08:20:00-05:00"
   }
  },
  "stats": {
@@ -57,9 +57,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Historic Cold War plane takes to the road to its new home near Bridgnorth - Shropshire Star",
-    "Euston station war memorials returned after more than 20 years - New Civil Engineer",
-    "Iraq bars plane carrying Iran\u2019s football team from landing over US sanctions: Officials - Al Arabiya English"
+    "Iraq bars Iranian football team\u2019s flight over US sanctions - Middle East Online",
+    "Will the US and Iran return to war? - Wired Gov",
+    "Saudi-Led Coalition Destroys Three Houthi Ballistic Missile Production Facilities in Yemen - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439"
    ]
   },
   "today": [
