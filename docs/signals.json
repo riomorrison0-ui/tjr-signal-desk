@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T02:05:20.493855-05:00",
+ "updated": "2026-11-10T02:10:20.493608-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4123.5,
-   "feed": "real-time gold (PAXG, matched to spot +12.35)",
-   "time": "2026-11-10T02:00:00-05:00"
+   "price": 4122.299805,
+   "feed": "real-time gold (PAXG, matched to spot +12.98)",
+   "time": "2026-11-10T02:05:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "LNG Traffic Through Hormuz Hits Highest Level Since Iran War Began - Crude Oil Prices Today | OilPrice.com",
-    "Ukrainian intelligence has identified the Russians involved in the airstrike on Komyshuvaha \u2013 Sibiga - UA.NEWS",
-    "Trump says Iran war to end 'fairly soon' - www.thenationalnews.com"
+    "Gen Z doesn\u2018t relish going to war \u2013 so what! You should worry more about the reckless generations that do - The Guardian",
+    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes - CNBC",
+    "Leaked Russian deaths from Rosstat show 400,000 war deaths, hackers say - Business Insider"
    ]
   },
   "today": [
