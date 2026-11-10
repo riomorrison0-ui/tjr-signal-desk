@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T20:30:20.319415-05:00",
+ "updated": "2026-11-09T20:35:20.294399-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4141.0,
-   "feed": "real-time gold (PAXG, matched to spot +13.90)",
-   "time": "2026-11-09T20:25:00-05:00"
+   "price": 4136.5,
+   "feed": "real-time gold (PAXG, matched to spot +17.88)",
+   "time": "2026-11-09T20:30:00-05:00"
   }
  },
  "stats": {
@@ -51,8 +51,8 @@
    "count": 6,
    "examples": [
     "Iran war helps fuel global drop in fossil fuel emissions \u2014 but there\u2019s a catch - Live Science",
-    "The War over E-Bikes - The Free Press",
-    "Renewables and Iran war help drive fall in global fossil fuel emissions - ABC News & Headlines \u2013 Australian Broadcasting Corporation"
+    "Heat-trapping carbon pollution drops, but scientists cite the Iran war rather than energy progress - The Seattle Times",
+    "The War over E-Bikes - The Free Press"
    ]
   },
   "today": [
