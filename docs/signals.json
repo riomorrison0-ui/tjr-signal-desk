@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T14:55:20.421022-05:00",
+ "updated": "2026-11-10T15:00:20.406624-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4032.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.94)",
-   "time": "2026-11-10T14:50:00-05:00"
+   "price": 4031.199951,
+   "feed": "real-time gold (PAXG, matched to spot +5.80)",
+   "time": "2026-11-10T14:55:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
-    "Will Trump SACRIFICE Hegseth to save himself after the Iran war? - Channel 4",
-    "Iraq bars plane carrying Iran\u2019s soccer team from landing in Basra over US sanctions - Arab News"
+    "Readout of Secretary of War Pete Hegseth's Meeting With Poland's Deputy Prime Minister and - U.S. Department of War (.gov)",
+    "COP31: Trump\u2019s war with Iran \u2018has turned him into unintentional green campaigner\u2019 - Channel 4",
+    "\"We are working to put an end to the war\" \u2014 Kushner called the talks in Abu Dhabi constructive - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
