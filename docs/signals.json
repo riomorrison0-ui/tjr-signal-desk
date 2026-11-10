@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T16:45:20.356674-05:00",
+ "updated": "2026-11-10T16:50:20.380034-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4032.0,
-   "feed": "real-time gold (PAXG, matched to spot +7.09)",
-   "time": "2026-11-10T16:40:00-05:00"
+   "price": 4031.600098,
+   "feed": "real-time gold (PAXG, matched to spot +5.48)",
+   "time": "2026-11-10T16:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "China can play key role in ending Iran's \u2018neither war nor peace' situation with US: Iranian parliament speaker - Anadolu Ajans\u0131",
-    "Iran unveils underground missile complex \u2014 Jerusalem Post - UA.NEWS",
-    "Becoming third pole, or front in someone else's war? | Daily Sabah - Daily Sabah"
+    "Ex-investigator admits depriving war crimes investigation of potentially valuable information - Sky News",
+    "Opinion | If You Think War Is Unpopular, Wait Till You See Defeat - WSJ",
+    "China can play key role in ending Iran's \u2018neither war nor peace' situation with US: Iranian parliament speaker - Anadolu Ajans\u0131"
    ]
   },
   "today": [
