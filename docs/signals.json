@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T05:30:20.460527-05:00",
+ "updated": "2026-11-10T05:35:20.457359-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4078.0,
-   "feed": "real-time gold (PAXG, matched to spot +11.92)",
-   "time": "2026-11-10T05:25:00-05:00"
+   "price": 4075.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.72)",
+   "time": "2026-11-10T05:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Vanishing vessels and missing sailors: The Iran war's human cost at sea - Reuters",
-    "Our readers' questions about the war, answered. Vol. 12 - The Kyiv Independent",
-    "NEWS: EU sets up crypto task force to tackle Russian sanctions evasion - AML Intelligence"
+    "US, Ukraine, and European partners agree to move toward broader multilateral talks on ending war - Anadolu Ajans\u0131",
+    "Donald Trump\u2019s Iran war helps cut carbon emissions - The Telegraph",
+    "Meet Our Demands To End War, Iran Urges US - Channels Television"
    ]
   },
   "today": [
