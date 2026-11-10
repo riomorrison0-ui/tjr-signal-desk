@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T21:40:20.445072-05:00",
+ "updated": "2026-11-09T21:45:20.456700-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4115.5,
-   "feed": "real-time gold (PAXG, matched to spot +12.21)",
-   "time": "2026-11-09T21:35:00-05:00"
+   "price": 4116.600098,
+   "feed": "real-time gold (PAXG, matched to spot +13.30)",
+   "time": "2026-11-09T21:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Wash. Panel Nixes $10K Sanctions On Monsanto PCB Attys - Law360",
-    "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years - VICE",
-    "Poll finds Americans less likely to back pro-war candidates by 3-1 margin - Al Jazeera"
+    "Trump says Iran war is 'effectively over' militarily with further strikes unlikely - BBC",
+    "Is the Iran war over? Trump says it is 'effectively over' militarily, but the blockade stays - Nacionale",
+    "Wash. Panel Nixes $10K Sanctions On Monsanto PCB Attys - Law360"
    ]
   },
   "today": [
