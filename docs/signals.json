@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T20:45:20.317368-05:00",
+ "updated": "2026-11-09T20:50:20.308065-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4131.200195,
-   "feed": "real-time gold (PAXG, matched to spot +10.94)",
-   "time": "2026-11-09T20:40:00-05:00"
+   "price": 4130.200195,
+   "feed": "real-time gold (PAXG, matched to spot +15.99)",
+   "time": "2026-11-09T20:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran war helps fuel global drop in fossil fuel emissions \u2014 but there\u2019s a catch - Live Science",
-    "Heat-trapping carbon pollution drops, but scientists cite the Iran war rather than energy progress - The Seattle Times",
-    "The War over E-Bikes - The Free Press"
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+    "Oil falls as Trump downplays prospect of escalation with Iran - Reuters",
+    "After meeting Qatar PM, Trump calls Iran war \u2018effectively over\u2019 militarily - Al Jazeera"
    ]
   },
   "today": [
