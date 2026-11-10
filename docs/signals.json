@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T17:00:20.368074-05:00",
+ "updated": "2026-11-10T17:05:20.383392-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4033.899902,
-   "feed": "real-time gold (PAXG, matched to spot +8.49)",
-   "time": "2026-11-10T16:55:00-05:00"
+   "price": 4033.800049,
+   "feed": "real-time gold (PAXG, matched to spot +11.64)",
+   "time": "2026-11-10T17:00:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Trump's Alternative To The Iran War Is A Forever War - FOREVER WARS by Spencer Ackerman",
     "Ex-investigator admits depriving war crimes investigation of potentially valuable information - Sky News",
-    "Opinion | If You Think War Is Unpopular, Wait Till You See Defeat - WSJ",
-    "China can play key role in ending Iran's \u2018neither war nor peace' situation with US: Iranian parliament speaker - Anadolu Ajans\u0131"
+    "Opinion | If You Think War Is Unpopular, Wait Till You See Defeat - WSJ"
    ]
   },
   "today": [
