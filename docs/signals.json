@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T09:55:20.455700-05:00",
+ "updated": "2026-11-10T10:00:20.496539-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4036.5,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-10T09:50:00-05:00"
+   "price": 4038.800049,
+   "feed": "real-time gold (PAXG, matched to spot +7.66)",
+   "time": "2026-11-10T09:55:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "RAFAEL Unveils SUPER ICE\u2122, Its New Long-Range Cruise Missile with a 1,000-Pound Warhead - EDR Magazine - European Defence Review",
-    "Hegseth dismisses impeachment efforts over Iran war as 'a farce' - Middle East Online"
+    "Forgotten Putney football photo uncovers First World War stories - Your Local Guardian",
+    "Canada resurrects sanctions against Iranian entities - Anadolu Ajans\u0131",
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post"
    ]
   },
   "today": [
