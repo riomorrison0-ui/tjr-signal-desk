@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T00:15:20.488189-05:00",
+ "updated": "2026-11-10T00:20:20.496877-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4116.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.38)",
-   "time": "2026-11-10T00:10:00-05:00"
+   "price": 4118.200195,
+   "feed": "real-time gold (PAXG, matched to spot +11.14)",
+   "time": "2026-11-10T00:15:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "The Iran war unexpectedly drove down carbon emissions this year - The Seattle Times",
-    "Republican lawmaker seeks impeachment of US defense secretary over Iran war - \u5df4\u58eb\u7684\u5831",
-    "Strait of Hormuz LNG traffic hits highest in October since Iran war began - The Hindu"
+    "Oil extends losses as Trumps holds off from escalation - Arabian Gulf Business Insight | AGBI",
+    "Von der Leyen Sets Ceasefire Condition for European Security Talks - Kyiv Post",
+    "Republican lawmaker seeks impeachment of US defense secretary over Iran war - \u5df4\u58eb\u7684\u5831"
    ]
   },
   "today": [
