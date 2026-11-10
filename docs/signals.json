@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T02:35:20.442492-05:00",
+ "updated": "2026-11-10T02:40:20.444093-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4117.200195,
-   "feed": "real-time gold (PAXG, matched to spot +13.01)",
-   "time": "2026-11-10T02:30:00-05:00"
+   "price": 4117.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.74)",
+   "time": "2026-11-10T02:35:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Streeting wants more direct contact with Russia to avoid war 'miscalculation' - The Independent",
-    "EU's Kallas backs ICC amid US tensions, says court targets war crimes - Yeni \u015eafak English",
-    "Netanyahu calls Trump \u2018every day\u2019 to push for resuming Iran war: Report - Anadolu Ajans\u0131"
+    "China hands over remains of US pilots killed in World War II - TRT World",
+    "Tehran celebrates as Trump backs away from Iran war and Israel takes blame for GOP defeat - Ynetnews",
+    "Qalibaf Warns US against Being Dragged into Endless War for Israel - \u062a\u0633\u0646\u06cc\u0645"
    ]
   },
   "today": [
