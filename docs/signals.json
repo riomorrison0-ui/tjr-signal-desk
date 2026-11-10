@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T22:40:20.434592-05:00",
+ "updated": "2026-11-09T22:45:20.440409-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4114.100098,
-   "feed": "real-time gold (PAXG, matched to spot +11.78)",
-   "time": "2026-11-09T22:35:00-05:00"
+   "price": 4111.399902,
+   "feed": "real-time gold (PAXG, matched to spot +13.39)",
+   "time": "2026-11-09T22:40:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran's supreme leader orders end to \"no war, no peace\" standoff with US: president - \u5df4\u58eb\u7684\u5831",
-    "Trilateral talks set to resume in Abu Dhabi with security, ceasefire focus - \u5df4\u58eb\u7684\u5831",
-    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post"
+    "Trump says \"positive momentum\" toward ending Iran war after talks with Qatari PM - Xinhua",
+    "Conventional War Between Nuclear Powers - India's World",
+    "Iran's supreme leader orders end to \"no war, no peace\" standoff with US: president - \u5df4\u58eb\u7684\u5831"
    ]
   },
   "today": [
