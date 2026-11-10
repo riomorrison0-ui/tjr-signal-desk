@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T13:05:20.491428-05:00",
+ "updated": "2026-11-10T13:10:20.463362-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4017.600098,
-   "feed": "real-time gold (PAXG, matched to spot +5.44)",
-   "time": "2026-11-10T13:00:00-05:00"
+   "price": 4019.300049,
+   "feed": "real-time gold (PAXG, matched to spot +5.39)",
+   "time": "2026-11-10T13:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Kiryat Shmona challenges Israel's war compensation deadlines in High Court - The Jerusalem Post",
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "Ottawa restores sanctions on Iran it lifted a decade ago - Yahoo News Canada"
+    "Munition Inventories: An Update Amid Renewed War Risk - CSIS | Center for Strategic and International Studies",
+    "Cops question person of interest after home invasion, sexual assault at gunpoint in Auburn Gresham - Chicago Sun-Times",
+    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post"
    ]
   },
   "today": [
