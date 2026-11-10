@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T11:45:20.576631-05:00",
+ "updated": "2026-11-10T11:50:20.624604-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4021.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.90)",
-   "time": "2026-11-10T11:40:00-05:00"
+   "price": 4015.300049,
+   "feed": "real-time gold (PAXG, matched to spot +4.24)",
+   "time": "2026-11-10T11:45:00-05:00"
   }
  },
  "stats": {
@@ -42,8 +42,8 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Gilded statue in DC mocks Trump for \u2018dodging\u2019 Vietnam war draft over bone spurs - The Guardian",
     "France Warns Risk of Renewed US-Iran Military Escalation Remains - Kurdistan24",
-    "In War-Ravaged Ukraine, Education Is a Source of Hope - tol.org",
     "New memorial honors Gulf War veterans - U.S. Embassy & Consulates in Russia (.gov)"
    ]
   },
