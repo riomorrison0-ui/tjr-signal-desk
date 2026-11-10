@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T13:35:20.502276-05:00",
+ "updated": "2026-11-10T13:40:20.459543-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4026.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.83)",
-   "time": "2026-11-10T13:30:00-05:00"
+   "price": 4031.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.51)",
+   "time": "2026-11-10T13:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Rutland to unveil long-awaited World War II memorial honoring the 'Greatest Generation' - Vermont Public",
-    "Royal Navy in biggest rebuild since Second World War - UK Defence Journal",
-    "Iran Unveils Underground Missile City; Warns US Of New Battlefield Surprises - The Times of India"
+    "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is \u2018Effectively Over\u2019 - 24/7 Wall St.",
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "Global CO\u00b2 Emissions to Fall as Iran War Cuts Fossil-Fuel Use - WSJ"
    ]
   },
   "today": [
