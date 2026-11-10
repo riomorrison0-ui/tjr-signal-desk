@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T19:00:20.308262-05:00",
+ "updated": "2026-11-09T19:05:20.375099-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4139.0,
-   "feed": "real-time gold (PAXG, matched to spot +13.71)",
-   "time": "2026-11-09T18:55:00-05:00"
+   "price": 4136.700195,
+   "feed": "real-time gold (PAXG, matched to spot +14.60)",
+   "time": "2026-11-09T19:00:00-05:00"
   }
  },
  "stats": {
@@ -50,41 +50,113 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East latest: Attack on Saudi oil pipeline causes fire - The National",
-    "Trump says Iran war is \u2018military effectively over\u2019 at snap news conference - SMH.com.au",
-    "Trump says Iran war is \u2018effectively over\u2019 - The Times"
+    "Iran war live: Trump says war \u2018effectively over\u2019, Iran demands \u2018surrender\u2019 - Al Jazeera",
+    "President Trump says war in Iran is effectively over \u2014 NDTV - UA.NEWS",
+    "Middle East latest: Attack on Saudi oil pipeline causes fire - The National"
    ]
   },
   "today": [
    {
-    "title": "FOMC Member Bowman Speaks",
+    "title": "FOMC Member Waller Speaks",
     "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-09T13:40:00+00:00",
+    "impact": "Medium",
+    "time": "2026-11-10T09:00:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "Final Wholesale Inventories m/m",
+    "title": "NFIB Small Business Index",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-09T15:00:00+00:00",
-    "forecast": "0.6%",
+    "time": "2026-11-10T11:00:00+00:00",
+    "forecast": "98.0",
+    "previous": "97.9"
+   },
+   {
+    "title": "ADP Weekly Employment Change",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T13:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "ADP Weekly Employment Change",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T13:16:00+00:00",
+    "forecast": "",
+    "previous": "16.8K"
+   },
+   {
+    "title": "Core CPI m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-10T13:30:00+00:00",
+    "forecast": "0.2%",
+    "previous": "0.3%"
+   },
+   {
+    "title": "CPI m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-10T13:30:00+00:00",
+    "forecast": "0.3%",
     "previous": "0.6%"
    },
    {
-    "title": "FOMC Member Goolsbee Speaks",
+    "title": "FOMC Member Logan Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-09T15:00:00+00:00",
+    "time": "2026-11-10T15:50:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "FOMC Member Barkin Speaks",
+    "title": "10-y Bond Auction",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-09T17:15:00+00:00",
+    "time": "2026-11-10T18:01:00+00:00",
+    "forecast": "",
+    "previous": "5.30|2.8"
+   },
+   {
+    "title": "FOMC Member Schmid Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T18:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Bowman Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T20:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "API Weekly Statistical Bulletin",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T21:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Bowman Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T23:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Paulson Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-10T23:30:00+00:00",
     "forecast": "",
     "previous": ""
    }
