@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T11:15:20.738773-05:00",
+ "updated": "2026-11-10T11:20:20.684661-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4039.5,
-   "feed": "real-time gold (PAXG, matched to spot +11.36)",
-   "time": "2026-11-10T11:10:00-05:00"
+   "price": 4034.100098,
+   "feed": "real-time gold (PAXG, matched to spot +7.77)",
+   "time": "2026-11-10T11:15:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Anfield Cemetery war memorial won\u2019t be ready for Remembrance Day - Birkenhead News",
-    "War, Data Centers, and the Year Water Became Strategic - Cleantech Group",
-    "Trump says Iran war \u201cmilitarily is effectively over\u201d; California voters reject billionaire tax; Russian newspaper Novaya Gazeta closes - Drop Site News"
+    "New memorial honors Gulf War veterans - U.S. Embassy & Consulates in Russia (.gov)",
+    "Everything unravelled: War widow opens up about being part of the club nobody wants to be in - Forces News",
+    "DLC REVIEW \u2013 \u201cMarvel Cosmic Invasion: The Siege of Castle Doom\u201d is badass but also needs refinement - SmashPad"
    ]
   },
   "today": [
