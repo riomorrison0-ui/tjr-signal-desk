@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T04:10:20.477747-05:00",
+ "updated": "2026-11-10T04:15:20.448522-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4103.5,
-   "feed": "real-time gold (PAXG, matched to spot +16.87)",
-   "time": "2026-11-10T04:05:00-05:00"
+   "price": 4095.899902,
+   "feed": "real-time gold (PAXG, matched to spot +8.64)",
+   "time": "2026-11-10T04:10:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 3,
    "examples": [
-    "Middle East at a Crossroads: War or Negotiations? - 8AM Media",
-    "Pete Hegseth faces US House impeachment vote over Iran war - Gulf Business",
-    "UK\u2019s newest war memorial unveiled in Stoke Mandeville - Bucks Herald"
+    "Military prepares for potential escalation scenarios amid US-Iran talks - The Jerusalem Post",
+    "Netanyahu calls Trump \u2018every day\u2019 to push for resuming Iran war: Report - Anadolu Ajans\u0131",
+    "Parade and war memorial service bring Dornoch together to honour the fallen - Northern Times"
    ]
   },
   "today": [
