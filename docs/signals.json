@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T03:40:20.430482-05:00",
+ "updated": "2026-11-10T03:45:20.457673-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4118.0,
-   "feed": "real-time gold (PAXG, matched to spot +9.40)",
-   "time": "2026-11-10T03:35:00-05:00"
+   "price": 4117.0,
+   "feed": "real-time gold (PAXG, matched to spot +7.95)",
+   "time": "2026-11-10T03:40:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "America\u2019s data centre culture war reaches Britain - Firstpost",
-    "US officials seek \u2018final end\u2019 to Russia-Ukraine war as Abu Dhabi talks begin - The Guardian",
-    "Manus on Markets: Pressure eases after Trump\u2019s comments on Iran war - www.thenationalnews.com"
+    "Russia Plans Fivefold Increase in Economic Crime Fines Amid Rising War Spending and Budget Deficit - UNITED24 Media",
+    "Winning Time: Ukraine\u2019s Unmanned Systems Forces and the New Dimension of War - War on the Rocks",
+    "Two electoral defeats, one war: Can Trump and Netanyahu risk another confrontation with Iran? - Middle East Online"
    ]
   },
   "today": [
