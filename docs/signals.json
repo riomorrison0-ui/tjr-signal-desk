@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T11:30:20.491209-05:00",
+ "updated": "2026-11-10T11:35:20.470680-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4026.0,
-   "feed": "real-time gold (PAXG, matched to spot +9.33)",
-   "time": "2026-11-10T11:25:00-05:00"
+   "price": 4025.100098,
+   "feed": "real-time gold (PAXG, matched to spot +10.32)",
+   "time": "2026-11-10T11:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "New memorial honors Gulf War veterans - U.S. Embassy & Consulates in Russia (.gov)",
-    "Everything unravelled: War widow opens up about being part of the club nobody wants to be in - Forces News",
-    "DLC REVIEW \u2013 \u201cMarvel Cosmic Invasion: The Siege of Castle Doom\u201d is badass but also needs refinement - SmashPad"
+    "France Warns Risk of Renewed US-Iran Military Escalation Remains - Kurdistan24",
+    "In War-Ravaged Ukraine, Education Is a Source of Hope - tol.org",
+    "New memorial honors Gulf War veterans - U.S. Embassy & Consulates in Russia (.gov)"
    ]
   },
   "today": [
