@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T22:10:20.430579-05:00",
+ "updated": "2026-11-09T22:15:20.441917-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4115.0,
-   "feed": "real-time gold (PAXG, matched to spot +13.00)",
-   "time": "2026-11-09T22:05:00-05:00"
+   "price": 4113.799805,
+   "feed": "real-time gold (PAXG, matched to spot +12.56)",
+   "time": "2026-11-09T22:10:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Trump Says Ukraine Talks Progressing, Avoids Putin Ceasefire Question - Kyiv Post",
     "Middle East latest: Attack on Saudi oil pipeline causes fire - thenationalnews.com",
-    "Trump says Iran war is 'effectively over' militarily with further strikes unlikely - BBC",
-    "Is the Iran war over? Trump says it is 'effectively over' militarily, but the blockade stays - Nacionale"
+    "Trump says Iran war is 'effectively over' militarily with further strikes unlikely - BBC"
    ]
   },
   "today": [
