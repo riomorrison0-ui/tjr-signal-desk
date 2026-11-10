@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T16:00:20.379511-05:00",
+ "updated": "2026-11-10T16:05:20.365633-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4031.699951,
-   "feed": "real-time gold (PAXG, matched to spot +6.14)",
-   "time": "2026-11-10T15:55:00-05:00"
+   "price": 4031.899902,
+   "feed": "real-time gold (PAXG, matched to spot +6.46)",
+   "time": "2026-11-10T16:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "What the Cold War Nuclear Arms Race Can \u2014 and Can\u2019t \u2014 Teach Us About AI - Georgetown University",
-    "Iran Unveils Underground 'Missile City' as Expert Notes Radar-Evasion Efforts - Haaretz",
-    "Iraq blocks Iranian football team\u2019s plane from landing over US sanctions - Al Jazeera"
+    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
+    "Russia Doesn\u2019t Hold Nearly All of Donetsk, Sybiha Says as Ukraine Awaits Reply on Ceasefire Proposals - UNITED24 Media",
+    "Iran unveils new underground 'missile city': What to know - Al-Monitor"
    ]
   },
   "today": [
