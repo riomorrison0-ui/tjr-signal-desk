@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T07:45:20.469328-05:00",
+ "updated": "2026-11-10T07:50:20.438410-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4078.0,
-   "feed": "real-time gold (PAXG, matched to spot +7.74)",
-   "time": "2026-11-10T07:40:00-05:00"
+   "price": 4077.800049,
+   "feed": "real-time gold (PAXG, matched to spot +8.09)",
+   "time": "2026-11-10T07:45:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "Russia Can Afford a War in Ukraine but Apparently Needs to Tax Lobsters and Oysters to Pay for It - UNITED24 Media",
-    "It\u2019s Time to Debate How the Army Fights - Modern War Institute -"
+    "Climate action needs a peace dividend: why COP31 must address the environmental costs of war - European Leadership Network",
+    "Over 70 percent of Americans want Congress to stop the war in Iran - The Independent",
+    "Poll shows most Americans want US-Iran war to end - The Jerusalem Post"
    ]
   },
   "today": [
