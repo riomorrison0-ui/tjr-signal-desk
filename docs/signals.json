@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T19:15:20.400719-05:00",
+ "updated": "2026-11-09T19:20:20.323417-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4136.399902,
-   "feed": "real-time gold (PAXG, matched to spot +14.87)",
-   "time": "2026-11-09T19:10:00-05:00"
+   "price": 4132.399902,
+   "feed": "real-time gold (PAXG, matched to spot +17.02)",
+   "time": "2026-11-09T19:15:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran war live: Trump says war \u2018effectively over\u2019, Iran demands \u2018surrender\u2019 - Al Jazeera",
-    "President Trump says war in Iran is effectively over \u2014 NDTV - UA.NEWS",
-    "Middle East latest: Attack on Saudi oil pipeline causes fire - The National"
+    "Trump says Iran war \u2019effectively over\u2019 after Qatar talks - The New Arab",
+    "This Veterans Day, Let\u2019s Focus on Preventing War - Progressive.org",
+    "Beijing Doesn\u2019t Need to Invade Taiwan to Control It - Bloomberg.com"
    ]
   },
   "today": [
