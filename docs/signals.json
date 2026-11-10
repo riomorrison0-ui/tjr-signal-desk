@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T03:05:20.451453-05:00",
+ "updated": "2026-11-10T03:10:20.457922-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4116.600098,
-   "feed": "real-time gold (PAXG, matched to spot +9.40)",
-   "time": "2026-11-10T03:00:00-05:00"
+   "price": 4116.0,
+   "feed": "real-time gold (PAXG, matched to spot +7.68)",
+   "time": "2026-11-10T03:05:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Hormuz LNG Shipments Reach Highest Level Since Iran War Began - Egypt Oil & Gas",
-    "Trump Says US-Iran War \"Effectively Over\" as Houthis Fire on Riyadh Hours Later - houseofsaud.com",
-    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post"
+    "Manus on Markets: Pressure eases after Trump\u2019s comments on Iran war - www.thenationalnews.com",
+    "Global Carbon Emissions Set to Dip in 2026 After Iran War Oil Surge - Energy Connects",
+    "Smuggling of foreign cash continues despite sanctions - Arctic Today"
    ]
   },
   "today": [
