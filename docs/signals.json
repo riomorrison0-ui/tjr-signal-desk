@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T07:00:20.517064-05:00",
+ "updated": "2026-11-10T07:05:20.455918-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4073.600098,
-   "feed": "real-time gold (PAXG, matched to spot +10.29)",
-   "time": "2026-11-10T06:55:00-05:00"
+   "price": 4077.800049,
+   "feed": "real-time gold (PAXG, matched to spot +10.74)",
+   "time": "2026-11-10T07:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "World War Seven Welcomes Starburns Industries to Roster Of Directors \u2014 LBB - LBB - Little Black Book",
-    "Lavrov Says Russia Cannot Agree to Immediate Ukraine Ceasefire Without Knowing What Will Happen Next - ASHARQ AL-AWSAT English",
-    "Canada reinstates sanctions against 11 Iranian entities \u2014 Jerusalem Post - UA.NEWS"
+    "New Imperial War Museums conservation centre receives \u00a310m funding boost - Museums Association",
+    "Borough will fall silent at 11am to honour war dead after huge Sunday crowds - Erewash Borough Council",
+    "Zelensky names the fastest path to ending Russia\u2019s war against Ukraine - Mezha.net"
    ]
   },
   "today": [
