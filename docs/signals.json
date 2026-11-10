@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T06:00:20.505434-05:00",
+ "updated": "2026-11-10T06:05:20.468260-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4075.800049,
-   "feed": "real-time gold (PAXG, matched to spot +10.08)",
-   "time": "2026-11-10T05:55:00-05:00"
+   "price": 4074.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.96)",
+   "time": "2026-11-10T06:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Canada Reimposes Sanctions Against 11 Iranian Companies - Channels Television",
-    "Canada reimposes sanctions on Iran nuclear entities - The Jerusalem Post",
-    "Hackers expose Russia\u2019s war death toll - The Bell"
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "War has upended Russian-Nordic friendships forged on Arctic ice hockey rinks. Can they ever recover? - The Guardian",
+    "Vanishing vessels and missing sailors: The Iran war's human cost at sea - Reuters"
    ]
   },
   "today": [
