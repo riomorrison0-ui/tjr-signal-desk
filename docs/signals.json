@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T04:40:20.464717-05:00",
+ "updated": "2026-11-10T04:45:20.441433-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4085.300049,
-   "feed": "real-time gold (PAXG, matched to spot +9.88)",
-   "time": "2026-11-10T04:35:00-05:00"
+   "price": 4085.199951,
+   "feed": "real-time gold (PAXG, matched to spot +10.35)",
+   "time": "2026-11-10T04:40:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russia, Ukraine and US meet for Abu Dhabi talks as Trump says war can 'end soon' - ABC News - Breaking News, Latest News and Videos",
-    "Ukraine war: 400,000 Russian deaths, the toll Vladimir Putin tried to hide - Le Monde.fr",
-    "France blames Iran for supermarket cyberattacks, vows sanctions - The Arab Weekly"
+    "Kushner and Witkoff renew peace talks to end war between Russia and Ukraine - NPR",
+    "Israeli fire kills Palestinian, wounds 4 others in Gaza amid ceasefire violations - Anadolu Ajans\u0131",
+    "Egyptian president, British premier discuss containing Iran escalation, Gaza ceasefire - Anadolu Ajans\u0131"
    ]
   },
   "today": [
