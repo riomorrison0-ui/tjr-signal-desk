@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T07:15:20.508718-05:00",
+ "updated": "2026-11-10T07:20:20.475074-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4079.0,
-   "feed": "real-time gold (PAXG, matched to spot +8.63)",
-   "time": "2026-11-10T07:10:00-05:00"
+   "price": 4078.0,
+   "feed": "real-time gold (PAXG, matched to spot +8.52)",
+   "time": "2026-11-10T07:15:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "New Imperial War Museums conservation centre receives \u00a310m funding boost - Museums Association",
-    "Borough will fall silent at 11am to honour war dead after huge Sunday crowds - Erewash Borough Council",
-    "Zelensky names the fastest path to ending Russia\u2019s war against Ukraine - Mezha.net"
+    "Israeli fire kills 3 Palestinians, wounds 6 others in Gaza amid ceasefire violations - Anadolu Ajans\u0131",
+    "Church growth in the midst of war - Evangelical Focus",
+    "Iran War: Oil Prices Fall, but U.S. Farmers Are Still Paying the Price - AgroLatam"
    ]
   },
   "today": [
