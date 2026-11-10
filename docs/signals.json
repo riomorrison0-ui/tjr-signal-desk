@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T01:15:20.467727-05:00",
+ "updated": "2026-11-10T01:20:20.462324-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4125.0,
-   "feed": "real-time gold (PAXG, matched to spot +13.74)",
-   "time": "2026-11-10T01:10:00-05:00"
+   "price": 4125.200195,
+   "feed": "real-time gold (PAXG, matched to spot +13.75)",
+   "time": "2026-11-10T01:15:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Blue invasion! Mancini runs rule over Chelsea's Palestra and Serie A's brightest young starlets - LiveScore",
-    "Syria, Jordan confront airstrike fallout with joint probe, 11 deals - middle-east-online.com",
-    "Korea repeats principle of non-involvement in Iran war - The Korea Times"
+    "Best Oasis becomes second cash buyer to secure US sanctions clearance - Splash247",
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+    "World in brief: FBI looks into Huang affair; Trump says Iran war is \u201ceffectively over\u201d - The Economist"
    ]
   },
   "today": [
