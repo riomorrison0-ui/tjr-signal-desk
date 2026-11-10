@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T08:00:20.458148-05:00",
+ "updated": "2026-11-10T08:05:20.491134-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4078.5,
-   "feed": "real-time gold (PAXG, matched to spot +7.41)",
-   "time": "2026-11-10T07:55:00-05:00"
+   "price": 4074.699951,
+   "feed": "real-time gold (PAXG, matched to spot +8.10)",
+   "time": "2026-11-10T08:00:00-05:00"
   }
  },
  "stats": {
@@ -57,9 +57,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Climate action needs a peace dividend: why COP31 must address the environmental costs of war - European Leadership Network",
-    "Over 70 percent of Americans want Congress to stop the war in Iran - The Independent",
-    "Poll shows most Americans want US-Iran war to end - The Jerusalem Post"
+    "Historic Cold War plane takes to the road to its new home near Bridgnorth - Shropshire Star",
+    "Euston station war memorials returned after more than 20 years - New Civil Engineer",
+    "Iraq bars plane carrying Iran\u2019s football team from landing over US sanctions: Officials - Al Arabiya English"
    ]
   },
   "today": [
