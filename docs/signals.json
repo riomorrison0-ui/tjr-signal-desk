@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T14:40:20.473046-05:00",
+ "updated": "2026-11-10T14:42:25.682942-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4027.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.82)",
+   "price": 4027.899902,
+   "feed": "real-time gold (PAXG, matched to spot +6.02)",
    "time": "2026-11-10T14:35:00-05:00"
   }
  },
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
     "Will Trump SACRIFICE Hegseth to save himself after the Iran war? - Channel 4",
-    "Iraq bars plane carrying Iran\u2019s soccer team from landing in Basra over US sanctions - Arab News",
-    "\u2018I am wretchedly sad\u2019: Bertha Monash\u2019s letters and women on the first world war home front - The Conversation"
+    "Iraq bars plane carrying Iran\u2019s soccer team from landing in Basra over US sanctions - Arab News"
    ]
   },
   "today": [
