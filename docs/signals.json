@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T12:35:20.465566-05:00",
+ "updated": "2026-11-10T12:40:20.454271-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4021.899902,
-   "feed": "real-time gold (PAXG, matched to spot +7.45)",
-   "time": "2026-11-10T12:30:00-05:00"
+   "price": 4016.699951,
+   "feed": "real-time gold (PAXG, matched to spot +6.54)",
+   "time": "2026-11-10T12:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israeli Apartheid-Linked Firms Win UK Contracts Despite Sanctions Pledge - Novara Media",
-    "Firmer dollar, Middle East de-escalation hopes push aluminium to three-week low - Mining.com",
-    "Call it tough love, with the love removed: it\u2019s Kemi\u2019s war on benefits claimants - The Guardian"
+    "The Secret Handshake\u2019s Latest Statue Mocks President Trump for Toe-Related Deferment to Avoid Vietnam War Draft - ARTnews.com",
+    "Gotham FC\u2019s Turf War Exposes Bigger Problem For The NWSL - Forbes",
+    "Rubio: US Sanctions on Iran So Effective That Military Action Is Unnecessary - 8AM Media"
    ]
   },
   "today": [
