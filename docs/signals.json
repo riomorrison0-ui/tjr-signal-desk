@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T00:30:20.480255-05:00",
+ "updated": "2026-11-10T00:35:20.447801-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4122.200195,
-   "feed": "real-time gold (PAXG, matched to spot +9.43)",
-   "time": "2026-11-10T00:25:00-05:00"
+   "price": 4120.200195,
+   "feed": "real-time gold (PAXG, matched to spot +13.19)",
+   "time": "2026-11-10T00:30:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "OFAC expands Prince Group sanctions to global corporate network - Herbert Smith Freehills Kramer",
     "Oil extends losses as Trumps holds off from escalation - Arabian Gulf Business Insight | AGBI",
-    "Von der Leyen Sets Ceasefire Condition for European Security Talks - Kyiv Post",
-    "Republican lawmaker seeks impeachment of US defense secretary over Iran war - \u5df4\u58eb\u7684\u5831"
+    "Von der Leyen Sets Ceasefire Condition for European Security Talks - Kyiv Post"
    ]
   },
   "today": [
