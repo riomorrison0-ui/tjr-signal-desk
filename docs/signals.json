@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T22:55:20.471344-05:00",
+ "updated": "2026-11-09T23:00:20.501256-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4111.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.90)",
-   "time": "2026-11-09T22:50:00-05:00"
+   "price": 4111.899902,
+   "feed": "real-time gold (PAXG, matched to spot +12.04)",
+   "time": "2026-11-09T22:55:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Trump says \"positive momentum\" toward ending Iran war after talks with Qatari PM - Xinhua",
-    "Conventional War Between Nuclear Powers - India's World",
-    "Iran's supreme leader orders end to \"no war, no peace\" standoff with US: president - \u5df4\u58eb\u7684\u5831"
+    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Arkansas Advocate",
+    "China's October crude oil imports rise to highest level since March amid Middle East war - Reuters",
+    "Trump says \"positive momentum\" toward ending Iran war after talks with Qatari PM - Xinhua"
    ]
   },
   "today": [
