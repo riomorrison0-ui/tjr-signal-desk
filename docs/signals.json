@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T06:15:20.453825-05:00",
+ "updated": "2026-11-10T06:20:20.454540-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4077.199951,
-   "feed": "real-time gold (PAXG, matched to spot +11.16)",
-   "time": "2026-11-10T06:10:00-05:00"
+   "price": 4076.5,
+   "feed": "real-time gold (PAXG, matched to spot +9.06)",
+   "time": "2026-11-10T06:15:00-05:00"
   }
  },
  "stats": {
@@ -48,11 +48,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "War has upended Russian-Nordic friendships forged on Arctic ice hockey rinks. Can they ever recover? - The Guardian",
-    "Vanishing vessels and missing sailors: The Iran war's human cost at sea - Reuters"
+    "War in Iran 'ending fairly soon', says Trump \u2013 video - The Guardian",
+    "Kerry King is teasing a new single, My War - Kerrang!",
+    "\u2018Really disappointing\u2019: Politician condemns theft of poppy wreaths from Derry war memorial - www.irishpost.com"
    ]
   },
   "today": [
