@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T09:25:20.519940-05:00",
+ "updated": "2026-11-10T09:30:20.519675-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4058.0,
-   "feed": "real-time gold (PAXG, matched to spot +8.94)",
-   "time": "2026-11-10T09:20:00-05:00"
+   "price": 4053.100098,
+   "feed": "real-time gold (PAXG, matched to spot +10.64)",
+   "time": "2026-11-10T09:25:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Sudanese refugees in Egypt: caught between war, borders and European money - InfoMigrants",
-    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
-    "Oil falls below $90 as Trump signals Iran war could end \u2018fairly soon\u2019 - London Business News"
+    "Defiant Pete Hegseth defends Iran war as he faces impeachment vote - Financial Times",
+    "Seven in 10 Americans want to end Iran war while Trump's approval nosedives - The Independent",
+    "Sanctions on Iranian state tanker company reimposed by Canada after 10 years - TradeWinds News"
    ]
   },
   "today": [
