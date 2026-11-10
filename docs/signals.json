@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T08:56:24.127842-05:00",
+ "updated": "2026-11-10T08:57:49.147485-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4057.399902,
-   "feed": "real-time gold (PAXG, matched to spot +9.93)",
+   "price": 4051.300049,
+   "feed": "real-time gold (PAXG, matched to spot +3.83)",
    "time": "2026-11-10T08:50:00-05:00"
   }
  },
@@ -59,7 +59,7 @@
    "examples": [
     "From October 7 tragedy to the Knesset: Bereaved families and war survivors enter Israeli politics - Ynetnews",
     "Poland\u2019s lower house backs sanctions bill covering crypto freezes - TradingView",
-    "Dozens at right-wing protest outside Knesset: 'There'll be civil war if government is established with Arab-party support' - The Times of Israel"
+    "Oil falls as Trump downplays prospect of escalation with Iran - Yahoo Finance"
    ]
   },
   "today": [
@@ -175,8 +175,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.81,
-  "gbpusd": 1.34528
+  "stop_cap_usd": 53.59,
+  "gbpusd": 1.33975
  },
  "backtest": {
   "portfolio": {
