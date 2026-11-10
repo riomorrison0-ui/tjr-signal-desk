@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T04:55:20.498774-05:00",
+ "updated": "2026-11-10T05:00:20.480891-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4084.300049,
-   "feed": "real-time gold (PAXG, matched to spot +9.62)",
-   "time": "2026-11-10T04:50:00-05:00"
+   "price": 4087.899902,
+   "feed": "real-time gold (PAXG, matched to spot +8.69)",
+   "time": "2026-11-10T04:55:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Kushner and Witkoff renew peace talks to end war between Russia and Ukraine - NPR",
-    "Israeli fire kills Palestinian, wounds 4 others in Gaza amid ceasefire violations - Anadolu Ajans\u0131",
-    "Egyptian president, British premier discuss containing Iran escalation, Gaza ceasefire - Anadolu Ajans\u0131"
+    "Birmingham City Eye January Deal As Midfield Tug-Of-War Emerges - The Stacey West",
+    "Oil prices fall to lowest since August as Trump says Iran war is \u2018effectively over\u2019 - The Guardian",
+    "Canada reimposes sanctions on 11 Iranian entities it delisted under nuclear deal - Iran International"
    ]
   },
   "today": [
