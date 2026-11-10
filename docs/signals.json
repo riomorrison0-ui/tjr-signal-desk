@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T09:40:20.477944-05:00",
+ "updated": "2026-11-10T09:45:20.481007-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4045.300049,
-   "feed": "real-time gold (PAXG, matched to spot +8.31)",
-   "time": "2026-11-10T09:35:00-05:00"
+   "price": 4040.399902,
+   "feed": "real-time gold (PAXG, matched to spot +2.93)",
+   "time": "2026-11-10T09:40:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Defiant Pete Hegseth defends Iran war as he faces impeachment vote - Financial Times",
-    "Seven in 10 Americans want to end Iran war while Trump's approval nosedives - The Independent",
-    "Sanctions on Iranian state tanker company reimposed by Canada after 10 years - TradeWinds News"
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "RAFAEL Unveils SUPER ICE\u2122, Its New Long-Range Cruise Missile with a 1,000-Pound Warhead - EDR Magazine - European Defence Review",
+    "Hegseth dismisses impeachment efforts over Iran war as 'a farce' - Middle East Online"
    ]
   },
   "today": [
