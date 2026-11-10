@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T23:30:20.457747-05:00",
+ "updated": "2026-11-09T23:35:20.428313-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4115.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.79)",
-   "time": "2026-11-09T23:25:00-05:00"
+   "price": 4116.700195,
+   "feed": "real-time gold (PAXG, matched to spot +10.77)",
+   "time": "2026-11-09T23:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The new \u2018cold\u2019 war: hacked fridges reveal infrastructure-security gaps - The Strategist | ASPI's analysis and commentary site",
-    "Family of D-Day hero say new war memorial 'should not be a political football' - Southend Echo",
-    "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat - Arkansas Advocate"
+    "Hormuz LNG traffic hits highest in October since Iran war began - Reuters",
+    "Pete Hegseth unfazed by impeachment push, defends Trump's Iran war as 'necessary' - The Times of India",
+    "The new \u2018cold\u2019 war: hacked fridges reveal infrastructure-security gaps - The Strategist | ASPI's analysis and commentary site"
    ]
   },
   "today": [
