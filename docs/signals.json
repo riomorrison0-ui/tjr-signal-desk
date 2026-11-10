@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T10:30:20.567817-05:00",
+ "updated": "2026-11-10T10:35:20.567656-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4049.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.19)",
-   "time": "2026-11-10T10:25:00-05:00"
+   "price": 4052.800049,
+   "feed": "real-time gold (PAXG, matched to spot +11.98)",
+   "time": "2026-11-10T10:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "BAE Systems accelerates delivery of advanced LRASM missile sensors - Naval News",
-    "New statue in DC mocks Trump for \u2018dodging\u2019 Vietnam war draft over bone spurs - The Guardian",
-    "XLIO lands $100M debt facility, pushing its war chest to $150M - Dealroom"
+    "Rubio says Iran sanctions and naval blockade working \u2018so well\u2019 - Middle East Online",
+    "\u2018Positive momentum\u2019: Is the US war on Iran about to end? - Al Jazeera",
+    "The Ingenia takeover tug-of-war won't end with Avid refusing to blink - Green Street News"
    ]
   },
   "today": [
