@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T13:20:20.470711-05:00",
+ "updated": "2026-11-10T13:25:20.512407-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4020.0,
-   "feed": "real-time gold (PAXG, matched to spot +5.20)",
-   "time": "2026-11-10T13:15:00-05:00"
+   "price": 4022.300049,
+   "feed": "real-time gold (PAXG, matched to spot +6.77)",
+   "time": "2026-11-10T13:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Munition Inventories: An Update Amid Renewed War Risk - CSIS | Center for Strategic and International Studies",
-    "Cops question person of interest after home invasion, sexual assault at gunpoint in Auburn Gresham - Chicago Sun-Times",
-    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post"
+    "Rutland to unveil long-awaited World War II memorial honoring the 'Greatest Generation' - Vermont Public",
+    "Royal Navy in biggest rebuild since Second World War - UK Defence Journal",
+    "Iran Unveils Underground Missile City; Warns US Of New Battlefield Surprises - The Times of India"
    ]
   },
   "today": [
