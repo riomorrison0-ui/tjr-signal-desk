@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T10:45:20.528664-05:00",
+ "updated": "2026-11-10T10:50:20.498845-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4049.600098,
-   "feed": "real-time gold (PAXG, matched to spot +13.73)",
-   "time": "2026-11-10T10:40:00-05:00"
+   "price": 4044.300049,
+   "feed": "real-time gold (PAXG, matched to spot +9.85)",
+   "time": "2026-11-10T10:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Rubio says Iran sanctions and naval blockade working \u2018so well\u2019 - Middle East Online",
-    "\u2018Positive momentum\u2019: Is the US war on Iran about to end? - Al Jazeera",
-    "The Ingenia takeover tug-of-war won't end with Avid refusing to blink - Green Street News"
+    "Green councillor accused veteran of \u2018glorifying war\u2019 on Remembrance Sunday - The Telegraph",
+    "Trump says Iran war \u201cmilitarily is effectively over\u201d; California voters reject billionaire tax; Russian newspaper Novaya Gazeta closes - Drop Site News",
+    "Co Antrim: Theft of wreaths from War Memorial just hours after commemoration 'a despicable act' - NorthernIrelandWorld"
    ]
   },
   "today": [
