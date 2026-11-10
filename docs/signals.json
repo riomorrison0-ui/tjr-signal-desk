@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T07:30:20.452037-05:00",
+ "updated": "2026-11-10T07:35:20.480251-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4077.5,
-   "feed": "real-time gold (PAXG, matched to spot +8.57)",
-   "time": "2026-11-10T07:25:00-05:00"
+   "price": 4076.100098,
+   "feed": "real-time gold (PAXG, matched to spot +7.59)",
+   "time": "2026-11-10T07:30:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Israeli fire kills 3 Palestinians, wounds 6 others in Gaza amid ceasefire violations - Anadolu Ajans\u0131",
-    "Church growth in the midst of war - Evangelical Focus",
-    "Iran War: Oil Prices Fall, but U.S. Farmers Are Still Paying the Price - AgroLatam"
+    "Column | The Mall was meant for peace. It\u2019s getting crowded with war. - The Washington Post",
+    "Russia Can Afford a War in Ukraine but Apparently Needs to Tax Lobsters and Oysters to Pay for It - UNITED24 Media",
+    "It\u2019s Time to Debate How the Army Fights - Modern War Institute -"
    ]
   },
   "today": [
