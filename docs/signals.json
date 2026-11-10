@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T15:40:20.416041-05:00",
+ "updated": "2026-11-10T15:45:20.384368-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4029.600098,
-   "feed": "real-time gold (PAXG, matched to spot +5.00)",
-   "time": "2026-11-10T15:35:00-05:00"
+   "price": 4026.2,
+   "feed": "real-time gold (PAXG, matched to spot +0.00)",
+   "time": "2026-11-10T15:40:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Right-wing protesters warn of \u2018civil war\u2019 if government formed with Arab-party support - The Times of Israel",
-    "Britain calls for comprehensive diplomatic push to end US-Iran war - \u0633\u0627\u0646\u0627",
-    "War has upended Russian-Nordic friendships forged on Arctic ice hockey rinks. Can they ever recover? - The Guardian"
+    "What the Cold War Nuclear Arms Race Can \u2014 and Can\u2019t \u2014 Teach Us About AI - Georgetown University",
+    "Iran Unveils Underground 'Missile City' as Expert Notes Radar-Evasion Efforts - Haaretz",
+    "Iraq blocks Iranian football team\u2019s plane from landing over US sanctions - Al Jazeera"
    ]
   },
   "today": [
