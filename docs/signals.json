@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T08:50:20.610252-05:00",
+ "updated": "2026-11-10T08:55:20.458151-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4062.800049,
-   "feed": "real-time gold (PAXG, matched to spot +12.76)",
-   "time": "2026-11-10T08:45:00-05:00"
+   "price": 4058.100098,
+   "feed": "real-time gold (PAXG, matched to spot +10.63)",
+   "time": "2026-11-10T08:50:00-05:00"
   }
  },
  "stats": {
@@ -57,9 +57,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
-    "One in three male deaths under age 50 in three Russian oblasts linked to Ukraine war - The New Voice of Ukraine",
-    "War hero, 100, who dug Hitler\u2019s bunker meets family of man he saved in 1944 - Discover SWNS"
+    "From October 7 tragedy to the Knesset: Bereaved families and war survivors enter Israeli politics - Ynetnews",
+    "Poland\u2019s lower house backs sanctions bill covering crypto freezes - TradingView",
+    "Dozens at right-wing protest outside Knesset: 'There'll be civil war if government is established with Arab-party support' - The Times of Israel"
    ]
   },
   "today": [
@@ -83,17 +83,17 @@
     "title": "ADP Weekly Employment Change",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-10T13:15:00+00:00",
+    "time": "2026-11-10T13:14:00+00:00",
     "forecast": "",
-    "previous": ""
+    "previous": "16.8K"
    },
    {
     "title": "ADP Weekly Employment Change",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-10T13:16:00+00:00",
+    "time": "2026-11-10T13:15:00+00:00",
     "forecast": "",
-    "previous": "16.8K"
+    "previous": "19.5K"
    },
    {
     "title": "Core CPI m/m",
