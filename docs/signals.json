@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T17:30:20.368808-05:00",
+ "updated": "2026-11-10T17:35:20.345347-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4033.800049,
-   "feed": "real-time gold (PAXG, matched to spot +5.80)",
-   "time": "2026-11-10T17:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +6.14)",
+   "time": "2026-11-10T17:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War\u2019s Past Mistakes - The National Interest",
-    "Trump's Alternative To The Iran War Is A Forever War - FOREVER WARS by Spencer Ackerman",
-    "Ex-investigator admits depriving war crimes investigation of potentially valuable information - Sky News"
+    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
+    "What the U.S. midterms mean for Ukrainians heading into their 5th winter at war - NPR",
+    "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War\u2019s Past Mistakes - The National Interest"
    ]
   },
   "today": [
