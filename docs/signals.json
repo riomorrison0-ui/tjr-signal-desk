@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T02:20:20.448981-05:00",
+ "updated": "2026-11-10T02:25:20.484428-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4118.399902,
-   "feed": "real-time gold (PAXG, matched to spot +12.64)",
-   "time": "2026-11-10T02:15:00-05:00"
+   "price": 4118.200195,
+   "feed": "real-time gold (PAXG, matched to spot +11.98)",
+   "time": "2026-11-10T02:20:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Gen Z doesn\u2018t relish going to war \u2013 so what! You should worry more about the reckless generations that do - The Guardian",
-    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes - CNBC",
-    "Leaked Russian deaths from Rosstat show 400,000 war deaths, hackers say - Business Insider"
+    "Streeting wants more direct contact with Russia to avoid war 'miscalculation' - The Independent",
+    "EU's Kallas backs ICC amid US tensions, says court targets war crimes - Yeni \u015eafak English",
+    "Netanyahu calls Trump \u2018every day\u2019 to push for resuming Iran war: Report - Anadolu Ajans\u0131"
    ]
   },
   "today": [
