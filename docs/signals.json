@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T17:45:20.330899-05:00",
+ "updated": "2026-11-10T17:50:20.366897-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4033.800049,
    "feed": "real-time gold (PAXG, matched to spot +6.12)",
-   "time": "2026-11-10T17:40:00-05:00"
+   "time": "2026-11-10T17:45:00-05:00"
   }
  },
  "stats": {
@@ -43,8 +43,8 @@
    "count": 6,
    "examples": [
     "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
-    "What the U.S. midterms mean for Ukrainians heading into their 5th winter at war - NPR",
-    "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War\u2019s Past Mistakes - The National Interest"
+    "Contracts for Nov. 10, 2026 - U.S. Department of War (.gov)",
+    "Britain must prepare for war if we want peace, Royal Navy chief warns - The Times"
    ]
   },
   "today": [
