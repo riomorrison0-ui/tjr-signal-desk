@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-09T22:25:20.478884-05:00",
+ "updated": "2026-11-09T22:30:20.452192-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4116.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.63)",
-   "time": "2026-11-09T22:20:00-05:00"
+   "price": 4117.5,
+   "feed": "real-time gold (PAXG, matched to spot +12.62)",
+   "time": "2026-11-09T22:25:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Trump Says Ukraine Talks Progressing, Avoids Putin Ceasefire Question - Kyiv Post",
-    "Middle East latest: Attack on Saudi oil pipeline causes fire - thenationalnews.com",
-    "Trump says Iran war is 'effectively over' militarily with further strikes unlikely - BBC"
+    "Iran's supreme leader orders end to \"no war, no peace\" standoff with US: president - \u5df4\u58eb\u7684\u5831",
+    "Trilateral talks set to resume in Abu Dhabi with security, ceasefire focus - \u5df4\u58eb\u7684\u5831",
+    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post"
    ]
   },
   "today": [
