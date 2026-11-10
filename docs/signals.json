@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T00:00:20.493483-05:00",
+ "updated": "2026-11-10T00:05:20.445803-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4117.0,
-   "feed": "real-time gold (PAXG, matched to spot +10.94)",
-   "time": "2026-11-09T23:55:00-05:00"
+   "price": 4115.5,
+   "feed": "real-time gold (PAXG, matched to spot +11.09)",
+   "time": "2026-11-10T00:00:00-05:00"
   }
  },
  "stats": {
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Restoring \u2018The Host\u2019: Bong Joon Ho Says Current Iran War Shows History Is \u201cRepeating Our Mistakes\u201d - Resonate Voices",
-    "Are Houthi Attacks Pushing Saudi Arabia and Yemen Toward a Wider Military Escalation? - Modern Diplomacy",
-    "Hormuz LNG traffic hits highest in October since Iran war began - Reuters"
+    "The Iran war unexpectedly drove down carbon emissions this year - The Seattle Times",
+    "Republican lawmaker seeks impeachment of US defense secretary over Iran war - \u5df4\u58eb\u7684\u5831",
+    "Strait of Hormuz LNG traffic hits highest in October since Iran war began - The Hindu"
    ]
   },
   "today": [
