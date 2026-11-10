@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T01:35:20.440375-05:00",
+ "updated": "2026-11-10T01:40:20.454419-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4126.299805,
-   "feed": "real-time gold (PAXG, matched to spot +12.15)",
-   "time": "2026-11-10T01:30:00-05:00"
+   "price": 4125.899902,
+   "feed": "real-time gold (PAXG, matched to spot +12.69)",
+   "time": "2026-11-10T01:35:00-05:00"
   }
  },
  "stats": {
@@ -47,12 +47,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Best Oasis becomes second cash buyer to secure US sanctions clearance - Splash247",
-    "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
-    "World in brief: FBI looks into Huang affair; Trump says Iran war is \u201ceffectively over\u201d - The Economist"
+    "Trump says Iran war to end 'fairly soon' - www.thenationalnews.com",
+    "Enough is enough: Trump must act now to end war in Ukraine - The Herald",
+    "FTSE 100 Live: Stocks to climb; Trump says Iran war \u2018effectively over\u2019 - City AM"
    ]
   },
   "today": [
