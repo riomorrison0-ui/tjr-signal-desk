@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T21:20:20.304062-05:00",
+ "updated": "2026-11-09T21:24:30.064456-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4123.200195,
-   "feed": "real-time gold (PAXG, matched to spot +12.88)",
+   "price": 4127.5,
+   "feed": "real-time gold (PAXG, matched to spot +17.18)",
    "time": "2026-11-09T21:15:00-05:00"
   }
  },
@@ -50,9 +50,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Secretary of War Pete Hegseth Remarks at the Naval War College (As Delivered) - U.S. Department of War (.gov)",
-    "Ukraine war briefing: battlefield gains bolstering Kyiv\u2019s hand in US-led peace talks, Zelenskyy says - The Guardian",
-    "Secretary of War Pete Hegseth Conducts Press Gaggle Following Remarks at Naval War College - U.S. Department of War (.gov)"
+    "Wash. Panel Nixes $10K Sanctions On Monsanto PCB Attys - Law360",
+    "Volunteer Divers Just Discovered a World War II Shipwreck That Had Been Missing for More Than 80 Years - VICE",
+    "Poll finds Americans less likely to back pro-war candidates by 3-1 margin - Al Jazeera"
    ]
   },
   "today": [
