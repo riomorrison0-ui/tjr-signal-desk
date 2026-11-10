@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T16:30:20.346001-05:00",
+ "updated": "2026-11-10T16:35:20.373803-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4030.600098,
-   "feed": "real-time gold (PAXG, matched to spot +7.78)",
-   "time": "2026-11-10T16:25:00-05:00"
+   "price": 4029.0,
+   "feed": "real-time gold (PAXG, matched to spot +7.59)",
+   "time": "2026-11-10T16:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "China can play key role in ending Iran's \u2018neither war nor peace' situation with US: Iranian parliament speaker - Anadolu Ajans\u0131",
     "Iran unveils underground missile complex \u2014 Jerusalem Post - UA.NEWS",
-    "Hegseth defends his record, Iran war as impeachment vote looms - The Washington Post",
-    "Russia Doesn\u2019t Hold Nearly All of Donetsk, Sybiha Says as Ukraine Awaits Reply on Ceasefire Proposals - UNITED24 Media"
+    "Becoming third pole, or front in someone else's war? | Daily Sabah - Daily Sabah"
    ]
   },
   "today": [
