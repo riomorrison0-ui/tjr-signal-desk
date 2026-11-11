@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T00:20:20.244435-05:00",
+ "updated": "2026-11-11T00:25:20.231684-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4055.800049,
-   "feed": "real-time gold (PAXG, matched to spot +6.85)",
-   "time": "2026-11-11T00:15:00-05:00"
+   "price": 4056.399902,
+   "feed": "real-time gold (PAXG, matched to spot +4.85)",
+   "time": "2026-11-11T00:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Too Slow: How to Increase European Missile Production - Missile Matters \u2014 with Fabian Hoffmann",
-    "Gulf shoppers cut down on luxuries as war inflation bites - Financial Times",
-    "Ukraine\u2019s ordeals in war \u2014 blistering accounts, stark and timely - Financial Times"
+    "Wreaths on display as town honours war dead for Remembrance - The Bolton News",
+    "Dr Nunnery on Chemo De-Escalation, Ovarian Function Suppression, and Toxicity Management in Breast Cancer - OncLive",
+    "Gulf shoppers cut down on luxuries as war inflation bites - Financial Times"
    ]
   },
   "today": [
