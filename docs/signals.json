@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T02:30:20.366070-05:00",
+ "updated": "2026-11-11T02:35:20.359943-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.899902,
-   "feed": "real-time gold (PAXG, matched to spot +10.21)",
-   "time": "2026-11-11T02:25:00-05:00"
+   "price": 4064.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.10)",
+   "time": "2026-11-11T02:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Ukraine's path to EU accession narrows as war drags on - Reuters",
-    "COMMENTARY: Trump\u2019s Iran war pause is as costly as new strikes - Reuters",
-    "Houthis Target Sanaa Bakeries to Fund War Effort - ASHARQ AL-AWSAT English"
+    "Europe is ready to discuss with Russia the revival of Cold War-era agreements and restrictions on missiles \u2014 FT - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "\u2018Constructive\u2019 Abu Dhabi talks resume, but a ceasefire is nowhere near - Euronews.com",
+    "Aberystwyth University leads research into families of prisoners of war - Wales 247"
    ]
   },
   "today": [
