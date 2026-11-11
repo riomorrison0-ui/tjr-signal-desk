@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T11:35:20.232700-05:00",
+ "updated": "2026-11-11T11:40:20.271835-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4003.0,
-   "feed": "real-time gold (PAXG, matched to spot +4.99)",
-   "time": "2026-11-11T11:30:00-05:00"
+   "price": 4004.5,
+   "feed": "real-time gold (PAXG, matched to spot +7.98)",
+   "time": "2026-11-11T11:35:00-05:00"
   }
  },
  "stats": {
@@ -40,10 +40,10 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "OPEC holds oil demand forecast, flags Saudi output at pre-war level - Quantum Commodity Intelligence",
-    "Poppies to Paddington pays tribute to forgotten heroes of the First World War - Rail Business Daily",
+    "Tankers continue to burn across Middle East amid support for de-escalation in Iran - National News Desk",
+    "Iran unveils underground \u2018Missile City\u2019 after US evacuates second RAF base - The Telegraph",
     "Drones behind two thirds of child casualties in Sudan war - The New Arab"
    ]
   },
