@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T01:50:20.232853-05:00",
+ "updated": "2026-11-11T01:55:20.256916-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4058.699951,
-   "feed": "real-time gold (PAXG, matched to spot +7.68)",
-   "time": "2026-11-11T01:45:00-05:00"
+   "price": 4058.800049,
+   "feed": "real-time gold (PAXG, matched to spot +7.32)",
+   "time": "2026-11-11T01:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "UK Government told 'move at pace' to prepare for possibility of war - Cambridge News",
-    "Port Glasgow residents honour war dead at memorial service - Greenock Telegraph",
-    "Veteran researches war graves to tell town's stories - Yahoo"
+    "Conservatives Warn Of A Planned War On Motorists As Havering Forecast A Rise In Parking Fines. - The Havering Daily",
+    "The A-11 that won the war is back, sized up and automatic - The Gadgeteer",
+    "The Norwich cottages built for veterans after World War One - BBC"
    ]
   },
   "today": [
