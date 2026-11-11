@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T18:40:20.385593-05:00",
+ "updated": "2026-11-11T18:45:20.426301-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3983.399902,
-   "feed": "real-time gold (PAXG, matched to spot +6.79)",
-   "time": "2026-11-11T18:35:00-05:00"
+   "price": 3982.399902,
+   "feed": "real-time gold (PAXG, matched to spot +5.42)",
+   "time": "2026-11-11T18:40:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Opinion | Netanyahu wants civil war. If it tears down Israeli democracy, even better - Haaretz",
-    "Hegseth and team reprimanded by Army guard at solemn war memorial - BBC"
+    "Russia\u2019s redesigned Geran-5 missile expands threat to Ukrainian skies - FDD's Long War Journal",
+    "Israeli airstrike kills 4 at Nasser Hospital in southern Gaza - Anadolu Ajans\u0131",
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
    ]
   },
   "today": [
