@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T02:10:20.252872-05:00",
+ "updated": "2026-11-11T02:14:30.347927-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.699951,
-   "feed": "real-time gold (PAXG, matched to spot +11.33)",
+   "price": 4063.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.83)",
    "time": "2026-11-11T02:05:00-05:00"
   }
  },
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Conservatives Warn Of A Planned War On Motorists As Havering Forecast A Rise In Parking Fines. - The Havering Daily",
-    "The A-11 that won the war is back, sized up and automatic - The Gadgeteer",
-    "The Norwich cottages built for veterans after World War One - BBC"
+    "COMMENTARY: Trump\u2019s Iran war pause is as costly as new strikes - Reuters",
+    "Houthis Target Sanaa Bakeries to Fund War Effort - ASHARQ AL-AWSAT English",
+    "Conservatives Warn Of A Planned War On Motorists As Havering Forecast A Rise In Parking Fines. - The Havering Daily"
    ]
   },
   "today": [
