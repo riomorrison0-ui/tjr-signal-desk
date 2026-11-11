@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T09:00:20.251248-05:00",
+ "updated": "2026-11-11T09:05:20.240353-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4037.800049,
-   "feed": "real-time gold (PAXG, matched to spot +8.37)",
-   "time": "2026-11-11T08:55:00-05:00"
+   "price": 4034.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.21)",
+   "time": "2026-11-11T09:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Can Pete Hegseth survive the political fallout from the Iran war? - TRT World",
-    "Navy chief sounds the alarm Britain must \u2018prepare for war\u2019 as the threats from Russia are multiplying - London Business News",
-    "US envoys head for Moscow as trilateral talks on Ukraine war end | Daily Sabah - Daily Sabah"
+    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
+    "Hundreds gather outside Norwich War Memorial to mark Armistice Day - Norwich Evening News",
+    "Germany says Ukraine war must end before broader security talks with Russia - Arab News PK"
    ]
   },
   "today": [
