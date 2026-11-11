@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T12:20:20.273538-05:00",
+ "updated": "2026-11-11T12:25:20.239503-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4002.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.96)",
-   "time": "2026-11-11T12:15:00-05:00"
+   "price": 4007.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.81)",
+   "time": "2026-11-11T12:20:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Open war in Spain: Tebas turns to the prime minister to survive the \"Goebbels\" remark - Goal.com",
-    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
-    "Strait of Hormuz will not return to pre-war status, Iran\u2019s Ghalibaf says - The Times of Israel"
+    "Voluntary Sanctions Disclosures in the United States and United Kingdom: Similar Objectives, Differe - Clyde & Co",
+    "Meet the US citizens demanding Donald Trump be charged for Gaza war crimes - The National Scot",
+    "Open war in Spain: Tebas turns to the prime minister to survive the \"Goebbels\" remark - Goal.com"
    ]
   },
   "today": [
