@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T11:05:20.292997-05:00",
+ "updated": "2026-11-11T11:10:20.240871-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4005.300049,
-   "feed": "real-time gold (PAXG, matched to spot +4.32)",
-   "time": "2026-11-11T11:00:00-05:00"
+   "price": 4005.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.95)",
+   "time": "2026-11-11T11:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Tweeddale fallen remembered at County War Memorial - Peeblesshire News",
-    "Bessent\u2019s relocation: From US to EU, is Iran bringing war to Western soil? - Al Jazeera",
-    "The war memorial in St Peter's Square in Manchester city centre was crowded today as around 200 people turned out to mark Remembrance Day \u2764\ufe0f Students, office staff and construction workers massed around the marble memorial alongside police officers, - Facebook"
+    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
+    "Archbishop \u2018shocked\u2019 to hear of vandalism to church war memorial - Warrington Guardian",
+    "\u2018Every poppy made with care and a personal wish to remember\u2019: project keeps the stories of equine war heroes alive - Horse & Hound"
    ]
   },
   "today": [
