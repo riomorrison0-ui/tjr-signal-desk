@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T04:00:20.382109-05:00",
+ "updated": "2026-11-11T04:05:20.338220-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4058.399902,
-   "feed": "real-time gold (PAXG, matched to spot +9.40)",
-   "time": "2026-11-11T03:55:00-05:00"
+   "price": 4057.899902,
+   "feed": "real-time gold (PAXG, matched to spot +10.90)",
+   "time": "2026-11-11T04:00:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Five Books About World War II for Young Readers - Literary Hub",
-    "Turner & Townsend: Declining construction output will not cut cost escalation - Scottish Construction Now",
-    "The English Invasion: How Rangers Bought England\u2019s Best and Rebuilt Ibrox, 1986\u20131991 - Football Bloody Hell"
+    "Oil prices hit two-month lows as Iran escalation fears ease - \u0633\u0627\u0646\u0627",
+    "Risk of conflict may be on the rise - but war is not inevitable, says First Sea Lord - Forces News",
+    "Five Books About World War II for Young Readers - Literary Hub"
    ]
   },
   "today": [
