@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T03:30:20.371714-05:00",
+ "updated": "2026-11-11T03:35:20.340156-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4059.100098,
-   "feed": "real-time gold (PAXG, matched to spot +11.63)",
-   "time": "2026-11-11T03:25:00-05:00"
+   "price": 4058.800049,
+   "feed": "real-time gold (PAXG, matched to spot +7.54)",
+   "time": "2026-11-11T03:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "We need sanctions on Israel now \u2013 Jeremy Corbyn - aliran.com",
-    "Iran war pushes up coal use, complicating Turkey\u2019s COP31 pledge - Al-Monitor",
-    "Myanmar\u2019s civil war is threatening a major peatland discovery - Resilience"
+    "The English Invasion: How Rangers Bought England\u2019s Best and Rebuilt Ibrox, 1986\u20131991 - Football Bloody Hell",
+    "Russian pundits wary of implications of U.S. Midterm results for war - Peace Research Institute Oslo (PRIO)",
+    "We need sanctions on Israel now \u2013 Jeremy Corbyn - m.aliran.com"
    ]
   },
   "today": [
