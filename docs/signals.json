@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T13:10:20.232478-05:00",
+ "updated": "2026-11-11T13:15:20.291724-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3992.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.04)",
-   "time": "2026-11-11T13:05:00-05:00"
+   "price": 3993.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.30)",
+   "time": "2026-11-11T13:10:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Why does Pete Hegseth call himself secretary of war? \u2018Dopey but dangerous\u2019 wouldn\u2019t fit on a badge | Emma Brockes - The Guardian",
-    "Trump hijacks Veterans Day speech to make case for his Iran war \u2014 and 250-foot arch - The Independent",
-    "Strait of Hormuz will not return to pre-war status, Iran\u2019s Ghalibaf says - The Times of Israel"
+    "Trump claims US has already won the Iran war, now wants \u2018total victory\u2019 - The Times of Israel",
+    "BBC Surrey. . Six servicemen who died in World War Two have been added to a roll of honour at Glyn School, in Ewell, after history teachers discovered they were former pupils. More here: https://bbc.in/4iIdY6Z - Facebook",
+    "Why does Pete Hegseth call himself secretary of war? \u2018Dopey but dangerous\u2019 wouldn\u2019t fit on a badge | Emma Brockes - The Guardian"
    ]
   },
   "today": [
