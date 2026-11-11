@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T01:35:20.238023-05:00",
+ "updated": "2026-11-11T01:40:20.265408-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4056.600098,
-   "feed": "real-time gold (PAXG, matched to spot +8.96)",
-   "time": "2026-11-11T01:30:00-05:00"
+   "price": 4057.899902,
+   "feed": "real-time gold (PAXG, matched to spot +9.09)",
+   "time": "2026-11-11T01:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Veteran researches stories behind Pontefract's 134 war graves - BBC",
-    "Rear-Admiral Patrick Middleton, funny and frank submarine engineer during the Cold War - The Telegraph",
-    "Search for stories behind Wolverhampton war heroes - Yahoo"
+    "UK Government told 'move at pace' to prepare for possibility of war - Cambridge News",
+    "Port Glasgow residents honour war dead at memorial service - Greenock Telegraph",
+    "Veteran researches war graves to tell town's stories - Yahoo"
    ]
   },
   "today": [
