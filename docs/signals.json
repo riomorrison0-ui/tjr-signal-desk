@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T08:15:20.234793-05:00",
+ "updated": "2026-11-11T08:20:20.264411-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4043.600098,
-   "feed": "real-time gold (PAXG, matched to spot +9.31)",
-   "time": "2026-11-11T08:10:00-05:00"
+   "price": 4046.699951,
+   "feed": "real-time gold (PAXG, matched to spot +11.20)",
+   "time": "2026-11-11T08:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran\u2019s Covert War in Europe - National Council of Resistance of Iran - NCRI",
-    "Jarrell Miller\u2019s next fight announced: \u2018Absolute war\u2019 against Olympic gold medalist - boxingnewsonline.net",
-    "Italy may reduce missile supplies to Ukraine for air defense due to limited stocks - media - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "Missile city unveiling sparks anger over poverty, lack of shelters - Iran International",
+    "Ukraine to Open FREYJA Missile Defense Office in Denmark as 11 Countries Join Project - UNITED24 Media",
+    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post"
    ]
   },
   "today": [
