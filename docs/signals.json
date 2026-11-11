@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T07:25:20.420587-05:00",
+ "updated": "2026-11-11T07:30:20.368835-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4045.899902,
-   "feed": "real-time gold (PAXG, matched to spot +9.89)",
-   "time": "2026-11-11T07:20:00-05:00"
+   "price": 4045.0,
+   "feed": "real-time gold (PAXG, matched to spot +10.01)",
+   "time": "2026-11-11T07:25:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats - The Decoder",
-    "Russia-Ukraine ceasefire negotiations stall - Semafor",
-    "Ukraine hopes to test a European ballistic missile defense system this winter - Mezha.net"
+    "As war continues, local people mobilise to salvage southern Lebanon\u2019s history - The Art Newspaper",
+    "Russia and Ukraine agree to large exchange of prisoners of war - East Renfrewshire News",
+    "Russia and Ukraine agree to large exchange of prisoners of war - Hampshire Chronicle"
    ]
   },
   "today": [
