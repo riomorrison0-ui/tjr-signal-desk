@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T08:45:20.237503-05:00",
+ "updated": "2026-11-11T08:50:20.268834-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4034.600098,
-   "feed": "real-time gold (PAXG, matched to spot +10.05)",
-   "time": "2026-11-11T08:40:00-05:00"
+   "price": 4036.899902,
+   "feed": "real-time gold (PAXG, matched to spot +10.76)",
+   "time": "2026-11-11T08:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Saudi Arabia leads further jump in OPEC+ oil output despite war - Reuters",
-    "Moving service held at Leamington war memorial for Armistice Day - WarwickshireWorld",
-    "Missile city unveiling sparks anger over poverty, lack of shelters - Iran International"
+    "Can Pete Hegseth survive the political fallout from the Iran war? - TRT World",
+    "Navy chief sounds the alarm Britain must \u2018prepare for war\u2019 as the threats from Russia are multiplying - London Business News",
+    "US envoys head for Moscow as trilateral talks on Ukraine war end | Daily Sabah - Daily Sabah"
    ]
   },
   "today": [
