@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T02:45:20.373679-05:00",
+ "updated": "2026-11-11T02:50:20.340408-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4063.199951,
-   "feed": "real-time gold (PAXG, matched to spot +11.00)",
-   "time": "2026-11-11T02:40:00-05:00"
+   "price": 4061.600098,
+   "feed": "real-time gold (PAXG, matched to spot +11.20)",
+   "time": "2026-11-11T02:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Europe is ready to discuss with Russia the revival of Cold War-era agreements and restrictions on missiles \u2014 FT - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "\u2018Constructive\u2019 Abu Dhabi talks resume, but a ceasefire is nowhere near - Euronews.com",
-    "Aberystwyth University leads research into families of prisoners of war - Wales 247"
+    "Houthis target Sanaa bakeries to fund war effort - Arab News",
+    "Ukraine War, Day 1,721: Zelensky \u2014 \u201cHappy\u201d with US Change in Russia Talks - EA WorldView",
+    "Hegseth should quit over Iran war: Senator-elect El-Sayed - T\u00fcrkiye Today"
    ]
   },
   "today": [
