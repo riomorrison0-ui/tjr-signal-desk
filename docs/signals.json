@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T03:00:20.341610-05:00",
+ "updated": "2026-11-11T03:05:20.332960-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4060.399902,
-   "feed": "real-time gold (PAXG, matched to spot +10.38)",
-   "time": "2026-11-11T02:55:00-05:00"
+   "price": 4060.699951,
+   "feed": "real-time gold (PAXG, matched to spot +11.33)",
+   "time": "2026-11-11T03:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Houthis target Sanaa bakeries to fund war effort - Arab News",
-    "Ukraine War, Day 1,721: Zelensky \u2014 \u201cHappy\u201d with US Change in Russia Talks - EA WorldView",
-    "Hegseth should quit over Iran war: Senator-elect El-Sayed - T\u00fcrkiye Today"
+    "Iran\u2019s Revolutionary Guards Unveil Underground \u2018Missile City\u2019 - ASHARQ AL-AWSAT English",
+    "China backs Cuba in opposing sanctions, blockades; pledges 'firm support', Xinhua reports - Reuters",
+    "Houthis target Sanaa bakeries to fund war effort - Arab News"
    ]
   },
   "today": [
