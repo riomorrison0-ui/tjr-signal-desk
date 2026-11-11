@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T23:00:20.243224-05:00",
+ "updated": "2026-11-10T23:05:20.246348-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4048.100098,
-   "feed": "real-time gold (PAXG, matched to spot +6.25)",
-   "time": "2026-11-10T22:55:00-05:00"
+   "price": 4048.199951,
+   "feed": "real-time gold (PAXG, matched to spot +3.56)",
+   "time": "2026-11-10T23:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran opens training camp for women in readiness for war - Al Jazeera",
-    "Egypt\u2019s Strategic Pivot: The Nile, Sudan\u2019s War and a New Route Into Africa - The Times of Israel",
-    "Russian Social Media in Times of War - Australian Institute of International Affairs"
+    "Rafael Unveils Super Ice Cruise Missile Featuring Larger Warhead - Aviation Week",
+    "Oil Is Stuck in Limbo, With No More Iran War But No Peace - Bloomberg.com",
+    "\ud83c\uddee\ud83c\uddf7 \ud83c\uddfa\ud83c\uddf8 Who speaks for Iran? Its war commanders got used to calling their own shots... and now nobody can rein them back in. Andreas Krieg of King\u2019s College London says most of Iran\u2019s power centers actually want a deal, but the leaders killed in March and - X"
    ]
   },
   "today": [
