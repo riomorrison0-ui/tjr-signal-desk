@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T21:45:20.282090-05:00",
+ "updated": "2026-11-10T21:50:20.230328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4045.199951,
-   "feed": "real-time gold (PAXG, matched to spot +4.91)",
-   "time": "2026-11-10T21:40:00-05:00"
+   "price": 4044.600098,
+   "feed": "real-time gold (PAXG, matched to spot +7.94)",
+   "time": "2026-11-10T21:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Movie Review: \u201cJimmy\u201d Stewart survives The World War that Remade Him as an Actor - rogersmovienation.com",
     "EU Auditors warn uneven enforcement by EU countries undermines Russia trade sanctions - INSIGHT EU MONITORING",
-    "Iran's IRGC unveils 'new' underground \u2018missile city\u2019 amid war tensions - Gulf News",
-    "Tankers continue to burn in the Middle East despite hopes for de-escalation - The Japan Times"
+    "Iran's IRGC unveils 'new' underground \u2018missile city\u2019 amid war tensions - Gulf News"
    ]
   },
   "today": [
