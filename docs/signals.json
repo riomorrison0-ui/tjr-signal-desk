@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T21:00:20.246204-05:00",
+ "updated": "2026-11-10T21:05:20.235455-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4046.899902,
-   "feed": "real-time gold (PAXG, matched to spot +5.88)",
-   "time": "2026-11-10T20:55:00-05:00"
+   "price": 4046.100098,
+   "feed": "real-time gold (PAXG, matched to spot +7.54)",
+   "time": "2026-11-10T21:00:00-05:00"
   }
  },
  "stats": {
@@ -44,7 +44,7 @@
    "examples": [
     "Tankers continue to burn in the Middle East despite hopes for de-escalation - The Japan Times",
     "Israel prepares for another war with Iran, warns next conflict could look very different - Ynetnews",
-    "Ukraine war briefing: Zelenskyy says Putin \u2018lives in a different reality\u2019 as Abu Dhabi talks get under way - AOL.co.uk"
+    "Ukraine war briefing: Zelenskyy says Putin \u2018lives in a different reality\u2019 as Abu Dhabi talks get under way - The Guardian"
    ]
   },
   "today": [
