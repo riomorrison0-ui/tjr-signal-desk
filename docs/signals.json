@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T11:50:20.288330-05:00",
+ "updated": "2026-11-11T11:55:20.238108-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4000.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.86)",
-   "time": "2026-11-11T11:45:00-05:00"
+   "price": 4000.100098,
+   "feed": "real-time gold (PAXG, matched to spot +5.35)",
+   "time": "2026-11-11T11:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Tankers continue to burn across Middle East amid support for de-escalation in Iran - National News Desk",
-    "Iran unveils underground \u2018Missile City\u2019 after US evacuates second RAF base - The Telegraph",
-    "Drones behind two thirds of child casualties in Sudan war - The New Arab"
+    "Watch Iran War Leaves Europe Vulnerable To Harsh Winter - Bloomberg.com",
+    "Provisional liquidators appointed to Dublin-registered airline hit by Iran war fuel hikes - The Irish Times",
+    "Oil tanker captain detained at sea set for novel sanctions trial - Global Investigations Review"
    ]
   },
   "today": [
