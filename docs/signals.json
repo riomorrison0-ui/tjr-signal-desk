@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T15:55:20.323742-05:00",
+ "updated": "2026-11-11T17:58:01.751961-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3988.199951,
-   "feed": "real-time gold (PAXG, matched to spot +5.21)",
-   "time": "2026-11-11T15:50:00-05:00"
+   "price": 3989.0,
+   "feed": "real-time gold (PAXG, matched to spot +5.42)",
+   "time": "2026-11-11T17:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "\u2018No war, no peace\u2019 US-Iran stalemate needs to end, says Ed Miliband - London Evening Standard",
-    "Oil production nears pre-Iran war levels, OPEC says - Al Jazeera",
-    "Erdogan calls Israel\u2019s war on Gaza an \u2019ecocide\u2019 at UN\u2019s COP31 - The New Arab"
+    "Hegseth and team reprimanded by Army guard at solemn war memorial - BBC",
+    "Shafaq News..EU envoys back 145 new Russia sanctions listings - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
    ]
   },
   "today": [
@@ -64,8 +64,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.11,
-  "gbpusd": 1.3277
+  "stop_cap_usd": 53.1,
+  "gbpusd": 1.32756
  },
  "backtest": {
   "portfolio": {
