@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T00:35:20.250799-05:00",
+ "updated": "2026-11-11T00:40:20.230375-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4064.899902,
-   "feed": "real-time gold (PAXG, matched to spot +9.91)",
-   "time": "2026-11-11T00:30:00-05:00"
+   "price": 4061.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.03)",
+   "time": "2026-11-11T00:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Wreaths on display as town honours war dead for Remembrance - The Bolton News",
-    "Dr Nunnery on Chemo De-Escalation, Ovarian Function Suppression, and Toxicity Management in Breast Cancer - OncLive",
-    "Gulf shoppers cut down on luxuries as war inflation bites - Financial Times"
+    "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment - The Guardian",
+    "US-Iran conflict: from nuclear diplomacy to all-out war - Al Majalla",
+    "EU trade with Russia falls by more than 75 percent but sanctions weakened by inconsistent enforcement, auditors warn - The Copenhagen Post"
    ]
   },
   "today": [
