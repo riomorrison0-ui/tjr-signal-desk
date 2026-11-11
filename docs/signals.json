@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T07:55:20.346672-05:00",
+ "updated": "2026-11-11T08:00:20.354318-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4042.699951,
-   "feed": "real-time gold (PAXG, matched to spot +11.08)",
-   "time": "2026-11-11T07:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +8.22)",
+   "time": "2026-11-11T07:55:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018Putin is negotiating for his next war\u2019 as Ukraine issues devastating warning over Abu Dhabi talks - London Business News",
-    "Iran reveals new underground \u2019missile city\u2019 in warning to US - The New Arab",
-    "U.S. Sanctions Tajik National Over Alleged Role in Iran\u2019s Efforts to Buy Missiles - The Times Of Central Asia"
+    "Iran\u2019s Covert War in Europe - National Council of Resistance of Iran - NCRI",
+    "Jarrell Miller\u2019s next fight announced: \u2018Absolute war\u2019 against Olympic gold medalist - boxingnewsonline.net",
+    "Iran\u2019s IRGC unveils underground \u2018missile city\u2019 - The Times of Israel"
    ]
   },
   "today": [
