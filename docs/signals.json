@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T06:35:20.331209-05:00",
+ "updated": "2026-11-11T06:40:20.357230-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4053.399902,
-   "feed": "real-time gold (PAXG, matched to spot +11.20)",
-   "time": "2026-11-11T06:30:00-05:00"
+   "price": 4051.600098,
+   "feed": "real-time gold (PAXG, matched to spot +10.24)",
+   "time": "2026-11-11T06:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "UK is \u2018not ready\u2019 for war and Burnham warned \u2018Russia will not wait for Whitehall\u2019 as Lords demand faster action - London Business News",
-    "\u2018We are dream-walking into a desperate situation\u2019: the Booker prize winner on his sci-fi alien invasion wakeup call - The Guardian",
-    "Watch: Iran unveils new missile city after Trump says US is \u2018locked and loaded\u2019 - Firstpost"
+    "IRGC teases new missile - Janes Defence Intelligence",
+    "Persistant fly-tipper in east London slapped with triple-whammy of court sanctions - London Evening Standard",
+    "Here\u2019s the real reason the John Lewis Christmas advert caused a culture war - The Herald"
    ]
   },
   "today": [
