@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T14:45:20.390804-05:00",
+ "updated": "2026-11-11T14:50:20.334503-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3988.699951,
-   "feed": "real-time gold (PAXG, matched to spot +6.32)",
-   "time": "2026-11-11T14:40:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +7.11)",
+   "time": "2026-11-11T14:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "U.S. representatives will deliver a ceasefire proposal to Putin \u2014 Zelenskyy expects a response in Dublin - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
     "Watch: Trump says 'we won' Iran war during Veterans Day service - BBC",
-    "Turkey's president calls Gaza war an 'ecocide' at UN climate summit; Israel: 'Campaign of lies' - The Times of Israel",
-    "Iran president accuses US, Israel of causing environmental damage during war - The Times of Israel"
+    "A Chinese spy, a chip war and Trump's indifference: How Nvidia became caught in an international scandal - Le Monde.fr"
    ]
   },
   "today": [
