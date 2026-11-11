@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T10:50:20.232894-05:00",
+ "updated": "2026-11-11T10:55:20.243784-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4005.699951,
-   "feed": "real-time gold (PAXG, matched to spot +7.81)",
-   "time": "2026-11-11T10:45:00-05:00"
+   "price": 4002.199951,
+   "feed": "real-time gold (PAXG, matched to spot +4.74)",
+   "time": "2026-11-11T10:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The war memorial in St Peter's... - Manchester Evening News - Facebook",
-    "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production - Crude Oil Prices Today | OilPrice.com",
-    "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment - The Guardian"
+    "Tweeddale fallen remembered at County War Memorial - Peeblesshire News",
+    "Bessent\u2019s relocation: From US to EU, is Iran bringing war to Western soil? - Al Jazeera",
+    "The war memorial in St Peter's Square in Manchester city centre was crowded today as around 200 people turned out to mark Remembrance Day \u2764\ufe0f Students, office staff and construction workers massed around the marble memorial alongside police officers, - Facebook"
    ]
   },
   "today": [
