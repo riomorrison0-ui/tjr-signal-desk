@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T14:00:20.354022-05:00",
+ "updated": "2026-11-11T14:05:20.340969-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3989.100098,
-   "feed": "real-time gold (PAXG, matched to spot +5.64)",
-   "time": "2026-11-11T13:55:00-05:00"
+   "price": 3989.0,
+   "feed": "real-time gold (PAXG, matched to spot +6.18)",
+   "time": "2026-11-11T14:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US-Israeli war on Iran released 1.5M tonnes of CO2: Pezeshkian - TRT World",
-    "The EU has agreed on new sanctions against Russia: 50 banks will be subject to the restrictions - UkrMedia News",
-    "An emotional day as town remembers Scotland's war dead - and their lost son - The Herald"
+    "Trump, Hegseth Attend Veterans Day Wreath-Laying Ceremony - U.S. Department of War (.gov)",
+    "Armistice Day and the aftershock of World War One - Southwark News",
+    "Egypt\u2019s Gold War on Sudan\u2019s Border Could Become Israel\u2019s Problem - Middle East Forum"
    ]
   },
   "today": [
