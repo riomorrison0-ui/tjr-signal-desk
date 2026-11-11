@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T15:00:20.341535-05:00",
+ "updated": "2026-11-11T15:05:20.323836-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3988.0,
-   "feed": "real-time gold (PAXG, matched to spot +5.79)",
-   "time": "2026-11-11T14:55:00-05:00"
+   "price": 3985.300049,
+   "feed": "real-time gold (PAXG, matched to spot +4.77)",
+   "time": "2026-11-11T15:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "U.S. representatives will deliver a ceasefire proposal to Putin \u2014 Zelenskyy expects a response in Dublin - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "Watch: Trump says 'we won' Iran war during Veterans Day service - BBC",
-    "A Chinese spy, a chip war and Trump's indifference: How Nvidia became caught in an international scandal - Le Monde.fr"
+    "Trump vows \u2018complete victory\u2019 as he says Iran war is nearing an end - Middle East Online",
+    "Eisenkot says Israel should not return to war for now - www.thenationalnews.com",
+    "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment - The Guardian"
    ]
   },
   "today": [
