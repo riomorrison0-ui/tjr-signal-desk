@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T23:35:20.343002-05:00",
+ "updated": "2026-11-10T23:40:20.231524-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4043.800049,
-   "feed": "real-time gold (PAXG, matched to spot +5.99)",
-   "time": "2026-11-10T23:30:00-05:00"
+   "price": 4042.5,
+   "feed": "real-time gold (PAXG, matched to spot +6.35)",
+   "time": "2026-11-10T23:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 4,
+   "count": 3,
    "examples": [
-    "Rafael Unveils Super Ice Cruise Missile Featuring Larger Warhead - Aviation Week",
-    "Analysis \u2022 After Trump's midterm blowout, Israel remains alone in pushing for war with Iran - Haaretz",
-    "From Verdun to Kyiv, a century of war medicine for repairing disfigured soldiers - Le Monde.fr"
+    "Iran hopes to contain war between Pakistan, Taliban - Amwaj.media",
+    "Rafael unveils new cruise missile with half-ton warhead as demand for advanced weapons grows - CTech",
+    "Rafael Unveils Super Ice Cruise Missile Featuring Larger Warhead - Aviation Week"
    ]
   },
   "today": [
