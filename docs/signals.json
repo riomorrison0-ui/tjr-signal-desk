@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T05:05:20.351234-05:00",
+ "updated": "2026-11-11T05:10:20.362873-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4056.100098,
-   "feed": "real-time gold (PAXG, matched to spot +10.04)",
-   "time": "2026-11-11T05:00:00-05:00"
+   "price": 4054.699951,
+   "feed": "real-time gold (PAXG, matched to spot +9.75)",
+   "time": "2026-11-11T05:05:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Middle East energy shock turns Myanmar\u2019s small oil wells into war prize - T\u00fcrkiye Today",
-    "China vows support for Cuba against sanctions, foreign interference amid US pressure - Anadolu Ajans\u0131",
-    "Can Trump End the Iran War Without Paying a Lasting Economic Price? - Modern Diplomacy"
+    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
+    "Trump says US won Iran war, Iran responds - NPR",
+    "France warns Germany its missile programme \u2018could accidentally provoke nuclear war with Russia\u2019 - The Independent"
    ]
   },
   "today": [
