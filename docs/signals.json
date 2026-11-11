@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T00:05:20.252650-05:00",
+ "updated": "2026-11-11T00:10:20.225611-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4048.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.10)",
-   "time": "2026-11-11T00:00:00-05:00"
+   "price": 4053.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.82)",
+   "time": "2026-11-11T00:05:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Iranian Underground Missile Fortress Complex Unveiled in New Footage - Military Watch Magazine",
-    "The American War Hero Who Refused to Give Up His Own - The Free Press",
-    "Iran hopes to contain war between Pakistan, Taliban - Amwaj.media"
+    "Too Slow: How to Increase European Missile Production - Missile Matters \u2014 with Fabian Hoffmann",
+    "Gulf shoppers cut down on luxuries as war inflation bites - Financial Times",
+    "Ukraine\u2019s ordeals in war \u2014 blistering accounts, stark and timely - Financial Times"
    ]
   },
   "today": [
