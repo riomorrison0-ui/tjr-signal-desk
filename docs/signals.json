@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T05:50:20.364601-05:00",
+ "updated": "2026-11-11T05:55:20.354921-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4052.5,
-   "feed": "real-time gold (PAXG, matched to spot +11.62)",
-   "time": "2026-11-11T05:45:00-05:00"
+   "price": 4050.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.02)",
+   "time": "2026-11-11T05:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Poland passes bill targeting crypto assets under sanctions - Digital Watch Observatory",
-    "Moldova to fully join EU sanctions against Russia and Belarus - Belsat",
-    "European Goods Still Reach Russia Through Sanctions Loopholes, Report Finds - Novinite.com"
+    "Trailblazing Black war heroine Lilian Bader celebrated in Liverpool - The Voice Online",
+    "France presses Germany to clarify how it would use long-range missiles in war with Russia amid fears of nuclear escalation, FT reports - Meduza",
+    "Iran to Determine Geography of Any Future War: Qalibaf - \u062a\u0633\u0646\u06cc\u0645"
    ]
   },
   "today": [
