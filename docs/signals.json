@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T02:14:30.347927-05:00",
+ "updated": "2026-11-11T02:15:39.170954-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4063.199951,
-   "feed": "real-time gold (PAXG, matched to spot +9.83)",
-   "time": "2026-11-11T02:05:00-05:00"
+   "price": 4062.199951,
+   "feed": "real-time gold (PAXG, matched to spot +9.41)",
+   "time": "2026-11-11T02:10:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 7,
    "examples": [
+    "Ukraine's path to EU accession narrows as war drags on - Reuters",
     "COMMENTARY: Trump\u2019s Iran war pause is as costly as new strikes - Reuters",
-    "Houthis Target Sanaa Bakeries to Fund War Effort - ASHARQ AL-AWSAT English",
-    "Conservatives Warn Of A Planned War On Motorists As Havering Forecast A Rise In Parking Fines. - The Havering Daily"
+    "Houthis Target Sanaa Bakeries to Fund War Effort - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
@@ -64,8 +64,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.39,
-  "gbpusd": 1.33467
+  "stop_cap_usd": 53.36,
+  "gbpusd": 1.33404
  },
  "backtest": {
   "portfolio": {
