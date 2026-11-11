@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-10T20:28:27.314479-05:00",
+ "updated": "2026-11-10T20:29:49.168970-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4034.0,
-   "feed": "real-time gold (PAXG, matched to spot +6.04)",
+   "price": 4035.199951,
+   "feed": "real-time gold (PAXG, matched to spot +7.24)",
    "time": "2026-11-10T20:20:00-05:00"
   }
  },
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
     "Tigray displaced families fear renewed war as hopes of returning home fade - Al Jazeera",
-    "New photos 'essential evidence' of possible SAS war crimes, inquiry hears - BBC",
-    "Ukraine war briefing: Zelenskyy says Putin \u2018lives in a different reality\u2019 as Abu Dhabi talks get under way - The Guardian"
+    "Trump administration signals Iran war U-turn, Rubio says no need for more strikes - Malay Mail",
+    "New photos 'essential evidence' of possible SAS war crimes, inquiry hears - BBC"
    ]
   },
   "today": [
@@ -64,8 +64,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.38,
-  "gbpusd": 1.3346
+  "stop_cap_usd": 53.39,
+  "gbpusd": 1.33467
  },
  "backtest": {
   "portfolio": {
