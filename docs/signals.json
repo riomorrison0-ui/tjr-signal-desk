@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T06:55:20.351010-05:00",
+ "updated": "2026-11-11T07:00:20.384630-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4048.199951,
-   "feed": "real-time gold (PAXG, matched to spot +9.92)",
-   "time": "2026-11-11T06:50:00-05:00"
+   "price": 4047.5,
+   "feed": "real-time gold (PAXG, matched to spot +12.06)",
+   "time": "2026-11-11T06:55:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "IRGC teases new missile - Janes Defence Intelligence",
+    "Tavistock marks Armistice Day at war memorial - Tavistock Times Gazette",
     "Persistant fly-tipper in east London slapped with triple-whammy of court sanctions - London Evening Standard",
-    "Here\u2019s the real reason the John Lewis Christmas advert caused a culture war - The Herald"
+    "IRGC teases new missile - Janes Defence Intelligence"
    ]
   },
   "today": [
