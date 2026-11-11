@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T23:50:20.345602-05:00",
+ "updated": "2026-11-10T23:55:20.359107-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4043.300049,
-   "feed": "real-time gold (PAXG, matched to spot +4.60)",
-   "time": "2026-11-10T23:45:00-05:00"
+   "price": 4046.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.79)",
+   "time": "2026-11-10T23:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "elevated",
    "count": 3,
    "examples": [
-    "Iran hopes to contain war between Pakistan, Taliban - Amwaj.media",
-    "Rafael unveils new cruise missile with half-ton warhead as demand for advanced weapons grows - CTech",
-    "Rafael Unveils Super Ice Cruise Missile Featuring Larger Warhead - Aviation Week"
+    "Iranian Underground Missile Fortress Complex Unveiled in New Footage - Military Watch Magazine",
+    "The American War Hero Who Refused to Give Up His Own - The Free Press",
+    "Iran hopes to contain war between Pakistan, Taliban - Amwaj.media"
    ]
   },
   "today": [
