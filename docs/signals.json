@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T22:00:20.338179-05:00",
+ "updated": "2026-11-10T22:05:20.252786-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4043.199951,
-   "feed": "real-time gold (PAXG, matched to spot +5.38)",
-   "time": "2026-11-10T21:55:00-05:00"
+   "price": 4045.699951,
+   "feed": "real-time gold (PAXG, matched to spot +3.28)",
+   "time": "2026-11-10T22:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Movie Review: \u201cJimmy\u201d Stewart survives The World War that Remade Him as an Actor - rogersmovienation.com",
-    "EU Auditors warn uneven enforcement by EU countries undermines Russia trade sanctions - INSIGHT EU MONITORING",
-    "Iran's IRGC unveils 'new' underground \u2018missile city\u2019 amid war tensions - Gulf News"
+    "Movie Review: \u201cJimmy\u201d Stewart survives The World War that Remade Him as an Actor - Movie Nation",
+    "Trump swung between war and diplomacy \u2014 then chose a third way - Axios",
+    "Russia retreats from China's yuan as U.S. sanctions bolster dollar - TradingView"
    ]
   },
   "today": [
