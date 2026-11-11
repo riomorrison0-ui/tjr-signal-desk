@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T01:20:20.286097-05:00",
+ "updated": "2026-11-11T01:25:20.237930-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4058.100098,
-   "feed": "real-time gold (PAXG, matched to spot +8.44)",
-   "time": "2026-11-11T01:15:00-05:00"
+   "price": 4058.399902,
+   "feed": "real-time gold (PAXG, matched to spot +9.21)",
+   "time": "2026-11-11T01:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War memorial plaques returned to Euston station - BBC",
-    "War dead added to Glyn School memorial after teacher research - BBC",
-    "Lincolnshire families asked to share memories of their war dead - BBC"
+    "Veteran researches stories behind Pontefract's 134 war graves - BBC",
+    "Rear-Admiral Patrick Middleton, funny and frank submarine engineer during the Cold War - The Telegraph",
+    "Search for stories behind Wolverhampton war heroes - Yahoo"
    ]
   },
   "today": [
