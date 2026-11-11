@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T19:20:20.335836-05:00",
+ "updated": "2026-11-10T19:25:20.347259-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4042.199951,
-   "feed": "real-time gold (PAXG, matched to spot +6.12)",
-   "time": "2026-11-10T19:15:00-05:00"
+   "price": 4039.5,
+   "feed": "real-time gold (PAXG, matched to spot +5.43)",
+   "time": "2026-11-10T19:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Government must 'move at pace' to be war-ready in 1,000 days, peers warn - London Evening Standard",
-    "Trump swung between war and diplomacy \u2014 then chose a third way - Axios",
-    "Bill Belichick\u2019s ex-girlfriend Jordon Hudson sues Airbnb owners alleging privacy invasion - The New York Times"
+    "US Navy's 200-mile LRASM missile gets advanced radio-frequency sensors - Interesting Engineering",
+    "'Go further and faster' to prepare UK for war in 1,000 days amid Royal Navy threats - Portsmouth News",
+    "Government must 'move at pace' to be war-ready in 1,000 days, peers warn - London Evening Standard"
    ]
   },
   "today": [
