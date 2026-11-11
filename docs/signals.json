@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T19:00:20.360801-05:00",
+ "updated": "2026-11-10T19:05:20.358318-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4039.0,
-   "feed": "real-time gold (PAXG, matched to spot +5.21)",
-   "time": "2026-11-10T18:55:00-05:00"
+   "price": 4040.399902,
+   "feed": "real-time gold (PAXG, matched to spot +5.73)",
+   "time": "2026-11-10T19:00:00-05:00"
   }
  },
  "stats": {
@@ -40,115 +40,19 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Bill Belichick\u2019s ex-girlfriend Jordon Hudson sues Airbnb owners alleging privacy invasion - The New York Times",
-    "How voters divided over the Iran war, transgender athletes, and other issues - YouGov",
-    "You\u2019ll hear the usual cliches about war this Remembrance Day \u2013 why does Australia refuse to learn the true lessons of history? | Paul Daley - The Guardian"
+    "Government must 'move at pace' to be war-ready in 1,000 days, peers warn - London Evening Standard",
+    "Trump swung between war and diplomacy \u2014 then chose a third way - Axios",
+    "Bill Belichick\u2019s ex-girlfriend Jordon Hudson sues Airbnb owners alleging privacy invasion - The New York Times"
    ]
   },
   "today": [
    {
-    "title": "FOMC Member Waller Speaks",
+    "title": "Bank Holiday",
     "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-10T09:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "NFIB Small Business Index",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T11:00:00+00:00",
-    "forecast": "98.0",
-    "previous": "97.9"
-   },
-   {
-    "title": "ADP Weekly Employment Change",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T13:14:00+00:00",
-    "forecast": "",
-    "previous": "16.8K"
-   },
-   {
-    "title": "ADP Weekly Employment Change",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T13:15:00+00:00",
-    "forecast": "",
-    "previous": "19.5K"
-   },
-   {
-    "title": "Core CPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-10T13:30:00+00:00",
-    "forecast": "0.2%",
-    "previous": "0.3%"
-   },
-   {
-    "title": "CPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-10T13:30:00+00:00",
-    "forecast": "0.3%",
-    "previous": "0.6%"
-   },
-   {
-    "title": "FOMC Member Logan Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T15:50:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "10-y Bond Auction",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T18:01:00+00:00",
-    "forecast": "",
-    "previous": "5.30|2.8"
-   },
-   {
-    "title": "FOMC Member Schmid Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T18:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Bowman Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T20:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "API Weekly Statistical Bulletin",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T21:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Bowman Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T23:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Paulson Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-10T23:30:00+00:00",
+    "impact": "Holiday",
+    "time": "2026-11-11T13:00:00+00:00",
     "forecast": "",
     "previous": ""
    }
