@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T13:40:20.261380-05:00",
+ "updated": "2026-11-11T13:45:20.248467-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3992.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.43)",
-   "time": "2026-11-11T13:35:00-05:00"
+   "price": 3991.699951,
+   "feed": "real-time gold (PAXG, matched to spot +5.32)",
+   "time": "2026-11-11T13:40:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "On this day: Armistice agreement to end World War I signed - The Jerusalem Post",
-    "Lawyers submit evidence to The Hague claiming Donald Trump guilty of war crimes - The National Scot",
-    "Trump\u2019s Legacy War: The Limits of American Power in Iran - Open Canada"
+    "US-Israeli war on Iran released 1.5M tonnes of CO2: Pezeshkian - TRT World",
+    "The EU has agreed on new sanctions against Russia: 50 banks will be subject to the restrictions - UkrMedia News",
+    "An emotional day as town remembers Scotland's war dead - and their lost son - The Herald"
    ]
   },
   "today": [
