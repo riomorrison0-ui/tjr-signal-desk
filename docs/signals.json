@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T07:10:20.366327-05:00",
+ "updated": "2026-11-11T07:15:20.355834-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4047.399902,
-   "feed": "real-time gold (PAXG, matched to spot +10.45)",
-   "time": "2026-11-11T07:05:00-05:00"
+   "price": 4046.699951,
+   "feed": "real-time gold (PAXG, matched to spot +9.75)",
+   "time": "2026-11-11T07:10:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Tavistock marks Armistice Day at war memorial - Tavistock Times Gazette",
-    "Persistant fly-tipper in east London slapped with triple-whammy of court sanctions - London Evening Standard",
-    "IRGC teases new missile - Janes Defence Intelligence"
+    "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats - The Decoder",
+    "Russia-Ukraine ceasefire negotiations stall - Semafor",
+    "Ukraine hopes to test a European ballistic missile defense system this winter - Mezha.net"
    ]
   },
   "today": [
