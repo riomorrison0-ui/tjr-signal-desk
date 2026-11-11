@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T01:05:20.248359-05:00",
+ "updated": "2026-11-11T01:10:20.233557-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4056.199951,
-   "feed": "real-time gold (PAXG, matched to spot +7.52)",
-   "time": "2026-11-11T01:00:00-05:00"
+   "price": 4058.600098,
+   "feed": "real-time gold (PAXG, matched to spot +9.43)",
+   "time": "2026-11-11T01:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Cuba\u2019s Foreign Minister Heads to Beijing Amid New U.S. Sanctions - The China-Global South Project",
-    "Vietnam war veteran fights to stop his wife's deportation - NBC 7 San Diego",
-    "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment - AOL.co.uk"
+    "War memorial plaques returned to Euston station - BBC",
+    "War dead added to Glyn School memorial after teacher research - BBC",
+    "Lincolnshire families asked to share memories of their war dead - BBC"
    ]
   },
   "today": [
