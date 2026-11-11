@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T15:50:20.388973-05:00",
+ "updated": "2026-11-11T15:55:20.323742-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3988.899902,
-   "feed": "real-time gold (PAXG, matched to spot +4.42)",
-   "time": "2026-11-11T15:45:00-05:00"
+   "price": 3988.199951,
+   "feed": "real-time gold (PAXG, matched to spot +5.21)",
+   "time": "2026-11-11T15:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "World War II veteran drops puck before Blues game - NHL.com",
-    "Ray Nicholson and Lorraine Nicholson Talk Ball, War, and Dad - Interview Magazine",
-    "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) - U.S. Department of War (.gov)"
+    "\u2018No war, no peace\u2019 US-Iran stalemate needs to end, says Ed Miliband - London Evening Standard",
+    "Oil production nears pre-Iran war levels, OPEC says - Al Jazeera",
+    "Erdogan calls Israel\u2019s war on Gaza an \u2019ecocide\u2019 at UN\u2019s COP31 - The New Arab"
    ]
   },
   "today": [
