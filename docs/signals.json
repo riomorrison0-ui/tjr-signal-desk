@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T10:20:20.233654-05:00",
+ "updated": "2026-11-11T10:25:20.234124-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4016.800049,
-   "feed": "real-time gold (PAXG, matched to spot +8.73)",
-   "time": "2026-11-11T10:15:00-05:00"
+   "price": 4009.300049,
+   "feed": "real-time gold (PAXG, matched to spot +6.98)",
+   "time": "2026-11-11T10:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran warns of domestic gas shortages from war this winter - Arab News",
-    "WWII Sparked Anti-Fascist Ideas Among War Workers. What Lessons Can We Learn? - Truthout",
-    "Canada reimposes sanctions on Iranian state tanker company after 10 years - safety4sea"
+    "Insurance talent war is a relationship problem, leadership expert says - Insurance Business",
+    "Wilfred Owen Survived Shell Shock, Went Back to the Front and Was Killed 7 Days Before World War I Ended - Military.com",
+    "Sheffield pupils pay respects to fallen war heroes on Armistice Day - sheffieldtelegraph.co.uk"
    ]
   },
   "today": [
