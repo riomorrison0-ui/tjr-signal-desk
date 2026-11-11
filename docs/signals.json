@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T19:50:20.356893-05:00",
+ "updated": "2026-11-10T19:55:20.360016-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4035.100098,
-   "feed": "real-time gold (PAXG, matched to spot +7.35)",
-   "time": "2026-11-10T19:45:00-05:00"
+   "price": 4034.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.42)",
+   "time": "2026-11-10T19:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
     "France supermarket hack marks new phase in Iran\u2019s shadow war - The Japan Times",
     "Real Madrid's Vin\u00edcius Jr sends surprise message to boy who lost his legs in Sudan's war - BBC",
-    "US Navy's 200-mile LRASM missile gets advanced radio-frequency sensors - Interesting Engineering"
+    "If the war winds down, the price of oil will plummet, says Jim Cramer - CNBC"
    ]
   },
   "today": [
