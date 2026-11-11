@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T09:15:20.244061-05:00",
+ "updated": "2026-11-11T09:20:20.226369-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4031.199951,
-   "feed": "real-time gold (PAXG, matched to spot +9.64)",
-   "time": "2026-11-11T09:10:00-05:00"
+   "price": 4030.600098,
+   "feed": "real-time gold (PAXG, matched to spot +10.60)",
+   "time": "2026-11-11T09:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
-    "Hundreds gather outside Norwich War Memorial to mark Armistice Day - Norwich Evening News",
-    "Germany says Ukraine war must end before broader security talks with Russia - Arab News PK"
+    "Rubio backs blockade, Vance wants deal: Is Trump\u2019s team split on Iran war? - Al Jazeera",
+    "Iran's IRGC unveils 'new' underground missile city amid war tensions - The Business Standard",
+    "Iran war shadows Turkey\u2019s COP31 summit - Al-Monitor"
    ]
   },
   "today": [
