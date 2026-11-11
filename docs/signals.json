@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T08:30:20.293610-05:00",
+ "updated": "2026-11-11T08:35:20.236465-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4039.399902,
-   "feed": "real-time gold (PAXG, matched to spot +9.61)",
-   "time": "2026-11-11T08:25:00-05:00"
+   "price": 4038.800049,
+   "feed": "real-time gold (PAXG, matched to spot +10.41)",
+   "time": "2026-11-11T08:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Missile city unveiling sparks anger over poverty, lack of shelters - Iran International",
-    "Ukraine to Open FREYJA Missile Defense Office in Denmark as 11 Countries Join Project - UNITED24 Media",
-    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post"
+    "Saudi Arabia leads further jump in OPEC+ oil output despite war - Reuters",
+    "Moving service held at Leamington war memorial for Armistice Day - WarwickshireWorld",
+    "Missile city unveiling sparks anger over poverty, lack of shelters - Iran International"
    ]
   },
   "today": [
