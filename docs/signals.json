@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T10:00:20.252100-05:00",
+ "updated": "2026-11-11T10:05:20.284497-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4017.5,
-   "feed": "real-time gold (PAXG, matched to spot +8.77)",
-   "time": "2026-11-11T09:55:00-05:00"
+   "price": 4014.600098,
+   "feed": "real-time gold (PAXG, matched to spot +6.09)",
+   "time": "2026-11-11T10:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War memorial created on busy Leigh roundabout by veterans - BBC",
-    "Rafael takes wraps off Super Ice cruise missile design - FlightGlobal",
-    "US envoys to meet Putin, Zelensky after war talks in Abu Dhabi - Arab News"
+    "Iran warns of domestic gas shortages from war this winter - Arab News",
+    "WWII Sparked Anti-Fascist Ideas Among War Workers. What Lessons Can We Learn? - Truthout",
+    "Canada reimposes sanctions on Iranian state tanker company after 10 years - safety4sea"
    ]
   },
   "today": [
