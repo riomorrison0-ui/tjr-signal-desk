@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T10:35:20.230312-05:00",
+ "updated": "2026-11-11T10:40:20.225219-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4009.800049,
-   "feed": "real-time gold (PAXG, matched to spot +6.16)",
-   "time": "2026-11-11T10:30:00-05:00"
+   "price": 4009.100098,
+   "feed": "real-time gold (PAXG, matched to spot +5.15)",
+   "time": "2026-11-11T10:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Insurance talent war is a relationship problem, leadership expert says - Insurance Business",
-    "Wilfred Owen Survived Shell Shock, Went Back to the Front and Was Killed 7 Days Before World War I Ended - Military.com",
-    "Sheffield pupils pay respects to fallen war heroes on Armistice Day - sheffieldtelegraph.co.uk"
+    "The war memorial in St Peter's... - Manchester Evening News - Facebook",
+    "Saudi Crude Output Jumps 26% as Riyadh Reports Near Pre-War Production - Crude Oil Prices Today | OilPrice.com",
+    "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment - The Guardian"
    ]
   },
   "today": [
