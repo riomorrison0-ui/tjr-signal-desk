@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T05:35:20.369555-05:00",
+ "updated": "2026-11-11T05:40:20.368741-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4051.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.35)",
-   "time": "2026-11-11T05:30:00-05:00"
+   "price": 4048.199951,
+   "feed": "real-time gold (PAXG, matched to spot +8.99)",
+   "time": "2026-11-11T05:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Abu Dhabi Talks Resume as Russia Rejects Ceasefire and Disagreements Over Territory Persist - commonspace.eu",
-    "Fears missile acquisition might spark Russian nuclear war by accident - The Independent",
-    "Iran war cost Gulf $790 bn losses until 2030: Allianz Trade - The New Arab"
+    "Poland passes bill targeting crypto assets under sanctions - Digital Watch Observatory",
+    "Moldova to fully join EU sanctions against Russia and Belarus - Belsat",
+    "European Goods Still Reach Russia Through Sanctions Loopholes, Report Finds - Novinite.com"
    ]
   },
   "today": [
