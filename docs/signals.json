@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T09:30:20.234759-05:00",
+ "updated": "2026-11-11T09:35:20.229413-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4032.899902,
-   "feed": "real-time gold (PAXG, matched to spot +9.92)",
-   "time": "2026-11-11T09:25:00-05:00"
+   "price": 4023.699951,
+   "feed": "real-time gold (PAXG, matched to spot +9.56)",
+   "time": "2026-11-11T09:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Rubio backs blockade, Vance wants deal: Is Trump\u2019s team split on Iran war? - Al Jazeera",
-    "Iran's IRGC unveils 'new' underground missile city amid war tensions - The Business Standard",
-    "Iran war shadows Turkey\u2019s COP31 summit - Al-Monitor"
+    "A forgotten war, a death railway, a town that remembers - East Anglia Bylines",
+    "First talks about EU envoy on Ukraine war to dominate Dublin summits - EUobserver",
+    "Israeli strikes kill 3 Palestinians in Gaza in new ceasefire violation - Anadolu Ajans\u0131"
    ]
   },
   "today": [
