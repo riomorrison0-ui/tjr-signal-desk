@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T13:25:20.253897-05:00",
+ "updated": "2026-11-11T13:30:20.273152-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3992.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.49)",
-   "time": "2026-11-11T13:20:00-05:00"
+   "price": 3993.800049,
+   "feed": "real-time gold (PAXG, matched to spot +5.30)",
+   "time": "2026-11-11T13:25:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Trump claims US has already won the Iran war, now wants \u2018total victory\u2019 - The Times of Israel",
-    "BBC Surrey. . Six servicemen who died in World War Two have been added to a roll of honour at Glyn School, in Ewell, after history teachers discovered they were former pupils. More here: https://bbc.in/4iIdY6Z - Facebook",
-    "Why does Pete Hegseth call himself secretary of war? \u2018Dopey but dangerous\u2019 wouldn\u2019t fit on a badge | Emma Brockes - The Guardian"
+    "On this day: Armistice agreement to end World War I signed - The Jerusalem Post",
+    "Lawyers submit evidence to The Hague claiming Donald Trump guilty of war crimes - The National Scot",
+    "Trump\u2019s Legacy War: The Limits of American Power in Iran - Open Canada"
    ]
   },
   "today": [
