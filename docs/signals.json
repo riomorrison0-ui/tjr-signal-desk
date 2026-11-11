@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T08:00:20.354318-05:00",
+ "updated": "2026-11-11T08:01:43.919074-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4042.699951,
-   "feed": "real-time gold (PAXG, matched to spot +8.22)",
+   "price": 4043.600098,
+   "feed": "real-time gold (PAXG, matched to spot +9.12)",
    "time": "2026-11-11T07:55:00-05:00"
   }
  },
@@ -44,7 +44,7 @@
    "examples": [
     "Iran\u2019s Covert War in Europe - National Council of Resistance of Iran - NCRI",
     "Jarrell Miller\u2019s next fight announced: \u2018Absolute war\u2019 against Olympic gold medalist - boxingnewsonline.net",
-    "Iran\u2019s IRGC unveils underground \u2018missile city\u2019 - The Times of Israel"
+    "Italy may reduce missile supplies to Ukraine for air defense due to limited stocks - media - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
@@ -64,8 +64,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.36,
-  "gbpusd": 1.33404
+  "stop_cap_usd": 53.25,
+  "gbpusd": 1.33136
  },
  "backtest": {
   "portfolio": {
