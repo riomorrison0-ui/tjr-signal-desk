@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T04:30:20.346314-05:00",
+ "updated": "2026-11-11T04:35:20.474660-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4050.300049,
-   "feed": "real-time gold (PAXG, matched to spot +10.14)",
-   "time": "2026-11-11T04:25:00-05:00"
+   "price": 4049.300049,
+   "feed": "real-time gold (PAXG, matched to spot +10.17)",
+   "time": "2026-11-11T04:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "From Ukraine to the Middle East, the war on compute has already begun - Resilience Media",
-    "Swindon\u2019s First World War story explored in Armistice Day talk - Swindon Advertiser",
-    "Rafael Unveils Super Ice Cruise Missile with 1,000-lb Warhead - Naval News"
+    "China vows support for Cuba against sanctions, foreign interference amid US pressure - Anadolu Ajans\u0131",
+    "Can Trump End the Iran War Without Paying a Lasting Economic Price? - Modern Diplomacy",
+    "From Ukraine to the Middle East, the war on compute has already begun - Resilience Media"
    ]
   },
   "today": [
