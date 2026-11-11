@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T20:05:20.382756-05:00",
+ "updated": "2026-11-10T20:10:20.381858-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4034.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.40)",
-   "time": "2026-11-10T20:00:00-05:00"
+   "price": 4032.300049,
+   "feed": "real-time gold (PAXG, matched to spot +6.77)",
+   "time": "2026-11-10T20:05:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Trilateral talks on the Russia-Ukraine war - Foundation for Defense of Democracies",
     "France supermarket hack marks new phase in Iran\u2019s shadow war - The Japan Times",
-    "Real Madrid's Vin\u00edcius Jr sends surprise message to boy who lost his legs in Sudan's war - BBC",
-    "If the war winds down, the price of oil will plummet, says Jim Cramer - CNBC"
+    "Real Madrid's Vin\u00edcius Jr sends surprise message to boy who lost his legs in Sudan's war - BBC"
    ]
   },
   "today": [
