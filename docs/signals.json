@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T03:45:20.336923-05:00",
+ "updated": "2026-11-11T03:50:20.340458-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4061.899902,
-   "feed": "real-time gold (PAXG, matched to spot +10.88)",
-   "time": "2026-11-11T03:40:00-05:00"
+   "price": 4060.0,
+   "feed": "real-time gold (PAXG, matched to spot +9.97)",
+   "time": "2026-11-11T03:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The English Invasion: How Rangers Bought England\u2019s Best and Rebuilt Ibrox, 1986\u20131991 - Football Bloody Hell",
-    "Russian pundits wary of implications of U.S. Midterm results for war - Peace Research Institute Oslo (PRIO)",
-    "We need sanctions on Israel now \u2013 Jeremy Corbyn - m.aliran.com"
+    "Five Books About World War II for Young Readers - Literary Hub",
+    "Turner & Townsend: Declining construction output will not cut cost escalation - Scottish Construction Now",
+    "The English Invasion: How Rangers Bought England\u2019s Best and Rebuilt Ibrox, 1986\u20131991 - Football Bloody Hell"
    ]
   },
   "today": [
