@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T20:20:20.351500-05:00",
+ "updated": "2026-11-10T20:25:20.375590-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4028.100098,
-   "feed": "real-time gold (PAXG, matched to spot +3.50)",
-   "time": "2026-11-10T20:15:00-05:00"
+   "price": 4033.800049,
+   "feed": "real-time gold (PAXG, matched to spot +5.84)",
+   "time": "2026-11-10T20:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Trilateral talks on the Russia-Ukraine war - Foundation for Defense of Democracies",
-    "France supermarket hack marks new phase in Iran\u2019s shadow war - The Japan Times",
-    "Real Madrid's Vin\u00edcius Jr sends surprise message to boy who lost his legs in Sudan's war - BBC"
+    "Tigray displaced families fear renewed war as hopes of returning home fade - Al Jazeera",
+    "New photos 'essential evidence' of possible SAS war crimes, inquiry hears - BBC",
+    "Ukraine war briefing: Zelenskyy says Putin \u2018lives in a different reality\u2019 as Abu Dhabi talks get under way - The Guardian"
    ]
   },
   "today": [
