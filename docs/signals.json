@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T12:35:20.248895-05:00",
+ "updated": "2026-11-11T12:40:20.269496-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4003.800049,
-   "feed": "real-time gold (PAXG, matched to spot +6.30)",
-   "time": "2026-11-11T12:30:00-05:00"
+   "price": 4003.5,
+   "feed": "real-time gold (PAXG, matched to spot +6.45)",
+   "time": "2026-11-11T12:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Ready for war in 1,000 days? Peers demand faster contracts and stronger UK industry - ADS Advance",
     "Voluntary Sanctions Disclosures in the United States and United Kingdom: Similar Objectives, Differe - Clyde & Co",
-    "Meet the US citizens demanding Donald Trump be charged for Gaza war crimes - The National Scot",
-    "Open war in Spain: Tebas turns to the prime minister to survive the \"Goebbels\" remark - Goal.com"
+    "Meet the US citizens demanding Donald Trump be charged for Gaza war crimes - The National Scot"
    ]
   },
   "today": [
