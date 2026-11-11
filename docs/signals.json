@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T04:50:20.343082-05:00",
+ "updated": "2026-11-11T04:55:20.323808-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 4052.5,
-   "feed": "real-time gold (PAXG, matched to spot +10.31)",
-   "time": "2026-11-11T04:45:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +13.06)",
+   "time": "2026-11-11T04:50:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Middle East energy shock turns Myanmar\u2019s small oil wells into war prize - T\u00fcrkiye Today",
     "China vows support for Cuba against sanctions, foreign interference amid US pressure - Anadolu Ajans\u0131",
-    "Can Trump End the Iran War Without Paying a Lasting Economic Price? - Modern Diplomacy",
-    "From Ukraine to the Middle East, the war on compute has already begun - Resilience Media"
+    "Can Trump End the Iran War Without Paying a Lasting Economic Price? - Modern Diplomacy"
    ]
   },
   "today": [
