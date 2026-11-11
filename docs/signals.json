@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T18:25:20.385900-05:00",
+ "updated": "2026-11-11T18:30:20.392119-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3985.5,
-   "feed": "real-time gold (PAXG, matched to spot +4.83)",
-   "time": "2026-11-11T18:20:00-05:00"
+   "price": 3982.800049,
+   "feed": "real-time gold (PAXG, matched to spot +5.53)",
+   "time": "2026-11-11T18:25:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump defends Iran war in Veterans Day address - The Hindu",
-    "Hormuz oil flows are not regularly above pre-war levels - PolitiFact",
-    "Shafaq News..EU envoys back 145 new Russia sanctions listings - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632"
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
+    "Opinion | Netanyahu wants civil war. If it tears down Israeli democracy, even better - Haaretz",
+    "Hegseth and team reprimanded by Army guard at solemn war memorial - BBC"
    ]
   },
   "today": [
