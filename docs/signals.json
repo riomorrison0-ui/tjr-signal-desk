@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T07:40:20.350992-05:00",
+ "updated": "2026-11-11T07:45:20.354173-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4044.5,
-   "feed": "real-time gold (PAXG, matched to spot +11.48)",
-   "time": "2026-11-11T07:35:00-05:00"
+   "price": 4043.399902,
+   "feed": "real-time gold (PAXG, matched to spot +11.04)",
+   "time": "2026-11-11T07:40:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "As war continues, local people mobilise to salvage southern Lebanon\u2019s history - The Art Newspaper",
-    "Russia and Ukraine agree to large exchange of prisoners of war - East Renfrewshire News",
-    "Russia and Ukraine agree to large exchange of prisoners of war - Hampshire Chronicle"
+    "\u2018Putin is negotiating for his next war\u2019 as Ukraine issues devastating warning over Abu Dhabi talks - London Business News",
+    "Iran reveals new underground \u2019missile city\u2019 in warning to US - The New Arab",
+    "U.S. Sanctions Tajik National Over Alleged Role in Iran\u2019s Efforts to Buy Missiles - The Times Of Central Asia"
    ]
   },
   "today": [
