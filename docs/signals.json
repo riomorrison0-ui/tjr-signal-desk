@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T11:20:20.250071-05:00",
+ "updated": "2026-11-11T11:25:20.245530-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 4008.100098,
-   "feed": "real-time gold (PAXG, matched to spot +7.12)",
-   "time": "2026-11-11T11:15:00-05:00"
+   "price": 4006.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.59)",
+   "time": "2026-11-11T11:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "\u2018In Flanders Fields\u2019: How a patriotic poem became an anti-war anthem - The Washington Post",
-    "Archbishop \u2018shocked\u2019 to hear of vandalism to church war memorial - Warrington Guardian",
-    "\u2018Every poppy made with care and a personal wish to remember\u2019: project keeps the stories of equine war heroes alive - Horse & Hound"
+    "OPEC holds oil demand forecast, flags Saudi output at pre-war level - Quantum Commodity Intelligence",
+    "Poppies to Paddington pays tribute to forgotten heroes of the First World War - Rail Business Daily",
+    "Drones behind two thirds of child casualties in Sudan war - The New Arab"
    ]
   },
   "today": [
