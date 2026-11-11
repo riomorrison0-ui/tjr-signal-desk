@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T12:55:20.256682-05:00",
+ "updated": "2026-11-11T13:00:20.240529-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3999.0,
-   "feed": "real-time gold (PAXG, matched to spot +6.58)",
-   "time": "2026-11-11T12:50:00-05:00"
+   "price": 3994.899902,
+   "feed": "real-time gold (PAXG, matched to spot +6.41)",
+   "time": "2026-11-11T12:55:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ready for war in 1,000 days? Peers demand faster contracts and stronger UK industry - ADS Advance",
-    "Voluntary Sanctions Disclosures in the United States and United Kingdom: Similar Objectives, Differe - Clyde & Co",
-    "Meet the US citizens demanding Donald Trump be charged for Gaza war crimes - The National Scot"
+    "Why does Pete Hegseth call himself secretary of war? \u2018Dopey but dangerous\u2019 wouldn\u2019t fit on a badge | Emma Brockes - The Guardian",
+    "Trump hijacks Veterans Day speech to make case for his Iran war \u2014 and 250-foot arch - The Independent",
+    "Strait of Hormuz will not return to pre-war status, Iran\u2019s Ghalibaf says - The Times of Israel"
    ]
   },
   "today": [
