@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T15:05:20.234533-05:00",
+ "updated": "2026-11-12T15:10:20.273412-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3886.300049,
-   "feed": "real-time gold (PAXG, matched to spot +0.81)",
-   "time": "2026-11-12T15:00:00-05:00"
+   "price": 3885.100098,
+   "feed": "real-time gold (PAXG, matched to spot +0.25)",
+   "time": "2026-11-12T15:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Russia-Ukraine War Report Card, Nov. 12, 2026 - Russia Matters",
-    "Iran threatens US bases in Europe if Washington resumes war: What to know - Al-Monitor",
-    "World War I Revolutionized U.S. Military Medicine - U.S. Department of War (.gov)"
+    "Hayley Atwell and Tom Hiddleston Are Having a 'Merry War' on Broadway in Much Ado About Nothing - Playbill",
+    "PM not \u2018reading too much\u2019 into Ukraine peace talks and urges focus on ceasefire - Somerset County Gazette",
+    "PM not \u2018reading too much\u2019 into Ukraine peace talks and urges focus on ceasefire - Lancashire Telegraph"
    ]
   },
   "today": [
