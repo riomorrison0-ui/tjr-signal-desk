@@ -56,14 +56,25 @@ def twelvedata(key: str, interval: str = "5min", size: int = 1500) -> pd.DataFra
     return df[df.index + pd.Timedelta(minutes=5) <= now]
 
 
-def binance_paxg(interval: str = "5m", limit: int = 1000) -> pd.DataFrame:
-    """Real-time tokenised gold (1 PAXG = 1 oz) from Binance's public market-data API. No key, no delay."""
-    r = requests.get("https://data-api.binance.vision/api/v3/klines",
-                     params=dict(symbol="PAXGUSDT", interval=interval, limit=limit), headers=UA, timeout=15)
-    r.raise_for_status()
-    k = r.json()
-    df = pd.DataFrame([[x[0], float(x[1]), float(x[2]), float(x[3]), float(x[4]), x[6]] for x in k],
-                      columns=["t", "open", "high", "low", "close", "close_t"])
+def binance_paxg(interval: str = "5m", limit: int = 6000) -> pd.DataFrame:
+    """Real-time tokenised gold (1 PAXG = 1 oz) from Binance's public market-data API. No key, no delay.
+    Pages back in 1,000-candle chunks: the strategies need ~200 thirty-minute candles of warm-up (6,000 x 5m = ~3 weeks)."""
+    rows, end = [], None
+    while len(rows) < limit:
+        params = dict(symbol="PAXGUSDT", interval=interval, limit=1000)
+        if end is not None:
+            params["endTime"] = end
+        r = requests.get("https://data-api.binance.vision/api/v3/klines", params=params, headers=UA, timeout=15)
+        r.raise_for_status()
+        k = r.json()
+        if not k:
+            break
+        rows = k + rows
+        end = k[0][0] - 1
+        if len(k) < 1000:
+            break
+    df = pd.DataFrame([[x[0], float(x[1]), float(x[2]), float(x[3]), float(x[4]), x[6]] for x in rows],
+                      columns=["t", "open", "high", "low", "close", "close_t"]).drop_duplicates("t").sort_values("t")
     df.index = pd.DatetimeIndex(pd.to_datetime(df["t"], unit="ms", utc=True)).tz_convert(ET)
     now_ms = pd.Timestamp.now(tz="UTC").value // 10**6
     df = df[df["close_t"] < now_ms]          # closed candles only
@@ -108,7 +119,7 @@ def gold_live() -> tuple[pd.DataFrame, str]:
             errors.append(f"twelvedata: {e}")
     spot = spot_gold()
     try:
-        df = binance_paxg("5m", 1000)
+        df = binance_paxg("5m", 6000)
         fresh = (pd.Timestamp.now(tz=ET) - df.index[-1]) < pd.Timedelta(minutes=15)
         if len(df) > 300 and fresh:
             df, off = _anchor(df, spot)
