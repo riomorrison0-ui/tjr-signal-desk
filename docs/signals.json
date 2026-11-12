@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T04:05:20.217128-05:00",
+ "updated": "2026-11-12T04:10:20.245325-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3932.300049,
-   "feed": "real-time gold (PAXG, matched to spot +3.40)",
-   "time": "2026-11-12T04:00:00-05:00"
+   "price": 3930.899902,
+   "feed": "real-time gold (PAXG, matched to spot +3.04)",
+   "time": "2026-11-12T04:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russia Calls JT Takeover a Countermeasure Against Sanctions - News On Japan",
-    "Trail: World War II: Behind Enemy Lines - Broadcast",
-    "Gaza\u2019s female journalists document a genocidal war they endure - The New Arab"
+    "The EU will approve new sanctions against Russia on November 16 \u2014 French Foreign Ministry - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "EU to approve more sanctions on Russia on Monday, France says - Reuters",
+    "Turkish President Recep Tayyip Erdogan denounced the war in Gaza as \u201cecocide\u201d during the leaders\u2019 summit at the United Nations Climate Change Conference and called for immediate humanitarian access in the area. - Facebook"
    ]
   },
   "today": [
