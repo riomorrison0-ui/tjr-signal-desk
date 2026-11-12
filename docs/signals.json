@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T19:10:20.401971-05:00",
+ "updated": "2026-11-11T19:15:20.420926-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3973.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.70)",
-   "time": "2026-11-11T19:05:00-05:00"
+   "price": 3975.399902,
+   "feed": "real-time gold (PAXG, matched to spot +6.84)",
+   "time": "2026-11-11T19:10:00-05:00"
   }
  },
  "stats": {
@@ -40,19 +40,107 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "European Gas Prices Rebound as Iran War Uncertainty and Winter Cold Risks Mount - Eurasia Business News",
-    "Trump defends Iran war in Veterans Day address - Arab News",
-    "Russia\u2019s redesigned Geran-5 missile expands threat to Ukrainian skies - FDD's Long War Journal"
+    "The war against Michel Houellebecq The French take their freedom for granted - UnHerd",
+    "GCC telcos prove their durability through a year of war - Arabian Gulf Business Insight | AGBI",
+    "Iran Seeks Compensation For War Damages - Al Arabiya English"
    ]
   },
   "today": [
    {
-    "title": "Bank Holiday",
+    "title": "Unemployment Claims",
     "country": "USD",
-    "impact": "Holiday",
-    "time": "2026-11-11T13:00:00+00:00",
+    "impact": "Medium",
+    "time": "2026-11-12T13:30:00+00:00",
+    "forecast": "194K",
+    "previous": "189K"
+   },
+   {
+    "title": "FOMC Member Hammack Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T13:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Existing Home Sales",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T15:00:00+00:00",
+    "forecast": "3.89M",
+    "previous": "3.99M"
+   },
+   {
+    "title": "FOMC Member Barr Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T15:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Mortgage Delinquencies",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T15:00:00+00:00",
+    "forecast": "",
+    "previous": "4.37%"
+   },
+   {
+    "title": "FOMC Member Goolsbee Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T16:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Crude Oil Inventories",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T17:00:00+00:00",
+    "forecast": "-0.6M",
+    "previous": "-0.9M"
+   },
+   {
+    "title": "30-y Bond Auction",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T18:01:00+00:00",
+    "forecast": "",
+    "previous": "5.62|2.5"
+   },
+   {
+    "title": "FOMC Member Daly Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T18:10:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Schmid Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T18:30:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Federal Budget Balance",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T19:00:00+00:00",
+    "forecast": "-298.6B",
+    "previous": "-26.9B"
+   },
+   {
+    "title": "FOMC Member Williams Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T23:30:00+00:00",
     "forecast": "",
     "previous": ""
    }
