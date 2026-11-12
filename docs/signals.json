@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T07:15:20.440095-05:00",
+ "updated": "2026-11-12T07:20:20.403539-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3944.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.48)",
-   "time": "2026-11-12T07:10:00-05:00"
+   "price": 3949.100098,
+   "feed": "real-time gold (PAXG, matched to spot +6.08)",
+   "time": "2026-11-12T07:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Alex Karp, Cold War Liberal - www.compactmag.com",
-    "War Requiem, CBSO, Yamada, Coventry Cathedral review - overwhelmed by two memorials - The Arts Desk",
-    "Old patterns in a new hybrid war - GIS Reports"
+    "Rangers fan jailed for attacking Celtic staff member during pitch invasion - BBC",
+    "Israel strikes Gaza hospital despite ceasefire - Financial Times",
+    "Iran is emerging stronger from war, Iraqi Kurdish leader says - Middle East Eye"
    ]
   },
   "today": [
