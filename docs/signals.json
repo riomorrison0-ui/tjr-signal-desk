@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T10:50:20.450734-05:00",
+ "updated": "2026-11-12T10:55:20.405412-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.199951,
-   "feed": "real-time gold (PAXG, matched to spot +2.92)",
-   "time": "2026-11-12T10:45:00-05:00"
+   "price": 3871.100098,
+   "feed": "real-time gold (PAXG, matched to spot -0.36)",
+   "time": "2026-11-12T10:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Finland Moves to Bar Russian Athletes From Entry Over Ukraine War - The Moscow Times",
-    "US envoys meet Putin in Moscow to discuss Russia-Ukraine war - Al Jazeera",
-    "Dear @ZelenskyyUa, we stand by Ukraine, in times of war and peace. Our support matches our resolve. And both only grow stronger with time. From meeting your urgent needs this winter. To securing the financing you need for 2027. This will be on the table a - X"
+    "EU Court Rejects Russian Billionaire German Khan\u2019s Sanctions Appeal - The Moscow Times",
+    "Aberystwyth study to examine how families help bring prisoners of war home - Nation.Cymru",
+    "\u2018In 14 years, Vietnam cost America 56,000\u2019: Putin\u2019s war machine chewed up by Ukraine - London Business News"
    ]
   },
   "today": [
@@ -84,7 +84,7 @@
     "title": "Mortgage Delinquencies",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-12T15:21:00+00:00",
+    "time": "2026-11-12T16:14:00+00:00",
     "forecast": "",
     "previous": "4.37%"
    },
