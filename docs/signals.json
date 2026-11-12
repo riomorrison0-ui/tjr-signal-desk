@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T02:30:20.240015-05:00",
+ "updated": "2026-11-12T02:35:20.218757-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3960.199951,
-   "feed": "real-time gold (PAXG, matched to spot +4.52)",
-   "time": "2026-11-12T02:25:00-05:00"
+   "price": 3958.5,
+   "feed": "real-time gold (PAXG, matched to spot +5.16)",
+   "time": "2026-11-12T02:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Second teaser for \u2018Lords of War\u2019 with Nicolas Cage, Bill Skarsg\u00e5rd and Laura Harrier - The Hollywood News",
-    "October 2026 \u2014 Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
-    "Russia is already at war with Europe in space - The Times"
+    "Russo-Ukrainian war, day 1722: Russia sends heavier team to Abu Dhabi peace talks, but its negotiators insist on Kremlin\u2019s original war aims - Euromaidan Press",
+    "Doctor among six Palestinians killed in Israeli airstrike on Gaza hospital - The Independent",
+    "Russian Drone Strikes Kyiv Apartment Building After Overnight Missile Barrage - Kyiv Post"
    ]
   },
   "today": [
