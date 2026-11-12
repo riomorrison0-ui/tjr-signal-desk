@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T11:05:20.429777-05:00",
+ "updated": "2026-11-12T11:10:20.459918-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.0,
-   "feed": "real-time gold (PAXG, matched to spot +0.32)",
-   "time": "2026-11-12T11:00:00-05:00"
+   "price": 3874.0,
+   "feed": "real-time gold (PAXG, matched to spot +0.27)",
+   "time": "2026-11-12T11:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "EU Court Rejects Russian Billionaire German Khan\u2019s Sanctions Appeal - The Moscow Times",
-    "Aberystwyth study to examine how families help bring prisoners of war home - Nation.Cymru",
-    "\u2018In 14 years, Vietnam cost America 56,000\u2019: Putin\u2019s war machine chewed up by Ukraine - London Business News"
+    "Impact of CGMs on De-Escalation of Diabetic Therapy - Medscape",
+    "Trump suggests US didn't start Iran war in Veterans Day speech - Indy100",
+    "Aberystwyth study to examine how families help bring prisoners of war home - Nation.Cymru"
    ]
   },
   "today": [
