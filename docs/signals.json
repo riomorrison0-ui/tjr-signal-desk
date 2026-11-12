@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T01:45:20.268512-05:00",
+ "updated": "2026-11-12T01:50:20.234634-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3972.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.70)",
-   "time": "2026-11-12T01:40:00-05:00"
+   "price": 3970.399902,
+   "feed": "real-time gold (PAXG, matched to spot +5.85)",
+   "time": "2026-11-12T01:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "US Cannot Evade Responsibility for War Crimes Against Iran Through Media Hype - WANA News Agency",
-    "\u2018America did not start this\u2019: Trump defends war with Iran - Free Press Kashmir",
-    "Moldova thanks T\u00fcrkiye for efforts to promote peace in Russia-Ukraine war - Anadolu Ajans\u0131"
+    "Pride as Martlesham Heath war memorials are granted listed status - BBC",
+    "US War on Iran, Day 259: Vance Takes Lead Role in Contacts With Tehran - EA WorldView",
+    "India Gulf Oil Imports Surpass Russia for First Time in Iran War - Bloomberg.com"
    ]
   },
   "today": [
