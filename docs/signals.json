@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T11:40:20.249500-05:00",
+ "updated": "2026-11-12T11:45:20.255750-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3867.300049,
-   "feed": "real-time gold (PAXG, matched to spot +0.82)",
-   "time": "2026-11-12T11:35:00-05:00"
+   "price": 3872.399902,
+   "feed": "real-time gold (PAXG, matched to spot +1.07)",
+   "time": "2026-11-12T11:40:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "The Attrition Trap: Russia\u2019s Stalling Offensive and the War Against Ukraine\u2019s Civilians - www.lvivherald.com",
-    "India\u2019s Gulf Oil Imports Surpass Russian Supplies for First Time Since Iran War - Egypt Oil & Gas",
-    "Israeli airstrike on Gaza hospital kills 6 people, Hamas-run health ministry says - ABC News - Breaking News, Latest News and Videos"
+    "Rafael unveils Super Ice cruise missile with 1,000lb warhead - Army Technology",
+    "EU preliminarily agrees sanctions on 50 Russian banks - The New Voice of Ukraine",
+    "Cry \u2018drone,\u2019 and let slip the fruit flies of war - Breaking Defense"
    ]
   },
   "today": [
@@ -81,14 +81,6 @@
     "previous": ""
    },
    {
-    "title": "Mortgage Delinquencies",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-12T16:14:00+00:00",
-    "forecast": "",
-    "previous": "4.37%"
-   },
-   {
     "title": "FOMC Member Goolsbee Speaks",
     "country": "USD",
     "impact": "Low",
@@ -103,6 +95,14 @@
     "time": "2026-11-12T17:00:00+00:00",
     "forecast": "-0.6M",
     "previous": "-0.9M"
+   },
+   {
+    "title": "Mortgage Delinquencies",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-12T17:59:00+00:00",
+    "forecast": "",
+    "previous": "4.37%"
    },
    {
     "title": "30-y Bond Auction",
