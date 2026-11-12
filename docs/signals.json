@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T19:25:20.419198-05:00",
+ "updated": "2026-11-11T19:30:20.409565-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3984.699951,
-   "feed": "real-time gold (PAXG, matched to spot +2.93)",
-   "time": "2026-11-11T19:20:00-05:00"
+   "price": 3982.100098,
+   "feed": "real-time gold (PAXG, matched to spot +3.63)",
+   "time": "2026-11-11T19:25:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The war against Michel Houellebecq The French take their freedom for granted - UnHerd",
-    "GCC telcos prove their durability through a year of war - Arabian Gulf Business Insight | AGBI",
-    "Iran Seeks Compensation For War Damages - Al Arabiya English"
+    "\u2018No safe haven\u2019: Iran warns military bases in Europe could be targeted in new US war - Anadolu Ajans\u0131",
+    "Japan and South Korea Guard Chinese Cleantech as War Fuels Demand - Energy Intelligence",
+    "The war against Michel Houellebecq The French take their freedom for granted - UnHerd"
    ]
   },
   "today": [
