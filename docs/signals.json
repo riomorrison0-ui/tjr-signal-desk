@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T14:15:20.288661-05:00",
+ "updated": "2026-11-12T14:20:20.266879-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3881.899902,
-   "feed": "real-time gold (PAXG, matched to spot +0.12)",
-   "time": "2026-11-12T14:10:00-05:00"
+   "price": 3882.600098,
+   "feed": "real-time gold (PAXG, matched to spot -0.14)",
+   "time": "2026-11-12T14:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "A living room becomes a war zone in 'Virginia Woolf' - The Charlotte Ledger",
-    "Ukraine war latest: Starshield speed restrictions return, Zelensky says - The Kyiv Independent",
-    "How Putin\u2019s \u2018deathonomics\u2019 is keeping Russia\u2019s war economy alive - Channel 4 News | Substack"
+    "World War I Revolutionized U.S. Military Medicine - U.S. Department of War (.gov)",
+    "Secretary of War Pete Hegseth Elevates Special Operations Leadership to Revitalize the Leg - U.S. Department of War (.gov)",
+    "Surgeon and teenage boy among six killed in Israeli airstrike on Gaza's main hospital - LBC"
    ]
   },
   "today": [
