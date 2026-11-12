@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T12:10:20.256788-05:00",
+ "updated": "2026-11-12T12:15:20.293789-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.5,
-   "feed": "real-time gold (PAXG, matched to spot +0.54)",
-   "time": "2026-11-12T12:05:00-05:00"
+   "price": 3875.600098,
+   "feed": "real-time gold (PAXG, matched to spot +1.27)",
+   "time": "2026-11-12T12:10:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Second World War veteran brings history to life at Crawley school\u2019s Remembrance service - SussexWorld",
-    "Pentagon backs war memorial guard who reprimanded Hegseth's group - BBC",
-    "Could Netanyahu launch another Iran war to stay in power? - The New Arab"
+    "UK says it's 1st country to target all of Russia's top 10 oil producers with latest round of sanctions - The Kyiv Independent",
+    "Gulf banks can absorb Iran war losses but Qatar relies on foreign funding - Capital Economics - IntelliNews",
+    "This Beirut family has sold falafel for 100 years, through war and crisis, and has no plan to stop - Arab News"
    ]
   },
   "today": [
