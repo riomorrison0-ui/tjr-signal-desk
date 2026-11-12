@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T23:05:20.387849-05:00",
+ "updated": "2026-11-11T23:10:20.408022-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3983.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.37)",
-   "time": "2026-11-11T23:00:00-05:00"
+   "price": 3979.600098,
+   "feed": "real-time gold (PAXG, matched to spot +5.07)",
+   "time": "2026-11-11T23:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Wildlife trade regulator CITES lifts sanctions against Laos, prompting conservation concerns - news - Mongabay",
-    "How war has connected the world for 500 years - Phys.org",
-    "The UAE proved it can withstand war. What it does next is just as important - The National"
+    "Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
+    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
+    "Wildlife trade regulator CITES lifts sanctions against Laos, prompting conservation concerns - news - Mongabay"
    ]
   },
   "today": [
