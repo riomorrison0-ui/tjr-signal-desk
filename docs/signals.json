@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T04:50:20.245039-05:00",
+ "updated": "2026-11-12T04:55:20.223755-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3943.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.03)",
-   "time": "2026-11-12T04:45:00-05:00"
+   "price": 3944.100098,
+   "feed": "real-time gold (PAXG, matched to spot +5.83)",
+   "time": "2026-11-12T04:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump Blames Anti-Israel Sentiment, Iran War for Republican Midterm Losses - politicstoday.org",
-    "Israeli strike on a Gaza hospital kills 6 people, health authorities say - NPR",
-    "Trump: Iran has been waging war on America since 1979 - JNS.org"
+    "Tottenham braced for Pedro Porro bidding war as Liverpool, Man City and Chelsea circle for record-breaking transfer - Goal.com",
+    "Saudi Arabia leads OPEC+ production recovery toward pre-war levels - Arab News",
+    "Georgian PM Kobakhidze on 'Global War Party': 'It is neither EU nor US, but can influence them' - JAMnews"
    ]
   },
   "today": [
