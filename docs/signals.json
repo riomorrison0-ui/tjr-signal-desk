@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T06:30:20.428918-05:00",
+ "updated": "2026-11-12T06:35:20.419165-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3948.800049,
-   "feed": "real-time gold (PAXG, matched to spot +6.83)",
-   "time": "2026-11-12T06:25:00-05:00"
+   "price": 3949.199951,
+   "feed": "real-time gold (PAXG, matched to spot +8.69)",
+   "time": "2026-11-12T06:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Israeli attacks kill 7 Palestinians in Gaza in violation of ceasefire - Anadolu Ajans\u0131",
-    "War in Ukraine: MEPs demand Russia returns deported Ukrainian children | Aktualno\u015bci | Parlament Europejski - European Parliament",
-    "Campaigners call for Derbyshire councils to waive burial search fees for war casualties - Derbyshire Times"
+    "Israel\u2019s Lieberman warns Netanyahu against war-related decisions without parliamentary oversight - Anadolu Ajans\u0131",
+    "Iran\u2019s Missile Arsenal \u2013 Erosion, Rebuilding, Renewed Erosion, and a Further Attempt to Rebuild - Alma Research and Education Center",
+    "Warhammer: the Horus Heresy brings back proper Rites of War and end-game scoring in surprise update - Wargamer"
    ]
   },
   "today": [
