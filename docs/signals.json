@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T18:45:20.326048-05:00",
+ "updated": "2026-11-12T18:50:20.367261-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.699951,
-   "feed": "real-time gold (PAXG, matched to spot -0.11)",
-   "time": "2026-11-12T18:40:00-05:00"
+   "price": 3882.100098,
+   "feed": "real-time gold (PAXG, matched to spot -0.14)",
+   "time": "2026-11-12T18:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "UN Security Council unanimously agrees moves to halt Houthi drone and missile production - Arab News",
     "CENTCOM calls Israeli media report of possible Iran war resumption \u2018pure speculation\u2019 - Anadolu Ajans\u0131",
-    "Dr Levy on Individualizing Frontline Treatment Escalation in EGFR-Mutant NSCLC - OncLive",
-    "Spy scandal / Hegseth\u2019s future / Are we still at war with Iran? : Sources & Methods - NPR"
+    "Dr Levy on Individualizing Frontline Treatment Escalation in EGFR-Mutant NSCLC - OncLive"
    ]
   },
   "today": [
