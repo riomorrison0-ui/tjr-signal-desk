@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T08:50:20.458769-05:00",
+ "updated": "2026-11-12T08:55:20.448101-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.100098,
-   "feed": "real-time gold (PAXG, matched to spot +4.58)",
-   "time": "2026-11-12T08:45:00-05:00"
+   "price": 3890.399902,
+   "feed": "real-time gold (PAXG, matched to spot +3.20)",
+   "time": "2026-11-12T08:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "News release: War Requiem concert at Coventry Cathedral. - Colin's Column",
-    "War veterans appointed leaders of Kola navy towns - The Barents Observer",
-    "November 11, 2026 \u2013 Armistice Day \u2013 Benjamin Britten\u2019s War Requiem returns to Coventry Cathedral, conducted by Kazuki Yamada. Live on BBC Radio 3. - Colin's Column"
+    "Ukraine set to be focus of EPC summit as UK sanctions Russia's top ten oil producers - GOV.UK",
+    "Israeli strike on Gaza hospital kills six, including doctor, health ministry says - Sky News",
+    "Front Row\u2019s Gianluca Chakra on the impact of the Iran-US war on the Middle East market - Screen Daily"
    ]
   },
   "today": [
