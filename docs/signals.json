@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T21:15:20.414440-05:00",
+ "updated": "2026-11-11T21:20:20.387648-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3987.199951,
-   "feed": "real-time gold (PAXG, matched to spot +4.75)",
-   "time": "2026-11-11T21:10:00-05:00"
+   "price": 3988.100098,
+   "feed": "real-time gold (PAXG, matched to spot +4.27)",
+   "time": "2026-11-11T21:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as US envoys to meet Putin - The Guardian",
-    "Middle East latest: Iran warns of domestic gas shortages from war this winter - thenationalnews.com",
-    "Japan\u2019s military build-up hit by US missile delays and domestic parts shortages - South China Morning Post"
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
+    "Marvel Cosmic Invasion \u201cThe Siege of Castle Doom\u201d DLC review - GamingTrend",
+    "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as US envoys to meet Putin - The Guardian"
    ]
   },
   "today": [
