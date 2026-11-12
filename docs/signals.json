@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T04:35:20.236303-05:00",
+ "updated": "2026-11-12T04:40:20.275728-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3939.699951,
-   "feed": "real-time gold (PAXG, matched to spot +4.47)",
-   "time": "2026-11-12T04:30:00-05:00"
+   "price": 3938.5,
+   "feed": "real-time gold (PAXG, matched to spot +3.11)",
+   "time": "2026-11-12T04:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russia Tried to Rearm Under Cover of a Humanitarian Ceasefire\u2014But Ukraine Hit Two Ammunition Depots, Video - UNITED24 Media",
-    "Ukraine strikes Russian missile corvette in Gulf of Finland - EUalive",
-    "Rafael introduces SUPER ICE cruise missile with a heavy warhead for deep strike missions - Defence Industry Europe"
+    "Trump Blames Anti-Israel Sentiment, Iran War for Republican Midterm Losses - politicstoday.org",
+    "Israeli strike on a Gaza hospital kills 6 people, health authorities say - NPR",
+    "Trump: Iran has been waging war on America since 1979 - JNS.org"
    ]
   },
   "today": [
