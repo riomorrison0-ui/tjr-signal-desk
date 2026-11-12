@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T03:45:20.235274-05:00",
+ "updated": "2026-11-12T03:50:20.251851-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3942.5,
-   "feed": "real-time gold (PAXG, matched to spot +3.41)",
-   "time": "2026-11-12T03:40:00-05:00"
+   "price": 3939.5,
+   "feed": "real-time gold (PAXG, matched to spot +3.99)",
+   "time": "2026-11-12T03:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Unhappy with war-driven cost of living, US voters give Democrats historic victory - The Arab Weekly",
-    "Inside Iran\u2019s New Missile City: A Message Beyond the Missiles - WANA News Agency",
-    "RAFAEL unveils SUPER ICE long-range cruise missile - NavalToday"
+    "Russia Calls JT Takeover a Countermeasure Against Sanctions - News On Japan",
+    "Trail: World War II: Behind Enemy Lines - Broadcast",
+    "Gaza\u2019s female journalists document a genocidal war they endure - The New Arab"
    ]
   },
   "today": [
