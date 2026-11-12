@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T00:10:20.263930-05:00",
+ "updated": "2026-11-12T00:15:20.227564-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3978.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-12T00:05:00-05:00"
+   "price": 3975.0,
+   "feed": "real-time gold (PAXG, matched to spot +4.87)",
+   "time": "2026-11-12T00:10:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Kyiv\u2019s ceasefire proposal rejected \u2013 Zelensky makes statement - TodayPress.tv",
-    "\u2018I'm 28, but I look 40\u2019: How war has changed the faces of Gaza - The National",
-    "Hundreds of days at war, now a warning: Israeli reservists tell politicians, 'Don't betray us' - Ynetnews"
+    "How CIA used Ukraine as a platform for covert war against Russia - Responsible Statecraft",
+    "Iran doubles down on nuclear demands as war costs soar - Mission Network News",
+    "Why Syria Chose to Enter the Yemen War instead of Fighting Israel - Palestine Chronicle"
    ]
   },
   "today": [
