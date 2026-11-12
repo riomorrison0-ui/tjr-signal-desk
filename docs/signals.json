@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T15:35:20.259338-05:00",
+ "updated": "2026-11-12T15:40:20.253053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3882.600098,
-   "feed": "real-time gold (PAXG, matched to spot -0.63)",
-   "time": "2026-11-12T15:30:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +0.65)",
+   "time": "2026-11-12T15:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Hayley Atwell and Tom Hiddleston Are Having a 'Merry War' on Broadway in Much Ado About Nothing - Playbill",
-    "PM not \u2018reading too much\u2019 into Ukraine peace talks and urges focus on ceasefire - Somerset County Gazette",
-    "PM not \u2018reading too much\u2019 into Ukraine peace talks and urges focus on ceasefire - Lancashire Telegraph"
+    "Baghaei Warns Countries Against Joining US Military or Sanctions Actions Against Iran - WANA News Agency",
+    "One in Ten Knesset Members Has Lost a Family Member to War or Terrorism - Middle East Forum",
+    "Nvidia\u2019s new driver prepares RTX PCs for Dawn of War IV and Where Winds Meet\u2019s DLSS 5 update - MIXED News"
    ]
   },
   "today": [
