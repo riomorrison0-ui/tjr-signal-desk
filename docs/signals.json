@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T16:05:20.239241-05:00",
+ "updated": "2026-11-12T16:10:20.240642-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.300049,
-   "feed": "real-time gold (PAXG, matched to spot +0.45)",
-   "time": "2026-11-12T16:00:00-05:00"
+   "price": 3874.199951,
+   "feed": "real-time gold (PAXG, matched to spot +0.34)",
+   "time": "2026-11-12T16:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Army Officer Accused of Trying to Spy for Russia Is Afghan War Veteran - The New York Times",
     "Yemen\u2019s Houthis hold mass funeral after deadly Saudi airstrike - CNN",
-    "How Iran war oil spills are threatening Gulf marine life, tourism and coastal communities - Arab News",
-    "Baghaei Warns Countries Against Joining US Military or Sanctions Actions Against Iran - WANA News Agency"
+    "How Iran war oil spills are threatening Gulf marine life, tourism and coastal communities - Arab News"
    ]
   },
   "today": [
