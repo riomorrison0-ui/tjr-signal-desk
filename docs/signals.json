@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T07:30:20.422398-05:00",
+ "updated": "2026-11-12T07:35:20.456721-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3942.0,
-   "feed": "real-time gold (PAXG, matched to spot +6.57)",
-   "time": "2026-11-12T07:25:00-05:00"
+   "price": 3938.600098,
+   "feed": "real-time gold (PAXG, matched to spot +5.91)",
+   "time": "2026-11-12T07:30:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Rangers fan jailed for attacking Celtic staff member during pitch invasion - BBC",
-    "Israel strikes Gaza hospital despite ceasefire - Financial Times",
-    "Iran is emerging stronger from war, Iraqi Kurdish leader says - Middle East Eye"
+    "Ukraine War Turns Black Sea Into World\u2019s Deadliest Shipping Lane \u2013 WSJ - The Moscow Times",
+    "Brazilian Shakhtar midfielder opens up on life in Ukraine amid war, CBF - Forza Football",
+    "The press conference that lays bare Australian cricket\u2019s civil war - The Telegraph"
    ]
   },
   "today": [
