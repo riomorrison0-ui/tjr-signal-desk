@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T12:45:20.267030-05:00",
+ "updated": "2026-11-12T12:50:20.258876-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3874.899902,
-   "feed": "real-time gold (PAXG, matched to spot +0.71)",
-   "time": "2026-11-12T12:40:00-05:00"
+   "price": 3876.100098,
+   "feed": "real-time gold (PAXG, matched to spot +0.45)",
+   "time": "2026-11-12T12:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Finland bars Russian athletes from entering country over Ukraine war - The Guardian",
-    "US senators demand end to Iran war funding in bill averting shutdown - News From The States",
-    "Russia: Lev Shlosberg\u2019s outrageous 11-year prison sentence for anti-war views upheld - Amnesty International"
+    "Mapping the toll of war on farmland: Q&A with He Yin - The University of Utah",
+    "Doctor among six Palestinians killed in Israeli airstrike on Gaza hospital - AOL.co.uk",
+    "Cry \u2018drone,\u2019 and let slip the fruit flies of war - Breaking Defense"
    ]
   },
   "today": [
