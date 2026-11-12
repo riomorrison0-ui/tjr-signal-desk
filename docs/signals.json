@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T02:15:20.227987-05:00",
+ "updated": "2026-11-12T02:20:20.247175-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3961.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.06)",
-   "time": "2026-11-12T02:10:00-05:00"
+   "price": 3966.699951,
+   "feed": "real-time gold (PAXG, matched to spot +6.45)",
+   "time": "2026-11-12T02:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Second teaser for \u2018Lords of War\u2019 with Nicolas Cage, Bill Skarsg\u00e5rd and Laura Harrier - The Hollywood News",
     "October 2026 \u2014 Monthly analysis of Russian fossil fuel exports and sanctions - Centre for Research on Energy and Clean Air",
-    "Daughter completes dad's last wish to honour tragic death of war hero - sheffieldtelegraph.co.uk",
-    "Pride as war memorials are granted listed status - Yahoo"
+    "Russia is already at war with Europe in space - The Times"
    ]
   },
   "today": [
