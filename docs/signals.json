@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T11:25:20.251562-05:00",
+ "updated": "2026-11-12T11:30:20.292699-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.699951,
-   "feed": "real-time gold (PAXG, matched to spot +0.21)",
-   "time": "2026-11-12T11:20:00-05:00"
+   "price": 3875.600098,
+   "feed": "real-time gold (PAXG, matched to spot +0.26)",
+   "time": "2026-11-12T11:25:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Impact of CGMs on De-Escalation of Diabetic Therapy - Medscape",
-    "Trump suggests US didn't start Iran war in Veterans Day speech - Indy100",
-    "Aberystwyth study to examine how families help bring prisoners of war home - Nation.Cymru"
+    "The Attrition Trap: Russia\u2019s Stalling Offensive and the War Against Ukraine\u2019s Civilians - www.lvivherald.com",
+    "India\u2019s Gulf Oil Imports Surpass Russian Supplies for First Time Since Iran War - Egypt Oil & Gas",
+    "Israeli airstrike on Gaza hospital kills 6 people, Hamas-run health ministry says - ABC News - Breaking News, Latest News and Videos"
    ]
   },
   "today": [
