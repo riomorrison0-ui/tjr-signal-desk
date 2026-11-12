@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T09:05:20.458452-05:00",
+ "updated": "2026-11-12T09:10:20.517723-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3891.600098,
-   "feed": "real-time gold (PAXG, matched to spot +1.85)",
-   "time": "2026-11-12T09:00:00-05:00"
+   "price": 3889.0,
+   "feed": "real-time gold (PAXG, matched to spot +5.00)",
+   "time": "2026-11-12T09:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ukraine set to be focus of EPC summit as UK sanctions Russia's top ten oil producers - GOV.UK",
-    "Israeli strike on Gaza hospital kills six, including doctor, health ministry says - Sky News",
-    "Front Row\u2019s Gianluca Chakra on the impact of the Iran-US war on the Middle East market - Screen Daily"
+    "Burnham unveils \u2018stinging\u2019 sanctions on Russia at major European summit - Somerset County Gazette",
+    "Euston war memorial plaques return in time for Armistice Day - Railway Supply",
+    "UK sanctions Russia's Slavneft in latest move against oil producers - Reuters"
    ]
   },
   "today": [
