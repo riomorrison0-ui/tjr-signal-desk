@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T02:45:20.228736-05:00",
+ "updated": "2026-11-12T02:50:20.229300-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3957.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.03)",
-   "time": "2026-11-12T02:40:00-05:00"
+   "price": 3960.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.33)",
+   "time": "2026-11-12T02:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russo-Ukrainian war, day 1722: Russia sends heavier team to Abu Dhabi peace talks, but its negotiators insist on Kremlin\u2019s original war aims - Euromaidan Press",
-    "Doctor among six Palestinians killed in Israeli airstrike on Gaza hospital - The Independent",
-    "Russian Drone Strikes Kyiv Apartment Building After Overnight Missile Barrage - Kyiv Post"
+    "'Sanctions Work: Degrading Russia\u2019s War Machine' conference today / Article - LSM",
+    "Saudi Arabia Leads OPEC+ Production Recovery Toward Pre-War Levels - ASHARQ AL-AWSAT English",
+    "Secrets of Iran\u2019s Missile City Not Unveiled Yet: Senior Commander - \u062a\u0633\u0646\u06cc\u0645"
    ]
   },
   "today": [
