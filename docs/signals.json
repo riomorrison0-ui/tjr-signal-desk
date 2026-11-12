@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T06:45:20.407439-05:00",
+ "updated": "2026-11-12T06:50:20.422707-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3946.399902,
-   "feed": "real-time gold (PAXG, matched to spot +8.20)",
-   "time": "2026-11-12T06:40:00-05:00"
+   "price": 3949.100098,
+   "feed": "real-time gold (PAXG, matched to spot +8.31)",
+   "time": "2026-11-12T06:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Israel\u2019s Lieberman warns Netanyahu against war-related decisions without parliamentary oversight - Anadolu Ajans\u0131",
-    "Iran\u2019s Missile Arsenal \u2013 Erosion, Rebuilding, Renewed Erosion, and a Further Attempt to Rebuild - Alma Research and Education Center",
-    "Warhammer: the Horus Heresy brings back proper Rites of War and end-game scoring in surprise update - Wargamer"
+    "Israel Kills Doctor and Patients Awaiting Surgery in Gaza Hospital Airstrike - Novara Media",
+    "EU preparing 22nd Russia sanctions package, Ukraine funding plan - Anadolu Ajans\u0131",
+    "Israel\u2019s Lieberman warns Netanyahu against war-related decisions without parliamentary oversight - Anadolu Ajans\u0131"
    ]
   },
   "today": [
