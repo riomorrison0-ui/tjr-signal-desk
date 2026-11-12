@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T01:30:20.251276-05:00",
+ "updated": "2026-11-12T01:35:20.226448-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3978.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.97)",
-   "time": "2026-11-12T01:25:00-05:00"
+   "price": 3974.5,
+   "feed": "real-time gold (PAXG, matched to spot +6.34)",
+   "time": "2026-11-12T01:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ukraine War, Day 1,722: Zelensky \u2014 \u201cWindow of Opportunity\u201d as Trump Envoys Visit Putin - EA WorldView",
-    "When Nazi bombs fell on Leicester: a story of childhood in a city at war - Leicester Gazette",
-    "IDF, Shin Bet confirm airstrike on Hamas cell operating out of Gaza hospital - The Jerusalem Post"
+    "US Cannot Evade Responsibility for War Crimes Against Iran Through Media Hype - WANA News Agency",
+    "\u2018America did not start this\u2019: Trump defends war with Iran - Free Press Kashmir",
+    "Moldova thanks T\u00fcrkiye for efforts to promote peace in Russia-Ukraine war - Anadolu Ajans\u0131"
    ]
   },
   "today": [
