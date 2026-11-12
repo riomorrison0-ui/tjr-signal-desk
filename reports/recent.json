@@ -1,0 +1,87 @@
+{
+ "calls": [
+  {
+   "time": "Mon 09 Nov 07:00",
+   "side": "BUY",
+   "entry": 4098.97,
+   "stop": 4068.87,
+   "lots": 0.01,
+   "legs": [
+    "TP2:loss(early)"
+   ],
+   "pnl_gbp": -8.04
+  },
+  {
+   "time": "Mon 09 Nov 15:30",
+   "side": "BUY",
+   "entry": 4105.89,
+   "stop": 4085.77,
+   "lots": 0.02,
+   "legs": [
+    "TP1:win",
+    "TP3:loss(early)"
+   ],
+   "pnl_gbp": 2.74
+  },
+  {
+   "time": "Tue 10 Nov 07:30",
+   "side": "BUY",
+   "entry": 4106.76,
+   "stop": 4083.35,
+   "lots": 0.02,
+   "legs": [
+    "TP1:loss",
+    "TP3:loss"
+   ],
+   "pnl_gbp": -35.65
+  },
+  {
+   "time": "Tue 10 Nov 13:00",
+   "side": "SELL",
+   "entry": 4071.09,
+   "stop": 4091.74,
+   "lots": 0.02,
+   "legs": [
+    "TP1:win",
+    "TP3:win"
+   ],
+   "pnl_gbp": 30.59
+  },
+  {
+   "time": "Tue 10 Nov 19:00",
+   "side": "SELL",
+   "entry": 4022.74,
+   "stop": 4055.59,
+   "lots": 0.01,
+   "legs": [
+    "TP2:loss(early)"
+   ],
+   "pnl_gbp": -2.26
+  },
+  {
+   "time": "Wed 11 Nov 07:30",
+   "side": "SELL",
+   "entry": 4054.69,
+   "stop": 4074.73,
+   "lots": 0.02,
+   "legs": [
+    "TP1:win(early)",
+    "TP3:win(early)"
+   ],
+   "pnl_gbp": 7.55
+  },
+  {
+   "time": "Thu 12 Nov 11:00",
+   "side": "SELL",
+   "entry": 3948.79,
+   "stop": 3975.0,
+   "lots": 0.02,
+   "legs": [
+    "TP1:win(early)",
+    "TP3:win(early)"
+   ],
+   "pnl_gbp": 11.46
+  }
+ ],
+ "end_balance": 2006.4
+}
