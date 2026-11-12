@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T03:30:20.244080-05:00",
+ "updated": "2026-11-12T03:35:20.288683-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3947.199951,
-   "feed": "real-time gold (PAXG, matched to spot +3.22)",
-   "time": "2026-11-12T03:25:00-05:00"
+   "price": 3953.899902,
+   "feed": "real-time gold (PAXG, matched to spot +5.62)",
+   "time": "2026-11-12T03:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UK defence minister drives STARK's missile-armed Vanta 12 uncrewed boat in Oslo - Dealroom",
-    "EGA\u2019s nine-month profit and revenue fall as Iran war disrupts aluminium sales - www.thenationalnews.com",
-    "Iran Threatens to Expand War in Response to \u201cStrangulation Plans\u201d - www.jordannews.jo"
+    "Unhappy with war-driven cost of living, US voters give Democrats historic victory - The Arab Weekly",
+    "Inside Iran\u2019s New Missile City: A Message Beyond the Missiles - WANA News Agency",
+    "RAFAEL unveils SUPER ICE long-range cruise missile - NavalToday"
    ]
   },
   "today": [
