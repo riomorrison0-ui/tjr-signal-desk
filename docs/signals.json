@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T05:20:20.239569-05:00",
+ "updated": "2026-11-12T05:25:20.266401-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3949.899902,
-   "feed": "real-time gold (PAXG, matched to spot +5.16)",
-   "time": "2026-11-12T05:15:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +5.36)",
+   "time": "2026-11-12T05:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Tottenham braced for Pedro Porro bidding war as Liverpool, Man City and Chelsea circle for record-breaking transfer - Goal.com",
-    "Saudi Arabia leads OPEC+ production recovery toward pre-war levels - Arab News",
-    "Israeli strike on Gaza hospital kills six Palestinians, health ministry says - BBC"
+    "Europe Seeks to Mobilise Private Investment in Ukraine Before the War Ends - EU Today",
+    "shownews - SM-6, an increasingly versatile missile - FW-MAG Future Warfare Magazine",
+    "Charlie Wilson\u2019s War - Mark Pack"
    ]
   },
   "today": [
