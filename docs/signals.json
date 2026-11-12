@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T10:35:20.459742-05:00",
+ "updated": "2026-11-12T10:40:20.454615-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3865.199951,
-   "feed": "real-time gold (PAXG, matched to spot +0.19)",
-   "time": "2026-11-12T10:30:00-05:00"
+   "price": 3863.899902,
+   "feed": "real-time gold (PAXG, matched to spot -1.43)",
+   "time": "2026-11-12T10:35:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Dear @ZelenskyyUa, we stand by Ukraine, in times of war and peace. Our support matches our resolve. And both only grow stronger with time. From meeting your urgent needs this winter. To securing the financing you need for 2027. This will be on the table a - X",
-    "Ireland says EU has sent 'clear message' on European security amid Ukraine war - Anadolu Ajans\u0131",
-    "Israel bombs Gaza hospital for first time since ceasefire - The Telegraph"
+    "Finland Moves to Bar Russian Athletes From Entry Over Ukraine War - The Moscow Times",
+    "US envoys meet Putin in Moscow to discuss Russia-Ukraine war - Al Jazeera",
+    "Dear @ZelenskyyUa, we stand by Ukraine, in times of war and peace. Our support matches our resolve. And both only grow stronger with time. From meeting your urgent needs this winter. To securing the financing you need for 2027. This will be on the table a - X"
    ]
   },
   "today": [
