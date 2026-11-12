@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:30:20.377216-05:00",
+ "updated": "2026-11-11T20:35:20.405057-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3989.79,
-   "feed": "real-time gold (PAXG, matched to spot +0.00)",
-   "time": "2026-11-11T20:25:00-05:00"
+   "price": 3993.0,
+   "feed": "real-time gold (PAXG, matched to spot +4.58)",
+   "time": "2026-11-11T20:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "WTI declines as US, Iran avoids further escalation, rising OPEC+ output - FXStreet",
     "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
-    "Ranking Stevie Van Zandt\u2019s 10 favourite songs from the British invasion - Far Out Magazine"
+    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times"
    ]
   },
   "today": [
