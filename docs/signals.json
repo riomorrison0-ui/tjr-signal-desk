@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T17:25:20.389978-05:00",
+ "updated": "2026-11-12T17:30:20.364742-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3878.399902,
-   "feed": "real-time gold (PAXG, matched to spot -0.79)",
-   "time": "2026-11-12T17:20:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.64)",
+   "time": "2026-11-12T17:25:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 3,
+   "count": 4,
    "examples": [
-    "ExxonMobil sanctions eighth Guyana FPSO in Stabroek - Upstream Online",
-    "Star Trek\u2019s Cold War Thriller Officially Sets New Release 35 Years Later - IMDb",
-    "Across Africa: Tunisians drawn into Russia's war with Ukraine - France 24"
+    "Israeli strike on Gaza\u2019s Nasser Hospital kills at least six people, officials say - NBC News",
+    "Recalling a Gaza surgeon killed by an Israeli airstrike - The World from PRX",
+    "Zelenskyy welcomes \u2018real result\u2019 after Russia agrees biggest prisoner exchange of war - Sky News"
    ]
   },
   "today": [
