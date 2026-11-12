@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T15:50:20.253721-05:00",
+ "updated": "2026-11-12T15:55:20.289408-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3881.0,
-   "feed": "real-time gold (PAXG, matched to spot +0.24)",
-   "time": "2026-11-12T15:45:00-05:00"
+   "price": 3877.300049,
+   "feed": "real-time gold (PAXG, matched to spot +0.34)",
+   "time": "2026-11-12T15:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Baghaei Warns Countries Against Joining US Military or Sanctions Actions Against Iran - WANA News Agency",
-    "One in Ten Knesset Members Has Lost a Family Member to War or Terrorism - Middle East Forum",
-    "Nvidia\u2019s new driver prepares RTX PCs for Dawn of War IV and Where Winds Meet\u2019s DLSS 5 update - MIXED News"
+    "Yemen\u2019s Houthis hold mass funeral after deadly Saudi airstrike - CNN",
+    "How Iran war oil spills are threatening Gulf marine life, tourism and coastal communities - Arab News",
+    "Baghaei Warns Countries Against Joining US Military or Sanctions Actions Against Iran - WANA News Agency"
    ]
   },
   "today": [
