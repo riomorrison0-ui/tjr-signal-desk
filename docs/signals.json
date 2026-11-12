@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T21:30:20.428865-05:00",
+ "updated": "2026-11-11T21:35:20.390941-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3988.600098,
-   "feed": "real-time gold (PAXG, matched to spot +6.34)",
-   "time": "2026-11-11T21:25:00-05:00"
+   "price": 3984.600098,
+   "feed": "real-time gold (PAXG, matched to spot +7.63)",
+   "time": "2026-11-11T21:30:00-05:00"
   }
  },
  "stats": {
@@ -43,8 +43,8 @@
    "count": 6,
    "examples": [
     "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Marvel Cosmic Invasion \u201cThe Siege of Castle Doom\u201d DLC review - GamingTrend",
-    "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as US envoys to meet Putin - The Guardian"
+    "Businessmen narrowly miss deadly drone strike on Ukraine aid mission - Dorset Echo",
+    "Eisenkot says Israel should not return to war for now - The National"
    ]
   },
   "today": [
