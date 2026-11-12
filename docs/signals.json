@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T10:05:20.441582-05:00",
+ "updated": "2026-11-12T10:10:20.439011-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.800049,
-   "feed": "real-time gold (PAXG, matched to spot -1.20)",
-   "time": "2026-11-12T10:00:00-05:00"
+   "price": 3862.800049,
+   "feed": "real-time gold (PAXG, matched to spot +2.98)",
+   "time": "2026-11-12T10:05:00-05:00"
   }
  },
  "stats": {
@@ -40,10 +40,10 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Israeli city sues Iran over 2025 missile strikes that killed civilians - The Jewish Chronicle",
     "EMERGENCY ACTION: Protest for Palestine - Stop the War",
-    "Europe\u2019s youth take to the streets as the post\u2011war promise of a better life breaks down - EUobserver",
     "China accuses G7 of 'Cold War thinking' over Taiwan statement - Anadolu Ajans\u0131"
    ]
   },
