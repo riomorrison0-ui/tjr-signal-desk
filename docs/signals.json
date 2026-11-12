@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T23:20:20.387493-05:00",
+ "updated": "2026-11-11T23:25:20.427839-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3981.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.50)",
-   "time": "2026-11-11T23:15:00-05:00"
+   "price": 3980.800049,
+   "feed": "real-time gold (PAXG, matched to spot +5.42)",
+   "time": "2026-11-11T23:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
-    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
-    "Wildlife trade regulator CITES lifts sanctions against Laos, prompting conservation concerns - news - Mongabay"
+    "Hundreds of days at war, now a warning: Israeli reservists tell politicians, 'Don't betray us' - Ynetnews",
+    "Iran Unveils Underground \u2018Missile City\u2019 as Military Chief Warns of Retaliation Beyond Middle East - The SOFX Report",
+    "\u2018I'm 28, but I look 40\u2019: How war has changed the faces of Gaza - www.thenationalnews.com"
    ]
   },
   "today": [
