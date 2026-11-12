@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T07:00:20.394234-05:00",
+ "updated": "2026-11-12T07:05:20.432292-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3945.199951,
-   "feed": "real-time gold (PAXG, matched to spot +7.50)",
-   "time": "2026-11-12T06:55:00-05:00"
+   "price": 3949.100098,
+   "feed": "real-time gold (PAXG, matched to spot +8.23)",
+   "time": "2026-11-12T07:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Israel Kills Doctor and Patients Awaiting Surgery in Gaza Hospital Airstrike - Novara Media",
-    "EU preparing 22nd Russia sanctions package, Ukraine funding plan - Anadolu Ajans\u0131",
-    "Israel\u2019s Lieberman warns Netanyahu against war-related decisions without parliamentary oversight - Anadolu Ajans\u0131"
+    "Alex Karp, Cold War Liberal - www.compactmag.com",
+    "War Requiem, CBSO, Yamada, Coventry Cathedral review - overwhelmed by two memorials - The Arts Desk",
+    "Old patterns in a new hybrid war - GIS Reports"
    ]
   },
   "today": [
