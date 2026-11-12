@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:45:20.404569-05:00",
+ "updated": "2026-11-11T20:50:20.396806-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3990.100098,
-   "feed": "real-time gold (PAXG, matched to spot +5.07)",
-   "time": "2026-11-11T20:40:00-05:00"
+   "price": 3983.699951,
+   "feed": "real-time gold (PAXG, matched to spot +6.25)",
+   "time": "2026-11-11T20:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "Japan\u2019s military build-up hit by US missile delays and domestic parts shortages - South China Morning Post",
     "WTI declines as US, Iran avoids further escalation, rising OPEC+ output - FXStreet",
-    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times"
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
    ]
   },
   "today": [
