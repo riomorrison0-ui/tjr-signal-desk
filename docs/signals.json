@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T09:50:20.399273-05:00",
+ "updated": "2026-11-12T09:55:20.419747-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3886.5,
-   "feed": "real-time gold (PAXG, matched to spot +2.47)",
-   "time": "2026-11-12T09:45:00-05:00"
+   "price": 3882.800049,
+   "feed": "real-time gold (PAXG, matched to spot +1.25)",
+   "time": "2026-11-12T09:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russian missile ship damaged in suspected Ukrainian drone attack in Gulf of Finland - \u0633\u0627\u0646\u0627",
-    "Ukraine\u2019s Path to EU Accession Narrows as War Drags On - tol.org",
-    "\u2018No war, no peace\u2019: Can Iran break the deadlock with the US? - Al Jazeera"
+    "EMERGENCY ACTION: Protest for Palestine - Stop the War",
+    "Europe\u2019s youth take to the streets as the post\u2011war promise of a better life breaks down - EUobserver",
+    "China accuses G7 of 'Cold War thinking' over Taiwan statement - Anadolu Ajans\u0131"
    ]
   },
   "today": [
@@ -84,7 +84,7 @@
     "title": "Mortgage Delinquencies",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-12T15:00:00+00:00",
+    "time": "2026-11-12T15:21:00+00:00",
     "forecast": "",
     "previous": "4.37%"
    },
