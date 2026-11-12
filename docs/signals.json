@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:00:20.430404-05:00",
+ "updated": "2026-11-11T20:05:20.414464-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3995.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.76)",
-   "time": "2026-11-11T19:55:00-05:00"
+   "price": 3993.5,
+   "feed": "real-time gold (PAXG, matched to spot +1.06)",
+   "time": "2026-11-11T20:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018No safe haven\u2019: Iran warns military bases in Europe could be targeted in new US war - Anadolu Ajans\u0131",
-    "Japan and South Korea Guard Chinese Cleantech as War Fuels Demand - Energy Intelligence",
-    "The war against Michel Houellebecq The French take their freedom for granted - UnHerd"
+    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
+    "Israeli airstrike kills 6 Palestinians at Nasser Hospital in southern Gaza - Anadolu Ajans\u0131"
    ]
   },
   "today": [
