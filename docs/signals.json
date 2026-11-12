@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T22:20:20.393879-05:00",
+ "updated": "2026-11-11T22:25:20.394635-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3980.199951,
-   "feed": "real-time gold (PAXG, matched to spot +4.53)",
-   "time": "2026-11-11T22:15:00-05:00"
+   "price": 3979.100098,
+   "feed": "real-time gold (PAXG, matched to spot +4.30)",
+   "time": "2026-11-11T22:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "The UAE proved it can withstand war. What it does next is just as important - The National",
     "How the fog of war puts journalism in the frame - The Conversation",
-    "Funeral held for airstrike victims in Sanaa, Yemen - Xinhua",
-    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
+    "Funeral held for airstrike victims in Sanaa, Yemen - Xinhua"
    ]
   },
   "today": [
