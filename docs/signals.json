@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T17:40:20.349311-05:00",
+ "updated": "2026-11-12T17:45:20.380423-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3878.399902,
-   "feed": "real-time gold (PAXG, matched to spot -0.92)",
-   "time": "2026-11-12T17:35:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -1.44)",
+   "time": "2026-11-12T17:40:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Israeli strike on Gaza\u2019s Nasser Hospital kills at least six people, officials say - NBC News",
-    "Recalling a Gaza surgeon killed by an Israeli airstrike - The World from PRX",
-    "Zelenskyy welcomes \u2018real result\u2019 after Russia agrees biggest prisoner exchange of war - Sky News"
+    "Russian authorities seek to expand military training for children, hiring war veterans as instructors - https://theins.press/en",
+    "Contracts for Nov. 12, 2026 - U.S. Department of War (.gov)",
+    "War Department Expands Childcare Assistance - U.S. Department of War (.gov)"
    ]
   },
   "today": [
