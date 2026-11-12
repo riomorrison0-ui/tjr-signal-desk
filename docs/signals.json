@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:15:20.414028-05:00",
+ "updated": "2026-11-11T20:20:20.396630-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3997.699951,
-   "feed": "real-time gold (PAXG, matched to spot +3.54)",
-   "time": "2026-11-11T20:10:00-05:00"
+   "price": 3999.399902,
+   "feed": "real-time gold (PAXG, matched to spot +3.92)",
+   "time": "2026-11-11T20:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
     "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Israeli airstrike kills 6 Palestinians at Nasser Hospital in southern Gaza - Anadolu Ajans\u0131"
+    "Trump\u2019s fossil fuel drive comes as war prompts energy security worries - Financial Times",
+    "Ranking Stevie Van Zandt\u2019s 10 favourite songs from the British invasion - Far Out Magazine"
    ]
   },
   "today": [
