@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T03:15:20.234512-05:00",
+ "updated": "2026-11-12T03:20:20.242986-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3958.699951,
-   "feed": "real-time gold (PAXG, matched to spot +4.82)",
-   "time": "2026-11-12T03:10:00-05:00"
+   "price": 3957.300049,
+   "feed": "real-time gold (PAXG, matched to spot +4.13)",
+   "time": "2026-11-12T03:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "BAE Systems delivers sensor for American long-range anti-ship missile - Defensehere",
-    "Qatar Loses First LNG Customer Since War Disrupted Flows - Energy Connects",
-    "GDP up 0.7%: Britain defies hit from Trump Iran war to grow economy, says Burnham - London Evening Standard"
+    "UK defence minister drives STARK's missile-armed Vanta 12 uncrewed boat in Oslo - Dealroom",
+    "EGA\u2019s nine-month profit and revenue fall as Iran war disrupts aluminium sales - www.thenationalnews.com",
+    "Iran Threatens to Expand War in Response to \u201cStrangulation Plans\u201d - www.jordannews.jo"
    ]
   },
   "today": [
