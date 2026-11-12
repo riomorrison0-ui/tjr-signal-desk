@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T08:15:20.418733-05:00",
+ "updated": "2026-11-12T08:20:20.466721-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3930.600098,
-   "feed": "real-time gold (PAXG, matched to spot +10.60)",
-   "time": "2026-11-12T08:10:00-05:00"
+   "price": 3929.399902,
+   "feed": "real-time gold (PAXG, matched to spot +6.92)",
+   "time": "2026-11-12T08:15:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Latest Salvo in VK v. Apple Sanctions-Related Litigation - Transnational Litigation Blog",
-    "Pete Hegseth: Trump\u2019s \u2018war\u2019 guy who just keeps getting it wrong - The Independent",
-    "Iran will strike US bases in Europe in any war, warns Rezaei - The New Arab"
+    "November 11, 2026 \u2013 Armistice Day \u2013 Benjamin Britten\u2019s War Requiem returns to Coventry Cathedral, conducted by Kazuki Yamada. Live on BBC Radio 3. - Colin's Column",
+    "Houthis deny targeting Mecca amid Saudi missile interceptions - The New Arab",
+    "Latest Salvo in VK v. Apple Sanctions-Related Litigation - Transnational Litigation Blog"
    ]
   },
   "today": [
