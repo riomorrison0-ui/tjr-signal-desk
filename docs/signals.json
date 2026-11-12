@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:57:26.906923-05:00",
+ "updated": "2026-11-12T16:58:46.516866-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "ExxonMobil sanctions eighth Guyana FPSO in Stabroek - Upstream Online",
     "Star Trek\u2019s Cold War Thriller Officially Sets New Release 35 Years Later - IMDb",
-    "Across Africa: Tunisians drawn into Russia's war with Ukraine - France 24",
-    "Army Officer Accused of Trying to Spy for Russia Is Afghan War Veteran - The New York Times"
+    "Across Africa: Tunisians drawn into Russia's war with Ukraine - France 24"
    ]
   },
   "today": [
@@ -144,8 +144,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.93,
-  "gbpusd": 1.32333
+  "stop_cap_usd": 52.95,
+  "gbpusd": 1.32366
  },
  "backtest": {
   "portfolio": {
