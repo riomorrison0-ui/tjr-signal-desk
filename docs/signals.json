@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T08:00:20.468753-05:00",
+ "updated": "2026-11-12T08:05:20.403864-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3937.100098,
-   "feed": "real-time gold (PAXG, matched to spot +2.61)",
-   "time": "2026-11-12T07:55:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +4.41)",
+   "time": "2026-11-12T08:00:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "The new cold war: why our fridges are frontline targets in a cyberattack - London Evening Standard",
-    "War Requiem review \u2013 in the cathedral where it premiered, Britten\u2019s masterpiece has lost none of its power - The Guardian",
-    "Erdogan calls for immediate end to US war on Iran in talks with Pezeshkian - TRT World"
+    "Latest Salvo in VK v. Apple Sanctions-Related Litigation - Transnational Litigation Blog",
+    "Pete Hegseth: Trump\u2019s \u2018war\u2019 guy who just keeps getting it wrong - The Independent",
+    "Iran will strike US bases in Europe in any war, warns Rezaei - The New Arab"
    ]
   },
   "today": [
