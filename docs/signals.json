@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T05:40:20.431050-05:00",
+ "updated": "2026-11-12T05:45:20.407515-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3951.899902,
-   "feed": "real-time gold (PAXG, matched to spot +5.10)",
-   "time": "2026-11-12T05:35:00-05:00"
+   "price": 3953.600098,
+   "feed": "real-time gold (PAXG, matched to spot +5.71)",
+   "time": "2026-11-12T05:40:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "HM 2026: imperialism, AI and war - Counterfire",
-    "Latest news on the war in Ukraine. Zelensky: the Starshield system has limitations once again. Russian ballistic missile attack on Kyiv - Il Sole 24 ORE",
-    "Europe Seeks to Mobilise Private Investment in Ukraine Before the War Ends - EU Today"
+    "Ukraine Hits One of Russia\u2019s Newest Kalibr Missile Ships on Active Duty in Baltic Sea for the First Time - UNITED24 Media",
+    "The War in the North Legacy Edition Review \u2013 Brilliant! - Invision Game Community",
+    "\u2018It\u2019ll Be A War\u2019 \u2013 Ubaid Hussain Offers Bold Predictions For Rodtang Vs. Nong-O And Shimon Vs. Ondash - ONE Championship"
    ]
   },
   "today": [
