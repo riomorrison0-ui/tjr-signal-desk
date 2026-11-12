@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T00:55:20.227677-05:00",
+ "updated": "2026-11-12T01:00:20.234222-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3981.399902,
-   "feed": "real-time gold (PAXG, matched to spot +5.09)",
-   "time": "2026-11-12T00:50:00-05:00"
+   "price": 3980.100098,
+   "feed": "real-time gold (PAXG, matched to spot +5.87)",
+   "time": "2026-11-12T00:55:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Five killed and 20 injured in Israeli airstrike on Gaza hospital - The Copenhagen Post",
-    "How CIA used Ukraine as a platform for covert war against Russia - Responsible Statecraft",
-    "Ireland faces pressure to stop sending Russia an ingredient vital to its war on Ukraine - The Independent"
+    "What war leaves behind: Ceremonies in Niagara-on-the-Lake honour those who fought - Niagara Now",
+    "The US midterm results could have real consequences for the war in Iran. Could it end soon? - DW.com",
+    "Oil Rises on Mixed Signals Over Iran War Outlook - Energy Connects"
    ]
   },
   "today": [
