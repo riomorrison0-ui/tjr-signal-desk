@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T06:15:20.425027-05:00",
+ "updated": "2026-11-12T06:20:20.408044-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3950.600098,
-   "feed": "real-time gold (PAXG, matched to spot +5.68)",
-   "time": "2026-11-12T06:10:00-05:00"
+   "price": 3949.5,
+   "feed": "real-time gold (PAXG, matched to spot +6.73)",
+   "time": "2026-11-12T06:15:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israel's war on Lebanon threatens climate goals, minister says - The National",
-    "JD Vance considers direct diplomacy with Iran to end war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "Pelagos profits halve as marine war losses hit third-quarter underwriting - Intelligent Insurer"
+    "Israeli attacks kill 7 Palestinians in Gaza in violation of ceasefire - Anadolu Ajans\u0131",
+    "War in Ukraine: MEPs demand Russia returns deported Ukrainian children | Aktualno\u015bci | Parlament Europejski - European Parliament",
+    "Campaigners call for Derbyshire councils to waive burial search fees for war casualties - Derbyshire Times"
    ]
   },
   "today": [
