@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T22:05:20.457884-05:00",
+ "updated": "2026-11-11T22:10:20.407570-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3982.399902,
-   "feed": "real-time gold (PAXG, matched to spot +4.50)",
-   "time": "2026-11-11T22:00:00-05:00"
+   "price": 3984.0,
+   "feed": "real-time gold (PAXG, matched to spot +5.45)",
+   "time": "2026-11-11T22:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Deception World War Two - THIRTEEN - New York Public Media",
-    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Businessmen narrowly miss deadly drone strike on Ukraine aid mission - Dorset Echo"
+    "How the fog of war puts journalism in the frame - The Conversation",
+    "Funeral held for airstrike victims in Sanaa, Yemen - Xinhua",
+    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
    ]
   },
   "today": [
