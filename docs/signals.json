@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T17:10:20.331810-05:00",
+ "updated": "2026-11-12T17:15:20.314416-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3878.399902,
-   "feed": "real-time gold (PAXG, matched to spot -0.42)",
-   "time": "2026-11-12T17:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +0.22)",
+   "time": "2026-11-12T17:10:00-05:00"
   }
  },
  "stats": {
@@ -40,7 +40,7 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 4,
+   "count": 3,
    "examples": [
     "ExxonMobil sanctions eighth Guyana FPSO in Stabroek - Upstream Online",
     "Star Trek\u2019s Cold War Thriller Officially Sets New Release 35 Years Later - IMDb",
