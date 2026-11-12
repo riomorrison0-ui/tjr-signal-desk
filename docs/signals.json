@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T09:35:20.460985-05:00",
+ "updated": "2026-11-12T09:40:20.408808-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3899.699951,
-   "feed": "real-time gold (PAXG, matched to spot +3.21)",
-   "time": "2026-11-12T09:30:00-05:00"
+   "price": 3897.0,
+   "feed": "real-time gold (PAXG, matched to spot +1.46)",
+   "time": "2026-11-12T09:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Could the US Survive a War With China? - Literary Hub",
-    "Burnham unveils \u2018stinging\u2019 sanctions on Russia at major European summit - London Evening Standard",
-    "Iran war restart wouldn\u2019t require US to drain tight supply of top-tier missiles, analysts say - www.stripes.com"
+    "Russian missile ship damaged in suspected Ukrainian drone attack in Gulf of Finland - \u0633\u0627\u0646\u0627",
+    "Ukraine\u2019s Path to EU Accession Narrows as War Drags On - tol.org",
+    "\u2018No war, no peace\u2019: Can Iran break the deadlock with the US? - Al Jazeera"
    ]
   },
   "today": [
