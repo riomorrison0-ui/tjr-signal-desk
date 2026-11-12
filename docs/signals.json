@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T00:25:20.235741-05:00",
+ "updated": "2026-11-12T00:30:20.230186-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3972.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.93)",
-   "time": "2026-11-12T00:20:00-05:00"
+   "price": 3971.699951,
+   "feed": "real-time gold (PAXG, matched to spot +5.09)",
+   "time": "2026-11-12T00:25:00-05:00"
   }
  },
  "stats": {
@@ -42,8 +42,8 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How CIA used Ukraine as a platform for covert war against Russia - Responsible Statecraft",
-    "Iran doubles down on nuclear demands as war costs soar - Mission Network News",
+    "Five killed and 20 injured in Israeli airstrike on Gaza hospital - The Copenhagen Post",
+    "Stay or leave? Ukrainians face a hard choice ahead of what could be the war\u2019s toughest winter - The Independent",
     "Why Syria Chose to Enter the Yemen War instead of Fighting Israel - Palestine Chronicle"
    ]
   },
