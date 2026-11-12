@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T01:10:20.220915-05:00",
+ "updated": "2026-11-12T01:15:20.254483-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3979.699951,
-   "feed": "real-time gold (PAXG, matched to spot +6.27)",
-   "time": "2026-11-12T01:05:00-05:00"
+   "price": 3980.399902,
+   "feed": "real-time gold (PAXG, matched to spot +5.45)",
+   "time": "2026-11-12T01:10:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "What war leaves behind: Ceremonies in Niagara-on-the-Lake honour those who fought - Niagara Now",
-    "The US midterm results could have real consequences for the war in Iran. Could it end soon? - DW.com",
-    "Oil Rises on Mixed Signals Over Iran War Outlook - Energy Connects"
+    "Ukraine War, Day 1,722: Zelensky \u2014 \u201cWindow of Opportunity\u201d as Trump Envoys Visit Putin - EA WorldView",
+    "When Nazi bombs fell on Leicester: a story of childhood in a city at war - Leicester Gazette",
+    "IDF, Shin Bet confirm airstrike on Hamas cell operating out of Gaza hospital - The Jerusalem Post"
    ]
   },
   "today": [
