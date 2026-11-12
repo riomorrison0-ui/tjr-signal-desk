@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-12T05:28:27.728292-05:00",
+ "updated": "2026-11-12T05:29:53.306117-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3949.899902,
-   "feed": "real-time gold (PAXG, matched to spot +5.36)",
+   "price": 3948.899902,
+   "feed": "real-time gold (PAXG, matched to spot +4.36)",
    "time": "2026-11-12T05:20:00-05:00"
   }
  },
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Europe Seeks to Mobilise Private Investment in Ukraine Before the War Ends - EU Today",
-    "shownews - SM-6, an increasingly versatile missile - FW-MAG Future Warfare Magazine",
-    "Charlie Wilson\u2019s War - Mark Pack"
+    "HM 2026: imperialism, AI and war - Counterfire",
+    "Latest news on the war in Ukraine. Zelensky: the Starshield system has limitations once again. Russian ballistic missile attack on Kyiv - Il Sole 24 ORE",
+    "Europe Seeks to Mobilise Private Investment in Ukraine Before the War Ends - EU Today"
    ]
   },
   "today": [
@@ -152,8 +152,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 53.04,
-  "gbpusd": 1.3261
+  "stop_cap_usd": 53.11,
+  "gbpusd": 1.32779
  },
  "backtest": {
   "portfolio": {
