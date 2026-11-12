@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T18:55:20.392721-05:00",
+ "updated": "2026-11-11T19:00:20.452032-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3983.199951,
-   "feed": "real-time gold (PAXG, matched to spot +6.75)",
-   "time": "2026-11-11T18:50:00-05:00"
+   "price": 3981.300049,
+   "feed": "real-time gold (PAXG, matched to spot +6.40)",
+   "time": "2026-11-11T18:55:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Russia\u2019s redesigned Geran-5 missile expands threat to Ukrainian skies - FDD's Long War Journal",
-    "Israeli airstrike kills 4 at Nasser Hospital in southern Gaza - Anadolu Ajans\u0131",
-    "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post"
+    "European Gas Prices Rebound as Iran War Uncertainty and Winter Cold Risks Mount - Eurasia Business News",
+    "Trump defends Iran war in Veterans Day address - Arab News",
+    "Russia\u2019s redesigned Geran-5 missile expands threat to Ukrainian skies - FDD's Long War Journal"
    ]
   },
   "today": [
