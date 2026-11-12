@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T13:00:20.248162-05:00",
+ "updated": "2026-11-12T13:05:20.305923-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.399902,
-   "feed": "real-time gold (PAXG, matched to spot +0.89)",
-   "time": "2026-11-12T12:55:00-05:00"
+   "price": 3878.600098,
+   "feed": "real-time gold (PAXG, matched to spot +1.02)",
+   "time": "2026-11-12T13:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Mapping the toll of war on farmland: Q&A with He Yin - The University of Utah",
-    "Doctor among six Palestinians killed in Israeli airstrike on Gaza hospital - AOL.co.uk",
-    "Cry \u2018drone,\u2019 and let slip the fruit flies of war - Breaking Defense"
+    "UN 'deeply alarmed' by Israeli airstrike on Nasser Hospital in Gaza - Anadolu Ajans\u0131",
+    "UK sanctions nine vessels in latest barrage - Lloyd's List",
+    "US Department of War awards DroneSec contract for counter-UAS threat intelligence - Unmanned airspace"
    ]
   },
   "today": [
