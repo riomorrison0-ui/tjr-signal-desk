@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T10:20:20.456316-05:00",
+ "updated": "2026-11-12T10:25:20.461908-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3860.5,
-   "feed": "real-time gold (PAXG, matched to spot -0.63)",
-   "time": "2026-11-12T10:15:00-05:00"
+   "price": 3854.300049,
+   "feed": "real-time gold (PAXG, matched to spot -0.87)",
+   "time": "2026-11-12T10:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Israeli city sues Iran over 2025 missile strikes that killed civilians - The Jewish Chronicle",
-    "EMERGENCY ACTION: Protest for Palestine - Stop the War",
-    "China accuses G7 of 'Cold War thinking' over Taiwan statement - Anadolu Ajans\u0131"
+    "Dear @ZelenskyyUa, we stand by Ukraine, in times of war and peace. Our support matches our resolve. And both only grow stronger with time. From meeting your urgent needs this winter. To securing the financing you need for 2027. This will be on the table a - X",
+    "Ireland says EU has sent 'clear message' on European security amid Ukraine war - Anadolu Ajans\u0131",
+    "Israel bombs Gaza hospital for first time since ceasefire - The Telegraph"
    ]
   },
   "today": [
