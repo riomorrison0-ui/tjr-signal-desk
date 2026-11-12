@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T14:00:20.297577-05:00",
+ "updated": "2026-11-12T14:05:20.263496-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3883.800049,
-   "feed": "real-time gold (PAXG, matched to spot +0.96)",
-   "time": "2026-11-12T13:55:00-05:00"
+   "price": 3878.399902,
+   "feed": "real-time gold (PAXG, matched to spot +1.84)",
+   "time": "2026-11-12T14:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US Senate Democrats vow to block funding for Trump's Iran war in year-end spending deal - Anadolu Ajans\u0131",
-    "Cold War on the Cob: When a Soviet Agricultural Delegation Visited the U.S. in 1955 - History is Now",
-    "Liberman warns Netanyahu against 'dragging Israel into war' as Eisenkot gets security briefing - The Jerusalem Post"
+    "A living room becomes a war zone in 'Virginia Woolf' - The Charlotte Ledger",
+    "Ukraine war latest: Starshield speed restrictions return, Zelensky says - The Kyiv Independent",
+    "How Putin\u2019s \u2018deathonomics\u2019 is keeping Russia\u2019s war economy alive - Channel 4 News | Substack"
    ]
   },
   "today": [
