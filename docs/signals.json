@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T09:20:20.448318-05:00",
+ "updated": "2026-11-12T09:25:20.430328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3906.300049,
-   "feed": "real-time gold (PAXG, matched to spot +3.40)",
-   "time": "2026-11-12T09:15:00-05:00"
+   "price": 3903.199951,
+   "feed": "real-time gold (PAXG, matched to spot +0.82)",
+   "time": "2026-11-12T09:20:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Burnham unveils \u2018stinging\u2019 sanctions on Russia at major European summit - Somerset County Gazette",
-    "Euston war memorial plaques return in time for Armistice Day - Railway Supply",
-    "UK sanctions Russia's Slavneft in latest move against oil producers - Reuters"
+    "Could the US Survive a War With China? - Literary Hub",
+    "Burnham unveils \u2018stinging\u2019 sanctions on Russia at major European summit - London Evening Standard",
+    "Iran war restart wouldn\u2019t require US to drain tight supply of top-tier missiles, analysts say - www.stripes.com"
    ]
   },
   "today": [
