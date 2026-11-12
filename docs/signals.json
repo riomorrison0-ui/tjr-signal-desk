@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T05:55:20.423657-05:00",
+ "updated": "2026-11-12T06:00:20.427485-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3955.300049,
-   "feed": "real-time gold (PAXG, matched to spot +5.41)",
-   "time": "2026-11-12T05:50:00-05:00"
+   "price": 3954.699951,
+   "feed": "real-time gold (PAXG, matched to spot +5.91)",
+   "time": "2026-11-12T05:55:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Ukraine Hits One of Russia\u2019s Newest Kalibr Missile Ships on Active Duty in Baltic Sea for the First Time - UNITED24 Media",
-    "The War in the North Legacy Edition Review \u2013 Brilliant! - Invision Game Community",
-    "\u2018It\u2019ll Be A War\u2019 \u2013 Ubaid Hussain Offers Bold Predictions For Rodtang Vs. Nong-O And Shimon Vs. Ondash - ONE Championship"
+    "Israel's war on Lebanon threatens climate goals, minister says - The National",
+    "JD Vance considers direct diplomacy with Iran to end war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "Pelagos profits halve as marine war losses hit third-quarter underwriting - Intelligent Insurer"
    ]
   },
   "today": [
