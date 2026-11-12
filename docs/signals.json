@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T18:15:20.322650-05:00",
+ "updated": "2026-11-12T18:20:20.339285-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3877.800049,
-   "feed": "real-time gold (PAXG, matched to spot +2.19)",
-   "time": "2026-11-12T18:10:00-05:00"
+   "price": 3877.899902,
+   "feed": "real-time gold (PAXG, matched to spot +2.13)",
+   "time": "2026-11-12T18:15:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Campaigning Against the Iran War Is Easier Than Ending It - The Atlantic",
-    "Zelenskyy welcomes 'real result' after Russia agrees biggest prisoner exchange of war - Sky News",
-    "Russian authorities seek to expand military training for children, hiring war veterans as instructors - https://theins.press/en"
+    "Spy scandal / Hegseth\u2019s future / Are we still at war with Iran? : Sources & Methods - NPR",
+    "Why Trump\u2019s Iran war just got a lot more costly - Center for International Policy",
+    "Europe \u2018will have a voice\u2019 in negotiations to end war, says Zelensky - The Times"
    ]
   },
   "today": [
