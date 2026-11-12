@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T21:50:20.390058-05:00",
+ "updated": "2026-11-11T21:55:20.405810-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3979.600098,
-   "feed": "real-time gold (PAXG, matched to spot +4.23)",
-   "time": "2026-11-11T21:45:00-05:00"
+   "price": 3983.199951,
+   "feed": "real-time gold (PAXG, matched to spot +7.42)",
+   "time": "2026-11-11T21:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Deception World War Two - THIRTEEN - New York Public Media",
     "Trump defends his war policies in speech at Arlington National Cemetery - The Washington Post",
-    "Businessmen narrowly miss deadly drone strike on Ukraine aid mission - Dorset Echo",
-    "Eisenkot says Israel should not return to war for now - The National"
+    "Businessmen narrowly miss deadly drone strike on Ukraine aid mission - Dorset Echo"
    ]
   },
   "today": [
