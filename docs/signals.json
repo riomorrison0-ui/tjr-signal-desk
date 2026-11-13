@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T09:50:20.351340-05:00",
+ "updated": "2026-11-13T09:55:20.325732-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3902.600098,
-   "feed": "real-time gold (PAXG, matched to spot +14.23)",
-   "time": "2026-11-13T09:45:00-05:00"
+   "price": 3898.850098,
+   "feed": "real-time gold (PAXG, matched to spot +12.69)",
+   "time": "2026-11-13T09:50:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine Has Already Struck 12 Russian Ballistic Missile Launchers, Defense Minister Reveals - UNITED24 Media",
-    "Can Netanyahu launch a strike on Iran before he leaves? - Al Jazeera",
-    "Man City to avoid imminent sanctions hearing with appeal to conclude first - talkSPORT"
+    "Remembrance Day at Trinity School: War memorial rededicated - www.trinity-school.org",
+    "GRC at UN Headquarters: \u201cNorth Korea\u2019s Use of Overseas Labour to Violate and Evade UN Sanctions\u201d - Global Rights Compliance",
+    "UK blacklists Slavneft and says it now sanctions all ten of Russia\u2019s top oil producers - Euromaidan Press"
    ]
   },
   "today": [
