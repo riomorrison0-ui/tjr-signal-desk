@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T20:35:20.333887-05:00",
+ "updated": "2026-11-12T20:40:20.298736-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3910.600098,
-   "feed": "real-time gold (PAXG, matched to spot +2.17)",
-   "time": "2026-11-12T20:30:00-05:00"
+   "price": 3911.800049,
+   "feed": "real-time gold (PAXG, matched to spot +2.58)",
+   "time": "2026-11-12T20:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Accountability for Japanese war crimes sought - China Daily Global Edition",
     "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
-    "Kushner says US working toward \u2018largest prisoner exchange\u2019 of Russia\u2019s war in Ukraine - Arab News",
-    "\u2018War will resume immediately\u2019: Putin threatens Europe as Trump envoys push Ukraine talks - Ynetnews"
+    "Kushner says US working toward \u2018largest prisoner exchange\u2019 of Russia\u2019s war in Ukraine - Arab News"
    ]
   },
   "today": [
