@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T08:20:20.348797-05:00",
+ "updated": "2026-11-13T08:25:20.336241-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3885.949951,
-   "feed": "real-time gold (PAXG, matched to spot +14.51)",
-   "time": "2026-11-13T08:15:00-05:00"
+   "price": 3887.350098,
+   "feed": "real-time gold (PAXG, matched to spot +13.54)",
+   "time": "2026-11-13T08:20:00-05:00"
   }
  },
  "stats": {
@@ -49,9 +49,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Dismay as Leigh veterans' handmade war memorial stolen - BBC",
     "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (Exclusive) - IMDb",
-    "ASEAN leaders to discuss new energy security measures as US-Iran war drags on - Arab News",
-    "Nokia Federal Solutions awarded Department of War RAPID contract to advance multi-domain threat awareness - Nokia"
+    "Why the Army is preparing for a possible war in Europe thousands of miles away in Kenya - Forces News"
    ]
   },
   "today": [
