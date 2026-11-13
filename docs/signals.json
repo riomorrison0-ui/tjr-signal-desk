@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T11:45:20.470325-05:00",
+ "updated": "2026-11-13T11:50:20.476415-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3887.870117,
-   "feed": "real-time gold (PAXG, matched to spot +9.65)",
-   "time": "2026-11-13T11:40:00-05:00"
+   "price": 3887.969971,
+   "feed": "real-time gold (PAXG, matched to spot +14.47)",
+   "time": "2026-11-13T11:45:00-05:00"
   }
  },
  "stats": {
@@ -28,11 +28,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Here's Why Russia Keeps Outplaying the U.S. and Europe in Ukraine War Peace Talks - The Moscow Times",
-    "US Treasury warns against rate hikes during US-Iran war energy \u2018shock\u2019 - Al Jazeera",
-    "Banks Cool on Manchester City Player Finance as Sanctions Loom - Bloomberg.com"
+    "France plans tougher sanctions, arrests over high school blockades: Report - Anadolu Ajans\u0131",
+    "Ceasefire before peace agreement, says EU\u2019s Kallas - TVP World",
+    "US Treasury warns against rate hikes during US-Iran war energy \u2018shock\u2019 - Al Jazeera"
    ]
   },
   "today": [
