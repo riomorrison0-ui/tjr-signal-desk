@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T10:45:20.439390-05:00",
+ "updated": "2026-11-13T10:50:20.437670-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3880.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.09)",
-   "time": "2026-11-13T10:40:00-05:00"
+   "price": 3883.75,
+   "feed": "real-time gold (PAXG, matched to spot +11.72)",
+   "time": "2026-11-13T10:45:00-05:00"
   }
  },
  "stats": {
@@ -28,11 +28,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
-    "Date for the Manchester City appeal SET, with timeline emerging for sanctions: report - FourFourTwo",
-    "Stow Maries Great War Aerodrome hosts \u00a35 Christmas fair - InYourArea",
-    "How Russians Trick Ghanaians Into Their War: POW's Story - Stop Russian Recruiters"
+    "Art against erasure: A Palestinian sculptor and a Lebanese painter on war, exile and memory - Middle East Eye",
+    "Miner-smelter tug-of-war rocks long-standing copper benchmark - Mining.com",
+    "UAE remains \u2018main destination\u2019 for gold smuggled out of Sudan and other war zones - Middle East Eye"
    ]
   },
   "today": [
@@ -67,14 +67,6 @@
     "time": "2026-11-13T14:40:00+00:00",
     "forecast": "",
     "previous": ""
-   },
-   {
-    "title": "Mortgage Delinquencies",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T15:15:00+00:00",
-    "forecast": "",
-    "previous": "4.37%"
    },
    {
     "title": "Natural Gas Storage",
