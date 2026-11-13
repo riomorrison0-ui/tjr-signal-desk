@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T11:15:20.474195-05:00",
+ "updated": "2026-11-13T11:20:20.454067-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3881.719971,
-   "feed": "real-time gold (PAXG, matched to spot +10.51)",
-   "time": "2026-11-13T11:10:00-05:00"
+   "price": 3878.050049,
+   "feed": "real-time gold (PAXG, matched to spot +7.64)",
+   "time": "2026-11-13T11:15:00-05:00"
   }
  },
  "stats": {
@@ -30,9 +30,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Watch Patterson: For now, Iran has won the war - Bloomberg.com",
-    "Gears of War celebrates 20 years with 13 free DLC rewards for Xbox players - GAMINGbible",
-    "T\u00eate \u00e0 t\u00eate - UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution' - France 24"
+    "Ice hockey: Russia threatens sanctions against Canada, Germany - DW.com",
+    "Opinion | Is the War Against Iran a Necessary Defense? - WSJ",
+    "Miner-smelter tug-of-war rocks long-standing copper benchmark - Kitco"
    ]
   },
   "today": [
