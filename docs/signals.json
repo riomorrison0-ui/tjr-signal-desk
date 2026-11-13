@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-13T16:00:20.484820-05:00",
+ "updated": "2026-11-13T16:01:49.905733-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3881.25,
-   "feed": "real-time gold (PAXG, matched to spot +4.80)",
+   "price": 3877.550049,
+   "feed": "real-time gold (PAXG, matched to spot +1.10)",
    "time": "2026-11-13T15:55:00-05:00"
   }
  },
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Guiding DAPT De-escalation With Platelet Function Testing Doesn\u2019t Improve Outcomes: EPIC17-VERONICA - TCTMD.com",
     "New Cold War comedy-drama feature will film in Utah County - ABC4 Utah",
-    "Europe Must Step Up to Settle the Russia-Ukraine War - Council on Foreign Relations",
-    "Chelsea have new owner, Ukraine is still at war.. Roman Abramovich's \u00a32.5bn sale money still sitting in bank is disgrace - The Sun"
+    "Europe Must Step Up to Settle the Russia-Ukraine War - Council on Foreign Relations"
    ]
   },
   "today": [
@@ -104,8 +104,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.97,
-  "gbpusd": 1.32431
+  "stop_cap_usd": 52.86,
+  "gbpusd": 1.32148
  },
  "backtest": {
   "portfolio": {
