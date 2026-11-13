@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T22:10:20.313924-05:00",
+ "updated": "2026-11-12T22:15:20.351942-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3919.600098,
-   "feed": "real-time gold (PAXG, matched to spot +3.71)",
-   "time": "2026-11-12T22:05:00-05:00"
+   "price": 3918.800049,
+   "feed": "real-time gold (PAXG, matched to spot +4.66)",
+   "time": "2026-11-12T22:10:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
-    "\u2018War\u2019 Episode 8 Release Date, Time and Where to Watch the Finale - IMDb",
-    "Trump tells JD Vance to shift focus from Iran war to targeting 'corruption and crime' in US - TRT World"
+    "\u2018War\u2019 Recap, Episode 7: \u2018The Juicy Bit\u2019 - Vulture",
+    "From \u2018War\u2019 to Warwickshire: How Edwin Starr revitalised his post-Motown career by moving to the Midlands - Far Out Magazine",
+    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post"
    ]
   },
   "today": [
