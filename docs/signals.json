@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T08:50:20.337221-05:00",
+ "updated": "2026-11-13T08:55:20.332161-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3893.149902,
-   "feed": "real-time gold (PAXG, matched to spot +17.85)",
-   "time": "2026-11-13T08:45:00-05:00"
+   "price": 3882.320068,
+   "feed": "real-time gold (PAXG, matched to spot +6.38)",
+   "time": "2026-11-13T08:50:00-05:00"
   }
  },
  "stats": {
@@ -47,11 +47,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Russia scraps defense forum for third time amid war in Ukraine - TVP World",
     "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian",
-    "IEA said global oil supply is topping demand for first time since Iran war - Quartz Africa",
-    "Russia loses almost half a million lives in war on Ukraine - The Irish Times"
+    "LOUDER THAN WAR FESTIVAL RETURNS! - Vive Le Rock Magazine"
    ]
   },
   "today": [
