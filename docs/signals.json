@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-12T22:40:20.317110-05:00",
+ "updated": "2026-11-12T22:42:34.125322-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3923.699951,
-   "feed": "real-time gold (PAXG, matched to spot +6.14)",
+   "price": 3920.399902,
+   "feed": "real-time gold (PAXG, matched to spot +2.84)",
    "time": "2026-11-12T22:35:00-05:00"
   }
  },
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
-    "\u2018War\u2019 Recap, Episode 7: \u2018The Juicy Bit\u2019 - Vulture",
-    "From \u2018War\u2019 to Warwickshire: How Edwin Starr revitalised his post-Motown career by moving to the Midlands - Far Out Magazine"
+    "Ukraine war briefing: Europe to join negotiations, says Kushner, as Putin warns against peace keepers - The Guardian",
+    "Houthi threat and Iran war reshape Saudi Arabia's security priorities - www.thenationalnews.com",
+    "What\u2019s next for Ukraine-Russia peace talks as war approaches five-year mark? - The Independent"
    ]
   },
   "today": [
