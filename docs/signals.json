@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T01:00:20.289182-05:00",
+ "updated": "2026-11-13T01:05:20.239090-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3900.300049,
-   "feed": "real-time gold (PAXG, matched to spot +3.57)",
-   "time": "2026-11-13T00:55:00-05:00"
+   "price": 3905.050049,
+   "feed": "real-time gold (PAXG, matched to spot +11.01)",
+   "time": "2026-11-13T01:00:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Is Saudi Arabia expanding its ballistic missile programme? - Middle East Eye",
-    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
-    "It\u2019s time for Scots to stand up against the war machine - The National Scot"
+    "Six killed in Israeli airstrike on Gaza\u2019s Nasser Hospital - The European Sting",
+    "How the fog of war puts journalism in the frame - InDaily South Australia",
+    "Is Saudi Arabia expanding its ballistic missile programme? - Middle East Eye"
    ]
   },
   "today": [
