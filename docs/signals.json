@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T14:05:20.456807-05:00",
+ "updated": "2026-11-13T14:10:20.468836-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3882.350098,
-   "feed": "real-time gold (PAXG, matched to spot +7.65)",
-   "time": "2026-11-13T14:00:00-05:00"
+   "price": 3881.600098,
+   "feed": "real-time gold (PAXG, matched to spot +5.93)",
+   "time": "2026-11-13T14:05:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "2026 God of War Game Confirms Two New Modes Arriving Next Week - VICE",
-    "Iran honours fallen soldiers in Iran-Iraq war with missile display - Al Jazeera",
-    "Russia's Sibur calls UK sanctions illegitimate, reserves right to challenge them - London South East"
+    "Jordan\u2019s crown prince and US vice president discuss regional security amid ongoing Iran war - Arab News",
+    "Europol Scores a Win in The War Against Malware - - Insurance Edge",
+    "Mossad Director Gofman visits Washington, meets CIA director, pushes to resume war with Iran - The Jerusalem Post"
    ]
   },
   "today": [
