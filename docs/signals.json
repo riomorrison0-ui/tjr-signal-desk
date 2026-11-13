@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T06:00:20.356669-05:00",
+ "updated": "2026-11-13T06:05:20.368098-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3896.77002,
-   "feed": "real-time gold (PAXG, matched to spot +13.13)",
-   "time": "2026-11-13T05:55:00-05:00"
+   "price": 3895.350098,
+   "feed": "real-time gold (PAXG, matched to spot +14.56)",
+   "time": "2026-11-13T06:00:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Russian Troops Try to Cross Ukraine\u2019s Drone Kill Zone on Scooters\u2014But the Drones Are Faster - UNITED24 Media",
-    "Black Sea war risk insurance premiums surge to 20% of vessel value - Beinsure",
-    "'No war and no peace' between the US and Iran 'cannot continue', Iraqi FM says - France 24"
+    "Oil supply to exceed global demand for first time since Iran war - Belga Share",
+    "Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
+    "Russian Troops Try to Cross Ukraine\u2019s Drone Kill Zone on Scooters\u2014But the Drones Are Faster - UNITED24 Media"
    ]
   },
   "today": [
