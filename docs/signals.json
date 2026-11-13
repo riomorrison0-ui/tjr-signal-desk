@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T02:35:20.238259-05:00",
+ "updated": "2026-11-13T02:40:20.243989-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.77002,
-   "feed": "real-time gold (PAXG, matched to spot +11.72)",
-   "time": "2026-11-13T02:30:00-05:00"
+   "price": 3898.850098,
+   "feed": "real-time gold (PAXG, matched to spot +10.06)",
+   "time": "2026-11-13T02:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine War, Day 1,723: No Advance But Europe To Join Talks With Russia - EA WorldView",
-    "The Gulf must build security that can outlast this war - Al Jazeera",
-    "Washington asks Israel to prepare for possible resumption of war with Iran - ANHA"
+    "Trump removes Vice President from handling the war in Iran - Baltic News Network",
+    "Trump says Iran war could end soon, defends military campaign despite fuel disrupts - \u0633\u0627\u0646\u0627",
+    "Dozens of British lawmakers urge sanctions on Israeli officials - Yeni Safak English"
    ]
   },
   "today": [
