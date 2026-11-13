@@ -77,12 +77,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-13T13:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-13T13:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-13T14:05:00-05:00",
+   "exit_price": 3882.350098,
+   "r": 0.373,
+   "notes": [
+    "legs: TP2 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-13T14:00:00-05:00",
@@ -100,17 +102,21 @@
      "tp": 3864.87,
      "r_mult": 1.0,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3882.350098,
+     "exit_time": "2026-11-13T14:05:00-05:00",
+     "r": 0.377
     }
    ],
    "news": {
     "risk": "high",
     "next": null
-   }
+   },
+   "pnl_gbp": 8.12
   }
  },
  "created": "2026-11-06T14:07:44.404822+00:00",
- "updated": "2026-11-13T14:00:20.469628-05:00",
+ "updated": "2026-11-13T14:05:20.456807-05:00",
  "tg_chat": "6672938599",
  "tg_hello": "2026-11-06T09:11:55.080480-05:00",
  "tg_offset": 620043530,
