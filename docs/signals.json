@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T13:00:20.440276-05:00",
+ "updated": "2026-11-13T13:05:20.451034-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3893.399902,
-   "feed": "real-time gold (PAXG, matched to spot +13.10)",
-   "time": "2026-11-13T12:55:00-05:00"
+   "price": 3885.800049,
+   "feed": "real-time gold (PAXG, matched to spot +8.44)",
+   "time": "2026-11-13T13:00:00-05:00"
   }
  },
  "stats": {
@@ -28,11 +28,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Stevie Wonder speaks out against war, backs Macklemore - The New Arab",
-    "Infiltration and \u2018Muqawama\u2019: The Islamist war of attrition within Europe - The Times of Israel",
-    "Wildberries Billionaire Tatyana Kim Faces EU Sanctions Over Company\u2019s Military Links - UNITED24 Media"
+    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post",
+    "If Gen Z are asked to go to war, it might not be in the way they expect - The Guardian",
+    "Stevie Wonder speaks out against war, backs Macklemore - The New Arab"
    ]
   },
   "today": [
