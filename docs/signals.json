@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T07:15:20.415207-05:00",
+ "updated": "2026-11-13T07:20:20.343203-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3897.550049,
-   "feed": "real-time gold (PAXG, matched to spot +12.81)",
-   "time": "2026-11-13T07:10:00-05:00"
+   "price": 3898.570068,
+   "feed": "real-time gold (PAXG, matched to spot +15.22)",
+   "time": "2026-11-13T07:15:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Journey\u2019s End forces us to remember that war\u2019s nature never changes - Varsity Online",
-    "The Week in Trade: COP31, International Trade Week, latest Russia sanctions and potential EV tariff delays - The Chartered Institute of Export & International Trade",
-    "Question Time panel debate if UK is ready for war - BBC"
+    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (EXCLUSIVE) - Variety",
+    "Britain\u2019s Legendary Land Rover Gets a Ukrainian Makeover\u2014Now It Drives Into War Without a Driver - UNITED24 Media",
+    "Edge\u2019s Wolfshark Low-Cost Cruise Missile Takes Flight - Aviation Week"
    ]
   },
   "today": [
