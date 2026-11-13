@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T03:50:20.249741-05:00",
+ "updated": "2026-11-13T03:55:20.244098-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3899.370117,
-   "feed": "real-time gold (PAXG, matched to spot +13.79)",
-   "time": "2026-11-13T03:45:00-05:00"
+   "price": 3898.649902,
+   "feed": "real-time gold (PAXG, matched to spot +11.10)",
+   "time": "2026-11-13T03:50:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Tourists Brave a Muddy Jungle Trek to See a Famed World War II Wreck - The New York Times",
-    "Iran Extends Blackout of Nuclear Work With US War Deadlocked - Bloomberg.com",
-    "Who is Gadi Eisenkot? Netanyahu\u2019s rival, Gaza war commander, son of Morocco - The Africa Report"
+    "Why Has the War with Iran Become More Unpopular Than the Vietnam War? - WANA News Agency",
+    "France slams Russian \u2018intimidation\u2019 as fresh EU sanctions come into force - RFI",
+    "Missile War Monitor: Drone attack on Volgograd's refinery district kills four workers as Russia claims 1,198 drones downed overnight - IntelliNews"
    ]
   },
   "today": [
