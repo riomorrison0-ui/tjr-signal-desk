@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T09:55:20.325732-05:00",
+ "updated": "2026-11-13T10:00:20.399131-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.850098,
-   "feed": "real-time gold (PAXG, matched to spot +12.69)",
-   "time": "2026-11-13T09:50:00-05:00"
+   "price": 3902.870117,
+   "feed": "real-time gold (PAXG, matched to spot +16.48)",
+   "time": "2026-11-13T09:55:00-05:00"
   }
  },
  "stats": {
@@ -6733,5 +6733,59 @@
   },
   "runtime_s": 3800
  },
- "signals": []
+ "signals": [
+  {
+   "id": "XAUUSD-rsi2-20261113-0955-SELL",
+   "instrument": "XAUUSD",
+   "side": "SELL",
+   "level_name": "rsi2",
+   "level": 3902.87,
+   "sweep_time": "2026-11-13T10:00:00-05:00",
+   "confirm_time": "2026-11-13T10:00:00-05:00",
+   "entry": 3902.87,
+   "stop": 3927.88,
+   "target": 3865.35,
+   "rr": 1.0,
+   "bias": "",
+   "killzone": "",
+   "valid_until": "2026-11-13T10:00:00-05:00",
+   "status": "open",
+   "fill_time": "2026-11-13T10:00:00-05:00",
+   "exit_time": null,
+   "exit_price": null,
+   "r": null,
+   "notes": [],
+   "strategy": "rsi2",
+   "entry_type": "market",
+   "hold_until": "2026-11-23T10:00:00-05:00",
+   "why": "Sharp rally (RSI(2) 90) against the 30min trend: fade it back to the 5-bar average",
+   "sent_at": "2026-11-13T10:00:20.399131-05:00",
+   "initial_status": "open",
+   "feed": "real-time gold (PAXG, matched to spot +16.48)",
+   "gbpusd": 1.32368,
+   "account_gbp": 2000.0,
+   "lots": 0.02,
+   "risk_pct": 2.0,
+   "legs": [
+    {
+     "n": 1,
+     "tp": 3890.36,
+     "r_mult": 0.5,
+     "lots": 0.01,
+     "status": "open"
+    },
+    {
+     "n": 3,
+     "tp": 3865.35,
+     "r_mult": 1.5,
+     "lots": 0.01,
+     "status": "open"
+    }
+   ],
+   "news": {
+    "risk": "high",
+    "next": null
+   }
+  }
+ ]
 }
