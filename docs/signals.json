@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T07:45:20.388209-05:00",
+ "updated": "2026-11-13T07:50:20.347277-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3893.550049,
-   "feed": "real-time gold (PAXG, matched to spot +14.55)",
-   "time": "2026-11-13T07:40:00-05:00"
+   "price": 3892.449951,
+   "feed": "real-time gold (PAXG, matched to spot +15.07)",
+   "time": "2026-11-13T07:45:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Gagauzia Elections: A Crucial Test for Moldova - Institute for War & Peace Reporting - IWPR",
-    "Shelton: Mariners Must \"Be Ready To Go To War\" Against Swindon - Grimsby Town Football Club",
-    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (EXCLUSIVE) - Variety"
+    "New sanctions on Russia: EU strikes at the shadow fleet - Defence24.com",
+    "\u2018Colossal mistake\u2019: Gov. Newsom tells Iranian filmmaker about Iran war - CNN",
+    "Big Oil\u2019s War-Fueled Profits Revive Calls for Windfall Taxes - Bloomberg.com"
    ]
   },
   "today": [
