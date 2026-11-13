@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T14:35:20.443382-05:00",
+ "updated": "2026-11-13T14:40:20.450140-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3878.800049,
-   "feed": "real-time gold (PAXG, matched to spot +4.89)",
-   "time": "2026-11-13T14:30:00-05:00"
+   "price": 3880.600098,
+   "feed": "real-time gold (PAXG, matched to spot +6.72)",
+   "time": "2026-11-13T14:35:00-05:00"
   }
  },
  "stats": {
@@ -31,12 +31,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war - Axios",
-    "Jordan\u2019s crown prince and US vice president discuss regional security amid ongoing Iran war - Arab News",
-    "Europol Scores a Win in The War Against Malware - - Insurance Edge"
+    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post",
+    "Israel Used a U.S.-Made Missile to Kill Six at Gaza\u2019s Nasser Hospital - The Intercept",
+    "Mossad chief visits Washington as Israel presses Trump to resume Iran war: Report - Anadolu Ajans\u0131"
    ]
   },
   "today": [
