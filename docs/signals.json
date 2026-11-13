@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T02:20:20.240577-05:00",
+ "updated": "2026-11-13T02:25:20.277583-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3901.550049,
-   "feed": "real-time gold (PAXG, matched to spot +14.10)",
-   "time": "2026-11-13T02:15:00-05:00"
+   "price": 3899.050049,
+   "feed": "real-time gold (PAXG, matched to spot +11.59)",
+   "time": "2026-11-13T02:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Washington asks Israel to prepare for possible resumption of war with Iran - ANHA",
-    "Oil on track to post second weekly decline as Trump eases fears of renewed war with Iran - www.thenationalnews.com",
-    "Classified data leaked: over 400,000 Russians killed in the war - Defence24.com"
+    "Ukraine War, Day 1,723: No Advance But Europe To Join Talks With Russia - EA WorldView",
+    "The Gulf must build security that can outlast this war - Al Jazeera",
+    "Washington asks Israel to prepare for possible resumption of war with Iran - ANHA"
    ]
   },
   "today": [
