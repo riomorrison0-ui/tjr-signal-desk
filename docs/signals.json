@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T14:20:20.481977-05:00",
+ "updated": "2026-11-13T14:25:20.480213-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3883.399902,
-   "feed": "real-time gold (PAXG, matched to spot +6.78)",
-   "time": "2026-11-13T14:15:00-05:00"
+   "price": 3882.050049,
+   "feed": "real-time gold (PAXG, matched to spot +6.37)",
+   "time": "2026-11-13T14:20:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Scoop: Israeli spy chief in D.C. as Netanyahu presses Trump to resume war - Axios",
     "Jordan\u2019s crown prince and US vice president discuss regional security amid ongoing Iran war - Arab News",
-    "Europol Scores a Win in The War Against Malware - - Insurance Edge",
-    "Mossad Director Gofman visits Washington, meets CIA director, pushes to resume war with Iran - The Jerusalem Post"
+    "Europol Scores a Win in The War Against Malware - - Insurance Edge"
    ]
   },
   "today": [
