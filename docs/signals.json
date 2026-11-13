@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T13:35:20.488632-05:00",
+ "updated": "2026-11-13T13:40:20.452736-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.550049,
-   "feed": "real-time gold (PAXG, matched to spot +7.23)",
-   "time": "2026-11-13T13:30:00-05:00"
+   "price": 3886.27002,
+   "feed": "real-time gold (PAXG, matched to spot +7.73)",
+   "time": "2026-11-13T13:35:00-05:00"
   }
  },
  "stats": {
@@ -30,9 +30,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Iran honours fallen soldiers in Iran-Iraq war with missile display - Al Jazeera",
     "Russia's Sibur calls UK sanctions illegitimate, reserves right to challenge them - London South East",
-    "Europe ramps up space war with Russia through 'low orbit' technology - Metro.co.uk",
-    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post"
+    "Europe ramps up space war with Russia through 'low orbit' technology - Metro.co.uk"
    ]
   },
   "today": [
