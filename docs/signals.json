@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T11:30:20.496320-05:00",
+ "updated": "2026-11-13T11:35:20.490044-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3886.870117,
-   "feed": "real-time gold (PAXG, matched to spot +10.74)",
-   "time": "2026-11-13T11:25:00-05:00"
+   "price": 3886.969971,
+   "feed": "real-time gold (PAXG, matched to spot +10.29)",
+   "time": "2026-11-13T11:30:00-05:00"
   }
  },
  "stats": {
@@ -30,9 +30,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ice hockey: Russia threatens sanctions against Canada, Germany - DW.com",
-    "Opinion | Is the War Against Iran a Necessary Defense? - WSJ",
-    "Miner-smelter tug-of-war rocks long-standing copper benchmark - Kitco"
+    "Here's Why Russia Keeps Outplaying the U.S. and Europe in Ukraine War Peace Talks - The Moscow Times",
+    "US Treasury warns against rate hikes during US-Iran war energy \u2018shock\u2019 - Al Jazeera",
+    "Banks Cool on Manchester City Player Finance as Sanctions Loom - Bloomberg.com"
    ]
   },
   "today": [
