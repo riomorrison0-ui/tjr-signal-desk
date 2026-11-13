@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T04:40:20.353043-05:00",
+ "updated": "2026-11-13T04:45:20.318851-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3904.300049,
-   "feed": "real-time gold (PAXG, matched to spot +12.74)",
-   "time": "2026-11-13T04:35:00-05:00"
+   "price": 3904.199951,
+   "feed": "real-time gold (PAXG, matched to spot +15.64)",
+   "time": "2026-11-13T04:40:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Will ASEAN Reintegrate Myanmar Despite Its Ongoing Civil War? - Modern Diplomacy",
-    "Democratic civil war erupts as Van Hollen challenges Chuck Schumer - The Independent",
-    "Leading a community of nuns in Ukraine under the shadow of war - Global Sisters Report"
+    "Shenyang J-8 Finback: China\u2019s Twin-Engine Cold War Interceptor - MiGFlug",
+    "UK blacklists 11 ships in fresh Russia sanctions sweep - Splash247",
+    "Dassault Mirage F1: The Swept-Wing Mirage That Went to War - MiGFlug"
    ]
   },
   "today": [
