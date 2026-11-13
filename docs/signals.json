@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T23:45:20.249165-05:00",
+ "updated": "2026-11-12T23:50:20.243117-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3914.52002,
-   "feed": "real-time gold (PAXG, matched to spot +10.93)",
-   "time": "2026-11-12T23:40:00-05:00"
+   "price": 3914.449951,
+   "feed": "real-time gold (PAXG, matched to spot +10.22)",
+   "time": "2026-11-12T23:45:00-05:00"
   }
  },
  "stats": {
@@ -44,7 +44,7 @@
    "examples": [
     "UN Security Council unanimously agrees moves to halt Houthi drone and missile production - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
     "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
-    "Foreign Businesses Putin Seized Help Fund Russia\u2019s War Machine - Bloomberg.com"
+    "Romania\u2019s new government takes office amid war escalation, austerity and political crisis - World Socialist Web Site"
    ]
   },
   "today": [
