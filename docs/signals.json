@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T01:45:20.223883-05:00",
+ "updated": "2026-11-13T01:50:20.228221-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3899.0,
-   "feed": "real-time gold (PAXG, matched to spot +14.36)",
-   "time": "2026-11-13T01:40:00-05:00"
+   "price": 3892.969971,
+   "feed": "real-time gold (PAXG, matched to spot +9.63)",
+   "time": "2026-11-13T01:45:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Gulf war leaves toxic legacy that could last decades - Splash247",
-    "British MPs seek better protection for US war planes - The National",
-    "How the Iran War Exposes Cracks in America\u2019s Foundation - The Dispatch"
+    "The economics of war: how Ukraine inflicts millions in losses on Russia at minimal cost - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "UK imposes sanctions on Russia\u2019s SIBUR; Kazakhstan could feel the impact - Kursiv Media",
+    "Gulf war leaves toxic legacy that could last decades - Splash247"
    ]
   },
   "today": [
