@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T21:35:20.320794-05:00",
+ "updated": "2026-11-12T21:40:20.318724-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3913.699951,
-   "feed": "real-time gold (PAXG, matched to spot +3.23)",
-   "time": "2026-11-12T21:30:00-05:00"
+   "price": 3916.0,
+   "feed": "real-time gold (PAXG, matched to spot +3.40)",
+   "time": "2026-11-12T21:35:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Zelenskyy Eyes Biggest Prisoner Swap of Ukraine War After Talks With US Envoys - Open Magazine",
-    "Putin proposes another local ceasefire, Ukraine is wary - NHK\u30cb\u30e5\u30fc\u30b9",
-    "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production - Eurasia Review"
+    "\u2018War\u2019 Episode 8 Release Date, Time and Where to Watch the Finale - IMDb",
+    "Trump tells JD Vance to shift focus from Iran war to targeting 'corruption and crime' in US - TRT World",
+    "Trump is determined to lead efforts to end the war \u2014 Witkoff - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
