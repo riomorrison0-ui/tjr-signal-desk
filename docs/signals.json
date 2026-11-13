@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T16:30:20.349787-05:00",
+ "updated": "2026-11-13T16:35:20.378229-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3880.370117,
-   "feed": "real-time gold (PAXG, matched to spot +6.88)",
-   "time": "2026-11-13T16:25:00-05:00"
+   "price": 3877.25,
+   "feed": "real-time gold (PAXG, matched to spot +5.70)",
+   "time": "2026-11-13T16:30:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Egypt-UAE Banking Ties Tested by US Sanctions Threat - Global Finance Magazine",
     "Brent Holds Near $96 as Supply Glut Battles War Risk Premium - BigGo Finance",
-    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post",
-    "Guiding DAPT De-escalation With Platelet Function Testing Doesn\u2019t Improve Outcomes: EPIC17-VERONICA - TCTMD.com"
+    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post"
    ]
   },
   "today": [
