@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T08:35:20.351435-05:00",
+ "updated": "2026-11-13T08:40:20.345761-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3905.75,
-   "feed": "real-time gold (PAXG, matched to spot +9.61)",
-   "time": "2026-11-13T08:30:00-05:00"
+   "price": 3900.699951,
+   "feed": "real-time gold (PAXG, matched to spot +9.95)",
+   "time": "2026-11-13T08:35:00-05:00"
   }
  },
  "stats": {
@@ -49,9 +49,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Dismay as Leigh veterans' handmade war memorial stolen - BBC",
-    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (Exclusive) - IMDb",
-    "Why the Army is preparing for a possible war in Europe thousands of miles away in Kenya - Forces News"
+    "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian",
+    "IEA said global oil supply is topping demand for first time since Iran war - Quartz Africa",
+    "Russia loses almost half a million lives in war on Ukraine - The Irish Times"
    ]
   },
   "today": [
