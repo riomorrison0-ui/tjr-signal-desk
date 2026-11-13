@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T19:15:20.332174-05:00",
+ "updated": "2026-11-12T19:20:20.335163-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3887.699951,
-   "feed": "real-time gold (PAXG, matched to spot -1.18)",
-   "time": "2026-11-12T19:10:00-05:00"
+   "price": 3886.399902,
+   "feed": "real-time gold (PAXG, matched to spot +0.02)",
+   "time": "2026-11-12T19:15:00-05:00"
   }
  },
  "stats": {
@@ -44,7 +44,7 @@
    "examples": [
     "Second world war \u2018brain\u2019 bunker in cliffs of Dover opens to public - The Guardian",
     "Hidden Second World War plotting room beneath White Cliffs to open for first time - Kent Online",
-    "Gaza doctor: 'Why is a hospital being targeted during a ceasefire?' - Sky News"
+    "Iran War Lifts Crude Midstream Earnings, Complicates Routes to Market - Hart Energy"
    ]
   },
   "today": [
