@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T16:45:20.346428-05:00",
+ "updated": "2026-11-13T16:50:20.371375-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.0,
-   "feed": "real-time gold (PAXG, matched to spot +4.10)",
-   "time": "2026-11-13T16:40:00-05:00"
+   "price": 3879.649902,
+   "feed": "real-time gold (PAXG, matched to spot +2.26)",
+   "time": "2026-11-13T16:45:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Egypt-UAE Banking Ties Tested by US Sanctions Threat - Global Finance Magazine",
-    "Brent Holds Near $96 as Supply Glut Battles War Risk Premium - BigGo Finance",
-    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post"
+    "WNTD Apparel | ART IS WAR CARGO PANTS | Pants - Complex",
+    "U.S., Colombian Armies Expand Cooperation - U.S. Department of War (.gov)",
+    "Naval Academy Honors Marine Aviators With Harrier Display - U.S. Department of War (.gov)"
    ]
   },
   "today": [
@@ -93,6 +93,14 @@
     "country": "USD",
     "impact": "Low",
     "time": "2026-11-13T17:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Financial Stability Report",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-13T21:00:00+00:00",
     "forecast": "",
     "previous": ""
    }
