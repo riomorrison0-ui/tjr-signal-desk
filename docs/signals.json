@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T00:15:20.287927-05:00",
+ "updated": "2026-11-13T00:20:20.226357-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3919.919922,
-   "feed": "real-time gold (PAXG, matched to spot +12.00)",
-   "time": "2026-11-13T00:10:00-05:00"
+   "price": 3922.199951,
+   "feed": "real-time gold (PAXG, matched to spot +11.46)",
+   "time": "2026-11-13T00:15:00-05:00"
   }
  },
  "stats": {
@@ -40,10 +40,10 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 4,
+   "count": 3,
    "examples": [
-    "Russia loses almost half a million lives in war on Ukraine - Financial Times",
     "Man City to be hit with Premier League sanctions next year if appeal fails - Financial Times",
+    "Russia loses almost half a million lives in war on Ukraine - Financial Times",
     "UN Security Council unanimously agrees moves to halt Houthi drone and missile production - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
    ]
   },
