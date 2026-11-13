@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T09:05:20.336098-05:00",
+ "updated": "2026-11-13T09:10:20.347294-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3885.870117,
-   "feed": "real-time gold (PAXG, matched to spot +8.77)",
-   "time": "2026-11-13T09:00:00-05:00"
+   "price": 3885.75,
+   "feed": "real-time gold (PAXG, matched to spot +11.83)",
+   "time": "2026-11-13T09:05:00-05:00"
   }
  },
  "stats": {
@@ -25,9 +25,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Russia scraps defense forum for third time amid war in Ukraine - TVP World",
-    "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian",
-    "LOUDER THAN WAR FESTIVAL RETURNS! - Vive Le Rock Magazine"
+    "Department of War Redesignates CDAO as Super Intelligence Office - U.S. Department of War (.gov)",
+    "Russia oil revenues jumped about 65% in October on Iran war - Quartz",
+    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (Exclusive) - IMDb"
    ]
   },
   "today": [
