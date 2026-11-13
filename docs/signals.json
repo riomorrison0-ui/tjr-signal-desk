@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T00:45:20.233163-05:00",
+ "updated": "2026-11-13T00:50:20.288416-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3914.149902,
-   "feed": "real-time gold (PAXG, matched to spot +14.49)",
-   "time": "2026-11-13T00:40:00-05:00"
+   "price": 3911.0,
+   "feed": "real-time gold (PAXG, matched to spot +23.22)",
+   "time": "2026-11-13T00:45:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Man City to be hit with Premier League sanctions next year if appeal fails - Financial Times",
-    "Russia loses almost half a million lives in war on Ukraine - Financial Times",
-    "UN Security Council unanimously agrees moves to halt Houthi drone and missile production - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
+    "Is Saudi Arabia expanding its ballistic missile programme? - Middle East Eye",
+    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
+    "It\u2019s time for Scots to stand up against the war machine - The National Scot"
    ]
   },
   "today": [
