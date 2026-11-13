@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T21:20:20.320615-05:00",
+ "updated": "2026-11-12T21:25:20.358371-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3910.199951,
-   "feed": "real-time gold (PAXG, matched to spot +4.10)",
-   "time": "2026-11-12T21:15:00-05:00"
+   "price": 3907.600098,
+   "feed": "real-time gold (PAXG, matched to spot +3.20)",
+   "time": "2026-11-12T21:20:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production - Eurasia Review",
-    "UN Extends Yemen Sanctions to 2027 Amid Houthi Strike Claims - https://houseofsaud.com/",
-    "Trump already eyeing another war before he leaves office - The Independent"
+    "Zelenskyy Eyes Biggest Prisoner Swap of Ukraine War After Talks With US Envoys - Open Magazine",
+    "Putin proposes another local ceasefire, Ukraine is wary - NHK\u30cb\u30e5\u30fc\u30b9",
+    "UN Security Council Unanimously Agrees Moves To Halt Houthi Drone And Missile Production - Eurasia Review"
    ]
   },
   "today": [
