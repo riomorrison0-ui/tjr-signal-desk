@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T15:40:20.450657-05:00",
+ "updated": "2026-11-13T15:45:20.537020-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3878.850098,
-   "feed": "real-time gold (PAXG, matched to spot +8.66)",
-   "time": "2026-11-13T15:35:00-05:00"
+   "price": 3876.75,
+   "feed": "real-time gold (PAXG, matched to spot +5.06)",
+   "time": "2026-11-13T15:40:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Protesters urge UK government to impose sanctions on Israel over Gaza genocide - Anadolu Ajans\u0131",
-    "Texas A&M University establishes Center for the Study of War and Society - Texas A&M Stories",
-    "Opinion | The National Mall should memorialize war \u2014 and peace - The Washington Post"
+    "Chelsea have new owner, Ukraine is still at war.. Roman Abramovich's \u00a32.5bn sale money still sitting in bank is disgrace - The Sun",
+    "US Army's new PrSM missile could double range to 621 miles - Interesting Engineering",
+    "Opinion | Ron DeSantis\u2019 war on diversity puts city\u2019s St. Patrick\u2019s Day parade at risk - MS NOW"
    ]
   },
   "today": [
