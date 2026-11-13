@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T13:50:20.447371-05:00",
+ "updated": "2026-11-13T13:55:20.460256-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3883.27002,
-   "feed": "real-time gold (PAXG, matched to spot +7.59)",
-   "time": "2026-11-13T13:45:00-05:00"
+   "price": 3883.25,
+   "feed": "real-time gold (PAXG, matched to spot +6.26)",
+   "time": "2026-11-13T13:50:00-05:00"
   }
  },
  "stats": {
@@ -27,12 +27,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "2026 God of War Game Confirms Two New Modes Arriving Next Week - VICE",
     "Iran honours fallen soldiers in Iran-Iraq war with missile display - Al Jazeera",
-    "Russia's Sibur calls UK sanctions illegitimate, reserves right to challenge them - London South East",
-    "Europe ramps up space war with Russia through 'low orbit' technology - Metro.co.uk"
+    "Russia's Sibur calls UK sanctions illegitimate, reserves right to challenge them - London South East"
    ]
   },
   "today": [
