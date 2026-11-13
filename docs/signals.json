@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T21:50:20.322244-05:00",
+ "updated": "2026-11-12T21:55:20.352930-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3911.800049,
-   "feed": "real-time gold (PAXG, matched to spot +2.63)",
-   "time": "2026-11-12T21:45:00-05:00"
+   "price": 3910.899902,
+   "feed": "real-time gold (PAXG, matched to spot +3.37)",
+   "time": "2026-11-12T21:50:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
     "\u2018War\u2019 Episode 8 Release Date, Time and Where to Watch the Finale - IMDb",
-    "Trump tells JD Vance to shift focus from Iran war to targeting 'corruption and crime' in US - TRT World",
-    "Trump is determined to lead efforts to end the war \u2014 Witkoff - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "Trump tells JD Vance to shift focus from Iran war to targeting 'corruption and crime' in US - TRT World"
    ]
   },
   "today": [
