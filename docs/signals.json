@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T19:45:20.319950-05:00",
+ "updated": "2026-11-12T19:50:20.316807-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3888.199951,
-   "feed": "real-time gold (PAXG, matched to spot +1.44)",
-   "time": "2026-11-12T19:40:00-05:00"
+   "price": 3891.5,
+   "feed": "real-time gold (PAXG, matched to spot +1.07)",
+   "time": "2026-11-12T19:45:00-05:00"
   }
  },
  "stats": {
@@ -40,7 +40,7 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
     "Ethiopia's Tigray conflict: Has Abiy Ahmed defeated the TPLF? - BBC",
