@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T04:05:20.237194-05:00",
+ "updated": "2026-11-13T04:10:20.247957-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3904.050049,
-   "feed": "real-time gold (PAXG, matched to spot +12.62)",
-   "time": "2026-11-13T04:00:00-05:00"
+   "price": 3903.570068,
+   "feed": "real-time gold (PAXG, matched to spot +12.94)",
+   "time": "2026-11-13T04:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Why Has the War with Iran Become More Unpopular Than the Vietnam War? - WANA News Agency",
-    "France slams Russian \u2018intimidation\u2019 as fresh EU sanctions come into force - RFI",
-    "Missile War Monitor: Drone attack on Volgograd's refinery district kills four workers as Russia claims 1,198 drones downed overnight - IntelliNews"
+    "Leading a community of nuns in Ukraine under the shadow of war - Global Sisters Report",
+    "\u2018Women and War\u2019 Follows Four Ukrainians\u2019 Journeys Towards Healing From Trauma (Exclusive IDFA Trailer) - The Hollywood Reporter",
+    "Old S. Korea emergency guidelines misrepresented as new 'war' advisory - AFP Fact Check"
    ]
   },
   "today": [
