@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T23:10:20.227943-05:00",
+ "updated": "2026-11-12T23:15:20.248682-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3921.449951,
-   "feed": "real-time gold (PAXG, matched to spot +8.66)",
-   "time": "2026-11-12T23:05:00-05:00"
+   "price": 3918.370117,
+   "feed": "real-time gold (PAXG, matched to spot +9.19)",
+   "time": "2026-11-12T23:10:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UN Security Council renews Yemen sanctions for another year - Anadolu Ajans\u0131",
-    "Ukraine war briefing: Europe to join negotiations, says Kushner, as Putin warns against peace keepers - The Guardian",
-    "Houthi threat and Iran war reshape Saudi Arabia's security priorities - www.thenationalnews.com"
+    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
+    "Foreign Businesses Putin Seized Help Fund Russia\u2019s War Machine - Bloomberg.com",
+    "UN Security Council renews Yemen sanctions for another year - Anadolu Ajans\u0131"
    ]
   },
   "today": [
