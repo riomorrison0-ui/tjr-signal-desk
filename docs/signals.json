@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T02:05:20.225776-05:00",
+ "updated": "2026-11-13T02:10:20.244375-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3904.449951,
-   "feed": "real-time gold (PAXG, matched to spot +11.54)",
-   "time": "2026-11-13T02:00:00-05:00"
+   "price": 3904.300049,
+   "feed": "real-time gold (PAXG, matched to spot +11.37)",
+   "time": "2026-11-13T02:05:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The economics of war: how Ukraine inflicts millions in losses on Russia at minimal cost - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "UK imposes sanctions on Russia\u2019s SIBUR; Kazakhstan could feel the impact - Kursiv Media",
-    "Gulf war leaves toxic legacy that could last decades - Splash247"
+    "Washington asks Israel to prepare for possible resumption of war with Iran - ANHA",
+    "Oil on track to post second weekly decline as Trump eases fears of renewed war with Iran - www.thenationalnews.com",
+    "Classified data leaked: over 400,000 Russians killed in the war - Defence24.com"
    ]
   },
   "today": [
