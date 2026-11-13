@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T15:05:20.442802-05:00",
+ "updated": "2026-11-13T15:10:20.482119-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3876.699951,
-   "feed": "real-time gold (PAXG, matched to spot +4.36)",
-   "time": "2026-11-13T15:00:00-05:00"
+   "price": 3878.25,
+   "feed": "real-time gold (PAXG, matched to spot +5.02)",
+   "time": "2026-11-13T15:05:00-05:00"
   }
  },
  "stats": {
@@ -31,12 +31,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Irish premier defends Europe\u2019s response to Russia\u2019s invasion of Ukraine - Northwich Guardian",
-    "God of War Sons of Sparta Coming to PlayStation 4 Along With Content Update on November 16th - Netto's Game Room",
-    "Ukraine war latest: Ex-PM press secretary reportedly injured in Moscow car explosion - The Kyiv Independent"
+    "US declares three Guatemalan gangs to be terrorist groups, imposes sanctions - KTAR News 92.3 FM",
+    "Police in Surrey arrest, charge home invasion suspect - Surrey Now-Leader",
+    "\"He's done it AGAIN\" \u2013 Springboks risk World Rugby sanctions after Rassie Erasmus gamble - Ruck.co.uk"
    ]
   },
   "today": [
