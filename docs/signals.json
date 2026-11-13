@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T03:20:20.246916-05:00",
+ "updated": "2026-11-13T03:25:20.246613-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.570068,
-   "feed": "real-time gold (PAXG, matched to spot +12.61)",
-   "time": "2026-11-13T03:15:00-05:00"
+   "price": 3897.199951,
+   "feed": "real-time gold (PAXG, matched to spot +13.51)",
+   "time": "2026-11-13T03:20:00-05:00"
   }
  },
  "stats": {
@@ -43,8 +43,8 @@
    "count": 5,
    "examples": [
     "Who is Gadi Eisenkot? Netanyahu\u2019s rival, Gaza war commander, son of Morocco - The Africa Report",
-    "France, Cyprus and Sweden to Jointly Buy MBDA\u2019s Akeron MP Missile - Envanter Medya",
-    "War weighs on Air Arabia profit but liquidity holds up - Arabian Gulf Business Insight | AGBI"
+    "Report: Centcom denies Israeli reports of possible renewed war on Iran - Middle East Eye",
+    "France, Cyprus and Sweden to Jointly Buy MBDA\u2019s Akeron MP Missile - Envanter Medya"
    ]
   },
   "today": [
