@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T08:55:20.332161-05:00",
+ "updated": "2026-11-13T09:00:20.348612-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3882.320068,
-   "feed": "real-time gold (PAXG, matched to spot +6.38)",
-   "time": "2026-11-13T08:50:00-05:00"
+   "price": 3889.899902,
+   "feed": "real-time gold (PAXG, matched to spot +16.84)",
+   "time": "2026-11-13T08:55:00-05:00"
   }
  },
  "stats": {
@@ -19,32 +19,8 @@
   "curve": []
  },
  "news": {
-  "blackout": {
-   "title": "Core PPI m/m",
-   "country": "USD",
-   "impact": "High",
-   "time": "2026-11-13T13:30:00+00:00",
-   "forecast": "0.3%",
-   "previous": "0.7%"
-  },
-  "next": [
-   {
-    "title": "Core PPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-13T13:30:00+00:00",
-    "forecast": "0.3%",
-    "previous": "0.7%"
-   },
-   {
-    "title": "PPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-13T13:30:00+00:00",
-    "forecast": "0.4%",
-    "previous": "1.3%"
-   }
-  ],
+  "blackout": null,
+  "next": [],
   "risk": {
    "level": "high",
    "count": 5,
