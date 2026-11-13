@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T11:00:20.449656-05:00",
+ "updated": "2026-11-13T11:05:20.459014-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3877.449951,
-   "feed": "real-time gold (PAXG, matched to spot +11.11)",
-   "time": "2026-11-13T10:55:00-05:00"
+   "price": 3876.75,
+   "feed": "real-time gold (PAXG, matched to spot +11.79)",
+   "time": "2026-11-13T11:00:00-05:00"
   }
  },
  "stats": {
@@ -28,11 +28,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Art against erasure: A Palestinian sculptor and a Lebanese painter on war, exile and memory - Middle East Eye",
-    "Miner-smelter tug-of-war rocks long-standing copper benchmark - Mining.com",
-    "UAE remains \u2018main destination\u2019 for gold smuggled out of Sudan and other war zones - Middle East Eye"
+    "Watch Patterson: For now, Iran has won the war - Bloomberg.com",
+    "Gears of War celebrates 20 years with 13 free DLC rewards for Xbox players - GAMINGbible",
+    "T\u00eate \u00e0 t\u00eate - UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution' - France 24"
    ]
   },
   "today": [
