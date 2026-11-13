@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T12:30:20.436876-05:00",
+ "updated": "2026-11-13T12:35:20.455568-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.699951,
-   "feed": "real-time gold (PAXG, matched to spot +8.19)",
-   "time": "2026-11-13T12:25:00-05:00"
+   "price": 3884.52002,
+   "feed": "real-time gold (PAXG, matched to spot +8.03)",
+   "time": "2026-11-13T12:30:00-05:00"
   }
  },
  "stats": {
@@ -30,9 +30,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Infiltration and \u2018Muqawama\u2019: The Islamist war of attrition within Europe - The Times of Israel",
     "Wildberries Billionaire Tatyana Kim Faces EU Sanctions Over Company\u2019s Military Links - UNITED24 Media",
-    "Netherlands denies active talks with US over curbing ICC powers to lift sanctions - Middle East Eye",
-    "Secret World War Two bunker rediscovered under Dover cliffs in Britain - Irish Independent"
+    "Netherlands denies active talks with US over curbing ICC powers to lift sanctions - Middle East Eye"
    ]
   },
   "today": [
