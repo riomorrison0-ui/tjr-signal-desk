@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T04:28:44.497588-05:00",
+ "updated": "2026-11-13T04:31:16.530736-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3899.620117,
-   "feed": "real-time gold (PAXG, matched to spot +11.74)",
-   "time": "2026-11-13T04:20:00-05:00"
+   "price": 3898.399902,
+   "feed": "real-time gold (PAXG, matched to spot +13.06)",
+   "time": "2026-11-13T04:25:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "Will ASEAN Reintegrate Myanmar Despite Its Ongoing Civil War? - Modern Diplomacy",
-    "Leading a community of nuns in Ukraine under the shadow of war - Global Sisters Report",
-    "\u2018Women and War\u2019 Follows Four Ukrainians\u2019 Journeys Towards Healing From Trauma (Exclusive IDFA Trailer) - The Hollywood Reporter"
+    "Democratic civil war erupts as Van Hollen challenges Chuck Schumer - The Independent",
+    "Leading a community of nuns in Ukraine under the shadow of war - Global Sisters Report"
    ]
   },
   "today": [
@@ -120,8 +120,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.94,
-  "gbpusd": 1.32345
+  "stop_cap_usd": 52.95,
+  "gbpusd": 1.32368
  },
  "backtest": {
   "portfolio": {
