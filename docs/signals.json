@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-12T22:42:34.125322-05:00",
+ "updated": "2026-11-12T22:44:11.349627-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3920.399902,
-   "feed": "real-time gold (PAXG, matched to spot +2.84)",
+   "price": 3920.800049,
+   "feed": "real-time gold (PAXG, matched to spot +3.24)",
    "time": "2026-11-12T22:35:00-05:00"
   }
  },
@@ -120,8 +120,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.95,
-  "gbpusd": 1.32366
+  "stop_cap_usd": 52.94,
+  "gbpusd": 1.32345
  },
  "backtest": {
   "portfolio": {
