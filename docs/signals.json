@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T03:05:20.282464-05:00",
+ "updated": "2026-11-13T03:10:20.244250-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3904.899902,
-   "feed": "real-time gold (PAXG, matched to spot +14.66)",
-   "time": "2026-11-13T03:00:00-05:00"
+   "price": 3898.169922,
+   "feed": "real-time gold (PAXG, matched to spot +11.62)",
+   "time": "2026-11-13T03:05:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Daily Update: Russia Loses 2,590 Troops, 1 Tank, and 44 Artillery Systems in One Day - UNITED24 Media",
-    "Trump removes Vice President from handling the war in Iran - Baltic News Network",
-    "Trump says Iran war could end soon, defends military campaign despite fuel disrupts - \u0633\u0627\u0646\u0627"
+    "Who is Gadi Eisenkot? Netanyahu\u2019s rival, Gaza war commander, son of Morocco - The Africa Report",
+    "France, Cyprus and Sweden to Jointly Buy MBDA\u2019s Akeron MP Missile - Envanter Medya",
+    "War weighs on Air Arabia profit but liquidity holds up - Arabian Gulf Business Insight | AGBI"
    ]
   },
   "today": [
