@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T06:30:20.363968-05:00",
+ "updated": "2026-11-13T06:35:20.307382-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3893.850098,
-   "feed": "real-time gold (PAXG, matched to spot +14.88)",
-   "time": "2026-11-13T06:25:00-05:00"
+   "price": 3891.0,
+   "feed": "real-time gold (PAXG, matched to spot +14.17)",
+   "time": "2026-11-13T06:30:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Democrats Prepare to Squeeze Trump Over Iran War - La Voce di New York",
-    "Seized Western Businesses Donate $86M to Russian War Effort - The Moscow Times",
-    "UK targets nine more vessels in latest Russia sanctions package - safety4sea"
+    "Asian Refiners Turn Back to Gulf Oil Despite War Risks - Crude Oil Prices Today | OilPrice.com",
+    "States are preparing for war in space, warns Swiss expert - SWI swissinfo.ch",
+    "Exclusive: Marine war rates surge up to 50-fold on wider pricing pressure - Intelligent Insurer"
    ]
   },
   "today": [
