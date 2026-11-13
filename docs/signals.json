@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T05:30:20.320010-05:00",
+ "updated": "2026-11-13T05:35:20.306845-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3901.969971,
+   "price": 3900.699951,
    "feed": "real-time gold (PAXG, matched to spot +13.26)",
-   "time": "2026-11-13T05:25:00-05:00"
+   "time": "2026-11-13T05:30:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Europeans overwhelmingly back creation of EU army amid fears of war with Russia - The Independent",
-    "Algeria test-fires apparent Chinese YJ-12 missile in Mediterranean drill - South China Morning Post",
-    "Wyesham war hero defies illness for Remembrance Service - Monmouthshire Beacon"
+    "Black Sea war risk insurance premiums surge to 20% of vessel value - Beinsure",
+    "'No war and no peace' between the US and Iran 'cannot continue', Iraqi FM says - France 24",
+    "Hollywood sign\u2019s wealthy neighbours at war with selfie-taking tourists - The Times"
    ]
   },
   "today": [
