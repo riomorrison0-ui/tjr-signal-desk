@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T01:30:20.279325-05:00",
+ "updated": "2026-11-13T01:35:20.278486-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3903.149902,
-   "feed": "real-time gold (PAXG, matched to spot +12.99)",
-   "time": "2026-11-13T01:25:00-05:00"
+   "price": 3900.949951,
+   "feed": "real-time gold (PAXG, matched to spot +13.08)",
+   "time": "2026-11-13T01:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Gulf war leaves toxic legacy that could last decades - Splash247",
     "British MPs seek better protection for US war planes - The National",
-    "How the Iran War Exposes Cracks in America\u2019s Foundation - The Dispatch",
-    "Don\u2019t you know there\u2019s a war on? - The Telegraph"
+    "How the Iran War Exposes Cracks in America\u2019s Foundation - The Dispatch"
    ]
   },
   "today": [
