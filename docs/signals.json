@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T07:30:20.352634-05:00",
+ "updated": "2026-11-13T07:35:20.358350-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.050049,
-   "feed": "real-time gold (PAXG, matched to spot +14.31)",
-   "time": "2026-11-13T07:25:00-05:00"
+   "price": 3895.399902,
+   "feed": "real-time gold (PAXG, matched to spot +14.35)",
+   "time": "2026-11-13T07:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (EXCLUSIVE) - Variety",
-    "Britain\u2019s Legendary Land Rover Gets a Ukrainian Makeover\u2014Now It Drives Into War Without a Driver - UNITED24 Media",
-    "Edge\u2019s Wolfshark Low-Cost Cruise Missile Takes Flight - Aviation Week"
+    "Gagauzia Elections: A Crucial Test for Moldova - Institute for War & Peace Reporting - IWPR",
+    "Shelton: Mariners Must \"Be Ready To Go To War\" Against Swindon - Grimsby Town Football Club",
+    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (EXCLUSIVE) - Variety"
    ]
   },
   "today": [
