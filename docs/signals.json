@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T06:15:20.347737-05:00",
+ "updated": "2026-11-13T06:20:20.342108-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3895.649902,
-   "feed": "real-time gold (PAXG, matched to spot +13.96)",
-   "time": "2026-11-13T06:10:00-05:00"
+   "price": 3896.469971,
+   "feed": "real-time gold (PAXG, matched to spot +14.34)",
+   "time": "2026-11-13T06:15:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Oil supply to exceed global demand for first time since Iran war - Belga Share",
-    "Crude oil jumps as escalation risks increase after Trump says the US doesn't need Iran deal - investingLive",
-    "Russian Troops Try to Cross Ukraine\u2019s Drone Kill Zone on Scooters\u2014But the Drones Are Faster - UNITED24 Media"
+    "Democrats Prepare to Squeeze Trump Over Iran War - La Voce di New York",
+    "Seized Western Businesses Donate $86M to Russian War Effort - The Moscow Times",
+    "UK targets nine more vessels in latest Russia sanctions package - safety4sea"
    ]
   },
   "today": [
