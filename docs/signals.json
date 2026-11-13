@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T05:10:20.339111-05:00",
+ "updated": "2026-11-13T05:15:20.338299-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3905.649902,
-   "feed": "real-time gold (PAXG, matched to spot +13.88)",
-   "time": "2026-11-13T05:05:00-05:00"
+   "price": 3905.050049,
+   "feed": "real-time gold (PAXG, matched to spot +13.45)",
+   "time": "2026-11-13T05:10:00-05:00"
   }
  },
  "stats": {
@@ -39,12 +39,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 3,
    "examples": [
-    "Wyesham war hero defies illness for Remembrance Service - Monmouthshire Beacon",
-    "\u2018We will sue them\u2019: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans - CNBC",
-    "Shenyang J-8 Finback: China\u2019s Twin-Engine Cold War Interceptor - MiGFlug"
+    "Europeans overwhelmingly back creation of EU army amid fears of war with Russia - The Independent",
+    "Algeria test-fires apparent Chinese YJ-12 missile in Mediterranean drill - South China Morning Post",
+    "Wyesham war hero defies illness for Remembrance Service - Monmouthshire Beacon"
    ]
   },
   "today": [
