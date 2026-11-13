@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T15:20:20.440071-05:00",
+ "updated": "2026-11-13T15:25:20.461145-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.699951,
-   "feed": "real-time gold (PAXG, matched to spot +5.79)",
-   "time": "2026-11-13T15:15:00-05:00"
+   "price": 3880.100098,
+   "feed": "real-time gold (PAXG, matched to spot +5.84)",
+   "time": "2026-11-13T15:20:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US declares three Guatemalan gangs to be terrorist groups, imposes sanctions - KTAR News 92.3 FM",
-    "Police in Surrey arrest, charge home invasion suspect - Surrey Now-Leader",
-    "\"He's done it AGAIN\" \u2013 Springboks risk World Rugby sanctions after Rassie Erasmus gamble - Ruck.co.uk"
+    "Protesters urge UK government to impose sanctions on Israel over Gaza genocide - Anadolu Ajans\u0131",
+    "Texas A&M University establishes Center for the Study of War and Society - Texas A&M Stories",
+    "Opinion | The National Mall should memorialize war \u2014 and peace - The Washington Post"
    ]
   },
   "today": [
