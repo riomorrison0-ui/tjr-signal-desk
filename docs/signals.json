@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T08:05:20.340646-05:00",
+ "updated": "2026-11-13T08:10:20.337151-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3895.27002,
-   "feed": "real-time gold (PAXG, matched to spot +14.27)",
-   "time": "2026-11-13T08:00:00-05:00"
+   "price": 3893.25,
+   "feed": "real-time gold (PAXG, matched to spot +16.86)",
+   "time": "2026-11-13T08:05:00-05:00"
   }
  },
  "stats": {
@@ -49,9 +49,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "New sanctions on Russia: EU strikes at the shadow fleet - Defence24.com",
-    "\u2018Colossal mistake\u2019: Gov. Newsom tells Iranian filmmaker about Iran war - CNN",
-    "Big Oil\u2019s War-Fueled Profits Revive Calls for Windfall Taxes - Bloomberg.com"
+    "Malaysian War Drama \u2018The Ghost and the Gun\u2019 Sets Global Netflix Release (Exclusive) - IMDb",
+    "ASEAN leaders to discuss new energy security measures as US-Iran war drags on - Arab News",
+    "Nokia Federal Solutions awarded Department of War RAPID contract to advance multi-domain threat awareness - Nokia"
    ]
   },
   "today": [
