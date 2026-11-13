@@ -1,22 +1,27 @@
 {
- "updated": "2026-11-13T10:30:20.466277-05:00",
+ "updated": "2026-11-13T10:35:20.441737-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3883.27002,
-   "feed": "real-time gold (PAXG, matched to spot +12.86)",
-   "time": "2026-11-13T10:25:00-05:00"
+   "price": 3878.949951,
+   "feed": "real-time gold (PAXG, matched to spot +10.64)",
+   "time": "2026-11-13T10:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 0,
-  "wins": 0,
-  "win_rate": null,
-  "total_r": 0,
-  "avg_r": null,
-  "balance": 2000.0,
+  "trades": 1,
+  "wins": 1,
+  "win_rate": 100.0,
+  "total_r": 0.71,
+  "avg_r": 0.708,
+  "balance": 2027.07,
   "start_balance": 2000.0,
-  "curve": []
+  "curve": [
+   {
+    "t": "2026-11-13T10:35:00-05:00",
+    "balance": 2027.07
+   }
+  ]
  },
  "news": {
   "blackout": null,
@@ -25,9 +30,9 @@
    "level": "high",
    "count": 7,
    "examples": [
+    "Date for the Manchester City appeal SET, with timeline emerging for sanctions: report - FourFourTwo",
     "Stow Maries Great War Aerodrome hosts \u00a35 Christmas fair - InYourArea",
-    "How Russians Trick Ghanaians Into Their War: POW's Story - Stop Russian Recruiters",
-    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post"
+    "How Russians Trick Ghanaians Into Their War: POW's Story - Stop Russian Recruiters"
    ]
   },
   "today": [
@@ -6749,12 +6754,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-13T10:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-13T10:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-13T10:35:00-05:00",
+   "exit_price": 3878.949951,
+   "r": 0.708,
+   "notes": [
+    "legs: TP1 tp, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-13T10:30:00-05:00",
@@ -6782,13 +6789,17 @@
      "tp": 3865.35,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3878.949951,
+     "exit_time": "2026-11-13T10:35:00-05:00",
+     "r": 0.944
     }
    ],
    "news": {
     "risk": "high",
     "next": null
-   }
+   },
+   "pnl_gbp": 27.07
   }
  ]
 }
