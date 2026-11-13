@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T19:30:20.348299-05:00",
+ "updated": "2026-11-12T19:35:20.308017-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.100098,
-   "feed": "real-time gold (PAXG, matched to spot +0.08)",
-   "time": "2026-11-12T19:25:00-05:00"
+   "price": 3882.300049,
+   "feed": "real-time gold (PAXG, matched to spot +0.59)",
+   "time": "2026-11-12T19:30:00-05:00"
   }
  },
  "stats": {
@@ -42,9 +42,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Second world war \u2018brain\u2019 bunker in cliffs of Dover opens to public - The Guardian",
-    "Hidden Second World War plotting room beneath White Cliffs to open for first time - Kent Online",
-    "Iran War Lifts Crude Midstream Earnings, Complicates Routes to Market - Hart Energy"
+    "After meeting Putin, U.S. envoys say Europe to join talks on ending Ukraine war - The Washington Post",
+    "Ethiopia's Tigray conflict: Has Abiy Ahmed defeated the TPLF? - BBC",
+    "\"I Have Won The War Already\" by Dan Mangan - Northern Transmissions"
    ]
   },
   "today": [
