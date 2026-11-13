@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T12:00:20.562608-05:00",
+ "updated": "2026-11-13T12:05:20.494331-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3873.64,
-   "feed": "real-time gold (PAXG, matched to spot +0.00)",
-   "time": "2026-11-13T11:55:00-05:00"
+   "price": 3880.969971,
+   "feed": "real-time gold (PAXG, matched to spot +8.68)",
+   "time": "2026-11-13T12:00:00-05:00"
   }
  },
  "stats": {
@@ -27,8 +27,8 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 3,
    "examples": [
     "France plans tougher sanctions, arrests over high school blockades: Report - Anadolu Ajans\u0131",
     "Ceasefire before peace agreement, says EU\u2019s Kallas - TVP World",
