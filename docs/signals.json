@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T04:55:20.326466-05:00",
+ "updated": "2026-11-13T05:00:20.331178-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3898.27002,
-   "feed": "real-time gold (PAXG, matched to spot +9.30)",
-   "time": "2026-11-13T04:50:00-05:00"
+   "price": 3903.600098,
+   "feed": "real-time gold (PAXG, matched to spot +12.47)",
+   "time": "2026-11-13T04:55:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Shenyang J-8 Finback: China\u2019s Twin-Engine Cold War Interceptor - MiGFlug",
-    "UK blacklists 11 ships in fresh Russia sanctions sweep - Splash247",
-    "Dassault Mirage F1: The Swept-Wing Mirage That Went to War - MiGFlug"
+    "Wyesham war hero defies illness for Remembrance Service - Monmouthshire Beacon",
+    "\u2018We will sue them\u2019: Canada threatens Stellantis as Trump trade war reshapes Jeep production plans - CNBC",
+    "Shenyang J-8 Finback: China\u2019s Twin-Engine Cold War Interceptor - MiGFlug"
    ]
   },
   "today": [
