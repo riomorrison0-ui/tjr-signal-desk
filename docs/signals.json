@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T07:00:20.367829-05:00",
+ "updated": "2026-11-13T07:05:20.380330-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3899.149902,
-   "feed": "real-time gold (PAXG, matched to spot +15.42)",
-   "time": "2026-11-13T06:55:00-05:00"
+   "price": 3897.719971,
+   "feed": "real-time gold (PAXG, matched to spot +12.66)",
+   "time": "2026-11-13T07:00:00-05:00"
   }
  },
  "stats": {
@@ -40,11 +40,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Norway Moves to Shut Out Russian and Belarusian Athletes Until Moscow Ends Its War in Ukraine - UNITED24 Media",
-    "War with Iran may be delayed, but the threat of renewed conflict remains - Ynetnews",
-    "Bloomberg: Seized European firms fund Russia\u2019s war in Ukraine - TVP World"
+    "Journey\u2019s End forces us to remember that war\u2019s nature never changes - Varsity Online",
+    "The Week in Trade: COP31, International Trade Week, latest Russia sanctions and potential EV tariff delays - The Chartered Institute of Export & International Trade",
+    "Question Time panel debate if UK is ready for war - BBC"
    ]
   },
   "today": [
