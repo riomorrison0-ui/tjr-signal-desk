@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T13:20:20.447826-05:00",
+ "updated": "2026-11-13T13:25:20.445577-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3887.699951,
-   "feed": "real-time gold (PAXG, matched to spot +6.65)",
-   "time": "2026-11-13T13:15:00-05:00"
+   "price": 3889.649902,
+   "feed": "real-time gold (PAXG, matched to spot +9.18)",
+   "time": "2026-11-13T13:20:00-05:00"
   }
  },
  "stats": {
@@ -28,11 +28,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post",
-    "If Gen Z are asked to go to war, it might not be in the way they expect - The Guardian",
-    "Stevie Wonder speaks out against war, backs Macklemore - The New Arab"
+    "Russia's Sibur calls UK sanctions illegitimate, reserves right to challenge them - London South East",
+    "Europe ramps up space war with Russia through 'low orbit' technology - Metro.co.uk",
+    "Trump falsely claims \u2018nobody\u2019s been killed\u2019 in Iran war \u2018in the last five months\u2019 - The Washington Post"
    ]
   },
   "today": [
