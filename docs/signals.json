@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T12:45:20.493152-05:00",
+ "updated": "2026-11-13T12:50:20.427024-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3888.969971,
-   "feed": "real-time gold (PAXG, matched to spot +7.35)",
-   "time": "2026-11-13T12:40:00-05:00"
+   "price": 3890.850098,
+   "feed": "real-time gold (PAXG, matched to spot +6.78)",
+   "time": "2026-11-13T12:45:00-05:00"
   }
  },
  "stats": {
@@ -27,12 +27,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Stevie Wonder speaks out against war, backs Macklemore - The New Arab",
     "Infiltration and \u2018Muqawama\u2019: The Islamist war of attrition within Europe - The Times of Israel",
-    "Wildberries Billionaire Tatyana Kim Faces EU Sanctions Over Company\u2019s Military Links - UNITED24 Media",
-    "Netherlands denies active talks with US over curbing ICC powers to lift sanctions - Middle East Eye"
+    "Wildberries Billionaire Tatyana Kim Faces EU Sanctions Over Company\u2019s Military Links - UNITED24 Media"
    ]
   },
   "today": [
