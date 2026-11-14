@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-13T16:55:20.357431-05:00",
+ "updated": "2026-11-13T21:46:26.396894-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.550049,
-   "feed": "real-time gold (PAXG, matched to spot +6.56)",
-   "time": "2026-11-13T16:50:00-05:00"
+   "price": 3887.600098,
+   "feed": "real-time gold (PAXG, matched to spot +18.43)",
+   "time": "2026-11-13T21:40:00-05:00"
   }
  },
  "stats": {
@@ -34,73 +34,17 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "WNTD Apparel | ART IS WAR CARGO PANTS | Pants - Complex",
-    "U.S., Colombian Armies Expand Cooperation - U.S. Department of War (.gov)",
-    "Naval Academy Honors Marine Aviators With Harrier Display - U.S. Department of War (.gov)"
+    "Iran's oil output plunges below pre-war domestic needs - Iran International",
+    "Behind Jensen Huang\u2019s spy scandal, a shadow war for Trump\u2019s ear on China - The Washington Post",
+    "Texas A&M University establishes Center for the Study of War and Society - Texas A&M Stories"
    ]
   },
   "today": [
    {
-    "title": "Core PPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-13T13:30:00+00:00",
-    "forecast": "0.3%",
-    "previous": "0.7%"
-   },
-   {
-    "title": "PPI m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-13T13:30:00+00:00",
-    "forecast": "0.4%",
-    "previous": "1.3%"
-   },
-   {
-    "title": "FOMC Member Collins Speaks",
+    "title": "FOMC Member Jefferson Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-13T14:10:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Logan Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T14:40:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Natural Gas Storage",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T15:30:00+00:00",
-    "forecast": "65B",
-    "previous": "77B"
-   },
-   {
-    "title": "FOMC Member Bowman Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T15:50:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Daly Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T17:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Financial Stability Report",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-13T21:00:00+00:00",
+    "time": "2026-11-14T00:00:00+00:00",
     "forecast": "",
     "previous": ""
    }
