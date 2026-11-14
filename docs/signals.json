@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-14T03:32:31.949379-05:00",
+ "updated": "2026-11-14T09:18:38.896625-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3887.600098,
-   "feed": "real-time gold (PAXG, matched to spot +20.72)",
-   "time": "2026-11-14T03:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +22.29)",
+   "time": "2026-11-14T09:10:00-05:00"
   }
  },
  "stats": {
@@ -34,9 +34,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "From Ukraine to Gaza, this is why we need to tell better stories about war - The Guardian",
-    "Tim Robins revisits the 1975 horror film \u201cThe Giant Spider Invasion\u201d - downthetubes.net",
-    "Check Point Gaia CVE-2026-123039: Exploited DynamicCLI Root Escalation Added to CISA KEV \u2014 Patch Now - Rescana"
+    "China\u2019s Mach 3 \u2018Carrier Killer\u2019 missile with 180-mile range tested near Mediterranean - Interesting Engineering",
+    "John Gwynne dives deep on writing The Wolves of War and the story's powerful inspirations (Exclusive) - Winter is Coming",
+    "Putin rejects proposal for mutual ceasefire on energy infrastructure attacks \u2013 Zelenskyy - The New Voice of Ukraine"
    ]
   },
   "today": [
