@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T08:22:32.800471-05:00",
+ "updated": "2026-11-15T14:08:39.241030-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3887.600098,
-   "feed": "real-time gold (PAXG, matched to spot +58.72)",
-   "time": "2026-11-15T08:15:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +51.53)",
+   "time": "2026-11-15T14:00:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "In calling for an end to the Iran War, Vance walks a thin line with Trump - NPR",
-    "5 killed in Houthi missile attack on checkpoint near Yemen\u2019s Aden - The Times of Israel",
-    "Russo-Ukrainian war, day 1725: Russia demands NATO pullback and end to Britain\u2019s nuclear shield over Europe - Euromaidan Press"
+    "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine\u2019s future in China - EUobserver",
+    "Scotland v Wallabies: Five takeaways as wet-weather hosts prevail thanks to Rory Darge winning floor war - Planet Rugby",
+    "Putin\u2019s unrealistic conditions to end Ukraine\u2019s war - European Interest"
    ]
   },
   "today": [],
