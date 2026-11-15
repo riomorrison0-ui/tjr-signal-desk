@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-14T20:50:20.388207-05:00",
+ "updated": "2026-11-15T02:36:25.944820-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3800.49,
+   "price": 3825.36,
    "feed": "real-time gold (PAXG, matched to spot +0.00)",
-   "time": "2026-11-14T20:45:00-05:00"
+   "time": "2026-11-15T02:30:00-05:00"
   }
  },
  "stats": {
@@ -29,14 +29,39 @@
  },
  "news": {
   "blackout": null,
-  "next": [],
+  "next": [
+   {
+    "title": "Fed Chairman Warsh Speaks",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-16T17:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Core Retail Sales m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-17T13:30:00+00:00",
+    "forecast": "0.4%",
+    "previous": "0.9%"
+   },
+   {
+    "title": "Retail Sales m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-17T13:30:00+00:00",
+    "forecast": "0.2%",
+    "previous": "0.8%"
+   }
+  ],
   "risk": {
    "level": "high",
    "count": 5,
    "examples": [
-    "EU membership?: Ukraine\u2019s path to accession narrows as war drags on - Sight Magazine",
-    "Hamas confirms senior commander killed in Israeli airstrike in Gaza - Investing.com",
-    "Israeli air strike kills senior Hamas commander in Gaza - Al Jazeera"
+    "Iran: will Trump resume the war? - The Week",
+    "Ghalibaf: Iran Rejects \u201cNeither War nor Peace\u201d - WANA News Agency",
+    "How the fog of war puts journalism in the frame - OnlineKhabar English News"
    ]
   },
   "today": [],
