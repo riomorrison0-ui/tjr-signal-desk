@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T14:08:39.241030-05:00",
+ "updated": "2026-11-15T18:00:20.329478-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3887.600098,
-   "feed": "real-time gold (PAXG, matched to spot +51.53)",
-   "time": "2026-11-15T14:00:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +35.44)",
+   "time": "2026-11-15T17:55:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine\u2019s future in China - EUobserver",
-    "Scotland v Wallabies: Five takeaways as wet-weather hosts prevail thanks to Rory Darge winning floor war - Planet Rugby",
-    "Putin\u2019s unrealistic conditions to end Ukraine\u2019s war - European Interest"
+    "Pregame Quick Hits | On Anniversary Of Winning The War of 18-12, Bengals Look To Slug It Out With Steelers - Cincinnati Bengals",
+    "Man O' War Possible For New York-Bred Stakes Winner Sounds Like A Plan - Yahoo Sports",
+    "Russia Sanctions Tighten as Crypto and Fintech Fuel Oil Revenue Flows, Hockey Tensions, and Legislative Pushback - Crowdfund Insider"
    ]
   },
   "today": [],
