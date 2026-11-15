@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T18:35:20.297006-05:00",
+ "updated": "2026-11-15T18:40:20.305254-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3885.449951,
-   "feed": "real-time gold (PAXG, matched to spot +16.59)",
-   "time": "2026-11-15T18:30:00-05:00"
+   "price": 3885.169922,
+   "feed": "real-time gold (PAXG, matched to spot +7.95)",
+   "time": "2026-11-15T18:35:00-05:00"
   }
  },
  "stats": {
@@ -61,7 +61,7 @@
    "examples": [
     "Prince Harry on surprise visit to Ukraine to meet injured war veterans | BBC News - Modern Ghana",
     "Maoists, A-bombs, and Ohio: How Cold War tensions fuelled Pere Ubu\u2019s post-punk masterpiece - Far Out Magazine",
-    "U.S. sanctions fail to stop Russia, China and India as Putin's oil revenues hit their highest level since the Ukraine war began and 2 African nations emerge in his shadow fleet - Business Insider Africa"
+    "Miner-smelter tug-of-war rocks long-standing copper benchmark - TradingView"
    ]
   },
   "today": [],
