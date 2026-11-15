@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T18:50:20.326813-05:00",
+ "updated": "2026-11-15T18:55:20.298708-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3901.100098,
-   "feed": "real-time gold (PAXG, matched to spot +13.67)",
-   "time": "2026-11-15T18:45:00-05:00"
+   "price": 3903.820068,
+   "feed": "real-time gold (PAXG, matched to spot +16.24)",
+   "time": "2026-11-15T18:50:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Prince Harry on surprise visit to Ukraine to meet injured war veterans | BBC News - Modern Ghana",
-    "Maoists, A-bombs, and Ohio: How Cold War tensions fuelled Pere Ubu\u2019s post-punk masterpiece - Far Out Magazine",
-    "Miner-smelter tug-of-war rocks long-standing copper benchmark - TradingView"
+    "China\u2019s HQ-17A air-defense network offers mobile missile protection for troops near Taiwan Strait - Interesting Engineering",
+    "Prince Harry tells wounded soldiers in Ukraine 'you're going to win the war' - AOL.co.uk",
+    "Prince Harry on surprise visit to Ukraine to meet injured war veterans | BBC News - Modern Ghana"
    ]
   },
   "today": [],
