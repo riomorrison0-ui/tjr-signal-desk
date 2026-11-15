@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T18:15:20.339747-05:00",
+ "updated": "2026-11-15T18:20:20.332233-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3888.27002,
-   "feed": "real-time gold (PAXG, matched to spot +18.66)",
-   "time": "2026-11-15T18:10:00-05:00"
+   "price": 3882.399902,
+   "feed": "real-time gold (PAXG, matched to spot +17.19)",
+   "time": "2026-11-15T18:15:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "U.S. sanctions fail to stop Russia, China and India as Putin's oil revenues hit their highest level since the Ukraine war began and 2 African nations emerge in his shadow fleet - Business Insider Africa",
-    "Pregame Quick Hits | On Anniversary Of Winning The War of 18-12, Bengals Look To Slug It Out With Steelers - Cincinnati Bengals",
-    "Man O' War Possible For New York-Bred Stakes Winner Sounds Like A Plan - Yahoo Sports"
+    "Prince Harry on surprise visit to Ukraine to meet injured war veterans | BBC News - Modern Ghana",
+    "Maoists, A-bombs, and Ohio: How Cold War tensions fuelled Pere Ubu\u2019s post-punk masterpiece - Far Out Magazine",
+    "U.S. sanctions fail to stop Russia, China and India as Putin's oil revenues hit their highest level since the Ukraine war began and 2 African nations emerge in his shadow fleet - Business Insider Africa"
    ]
   },
   "today": [],
