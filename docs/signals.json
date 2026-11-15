@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T02:36:25.944820-05:00",
+ "updated": "2026-11-15T08:22:32.800471-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3825.36,
-   "feed": "real-time gold (PAXG, matched to spot +0.00)",
-   "time": "2026-11-15T02:30:00-05:00"
+   "price": 3887.600098,
+   "feed": "real-time gold (PAXG, matched to spot +58.72)",
+   "time": "2026-11-15T08:15:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran: will Trump resume the war? - The Week",
-    "Ghalibaf: Iran Rejects \u201cNeither War nor Peace\u201d - WANA News Agency",
-    "How the fog of war puts journalism in the frame - OnlineKhabar English News"
+    "In calling for an end to the Iran War, Vance walks a thin line with Trump - NPR",
+    "5 killed in Houthi missile attack on checkpoint near Yemen\u2019s Aden - The Times of Israel",
+    "Russo-Ukrainian war, day 1725: Russia demands NATO pullback and end to Britain\u2019s nuclear shield over Europe - Euromaidan Press"
    ]
   },
   "today": [],
