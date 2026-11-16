@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T04:45:20.443459-05:00",
+ "updated": "2026-11-16T04:50:20.472612-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3858.370117,
-   "feed": "real-time gold (PAXG, matched to spot +14.55)",
-   "time": "2026-11-16T04:40:00-05:00"
+   "price": 3858.550049,
+   "feed": "real-time gold (PAXG, matched to spot +15.42)",
+   "time": "2026-11-16T04:45:00-05:00"
   }
  },
  "stats": {
@@ -60,12 +60,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Ukraine war, latest news. Zelensky: over 55 per cent of Russia\u2019s refining capacity has been neutralised - Il Sole 24 ORE",
     "U.S. Army Whistleblower Alleges Warnings Dismissed Before Deadly Attack - Time Magazine",
-    "EU to adopt sanctions on November 16 against 113 individuals and companies, including \u201cValya\u2019s son\u201d - Mezha.net"
+    "EU to adopt sanctions on November 16 against 113 individuals and companies, including \u201cValya\u2019s son\u201d - Mezha.net",
+    "Araghchi: ECO Foreign Ministers Back Iran\u2019s Two-Day Plan to End War - WANA News Agency"
    ]
   },
   "today": [
