@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T02:55:20.428423-05:00",
+ "updated": "2026-11-16T03:00:20.461002-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3856.949951,
-   "feed": "real-time gold (PAXG, matched to spot +12.63)",
-   "time": "2026-11-16T02:50:00-05:00"
+   "price": 3859.149902,
+   "feed": "real-time gold (PAXG, matched to spot +12.45)",
+   "time": "2026-11-16T02:55:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "The EU is preparing sanctions against Tatyana Kim, the founder of Wildberries - UkrMedia News",
-    "Iran refuses IAEA access until US war permanently ends - The New Region",
-    "How war is redrawing the world\u2019s oil map - TradeWinds News"
+    "Daily Update: Russia Loses 2,560 Troops, 6 Anti-Air Systems, and 23 Armored Vehicles in One Day - UNITED24 Media",
+    "Japanese civic group holds documentary screening to warn of war risks - Xinhua",
+    "The EU is preparing sanctions against Tatyana Kim, the founder of Wildberries - UkrMedia News"
    ]
   },
   "today": [
