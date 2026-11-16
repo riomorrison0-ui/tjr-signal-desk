@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T00:35:20.307203-05:00",
+ "updated": "2026-11-16T00:40:20.296479-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3877.850098,
-   "feed": "real-time gold (PAXG, matched to spot +21.57)",
-   "time": "2026-11-16T00:30:00-05:00"
+   "price": 3871.25,
+   "feed": "real-time gold (PAXG, matched to spot +15.45)",
+   "time": "2026-11-16T00:35:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Monday briefing: Manchester City appeal set for December with possible sanctions in 2027 - Football Finance Data",
     "Svitolina to return to Ukraine, vows continued support for war-hit homeland - TVP World",
-    "Europe being pushed towards \u2018war with Russia\u2019, anti-nuclear chief warns - The National Scot",
-    "Uncertainty Abounds in a U.S.-Iran \u201cNo War-No Peace\u201d Environment - The Soufan Center"
+    "Europe being pushed towards \u2018war with Russia\u2019, anti-nuclear chief warns - The National Scot"
    ]
   },
   "today": [
