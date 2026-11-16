@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T23:15:20.324854-05:00",
+ "updated": "2026-11-15T23:20:20.340848-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3873.100098,
-   "feed": "real-time gold (PAXG, matched to spot +12.31)",
-   "time": "2026-11-15T23:10:00-05:00"
+   "price": 3860.78,
+   "feed": "real-time gold (PAXG, matched to spot +0.00)",
+   "time": "2026-11-15T23:15:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine Hits Russia\u2019s Akhtubinsk Test Airfield, Triggering Guided-Missile Parts Blast - The SOFX Report",
-    "'We were ready': Abu Dhabi environment chief hails efforts to protect nature from Iran war threat - The National",
-    "Ukraine\u2019s Svitolina heads to war-torn home front after WTA Finals loss - South China Morning Post"
+    "Iran warns \u2018no war, no peace\u2019 will not last amid tension over compensation - Amwaj.media",
+    "The energy realignment: How the Iran war fuels China\u2019s EVs - ThinkChina",
+    "Third time's the charm? Israel risks another Iran war without learning from past failures - Ynetnews"
    ]
   },
   "today": [
