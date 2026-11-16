@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T18:40:20.358846-05:00",
+ "updated": "2026-11-16T18:45:20.340362-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.699951,
-   "feed": "real-time gold (PAXG, matched to spot +13.94)",
-   "time": "2026-11-16T18:35:00-05:00"
+   "price": 3854.669922,
+   "feed": "real-time gold (PAXG, matched to spot +12.51)",
+   "time": "2026-11-16T18:40:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Vance says Iran won\u2019t be \u2018forever war\u2019 as Trump sends aircraft carrier to Middle East - The Independent",
     "EU Targets Shadow Fleet Shipowners, Managers and Insurers in New Russia Sanctions - gCaptain",
-    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-    "What Every Multinational Should Know About \u2026 Operation Economic Outcast and the Tightening Sanctions on Iran - The National Law Review"
+    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post"
    ]
   },
   "today": [
