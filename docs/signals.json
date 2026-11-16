@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T02:40:20.477882-05:00",
+ "updated": "2026-11-16T02:45:20.432897-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.75,
-   "feed": "real-time gold (PAXG, matched to spot +16.40)",
-   "time": "2026-11-16T02:35:00-05:00"
+   "price": 3858.370117,
+   "feed": "real-time gold (PAXG, matched to spot +14.27)",
+   "time": "2026-11-16T02:40:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ukraine War, Day 1,726: Zelensky \u2014 We Have Neutralized 55% of Russia\u2019s Refineries - EA WorldView",
-    "Egypt, Kuwait Discuss Regional De-Escalation Efforts - ASHARQ AL-AWSAT English",
-    "Peak Energy eyes South Korea renewables as war disrupts fuel flows - Mezha.net"
+    "The EU is preparing sanctions against Tatyana Kim, the founder of Wildberries - UkrMedia News",
+    "Iran refuses IAEA access until US war permanently ends - The New Region",
+    "How war is redrawing the world\u2019s oil map - TradeWinds News"
    ]
   },
   "today": [
