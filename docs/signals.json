@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T09:30:20.260591-05:00",
+ "updated": "2026-11-16T09:35:20.248800-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.149902,
-   "feed": "real-time gold (PAXG, matched to spot +13.37)",
-   "time": "2026-11-16T09:25:00-05:00"
+   "price": 3875.75,
+   "feed": "real-time gold (PAXG, matched to spot +12.97)",
+   "time": "2026-11-16T09:30:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 8,
+   "count": 7,
    "examples": [
-    "From Sanctions to Maritime Interdiction: How the EU Operation Against the MIDAG Tanker Is Changing the Rules of Countering Russia\u2019s Shadow Fleet - Robert Lansing Institute",
-    "States must fund ICC to resist US sanctions, experts warn - University of Reading",
-    "Britain dangerously unprepared for war as Lords accuse ministers of complacency - National Security News"
+    "Trump\u2019s hair at center of civil war in GOP leadership as questions swirl over costs - The Independent",
+    "A Chatbot Goes to War in Dark Comedy Series 'Trenchers' \u2014 LBB - LBB - Little Black Book",
+    "EU sanctions pro-Russia hackers, two dozen staff at Kremlin disinformation contractor - The Record from Recorded Future News"
    ]
   },
   "today": [
