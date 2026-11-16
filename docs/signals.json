@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T11:05:20.283875-05:00",
+ "updated": "2026-11-16T11:10:20.272964-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.050049,
-   "feed": "real-time gold (PAXG, matched to spot +14.37)",
-   "time": "2026-11-16T11:00:00-05:00"
+   "price": 3860.899902,
+   "feed": "real-time gold (PAXG, matched to spot +11.24)",
+   "time": "2026-11-16T11:05:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
-    "Pentagon condemned over Iran war failures by Army major whistleblower: \u2018We did not plan this well\u2019 - The Independent",
-    "Russia Plans Harsher Penalties as It Expands Crackdown on War Criticism - UNITED24 Media"
+    "France pushes for EU sanctions on Iran over supermarket cyberattack - The New Region",
+    "Sanctions against russia and billions of euros for Ukraine: key outcomes of the EU Council meeting on November 16 - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "Pearl Harbor veteran who witnessed the official end of World War II dies - The Independent"
    ]
   },
   "today": [
