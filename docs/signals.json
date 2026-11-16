@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T00:00:20.318162-05:00",
+ "updated": "2026-11-16T00:05:20.324168-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.899902,
-   "feed": "real-time gold (PAXG, matched to spot +12.41)",
-   "time": "2026-11-15T23:55:00-05:00"
+   "price": 3870.100098,
+   "feed": "real-time gold (PAXG, matched to spot +12.18)",
+   "time": "2026-11-16T00:00:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Blasts in Bahrain as Iran claims attack on US base - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "Iran warns \u2018no war, no peace\u2019 will not last amid tension over compensation - Amwaj.media",
-    "The energy realignment: How the Iran war fuels China\u2019s EVs - ThinkChina"
+    "Uncertainty Abounds in a U.S.-Iran \u201cNo War-No Peace\u201d Environment - The Soufan Center",
+    "Students to stage mass walkout as part of international anti-war movement - The Argus",
+    "DLSS 5 in War Thunder: AI improves graphics - igor\u00b4sLAB"
    ]
   },
   "today": [
