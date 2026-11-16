@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T11:25:20.297393-05:00",
+ "updated": "2026-11-16T11:30:20.281075-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3862.699951,
-   "feed": "real-time gold (PAXG, matched to spot +15.36)",
-   "time": "2026-11-16T11:20:00-05:00"
+   "price": 3862.570068,
+   "feed": "real-time gold (PAXG, matched to spot +14.69)",
+   "time": "2026-11-16T11:25:00-05:00"
   }
  },
  "stats": {
@@ -40,7 +40,14 @@
   ]
  },
  "news": {
-  "blackout": null,
+  "blackout": {
+   "title": "Fed Chairman Warsh Speaks",
+   "country": "USD",
+   "impact": "High",
+   "time": "2026-11-16T17:00:00+00:00",
+   "forecast": "",
+   "previous": ""
+  },
   "next": [
    {
     "title": "Fed Chairman Warsh Speaks",
