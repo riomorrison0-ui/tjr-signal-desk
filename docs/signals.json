@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T13:40:20.342856-05:00",
+ "updated": "2026-11-16T13:45:20.370006-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3850.449951,
-   "feed": "real-time gold (PAXG, matched to spot +11.40)",
-   "time": "2026-11-16T13:35:00-05:00"
+   "price": 3850.969971,
+   "feed": "real-time gold (PAXG, matched to spot +12.04)",
+   "time": "2026-11-16T13:40:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UN says Israeli airstrike hit \u2018very close\u2019 to UN fuel convoy in Gaza - Anadolu Ajans\u0131",
-    "Italy unveils plans to develop a new naval missile launcher - Breaking Defense",
-    "How the Iran war has disrupted the world of sport - The New Arab"
+    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
+    "The Department Announces New Director of DoWEA - U.S. Department of War (.gov)",
+    "The delicate balance in America\u2019s AI chip war with China - Financial Times"
    ]
   },
   "today": [
