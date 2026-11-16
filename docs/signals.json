@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T07:20:20.454166-05:00",
+ "updated": "2026-11-16T07:25:20.434392-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3874.899902,
-   "feed": "real-time gold (PAXG, matched to spot +14.23)",
-   "time": "2026-11-16T07:15:00-05:00"
+   "price": 3875.570068,
+   "feed": "real-time gold (PAXG, matched to spot +15.61)",
+   "time": "2026-11-16T07:20:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Knowing When to Stop: War Termination as Strategy - orfonline.org",
-    "Gaza\u2019s diabetes patients struggle amid Israel\u2019s war - The New Arab",
-    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE"
+    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE",
+    "The director of \u2018Woman And War\u2019 hopes the film will give back some dignity to the women of Ukraine - Screen Daily",
+    "France expects EU sanctions on Iran in December over fridge hack - The New Arab"
    ]
   },
   "today": [
