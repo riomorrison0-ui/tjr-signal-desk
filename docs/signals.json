@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T22:45:20.321952-05:00",
+ "updated": "2026-11-15T22:50:20.303666-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.199951,
-   "feed": "real-time gold (PAXG, matched to spot +12.72)",
-   "time": "2026-11-15T22:40:00-05:00"
+   "price": 3874.25,
+   "feed": "real-time gold (PAXG, matched to spot +11.20)",
+   "time": "2026-11-15T22:45:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "China\u2019s new missile shield rewrites Indo-Pacific escalation math - Asia Times",
-    "The AI search war has broken out, and the tech giants are vying for far more than just answers. - eu.36kr.com",
-    "Russian Offensive Campaign Assessment, November 15, 2026 - Institute for the Study of War"
+    "Ukraine\u2019s Svitolina heads to war-torn home front after WTA Finals loss - South China Morning Post",
+    "'We were ready': Abu Dhabi environment chief hails efforts to protect nature from Iran war threat - www.thenationalnews.com",
+    "Thai official reaffirms commitment to ceasefire accord with Cambodia - Asia News Network"
    ]
   },
   "today": [
