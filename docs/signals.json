@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T23:45:20.343911-05:00",
+ "updated": "2026-11-15T23:50:20.308775-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3876.070068,
-   "feed": "real-time gold (PAXG, matched to spot +14.30)",
-   "time": "2026-11-15T23:40:00-05:00"
+   "price": 3874.850098,
+   "feed": "real-time gold (PAXG, matched to spot +14.40)",
+   "time": "2026-11-15T23:45:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Blasts in Bahrain as Iran claims attack on US base - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
     "Iran warns \u2018no war, no peace\u2019 will not last amid tension over compensation - Amwaj.media",
-    "The energy realignment: How the Iran war fuels China\u2019s EVs - ThinkChina",
-    "Third time's the charm? Israel risks another Iran war without learning from past failures - Ynetnews"
+    "The energy realignment: How the Iran war fuels China\u2019s EVs - ThinkChina"
    ]
   },
   "today": [
