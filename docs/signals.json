@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T19:54:50.821942-05:00",
+ "updated": "2026-11-15T19:55:42.218159-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3894.649902,
-   "feed": "real-time gold (PAXG, matched to spot +13.32)",
-   "time": "2026-11-15T19:45:00-05:00"
+   "price": 3895.649902,
+   "feed": "real-time gold (PAXG, matched to spot +12.95)",
+   "time": "2026-11-15T19:50:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "INTERVIEW: Peninsula Says Diverging US and EU Sanctions Rules Mean Bunker Suppliers Must Clear Every Deal Twice \u2014 Ship & Bunker - Ship & Bunker",
-    "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks - Fox News",
-    "Video: Portishead Reunite For Emotional War Child Concert With \"Roads\" And \"The Rip\" In 2022 - That Eric Alper"
+    "HBO\u2019s \u2018Lincoln Lawyer\u2019 Replacement Officially Continues Streaming War Path - Collider",
+    "Blinken says US ground invasion of Iran would be an \u201cabsolute disaster\u201d - Mezha.net",
+    "INTERVIEW: Peninsula Says Diverging US and EU Sanctions Rules Mean Bunker Suppliers Must Clear Every Deal Twice \u2014 Ship & Bunker - Ship & Bunker"
    ]
   },
   "today": [
@@ -113,8 +113,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.84,
-  "gbpusd": 1.3209
+  "stop_cap_usd": 52.85,
+  "gbpusd": 1.32118
  },
  "backtest": {
   "portfolio": {
