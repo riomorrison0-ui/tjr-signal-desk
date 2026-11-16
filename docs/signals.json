@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T15:45:20.328579-05:00",
+ "updated": "2026-11-16T15:50:20.385539-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3855.969971,
-   "feed": "real-time gold (PAXG, matched to spot +13.19)",
-   "time": "2026-11-16T15:40:00-05:00"
+   "price": 3855.52002,
+   "feed": "real-time gold (PAXG, matched to spot +13.16)",
+   "time": "2026-11-16T15:45:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Gaza: 6,233 Israeli Ceasefire Violations, 1,650 Palestinians Killed Since \u2018Truce\u2019 Began - Palestine Chronicle",
-    "US envoy Kushner claims progress made towards agreement to end war in Ukraine - The Irish Times",
-    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post"
+    "LeoLabs Buys Missile Defense and Space Awareness Engineering Firm FishEye - Via Satellite",
+    "Russia says Ukrainian aerial attack involved more than 1,300 drones - CBC",
+    "EU sanctions four Haitian gangs over serious human rights violations - Reuters"
    ]
   },
   "today": [
@@ -122,6 +122,22 @@
     "country": "USD",
     "impact": "Low",
     "time": "2026-11-16T19:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Barkin Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T23:10:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Goolsbee Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T23:30:00+00:00",
     "forecast": "",
     "previous": ""
    }
