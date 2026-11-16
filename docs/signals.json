@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T08:10:20.294106-05:00",
+ "updated": "2026-11-16T08:15:20.237920-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3873.899902,
-   "feed": "real-time gold (PAXG, matched to spot +15.67)",
-   "time": "2026-11-16T08:05:00-05:00"
+   "price": 3869.550049,
+   "feed": "real-time gold (PAXG, matched to spot +14.24)",
+   "time": "2026-11-16T08:10:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "How to Divorce During the War triumphs at Arras - Cineuropa",
-    "Chay Bowes put on EU sanctions list for allegedly spreading Russian \u2018propaganda\u2019 - The Irish Times",
-    "Ukraine launches biggest drone attack on Russia since war began, defence ministry data shows - Reuters"
+    "EU adds Russia\u2019s richest woman to Ukraine war sanctions - Macau Business",
+    "Ethnic Gaps in Treatment Escalation for Systemic Lupus Erythematosus - EMJ",
+    "Debrief: Ursa Major Lines Up To Compete For USAF\u2019s Next Big Missile - Aviation Week"
    ]
   },
   "today": [
