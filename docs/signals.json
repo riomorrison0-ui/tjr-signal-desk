@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T12:50:20.251457-05:00",
+ "updated": "2026-11-16T12:55:20.256576-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.899902,
-   "feed": "real-time gold (PAXG, matched to spot +17.71)",
-   "time": "2026-11-16T12:45:00-05:00"
+   "price": 3860.199951,
+   "feed": "real-time gold (PAXG, matched to spot +15.07)",
+   "time": "2026-11-16T12:50:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Brussels Sanctions Russian Refineries, 'Shadow Fleet' Entities - Energy Intelligence",
-    "Syria: Progress \u2018real\u2019 but fragile, as remnants of war wreck young lives - UN News",
-    "More EU sanctions on Russian propagandists and hackers, as thousands of fake accounts target voters - EUobserver"
+    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
+    "A War Without Beneficiaries - Riddle Russia",
+    "The War Room newsletter: Will America or Iran blink first? - The Economist"
    ]
   },
   "today": [
