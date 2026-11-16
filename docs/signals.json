@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T20:40:20.290327-05:00",
+ "updated": "2026-11-15T20:45:20.314076-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.899902,
-   "feed": "real-time gold (PAXG, matched to spot +14.83)",
-   "time": "2026-11-15T20:35:00-05:00"
+   "price": 3873.52002,
+   "feed": "real-time gold (PAXG, matched to spot +8.00)",
+   "time": "2026-11-15T20:40:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Jensen Huang Eyes Comeback As Nvidia CEO, Allies Form 'War Room': Report - NDTV",
     "Trade War in Focus at ASEAN Summit Ahead of Trump Arrival - The China-Global South Project",
-    "Sam Brownback Gives Names and Faces to China\u2019s War on Faith - Bitter Winter",
-    "Harry surprise visit to Ukraine, \u2018you will win war\u2019 - Starts at 60"
+    "Sam Brownback Gives Names and Faces to China\u2019s War on Faith - Bitter Winter"
    ]
   },
   "today": [
@@ -102,6 +102,14 @@
     "country": "USD",
     "impact": "High",
     "time": "2026-11-16T17:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "FOMC Member Hammack Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T19:15:00+00:00",
     "forecast": "",
     "previous": ""
    }
