@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T11:50:20.249582-05:00",
+ "updated": "2026-11-16T11:56:08.639972-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.399902,
-   "feed": "real-time gold (PAXG, matched to spot +15.61)",
-   "time": "2026-11-16T11:45:00-05:00"
+   "price": 3860.469971,
+   "feed": "real-time gold (PAXG, matched to spot +13.78)",
+   "time": "2026-11-16T11:50:00-05:00"
   }
  },
  "stats": {
@@ -76,11 +76,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Regional Stability Impossible Without End to War in Lebanon - - WANA News Agency",
-    "Russia's Yandex shareholder leaves board after EU sanctions - marketscreener.com",
-    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post"
+    "Trump disparages \u201c60 Minutes\u201d after Iran War news story - IMDb",
+    "Iran built hundreds of dams to supply secret missile bases, researchers suspect - Ynetnews",
+    "Syrian authorities reopen 841 km of roads in war-hit Aleppo - Arab News"
    ]
   },
   "today": [
