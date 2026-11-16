@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T13:05:20.267840-05:00",
+ "updated": "2026-11-16T13:10:20.291047-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3852.600098,
-   "feed": "real-time gold (PAXG, matched to spot +13.92)",
-   "time": "2026-11-16T13:00:00-05:00"
+   "price": 3850.300049,
+   "feed": "real-time gold (PAXG, matched to spot +18.14)",
+   "time": "2026-11-16T13:05:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
-    "A War Without Beneficiaries - Riddle Russia",
-    "The War Room newsletter: Will America or Iran blink first? - The Economist"
+    "How the Iran war has disrupted the world of sport - The New Arab",
+    "EU adds Russian online retailer Wildberries' CEO to Russia sanctions list - TVP World",
+    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post"
    ]
   },
   "today": [
