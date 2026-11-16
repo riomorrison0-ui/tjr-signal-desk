@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T05:15:20.470390-05:00",
+ "updated": "2026-11-16T05:20:20.474100-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3866.169922,
-   "feed": "real-time gold (PAXG, matched to spot +15.49)",
-   "time": "2026-11-16T05:10:00-05:00"
+   "price": 3867.070068,
+   "feed": "real-time gold (PAXG, matched to spot +15.83)",
+   "time": "2026-11-16T05:15:00-05:00"
   }
  },
  "stats": {
@@ -61,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "The Nice Ones review \u2013 invasion of the sunny personality snatchers - The Guardian",
-    "Iran refuses nuclear inspections until war ends - Muslim Network TV",
-    "Hailsham community pays tribute to local war hero at Remembrance Day ceremony - SussexWorld"
+    "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume? - Al Jazeera",
+    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE",
+    "War May Answer Longtime Riddle of Iranian Dams Built for No Clear Reason - The New York Times"
    ]
   },
   "today": [
