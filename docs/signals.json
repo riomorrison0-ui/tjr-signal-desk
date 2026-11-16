@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T14:15:20.323237-05:00",
+ "updated": "2026-11-16T14:20:20.344632-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3858.699951,
-   "feed": "real-time gold (PAXG, matched to spot +12.35)",
-   "time": "2026-11-16T14:10:00-05:00"
+   "price": 3863.149902,
+   "feed": "real-time gold (PAXG, matched to spot +13.73)",
+   "time": "2026-11-16T14:15:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "A Parcel of Death: Balakliia and Russia\u2019s Banderol Missile - www.lvivherald.com",
-    "Demands made by Russia for Ukraine war settlement \u2018absurd\u2019, Kallas says - The Irish Times",
-    "UN says Israeli airstrike hit \u2018very close\u2019 to UN fuel convoy in Gaza - Middle East Monitor"
+    "LeoLabs acquires FishEye to bolster its missile defense chops - Breaking Defense",
+    "Watch What U.S. Aircraft Carriers Bring to the Iran War - WSJ",
+    "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ"
    ]
   },
   "today": [
