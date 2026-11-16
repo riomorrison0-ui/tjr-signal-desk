@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-16T10:30:20.243130-05:00",
+ "updated": "2026-11-16T10:35:20.250121-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.469971,
-   "feed": "real-time gold (PAXG, matched to spot +15.76)",
-   "time": "2026-11-16T10:25:00-05:00"
+   "price": 3869.050049,
+   "feed": "real-time gold (PAXG, matched to spot +15.82)",
+   "time": "2026-11-16T10:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 4,
-  "wins": 3,
-  "win_rate": 75.0,
-  "total_r": 1.05,
-  "avg_r": 0.262,
-  "balance": 2034.66,
+  "trades": 5,
+  "wins": 4,
+  "win_rate": 80.0,
+  "total_r": 1.67,
+  "avg_r": 0.334,
+  "balance": 2056.39,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -32,6 +32,10 @@
    {
     "t": "2026-11-16T08:05:00-05:00",
     "balance": 2034.66
+   },
+   {
+    "t": "2026-11-16T10:35:00-05:00",
+    "balance": 2056.39
    }
   ]
  },
@@ -67,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU expands Russia sanctions to banks, oil firms and hackers - Helsinki Times",
-    "Department of War Invites Seven Industry Teams to Participate in Phase II Directed Energy - U.S. Department of War (.gov)",
-    "Trump Says The New Bari Weiss-Run \u201860 Minutes\u2019 Is \u2018Even Worse\u2019\u2014Disputes Iran War Reporting - Forbes"
+    "Bicester asylum centre plans; do they risk war readiness? - BBC",
+    "Peak Energy Eyes Korea Green Projects as War Upends Fuel Flows - Energy Connects",
+    "Is the US running scared as it leaves UK airbases? - Stop the War"
    ]
   },
   "today": [
@@ -6775,12 +6779,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-16T10:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-16T10:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-16T10:35:00-05:00",
+   "exit_price": 3869.050049,
+   "r": 0.622,
+   "notes": [
+    "legs: TP1 tp, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-16T10:30:00-05:00",
@@ -6808,7 +6814,10 @@
      "tp": 3852.78,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3869.050049,
+     "exit_time": "2026-11-16T10:35:00-05:00",
+     "r": 0.773
     }
    ],
    "news": {
@@ -6821,7 +6830,8 @@
      "forecast": "",
      "previous": ""
     }
-   }
+   },
+   "pnl_gbp": 21.73
   },
   {
    "id": "XAUUSD-rsi2-20261116-0555-SELL",
