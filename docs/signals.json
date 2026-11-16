@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T17:05:20.357343-05:00",
+ "updated": "2026-11-16T17:10:20.373125-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3859.050049,
-   "feed": "real-time gold (PAXG, matched to spot +12.35)",
-   "time": "2026-11-16T17:00:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +10.53)",
+   "time": "2026-11-16T17:05:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "Zelenskyy Calls for Missile Parity as North Korea Sends Russia Dozens of Ballistic Missiles a Month - UNITED24 Media",
+    "891st Missile Security Forces Squadron Airmen earn expert pistol qualification - Minot Air Force Base (.mil)",
+    "EU targets Russian banks, energy firms, offshore traders in new sanctions - The Brussels Times"
+   ]
   },
   "today": [
    {
