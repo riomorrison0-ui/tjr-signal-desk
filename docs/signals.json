@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T01:20:20.328012-05:00",
+ "updated": "2026-11-16T01:25:20.314959-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3862.600098,
-   "feed": "real-time gold (PAXG, matched to spot +13.22)",
-   "time": "2026-11-16T01:15:00-05:00"
+   "price": 3860.149902,
+   "feed": "real-time gold (PAXG, matched to spot +14.74)",
+   "time": "2026-11-16T01:20:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Joint Quintet Statement on the Escalation of Hostilities in Sudan-African Union - Peace and Security Department - African Union,Peace and Security Department",
-    "THIS WEEK: EU piles on more Russia sanctions, a crunch UK-EU summit, and budget wrangles - EUobserver",
-    "#Daily_Brief: #Sudan war, #Red_Sea tensions and \u2018water security\u2019 feature in #Egypt-#US-#UAE talks The weekend US-Egypt-UAE discussions also take place as tensions across the Red Sea and Horn of Africa are being compounded by renewed instability i - Facebook"
+    "Natural Gas and Oil Forecast: IEA Flags First Surplus Since Iran War, Can WTI Hold $85.22? - FXEmpire",
+    "Russia exploits Ukraine war fatigue in bid for UN posts at Doha - middle-east-online.com",
+    "Joint Quintet Statement on the Escalation of Hostilities in Sudan-African Union - Peace and Security Department - African Union,Peace and Security Department"
    ]
   },
   "today": [
