@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T06:35:20.483183-05:00",
+ "updated": "2026-11-16T06:40:20.479905-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3878.649902,
-   "feed": "real-time gold (PAXG, matched to spot +16.35)",
-   "time": "2026-11-16T06:30:00-05:00"
+   "price": 3877.570068,
+   "feed": "real-time gold (PAXG, matched to spot +15.15)",
+   "time": "2026-11-16T06:35:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Sanctions relief won't halt North Korean uranium push - www.mining-journal.com",
-    "INTERVIEW - 'The same crime': Gaza-born US Senate hopeful eyes South Africa-style Israel sanctions - Anadolu Ajans\u0131",
-    "Russia\u2019s FIMI and malicious cyber activities: Council imposes sanctions on 30 individuals and two entities - Council, European Union"
+    "USS Theodore Roosevelt arrives, but will the US-Iran war resume? - The New Arab",
+    "Russia Claims Ukraine Launched Largest Drone Assault of the War With Over 2,000 UAVs - UNITED24 Media",
+    "EU Global Human Rights Sanctions Regime: Council lists four Haitian entities over serious human rights violations - Council, European Union"
    ]
   },
   "today": [
