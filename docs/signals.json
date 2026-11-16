@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T12:20:20.289340-05:00",
+ "updated": "2026-11-16T12:25:20.275456-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.850098,
-   "feed": "real-time gold (PAXG, matched to spot +11.36)",
-   "time": "2026-11-16T12:15:00-05:00"
+   "price": 3871.25,
+   "feed": "real-time gold (PAXG, matched to spot +14.35)",
+   "time": "2026-11-16T12:20:00-05:00"
   }
  },
  "stats": {
@@ -78,9 +78,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-    "Beyond screening: FCA sets out its expectations for effective sanctions controls - Stephenson Harwood",
-    "EU sanctions Gazan outlet and its founder for fundraising for Hamas - The Times of Israel"
+    "France Expects EU Sanctions on Iran in December Over Fridge Hack - ASHARQ AL-AWSAT English",
+    "EU imposes fresh sanctions on Russia's banks, oil sector and business elite - RFI",
+    "Russia\u2019s richest woman hit by EU sanctions - Financial Times"
    ]
   },
   "today": [
