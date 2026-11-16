@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T19:05:20.307242-05:00",
+ "updated": "2026-11-15T19:10:20.336515-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3901.669922,
-   "feed": "real-time gold (PAXG, matched to spot +16.74)",
-   "time": "2026-11-15T19:00:00-05:00"
+   "price": 3897.600098,
+   "feed": "real-time gold (PAXG, matched to spot +16.56)",
+   "time": "2026-11-15T19:05:00-05:00"
   }
  },
  "stats": {
@@ -57,14 +57,55 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 4,
+   "count": 3,
    "examples": [
+    "Special screening of Kosovo War movie shown at Iowa Veterans Home - Times Republican",
     "China\u2019s HQ-17A air-defense network offers mobile missile protection for troops near Taiwan Strait - Interesting Engineering",
-    "Prince Harry tells wounded soldiers in Ukraine 'you're going to win the war' - AOL.co.uk",
-    "Prince Harry on surprise visit to Ukraine to meet injured war veterans | BBC News - Modern Ghana"
+    "Prince Harry tells wounded soldiers in Ukraine 'you're going to win the war' - AOL.co.uk"
    ]
   },
-  "today": [],
+  "today": [
+   {
+    "title": "FOMC Member Barr Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T10:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Empire State Manufacturing Index",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T13:30:00+00:00",
+    "forecast": "17.6",
+    "previous": "25.5"
+   },
+   {
+    "title": "FOMC Member Williams Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T14:05:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Cleveland Fed Inflation Expectations",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-16T14:48:00+00:00",
+    "forecast": "",
+    "previous": "3.3%"
+   },
+   {
+    "title": "Fed Chairman Warsh Speaks",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-16T17:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   }
+  ],
   "ok_calendar": true,
   "ok_headlines": true
  },
