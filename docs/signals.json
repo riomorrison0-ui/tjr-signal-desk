@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T09:45:20.271370-05:00",
+ "updated": "2026-11-16T09:50:20.293748-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3880.75,
-   "feed": "real-time gold (PAXG, matched to spot +13.12)",
-   "time": "2026-11-16T09:40:00-05:00"
+   "price": 3889.899902,
+   "feed": "real-time gold (PAXG, matched to spot +15.55)",
+   "time": "2026-11-16T09:45:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
-    "Trump\u2019s hair at center of civil war in GOP leadership as questions swirl over costs - The Independent",
-    "A Chatbot Goes to War in Dark Comedy Series 'Trenchers' \u2014 LBB - LBB - Little Black Book",
-    "EU sanctions pro-Russia hackers, two dozen staff at Kremlin disinformation contractor - The Record from Recorded Future News"
+    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
+    "'You will win the war', Prince Harry tells wounded veterans during surprise visit to Ukraine - Forces News",
+    "Iranian leaders fret over public mood as gas shortages add to war ills - Reuters"
    ]
   },
   "today": [
