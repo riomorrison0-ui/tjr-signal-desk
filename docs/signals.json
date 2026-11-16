@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T20:25:20.297296-05:00",
+ "updated": "2026-11-15T20:30:20.402381-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3873.0,
-   "feed": "real-time gold (PAXG, matched to spot +14.81)",
-   "time": "2026-11-15T20:20:00-05:00"
+   "price": 3877.02002,
+   "feed": "real-time gold (PAXG, matched to spot +12.07)",
+   "time": "2026-11-15T20:25:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Trade War in Focus at ASEAN Summit Ahead of Trump Arrival - The China-Global South Project",
     "Sam Brownback Gives Names and Faces to China\u2019s War on Faith - Bitter Winter",
-    "HBO\u2019s \u2018Lincoln Lawyer\u2019 Replacement Officially Continues Streaming War Path - Collider",
-    "Blinken says US ground invasion of Iran would be an \u201cabsolute disaster\u201d - Mezha.net"
+    "Harry surprise visit to Ukraine, \u2018you will win war\u2019 - Starts at 60"
    ]
   },
   "today": [
