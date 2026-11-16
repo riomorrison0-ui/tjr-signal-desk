@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-16T13:12:37.422363-05:00",
+ "updated": "2026-11-16T13:14:06.370646-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3859.969971,
-   "feed": "real-time gold (PAXG, matched to spot +27.81)",
+   "price": 3845.820068,
+   "feed": "real-time gold (PAXG, matched to spot +13.66)",
    "time": "2026-11-16T13:05:00-05:00"
   }
  },
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Italy unveils plans to develop a new naval missile launcher - Breaking Defense",
     "How the Iran war has disrupted the world of sport - The New Arab",
-    "EU adds Russian online retailer Wildberries' CEO to Russia sanctions list - TVP World",
-    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post"
+    "Army Whistleblower Stephen Ramsbottom: Port Shuaiba and the Laws of War - Diplomacy and Law"
    ]
   },
   "today": [
@@ -133,8 +133,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.81,
-  "gbpusd": 1.32015
+  "stop_cap_usd": 52.75,
+  "gbpusd": 1.31867
  },
  "backtest": {
   "portfolio": {
