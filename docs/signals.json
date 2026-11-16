@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T02:25:20.448184-05:00",
+ "updated": "2026-11-16T02:30:20.449341-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3856.149902,
-   "feed": "real-time gold (PAXG, matched to spot +15.83)",
-   "time": "2026-11-16T02:20:00-05:00"
+   "price": 3859.02002,
+   "feed": "real-time gold (PAXG, matched to spot +10.73)",
+   "time": "2026-11-16T02:25:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Iran rules out UN inspections of damaged nuclear sites until war ends - The Daily Star",
-    "\u2018Greatest\u2019 Netflix war film is \u2018better than\u2019 Inglourious Basterds and Saving Private Ryan - Wales Online",
-    "How Russia is preparing Iran for the next escalation - Al Jazeera"
+    "Ukraine War, Day 1,726: Zelensky \u2014 We Have Neutralized 55% of Russia\u2019s Refineries - EA WorldView",
+    "Egypt, Kuwait Discuss Regional De-Escalation Efforts - ASHARQ AL-AWSAT English",
+    "Peak Energy eyes South Korea renewables as war disrupts fuel flows - Mezha.net"
    ]
   },
   "today": [
