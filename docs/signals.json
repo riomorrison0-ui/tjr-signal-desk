@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T12:05:20.295348-05:00",
+ "updated": "2026-11-16T12:10:20.257033-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3872.469971,
-   "feed": "real-time gold (PAXG, matched to spot +13.99)",
-   "time": "2026-11-16T12:00:00-05:00"
+   "price": 3872.199951,
+   "feed": "real-time gold (PAXG, matched to spot +15.58)",
+   "time": "2026-11-16T12:05:00-05:00"
   }
  },
  "stats": {
@@ -75,12 +75,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Trump disparages \u201c60 Minutes\u201d after Iran War news story - IMDb",
-    "Iran built hundreds of dams to supply secret missile bases, researchers suspect - Ynetnews",
-    "Syrian authorities reopen 841 km of roads in war-hit Aleppo - Arab News"
+    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
+    "Beyond screening: FCA sets out its expectations for effective sanctions controls - Stephenson Harwood",
+    "EU sanctions Gazan outlet and its founder for fundraising for Hamas - The Times of Israel"
    ]
   },
   "today": [
