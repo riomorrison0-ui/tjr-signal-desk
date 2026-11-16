@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T07:05:20.451995-05:00",
+ "updated": "2026-11-16T07:10:20.445214-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3876.449951,
-   "feed": "real-time gold (PAXG, matched to spot +16.37)",
-   "time": "2026-11-16T07:00:00-05:00"
+   "price": 3874.669922,
+   "feed": "real-time gold (PAXG, matched to spot +18.40)",
+   "time": "2026-11-16T07:05:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "ECO Foreign Ministers Back Iran\u2019s Initiative to Permanently End the War - WANA News Agency",
-    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
-    "Missile War Monitor: Ukraine attacks the Crimean Bridge and sends about 600 drones at Moscow - IntelliNews"
+    "Knowing When to Stop: War Termination as Strategy - orfonline.org",
+    "Gaza\u2019s diabetes patients struggle amid Israel\u2019s war - The New Arab",
+    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE"
    ]
   },
   "today": [
