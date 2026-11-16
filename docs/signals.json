@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T14:45:20.332317-05:00",
+ "updated": "2026-11-16T14:50:20.437349-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.149902,
-   "feed": "real-time gold (PAXG, matched to spot +13.60)",
-   "time": "2026-11-16T14:40:00-05:00"
+   "price": 3868.800049,
+   "feed": "real-time gold (PAXG, matched to spot +17.07)",
+   "time": "2026-11-16T14:45:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - GovInfoSecurity",
-    "EU sanctions Wildberries CEO Tatyana Kim as well as enablers of Moscow's shadow fleet - DW.com",
-    "Ukraine war latest: Crimean Bridge hit in reported attack, traffic restrictions imposed - The Kyiv Independent"
+    "Secretary of War General Officer Announcements for Nov. 16, 2026 - U.S. Department of War (.gov)",
+    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - BankInfoSecurity",
+    "Land Power Library - US Army Divisions of the Pacific War - Australian Army Research Centre"
    ]
   },
   "today": [
