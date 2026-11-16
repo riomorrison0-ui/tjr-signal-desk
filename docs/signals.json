@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T08:40:20.277258-05:00",
+ "updated": "2026-11-16T08:45:20.237975-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.77002,
-   "feed": "real-time gold (PAXG, matched to spot +17.91)",
-   "time": "2026-11-16T08:35:00-05:00"
+   "price": 3871.449951,
+   "feed": "real-time gold (PAXG, matched to spot +9.06)",
+   "time": "2026-11-16T08:40:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Hemingway Knows Nothing challenges western understanding of war - New Eastern Europe",
-    "Oil prices slip as IEA forecasts first surplus since Iran war began - Quartz",
-    "Swedish civil defence report tracks progress on Ukraine war lessons - Nordic Defence Sector"
+    "EU sanctions 30 individuals, 2 entities over Russian disinformation, cyberattacks - Anadolu Ajans\u0131",
+    "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim - The Moscow Times",
+    "US midterms: class war overtakes culture war as Democrats ditch woke politics - The Irish Times"
    ]
   },
   "today": [
