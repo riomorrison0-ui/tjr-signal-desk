@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T07:40:20.316136-05:00",
+ "updated": "2026-11-16T07:45:20.226422-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.620117,
-   "feed": "real-time gold (PAXG, matched to spot +15.16)",
-   "time": "2026-11-16T07:35:00-05:00"
+   "price": 3871.949951,
+   "feed": "real-time gold (PAXG, matched to spot +16.38)",
+   "time": "2026-11-16T07:40:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU sanctions Russian disinformation firm and hacking group - Mezha.net",
-    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE",
-    "EU clamps down on Russia's Wildberries owner, 50 banks, oil, and shadow fleet with new sanctions - The Kyiv Independent"
+    "EU sanctions pro-Russia hacking group, propagandists - eKathimerini.com",
+    "EU ministers approve new sanctions to further restrict Russia\u2019s ability to finance its war - The Sofia Globe",
+    "\u2018Britain is dangerously exposed\u2019: Peers deliver chilling warning over threat of cyberattacks, sabotage and war - London Business News"
    ]
   },
   "today": [
