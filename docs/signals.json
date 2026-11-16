@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T16:35:20.362820-05:00",
+ "updated": "2026-11-16T16:40:20.369592-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3853.449951,
-   "feed": "real-time gold (PAXG, matched to spot +8.23)",
-   "time": "2026-11-16T16:30:00-05:00"
+   "price": 3859.199951,
+   "feed": "real-time gold (PAXG, matched to spot +11.54)",
+   "time": "2026-11-16T16:35:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Half of the Russians in new EU sanctions package listed with incomplete or incorrect data, The Insider finds - theins.press",
+    "\u2018Espionage in World War II: The FBI and OSS\u2019 with Bradley Hart - Small Wars Journal",
     "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-    "EU sanctions 24 employees of Kremlin-linked disinformation operation after The Insider\u2019s investigations - https://theins.press/en"
+    "Zelensky warns of imminent Russian attacks, 'extremely dangerous' North Korean missile development - The Kyiv Independent"
    ]
   },
   "today": [
