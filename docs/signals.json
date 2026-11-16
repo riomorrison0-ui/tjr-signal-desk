@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T16:05:20.327851-05:00",
+ "updated": "2026-11-16T16:10:20.362061-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3853.899902,
-   "feed": "real-time gold (PAXG, matched to spot +13.03)",
-   "time": "2026-11-16T16:00:00-05:00"
+   "price": 3852.350098,
+   "feed": "real-time gold (PAXG, matched to spot +12.69)",
+   "time": "2026-11-16T16:05:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "LeoLabs Buys Missile Defense and Space Awareness Engineering Firm FishEye - Via Satellite",
-    "Russia says Ukrainian aerial attack involved more than 1,300 drones - CBC",
-    "EU sanctions four Haitian gangs over serious human rights violations - Reuters"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
@@ -147,7 +143,7 @@
    }
   ],
   "ok_calendar": true,
-  "ok_headlines": true
+  "ok_headlines": false
  },
  "account": {
   "gbp": 2000.0,
