@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T02:10:20.439852-05:00",
+ "updated": "2026-11-16T02:15:20.452515-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3854.919922,
-   "feed": "real-time gold (PAXG, matched to spot +13.01)",
-   "time": "2026-11-16T02:05:00-05:00"
+   "price": 3857.350098,
+   "feed": "real-time gold (PAXG, matched to spot +14.19)",
+   "time": "2026-11-16T02:10:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Araqchi Mocks US War Secretary with Historical Reference to Defeated Roman General - \u062a\u0633\u0646\u06cc\u0645",
-    "The Secret PR War Between Vinicius Junior & Lamine Yamal - Sportscape Magazine",
-    "\u2018I could smell blood. I could taste blood\u2019: NI army medic on loss, war and PTSD - Belfast Telegraph"
+    "Iran rules out UN inspections of damaged nuclear sites until war ends - The Daily Star",
+    "\u2018Greatest\u2019 Netflix war film is \u2018better than\u2019 Inglourious Basterds and Saving Private Ryan - Wales Online",
+    "How Russia is preparing Iran for the next escalation - Al Jazeera"
    ]
   },
   "today": [
