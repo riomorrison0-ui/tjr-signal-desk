@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T01:05:20.341674-05:00",
+ "updated": "2026-11-16T01:10:20.329430-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3836.469971,
-   "feed": "real-time gold (PAXG, matched to spot -6.83)",
-   "time": "2026-11-16T01:00:00-05:00"
+   "price": 3843.669922,
+   "feed": "real-time gold (PAXG, matched to spot +1.89)",
+   "time": "2026-11-16T01:05:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "#Daily_Brief: #Sudan war, #Red_Sea tensions and \u2018water security\u2019 feature in #Egypt-#US-#UAE talks The weekend US-Egypt-UAE discussions also take place as tensions across the Red Sea and Horn of Africa are being compounded by renewed instability i - Facebook",
-    "Monday briefing: Manchester City appeal set for December with possible sanctions in 2027 - Football Finance Data",
-    "Europe being pushed towards \u2018war with Russia\u2019, anti-nuclear chief warns - The National Scot"
+    "Joint Quintet Statement on the Escalation of Hostilities in Sudan-African Union - Peace and Security Department - African Union,Peace and Security Department",
+    "THIS WEEK: EU piles on more Russia sanctions, a crunch UK-EU summit, and budget wrangles - EUobserver",
+    "#Daily_Brief: #Sudan war, #Red_Sea tensions and \u2018water security\u2019 feature in #Egypt-#US-#UAE talks The weekend US-Egypt-UAE discussions also take place as tensions across the Red Sea and Horn of Africa are being compounded by renewed instability i - Facebook"
    ]
   },
   "today": [
