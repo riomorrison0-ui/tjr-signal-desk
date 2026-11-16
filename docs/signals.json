@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T10:45:20.275047-05:00",
+ "updated": "2026-11-16T10:50:20.298173-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.419922,
-   "feed": "real-time gold (PAXG, matched to spot +14.24)",
-   "time": "2026-11-16T10:40:00-05:00"
+   "price": 3866.899902,
+   "feed": "real-time gold (PAXG, matched to spot +15.54)",
+   "time": "2026-11-16T10:45:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Bicester asylum centre plans; do they risk war readiness? - BBC",
-    "Peak Energy Eyes Korea Green Projects as War Upends Fuel Flows - Energy Connects",
-    "Is the US running scared as it leaves UK airbases? - Stop the War"
+    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
+    "Pentagon condemned over Iran war failures by Army major whistleblower: \u2018We did not plan this well\u2019 - The Independent",
+    "Russia Plans Harsher Penalties as It Expands Crackdown on War Criticism - UNITED24 Media"
    ]
   },
   "today": [
@@ -105,7 +105,7 @@
     "title": "Cleveland Fed Inflation Expectations",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T14:48:00+00:00",
+    "time": "2026-11-16T14:45:00+00:00",
     "forecast": "",
     "previous": "3.3%"
    },
