@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-16T04:30:20.441142-05:00",
+ "updated": "2026-11-16T04:35:20.444972-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3862.25,
-   "feed": "real-time gold (PAXG, matched to spot +16.48)",
-   "time": "2026-11-16T04:25:00-05:00"
+   "price": 3860.800049,
+   "feed": "real-time gold (PAXG, matched to spot +13.18)",
+   "time": "2026-11-16T04:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 2,
-  "wins": 2,
+  "trades": 3,
+  "wins": 3,
   "win_rate": 100.0,
-  "total_r": 1.08,
-  "avg_r": 0.54,
-  "balance": 2035.19,
+  "total_r": 1.21,
+  "avg_r": 0.402,
+  "balance": 2038.52,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -24,6 +24,10 @@
    {
     "t": "2026-11-13T14:05:00-05:00",
     "balance": 2035.19
+   },
+   {
+    "t": "2026-11-16T04:35:00-05:00",
+    "balance": 2038.52
    }
   ]
  },
@@ -57,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Ukraine Strikes Crimean Bridge as Russian Reports Claim One of Its Arches Has Shifted - UNITED24 Media",
-    "EU to add 113 new Russia sanctions ahead of broader package - Investing.com",
-    "UK house prices fall in November 2026 as Iran war drives mortgage rates higher - AOL.co.uk"
+    "Ukraine war, latest news. Zelensky: over 55 per cent of Russia\u2019s refining capacity has been neutralised - Il Sole 24 ORE",
+    "U.S. Army Whistleblower Alleges Warnings Dismissed Before Deadly Attack - Time Magazine",
+    "EU to adopt sanctions on November 16 against 113 individuals and companies, including \u201cValya\u2019s son\u201d - Mezha.net"
    ]
   },
   "today": [
@@ -6767,12 +6771,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-16T04:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-16T04:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-16T04:35:00-05:00",
+   "exit_price": 3860.800049,
+   "r": 0.124,
+   "notes": [
+    "legs: TP2 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-16T04:30:00-05:00",
@@ -6790,7 +6796,10 @@
      "tp": 3830.24,
      "r_mult": 1.0,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3860.800049,
+     "exit_time": "2026-11-16T04:35:00-05:00",
+     "r": 0.125
     }
    ],
    "news": {
@@ -6803,7 +6812,8 @@
      "forecast": "",
      "previous": ""
     }
-   }
+   },
+   "pnl_gbp": 3.33
   },
   {
    "id": "XAUUSD-rsi2-20261113-1255-SELL",
