@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T10:15:20.271040-05:00",
+ "updated": "2026-11-16T10:20:20.285963-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.370117,
-   "feed": "real-time gold (PAXG, matched to spot +15.35)",
-   "time": "2026-11-16T10:10:00-05:00"
+   "price": 3876.969971,
+   "feed": "real-time gold (PAXG, matched to spot +16.34)",
+   "time": "2026-11-16T10:15:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "EU expands Russia sanctions to banks, oil firms and hackers - Helsinki Times",
     "Department of War Invites Seven Industry Teams to Participate in Phase II Directed Energy - U.S. Department of War (.gov)",
-    "The War with Iran and the Changing Regional Order - The Jerusalem Strategic Tribune",
-    "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - BBC"
+    "Trump Says The New Bari Weiss-Run \u201860 Minutes\u2019 Is \u2018Even Worse\u2019\u2014Disputes Iran War Reporting - Forbes"
    ]
   },
   "today": [
