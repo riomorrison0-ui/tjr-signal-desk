@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T11:20:20.303489-05:00",
+ "updated": "2026-11-16T11:25:20.297393-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3863.050049,
-   "feed": "real-time gold (PAXG, matched to spot +14.85)",
-   "time": "2026-11-16T11:15:00-05:00"
+   "price": 3862.699951,
+   "feed": "real-time gold (PAXG, matched to spot +15.36)",
+   "time": "2026-11-16T11:20:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "France pushes for EU sanctions on Iran over supermarket cyberattack - The New Region",
-    "Sanctions against russia and billions of euros for Ukraine: key outcomes of the EU Council meeting on November 16 - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "Pearl Harbor veteran who witnessed the official end of World War II dies - The Independent"
+    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
+    "Bulgaria secures exclusion of two banks in Russia from EU sanctions - \u0411\u041d\u0420 \u041d\u043e\u0432\u0438\u043d\u0438",
+    "France accuses Iran of cyberattacks on supermarket fridges, seeks EU sanctions - The Jerusalem Post"
    ]
   },
   "today": [
