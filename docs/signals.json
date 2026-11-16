@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T21:25:20.342481-05:00",
+ "updated": "2026-11-15T21:30:20.339203-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3888.050049,
-   "feed": "real-time gold (PAXG, matched to spot +11.58)",
-   "time": "2026-11-15T21:20:00-05:00"
+   "price": 3887.870117,
+   "feed": "real-time gold (PAXG, matched to spot +12.77)",
+   "time": "2026-11-15T21:25:00-05:00"
   }
  },
  "stats": {
@@ -57,11 +57,11 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 3,
+   "count": 4,
    "examples": [
-    "Elina Svitolina, drained by war and a split, ends her season with WTA Finals loss - Newsday",
-    "Trade War in Focus at ASEAN Summit Ahead of Trump Arrival - The China-Global South Project",
-    "Sam Brownback Gives Names and Faces to China\u2019s War on Faith - Bitter Winter"
+    "Elina Svitolina, drained by war and a split, ends her season with WTA Finals loss - KVUE",
+    "How many US troops have died in the Iran war? 23, according to the Pentagon's latest count - Nacionale",
+    "Kellogg proposed a possible scenario for a ceasefire in Ukraine along the current front line - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
