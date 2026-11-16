@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T07:55:20.283285-05:00",
+ "updated": "2026-11-16T08:00:20.228286-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.600098,
-   "feed": "real-time gold (PAXG, matched to spot +13.44)",
-   "time": "2026-11-16T07:50:00-05:00"
+   "price": 3873.850098,
+   "feed": "real-time gold (PAXG, matched to spot +15.12)",
+   "time": "2026-11-16T07:55:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU sanctions pro-Russia hacking group, propagandists - eKathimerini.com",
-    "EU ministers approve new sanctions to further restrict Russia\u2019s ability to finance its war - The Sofia Globe",
-    "\u2018Britain is dangerously exposed\u2019: Peers deliver chilling warning over threat of cyberattacks, sabotage and war - London Business News"
+    "How to Divorce During the War triumphs at Arras - Cineuropa",
+    "Chay Bowes put on EU sanctions list for allegedly spreading Russian \u2018propaganda\u2019 - The Irish Times",
+    "Ukraine launches biggest drone attack on Russia since war began, defence ministry data shows - Reuters"
    ]
   },
   "today": [
@@ -6779,7 +6779,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-11-26T06:00:00-05:00",
+   "hold_until": "2026-11-16T08:00:00-05:00",
    "why": "Sharp rally (RSI(2) 95) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-16T06:00:20.465201-05:00",
    "initial_status": "open",
