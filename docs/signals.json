@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T17:35:20.357106-05:00",
+ "updated": "2026-11-16T17:40:20.317223-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3859.050049,
-   "feed": "real-time gold (PAXG, matched to spot +11.14)",
-   "time": "2026-11-16T17:30:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +11.27)",
+   "time": "2026-11-16T17:35:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "The Trade War Was a Problem Before Iran\u2014Congress Can End It - Cato Institute",
-    "EU Targets Russia\u2019s E-Commerce Giant and Dozens More Banks in Latest Wartime Sanctions Push - Kharon",
-    "Houthis retake Bab al Mandeb and move toward Aden - FDD's Long War Journal"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
