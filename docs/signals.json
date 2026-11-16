@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T11:35:20.277093-05:00",
+ "updated": "2026-11-16T11:40:20.286862-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.800049,
-   "feed": "real-time gold (PAXG, matched to spot +15.71)",
-   "time": "2026-11-16T11:30:00-05:00"
+   "price": 3861.100098,
+   "feed": "real-time gold (PAXG, matched to spot +15.73)",
+   "time": "2026-11-16T11:35:00-05:00"
   }
  },
  "stats": {
@@ -78,9 +78,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post",
-    "Bulgaria secures exclusion of two banks in Russia from EU sanctions - \u0411\u041d\u0420 \u041d\u043e\u0432\u0438\u043d\u0438",
-    "France accuses Iran of cyberattacks on supermarket fridges, seeks EU sanctions - The Jerusalem Post"
+    "Regional Stability Impossible Without End to War in Lebanon - - WANA News Agency",
+    "Russia's Yandex shareholder leaves board after EU sanctions - marketscreener.com",
+    "Opinion | The Russian Orthodox Church is waging a war against one word - The Washington Post"
    ]
   },
   "today": [
