@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T00:15:20.328804-05:00",
+ "updated": "2026-11-16T00:20:20.326844-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.27002,
-   "feed": "real-time gold (PAXG, matched to spot +14.27)",
-   "time": "2026-11-16T00:10:00-05:00"
+   "price": 3877.169922,
+   "feed": "real-time gold (PAXG, matched to spot +14.43)",
+   "time": "2026-11-16T00:15:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Uncertainty Abounds in a U.S.-Iran \u201cNo War-No Peace\u201d Environment - The Soufan Center",
-    "Students to stage mass walkout as part of international anti-war movement - The Argus",
-    "DLSS 5 in War Thunder: AI improves graphics - igor\u00b4sLAB"
+    "Svitolina to return to Ukraine, vows continued support for war-hit homeland - TVP World",
+    "Europe being pushed towards \u2018war with Russia\u2019, anti-nuclear chief warns - The National Scot",
+    "Uncertainty Abounds in a U.S.-Iran \u201cNo War-No Peace\u201d Environment - The Soufan Center"
    ]
   },
   "today": [
