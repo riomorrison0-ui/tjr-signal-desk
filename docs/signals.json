@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T15:00:20.428833-05:00",
+ "updated": "2026-11-16T15:05:20.329298-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3867.649902,
-   "feed": "real-time gold (PAXG, matched to spot +13.59)",
-   "time": "2026-11-16T14:55:00-05:00"
+   "price": 3866.719971,
+   "feed": "real-time gold (PAXG, matched to spot +12.67)",
+   "time": "2026-11-16T15:00:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
     "Secretary of War General Officer Announcements for Nov. 16, 2026 - U.S. Department of War (.gov)",
-    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - BankInfoSecurity",
-    "Land Power Library - US Army Divisions of the Pacific War - Australian Army Research Centre"
+    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - BankInfoSecurity"
    ]
   },
   "today": [
