@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T06:20:20.434511-05:00",
+ "updated": "2026-11-16T06:25:20.440906-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.419922,
-   "feed": "real-time gold (PAXG, matched to spot +16.28)",
-   "time": "2026-11-16T06:15:00-05:00"
+   "price": 3878.620117,
+   "feed": "real-time gold (PAXG, matched to spot +16.40)",
+   "time": "2026-11-16T06:20:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Bulgaria seeks EU removal of two Bulgarian-owned banks in Russia from sanctions - \u0411\u041d\u0420 \u041d\u043e\u0432\u0438\u043d\u0438",
-    "The Cold War is over, but the Cool War of climate modification has just begun - Bulletin of the Atomic Scientists",
-    "Record US LNG Exports May Bring Relief to War-Strained Markets - Energy Connects"
+    "Sanctions relief won't halt North Korean uranium push - www.mining-journal.com",
+    "INTERVIEW - 'The same crime': Gaza-born US Senate hopeful eyes South Africa-style Israel sanctions - Anadolu Ajans\u0131",
+    "Russia\u2019s FIMI and malicious cyber activities: Council imposes sanctions on 30 individuals and two entities - Council, European Union"
    ]
   },
   "today": [
