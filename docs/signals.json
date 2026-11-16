@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T21:40:20.302199-05:00",
+ "updated": "2026-11-15T21:45:20.348354-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3882.570068,
-   "feed": "real-time gold (PAXG, matched to spot +8.02)",
-   "time": "2026-11-15T21:35:00-05:00"
+   "price": 3884.899902,
+   "feed": "real-time gold (PAXG, matched to spot +15.93)",
+   "time": "2026-11-15T21:40:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy - The Guardian",
     "Elina Svitolina, drained by war and a split, ends her season with WTA Finals loss - KVUE",
-    "How many US troops have died in the Iran war? 23, according to the Pentagon's latest count - Nacionale",
-    "Kellogg proposed a possible scenario for a ceasefire in Ukraine along the current front line - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "How many US troops have died in the Iran war? 23, according to the Pentagon's latest count - Nacionale"
    ]
   },
   "today": [
