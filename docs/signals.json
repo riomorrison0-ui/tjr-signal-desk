@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T06:50:20.449359-05:00",
+ "updated": "2026-11-16T06:55:20.439056-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3878.100098,
-   "feed": "real-time gold (PAXG, matched to spot +15.12)",
-   "time": "2026-11-16T06:45:00-05:00"
+   "price": 3879.02002,
+   "feed": "real-time gold (PAXG, matched to spot +15.37)",
+   "time": "2026-11-16T06:50:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "USS Theodore Roosevelt arrives, but will the US-Iran war resume? - The New Arab",
-    "Russia Claims Ukraine Launched Largest Drone Assault of the War With Over 2,000 UAVs - UNITED24 Media",
-    "EU Global Human Rights Sanctions Regime: Council lists four Haitian entities over serious human rights violations - Council, European Union"
+    "ECO Foreign Ministers Back Iran\u2019s Initiative to Permanently End the War - WANA News Agency",
+    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
+    "Missile War Monitor: Ukraine attacks the Crimean Bridge and sends about 600 drones at Moscow - IntelliNews"
    ]
   },
   "today": [
