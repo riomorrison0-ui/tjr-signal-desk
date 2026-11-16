@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T18:25:20.366124-05:00",
+ "updated": "2026-11-16T18:30:20.327436-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.870117,
-   "feed": "real-time gold (PAXG, matched to spot +12.58)",
-   "time": "2026-11-16T18:20:00-05:00"
+   "price": 3858.899902,
+   "feed": "real-time gold (PAXG, matched to spot +13.57)",
+   "time": "2026-11-16T18:25:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "EU Targets Shadow Fleet Shipowners, Managers and Insurers in New Russia Sanctions - gCaptain",
     "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-    "What Every Multinational Should Know About \u2026 Operation Economic Outcast and the Tightening Sanctions on Iran - The National Law Review",
-    "Iranian parliament speaker says regional calm hinges on ending Israel\u2019s war on Lebanon - A News"
+    "What Every Multinational Should Know About \u2026 Operation Economic Outcast and the Tightening Sanctions on Iran - The National Law Review"
    ]
   },
   "today": [
