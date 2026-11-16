@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T12:25:20.275456-05:00",
+ "updated": "2026-11-16T12:30:20.256542-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.25,
-   "feed": "real-time gold (PAXG, matched to spot +14.35)",
-   "time": "2026-11-16T12:20:00-05:00"
+   "price": 3871.5,
+   "feed": "real-time gold (PAXG, matched to spot +14.89)",
+   "time": "2026-11-16T12:25:00-05:00"
   }
  },
  "stats": {
@@ -40,23 +40,8 @@
   ]
  },
  "news": {
-  "blackout": {
-   "title": "Fed Chairman Warsh Speaks",
-   "country": "USD",
-   "impact": "High",
-   "time": "2026-11-16T17:00:00+00:00",
-   "forecast": "",
-   "previous": ""
-  },
+  "blackout": null,
   "next": [
-   {
-    "title": "Fed Chairman Warsh Speaks",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-16T17:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
    {
     "title": "Core Retail Sales m/m",
     "country": "USD",
@@ -72,6 +57,14 @@
     "time": "2026-11-17T13:30:00+00:00",
     "forecast": "0.2%",
     "previous": "0.8%"
+   },
+   {
+    "title": "FOMC Meeting Minutes",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-18T19:00:00+00:00",
+    "forecast": "",
+    "previous": ""
    }
   ],
   "risk": {
