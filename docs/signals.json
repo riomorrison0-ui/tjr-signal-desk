@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T00:50:20.344721-05:00",
+ "updated": "2026-11-16T00:55:20.340865-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.800049,
-   "feed": "real-time gold (PAXG, matched to spot +39.41)",
-   "time": "2026-11-16T00:45:00-05:00"
+   "price": 3842.719971,
+   "feed": "real-time gold (PAXG, matched to spot +13.08)",
+   "time": "2026-11-16T00:50:00-05:00"
   }
  },
  "stats": {
@@ -59,8 +59,8 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "#Daily_Brief: #Sudan war, #Red_Sea tensions and \u2018water security\u2019 feature in #Egypt-#US-#UAE talks The weekend US-Egypt-UAE discussions also take place as tensions across the Red Sea and Horn of Africa are being compounded by renewed instability i - Facebook",
     "Monday briefing: Manchester City appeal set for December with possible sanctions in 2027 - Football Finance Data",
-    "Svitolina to return to Ukraine, vows continued support for war-hit homeland - TVP World",
     "Europe being pushed towards \u2018war with Russia\u2019, anti-nuclear chief warns - The National Scot"
    ]
   },
