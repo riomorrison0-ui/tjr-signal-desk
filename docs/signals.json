@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T05:00:20.452151-05:00",
+ "updated": "2026-11-16T05:05:20.450327-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3859.600098,
-   "feed": "real-time gold (PAXG, matched to spot +14.00)",
-   "time": "2026-11-16T04:55:00-05:00"
+   "price": 3855.550049,
+   "feed": "real-time gold (PAXG, matched to spot +8.62)",
+   "time": "2026-11-16T05:00:00-05:00"
   }
  },
  "stats": {
@@ -60,12 +60,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "U.S. Army Whistleblower Alleges Warnings Dismissed Before Deadly Attack - Time Magazine",
-    "EU to adopt sanctions on November 16 against 113 individuals and companies, including \u201cValya\u2019s son\u201d - Mezha.net",
-    "Araghchi: ECO Foreign Ministers Back Iran\u2019s Two-Day Plan to End War - WANA News Agency"
+    "The Nice Ones review \u2013 invasion of the sunny personality snatchers - The Guardian",
+    "Iran refuses nuclear inspections until war ends - Muslim Network TV",
+    "Hailsham community pays tribute to local war hero at Remembrance Day ceremony - SussexWorld"
    ]
   },
   "today": [
