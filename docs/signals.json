@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T03:10:20.431071-05:00",
+ "updated": "2026-11-16T03:15:20.446650-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.75,
-   "feed": "real-time gold (PAXG, matched to spot +15.24)",
-   "time": "2026-11-16T03:05:00-05:00"
+   "price": 3858.870117,
+   "feed": "real-time gold (PAXG, matched to spot +12.70)",
+   "time": "2026-11-16T03:10:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Daily Update: Russia Loses 2,560 Troops, 6 Anti-Air Systems, and 23 Armored Vehicles in One Day - UNITED24 Media",
-    "Japanese civic group holds documentary screening to warn of war risks - Xinhua",
-    "The EU is preparing sanctions against Tatyana Kim, the founder of Wildberries - UkrMedia News"
+    "Could Russia help mediate an end to the US-Iran war? - Arab News",
+    "Iran will not remain in \u2018neither war nor peace\u2019 state, speaker says - Yeni Safak English",
+    "The energy realignment: How the Iran war fuels China\u2019s EVs - ThinkChina"
    ]
   },
   "today": [
