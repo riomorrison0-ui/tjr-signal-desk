@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T22:00:20.294467-05:00",
+ "updated": "2026-11-15T22:05:20.352328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.449951,
-   "feed": "real-time gold (PAXG, matched to spot +11.69)",
-   "time": "2026-11-15T21:55:00-05:00"
+   "price": 3875.550049,
+   "feed": "real-time gold (PAXG, matched to spot +14.20)",
+   "time": "2026-11-15T22:00:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy - The Guardian",
-    "Elina Svitolina, drained by war and a split, ends her season with WTA Finals loss - KVUE",
-    "How many US troops have died in the Iran war? 23, according to the Pentagon's latest count - Nacionale"
+    "Russia has shown a ground launch of the \"Band\u0435\u0440\u043e\u043b\u044c\" missile for the first time \u2013 experts explained the new threat to Ukraine - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "BOOK REVIEW | Forgotten Ships: The Second World War in Trawlers and Tugs - Baird Maritime",
+    "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy - The Guardian"
    ]
   },
   "today": [
