@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T23:00:20.292857-05:00",
+ "updated": "2026-11-15T23:05:20.342480-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.899902,
-   "feed": "real-time gold (PAXG, matched to spot +12.93)",
-   "time": "2026-11-15T22:55:00-05:00"
+   "price": 3879.25,
+   "feed": "real-time gold (PAXG, matched to spot +17.23)",
+   "time": "2026-11-15T23:00:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine\u2019s Svitolina heads to war-torn home front after WTA Finals loss - South China Morning Post",
-    "'We were ready': Abu Dhabi environment chief hails efforts to protect nature from Iran war threat - www.thenationalnews.com",
-    "Thai official reaffirms commitment to ceasefire accord with Cambodia - Asia News Network"
+    "Ukraine Hits Russia\u2019s Akhtubinsk Test Airfield, Triggering Guided-Missile Parts Blast - The SOFX Report",
+    "'We were ready': Abu Dhabi environment chief hails efforts to protect nature from Iran war threat - The National",
+    "Ukraine\u2019s Svitolina heads to war-torn home front after WTA Finals loss - South China Morning Post"
    ]
   },
   "today": [
