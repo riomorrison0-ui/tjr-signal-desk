@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T05:30:20.501266-05:00",
+ "updated": "2026-11-16T05:35:20.439579-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3865.870117,
-   "feed": "real-time gold (PAXG, matched to spot +16.48)",
-   "time": "2026-11-16T05:25:00-05:00"
+   "price": 3862.899902,
+   "feed": "real-time gold (PAXG, matched to spot +11.82)",
+   "time": "2026-11-16T05:30:00-05:00"
   }
  },
  "stats": {
@@ -60,12 +60,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume? - Al Jazeera",
-    "Ukraine war: latest news. EU Council approves a further 8 billion payment to Ukraine - Il Sole 24 ORE",
-    "War May Answer Longtime Riddle of Iranian Dams Built for No Clear Reason - The New York Times"
+    "Hamas and the Palestinian Islamic Jihad: EU adds one entity and its founder to the sanctions list - Council, European Union",
+    "France pushes for Iran sanctions after cyberattacks on supermarket refrigerators spark fires - Ynetnews",
+    "EU set to agree on 113 new Russia sanctions listings: Irish foreign minister - Anadolu Ajans\u0131"
    ]
   },
   "today": [
