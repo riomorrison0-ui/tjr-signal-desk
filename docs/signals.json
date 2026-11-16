@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T15:55:20.323065-05:00",
+ "updated": "2026-11-16T16:00:20.376056-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3855.800049,
-   "feed": "real-time gold (PAXG, matched to spot +11.78)",
-   "time": "2026-11-16T15:50:00-05:00"
+   "price": 3854.75,
+   "feed": "real-time gold (PAXG, matched to spot +12.30)",
+   "time": "2026-11-16T15:55:00-05:00"
   }
  },
  "stats": {
@@ -6803,7 +6803,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-11-26T14:30:00-05:00",
+   "hold_until": "2026-11-16T16:00:00-05:00",
    "why": "Sharp rally (RSI(2) 81) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-16T14:30:20.385459-05:00",
    "initial_status": "open",
