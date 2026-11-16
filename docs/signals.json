@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T19:20:20.301884-05:00",
+ "updated": "2026-11-15T19:25:20.303116-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3894.570068,
-   "feed": "real-time gold (PAXG, matched to spot +14.97)",
-   "time": "2026-11-15T19:15:00-05:00"
+   "price": 3894.669922,
+   "feed": "real-time gold (PAXG, matched to spot +16.34)",
+   "time": "2026-11-15T19:20:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Special screening of Kosovo War movie shown at Iowa Veterans Home - Times Republican",
-    "China\u2019s HQ-17A air-defense network offers mobile missile protection for troops near Taiwan Strait - Interesting Engineering",
-    "Prince Harry tells wounded soldiers in Ukraine 'you're going to win the war' - AOL.co.uk"
+    "Video: Portishead Reunite For Emotional War Child Concert With \"Roads\" And \"The Rip\" In 2022 - That Eric Alper",
+    "60 Minutes Transcript: Families of U.S. military members killed in Iran war want answers from the Pentagon - CBS News",
+    "Peak Energy Eyes Korea Green Projects as War Upends Fuel Flows - Bloomberg.com"
    ]
   },
   "today": [
