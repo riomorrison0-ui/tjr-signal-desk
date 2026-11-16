@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T14:30:20.385459-05:00",
+ "updated": "2026-11-16T14:35:20.327474-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.649902,
-   "feed": "real-time gold (PAXG, matched to spot +13.38)",
-   "time": "2026-11-16T14:25:00-05:00"
+   "price": 3866.449951,
+   "feed": "real-time gold (PAXG, matched to spot +13.65)",
+   "time": "2026-11-16T14:30:00-05:00"
   }
  },
  "stats": {
@@ -68,12 +68,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "LeoLabs acquires FishEye to bolster its missile defense chops - Breaking Defense",
-    "Watch What U.S. Aircraft Carriers Bring to the Iran War - WSJ",
-    "Fifth U.S. Carrier Deploys for Iran War: How They Work - WSJ"
+    "Europe Sanctions Pro-Russian Hackers and Disinfo Factory - GovInfoSecurity",
+    "EU sanctions Wildberries CEO Tatyana Kim as well as enablers of Moscow's shadow fleet - DW.com",
+    "Ukraine war latest: Crimean Bridge hit in reported attack, traffic restrictions imposed - The Kyiv Independent"
    ]
   },
   "today": [
