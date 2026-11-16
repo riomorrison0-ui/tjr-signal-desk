@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T19:35:20.301487-05:00",
+ "updated": "2026-11-15T19:40:20.347583-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3892.550049,
-   "feed": "real-time gold (PAXG, matched to spot +17.53)",
-   "time": "2026-11-15T19:30:00-05:00"
+   "price": 3890.570068,
+   "feed": "real-time gold (PAXG, matched to spot +19.05)",
+   "time": "2026-11-15T19:35:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Video: Portishead Reunite For Emotional War Child Concert With \"Roads\" And \"The Rip\" In 2022 - That Eric Alper",
-    "60 Minutes Transcript: Families of U.S. military members killed in Iran war want answers from the Pentagon - CBS News",
-    "Peak Energy Eyes Korea Green Projects as War Upends Fuel Flows - Bloomberg.com"
+    "INTERVIEW: Peninsula Says Diverging US and EU Sanctions Rules Mean Bunker Suppliers Must Clear Every Deal Twice \u2014 Ship & Bunker - Ship & Bunker",
+    "Blinken warns US ground invasion of Iran would be 'absolute disaster' as Tehran escalates attacks - Fox News",
+    "Video: Portishead Reunite For Emotional War Child Concert With \"Roads\" And \"The Rip\" In 2022 - That Eric Alper"
    ]
   },
   "today": [
