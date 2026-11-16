@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T20:10:20.313423-05:00",
+ "updated": "2026-11-15T20:15:20.288014-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3883.449951,
-   "feed": "real-time gold (PAXG, matched to spot +22.20)",
-   "time": "2026-11-15T20:05:00-05:00"
+   "price": 3874.600098,
+   "feed": "real-time gold (PAXG, matched to spot +13.84)",
+   "time": "2026-11-15T20:10:00-05:00"
   }
  },
  "stats": {
@@ -56,12 +56,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Sam Brownback Gives Names and Faces to China\u2019s War on Faith - Bitter Winter",
     "HBO\u2019s \u2018Lincoln Lawyer\u2019 Replacement Officially Continues Streaming War Path - Collider",
-    "Blinken says US ground invasion of Iran would be an \u201cabsolute disaster\u201d - Mezha.net",
-    "INTERVIEW: Peninsula Says Diverging US and EU Sanctions Rules Mean Bunker Suppliers Must Clear Every Deal Twice \u2014 Ship & Bunker - Ship & Bunker"
+    "Blinken says US ground invasion of Iran would be an \u201cabsolute disaster\u201d - Mezha.net"
    ]
   },
   "today": [
