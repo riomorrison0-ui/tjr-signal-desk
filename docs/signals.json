@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T08:25:20.255876-05:00",
+ "updated": "2026-11-16T08:30:20.243193-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.600098,
-   "feed": "real-time gold (PAXG, matched to spot +15.10)",
-   "time": "2026-11-16T08:20:00-05:00"
+   "price": 3873.419922,
+   "feed": "real-time gold (PAXG, matched to spot +13.45)",
+   "time": "2026-11-16T08:25:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "EU adds Russia\u2019s richest woman to Ukraine war sanctions - Macau Business",
-    "Ethnic Gaps in Treatment Escalation for Systemic Lupus Erythematosus - EMJ",
-    "Debrief: Ursa Major Lines Up To Compete For USAF\u2019s Next Big Missile - Aviation Week"
+    "Hemingway Knows Nothing challenges western understanding of war - New Eastern Europe",
+    "Oil prices slip as IEA forecasts first surplus since Iran war began - Quartz",
+    "Swedish civil defence report tracks progress on Ukraine war lessons - Nordic Defence Sector"
    ]
   },
   "today": [
