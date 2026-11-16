@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T09:15:20.281859-05:00",
+ "updated": "2026-11-16T09:21:09.005321-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3866.949951,
-   "feed": "real-time gold (PAXG, matched to spot +14.15)",
-   "time": "2026-11-16T09:10:00-05:00"
+   "price": 3868.75,
+   "feed": "real-time gold (PAXG, matched to spot +12.72)",
+   "time": "2026-11-16T09:15:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 8,
    "examples": [
-    "Britain dangerously unprepared for war as Lords accuse ministers of complacency - National Security News",
-    "OPINION: Iran is not only committing crimes on our soil. It is waging war on the United Kingdom - National Security News",
-    "Iran blocks UN nuclear site visits until war ends - France 24"
+    "From Sanctions to Maritime Interdiction: How the EU Operation Against the MIDAG Tanker Is Changing the Rules of Countering Russia\u2019s Shadow Fleet - Robert Lansing Institute",
+    "States must fund ICC to resist US sanctions, experts warn - University of Reading",
+    "Britain dangerously unprepared for war as Lords accuse ministers of complacency - National Security News"
    ]
   },
   "today": [
