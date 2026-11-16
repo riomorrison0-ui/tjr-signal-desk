@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T15:30:20.382664-05:00",
+ "updated": "2026-11-16T15:35:20.331157-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.169922,
-   "feed": "real-time gold (PAXG, matched to spot +12.45)",
-   "time": "2026-11-16T15:25:00-05:00"
+   "price": 3861.699951,
+   "feed": "real-time gold (PAXG, matched to spot +14.23)",
+   "time": "2026-11-16T15:30:00-05:00"
   }
  },
  "stats": {
@@ -68,9 +68,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "Gaza: 6,233 Israeli Ceasefire Violations, 1,650 Palestinians Killed Since \u2018Truce\u2019 Began - Palestine Chronicle",
+    "US envoy Kushner claims progress made towards agreement to end war in Ukraine - The Irish Times",
+    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post"
+   ]
   },
   "today": [
    {
