@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T03:40:20.429165-05:00",
+ "updated": "2026-11-16T03:45:20.427688-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.25,
-   "feed": "real-time gold (PAXG, matched to spot +11.91)",
-   "time": "2026-11-16T03:35:00-05:00"
+   "price": 3864.050049,
+   "feed": "real-time gold (PAXG, matched to spot +14.88)",
+   "time": "2026-11-16T03:40:00-05:00"
   }
  },
  "stats": {
@@ -59,9 +59,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "NB8 seminar: War is not a spectator sport - International Centre for Defence and Security",
-    "EU to agree 113 new sanctions listings on Russia, Helen McEntee says - Irish Independent",
-    "What is happening in Sudan? The civil war the world forgot - The Independent"
+    "Is the Iran war over? No: Trump said 'effectively over' on Nov. 9, then Iran targeted Bahrain twice - Nacionale",
+    "Selaco: The Machines of War massive free update is out now - GamingOnLinux",
+    "IEA Says Oil Supply Tops Demand for First Time Since Iran War Began - https://houseofsaud.com/"
    ]
   },
   "today": [
