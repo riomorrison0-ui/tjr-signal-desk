@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T09:00:20.235972-05:00",
+ "updated": "2026-11-16T09:05:20.245307-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3867.149902,
-   "feed": "real-time gold (PAXG, matched to spot +11.76)",
-   "time": "2026-11-16T08:55:00-05:00"
+   "price": 3868.850098,
+   "feed": "real-time gold (PAXG, matched to spot +16.05)",
+   "time": "2026-11-16T09:00:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "EU sanctions 30 individuals, 2 entities over Russian disinformation, cyberattacks - Anadolu Ajans\u0131",
-    "Wildberries Brushes Off EU Sanctions on Billionaire Founder Tatiana Kim - The Moscow Times",
-    "US midterms: class war overtakes culture war as Democrats ditch woke politics - The Irish Times"
+    "Britain dangerously unprepared for war as Lords accuse ministers of complacency - National Security News",
+    "OPINION: Iran is not only committing crimes on our soil. It is waging war on the United Kingdom - National Security News",
+    "Iran blocks UN nuclear site visits until war ends - France 24"
    ]
   },
   "today": [
