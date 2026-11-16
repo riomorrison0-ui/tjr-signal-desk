@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T12:35:20.273920-05:00",
+ "updated": "2026-11-16T12:40:20.277199-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.800049,
-   "feed": "real-time gold (PAXG, matched to spot +14.92)",
-   "time": "2026-11-16T12:30:00-05:00"
+   "price": 3871.570068,
+   "feed": "real-time gold (PAXG, matched to spot +18.56)",
+   "time": "2026-11-16T12:35:00-05:00"
   }
  },
  "stats": {
@@ -68,12 +68,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "France Expects EU Sanctions on Iran in December Over Fridge Hack - ASHARQ AL-AWSAT English",
-    "EU imposes fresh sanctions on Russia's banks, oil sector and business elite - RFI",
-    "Russia\u2019s richest woman hit by EU sanctions - Financial Times"
+    "Brussels Sanctions Russian Refineries, 'Shadow Fleet' Entities - Energy Intelligence",
+    "Syria: Progress \u2018real\u2019 but fragile, as remnants of war wreck young lives - UN News",
+    "More EU sanctions on Russian propagandists and hackers, as thousands of fake accounts target voters - EUobserver"
    ]
   },
   "today": [
