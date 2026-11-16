@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T10:00:20.256809-05:00",
+ "updated": "2026-11-16T10:05:20.236553-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3886.949951,
-   "feed": "real-time gold (PAXG, matched to spot +19.42)",
-   "time": "2026-11-16T09:55:00-05:00"
+   "price": 3882.52002,
+   "feed": "real-time gold (PAXG, matched to spot +14.96)",
+   "time": "2026-11-16T10:00:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Opinion | Erasing \u2018peace\u2019: How Russia\u2019s church serves its war in Ukraine - The Washington Post",
-    "'You will win the war', Prince Harry tells wounded veterans during surprise visit to Ukraine - Forces News",
-    "Iranian leaders fret over public mood as gas shortages add to war ills - Reuters"
+    "Department of War Invites Seven Industry Teams to Participate in Phase II Directed Energy - U.S. Department of War (.gov)",
+    "The War with Iran and the Changing Regional Order - The Jerusalem Strategic Tribune",
+    "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war - BBC"
    ]
   },
   "today": [
