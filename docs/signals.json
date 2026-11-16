@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T13:25:20.355138-05:00",
+ "updated": "2026-11-16T13:30:20.371055-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3846.919922,
-   "feed": "real-time gold (PAXG, matched to spot +11.35)",
-   "time": "2026-11-16T13:20:00-05:00"
+   "price": 3853.449951,
+   "feed": "real-time gold (PAXG, matched to spot +14.60)",
+   "time": "2026-11-16T13:25:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "UN says Israeli airstrike hit \u2018very close\u2019 to UN fuel convoy in Gaza - Anadolu Ajans\u0131",
     "Italy unveils plans to develop a new naval missile launcher - Breaking Defense",
-    "How the Iran war has disrupted the world of sport - The New Arab",
-    "Army Whistleblower Stephen Ramsbottom: Port Shuaiba and the Laws of War - Diplomacy and Law"
+    "How the Iran war has disrupted the world of sport - The New Arab"
    ]
   },
   "today": [
