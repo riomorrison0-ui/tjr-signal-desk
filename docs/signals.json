@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T23:50:20.382729-05:00",
+ "updated": "2026-11-16T23:55:20.361817-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.419922,
-   "feed": "real-time gold (PAXG, matched to spot +10.60)",
-   "time": "2026-11-16T23:45:00-05:00"
+   "price": 3875.919922,
+   "feed": "real-time gold (PAXG, matched to spot +10.63)",
+   "time": "2026-11-16T23:50:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "Russia launched ballistic missile strikes on bridges in Kyiv on 17 November - UkrMedia News",
+    "Vance: We Will Not Let The War Become A \u2018Forever War\u2019 - Kurdistan24",
+    "Iran Update, November 16, 2026 - Institute for the Study of War"
+   ]
   },
   "today": [
    {
