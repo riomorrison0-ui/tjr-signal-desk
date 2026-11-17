@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T11:55:20.254893-05:00",
+ "updated": "2026-11-17T12:00:20.241736-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.39,
-   "feed": "real-time gold (PAXG, matched to spot +10.58)",
-   "time": "2026-11-17T11:50:00-05:00"
+   "price": 3865.97,
+   "feed": "real-time gold (PAXG, matched to spot +9.98)",
+   "time": "2026-11-17T11:55:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Israel Building Center head slams UK sanctions on Israeli construction companies - The Times of Israel",
-    "Never read the book, but the BBC 'War and Peace' miniseries finds forgiveness - Angelus News",
-    "Teenagers killed rival Chelmsford dealer in turf war, court told - BBC"
+    "Iran War: JD Vance says there is \"no daylight\" between him and Trump on Middle East conflict - Plataforma Media",
+    "A War of Waiting: Trump and Tehran Gamble on Time - Modern Diplomacy",
+    "Israel Building Center head slams UK sanctions on Israeli construction companies - The Times of Israel"
    ]
   },
   "today": [
@@ -6835,7 +6835,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-11-27T10:30:00-05:00",
+   "hold_until": "2026-11-17T12:00:00-05:00",
    "why": "Sharp rally (RSI(2) 89) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-17T10:30:20.695923-05:00",
    "initial_status": "open",
