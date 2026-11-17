@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T04:33:34.187426-05:00",
+ "updated": "2026-11-17T04:35:41.974245-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.820068,
-   "feed": "real-time gold (PAXG, matched to spot +11.46)",
-   "time": "2026-11-17T04:25:00-05:00"
+   "price": 3866.449951,
+   "feed": "real-time gold (PAXG, matched to spot +13.26)",
+   "time": "2026-11-17T04:30:00-05:00"
   }
  },
  "stats": {
@@ -72,8 +72,8 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
     "PEXA's war on competition - Rampart",
     "Asia races to expand nuclear power as Iran war exposes energy vulnerabilities - The National",
@@ -194,7 +194,7 @@
   "max_risk_pct": 2.0,
   "lot": 0.01,
   "stop_cap_usd": 52.78,
-  "gbpusd": 1.31956
+  "gbpusd": 1.31942
  },
  "backtest": {
   "portfolio": {
