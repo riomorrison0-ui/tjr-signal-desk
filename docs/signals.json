@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T15:50:20.222168-05:00",
+ "updated": "2026-11-17T15:55:20.258411-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3846.8,
-   "feed": "real-time gold (PAXG, matched to spot +5.14)",
-   "time": "2026-11-17T15:45:00-05:00"
+   "price": 3847.49,
+   "feed": "real-time gold (PAXG, matched to spot +7.22)",
+   "time": "2026-11-17T15:50:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
-    "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher - Naval News",
-    "Remarks by Under Secretary of War for Policy Elbridge Colby at the Ukraine Defense Contact - U.S. Department of War (.gov)"
+    "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - iNFOnews.ca",
+    "Human rights group seeks US prosecution of Yoav Gallant for war crimes in Gaza, Lebanon - Arab News",
+    "UK imposes sanctions on Israeli firms involved in West Bank settlement construction - European Interest"
    ]
   },
   "today": [
