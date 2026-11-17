@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T02:15:20.437541-05:00",
+ "updated": "2026-11-17T02:20:20.424587-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.149902,
-   "feed": "real-time gold (PAXG, matched to spot +11.05)",
-   "time": "2026-11-17T02:10:00-05:00"
+   "price": 3879.850098,
+   "feed": "real-time gold (PAXG, matched to spot +12.39)",
+   "time": "2026-11-17T02:15:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Remains of two ROK soldiers killed in Korean War returned to families - NK News",
-    "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact - The Guardian",
-    "Football is helping Putin\u2019s war effort - The Telegraph"
+    "Vance rules out prolonged Iran war as US military buildup, Hormuz tensions persist - Rudaw",
+    "Dubai Airport Traffic Falls But Shows Signs of Recovery Amid Iran War - WSJ",
+    "The Ceaseless Ceasefire - Counterpunch"
    ]
   },
   "today": [
