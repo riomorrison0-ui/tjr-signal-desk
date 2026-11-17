@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T12:55:20.256072-05:00",
+ "updated": "2026-11-17T13:00:20.240052-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3863.1,
-   "feed": "real-time gold (PAXG, matched to spot +7.51)",
-   "time": "2026-11-17T12:50:00-05:00"
+   "price": 3862.47,
+   "feed": "real-time gold (PAXG, matched to spot +8.49)",
+   "time": "2026-11-17T12:55:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "WHO chief urges 'unobstructed' entry of supplies into Gaza amid 4th winter of war - Anadolu Ajans\u0131",
-    "UK sanctions Israeli firms helping build West Bank settlements - France 24",
-    "Russia\u2019s Lavrov says French troops in Ukraine amount to \u2018direct participation\u2019 in war - POLITICO.eu"
+    "UK sanctions firms building West Bank settlements and group blocking Gaza aid - East Renfrewshire News",
+    "Sa'ar vows 'countermeasures' after UK announces sanctions on companies involved in West Bank construction - The Times of Israel",
+    "UK sanctions firms building West Bank settlements and group blocking Gaza aid - Northwich Guardian"
    ]
   },
   "today": [
