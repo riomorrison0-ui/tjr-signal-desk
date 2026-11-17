@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T07:30:20.428805-05:00",
+ "updated": "2026-11-17T07:35:20.434896-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.86,
-   "feed": "real-time gold (PAXG, matched to spot +5.02)",
-   "time": "2026-11-17T07:25:00-05:00"
+   "price": 3856.51,
+   "feed": "real-time gold (PAXG, matched to spot +7.57)",
+   "time": "2026-11-17T07:30:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Five EU countries call for tougher sanctions on Russian crypto networks - INSIGHT EU MONITORING",
-    "Klopps 5:0 gegen die Niederlande: Wer war Weltklasse? - OneFootball",
-    "Israeli army demolishes several Palestinian structures, arrests 2 amid West Bank escalation - Anadolu Ajans\u0131"
+    "EA on Express 24-7: Trump Camp\u2019s \u201cLimbo\u201d in Its War on Iran - EA WorldView",
+    "UK imposes sanctions on eight Israeli firms and a group blocking Gaza aid - Middle East Eye",
+    "\u2018We have money for war, but not to fund climate\u2019: Zambian delegation criticizes Global North over COP31 draft decision - Anadolu Ajans\u0131"
    ]
   },
   "today": [
