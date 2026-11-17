@@ -1,3 +1,4 @@
+# Gold Desk live engine. Self-updates when this folder changes on GitHub.
 """Telegram message builders: price, market map (4H/1H/15m/5m), news, status, test trade."""
 from __future__ import annotations
 
