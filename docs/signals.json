@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T18:58:39.308495-05:00",
+ "updated": "2026-11-16T19:01:34.686443-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3855.850098,
-   "feed": "real-time gold (PAXG, matched to spot +3.48)",
-   "time": "2026-11-16T18:50:00-05:00"
+   "price": 3862.75,
+   "feed": "real-time gold (PAXG, matched to spot +11.86)",
+   "time": "2026-11-16T18:55:00-05:00"
   }
  },
  "stats": {
@@ -82,66 +82,106 @@
   },
   "today": [
    {
-    "title": "FOMC Member Barr Speaks",
+    "title": "FOMC Member Musalem Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T10:00:00+00:00",
+    "time": "2026-11-17T12:30:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "Empire State Manufacturing Index",
+    "title": "ADP Weekly Employment Change",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T13:30:00+00:00",
-    "forecast": "17.6",
-    "previous": "25.5"
-   },
-   {
-    "title": "FOMC Member Williams Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-16T14:05:00+00:00",
+    "time": "2026-11-17T13:15:00+00:00",
     "forecast": "",
-    "previous": ""
+    "previous": "19.8K"
    },
    {
-    "title": "Cleveland Fed Inflation Expectations",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-16T14:45:00+00:00",
-    "forecast": "",
-    "previous": "3.3%"
-   },
-   {
-    "title": "Fed Chairman Warsh Speaks",
+    "title": "Core Retail Sales m/m",
     "country": "USD",
     "impact": "High",
-    "time": "2026-11-16T17:00:00+00:00",
+    "time": "2026-11-17T13:30:00+00:00",
+    "forecast": "0.4%",
+    "previous": "0.9%"
+   },
+   {
+    "title": "Retail Sales m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-17T13:30:00+00:00",
+    "forecast": "0.1%",
+    "previous": "0.8%"
+   },
+   {
+    "title": "Import Prices m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T13:30:00+00:00",
+    "forecast": "0.7%",
+    "previous": "1.1%"
+   },
+   {
+    "title": "FOMC Member Waller Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T14:10:00+00:00",
     "forecast": "",
     "previous": ""
+   },
+   {
+    "title": "Capacity Utilization Rate",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T14:15:00+00:00",
+    "forecast": "76.8%",
+    "previous": "76.9%"
+   },
+   {
+    "title": "Industrial Production m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T14:15:00+00:00",
+    "forecast": "0.0%",
+    "previous": "0.7%"
    },
    {
     "title": "FOMC Member Hammack Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T19:15:00+00:00",
+    "time": "2026-11-17T14:30:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "FOMC Member Barkin Speaks",
+    "title": "Business Inventories m/m",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T23:10:00+00:00",
+    "time": "2026-11-17T15:00:00+00:00",
+    "forecast": "0.5%",
+    "previous": "0.4%"
+   },
+   {
+    "title": "NAHB Housing Market Index",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T15:00:00+00:00",
+    "forecast": "29",
+    "previous": "29"
+   },
+   {
+    "title": "FOMC Member Williams Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-17T19:25:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "FOMC Member Goolsbee Speaks",
+    "title": "API Weekly Statistical Bulletin",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-16T23:30:00+00:00",
+    "time": "2026-11-17T21:30:00+00:00",
     "forecast": "",
     "previous": ""
    }
@@ -153,8 +193,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.75,
-  "gbpusd": 1.31867
+  "stop_cap_usd": 52.0,
+  "gbpusd": 1.3
  },
  "backtest": {
   "portfolio": {
