@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T10:05:20.456824-05:00",
+ "updated": "2026-11-17T10:10:20.439096-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.99,
-   "feed": "real-time gold (PAXG, matched to spot +8.97)",
-   "time": "2026-11-17T10:00:00-05:00"
+   "price": 3857.49,
+   "feed": "real-time gold (PAXG, matched to spot +5.87)",
+   "time": "2026-11-17T10:05:00-05:00"
   }
  },
  "stats": {
@@ -61,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Jensen Huang\u2019s departure as Nvidia CEO becomes a political proxy war - The Guardian",
-    "Trump says Russia-Ukraine war 'very close' to being resolved - Yeni Safak English",
-    "UK sanctions eight firms over illegal West Bank settlements, Tzav 9 - Yeni Safak English"
+    "EU sees eurozone economy hold up despite Iran war - France 24",
+    "Driving in World War II: was their K\u00fcbelwagen better than our Jeep? - Autocar",
+    "Remarks by Under Secretary of War for Policy Elbridge Colby at the European Union Foreign - U.S. Department of War (.gov)"
    ]
   },
   "today": [
