@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T23:05:20.453049-05:00",
+ "updated": "2026-11-16T23:10:20.348050-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.219971,
-   "feed": "real-time gold (PAXG, matched to spot +13.14)",
-   "time": "2026-11-16T23:00:00-05:00"
+   "price": 3871.449951,
+   "feed": "real-time gold (PAXG, matched to spot +12.99)",
+   "time": "2026-11-16T23:05:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News",
+    "ExxonMobil sanctions Longtail gas, condensate development offshore Guyana - Offshore Magazine",
+    "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report"
+   ]
   },
   "today": [
    {
