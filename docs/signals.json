@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T16:05:20.271249-05:00",
+ "updated": "2026-11-17T16:10:20.233699-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3848.97,
-   "feed": "real-time gold (PAXG, matched to spot +7.00)",
-   "time": "2026-11-17T16:00:00-05:00"
+   "price": 3850.38,
+   "feed": "real-time gold (PAXG, matched to spot +8.12)",
+   "time": "2026-11-17T16:05:00-05:00"
   }
  },
  "stats": {
@@ -67,7 +67,7 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action - iNFOnews.ca",
+    "US Navy chief says Iran war has put \u2018strain\u2019 on maritime forces - Al Jazeera",
     "Human rights group seeks US prosecution of Yoav Gallant for war crimes in Gaza, Lebanon - Arab News",
     "UK imposes sanctions on Israeli firms involved in West Bank settlement construction - European Interest"
    ]
