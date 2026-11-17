@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T22:50:20.339759-05:00",
+ "updated": "2026-11-16T22:55:20.372088-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3875.149902,
-   "feed": "real-time gold (PAXG, matched to spot +14.88)",
-   "time": "2026-11-16T22:45:00-05:00"
+   "price": 3874.27002,
+   "feed": "real-time gold (PAXG, matched to spot +15.43)",
+   "time": "2026-11-16T22:50:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
-   "examples": [
-    "Zelensky warns Russia is preparing a new missile strike on Ukraine - Around Prague",
-    "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges - The Guardian",
-    "Pakistan tests new indigenously developed air-to-air missile - Asian Military Review"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
