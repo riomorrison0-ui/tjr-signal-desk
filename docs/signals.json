@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T14:15:20.261028-05:00",
+ "updated": "2026-11-17T14:20:20.245694-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3856.18,
-   "feed": "real-time gold (PAXG, matched to spot +9.83)",
-   "time": "2026-11-17T14:10:00-05:00"
+   "price": 3857.36,
+   "feed": "real-time gold (PAXG, matched to spot +8.92)",
+   "time": "2026-11-17T14:15:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK sanctions Zionist settlement firms in push to protect two-state solution - Kuwait Times",
-    "Czech Republic considers buying Israel's Arrow 3 missile defense system - www.calcalistech.com",
-    "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams - The New York Times"
+    "EU sanctions list Wildberries founder Kim and Ozon investor Chachava - IntelliNews",
+    "Putin\u2019s Asymmetric War on Europe - The Bulwark",
+    "Russia accuses France of direct involvement in Ukraine war following RFI report - RFI"
    ]
   },
   "today": [
