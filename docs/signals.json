@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T08:00:20.465172-05:00",
+ "updated": "2026-11-17T08:05:20.425565-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.85,
-   "feed": "real-time gold (PAXG, matched to spot +8.33)",
-   "time": "2026-11-17T07:55:00-05:00"
+   "price": 3861.3,
+   "feed": "real-time gold (PAXG, matched to spot +5.72)",
+   "time": "2026-11-17T08:00:00-05:00"
   }
  },
  "stats": {
@@ -82,9 +82,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "UK sanctions on Israel: \u2018a step in the right direction - but falls far short of what international law demands\u2019 - Amnesty International UK",
-    "UK sanctions firms over Israeli West Bank settlements - BBC",
-    "Is the US-Israel war on Iran turning into a \u2018frozen conflict\u2019? - Al Jazeera"
+    "Those sanctions we\u2019ve been hearing about? They\u2019re a much bigger deal than you think. - Israel from the Inside with Daniel Gordis",
+    "Russia\u2019s FIMI and malicious cyber activities: EU imposes sanctions on 30 individuals and two entities - EU NEIGHBOURS east",
+    "Qatar warns Gulf escalation poses 'grave danger' to US-Iran deal - Euronews.com"
    ]
   },
   "today": [
