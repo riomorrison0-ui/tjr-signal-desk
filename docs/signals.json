@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-17T12:00:20.241736-05:00",
+ "updated": "2026-11-17T12:05:20.265226-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3865.97,
-   "feed": "real-time gold (PAXG, matched to spot +9.98)",
-   "time": "2026-11-17T11:55:00-05:00"
+   "price": 3870.84,
+   "feed": "real-time gold (PAXG, matched to spot +13.22)",
+   "time": "2026-11-17T12:00:00-05:00"
   }
  },
  "stats": {
-  "trades": 7,
+  "trades": 8,
   "wins": 6,
-  "win_rate": 85.7,
-  "total_r": 2.85,
-  "avg_r": 0.407,
-  "balance": 2088.42,
+  "win_rate": 75.0,
+  "total_r": 2.81,
+  "avg_r": 0.352,
+  "balance": 2087.09,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -44,6 +44,10 @@
    {
     "t": "2026-11-17T08:35:00-05:00",
     "balance": 2088.42
+   },
+   {
+    "t": "2026-11-17T12:05:00-05:00",
+    "balance": 2087.09
    }
   ]
  },
@@ -6827,12 +6831,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-17T10:30:00-05:00",
-   "status": "open",
+   "status": "loss",
    "fill_time": "2026-11-17T10:30:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-17T12:05:00-05:00",
+   "exit_price": 3870.84,
+   "r": -0.033,
+   "notes": [
+    "legs: TP1 early, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-17T12:00:00-05:00",
@@ -6850,14 +6856,20 @@
      "tp": 3857.07,
      "r_mult": 0.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3870.84,
+     "exit_time": "2026-11-17T12:05:00-05:00",
+     "r": -0.033
     },
     {
      "n": 3,
      "tp": 3830.69,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3870.84,
+     "exit_time": "2026-11-17T12:05:00-05:00",
+     "r": -0.033
     }
    ],
    "news": {
@@ -6870,7 +6882,8 @@
      "forecast": "",
      "previous": ""
     }
-   }
+   },
+   "pnl_gbp": -1.33
   },
   {
    "id": "XAUUSD-rsi2-20261117-0655-SELL",
