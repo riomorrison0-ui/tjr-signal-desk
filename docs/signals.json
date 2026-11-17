@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T09:20:20.410385-05:00",
+ "updated": "2026-11-17T09:25:20.443037-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.85,
-   "feed": "real-time gold (PAXG, matched to spot +9.72)",
-   "time": "2026-11-17T09:15:00-05:00"
+   "price": 3862.59,
+   "feed": "real-time gold (PAXG, matched to spot +9.67)",
+   "time": "2026-11-17T09:20:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Settler leaders denounce UK sanctions, call measures \u2018antisemitic\u2019 - The Times of Israel",
-    "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts - Morgan Lewis",
-    "Tuesday, November 17. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes"
+    "London sanctions Israeli firms involved in West Bank settlement expansion - thecradle.co",
+    "UK sanctions eight Israeli construction firms over West Bank settlements - Al Jazeera",
+    "Settler leaders denounce UK sanctions, call measures \u2018antisemitic\u2019 - The Times of Israel"
    ]
   },
   "today": [
