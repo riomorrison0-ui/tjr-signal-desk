@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T00:40:20.395149-05:00",
+ "updated": "2026-11-17T00:44:42.721639-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.169922,
-   "feed": "real-time gold (PAXG, matched to spot +11.20)",
+   "price": 3883.5,
+   "feed": "real-time gold (PAXG, matched to spot +10.53)",
    "time": "2026-11-17T00:35:00-05:00"
   }
  },
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "Archaeologists uncover sections of medieval church in war-torn Sudan - Reuters",
-    "Kyiv bridges attacked in Russian missile strikes overnight; Russia says it downed over 2,000 drones - i24NEWS",
-    "Oil falls after US dismisses prospect of \u2018forever war\u2019 with Iran - Arabian Gulf Business Insight | AGBI"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
