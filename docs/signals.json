@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T17:10:20.240339-05:00",
+ "updated": "2026-11-17T17:15:20.225834-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3850.16,
-   "feed": "real-time gold (PAXG, matched to spot +6.62)",
-   "time": "2026-11-17T17:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +4.03)",
+   "time": "2026-11-17T17:10:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK energy bills could jump \u00a3460 a year in January as war squeezes gas supplies - The Cool Down",
-    "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
-    "UK sanctions Israeli settlement firms to protect two-state solution - Al Jazeera"
+    "The Ghosts of World War II Howl In the Bones of \u201cJimmy\u201d - Awards Daily",
+    "Atopic Dermatitis Escalation Stalls on Payer Rules, Thin Tracking - The American Journal of Managed Care",
+    "UK sanctions Israeli firms helping build West Bank settlements - Bangkok Post"
    ]
   },
   "today": [
