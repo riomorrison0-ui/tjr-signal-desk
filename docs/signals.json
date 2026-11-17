@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T21:15:20.373946-05:00",
+ "updated": "2026-11-16T21:20:20.363297-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.969971,
-   "feed": "real-time gold (PAXG, matched to spot +15.48)",
-   "time": "2026-11-16T21:10:00-05:00"
+   "price": 3871.469971,
+   "feed": "real-time gold (PAXG, matched to spot +11.92)",
+   "time": "2026-11-16T21:15:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "US vice president vows Trump will not let Iran conflict become another \u2018forever war' - Anadolu Ajans\u0131",
+    "Iran\u2019s dams may have been built to support missile bases - NYT - Iran International",
+    "Major changes to Pentagon\u2019s financial auditing strategy hinge on War Data Platform - DefenseScoop"
+   ]
   },
   "today": [
    {
