@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T04:05:20.517888-05:00",
+ "updated": "2026-11-17T04:10:20.449733-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3872.320068,
-   "feed": "real-time gold (PAXG, matched to spot +12.35)",
-   "time": "2026-11-17T04:00:00-05:00"
+   "price": 3872.050049,
+   "feed": "real-time gold (PAXG, matched to spot +11.70)",
+   "time": "2026-11-17T04:05:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 3,
    "examples": [
+    "Brit List 2026: Gemma Addy's War Feature 'Dig For Victory' Makes List - Deadline",
     "Ukrainian Strike Sends More Than 270 Meters of Russia\u2019s Crimean Bridge Into the Sea. How Bad Is the Damage? - UNITED24 Media",
-    "UKRAINE: Youth impacted by war receive toys thanks to donation coordinated by Salesian Missions - missionnewswire.org",
-    "Video purports to show Flamingo missile hitting Crimean Bridge in overnight strike - The New Voice of Ukraine"
+    "UKRAINE: Youth impacted by war receive toys thanks to donation coordinated by Salesian Missions - missionnewswire.org"
    ]
   },
   "today": [
