@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T06:10:20.440382-05:00",
+ "updated": "2026-11-17T06:15:20.431229-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.68,
-   "feed": "real-time gold (PAXG, matched to spot +8.26)",
-   "time": "2026-11-17T06:05:00-05:00"
+   "price": 3858.09,
+   "feed": "real-time gold (PAXG, matched to spot +9.13)",
+   "time": "2026-11-17T06:10:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK imposes sanctions on eight firms building settlements in occupied West Bank - www.lbc.co.uk",
-    "Ed Miliband announces first sanctions on Israeli firms working in West Bank - The Guardian",
-    "Larijani: US Must Pay War Reparations or Lose Its Interests - WANA News Agency"
+    "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go",
+    "UK sanctions firms involved in illegal West Bank settlements, Gaza-aid blocking group - Anadolu Ajans\u0131",
+    "The NFL\u2019s Salute to Service honors the military \u2013 and leaves out the realities of war | Lee Escobedo - The Guardian"
    ]
   },
   "today": [
