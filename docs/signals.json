@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T01:00:20.489267-05:00",
+ "updated": "2026-11-17T01:05:20.402913-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3882.75,
-   "feed": "real-time gold (PAXG, matched to spot +11.98)",
-   "time": "2026-11-17T00:55:00-05:00"
+   "price": 3882.600098,
+   "feed": "real-time gold (PAXG, matched to spot +17.05)",
+   "time": "2026-11-17T01:00:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "UK sanctions all 10 of Russia\u2019s largest oil producers, including Slavneft - Manifold Times",
+    "Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters",
+    "Kyiv Bridges Reportedly Hit in Russian Missile Attack - Oz Arab Media"
+   ]
   },
   "today": [
    {
