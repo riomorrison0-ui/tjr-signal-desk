@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T19:30:20.381641-05:00",
+ "updated": "2026-11-16T19:35:20.382872-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3859.300049,
-   "feed": "real-time gold (PAXG, matched to spot +14.51)",
-   "time": "2026-11-16T19:25:00-05:00"
+   "price": 3860.0,
+   "feed": "real-time gold (PAXG, matched to spot +14.89)",
+   "time": "2026-11-16T19:30:00-05:00"
   }
  },
  "stats": {
@@ -72,9 +72,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
+    "There will be less war in the Middle East in 2027\u2014but little real peace - The Economist",
+    "European foreign ministers call on EU to crack down on Russian crypto networks financing war against Ukraine - The Kyiv Independent"
+   ]
   },
   "today": [
    {
