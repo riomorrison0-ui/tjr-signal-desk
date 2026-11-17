@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T00:25:20.362506-05:00",
+ "updated": "2026-11-17T00:30:20.347740-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3884.149902,
-   "feed": "real-time gold (PAXG, matched to spot +11.28)",
-   "time": "2026-11-17T00:20:00-05:00"
+   "price": 3885.25,
+   "feed": "real-time gold (PAXG, matched to spot +11.36)",
+   "time": "2026-11-17T00:25:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "The secret war between al-Qaeda and Islamic State - Financial Times",
-    "Rare Second World War military huts in Ripon saved from demolition - The York Press",
-    "War veteran turns 100 and inspires Whitchurch community's woollen poppy tribute - Whitchurch Herald"
+    "Archaeologists uncover sections of medieval church in war-torn Sudan - Reuters",
+    "Kyiv bridges attacked in Russian missile strikes overnight; Russia says it downed over 2,000 drones - i24NEWS",
+    "Oil falls after US dismisses prospect of \u2018forever war\u2019 with Iran - Arabian Gulf Business Insight | AGBI"
    ]
   },
   "today": [
