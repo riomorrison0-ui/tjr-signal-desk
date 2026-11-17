@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T07:00:20.411582-05:00",
+ "updated": "2026-11-17T07:05:20.421636-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.29,
-   "feed": "real-time gold (PAXG, matched to spot +8.78)",
-   "time": "2026-11-17T06:55:00-05:00"
+   "price": 3868.21,
+   "feed": "real-time gold (PAXG, matched to spot +8.41)",
+   "time": "2026-11-17T07:00:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU readies fresh sanctions on Russia to counter 'absurd' demands - Euronews.com",
-    "Trump to discuss Iran war with Xi and Putin as he begins Asia trip - www.thenationalnews.com",
-    "UK targets Israeli settlement companies with new sanctions - The Jerusalem Post"
+    "Israeli army kills Palestinian, blows up homes in Gaza despite ceasefire - Anadolu Ajans\u0131",
+    "Russia calls French troops presence in Ukraine a 'direct participation in war' - Le Monde.fr",
+    "UK sanctions eight firms building Israeli settlements in the West Bank - Sky News"
    ]
   },
   "today": [
