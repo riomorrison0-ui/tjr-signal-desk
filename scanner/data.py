@@ -81,19 +81,34 @@ def binance_paxg(interval: str = "5m", limit: int = 6000) -> pd.DataFrame:
     return df[["open", "high", "low", "close"]]
 
 
+def spot_quote() -> tuple[float, float, str] | None:
+    """Live XAU/USD bid/ask from Swissquote's public broker feed (real-time, no key)."""
+    try:
+        j = requests.get("https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/XAU/USD",
+                         headers=UA, timeout=10).json()
+        qs = [(p["bid"], p["ask"]) for plat in j for p in plat.get("spreadProfilePrices", [])]
+        if qs:
+            bids = sorted(b for b, _ in qs); asks = sorted(a for _, a in qs)
+            bid, ask = bids[len(bids) // 2], asks[len(asks) // 2]
+            if 500 < bid < 20000 and 0 <= ask - bid < 5:
+                return float(bid), float(ask), "Swissquote live"
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def spot_gold() -> float | None:
-    """Live spot XAU/USD (what MT5 brokers quote), free, no key."""
-    for url, path in (("https://api.gold-api.com/price/XAU", ("price",)),
-                      ("https://data-asg.goldprice.org/dbXRates/USD", ("items", 0, "xauPrice"))):
-        try:
-            j = requests.get(url, headers=UA, timeout=10).json()
-            for k in path:
-                j = j[k]
-            v = float(j)
-            if 500 < v < 20000:
-                return v
-        except Exception:  # noqa: BLE001
-            continue
+    """Live spot XAU/USD mid price. Swissquote broker feed first; gold-api.com only as a fallback
+    (it was measured drifting -$1.60..+$4.20 from broker prices)."""
+    q = spot_quote()
+    if q:
+        return round((q[0] + q[1]) / 2, 2)
+    try:
+        v = float(requests.get("https://api.gold-api.com/price/XAU", headers=UA, timeout=10).json()["price"])
+        if 500 < v < 20000:
+            return v
+    except Exception:  # noqa: BLE001
+        pass
     return None
 
 

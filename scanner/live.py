@@ -549,9 +549,14 @@ def scan_once(state, cfg, mode="scan"):
 
     def send(kind):
         if kind == "price":
-            spot = spot_gold()
-            tg(f"💰 <b>XAUUSD {(spot or last or 0):,.2f}</b> (live spot {pd.Timestamp.now(tz=UK):%H:%M:%S} UK)\n"
-               + (f"Last closed 5m candle {mmap['time'].tz_convert(UK):%H:%M} UK · {briefs.esc(feed)}" if mmap else ""))
+            from data import spot_quote
+            q = spot_quote()
+            if q:
+                tg(f"💰 <b>XAUUSD {(q[0] + q[1]) / 2:,.2f}</b>\nBid {q[0]:,.2f} · Ask {q[1]:,.2f} · {q[2]} {pd.Timestamp.now(tz=UK):%H:%M:%S} UK\n"
+                   "<i>Your broker may differ by a few cents.</i>")
+            else:
+                spot = spot_gold()
+                tg(f"💰 <b>XAUUSD {(spot or last or 0):,.2f}</b> (backup feed {pd.Timestamp.now(tz=UK):%H:%M:%S} UK)")
         elif kind == "levels" and mmap:
             tg(briefs.map_msg(mmap))
         elif kind == "news":
