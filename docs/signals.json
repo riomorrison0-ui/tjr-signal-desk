@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T22:05:20.359141-05:00",
+ "updated": "2026-11-16T22:10:20.378778-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3873.050049,
-   "feed": "real-time gold (PAXG, matched to spot +13.83)",
-   "time": "2026-11-16T22:00:00-05:00"
+   "price": 3877.649902,
+   "feed": "real-time gold (PAXG, matched to spot +13.60)",
+   "time": "2026-11-16T22:05:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "\u2018PEACE + WAR\u2019 Album Review: No White Flags in Sight - The Harvard Crimson",
-    "UK PM says Iran war must end \u2014 and backs deal to reopen Strait of Hormuz - Gulf News",
-    "US vice president vows Trump will not let Iran conflict become another \u2018forever war' - Anadolu Ajans\u0131"
+    "Vance says there\u2019s \u2018no daylight\u2019 between him and Trump on the war in Iran - NBC News",
+    "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629",
+    "JD Vance: Iran will not be a forever war - The Times"
    ]
   },
   "today": [
