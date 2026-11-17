@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T13:30:20.259249-05:00",
+ "updated": "2026-11-17T13:35:20.250347-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3862.06,
-   "feed": "real-time gold (PAXG, matched to spot +9.73)",
-   "time": "2026-11-17T13:25:00-05:00"
+   "price": 3862.29,
+   "feed": "real-time gold (PAXG, matched to spot +8.54)",
+   "time": "2026-11-17T13:30:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "New UK Sanctions on Israeli Groups Will Have No Material Impact, Critics Say - Novara Media",
-    "Sa\u2019ar promises \u2018countermeasures\u2019 in response to \u2018hostile\u2019 UK sanctions against settlement firms - Jewish News",
-    "Saudi Arabia appoints Gen. Ruwaili to oversee Yemen war after setbacks: What to know - Al-Monitor"
+    "\u2018No immediate urgency\u2019: IDF prepares for renewed Iran war as US flexes military might - Ynetnews",
+    "Trump: US firms building over 22 missile plants - AzerNews",
+    "Film produced by Newport pastor brings Ukrainian war grief to Lido Theater - Los Angeles Times"
    ]
   },
   "today": [
