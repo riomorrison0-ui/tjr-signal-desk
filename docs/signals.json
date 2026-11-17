@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T03:50:20.403789-05:00",
+ "updated": "2026-11-17T03:55:20.418291-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3872.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.16)",
-   "time": "2026-11-17T03:45:00-05:00"
+   "price": 3873.300049,
+   "feed": "real-time gold (PAXG, matched to spot +9.69)",
+   "time": "2026-11-17T03:50:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "The Military Strategic Drivers Behind China\u2019s Nuclear Expansion - War on the Rocks",
-    "Refusenik\u2019s Son: A Story of Spies, Bioweapons, and Cold War Survival - Washington Independent Review of Books",
-    "Russian Ballistic Missile Strikes Damage Two Major Bridges in Kyiv - Oj - Odessa Journal"
+    "Ukrainian Strike Sends More Than 270 Meters of Russia\u2019s Crimean Bridge Into the Sea. How Bad Is the Damage? - UNITED24 Media",
+    "UKRAINE: Youth impacted by war receive toys thanks to donation coordinated by Salesian Missions - missionnewswire.org",
+    "Video purports to show Flamingo missile hitting Crimean Bridge in overnight strike - The New Voice of Ukraine"
    ]
   },
   "today": [
