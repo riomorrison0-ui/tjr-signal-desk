@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T10:20:20.479721-05:00",
+ "updated": "2026-11-17T10:25:20.431723-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.51,
-   "feed": "real-time gold (PAXG, matched to spot +8.51)",
-   "time": "2026-11-17T10:15:00-05:00"
+   "price": 3869.92,
+   "feed": "real-time gold (PAXG, matched to spot +9.06)",
+   "time": "2026-11-17T10:20:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU sees eurozone economy hold up despite Iran war - France 24",
-    "Driving in World War II: was their K\u00fcbelwagen better than our Jeep? - Autocar",
-    "Remarks by Under Secretary of War for Policy Elbridge Colby at the European Union Foreign - U.S. Department of War (.gov)"
+    "Saudi Oil Product Exports Reach Highest Level Since War Began: Report - Egypt Oil & Gas",
+    "Russian military aircraft crashes in fireball smash as Putin's war in tatters - AOL.co.uk",
+    "Labour under fire after accepting 'sanctions regime for young people' in Neet report - The National Scot"
    ]
   },
   "today": [
