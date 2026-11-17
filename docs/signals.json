@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T12:25:20.265597-05:00",
+ "updated": "2026-11-17T12:30:20.233859-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.07,
-   "feed": "real-time gold (PAXG, matched to spot +10.93)",
-   "time": "2026-11-17T12:20:00-05:00"
+   "price": 3867.47,
+   "feed": "real-time gold (PAXG, matched to spot +8.27)",
+   "time": "2026-11-17T12:25:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi Arabia's executions surge amid regional conflict - DW.com",
-    "Russia Says French Troops in Ukraine a \u2018Direct Participation\u2019 in War - ASHARQ AL-AWSAT English",
-    "New Carrier Group Deployment Will Give U.S. More Options in War Against Iran - RANE Worldview"
+    "WHO chief urges 'unobstructed' entry of supplies into Gaza amid 4th winter of war - Anadolu Ajans\u0131",
+    "Russia\u2019s Lavrov says French troops in Ukraine amount to \u2018direct participation\u2019 in war - POLITICO.eu",
+    "UK sanctions Israeli firms helping build West Bank settlements - Yahoo News Singapore"
    ]
   },
   "today": [
