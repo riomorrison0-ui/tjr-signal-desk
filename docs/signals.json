@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T06:25:20.423968-05:00",
+ "updated": "2026-11-17T06:30:20.425847-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3858.01,
-   "feed": "real-time gold (PAXG, matched to spot +7.92)",
-   "time": "2026-11-17T06:20:00-05:00"
+   "price": 3859.76,
+   "feed": "real-time gold (PAXG, matched to spot +9.08)",
+   "time": "2026-11-17T06:25:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go",
-    "UK sanctions firms involved in illegal West Bank settlements, Gaza-aid blocking group - Anadolu Ajans\u0131",
-    "The NFL\u2019s Salute to Service honors the military \u2013 and leaves out the realities of war | Lee Escobedo - The Guardian"
+    "Iran Condemns US-Israeli Claims Linking Missile Bases to Dams - WANA News Agency",
+    "Ukraine fires 1,336 drones into Russia in one of war\u2019s largest attacks, Moscow says - Rural Radio Network",
+    "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go"
    ]
   },
   "today": [
