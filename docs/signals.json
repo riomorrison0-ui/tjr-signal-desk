@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T02:30:20.428205-05:00",
+ "updated": "2026-11-17T02:35:20.394142-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.169922,
-   "feed": "real-time gold (PAXG, matched to spot +13.04)",
-   "time": "2026-11-17T02:25:00-05:00"
+   "price": 3878.969971,
+   "feed": "real-time gold (PAXG, matched to spot +13.68)",
+   "time": "2026-11-17T02:30:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "Vance rules out prolonged Iran war as US military buildup, Hormuz tensions persist - Rudaw",
-    "Dubai Airport Traffic Falls But Shows Signs of Recovery Amid Iran War - WSJ",
-    "The Ceaseless Ceasefire - Counterpunch"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
