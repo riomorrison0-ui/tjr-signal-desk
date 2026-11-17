@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T22:20:20.346962-05:00",
+ "updated": "2026-11-16T22:25:20.367123-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.469971,
-   "feed": "real-time gold (PAXG, matched to spot +9.24)",
-   "time": "2026-11-16T22:15:00-05:00"
+   "price": 3879.169922,
+   "feed": "real-time gold (PAXG, matched to spot +14.17)",
+   "time": "2026-11-16T22:20:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges - The Guardian",
     "Vance says there\u2019s \u2018no daylight\u2019 between him and Trump on the war in Iran - NBC News",
-    "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629",
-    "JD Vance: Iran will not be a forever war - The Times"
+    "What Would End the Iran War? - \u0627\u0644\u062d\u0631\u0629"
    ]
   },
   "today": [
