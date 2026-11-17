@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T07:45:20.425049-05:00",
+ "updated": "2026-11-17T07:50:20.423570-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3859.28,
-   "feed": "real-time gold (PAXG, matched to spot +7.52)",
-   "time": "2026-11-17T07:40:00-05:00"
+   "price": 3859.57,
+   "feed": "real-time gold (PAXG, matched to spot +8.30)",
+   "time": "2026-11-17T07:45:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "EA on Express 24-7: Trump Camp\u2019s \u201cLimbo\u201d in Its War on Iran - EA WorldView",
-    "UK imposes sanctions on eight Israeli firms and a group blocking Gaza aid - Middle East Eye",
-    "\u2018We have money for war, but not to fund climate\u2019: Zambian delegation criticizes Global North over COP31 draft decision - Anadolu Ajans\u0131"
+    "UK sanctions on Israel: \u2018a step in the right direction - but falls far short of what international law demands\u2019 - Amnesty International UK",
+    "UK sanctions firms over Israeli West Bank settlements - BBC",
+    "Is the US-Israel war on Iran turning into a \u2018frozen conflict\u2019? - Al Jazeera"
    ]
   },
   "today": [
