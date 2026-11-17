@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T18:45:20.226635-05:00",
+ "updated": "2026-11-17T18:50:20.265771-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3847.47,
-   "feed": "real-time gold (PAXG, matched to spot +5.73)",
-   "time": "2026-11-17T18:40:00-05:00"
+   "price": 3849.97,
+   "feed": "real-time gold (PAXG, matched to spot +7.23)",
+   "time": "2026-11-17T18:45:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Irish man \u2018destroyed $60m US military jet in protest over Gaza War\u2019 - The Telegraph",
-    "Britain sanctions Israeli aid-blocking group and settlement construction companies - Jewish Telegraphic Agency",
-    "Navy chief nominee faces fierce Senate grilling over Iran war and US sailors' mental health - TRT World"
+    "US Navy secretary nominee says urging Hegseth to end Iran war is not within his \u2018purview\u2019 - Anadolu Ajans\u0131",
+    "US carries out \u2018self-defense\u2019 strikes on Iranian missile launch site - FXStreet",
+    "Irish man \u2018destroyed $60m US military jet in protest over Gaza War\u2019 - The Telegraph"
    ]
   },
   "today": [
