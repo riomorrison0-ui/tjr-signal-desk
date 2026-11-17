@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T06:40:20.469638-05:00",
+ "updated": "2026-11-17T06:45:20.413748-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.26,
-   "feed": "real-time gold (PAXG, matched to spot +8.34)",
-   "time": "2026-11-17T06:35:00-05:00"
+   "price": 3864.07,
+   "feed": "real-time gold (PAXG, matched to spot +9.27)",
+   "time": "2026-11-17T06:40:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran Condemns US-Israeli Claims Linking Missile Bases to Dams - WANA News Agency",
-    "Ukraine fires 1,336 drones into Russia in one of war\u2019s largest attacks, Moscow says - Rural Radio Network",
-    "Aviation War Risk Premiums Up 50%-500% Since Middle East Conflict Began on 28 February - Avi-Go"
+    "EU readies fresh sanctions on Russia to counter 'absurd' demands - Euronews.com",
+    "Trump to discuss Iran war with Xi and Putin as he begins Asia trip - www.thenationalnews.com",
+    "UK targets Israeli settlement companies with new sanctions - The Jerusalem Post"
    ]
   },
   "today": [
