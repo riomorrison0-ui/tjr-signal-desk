@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T11:10:20.267536-05:00",
+ "updated": "2026-11-17T11:16:09.966106-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.56,
-   "feed": "real-time gold (PAXG, matched to spot +9.25)",
-   "time": "2026-11-17T11:05:00-05:00"
+   "price": 3871.65,
+   "feed": "real-time gold (PAXG, matched to spot +10.37)",
+   "time": "2026-11-17T11:10:00-05:00"
   }
  },
  "stats": {
@@ -61,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "EU targets owners and ship managers with new sanctions on Russia - TradeWinds News",
-    "Brazil deploy security forces to Indigenous territory after invasion - Genocide Watch",
-    "Fresh clashes at the Eritrean border\u2014Is Ethiopia sliding into a regional war? - DW.com"
+    "Chay Bowes' nationality irrelevant to EU sanctions, McEntee says - RTE.ie",
+    "Is Iraq Heading Towards Civil War? - The Media Line",
+    "Insight: Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters"
    ]
   },
   "today": [
