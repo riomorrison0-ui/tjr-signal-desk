@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T17:45:20.218306-05:00",
+ "updated": "2026-11-17T17:50:20.223613-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3850.16,
-   "feed": "real-time gold (PAXG, matched to spot +4.43)",
-   "time": "2026-11-17T17:40:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +4.24)",
+   "time": "2026-11-17T17:45:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Contracts for Nov. 17, 2026 - U.S. Department of War (.gov)",
     "The Ghosts of World War II Howl In the Bones of \u201cJimmy\u201d - Awards Daily",
-    "Atopic Dermatitis Escalation Stalls on Payer Rules, Thin Tracking - The American Journal of Managed Care",
-    "UK sanctions Israeli firms helping build West Bank settlements - Bangkok Post"
+    "Atopic Dermatitis Escalation Stalls on Payer Rules, Thin Tracking - The American Journal of Managed Care"
    ]
   },
   "today": [
