@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T10:39:44.678647-05:00",
+ "updated": "2026-11-17T10:40:43.539642-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3879.7,
-   "feed": "real-time gold (PAXG, matched to spot +14.33)",
-   "time": "2026-11-17T10:30:00-05:00"
+   "price": 3873.24,
+   "feed": "real-time gold (PAXG, matched to spot +4.03)",
+   "time": "2026-11-17T10:35:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi Oil Product Exports Reach Highest Level Since War Began: Report - Egypt Oil & Gas",
+    "\u2018Do not build\u2019: UK sanctions 8 Israeli construction companies for building West Bank settlements - The Times of Israel",
     "Russian military aircraft crashes in fireball smash as Putin's war in tatters - AOL.co.uk",
-    "Labour under fire after accepting 'sanctions regime for young people' in Neet report - The National Scot"
+    "British Government imposes sanctions on 8 Israeli companies involved in settlement construction - Middle East Monitor"
    ]
   },
   "today": [
@@ -181,8 +181,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.81,
-  "gbpusd": 1.32017
+  "stop_cap_usd": 52.8,
+  "gbpusd": 1.31999
  },
  "backtest": {
   "portfolio": {
