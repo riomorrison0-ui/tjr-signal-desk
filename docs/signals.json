@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T09:50:20.497793-05:00",
+ "updated": "2026-11-17T09:55:20.788823-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3865.15,
-   "feed": "real-time gold (PAXG, matched to spot +7.44)",
-   "time": "2026-11-17T09:45:00-05:00"
+   "price": 3864.14,
+   "feed": "real-time gold (PAXG, matched to spot +8.74)",
+   "time": "2026-11-17T09:50:00-05:00"
   }
  },
  "stats": {
@@ -61,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "UK sanctions 8 Israeli construction companies for building West Bank settlements - The Times of Israel",
-    "Gears of War Reloaded is on sale for just $9.99 on the PlayStation Store. - GameGPU",
-    "Two prisoners, one rift: South Korea, Europe and Russia\u2019s war on Ukraine - European Council on Foreign Relations"
+    "Jensen Huang\u2019s departure as Nvidia CEO becomes a political proxy war - The Guardian",
+    "Trump says Russia-Ukraine war 'very close' to being resolved - Yeni Safak English",
+    "UK sanctions eight firms over illegal West Bank settlements, Tzav 9 - Yeni Safak English"
    ]
   },
   "today": [
