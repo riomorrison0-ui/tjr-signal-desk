@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T21:00:20.375177-05:00",
+ "updated": "2026-11-16T21:05:20.406819-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.75,
-   "feed": "real-time gold (PAXG, matched to spot +10.16)",
-   "time": "2026-11-16T20:55:00-05:00"
+   "price": 3866.399902,
+   "feed": "real-time gold (PAXG, matched to spot +12.32)",
+   "time": "2026-11-16T21:00:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
-   "examples": [
-    "Iran\u2019s dams may have been built to support missile bases - NYT - Iran International",
-    "Major changes to Pentagon\u2019s financial auditing strategy hinge on War Data Platform - DefenseScoop",
-    "Washington turns to Tokyo to boost missile reserves, triggering talk over Taiwan - Asia News Network"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
