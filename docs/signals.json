@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T03:35:20.445457-05:00",
+ "updated": "2026-11-17T03:40:20.420617-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.100098,
-   "feed": "real-time gold (PAXG, matched to spot +8.88)",
-   "time": "2026-11-17T03:30:00-05:00"
+   "price": 3869.169922,
+   "feed": "real-time gold (PAXG, matched to spot +10.88)",
+   "time": "2026-11-17T03:35:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
-    "Iran fears US, Israeli strikes on dams amid missile base debate - The Jerusalem Post",
-    "Nokia Federal wins Department of War RAPID contract for 5G/6G drone-detection ISAC - Dealroom",
-    "Drones behind nearly 75% of civilian deaths this year in Sudan war: UN - Arab News PK"
+    "The Military Strategic Drivers Behind China\u2019s Nuclear Expansion - War on the Rocks",
+    "Refusenik\u2019s Son: A Story of Spies, Bioweapons, and Cold War Survival - Washington Independent Review of Books",
+    "Russian Ballistic Missile Strikes Damage Two Major Bridges in Kyiv - Oj - Odessa Journal"
    ]
   },
   "today": [
