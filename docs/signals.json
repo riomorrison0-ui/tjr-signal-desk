@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T05:20:20.462125-05:00",
+ "updated": "2026-11-17T05:25:21.102608-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3856.49,
-   "feed": "real-time gold (PAXG, matched to spot +9.15)",
-   "time": "2026-11-17T05:15:00-05:00"
+   "price": 3856.26,
+   "feed": "real-time gold (PAXG, matched to spot +8.15)",
+   "time": "2026-11-17T05:20:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Britain sanctions Israeli settlement builders, Gaza aid-blocking activists - Reuters",
-    "EU lists 113 individuals and entities to further restrict Russia\u2019s ability to finance war - EU NEIGHBOURS east",
-    "UK hits firms building West Bank settlements with sanctions - The Irish News"
+    "The UK has sanctioned eight firms building Israeli settlements in the West Bank. - Sky News",
+    "UK sanctions West Bank settlement construction companies, activist group that blocks Gaza aid - The Times of Israel",
+    "Oil futures: Crude off lows as escalation fears offset surplus narrative - Quantum Commodity Intelligence"
    ]
   },
   "today": [
