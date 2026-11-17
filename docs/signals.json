@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T05:05:20.478540-05:00",
+ "updated": "2026-11-17T05:10:20.436382-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3861.01,
-   "feed": "real-time gold (PAXG, matched to spot +8.85)",
-   "time": "2026-11-17T05:00:00-05:00"
+   "price": 3858.12,
+   "feed": "real-time gold (PAXG, matched to spot +8.41)",
+   "time": "2026-11-17T05:05:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Middle East war: Oil remains supported as Iran blames sea mines for tanker fires - www.engine.online",
-    "US naval presence in Middle East exceeds peak of Iran war: Israeli institute - Anadolu Ajans\u0131",
-    "Update: Iran unveils Fattah-2 missile with possible hypersonic re-entry vehicle - Janes Defence Intelligence"
+    "Britain sanctions Israeli settlement builders, Gaza aid-blocking activists - Reuters",
+    "EU lists 113 individuals and entities to further restrict Russia\u2019s ability to finance war - EU NEIGHBOURS east",
+    "UK hits firms building West Bank settlements with sanctions - The Irish News"
    ]
   },
   "today": [
