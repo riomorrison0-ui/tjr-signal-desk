@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T12:10:20.235638-05:00",
+ "updated": "2026-11-17T12:15:20.244624-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.19,
-   "feed": "real-time gold (PAXG, matched to spot +9.53)",
-   "time": "2026-11-17T12:05:00-05:00"
+   "price": 3869.8,
+   "feed": "real-time gold (PAXG, matched to spot +9.03)",
+   "time": "2026-11-17T12:10:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran War: JD Vance says there is \"no daylight\" between him and Trump on Middle East conflict - Plataforma Media",
-    "A War of Waiting: Trump and Tehran Gamble on Time - Modern Diplomacy",
-    "Israel Building Center head slams UK sanctions on Israeli construction companies - The Times of Israel"
+    "Saudi Arabia's executions surge amid regional conflict - DW.com",
+    "Russia Says French Troops in Ukraine a \u2018Direct Participation\u2019 in War - ASHARQ AL-AWSAT English",
+    "New Carrier Group Deployment Will Give U.S. More Options in War Against Iran - RANE Worldview"
    ]
   },
   "today": [
