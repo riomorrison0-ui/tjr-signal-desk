@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T00:10:20.342286-05:00",
+ "updated": "2026-11-17T00:15:20.417076-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3877.899902,
-   "feed": "real-time gold (PAXG, matched to spot +11.92)",
-   "time": "2026-11-17T00:05:00-05:00"
+   "price": 3875.77002,
+   "feed": "real-time gold (PAXG, matched to spot +12.07)",
+   "time": "2026-11-17T00:10:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Russia launched ballistic missile strikes on bridges in Kyiv on 17 November - UkrMedia News",
-    "Vance: We Will Not Let The War Become A \u2018Forever War\u2019 - Kurdistan24",
-    "Iran Update, November 16, 2026 - Institute for the Study of War"
+    "The secret war between al-Qaeda and Islamic State - Financial Times",
+    "Rare Second World War military huts in Ripon saved from demolition - The York Press",
+    "War veteran turns 100 and inspires Whitchurch community's woollen poppy tribute - Whitchurch Herald"
    ]
   },
   "today": [
