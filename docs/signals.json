@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T09:05:20.429626-05:00",
+ "updated": "2026-11-17T09:10:20.414997-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3860.2,
-   "feed": "real-time gold (PAXG, matched to spot +9.66)",
-   "time": "2026-11-17T09:00:00-05:00"
+   "price": 3858.05,
+   "feed": "real-time gold (PAXG, matched to spot +9.82)",
+   "time": "2026-11-17T09:05:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump says Russia-Ukraine war 'very close' to being resolved - Anadolu Ajans\u0131",
-    "Man City sanctions facing major delay with punishment this season now touch and go - talkSPORT",
-    "Hungary voices concern over Russian strikes on western Ukraine as opposition slams government\u2019s \u2018war policy\u2019 - Anadolu Ajans\u0131"
+    "Settler leaders denounce UK sanctions, call measures \u2018antisemitic\u2019 - The Times of Israel",
+    "EU Maintains Sanctions Pressure on Russia Amid Diplomatic Efforts - Morgan Lewis",
+    "Tuesday, November 17. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes"
    ]
   },
   "today": [
