@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T16:25:20.233859-05:00",
+ "updated": "2026-11-17T16:26:48.197355-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3853.16,
-   "feed": "real-time gold (PAXG, matched to spot +7.18)",
+   "price": 3853.44,
+   "feed": "real-time gold (PAXG, matched to spot +7.46)",
    "time": "2026-11-17T16:20:00-05:00"
   }
  },
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Sa\u2019ar Warns of Countermeasures as UK Sanctions 8 Israeli Construction Firms - The Media Line",
     "US strikes Iranian missile launch site on Qeshm Island in 'self-defense' - Anadolu Ajans\u0131",
-    "Australia Imposes New Sanctions Targeting West Bank Settlement Expansion - Haaretz",
-    "Zelenskyy Offers Ramstein Partners Strategic Missile Swap for Immediate Patriot and IRIS-T Interceptors - UNITED24 Media"
+    "Australia Imposes New Sanctions Targeting West Bank Settlement Expansion - Haaretz"
    ]
   },
   "today": [
@@ -185,8 +185,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.8,
-  "gbpusd": 1.31999
+  "stop_cap_usd": 52.84,
+  "gbpusd": 1.321
  },
  "backtest": {
   "portfolio": {
