@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T21:45:20.342119-05:00",
+ "updated": "2026-11-16T21:50:20.406626-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3868.669922,
-   "feed": "real-time gold (PAXG, matched to spot +16.77)",
-   "time": "2026-11-16T21:40:00-05:00"
+   "price": 3869.570068,
+   "feed": "real-time gold (PAXG, matched to spot +14.92)",
+   "time": "2026-11-16T21:45:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "US vice president vows Trump will not let Iran conflict become another \u2018forever war' - Anadolu Ajans\u0131",
-    "Iran\u2019s dams may have been built to support missile bases - NYT - Iran International",
-    "Major changes to Pentagon\u2019s financial auditing strategy hinge on War Data Platform - DefenseScoop"
+    "\u2018PEACE + WAR\u2019 Album Review: No White Flags in Sight - The Harvard Crimson",
+    "UK PM says Iran war must end \u2014 and backs deal to reopen Strait of Hormuz - Gulf News",
+    "US vice president vows Trump will not let Iran conflict become another \u2018forever war' - Anadolu Ajans\u0131"
    ]
   },
   "today": [
