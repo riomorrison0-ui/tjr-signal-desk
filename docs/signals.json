@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T12:40:20.237617-05:00",
+ "updated": "2026-11-17T12:45:20.236424-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3866.37,
-   "feed": "real-time gold (PAXG, matched to spot +9.48)",
-   "time": "2026-11-17T12:35:00-05:00"
+   "price": 3865.07,
+   "feed": "real-time gold (PAXG, matched to spot +8.87)",
+   "time": "2026-11-17T12:40:00-05:00"
   }
  },
  "stats": {
@@ -68,8 +68,8 @@
    "count": 6,
    "examples": [
     "WHO chief urges 'unobstructed' entry of supplies into Gaza amid 4th winter of war - Anadolu Ajans\u0131",
-    "Russia\u2019s Lavrov says French troops in Ukraine amount to \u2018direct participation\u2019 in war - POLITICO.eu",
-    "UK sanctions Israeli firms helping build West Bank settlements - Yahoo News Singapore"
+    "UK sanctions Israeli firms helping build West Bank settlements - France 24",
+    "Russia\u2019s Lavrov says French troops in Ukraine amount to \u2018direct participation\u2019 in war - POLITICO.eu"
    ]
   },
   "today": [
