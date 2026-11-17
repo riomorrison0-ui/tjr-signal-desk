@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T07:15:20.408226-05:00",
+ "updated": "2026-11-17T07:20:20.432952-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3864.68,
-   "feed": "real-time gold (PAXG, matched to spot +9.44)",
-   "time": "2026-11-17T07:10:00-05:00"
+   "price": 3862.24,
+   "feed": "real-time gold (PAXG, matched to spot +6.73)",
+   "time": "2026-11-17T07:15:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israeli army kills Palestinian, blows up homes in Gaza despite ceasefire - Anadolu Ajans\u0131",
-    "Russia calls French troops presence in Ukraine a 'direct participation in war' - Le Monde.fr",
-    "UK sanctions eight firms building Israeli settlements in the West Bank - Sky News"
+    "Five EU countries call for tougher sanctions on Russian crypto networks - INSIGHT EU MONITORING",
+    "Klopps 5:0 gegen die Niederlande: Wer war Weltklasse? - OneFootball",
+    "Israeli army demolishes several Palestinian structures, arrests 2 amid West Bank escalation - Anadolu Ajans\u0131"
    ]
   },
   "today": [
