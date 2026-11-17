@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T04:30:20.477716-05:00",
+ "updated": "2026-11-17T04:33:34.187426-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3865.449951,
-   "feed": "real-time gold (PAXG, matched to spot +12.09)",
+   "price": 3864.820068,
+   "feed": "real-time gold (PAXG, matched to spot +11.46)",
    "time": "2026-11-17T04:25:00-05:00"
   }
  },
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "elevated",
-   "count": 3,
+   "count": 4,
    "examples": [
-    "Welsh students to walk out in global strike against war - Nation.Cymru",
-    "Brit List 2026: Gemma Addy's War Feature 'Dig For Victory' Makes List - Deadline",
-    "Ukrainian Strike Sends More Than 270 Meters of Russia\u2019s Crimean Bridge Into the Sea. How Bad Is the Damage? - UNITED24 Media"
+    "PEXA's war on competition - Rampart",
+    "Asia races to expand nuclear power as Iran war exposes energy vulnerabilities - The National",
+    "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News"
    ]
   },
   "today": [
@@ -193,8 +193,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.81,
-  "gbpusd": 1.32029
+  "stop_cap_usd": 52.78,
+  "gbpusd": 1.31956
  },
  "backtest": {
   "portfolio": {
