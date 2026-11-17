@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T15:35:20.238145-05:00",
+ "updated": "2026-11-17T15:40:20.225980-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3852.01,
-   "feed": "real-time gold (PAXG, matched to spot +7.68)",
-   "time": "2026-11-17T15:30:00-05:00"
+   "price": 3850.29,
+   "feed": "real-time gold (PAXG, matched to spot +6.86)",
+   "time": "2026-11-17T15:35:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
     "Hanwha Successfully Test-Fires Chunmoo Missile from Maritime Palletized Launcher - Naval News",
-    "Remarks by Under Secretary of War for Policy Elbridge Colby at the Ukraine Defense Contact - U.S. Department of War (.gov)",
-    "France rejects Lavrov\u2019s claims of direct involvement in Ukraine war - Euronews.com"
+    "Remarks by Under Secretary of War for Policy Elbridge Colby at the Ukraine Defense Contact - U.S. Department of War (.gov)"
    ]
   },
   "today": [
