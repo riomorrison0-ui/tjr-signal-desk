@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T20:45:20.333568-05:00",
+ "updated": "2026-11-16T20:50:20.364041-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3872.050049,
-   "feed": "real-time gold (PAXG, matched to spot +15.39)",
-   "time": "2026-11-16T20:40:00-05:00"
+   "price": 3868.820068,
+   "feed": "real-time gold (PAXG, matched to spot +15.93)",
+   "time": "2026-11-16T20:45:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Washington turns to Tokyo to boost missile reserves, triggering talk over Taiwan - Asia News Network",
-    "Russian strikes hit two key bridges in Kyiv, disrupting water and power supplies - France 24",
-    "Ukraine holds peace talks with US, Europe as conflict escalates - Al Jazeera"
+    "Iran\u2019s dams may have been built to support missile bases - NYT - Iran International",
+    "Major changes to Pentagon\u2019s financial auditing strategy hinge on War Data Platform - DefenseScoop",
+    "Washington turns to Tokyo to boost missile reserves, triggering talk over Taiwan - Asia News Network"
    ]
   },
   "today": [
