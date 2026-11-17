@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T08:50:20.498957-05:00",
+ "updated": "2026-11-17T08:55:20.472638-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3849.06,
-   "feed": "real-time gold (PAXG, matched to spot +9.44)",
-   "time": "2026-11-17T08:45:00-05:00"
+   "price": 3850.55,
+   "feed": "real-time gold (PAXG, matched to spot +10.76)",
+   "time": "2026-11-17T08:50:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Sudan\u2019s women journalists condemn use of drones in war - Dabanga Radio TV Online",
-    "Iranians fear more civilian infrastructure could be targeted in new US war - Al Jazeera",
-    "US extends sanctions waiver for Russian crude oil imports to Hungary and Slovakia - CEEnergynews"
+    "Trump says Russia-Ukraine war 'very close' to being resolved - Anadolu Ajans\u0131",
+    "Man City sanctions facing major delay with punishment this season now touch and go - talkSPORT",
+    "Hungary voices concern over Russian strikes on western Ukraine as opposition slams government\u2019s \u2018war policy\u2019 - Anadolu Ajans\u0131"
    ]
   },
   "today": [
