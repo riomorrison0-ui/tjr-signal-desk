@@ -70,12 +70,35 @@ def read_updates(state) -> list[str]:
             state["tg_offset"] = u["update_id"] + 1
             m = u.get("message") or {}
             cid = (m.get("chat") or {}).get("id")
+            uid = (m.get("from") or {}).get("id")
             if cid and not state.get("tg_chat"):
                 state["tg_chat"] = str(cid)
+            # the owner = whoever first pressed Start in a private chat (private chat id == their user id)
+            if not state.get("tg_owner") and state.get("tg_chat") and int(state["tg_chat"]) > 0:
+                state["tg_owner"] = state["tg_chat"]
+            # a group that upgrades to a supergroup gets a new id: follow it
+            if m.get("migrate_to_chat_id") and str(cid) == state.get("tg_chat"):
+                state["tg_chat"] = str(m["migrate_to_chat_id"])
+                continue
             txt = (m.get("text") or "").strip().lower()
-            if cid and str(cid) == state.get("tg_chat") and txt.startswith("/"):
-                parts = txt.split()
-                cmds.append(" ".join([parts[0].split("@")[0]] + parts[1:2]))
+            if not cid or not txt.startswith("/"):
+                continue
+            parts = txt.split()
+            head = parts[0].split("@")[0]
+            is_owner = uid is not None and str(uid) == state.get("tg_owner")
+            if head == "/here" and is_owner:
+                state["tg_chat"] = str(cid)            # post everything to this chat (group) from now on
+                cmds.append("/here_ok")
+                continue
+            if head == "/private" and is_owner:
+                state["tg_chat"] = state["tg_owner"]   # back to the private chat with the owner
+                cmds.append("/private_ok")
+                continue
+            if str(cid) != state.get("tg_chat"):
+                continue
+            if head == "/balance" and not is_owner and len(parts) > 1:
+                continue                               # only the owner can change the balance
+            cmds.append(" ".join([head] + parts[1:2]))
     except Exception as e:  # noqa: BLE001
         print("getUpdates failed", e)
     return cmds
@@ -559,6 +582,13 @@ def scan_once(state, cfg, mode="scan"):
                 state[f"brief_{key}"] = str(ukn.date())   # self-test already covered today's briefs
     for c in dict.fromkeys(cmds):
         head, _, arg = c.partition(" ")
+        if head == "/here_ok":
+            tg("✅ <b>Gold Desk is now posting in this chat.</b>\nEvery call, take-profit/stop update, the daily briefs and the 22:00 wrap will come here.\n"
+               "Only the owner can move me (/here) or change the balance (/balance). /private sends everything back to the private chat.")
+            continue
+        if head == "/private_ok":
+            tg("✅ Back to posting in our private chat.")
+            continue
         if head == "/balance":
             try:
                 v = float(arg.replace("£", "").replace(",", ""))
