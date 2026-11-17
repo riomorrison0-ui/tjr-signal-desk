@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T20:00:20.439753-05:00",
+ "updated": "2026-11-16T20:05:20.362497-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3857.199951,
-   "feed": "real-time gold (PAXG, matched to spot +15.60)",
-   "time": "2026-11-16T19:55:00-05:00"
+   "price": 3863.02002,
+   "feed": "real-time gold (PAXG, matched to spot +21.37)",
+   "time": "2026-11-16T20:00:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Ukraine holds peace talks with US, Europe as conflict escalates - Al Jazeera",
     "Critics blame U.S.-Iran war for crackdown on clerics in Bahrain - The Washington Post",
-    "There will be less war in the Middle East in 2027\u2014but little real peace - The Economist",
-    "European foreign ministers call on EU to crack down on Russian crypto networks financing war against Ukraine - The Kyiv Independent"
+    "There will be less war in the Middle East in 2027\u2014but little real peace - The Economist"
    ]
   },
   "today": [
