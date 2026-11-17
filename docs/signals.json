@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T16:55:20.240866-05:00",
+ "updated": "2026-11-17T17:00:20.396554-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3850.16,
-   "feed": "real-time gold (PAXG, matched to spot +8.11)",
-   "time": "2026-11-17T16:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +7.78)",
+   "time": "2026-11-17T16:55:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US Fighters Strike Iran Missile Site After Base in Bahrain Targeted - Air & Space Forces Magazine",
-    "UK sanctions Israeli settlement firms to protect two-state solution - Al Jazeera",
-    "US jets strike IRGC missile launch site on Iran's Qeshm Island in 'self-defence' - www.thenationalnews.com"
+    "UK energy bills could jump \u00a3460 a year in January as war squeezes gas supplies - The Cool Down",
+    "Australia sanctions individuals and company involved in illegal West Bank settlements - The Guardian",
+    "UK sanctions Israeli settlement firms to protect two-state solution - Al Jazeera"
    ]
   },
   "today": [
