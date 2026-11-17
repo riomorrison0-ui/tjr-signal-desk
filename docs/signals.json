@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T05:55:20.624783-05:00",
+ "updated": "2026-11-17T06:00:20.427328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3853.86,
-   "feed": "real-time gold (PAXG, matched to spot +8.21)",
-   "time": "2026-11-17T05:50:00-05:00"
+   "price": 3854.41,
+   "feed": "real-time gold (PAXG, matched to spot +9.14)",
+   "time": "2026-11-17T05:55:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK hits firms building West Bank settlements with sanctions - Hackney Gazette",
-    "UK sanctions eight firms building Israeli settlements in the West Bank - Radio Royal",
-    "German Investor Confidence Rises to Highest Level Since Start of Iran War - WSJ"
+    "UK imposes sanctions on eight firms building settlements in occupied West Bank - www.lbc.co.uk",
+    "Ed Miliband announces first sanctions on Israeli firms working in West Bank - The Guardian",
+    "Larijani: US Must Pay War Reparations or Lose Its Interests - WANA News Agency"
    ]
   },
   "today": [
