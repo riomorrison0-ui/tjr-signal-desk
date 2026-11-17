@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T04:20:20.453493-05:00",
+ "updated": "2026-11-17T04:25:20.398741-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3863.070068,
-   "feed": "real-time gold (PAXG, matched to spot +11.00)",
-   "time": "2026-11-17T04:15:00-05:00"
+   "price": 3863.199951,
+   "feed": "real-time gold (PAXG, matched to spot +10.98)",
+   "time": "2026-11-17T04:20:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "elevated",
    "count": 3,
    "examples": [
+    "Welsh students to walk out in global strike against war - Nation.Cymru",
     "Brit List 2026: Gemma Addy's War Feature 'Dig For Victory' Makes List - Deadline",
-    "Ukrainian Strike Sends More Than 270 Meters of Russia\u2019s Crimean Bridge Into the Sea. How Bad Is the Damage? - UNITED24 Media",
-    "UKRAINE: Youth impacted by war receive toys thanks to donation coordinated by Salesian Missions - missionnewswire.org"
+    "Ukrainian Strike Sends More Than 270 Meters of Russia\u2019s Crimean Bridge Into the Sea. How Bad Is the Damage? - UNITED24 Media"
    ]
   },
   "today": [
