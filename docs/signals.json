@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T23:35:20.358404-05:00",
+ "updated": "2026-11-16T23:40:20.395936-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3870.050049,
-   "feed": "real-time gold (PAXG, matched to spot +13.19)",
-   "time": "2026-11-16T23:30:00-05:00"
+   "price": 3872.850098,
+   "feed": "real-time gold (PAXG, matched to spot +12.51)",
+   "time": "2026-11-16T23:35:00-05:00"
   }
  },
  "stats": {
@@ -72,13 +72,9 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "Iran Update, November 16, 2026 - Institute for the Study of War",
-    "Minerals for the planet or for war and AI? COP31 must make clear what we prioritise - Climate Home News",
-    "Experts Suspect Iran Built Some Dams to Support Underground \u2018Missile Cities\u2019 - The SOFX Report"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
