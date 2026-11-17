@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T18:30:20.225642-05:00",
+ "updated": "2026-11-17T18:35:20.215483-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3854.55,
-   "feed": "real-time gold (PAXG, matched to spot +7.26)",
-   "time": "2026-11-17T18:25:00-05:00"
+   "price": 3851.78,
+   "feed": "real-time gold (PAXG, matched to spot +7.71)",
+   "time": "2026-11-17T18:30:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Navy chief nominee faces fierce Senate grilling over Iran war and US sailors' mental health - TRT World",
-    "The Navy fired expired weapons during the Iran war. Its top official compared them to stale bread. - Business Insider",
-    "Contracts for Nov. 17, 2026 - U.S. Department of War (.gov)"
+    "Irish man \u2018destroyed $60m US military jet in protest over Gaza War\u2019 - The Telegraph",
+    "Britain sanctions Israeli aid-blocking group and settlement construction companies - Jewish Telegraphic Agency",
+    "Navy chief nominee faces fierce Senate grilling over Iran war and US sailors' mental health - TRT World"
    ]
   },
   "today": [
