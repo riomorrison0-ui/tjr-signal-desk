@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T10:55:20.254906-05:00",
+ "updated": "2026-11-17T11:00:20.366410-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3878.61,
-   "feed": "real-time gold (PAXG, matched to spot +10.21)",
-   "time": "2026-11-17T10:50:00-05:00"
+   "price": 3874.49,
+   "feed": "real-time gold (PAXG, matched to spot +8.30)",
+   "time": "2026-11-17T10:55:00-05:00"
   }
  },
  "stats": {
@@ -63,9 +63,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018Do not build\u2019: UK sanctions 8 Israeli construction companies for building West Bank settlements - The Times of Israel",
-    "Russian military aircraft crashes in fireball smash as Putin's war in tatters - AOL.co.uk",
-    "British Government imposes sanctions on 8 Israeli companies involved in settlement construction - Middle East Monitor"
+    "EU targets owners and ship managers with new sanctions on Russia - TradeWinds News",
+    "Brazil deploy security forces to Indigenous territory after invasion - Genocide Watch",
+    "Fresh clashes at the Eritrean border\u2014Is Ethiopia sliding into a regional war? - DW.com"
    ]
   },
   "today": [
