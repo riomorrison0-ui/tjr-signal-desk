@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T03:05:20.404500-05:00",
+ "updated": "2026-11-17T03:10:20.437151-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3871.669922,
-   "feed": "real-time gold (PAXG, matched to spot +14.21)",
-   "time": "2026-11-17T03:00:00-05:00"
+   "price": 3868.699951,
+   "feed": "real-time gold (PAXG, matched to spot +11.23)",
+   "time": "2026-11-17T03:05:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
+    "Crimean Bridge Arch Reportedly Damaged in Ukrainian Missile Strike - Oj - Odessa Journal",
     "Russian missile strike on Smila damages industrial facilities, injures six - Ukrinform",
-    "Indian minister confirms no casualties onboard tanker hit by missile in Hormuz Strait - Middle East Eye",
-    "Ukraine Strikes Crimean Bridge Again\u2014This Time an Entire Road Section Falls Into the Sea - UNITED24 Media"
+    "Indian minister confirms no casualties onboard tanker hit by missile in Hormuz Strait - Middle East Eye"
    ]
   },
   "today": [
