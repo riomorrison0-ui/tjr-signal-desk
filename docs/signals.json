@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T01:15:20.416522-05:00",
+ "updated": "2026-11-17T01:20:20.411870-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3877.649902,
-   "feed": "real-time gold (PAXG, matched to spot +12.79)",
-   "time": "2026-11-17T01:10:00-05:00"
+   "price": 3877.570068,
+   "feed": "real-time gold (PAXG, matched to spot +14.71)",
+   "time": "2026-11-17T01:15:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "UK sanctions all 10 of Russia\u2019s largest oil producers, including Slavneft - Manifold Times",
-    "Morning Bid: Markets shaken, not stirred, as US-China tech war heats up - Reuters",
-    "Kyiv Bridges Reportedly Hit in Russian Missile Attack - Oz Arab Media"
+    "Vance says Trump administration will not let war on Iran become another 'forever war' - TRT World",
+    "'Inside Deutsche Bank': Despite scandals and war in Ukraine, bank maintained business ties with Russians - Le Monde.fr",
+    "EU Sanctions Wildberries CEO Over Alleged Russian Military Links - Global Cosmetics News"
    ]
   },
   "today": [
