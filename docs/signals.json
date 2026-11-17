@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T08:15:20.472495-05:00",
+ "updated": "2026-11-17T08:20:20.408618-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3856.36,
-   "feed": "real-time gold (PAXG, matched to spot +6.62)",
-   "time": "2026-11-17T08:10:00-05:00"
+   "price": 3854.3,
+   "feed": "real-time gold (PAXG, matched to spot +5.68)",
+   "time": "2026-11-17T08:15:00-05:00"
   }
  },
  "stats": {
@@ -79,12 +79,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Those sanctions we\u2019ve been hearing about? They\u2019re a much bigger deal than you think. - Israel from the Inside with Daniel Gordis",
-    "Russia\u2019s FIMI and malicious cyber activities: EU imposes sanctions on 30 individuals and two entities - EU NEIGHBOURS east",
-    "Qatar warns Gulf escalation poses 'grave danger' to US-Iran deal - Euronews.com"
+    "Sudan\u2019s women journalists condemn use of drones in war - Dabanga Radio TV Online",
+    "US extends sanctions waiver for Russian crude oil imports to Hungary and Slovakia - CEEnergynews",
+    "E-News | Classroom discussion leads to award-winning Civil War memoir - West Virginia University"
    ]
   },
   "today": [
