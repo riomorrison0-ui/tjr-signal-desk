@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-17T08:30:20.482080-05:00",
+ "updated": "2026-11-17T08:35:20.525793-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3853.82,
-   "feed": "real-time gold (PAXG, matched to spot +3.14)",
-   "time": "2026-11-17T08:25:00-05:00"
+   "price": 3850.28,
+   "feed": "real-time gold (PAXG, matched to spot +6.48)",
+   "time": "2026-11-17T08:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 6,
-  "wins": 5,
-  "win_rate": 83.3,
-  "total_r": 2.19,
-  "avg_r": 0.365,
-  "balance": 2067.35,
+  "trades": 7,
+  "wins": 6,
+  "win_rate": 85.7,
+  "total_r": 2.85,
+  "avg_r": 0.407,
+  "balance": 2088.42,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -40,6 +40,10 @@
    {
     "t": "2026-11-16T16:05:00-05:00",
     "balance": 2067.35
+   },
+   {
+    "t": "2026-11-17T08:35:00-05:00",
+    "balance": 2088.42
    }
   ]
  },
@@ -79,12 +83,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
     "Sudan\u2019s women journalists condemn use of drones in war - Dabanga Radio TV Online",
-    "US extends sanctions waiver for Russian crude oil imports to Hungary and Slovakia - CEEnergynews",
-    "E-News | Classroom discussion leads to award-winning Civil War memoir - West Virginia University"
+    "Iranians fear more civilian infrastructure could be targeted in new US war - Al Jazeera",
+    "US extends sanctions waiver for Russian crude oil imports to Hungary and Slovakia - CEEnergynews"
    ]
   },
   "today": [
@@ -6846,12 +6850,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-17T07:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-17T07:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-17T08:35:00-05:00",
+   "exit_price": 3850.28,
+   "r": 0.659,
+   "notes": [
+    "legs: TP1 tp, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-17T08:30:00-05:00",
@@ -6879,7 +6885,10 @@
      "tp": 3837.07,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3850.28,
+     "exit_time": "2026-11-17T08:35:00-05:00",
+     "r": 0.851
     }
    ],
    "news": {
@@ -6892,7 +6901,8 @@
      "forecast": "0.4%",
      "previous": "0.9%"
     }
-   }
+   },
+   "pnl_gbp": 21.07
   },
   {
    "id": "XAUUSD-rsi2-20261116-1425-SELL",
