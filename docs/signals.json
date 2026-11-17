@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T11:25:20.291785-05:00",
+ "updated": "2026-11-17T11:30:20.255731-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3869.47,
-   "feed": "real-time gold (PAXG, matched to spot +10.36)",
-   "time": "2026-11-17T11:20:00-05:00"
+   "price": 3867.64,
+   "feed": "real-time gold (PAXG, matched to spot +8.00)",
+   "time": "2026-11-17T11:25:00-05:00"
   }
  },
  "stats": {
@@ -61,11 +61,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Chay Bowes' nationality irrelevant to EU sanctions, McEntee says - RTE.ie",
-    "Is Iraq Heading Towards Civil War? - The Media Line",
-    "Insight: Trump and Tehran gamble on time as Iran war stalemate deepens - Reuters"
+    "Trump's pick for Navy secretary acknowledges the Iran war is straining military resources - The Independent",
+    "Vance vows US won\u2019t make long-term commitment to Iran war - The Hill",
+    "The Kerch Bridge is crucial to Russia\u2019s war effort and for asserting Moscow\u2019s control of Crimea - Los Angeles Times"
    ]
   },
   "today": [
