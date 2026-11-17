@@ -686,7 +686,14 @@ def market_open(now_et: pd.Timestamp) -> bool:
     return not (wd == 5 or (wd == 4 and h >= 17) or (wd == 6 and h < 18))
 
 
+CODE_TREE = ""
+
+
 def main():
+    global CODE_TREE
+    if os.getenv("GITHUB_ACTIONS"):
+        CODE_TREE = subprocess.run(["git", "rev-parse", "HEAD:scanner"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        print("running bot code", CODE_TREE)
     cfg = load_json(CONFIG, {})
     state = load_json(STATE, {"signals": {}, "created": pd.Timestamp.now(tz="UTC").isoformat()})
     if not os.getenv("LOOP"):
@@ -704,6 +711,16 @@ def main():
         if os.getenv("GITHUB_ACTIONS"):
             subprocess.run(["git", "fetch", "-q", "--depth", "1", "origin", "main"], cwd=ROOT, capture_output=True, timeout=60)
             subprocess.run(["git", "checkout", "FETCH_HEAD", "--", "config.json"], cwd=ROOT, capture_output=True, timeout=30)
+            # self-update: if the bot's code on GitHub changed, hand over to a fresh run on the new code
+            try:
+                rt = subprocess.run(["git", "rev-parse", "FETCH_HEAD:scanner"], cwd=ROOT, capture_output=True, text=True, timeout=30).stdout.strip()
+                if rt and rt != CODE_TREE:
+                    print("new bot code on GitHub -> handing over to a fresh run", CODE_TREE, "->", rt)
+                    git_save("handover (code update)")
+                    dispatch_next()
+                    return
+            except Exception as e:  # noqa: BLE001
+                print("code check failed", e)
         cfg = load_json(CONFIG, cfg)   # settings changes apply on the next candle, no restart needed
         if market_open(now) and bar != last_scan_bar and now - bar >= pd.Timedelta(seconds=20):
             try:
