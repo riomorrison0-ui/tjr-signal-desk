@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T14:00:20.274488-05:00",
+ "updated": "2026-11-17T14:05:20.268678-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3854.8,
-   "feed": "real-time gold (PAXG, matched to spot +7.89)",
-   "time": "2026-11-17T13:55:00-05:00"
+   "price": 3854.76,
+   "feed": "real-time gold (PAXG, matched to spot +9.66)",
+   "time": "2026-11-17T14:00:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "West Bank settler sanctions - Australian Minister for Foreign Affairs",
-    "\u2018Do not build\u2019: UK sanctions 8 Israeli construction companies for building West Bank settlements - The Times of Israel",
-    "75 years of War Memorial Gym: a celebrated history - University of British Columbia Athletics - University of British Columbia Athletics"
+    "UK sanctions Zionist settlement firms in push to protect two-state solution - Kuwait Times",
+    "Czech Republic considers buying Israel's Arrow 3 missile defense system - www.calcalistech.com",
+    "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams - The New York Times"
    ]
   },
   "today": [
