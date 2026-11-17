@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T18:15:20.251866-05:00",
+ "updated": "2026-11-17T18:20:20.236672-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3852.39,
-   "feed": "real-time gold (PAXG, matched to spot +6.70)",
-   "time": "2026-11-17T18:10:00-05:00"
+   "price": 3853.32,
+   "feed": "real-time gold (PAXG, matched to spot +6.01)",
+   "time": "2026-11-17T18:15:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Contracts for Nov. 17, 2026 - U.S. Department of War (.gov)",
-    "The Ghosts of World War II Howl In the Bones of \u201cJimmy\u201d - Awards Daily",
-    "Atopic Dermatitis Escalation Stalls on Payer Rules, Thin Tracking - The American Journal of Managed Care"
+    "Navy chief nominee faces fierce Senate grilling over Iran war and US sailors' mental health - TRT World",
+    "The Navy fired expired weapons during the Iran war. Its top official compared them to stale bread. - Business Insider",
+    "Contracts for Nov. 17, 2026 - U.S. Department of War (.gov)"
    ]
   },
   "today": [
