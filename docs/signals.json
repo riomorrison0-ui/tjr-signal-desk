@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T15:00:20.244204-05:00",
+ "updated": "2026-11-17T15:05:20.248724-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3846.1,
-   "feed": "real-time gold (PAXG, matched to spot +7.04)",
-   "time": "2026-11-17T14:55:00-05:00"
+   "price": 3845.82,
+   "feed": "real-time gold (PAXG, matched to spot +6.82)",
+   "time": "2026-11-17T15:00:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US military official says fighter jets hit Iranian missile-launch site on Qeshm Island earlier today - The Times of Israel",
-    "US strikes Iranian missile launch site on Qeshm Island, US official says - Reuters",
-    "US strikes Iranian IRGC missile launch site on Qeshm Island - The Jerusalem Post"
+    "US strikes Iran again despite Trump\u2019s promise to end war after midterms humiliation - The Independent",
+    "US fighter jets strike Iranian missile site on Qeshm Island after attack in Bahrain - Ynetnews",
+    "DAMNED reveal video for black metal-tinged \u2018-GLASS WAR-\u2018 ahead of 1st album release - Electric Bloom Webzine"
    ]
   },
   "today": [
