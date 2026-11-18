@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T20:50:20.264376-05:00",
+ "updated": "2026-11-17T20:55:20.216681-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3809.32,
-   "feed": "real-time gold (PAXG, matched to spot +8.44)",
-   "time": "2026-11-17T20:45:00-05:00"
+   "price": 3807.19,
+   "feed": "real-time gold (PAXG, matched to spot +5.34)",
+   "time": "2026-11-17T20:50:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "What chance world war? \u2022 Graeme Dobell - Inside Story",
-    "Board of Peace warns Gaza ceasefire faces imminent collapse without action - Al Jazeera",
-    "A potato war has been simmering for decades between the US and Japan. It\u2019s about to reach boiling point - The Guardian"
+    "UN Report of Emirates\u2019 Role in Sudanese War Is Met With a Long Denial - PassBlue",
+    "Ukraine war briefing: US criticism of Kyiv\u2019s deep strikes in Russia is \u2018quite stupid\u2019, says Germany - The Guardian",
+    "Lawmakers demand probe after 15 Indonesians recruited for Russia\u2019s war - Asia News Network"
    ]
   },
   "today": [
