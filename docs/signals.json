@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T08:55:20.249310-05:00",
+ "updated": "2026-11-18T09:00:20.272282-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3785.59,
-   "feed": "real-time gold (PAXG, matched to spot +5.19)",
-   "time": "2026-11-18T08:50:00-05:00"
+   "price": 3783.28,
+   "feed": "real-time gold (PAXG, matched to spot +5.83)",
+   "time": "2026-11-18T08:55:00-05:00"
   }
  },
  "stats": {
@@ -6796,6 +6796,59 @@
   "runtime_s": 3766
  },
  "signals": [
+  {
+   "id": "XAUUSD-rsi2-20261118-0855-SELL",
+   "instrument": "XAUUSD",
+   "side": "SELL",
+   "level_name": "rsi2",
+   "level": 3783.28,
+   "sweep_time": "2026-11-18T09:00:00-05:00",
+   "confirm_time": "2026-11-18T09:00:00-05:00",
+   "entry": 3783.28,
+   "stop": 3815.57,
+   "target": 3750.99,
+   "rr": 1.0,
+   "bias": "",
+   "killzone": "",
+   "valid_until": "2026-11-18T09:00:00-05:00",
+   "status": "open",
+   "fill_time": "2026-11-18T09:00:00-05:00",
+   "exit_time": null,
+   "exit_price": null,
+   "r": null,
+   "notes": [],
+   "strategy": "rsi2",
+   "entry_type": "market",
+   "hold_until": "2026-11-28T09:00:00-05:00",
+   "why": "Sharp rally (RSI(2) 81) against the 30min trend: fade it back to the 5-bar average",
+   "sent_at": "2026-11-18T09:00:20.272282-05:00",
+   "initial_status": "open",
+   "feed": "real-time gold (PAXG, matched to spot +5.83)",
+   "gbpusd": 1.31548,
+   "account_gbp": 2097.44,
+   "lots": 0.01,
+   "risk_pct": 2.0,
+   "legs": [
+    {
+     "n": 2,
+     "tp": 3750.99,
+     "r_mult": 1.0,
+     "lots": 0.01,
+     "status": "open"
+    }
+   ],
+   "news": {
+    "risk": "high",
+    "next": {
+     "title": "FOMC Meeting Minutes",
+     "country": "USD",
+     "impact": "High",
+     "time": "2026-11-18T19:00:00+00:00",
+     "forecast": "",
+     "previous": ""
+    }
+   }
+  },
   {
    "id": "XAUUSD-rsi2-20261118-0455-SELL",
    "instrument": "XAUUSD",
