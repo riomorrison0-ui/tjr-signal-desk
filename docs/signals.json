@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T00:15:20.228046-05:00",
+ "updated": "2026-11-18T00:20:20.220094-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3786.2,
-   "feed": "real-time gold (PAXG, matched to spot +5.03)",
-   "time": "2026-11-18T00:10:00-05:00"
+   "price": 3792.95,
+   "feed": "real-time gold (PAXG, matched to spot +4.80)",
+   "time": "2026-11-18T00:15:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Australia unveils new sanctions against Israeli activists and entities over 'illegal settlement expansion' - The Times of Israel",
-    "Australia issues sanctions targeting Israeli settlers | AJ # shorts - Modern Ghana",
-    "What chance world war? \u2022 Graeme Dobell - insidestory.org.au"
+    "Grave of lost Bridgnorth soldier of World War 1 identified in France - Shropshire Live",
+    "Why this weekend could mark a turning point for Europe\u2019s anti-war movement - The National Scot",
+    "Australia sanctions three Israelis and four organizations over West Bank settlements, following UK sanctions - i24NEWS"
    ]
   },
   "today": [
