@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T19:20:20.215348-05:00",
+ "updated": "2026-11-17T19:25:20.247945-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3841.85,
-   "feed": "real-time gold (PAXG, matched to spot +7.84)",
-   "time": "2026-11-17T19:15:00-05:00"
+   "price": 3833.68,
+   "feed": "real-time gold (PAXG, matched to spot +5.26)",
+   "time": "2026-11-17T19:20:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "\u2018\u2018To deliver Milburn\u2019s guarantee, Labour must put security before sanctions\u2019 - LabourList",
-    "Australia sanctions Israeli settlers, organisations over West Bank expansion - Reuters",
-    "Jensen Huang\u2019s departure as Nvidia CEO becomes a political proxy war - The Guardian"
+    "Israel vows retaliation over UK sanctions on settlement firms - Anadolu Ajans\u0131",
+    "US launches \u2018self-defense\u2019 strikes against Iranian missile launch site - www.tmgm.com",
+    "\u2018\u2018To deliver Milburn\u2019s guarantee, Labour must put security before sanctions\u2019 - LabourList"
    ]
   },
   "today": [
