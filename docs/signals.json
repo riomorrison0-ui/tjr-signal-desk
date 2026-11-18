@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T00:45:20.223690-05:00",
+ "updated": "2026-11-18T00:50:20.228924-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3788.48,
-   "feed": "real-time gold (PAXG, matched to spot +4.55)",
-   "time": "2026-11-18T00:40:00-05:00"
+   "price": 3789.82,
+   "feed": "real-time gold (PAXG, matched to spot +4.68)",
+   "time": "2026-11-18T00:45:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount - CNBC",
-    "Saudi coalition says it intercepted Houthi cruise missile - The Times of Israel",
-    "Grave of lost Bridgnorth soldier of World War 1 identified in France - Shropshire Live"
+    "Saudi-led coalition says it intercepted Houthi cruise missile targeting Riyadh - Anadolu Ajans\u0131",
+    "Iran sees Trump weakened by midterm rout, hardens war demands - Ynetnews",
+    "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount - CNBC"
    ]
   },
   "today": [
