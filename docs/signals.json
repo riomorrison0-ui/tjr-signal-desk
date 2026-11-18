@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T18:35:20.445171-05:00",
+ "updated": "2026-11-18T18:40:20.437865-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3740.91,
-   "feed": "real-time gold (PAXG, matched to spot +4.39)",
-   "time": "2026-11-18T18:30:00-05:00"
+   "price": 3741.02,
+   "feed": "real-time gold (PAXG, matched to spot +2.40)",
+   "time": "2026-11-18T18:35:00-05:00"
   }
  },
  "stats": {
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Russo-Ukrainian war, day 1729: Russia plans to launch 20 million drones at Ukraine in 2027, says EU\u2019s defense commissioner - Euromaidan Press",
-    "US steps up pressure on Iran-backed Hezbollah with new sanctions - Al Jazeera",
-    "Carney: Sanctions on Russia Are \u2018Very Real\u2019 and \u2018Biting\u2019 - Al Arabiya English"
+    "Tehran threatens oil routes, wider missile strikes amid US sanctions - Iran International",
+    "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
+    "New EU and UK Sanctions Listings Against Russia - The National Law Review"
    ]
   },
   "today": [
