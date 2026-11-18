@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T19:00:20.255402-05:00",
+ "updated": "2026-11-17T19:05:20.231167-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3848.62,
-   "feed": "real-time gold (PAXG, matched to spot +5.75)",
-   "time": "2026-11-17T18:55:00-05:00"
+   "price": 3841.66,
+   "feed": "real-time gold (PAXG, matched to spot +5.84)",
+   "time": "2026-11-17T19:00:00-05:00"
   }
  },
  "stats": {
@@ -65,115 +65,91 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "US Navy secretary nominee says urging Hegseth to end Iran war is not within his \u2018purview\u2019 - Anadolu Ajans\u0131",
-    "US carries out \u2018self-defense\u2019 strikes on Iranian missile launch site - FXStreet",
-    "Irish man \u2018destroyed $60m US military jet in protest over Gaza War\u2019 - The Telegraph"
+    "\u2018\u2018To deliver Milburn\u2019s guarantee, Labour must put security before sanctions\u2019 - LabourList",
+    "Australia sanctions Israeli settlers, organisations over West Bank expansion - Reuters",
+    "Jensen Huang\u2019s departure as Nvidia CEO becomes a political proxy war - The Guardian"
    ]
   },
   "today": [
    {
-    "title": "FOMC Member Musalem Speaks",
+    "title": "Building Permits",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-17T12:30:00+00:00",
+    "time": "2026-11-18T13:30:00+00:00",
+    "forecast": "1.38M",
+    "previous": "1.40M"
+   },
+   {
+    "title": "Housing Starts",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-18T13:30:00+00:00",
+    "forecast": "1.25M",
+    "previous": "1.22M"
+   },
+   {
+    "title": "Pending Home Sales m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-18T15:00:00+00:00",
+    "forecast": "-2.0%",
+    "previous": "-7.3%"
+   },
+   {
+    "title": "Crude Oil Inventories",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-18T15:30:00+00:00",
+    "forecast": "0.4M",
+    "previous": "4.7M"
+   },
+   {
+    "title": "FOMC Member Daly Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-18T17:15:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "ADP Weekly Employment Change",
+    "title": "FOMC Member Barr Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-17T13:15:00+00:00",
+    "time": "2026-11-18T18:35:00+00:00",
     "forecast": "",
-    "previous": "19.8K"
+    "previous": ""
    },
    {
-    "title": "Core Retail Sales m/m",
+    "title": "FOMC Meeting Minutes",
     "country": "USD",
     "impact": "High",
-    "time": "2026-11-17T13:30:00+00:00",
-    "forecast": "0.4%",
-    "previous": "0.9%"
-   },
-   {
-    "title": "Retail Sales m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-17T13:30:00+00:00",
-    "forecast": "0.1%",
-    "previous": "0.8%"
-   },
-   {
-    "title": "Import Prices m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T13:30:00+00:00",
-    "forecast": "0.7%",
-    "previous": "1.1%"
-   },
-   {
-    "title": "FOMC Member Waller Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T14:10:00+00:00",
+    "time": "2026-11-18T19:00:00+00:00",
     "forecast": "",
     "previous": ""
-   },
-   {
-    "title": "Capacity Utilization Rate",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T14:15:00+00:00",
-    "forecast": "76.8%",
-    "previous": "76.9%"
-   },
-   {
-    "title": "Industrial Production m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T14:15:00+00:00",
-    "forecast": "0.0%",
-    "previous": "0.7%"
-   },
-   {
-    "title": "FOMC Member Hammack Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T14:30:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Business Inventories m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T15:00:00+00:00",
-    "forecast": "0.5%",
-    "previous": "0.4%"
-   },
-   {
-    "title": "NAHB Housing Market Index",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-17T15:00:00+00:00",
-    "forecast": "29",
-    "previous": "29"
    },
    {
     "title": "FOMC Member Williams Speaks",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-17T19:25:00+00:00",
+    "time": "2026-11-18T19:30:00+00:00",
     "forecast": "",
     "previous": ""
    },
    {
-    "title": "API Weekly Statistical Bulletin",
+    "title": "TIC Long-Term Purchases",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-17T21:30:00+00:00",
+    "time": "2026-11-18T21:00:00+00:00",
+    "forecast": "160.7B",
+    "previous": "279.2B"
+   },
+   {
+    "title": "FOMC Member Kashkari Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-18T21:15:00+00:00",
     "forecast": "",
     "previous": ""
    }
