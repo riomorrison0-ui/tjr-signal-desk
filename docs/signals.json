@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T09:40:20.277337-05:00",
+ "updated": "2026-11-18T09:43:44.291500-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3768.5,
-   "feed": "real-time gold (PAXG, matched to spot +3.20)",
+   "price": 3771.41,
+   "feed": "real-time gold (PAXG, matched to spot +6.11)",
    "time": "2026-11-18T09:35:00-05:00"
   }
  },
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The United States\u2019 Missile Strike on Minab\u2019s Shajareh Tayyebeh Elementary School Part II - Just Security",
-    "Israeli tanks roll into central Gaza in first known ground operation since ceasefire began - NBC News",
-    "Can the US and Iran sustain a \u2018frozen war\u2019? - Al Jazeera"
+    "Urgent need for escalation after day of strikes in France - Socialist Worker",
+    "\u2018Status quo\u2019 between US and Iran could break out into war, analysts warn - Al Jazeera",
+    "Sign our petition: Cut War Not Welfare, Benefits not Bombs - Stop the War"
    ]
   },
   "today": [
