@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T01:15:20.223548-05:00",
+ "updated": "2026-11-18T01:20:20.243171-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3786.09,
-   "feed": "real-time gold (PAXG, matched to spot +4.90)",
-   "time": "2026-11-18T01:10:00-05:00"
+   "price": 3777.19,
+   "feed": "real-time gold (PAXG, matched to spot +1.64)",
+   "time": "2026-11-18T01:15:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "What\u2019s Your WAR? Moneyballing Professional Military Education - Small Wars Journal",
     "Xi, Putin Blast Western \u2018Protectionism\u2019, Sanctions Before Meeting Trump at APEC - ASHARQ AL-AWSAT English",
-    "Saudi-led coalition says it intercepted destroyed Houthi missile - Middle East Eye",
-    "Saudi-led coalition says it intercepted Houthi cruise missile targeting Riyadh - Anadolu Ajans\u0131"
+    "Saudi-led coalition says it intercepted destroyed Houthi missile - Middle East Eye"
    ]
   },
   "today": [
