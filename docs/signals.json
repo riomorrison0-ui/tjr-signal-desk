@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T14:50:20.319107-05:00",
+ "updated": "2026-11-18T14:55:20.337014-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3723.03,
-   "feed": "real-time gold (PAXG, matched to spot +3.06)",
-   "time": "2026-11-18T14:45:00-05:00"
+   "price": 3723.34,
+   "feed": "real-time gold (PAXG, matched to spot +2.80)",
+   "time": "2026-11-18T14:50:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Four killed as Russian strikes hit Ukraine\u2019s Odesa - Al Jazeera",
-    "In the Shadow of War, Frieze Abu Dhabi Continues With \u2018Business as Usual\u2019 - ARTnews.com",
-    "How inflation and the Iran war is leaving people struggling to pay for energy - Channel 4"
+    "'Netanyahu's only 2 tickets are racism or starting a war: He stopped acting as a democratic player' - France 24",
+    "A New Israeli Invasion of Central Gaza: What Is at Stake? \u2013 Explainer - Palestine Chronicle",
+    "Four killed as Russian strikes hit Ukraine\u2019s Odesa - Al Jazeera"
    ]
   },
   "today": [
