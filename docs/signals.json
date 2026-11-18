@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T09:55:20.340333-05:00",
+ "updated": "2026-11-18T10:00:20.395170-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3765.42,
-   "feed": "real-time gold (PAXG, matched to spot +3.49)",
-   "time": "2026-11-18T09:50:00-05:00"
+   "price": 3769.24,
+   "feed": "real-time gold (PAXG, matched to spot +4.89)",
+   "time": "2026-11-18T09:55:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Urgent need for escalation after day of strikes in France - Socialist Worker",
-    "\u2018Status quo\u2019 between US and Iran could break out into war, analysts warn - Al Jazeera",
-    "Explainer: Untangling Yemen's complex civil war - Reuters"
+    "Hanwha completes maritime Chunmoo missile launch off Mississippi coast - Naval Technology",
+    "Pakistan's mango exports fall 36% amid US-Iran war: Exporters' association - Anadolu Ajans\u0131",
+    "Opinion | Why the Ukraine War Is Working for Putin - WSJ"
    ]
   },
   "today": [
@@ -6819,7 +6819,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-11-28T09:00:00-05:00",
+   "hold_until": "2026-11-18T10:00:00-05:00",
    "why": "Sharp rally (RSI(2) 81) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-18T09:00:20.272282-05:00",
    "initial_status": "open",
