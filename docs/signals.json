@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:50:20.277709-05:00",
+ "updated": "2026-11-18T07:55:20.275703-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3747.8,
-   "feed": "real-time gold (PAXG, matched to spot +2.68)",
-   "time": "2026-11-18T07:45:00-05:00"
+   "price": 3745.89,
+   "feed": "real-time gold (PAXG, matched to spot +2.87)",
+   "time": "2026-11-18T07:50:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "JANAF Pipeline Rupture Threatens Western Balkans Fuel Supply Amid Looming U.S. Sanctions Deadline - Pipeline Technology Journal",
-    "Reform\u2019s Robert Jenrick and Zia Yusuf are at war\u2026 again - The New European",
-    "Israeli army launches military offensive in central Gaza despite ceasefire - Anadolu Ajans\u0131"
+    "European Commission sets up new EU Sanctions Office, appoints new EU Sanctions Envoy - The Sofia Globe",
+    "Sudan: \u2018Deadly\u2019 RSF drone strikes in El Obeid need war crimes investigation, says Amnesty - Amnesty International UK",
+    "An \u2018optimistic\u2019 Alexander Stubb talks war and peace at Slush - Resilience Media"
    ]
   },
   "today": [
