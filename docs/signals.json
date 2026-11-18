@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:15:20.221029-05:00",
+ "updated": "2026-11-18T07:20:20.271991-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3772.15,
-   "feed": "real-time gold (PAXG, matched to spot +5.15)",
-   "time": "2026-11-18T07:10:00-05:00"
+   "price": 3771.35,
+   "feed": "real-time gold (PAXG, matched to spot +5.01)",
+   "time": "2026-11-18T07:15:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU gears up for new Iran sanctions as domestic unrest resurfaces - EU Reporter",
-    "Global energy watchdog warns \u2018no credible way\u2019 back to pre-Iran war energy markets - City AM",
-    "EU Sets Up Sanctions Office, Appoints New Envoy - Mirage News"
+    "Pain at the Pumps: War Shocks Push Inflation to 3.6% Amid Record Diesel High - Distilled Post",
+    "Sudan: Transfer War Crimes Suspects to ICC - Human Rights Watch",
+    "The first algorithmic war - Engelsberg Ideas"
    ]
   },
   "today": [
