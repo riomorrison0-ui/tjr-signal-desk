@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T10:15:20.353397-05:00",
+ "updated": "2026-11-18T10:20:20.401385-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3755.59,
-   "feed": "real-time gold (PAXG, matched to spot +1.30)",
-   "time": "2026-11-18T10:10:00-05:00"
+   "price": 3758.65,
+   "feed": "real-time gold (PAXG, matched to spot +5.05)",
+   "time": "2026-11-18T10:15:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Hanwha completes maritime Chunmoo missile launch off Mississippi coast - Naval Technology",
-    "Pakistan's mango exports fall 36% amid US-Iran war: Exporters' association - Anadolu Ajans\u0131",
-    "Opinion | Why the Ukraine War Is Working for Putin - WSJ"
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
+    "Israel launches new assault in central Gaza for first time since 'ceasefire' - The National Scot",
+    "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - PubAffairs Bruxelles"
    ]
   },
   "today": [
