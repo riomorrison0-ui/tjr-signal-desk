@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T21:55:20.215530-05:00",
+ "updated": "2026-11-17T22:00:20.210356-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3800.36,
-   "feed": "real-time gold (PAXG, matched to spot +10.62)",
-   "time": "2026-11-17T21:50:00-05:00"
+   "price": 3796.7,
+   "feed": "real-time gold (PAXG, matched to spot +2.74)",
+   "time": "2026-11-17T21:55:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "UK sanctions eight companies over West Bank settlements expansion - chinadailyhk",
     "US jets strike IRGC missile launch site on Iran's Qeshm Island in 'self-defence' - The National",
-    "Australia sanctions Israeli settlers, organisations over occupied West Bank illegal settlements - TRT World",
-    "Trump in Manila: Praise for dictatorship, preparations for war - World Socialist Web Site"
+    "Australia sanctions Israeli settlers, organisations over occupied West Bank illegal settlements - TRT World"
    ]
   },
   "today": [
