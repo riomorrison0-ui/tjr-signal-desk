@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T04:40:20.235412-05:00",
+ "updated": "2026-11-18T04:45:20.234048-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3783.66,
-   "feed": "real-time gold (PAXG, matched to spot +4.39)",
-   "time": "2026-11-18T04:35:00-05:00"
+   "price": 3782.11,
+   "feed": "real-time gold (PAXG, matched to spot +3.80)",
+   "time": "2026-11-18T04:40:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "War, latest news. Iran: a ship attacked in the Strait of Hormuz \u2013 11 injured and one missing. Drones spotted over a US base in Kuwait - Il Sole 24 ORE",
-    "US, Iran exchange fire despite renewed diplomatic push to end war - The Arab Weekly",
-    "Xi and Putin blast Western 'protectionism', sanctions at APEC - Reuters"
+    "Russia Expands Missile Arsenal To Sustain Strikes Against Ukraine - Forbes",
+    "Saudi-led coalition intercepts Houthi cruise missile targeting Riyadh - Anadolu Ajans\u0131",
+    "Britain sanctions Israeli settlement builders and a group that blocked Gaza aid - The Forward"
    ]
   },
   "today": [
