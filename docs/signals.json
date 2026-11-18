@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T16:30:20.502217-05:00",
+ "updated": "2026-11-18T16:35:20.448532-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3726.83,
-   "feed": "real-time gold (PAXG, matched to spot +4.11)",
-   "time": "2026-11-18T16:25:00-05:00"
+   "price": 3726.8,
+   "feed": "real-time gold (PAXG, matched to spot +1.79)",
+   "time": "2026-11-18T16:30:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
     "SNC, Specter Win USAF Counter-Air Missile Program Award - Aviation Week",
-    "US Navy used expired munitions during Iran war, Cao says - Navy Times",
-    "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network - U.S. Virtual Embassy Iran (.gov)"
+    "Iran widens Gulf attacks after US strikes missile launch site - CNN",
+    "Dispatch from Kyiv: Let Ukraine strike Russia\u2019s missile launchers at the source - Atlantic Council"
    ]
   },
   "today": [
