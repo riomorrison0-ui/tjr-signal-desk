@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T11:30:20.343732-05:00",
+ "updated": "2026-11-18T11:35:20.407541-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3742.03,
-   "feed": "real-time gold (PAXG, matched to spot +3.92)",
-   "time": "2026-11-18T11:25:00-05:00"
+   "price": 3737.11,
+   "feed": "real-time gold (PAXG, matched to spot +3.91)",
+   "time": "2026-11-18T11:30:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Markel Insurance promotes Chloe Gordge to Director of War and PV&T, London - Reinsurance News",
-    "How Germany\u2019s Deutsche Bahn May Be Helping Finance Russia\u2019s War Against Ukraine - UNITED24 Media",
-    "Israeli tanks advance into central Gaza as ceasefire tensions flare - Euronews.com"
+    "Canada\u2019s PM calls out \u2018lying\u2019 Putin for downplaying sanctions - Al Jazeera",
+    "Top law firm faces court dispute over $11.5m sanctions freeze - City AM",
+    "Prepared, not panicked: why government communications matter before war \u2013 not just during it - Global Government Forum"
    ]
   },
   "today": [
