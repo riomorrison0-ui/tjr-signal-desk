@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T01:00:20.234717-05:00",
+ "updated": "2026-11-18T01:05:20.221210-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3787.46,
-   "feed": "real-time gold (PAXG, matched to spot +3.02)",
-   "time": "2026-11-18T00:55:00-05:00"
+   "price": 3786.72,
+   "feed": "real-time gold (PAXG, matched to spot +4.20)",
+   "time": "2026-11-18T01:00:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi-led coalition says it intercepted Houthi cruise missile targeting Riyadh - Anadolu Ajans\u0131",
-    "Iran sees Trump weakened by midterm rout, hardens war demands - Ynetnews",
-    "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount - CNBC"
+    "Xi, Putin Blast Western \u2018Protectionism\u2019, Sanctions Before Meeting Trump at APEC - ASHARQ AL-AWSAT English",
+    "Saudi-led coalition says it intercepted destroyed Houthi missile - Middle East Eye",
+    "Saudi-led coalition says it intercepted Houthi cruise missile targeting Riyadh - Anadolu Ajans\u0131"
    ]
   },
   "today": [
