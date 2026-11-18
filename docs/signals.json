@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:35:20.240163-05:00",
+ "updated": "2026-11-18T07:40:20.270527-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3764.78,
-   "feed": "real-time gold (PAXG, matched to spot +4.08)",
-   "time": "2026-11-18T07:30:00-05:00"
+   "price": 3752.82,
+   "feed": "real-time gold (PAXG, matched to spot +0.24)",
+   "time": "2026-11-18T07:35:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Pain at the Pumps: War Shocks Push Inflation to 3.6% Amid Record Diesel High - Distilled Post",
-    "Sudan: Transfer War Crimes Suspects to ICC - Human Rights Watch",
-    "The first algorithmic war - Engelsberg Ideas"
+    "JANAF Pipeline Rupture Threatens Western Balkans Fuel Supply Amid Looming U.S. Sanctions Deadline - Pipeline Technology Journal",
+    "Reform\u2019s Robert Jenrick and Zia Yusuf are at war\u2026 again - The New European",
+    "Israeli army launches military offensive in central Gaza despite ceasefire - Anadolu Ajans\u0131"
    ]
   },
   "today": [
