@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T17:15:20.567217-05:00",
+ "updated": "2026-11-18T17:20:20.557646-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3723.87,
-   "feed": "real-time gold (PAXG, matched to spot +2.22)",
-   "time": "2026-11-18T17:10:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +0.88)",
+   "time": "2026-11-18T17:15:00-05:00"
   }
  },
  "stats": {
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Is more Iran war approaching? US military buildup and fresh attacks in Gulf fuel fears of escalation - Ynetnews",
-    "Saudi Arabia and other Gulf states still among world\u2019s safest places despite Iran war, survey finds - Arab News",
-    "Jared Kushner Is Negotiating for Peace While Profiting From War - The Atlantic"
+    "EU Commission establishes Sanctions Office and names Lars Danielsson as Envoy - INSIGHT EU MONITORING",
+    "US sanctions Hezbollah-linked charity in bid to squeeze Iran - Al-Monitor",
+    "China Burns Less Oil and Coal as the Iran War Reshapes Its Energy Mix - Crude Oil Prices Today | OilPrice.com"
    ]
   },
   "today": [
