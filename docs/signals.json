@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T09:43:44.291500-05:00",
+ "updated": "2026-11-18T09:46:22.020953-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3771.41,
-   "feed": "real-time gold (PAXG, matched to spot +6.11)",
-   "time": "2026-11-18T09:35:00-05:00"
+   "price": 3774.62,
+   "feed": "real-time gold (PAXG, matched to spot +7.99)",
+   "time": "2026-11-18T09:40:00-05:00"
   }
  },
  "stats": {
@@ -73,7 +73,7 @@
    "examples": [
     "Urgent need for escalation after day of strikes in France - Socialist Worker",
     "\u2018Status quo\u2019 between US and Iran could break out into war, analysts warn - Al Jazeera",
-    "Sign our petition: Cut War Not Welfare, Benefits not Bombs - Stop the War"
+    "Explainer: Untangling Yemen's complex civil war - Reuters"
    ]
   },
   "today": [
@@ -165,8 +165,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.62,
-  "gbpusd": 1.31548
+  "stop_cap_usd": 52.67,
+  "gbpusd": 1.31667
  },
  "backtest": {
   "portfolio": {
