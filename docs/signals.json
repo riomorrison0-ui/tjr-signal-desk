@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T20:20:20.219988-05:00",
+ "updated": "2026-11-17T20:25:20.220161-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3821.64,
-   "feed": "real-time gold (PAXG, matched to spot +7.27)",
-   "time": "2026-11-17T20:15:00-05:00"
+   "price": 3818.32,
+   "feed": "real-time gold (PAXG, matched to spot +7.98)",
+   "time": "2026-11-17T20:20:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "A potato war has been simmering for decades between the US and Japan. It\u2019s about to reach boiling point - The Guardian",
-    "UK sanctions 8 companies involved in West Bank settlements expansion - CGTN",
-    "God Of War Star Dave Bautista Shows Off Kratos Physique And Beard In Video - IMDb"
+    "What chance world war? \u2022 Graeme Dobell - Inside Story",
+    "Board of Peace warns Gaza ceasefire faces imminent collapse without action - Al Jazeera",
+    "A potato war has been simmering for decades between the US and Japan. It\u2019s about to reach boiling point - The Guardian"
    ]
   },
   "today": [
