@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T12:00:20.364199-05:00",
+ "updated": "2026-11-18T12:05:20.343997-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3744.61,
-   "feed": "real-time gold (PAXG, matched to spot +4.81)",
-   "time": "2026-11-18T11:55:00-05:00"
+   "price": 3745.51,
+   "feed": "real-time gold (PAXG, matched to spot +4.74)",
+   "time": "2026-11-18T12:00:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Exclusive: Brit plans $100 million cyber war consortium for 2027 - theinsurer.com",
-    "Miliband\u2019s new sanctions dubbed \u2018ill-judged\u2019 after Israeli attorney-general freezes tenders for controversial settlement bloc - The Jewish Chronicle",
-    "Sudan: Transfer War Crimes Suspects to ICC - Human Rights Watch"
+    "War and commercial lines boost NorthStandard - Lloyd's List",
+    "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia - BBC",
+    "Inside the old gas pipeline where Ukraine is fighting an underground war - BBC"
    ]
   },
   "today": [
