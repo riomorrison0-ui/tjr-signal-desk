@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T13:50:20.393417-05:00",
+ "updated": "2026-11-18T13:55:20.324356-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3739.8,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-18T13:45:00-05:00"
+   "price": 3737.88,
+   "feed": "real-time gold (PAXG, matched to spot +3.97)",
+   "time": "2026-11-18T13:50:00-05:00"
   }
  },
  "stats": {
@@ -80,11 +80,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Croatia commemorates 35th anniversary of Vukovar's fall during 1991 war - Anadolu Ajans\u0131",
-    "Hanwha Conducts Sea-Based Missile Launch For U.S. Requirement - Aviation Week",
-    "Iran Targets Kuwait and Bahrain After U.S. Strike on Missile Site - Around Prague"
+    "Britain cannot afford to keep paying for Donald Trump\u2019s war - The Independent",
+    "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says - Reuters",
+    "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says - Yahoo News Singapore"
    ]
   },
   "today": [
