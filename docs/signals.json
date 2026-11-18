@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T02:50:20.236063-05:00",
+ "updated": "2026-11-18T02:55:20.228578-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3767.45,
-   "feed": "real-time gold (PAXG, matched to spot +4.80)",
-   "time": "2026-11-18T02:45:00-05:00"
+   "price": 3771.28,
+   "feed": "real-time gold (PAXG, matched to spot +2.80)",
+   "time": "2026-11-18T02:50:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Australia launch \u2018truth and reconciliation forum\u2019 to end sandpapergate civil war - The Telegraph",
-    "Ukraine's Termit: the robot platform changing the ground war - Dealroom",
-    "Israeli firms struggle to secure foreign financing as U.K. expands sanctions - Haaretz"
+    "Putin says Western sanctions are backfiring as he pitches Russia as Asia-Pacific trade hub - South China Morning Post",
+    "Daily Update: Russia Loses 1,970 Troops as Crimean Bridge Makes Its Debut on Ukraine\u2019s Losses List - UNITED24 Media",
+    "Coronation Street airs reckless Daniel Osbourne move on Alya Nazir amid war with Adam Barlow in early ITVX release - Radio Times"
    ]
   },
   "today": [
