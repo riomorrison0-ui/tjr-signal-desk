@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T03:20:20.253306-05:00",
+ "updated": "2026-11-18T03:25:20.247719-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3758.72,
-   "feed": "real-time gold (PAXG, matched to spot +3.31)",
-   "time": "2026-11-18T03:15:00-05:00"
+   "price": 3765.18,
+   "feed": "real-time gold (PAXG, matched to spot +2.35)",
+   "time": "2026-11-18T03:20:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Jet2 cuts winter holiday programme in face of Iran war fuel pressures - Northwich Guardian",
-    "Jet2 cuts winter holiday programme in face of Iran war fuel pressures - Wimbledon Guardian",
-    "Oman and Egypt discuss regional developments and de-escalation efforts - \u0633\u0627\u0646\u0627"
+    "France rejects Russian claim of direct involvement in Ukraine war - Anadolu Ajans\u0131",
+    "Gold falls despite Middle East war. Is the Fed a bigger threat than geopolitics? \ud83e\ude99 - XTB.com",
+    "Is Iraq Heading Towards Civil War? - The Media Line"
    ]
   },
   "today": [
