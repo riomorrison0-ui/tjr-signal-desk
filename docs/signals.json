@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T16:15:20.504879-05:00",
+ "updated": "2026-11-18T16:20:20.502642-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3725.7,
-   "feed": "real-time gold (PAXG, matched to spot +3.37)",
-   "time": "2026-11-18T16:10:00-05:00"
+   "price": 3727.02,
+   "feed": "real-time gold (PAXG, matched to spot +2.30)",
+   "time": "2026-11-18T16:15:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network - U.S. Virtual Embassy Iran (.gov)",
-    "Bus crash protest in Abdanan tests Iran\u2019s hold after war and crackdown - Al-Monitor",
-    "Trump\u2019s anger with Vance is growing after VP blamed the Iran war for the Republican midterm losses: report - The Independent"
+    "SNC, Specter Win USAF Counter-Air Missile Program Award - Aviation Week",
+    "US Navy used expired munitions during Iran war, Cao says - Navy Times",
+    "U.S. Sanctions Hizballah Front Organization and Iran-Backed Financial Network - U.S. Virtual Embassy Iran (.gov)"
    ]
   },
   "today": [
