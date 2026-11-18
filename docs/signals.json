@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T13:35:20.310392-05:00",
+ "updated": "2026-11-18T13:40:20.303269-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3741.82,
-   "feed": "real-time gold (PAXG, matched to spot +5.06)",
-   "time": "2026-11-18T13:30:00-05:00"
+   "price": 3740.54,
+   "feed": "real-time gold (PAXG, matched to spot +3.00)",
+   "time": "2026-11-18T13:35:00-05:00"
   }
  },
  "stats": {
@@ -82,9 +82,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Croatia commemorates 35th anniversary of Vukovar's fall during 1991 war - Anadolu Ajans\u0131",
     "Hanwha Conducts Sea-Based Missile Launch For U.S. Requirement - Aviation Week",
-    "Iran Targets Kuwait and Bahrain After U.S. Strike on Missile Site - Around Prague",
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post"
+    "Iran Targets Kuwait and Bahrain After U.S. Strike on Missile Site - Around Prague"
    ]
   },
   "today": [
