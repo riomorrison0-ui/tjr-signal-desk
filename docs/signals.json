@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T12:45:20.317366-05:00",
+ "updated": "2026-11-18T12:50:20.393700-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3740.74,
-   "feed": "real-time gold (PAXG, matched to spot +3.49)",
-   "time": "2026-11-18T12:40:00-05:00"
+   "price": 3736.73,
+   "feed": "real-time gold (PAXG, matched to spot +3.83)",
+   "time": "2026-11-18T12:45:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Trump and Xi could pressure Putin into ending Ukraine war if they want to, Zelenskyy says ahead of China summit - NBC News",
-    "Amnesty calls for war crimes probe into deadly RSF drone strikes in Sudan - Anadolu Ajans\u0131"
+    "The Russia-Ukraine War Report Card, Nov. 18, 2026 - Russia Matters",
+    "Israel and Hamas failing to meet Gaza ceasefire commitments, Board of Peace warns - The National",
+    "Xi keen to look \u2018neutral\u2019 on Ukraine at Shenzhen summit, as China risks spoling EU relations by helping Putin to wage war - EUobserver"
    ]
   },
   "today": [
