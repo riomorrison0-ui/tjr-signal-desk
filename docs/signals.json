@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T14:35:20.332261-05:00",
+ "updated": "2026-11-18T14:40:20.308204-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3721.76,
-   "feed": "real-time gold (PAXG, matched to spot +3.76)",
-   "time": "2026-11-18T14:30:00-05:00"
+   "price": 3721.08,
+   "feed": "real-time gold (PAXG, matched to spot +2.38)",
+   "time": "2026-11-18T14:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "How inflation and the Iran war is leaving people struggling to pay for energy - Channel 4",
-    "US sanctions Hezbollah-linked charity in push against Iran\u2019s proxies, Treasury says - Arab News",
-    "Recalling a Gaza surgeon killed by an Israeli airstrike - The World from PRX"
+    "Four killed as Russian strikes hit Ukraine\u2019s Odesa - Al Jazeera",
+    "In the Shadow of War, Frieze Abu Dhabi Continues With \u2018Business as Usual\u2019 - ARTnews.com",
+    "How inflation and the Iran war is leaving people struggling to pay for energy - Channel 4"
    ]
   },
   "today": [
