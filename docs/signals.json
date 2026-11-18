@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:45:20.223056-05:00",
+ "updated": "2026-11-18T07:50:20.277709-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3751.86,
-   "feed": "real-time gold (PAXG, matched to spot +4.34)",
-   "time": "2026-11-18T07:40:00-05:00"
+   "price": 3747.8,
+   "feed": "real-time gold (PAXG, matched to spot +2.68)",
+   "time": "2026-11-18T07:45:00-05:00"
   }
  },
  "stats": {
