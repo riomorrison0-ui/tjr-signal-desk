@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T12:30:20.336921-05:00",
+ "updated": "2026-11-18T12:35:20.357457-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3747.14,
-   "feed": "real-time gold (PAXG, matched to spot +3.91)",
-   "time": "2026-11-18T12:25:00-05:00"
+   "price": 3745.31,
+   "feed": "real-time gold (PAXG, matched to spot +3.46)",
+   "time": "2026-11-18T12:30:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "ICC stresses cooperation with Libyan authorities to deliver justice for war crimes victims - Anadolu Ajans\u0131",
-    "GeoSpace Ep. 42 with Alex Vatanka: How the US midterm results shape the Iran war - The New Region",
-    "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia - BBC"
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
+    "Trump and Xi could pressure Putin into ending Ukraine war if they want to, Zelenskyy says ahead of China summit - NBC News",
+    "Amnesty calls for war crimes probe into deadly RSF drone strikes in Sudan - Anadolu Ajans\u0131"
    ]
   },
   "today": [
