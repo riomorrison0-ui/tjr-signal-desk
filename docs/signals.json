@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T03:35:20.236967-05:00",
+ "updated": "2026-11-18T03:40:20.237217-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3769.24,
-   "feed": "real-time gold (PAXG, matched to spot +5.19)",
-   "time": "2026-11-18T03:30:00-05:00"
+   "price": 3765.9,
+   "feed": "real-time gold (PAXG, matched to spot +6.14)",
+   "time": "2026-11-18T03:35:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "France rejects Russian claim of direct involvement in Ukraine war - Anadolu Ajans\u0131",
-    "Gold falls despite Middle East war. Is the Fed a bigger threat than geopolitics? \ud83e\ude99 - XTB.com",
-    "Is Iraq Heading Towards Civil War? - The Media Line"
+    "Russia's war economy produces few winners as companies turn to quiet layoffs - IntelliNews",
+    "War is accelerating Ukraine's AI rollout, digital chief tells Euronews - Euronews.com",
+    "Australia imposes sanctions on 4 Israeli organizations, 3 individuals - JNS.org"
    ]
   },
   "today": [
