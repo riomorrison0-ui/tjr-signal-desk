@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T03:50:20.219361-05:00",
+ "updated": "2026-11-18T03:55:20.222194-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3769.82,
-   "feed": "real-time gold (PAXG, matched to spot +4.51)",
-   "time": "2026-11-18T03:45:00-05:00"
+   "price": 3766.09,
+   "feed": "real-time gold (PAXG, matched to spot +3.09)",
+   "time": "2026-11-18T03:50:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia's war economy produces few winners as companies turn to quiet layoffs - IntelliNews",
-    "War is accelerating Ukraine's AI rollout, digital chief tells Euronews - Euronews.com",
-    "Australia imposes sanctions on 4 Israeli organizations, 3 individuals - JNS.org"
+    "US, Iran exchange fire despite renewed diplomatic push to end war - The Arab Weekly",
+    "Hanwha tests Chunmoo missile off Mississippi coast - NavalToday",
+    "War is accelerating Ukraine's AI rollout, digital chief tells Euronews - Euronews.com"
    ]
   },
   "today": [
