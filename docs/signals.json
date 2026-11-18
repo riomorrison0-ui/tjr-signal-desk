@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T21:20:20.265845-05:00",
+ "updated": "2026-11-17T21:25:20.210053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3801.64,
-   "feed": "real-time gold (PAXG, matched to spot +7.39)",
-   "time": "2026-11-17T21:15:00-05:00"
+   "price": 3800.63,
+   "feed": "real-time gold (PAXG, matched to spot +7.14)",
+   "time": "2026-11-17T21:20:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Tuesday Tunes: Bassvictim\u2019s \u2018PEACE + WAR\u2019 is loveably lukewarm - New University",
-    "Kim Jong Un\u2019s naval expansion and North Korea\u2019s misleading missile claims - NK News",
-    "Ukraine war briefing: US criticism of Kyiv\u2019s deep strikes in Russia is \u2018quite stupid\u2019, says Germany - The Guardian"
+    "Australia\u2019s West Bank sanctions welcome, but Israeli leaders responsible for ethnic cleansing must be held accountable - Amnesty International Australia",
+    "\u2018Godmother\u2019 of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia - The Guardian",
+    "Middle East live: Kuwait, Bahrain report drone and missile attacks - AOL.co.uk"
    ]
   },
   "today": [
