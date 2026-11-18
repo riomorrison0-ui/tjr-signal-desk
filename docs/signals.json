@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T10:45:20.461314-05:00",
+ "updated": "2026-11-18T10:50:20.324819-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3755.78,
-   "feed": "real-time gold (PAXG, matched to spot +4.00)",
-   "time": "2026-11-18T10:40:00-05:00"
+   "price": 3752.08,
+   "feed": "real-time gold (PAXG, matched to spot +5.65)",
+   "time": "2026-11-18T10:45:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "BOE\u2019s Bailey Sees Length of Iran War as Key to Rate Path - WSJ",
-    "Israeli military steps up attacks in Gaza, in new thrust despite ceasefire - The Arab Weekly",
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post"
+    "EU launches new sanctions office, appoints official to analyze and enforce Russia restrictions - The Kyiv Independent",
+    "Putin Prepares for Another Winter of War Despite Russia\u2019s Economic Strains, Western Intelligence Warns - UNITED24 Media",
+    "BOE\u2019s Bailey Sees Length of Iran War as Key to Rate Path - WSJ"
    ]
   },
   "today": [
