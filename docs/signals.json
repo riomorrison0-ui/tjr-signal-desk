@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T19:35:20.225440-05:00",
+ "updated": "2026-11-17T19:40:20.221236-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3825.24,
-   "feed": "real-time gold (PAXG, matched to spot +9.23)",
-   "time": "2026-11-17T19:30:00-05:00"
+   "price": 3828.49,
+   "feed": "real-time gold (PAXG, matched to spot +6.37)",
+   "time": "2026-11-17T19:35:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "God Of War Star Dave Bautista Shows Off Kratos Physique And Beard In Video - IMDb",
     "Israel vows retaliation over UK sanctions on settlement firms - Anadolu Ajans\u0131",
-    "US launches \u2018self-defense\u2019 strikes against Iranian missile launch site - www.tmgm.com",
-    "\u2018\u2018To deliver Milburn\u2019s guarantee, Labour must put security before sanctions\u2019 - LabourList"
+    "\u2018Fatherland\u2019 is a stunning depiction of returning home to a war-torn country - The Ithacan"
    ]
   },
   "today": [
