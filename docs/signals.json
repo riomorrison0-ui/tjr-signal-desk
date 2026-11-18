@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T01:45:20.231146-05:00",
+ "updated": "2026-11-18T01:50:20.234592-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3780.91,
-   "feed": "real-time gold (PAXG, matched to spot +5.32)",
-   "time": "2026-11-18T01:40:00-05:00"
+   "price": 3778.51,
+   "feed": "real-time gold (PAXG, matched to spot +4.49)",
+   "time": "2026-11-18T01:45:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How the Houthis fund war effort and tighten grip on Yemen - Al Jazeera",
-    "Remembrance Day 2026: War Poetry Review - www.redbrick.me",
-    "What\u2019s Your WAR? Moneyballing Professional Military Education - Small Wars Journal"
+    "The Iran War Is Heading for a Swiss-Cheese Solution - Foreign Policy",
+    "Board of Peace Delivers Bleak Report on Gaza, Warning of Ceasefire Collapse without Immediate Action - ASHARQ AL-AWSAT English",
+    "Soroka Medical Center expands emergency department by 50% after Iranian missile strike - JNS.org"
    ]
   },
   "today": [
