@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T07:00:20.244346-05:00",
+ "updated": "2026-11-18T07:05:20.257840-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3765.11,
-   "feed": "real-time gold (PAXG, matched to spot +6.63)",
-   "time": "2026-11-18T06:55:00-05:00"
+   "price": 3766.68,
+   "feed": "real-time gold (PAXG, matched to spot +4.21)",
+   "time": "2026-11-18T07:00:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Developed-market fiscal deficit to hit highest since World War 2 outside recessions, J.P. Morgan says - Reuters",
-    "Robocobra Quartet: Interview - Louder Than War",
-    "Jordan welcomes British, Australian sanctions on Israeli entities - \u0633\u0627\u0646\u0627"
+    "EU gears up for new Iran sanctions as domestic unrest resurfaces - EU Reporter",
+    "Global energy watchdog warns \u2018no credible way\u2019 back to pre-Iran war energy markets - City AM",
+    "EU Sets Up Sanctions Office, Appoints New Envoy - Mirage News"
    ]
   },
   "today": [
