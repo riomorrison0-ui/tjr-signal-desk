@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T06:00:20.249586-05:00",
+ "updated": "2026-11-18T06:05:20.219640-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3772.41,
-   "feed": "real-time gold (PAXG, matched to spot +3.10)",
-   "time": "2026-11-18T05:55:00-05:00"
+   "price": 3767.92,
+   "feed": "real-time gold (PAXG, matched to spot +3.83)",
+   "time": "2026-11-18T06:00:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Traumas of Sudan war lead to wave of drug addiction - Al Jazeera",
-    "Watch Stubb Urges 'Day and Night' Effort to End War in Ukraine - Bloomberg.com",
-    "Israel Aerospace Industries presents Arrow 3 missile defence capabilities to Czech Prime Minister Andrej Babi\u0161 - Defence Industry Europe"
+    "Why the dangers of documenting war and political unrest followed U.S. photojournalists back home - Milwaukee Independent",
+    "In-Limbo Iran-US War Leaves Gulf With a Sense of Dread - Bloomberg.com",
+    "Ukraine\u2019s Strike Leaves Russia Facing a Crimean Bridge Repair Job That May Outlast the War - UNITED24 Media"
    ]
   },
   "today": [
