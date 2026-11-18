@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T15:29:49.137112-05:00",
+ "updated": "2026-11-18T15:30:42.618931-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3725.65,
-   "feed": "real-time gold (PAXG, matched to spot +4.43)",
-   "time": "2026-11-18T15:20:00-05:00"
+   "price": 3725.73,
+   "feed": "real-time gold (PAXG, matched to spot +2.81)",
+   "time": "2026-11-18T15:25:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling - The Guardian",
     "Getting personal: Why sanctions have failed to split the Russian elite \u2014 and how to change that - https://theins.press/en",
-    "A New Israeli Invasion of Central Gaza: What Is at Stake? \u2013 Explainer - Palestine Chronicle",
-    "'Netanyahu's only 2 tickets are racism or starting a war: He stopped acting as a democratic player' - France 24"
+    "A New Israeli Invasion of Central Gaza: What Is at Stake? \u2013 Explainer - Palestine Chronicle"
    ]
   },
   "today": [
@@ -160,8 +160,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.67,
-  "gbpusd": 1.31667
+  "stop_cap_usd": 52.6,
+  "gbpusd": 1.31494
  },
  "backtest": {
   "portfolio": {
