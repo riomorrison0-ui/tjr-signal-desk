@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T13:05:20.326345-05:00",
+ "updated": "2026-11-18T13:10:20.396532-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3739.5,
-   "feed": "real-time gold (PAXG, matched to spot +5.27)",
-   "time": "2026-11-18T13:00:00-05:00"
+   "price": 3740.42,
+   "feed": "real-time gold (PAXG, matched to spot +5.44)",
+   "time": "2026-11-18T13:05:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "The Russia-Ukraine War Report Card, Nov. 18, 2026 - Russia Matters",
-    "Israel and Hamas failing to meet Gaza ceasefire commitments, Board of Peace warns - The National",
-    "Xi keen to look \u2018neutral\u2019 on Ukraine at Shenzhen summit, as China risks spoling EU relations by helping Putin to wage war - EUobserver"
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
+    "Zelenskyy says sanctions from U.S. and China would force Russia into a ceasefire - NBC News",
+    "Inside old gas pipeline in Ukraine's underground war - BBC"
    ]
   },
   "today": [
