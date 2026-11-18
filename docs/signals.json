@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T10:30:20.398755-05:00",
+ "updated": "2026-11-18T10:35:20.308240-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3758.82,
-   "feed": "real-time gold (PAXG, matched to spot +4.49)",
-   "time": "2026-11-18T10:25:00-05:00"
+   "price": 3760.2,
+   "feed": "real-time gold (PAXG, matched to spot +4.13)",
+   "time": "2026-11-18T10:30:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Israel launches new assault in central Gaza for first time since 'ceasefire' - The National Scot",
-    "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - PubAffairs Bruxelles"
+    "BOE\u2019s Bailey Sees Length of Iran War as Key to Rate Path - WSJ",
+    "Israeli military steps up attacks in Gaza, in new thrust despite ceasefire - The Arab Weekly",
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post"
    ]
   },
   "today": [
