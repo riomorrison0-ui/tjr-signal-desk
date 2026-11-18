@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-18T05:30:20.219616-05:00",
+ "updated": "2026-11-18T05:35:20.225502-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3768.99,
-   "feed": "real-time gold (PAXG, matched to spot +3.24)",
-   "time": "2026-11-18T05:25:00-05:00"
+   "price": 3770.76,
+   "feed": "real-time gold (PAXG, matched to spot +4.88)",
+   "time": "2026-11-18T05:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 8,
-  "wins": 6,
-  "win_rate": 75.0,
-  "total_r": 2.81,
-  "avg_r": 0.352,
-  "balance": 2087.09,
+  "trades": 9,
+  "wins": 7,
+  "win_rate": 77.8,
+  "total_r": 3.07,
+  "avg_r": 0.341,
+  "balance": 2097.44,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -48,6 +48,10 @@
    {
     "t": "2026-11-17T12:05:00-05:00",
     "balance": 2087.09
+   },
+   {
+    "t": "2026-11-18T05:35:00-05:00",
+    "balance": 2097.44
    }
   ]
  },
@@ -67,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "News: #El_Ni\u00f1o, #Iran war shocks could push nearly one million more #Ethiopians into poverty, new report warns Nearly 905,000 additional people in Ethiopia could be pushed into poverty and 2.8 million into undernourishment in 2027 as the effects of a pote - Facebook",
-    "Petrotel-Lukoil Restarting Romanian Refinery Shut By Sanctions - Industrial Info Resources",
-    "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says - The New York Times"
+    "Israel Aerospace Industries presents Arrow 3 missile defence capabilities to Czech Prime Minister Andrej Babi\u0161 - Defence Industry Europe",
+    "Australia sanctions Israeli settlers, organisations over West Bank expansion - The Hindu",
+    "U.S. Strikes Qeshm Island as Vance Says Iran Won\u2019t Become \u2018Forever War\u2019 - Time Magazine"
    ]
   },
   "today": [
@@ -6807,12 +6811,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-18T05:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-18T05:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-18T05:35:00-05:00",
+   "exit_price": 3770.76,
+   "r": 0.257,
+   "notes": [
+    "legs: TP1 early, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-18T05:30:00-05:00",
@@ -6830,14 +6836,20 @@
      "tp": 3764.75,
      "r_mult": 0.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3770.76,
+     "exit_time": "2026-11-18T05:35:00-05:00",
+     "r": 0.26
     },
     {
      "n": 3,
      "tp": 3738.51,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3770.76,
+     "exit_time": "2026-11-18T05:35:00-05:00",
+     "r": 0.26
     }
    ],
    "news": {
@@ -6850,7 +6862,8 @@
      "forecast": "",
      "previous": ""
     }
-   }
+   },
+   "pnl_gbp": 10.35
   },
   {
    "id": "XAUUSD-rsi2-20261117-1025-SELL",
