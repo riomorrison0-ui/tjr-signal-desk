@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T11:45:20.330610-05:00",
+ "updated": "2026-11-18T11:50:20.371811-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3741.88,
-   "feed": "real-time gold (PAXG, matched to spot +5.25)",
-   "time": "2026-11-18T11:40:00-05:00"
+   "price": 3744.42,
+   "feed": "real-time gold (PAXG, matched to spot +6.38)",
+   "time": "2026-11-18T11:45:00-05:00"
   }
  },
  "stats": {
@@ -73,11 +73,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Canada\u2019s PM calls out \u2018lying\u2019 Putin for downplaying sanctions - Al Jazeera",
-    "Top law firm faces court dispute over $11.5m sanctions freeze - City AM",
-    "Prepared, not panicked: why government communications matter before war \u2013 not just during it - Global Government Forum"
+    "Exclusive: Brit plans $100 million cyber war consortium for 2027 - theinsurer.com",
+    "Miliband\u2019s new sanctions dubbed \u2018ill-judged\u2019 after Israeli attorney-general freezes tenders for controversial settlement bloc - The Jewish Chronicle",
+    "Sudan: Transfer War Crimes Suspects to ICC - Human Rights Watch"
    ]
   },
   "today": [
