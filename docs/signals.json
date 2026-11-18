@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T05:45:20.230430-05:00",
+ "updated": "2026-11-18T05:50:20.258162-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3770.22,
-   "feed": "real-time gold (PAXG, matched to spot +3.96)",
-   "time": "2026-11-18T05:40:00-05:00"
+   "price": 3769.51,
+   "feed": "real-time gold (PAXG, matched to spot +2.62)",
+   "time": "2026-11-18T05:45:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israel Aerospace Industries presents Arrow 3 missile defence capabilities to Czech Prime Minister Andrej Babi\u0161 - Defence Industry Europe",
-    "Australia sanctions Israeli settlers, organisations over West Bank expansion - The Hindu",
-    "U.S. Strikes Qeshm Island as Vance Says Iran Won\u2019t Become \u2018Forever War\u2019 - Time Magazine"
+    "Traumas of Sudan war lead to wave of drug addiction - Al Jazeera",
+    "Watch Stubb Urges 'Day and Night' Effort to End War in Ukraine - Bloomberg.com",
+    "Israel Aerospace Industries presents Arrow 3 missile defence capabilities to Czech Prime Minister Andrej Babi\u0161 - Defence Industry Europe"
    ]
   },
   "today": [
