@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T22:40:20.220295-05:00",
+ "updated": "2026-11-17T22:45:20.223447-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3793.27,
-   "feed": "real-time gold (PAXG, matched to spot +5.43)",
-   "time": "2026-11-17T22:35:00-05:00"
+   "price": 3794.65,
+   "feed": "real-time gold (PAXG, matched to spot +5.57)",
+   "time": "2026-11-17T22:40:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018Godmother\u2019 of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia - The Guardian",
-    "UK sanctions eight companies over West Bank settlements expansion - chinadailyhk",
-    "US jets strike IRGC missile launch site on Iran's Qeshm Island in 'self-defence' - The National"
+    "Israel vows retaliation over UK sanctions on settlement firms - A News",
+    "US tests 180-mile Chunmoo missile offshore for future Navy strikes - Interesting Engineering",
+    "\u2018Godmother\u2019 of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia - The Guardian"
    ]
   },
   "today": [
