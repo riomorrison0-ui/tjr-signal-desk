@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T06:45:20.243445-05:00",
+ "updated": "2026-11-18T06:50:20.228859-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3764.3,
-   "feed": "real-time gold (PAXG, matched to spot +5.27)",
-   "time": "2026-11-18T06:40:00-05:00"
+   "price": 3761.12,
+   "feed": "real-time gold (PAXG, matched to spot +4.06)",
+   "time": "2026-11-18T06:45:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Trump's Board of Peace faults Israel and Hamas for failure to end Gaza war - Reuters",
-    "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say - Reuters"
+    "Developed-market fiscal deficit to hit highest since World War 2 outside recessions, J.P. Morgan says - Reuters",
+    "Robocobra Quartet: Interview - Louder Than War",
+    "Jordan welcomes British, Australian sanctions on Israeli entities - \u0633\u0627\u0646\u0627"
    ]
   },
   "today": [
