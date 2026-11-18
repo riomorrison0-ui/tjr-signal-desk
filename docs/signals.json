@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T13:20:20.326813-05:00",
+ "updated": "2026-11-18T13:25:20.327650-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3735.84,
-   "feed": "real-time gold (PAXG, matched to spot +5.33)",
-   "time": "2026-11-18T13:15:00-05:00"
+   "price": 3739.15,
+   "feed": "real-time gold (PAXG, matched to spot +3.11)",
+   "time": "2026-11-18T13:20:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Zelenskyy says sanctions from U.S. and China would force Russia into a ceasefire - NBC News",
-    "Inside old gas pipeline in Ukraine's underground war - BBC"
+    "Hanwha Conducts Sea-Based Missile Launch For U.S. Requirement - Aviation Week",
+    "Iran Targets Kuwait and Bahrain After U.S. Strike on Missile Site - Around Prague",
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post"
    ]
   },
   "today": [
