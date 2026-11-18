@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T02:15:20.228562-05:00",
+ "updated": "2026-11-18T02:20:20.311510-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3774.08,
-   "feed": "real-time gold (PAXG, matched to spot +3.80)",
-   "time": "2026-11-18T02:10:00-05:00"
+   "price": 3773.47,
+   "feed": "real-time gold (PAXG, matched to spot +4.63)",
+   "time": "2026-11-18T02:15:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "living with war 2 - European Western Balkans",
-    "Australia imposes new sanctions over illegal settlement expansion in occupied West Bank - Anadolu Ajans\u0131",
-    "Board of Peace Delivers Bleak Report on Gaza, Warning of Ceasefire Collapse without Immediate Action - ASHARQ AL-AWSAT English"
+    "Israeli drone strikes kill 2 Palestinians in Gaza despite ceasefire - Anadolu Ajans\u0131",
+    "Xi and Putin blast Western \u2018protectionism\u2019 and sanctions before meeting Trump at APEC - The Japan Times",
+    "living with war 2 - European Western Balkans"
    ]
   },
   "today": [
