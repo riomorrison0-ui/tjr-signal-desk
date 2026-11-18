@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T08:05:20.265872-05:00",
+ "updated": "2026-11-18T08:10:20.303316-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3755.11,
-   "feed": "real-time gold (PAXG, matched to spot +4.82)",
-   "time": "2026-11-18T08:00:00-05:00"
+   "price": 3764.71,
+   "feed": "real-time gold (PAXG, matched to spot +4.78)",
+   "time": "2026-11-18T08:05:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
     "European Commission sets up new EU Sanctions Office, appoints new EU Sanctions Envoy - The Sofia Globe",
-    "Sudan: \u2018Deadly\u2019 RSF drone strikes in El Obeid need war crimes investigation, says Amnesty - Amnesty International UK",
-    "An \u2018optimistic\u2019 Alexander Stubb talks war and peace at Slush - Resilience Media"
+    "Sudan: \u2018Deadly\u2019 RSF drone strikes in El Obeid need war crimes investigation, says Amnesty - Amnesty International UK"
    ]
   },
   "today": [
