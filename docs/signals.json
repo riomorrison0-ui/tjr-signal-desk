@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T14:20:20.305022-05:00",
+ "updated": "2026-11-18T14:25:20.374751-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3729.32,
-   "feed": "real-time gold (PAXG, matched to spot +4.27)",
-   "time": "2026-11-18T14:15:00-05:00"
+   "price": 3726.78,
+   "feed": "real-time gold (PAXG, matched to spot +2.27)",
+   "time": "2026-11-18T14:20:00-05:00"
   }
  },
  "stats": {
@@ -80,11 +80,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Britain cannot afford to keep paying for Donald Trump\u2019s war - The Independent",
-    "US sanctions Hezbollah-linked charity in push against Iran's proxies, Treasury says - Reuters"
+    "How inflation and the Iran war is leaving people struggling to pay for energy - Channel 4",
+    "US sanctions Hezbollah-linked charity in push against Iran\u2019s proxies, Treasury says - Arab News",
+    "Recalling a Gaza surgeon killed by an Israeli airstrike - The World from PRX"
    ]
   },
   "today": [
