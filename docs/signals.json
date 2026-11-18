@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T06:15:20.225236-05:00",
+ "updated": "2026-11-18T06:20:20.219031-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3761.8,
-   "feed": "real-time gold (PAXG, matched to spot +3.06)",
-   "time": "2026-11-18T06:10:00-05:00"
+   "price": 3764.05,
+   "feed": "real-time gold (PAXG, matched to spot +4.60)",
+   "time": "2026-11-18T06:15:00-05:00"
   }
  },
  "stats": {
@@ -69,11 +69,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Why the dangers of documenting war and political unrest followed U.S. photojournalists back home - Milwaukee Independent",
-    "In-Limbo Iran-US War Leaves Gulf With a Sense of Dread - Bloomberg.com",
-    "Ukraine\u2019s Strike Leaves Russia Facing a Crimean Bridge Repair Job That May Outlast the War - UNITED24 Media"
+    "Ukrainians Fled Mariupol to Escape Russia\u2019s War\u2014Now Moscow Plans to Give Their Homes to Its Soldiers - UNITED24 Media",
+    "US War on Iran Drives UK Inflation to 3.6% As Petrol, Diesel Prices Surge - \u062a\u0633\u0646\u06cc\u0645",
+    "The Spin | Sandpapergate\u2019s \u2018war of the ghosts\u2019 highlights perils of relying on recall - The Guardian"
    ]
   },
   "today": [
