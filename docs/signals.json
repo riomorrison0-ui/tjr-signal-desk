@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T08:50:20.259752-05:00",
+ "updated": "2026-11-18T08:55:20.249310-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3785.01,
-   "feed": "real-time gold (PAXG, matched to spot +4.29)",
-   "time": "2026-11-18T08:45:00-05:00"
+   "price": 3785.59,
+   "feed": "real-time gold (PAXG, matched to spot +5.19)",
+   "time": "2026-11-18T08:50:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Gaza ceasefire that quieted the world - The New Arab",
-    "Sudan: Transfer War Crimes Suspects to ICC - Human Rights Watch",
-    "This spa in the former Old War Office has just been named the best in London - The Independent"
+    "Russia Is Developing a New Geran-6 Missile\u2014and Its Speed Could Be a Problem for Ukraine - UNITED24 Media",
+    "Hamas condemns Israeli army offensive in central Gaza as 'flagrant violation' of ceasefire - Anadolu Ajans\u0131",
+    "Q&A: Why transportation is critical to rebuilding countries after war and terrorism - Tech Xplore"
    ]
   },
   "today": [
