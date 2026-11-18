@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T18:00:20.477536-05:00",
+ "updated": "2026-11-18T18:05:20.480235-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3723.87,
-   "feed": "real-time gold (PAXG, matched to spot +2.45)",
-   "time": "2026-11-18T17:55:00-05:00"
+   "price": 3730.94,
+   "feed": "real-time gold (PAXG, matched to spot +4.70)",
+   "time": "2026-11-18T18:00:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "EU Commission establishes Sanctions Office and names Lars Danielsson as Envoy - INSIGHT EU MONITORING",
-    "US sanctions Hezbollah-linked charity in bid to squeeze Iran - Al-Monitor",
-    "China Burns Less Oil and Coal as the Iran War Reshapes Its Energy Mix - Crude Oil Prices Today | OilPrice.com"
+    "Russo-Ukrainian war, day 1729: Russia plans to launch 20 million drones at Ukraine in 2027, says EU\u2019s defense commissioner - Euromaidan Press",
+    "US steps up pressure on Iran-backed Hezbollah with new sanctions - Al Jazeera",
+    "Carney: Sanctions on Russia Are \u2018Very Real\u2019 and \u2018Biting\u2019 - Al Arabiya English"
    ]
   },
   "today": [
