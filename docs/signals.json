@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T15:25:20.325698-05:00",
+ "updated": "2026-11-18T15:29:49.137112-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3725.48,
-   "feed": "real-time gold (PAXG, matched to spot +4.26)",
+   "price": 3725.65,
+   "feed": "real-time gold (PAXG, matched to spot +4.43)",
    "time": "2026-11-18T15:20:00-05:00"
   }
  },
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "'Netanyahu's only 2 tickets are racism or starting a war: He stopped acting as a democratic player' - France 24",
+    "Getting personal: Why sanctions have failed to split the Russian elite \u2014 and how to change that - https://theins.press/en",
     "A New Israeli Invasion of Central Gaza: What Is at Stake? \u2013 Explainer - Palestine Chronicle",
-    "Four killed as Russian strikes hit Ukraine\u2019s Odesa - Al Jazeera"
+    "'Netanyahu's only 2 tickets are racism or starting a war: He stopped acting as a democratic player' - France 24"
    ]
   },
   "today": [
