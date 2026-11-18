@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T02:35:20.257946-05:00",
+ "updated": "2026-11-18T02:40:20.242053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3770.09,
-   "feed": "real-time gold (PAXG, matched to spot +3.42)",
-   "time": "2026-11-18T02:30:00-05:00"
+   "price": 3766.61,
+   "feed": "real-time gold (PAXG, matched to spot +4.80)",
+   "time": "2026-11-18T02:35:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israeli drone strikes kill 2 Palestinians in Gaza despite ceasefire - Anadolu Ajans\u0131",
-    "Xi and Putin blast Western \u2018protectionism\u2019 and sanctions before meeting Trump at APEC - The Japan Times",
-    "living with war 2 - European Western Balkans"
+    "Australia launch \u2018truth and reconciliation forum\u2019 to end sandpapergate civil war - The Telegraph",
+    "Ukraine's Termit: the robot platform changing the ground war - Dealroom",
+    "Israeli firms struggle to secure foreign financing as U.K. expands sanctions - Haaretz"
    ]
   },
   "today": [
