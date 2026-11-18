@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T11:00:20.367874-05:00",
+ "updated": "2026-11-18T11:06:08.617622-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3754.26,
-   "feed": "real-time gold (PAXG, matched to spot +4.08)",
-   "time": "2026-11-18T10:55:00-05:00"
+   "price": 3749.17,
+   "feed": "real-time gold (PAXG, matched to spot +3.17)",
+   "time": "2026-11-18T11:00:00-05:00"
   }
  },
  "stats": {
@@ -72,12 +72,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "EU launches new sanctions office, appoints official to analyze and enforce Russia restrictions - The Kyiv Independent",
-    "Putin Prepares for Another Winter of War Despite Russia\u2019s Economic Strains, Western Intelligence Warns - UNITED24 Media",
-    "BOE\u2019s Bailey Sees Length of Iran War as Key to Rate Path - WSJ"
+    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
+    "Coalition Says Houthi Cruise Missile Destroyed Over Riyadh as Explosion Rattles Capital - houseofsaud.com",
+    "The Researchers Counting Russia\u2019s War Dead, One Name at a Time - The Moscow Times"
    ]
   },
   "today": [
