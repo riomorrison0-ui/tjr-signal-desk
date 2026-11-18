@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T21:05:20.253759-05:00",
+ "updated": "2026-11-17T21:10:20.236205-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3802.75,
-   "feed": "real-time gold (PAXG, matched to spot +4.34)",
-   "time": "2026-11-17T21:00:00-05:00"
+   "price": 3801.33,
+   "feed": "real-time gold (PAXG, matched to spot +4.75)",
+   "time": "2026-11-17T21:05:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "UN Report of Emirates\u2019 Role in Sudanese War Is Met With a Long Denial - PassBlue",
-    "Ukraine war briefing: US criticism of Kyiv\u2019s deep strikes in Russia is \u2018quite stupid\u2019, says Germany - The Guardian",
-    "Lawmakers demand probe after 15 Indonesians recruited for Russia\u2019s war - Asia News Network"
+    "Tuesday Tunes: Bassvictim\u2019s \u2018PEACE + WAR\u2019 is loveably lukewarm - New University",
+    "Kim Jong Un\u2019s naval expansion and North Korea\u2019s misleading missile claims - NK News",
+    "Ukraine war briefing: US criticism of Kyiv\u2019s deep strikes in Russia is \u2018quite stupid\u2019, says Germany - The Guardian"
    ]
   },
   "today": [
