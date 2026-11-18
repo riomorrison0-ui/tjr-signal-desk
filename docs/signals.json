@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T17:00:20.456938-05:00",
+ "updated": "2026-11-18T17:05:20.448325-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3723.87,
-   "feed": "real-time gold (PAXG, matched to spot +1.23)",
-   "time": "2026-11-18T16:55:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +0.64)",
+   "time": "2026-11-18T17:00:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Today's Thanksgiving holiday was invented amid the Civil War to unite a divided country - Phys.org",
-    "America\u2019s AI Chip War Is Heating Up in the Dumbest Possible Ways - WIRED",
-    "SNC, Specter Win USAF Counter-Air Missile Program Award - Aviation Week"
+    "Is more Iran war approaching? US military buildup and fresh attacks in Gulf fuel fears of escalation - Ynetnews",
+    "Saudi Arabia and other Gulf states still among world\u2019s safest places despite Iran war, survey finds - Arab News",
+    "Jared Kushner Is Negotiating for Peace While Profiting From War - The Atlantic"
    ]
   },
   "today": [
