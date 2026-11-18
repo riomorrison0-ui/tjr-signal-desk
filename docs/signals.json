@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T23:40:20.229004-05:00",
+ "updated": "2026-11-17T23:45:20.239476-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3784.86,
-   "feed": "real-time gold (PAXG, matched to spot +4.92)",
-   "time": "2026-11-17T23:35:00-05:00"
+   "price": 3783.22,
+   "feed": "real-time gold (PAXG, matched to spot +3.40)",
+   "time": "2026-11-17T23:40:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Australia issues sanctions targeting Israeli settlers | AJ # shorts - Modern Ghana",
     "What chance world war? \u2022 Graeme Dobell - insidestory.org.au",
-    "Australia issues sanctions targeting Israeli settlers - Al Jazeera",
-    "Iran\u2019s War Abroad Is Becoming a Crisis at Home - The Times of Israel"
+    "Sudan: Devastating RSF drone strikes on civilians in El Obeid should be investigated as war crimes - Amnesty International"
    ]
   },
   "today": [
