@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T23:10:20.218713-05:00",
+ "updated": "2026-11-17T23:15:20.258047-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3783.91,
-   "feed": "real-time gold (PAXG, matched to spot +5.28)",
-   "time": "2026-11-17T23:05:00-05:00"
+   "price": 3785.74,
+   "feed": "real-time gold (PAXG, matched to spot +4.76)",
+   "time": "2026-11-17T23:10:00-05:00"
   }
  },
  "stats": {
@@ -65,11 +65,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israel vows retaliation over UK sanctions on settlement firms - A News",
-    "US tests 180-mile Chunmoo missile offshore for future Navy strikes - Interesting Engineering",
-    "\u2018Godmother\u2019 of illegal Israeli West Bank settler project Daniella Weiss among group sanctioned by Australia - The Guardian"
+    "Czech Republic eyes Israel's Arrow 3 missile defense system amid growing threats - Ynetnews",
+    "Saudi Arabia Absorbs Iran War Costs as US-Iran Talks Stall and Hormuz Stays Closed - https://houseofsaud.com/",
+    "Israel vows retaliation over UK sanctions on settlement firms - A News"
    ]
   },
   "today": [
