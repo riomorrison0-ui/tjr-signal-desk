@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T05:10:20.241535-05:00",
+ "updated": "2026-11-18T05:15:20.230138-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3773.99,
-   "feed": "real-time gold (PAXG, matched to spot +4.00)",
-   "time": "2026-11-18T05:05:00-05:00"
+   "price": 3772.68,
+   "feed": "real-time gold (PAXG, matched to spot +3.45)",
+   "time": "2026-11-18T05:10:00-05:00"
   }
  },
  "stats": {
@@ -67,9 +67,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Fears grow over US sanctions on ICJ judges ahead of Myanmar genocide ruling - The Guardian",
-    "Jet2 slashes winter flights as Iran war sends jet fuel costs soaring - London Business News",
-    "Middle East war: Oil gains support amid US-Iran counter accusations - https://www.engine.online/"
+    "News: #El_Ni\u00f1o, #Iran war shocks could push nearly one million more #Ethiopians into poverty, new report warns Nearly 905,000 additional people in Ethiopia could be pushed into poverty and 2.8 million into undernourishment in 2027 as the effects of a pote - Facebook",
+    "Petrotel-Lukoil Restarting Romanian Refinery Shut By Sanctions - Industrial Info Resources",
+    "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says - The New York Times"
    ]
   },
   "today": [
