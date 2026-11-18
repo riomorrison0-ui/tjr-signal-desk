@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T20:35:20.242633-05:00",
+ "updated": "2026-11-17T20:40:20.232796-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3819.4,
-   "feed": "real-time gold (PAXG, matched to spot +6.27)",
-   "time": "2026-11-17T20:30:00-05:00"
+   "price": 3814.37,
+   "feed": "real-time gold (PAXG, matched to spot +2.79)",
+   "time": "2026-11-17T20:35:00-05:00"
   }
  },
  "stats": {
@@ -65,7 +65,7 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
     "What chance world war? \u2022 Graeme Dobell - Inside Story",
     "Board of Peace warns Gaza ceasefire faces imminent collapse without action - Al Jazeera",
