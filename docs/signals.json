@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T14:25:20.374751-05:00",
+ "updated": "2026-11-18T14:30:20.340494-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3726.78,
-   "feed": "real-time gold (PAXG, matched to spot +2.27)",
-   "time": "2026-11-18T14:20:00-05:00"
+   "price": 3728.05,
+   "feed": "real-time gold (PAXG, matched to spot +3.51)",
+   "time": "2026-11-18T14:25:00-05:00"
   }
  },
  "stats": {
@@ -60,24 +60,8 @@
   ]
  },
  "news": {
-  "blackout": {
-   "title": "FOMC Meeting Minutes",
-   "country": "USD",
-   "impact": "High",
-   "time": "2026-11-18T19:00:00+00:00",
-   "forecast": "",
-   "previous": ""
-  },
-  "next": [
-   {
-    "title": "FOMC Meeting Minutes",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-18T19:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   }
-  ],
+  "blackout": null,
+  "next": [],
   "risk": {
    "level": "high",
    "count": 5,
