@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T15:45:20.496980-05:00",
+ "updated": "2026-11-18T15:50:20.488943-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3732.12,
-   "feed": "real-time gold (PAXG, matched to spot +3.79)",
-   "time": "2026-11-18T15:40:00-05:00"
+   "price": 3730.32,
+   "feed": "real-time gold (PAXG, matched to spot +2.96)",
+   "time": "2026-11-18T15:45:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling - The Guardian",
-    "Getting personal: Why sanctions have failed to split the Russian elite \u2014 and how to change that - https://theins.press/en",
-    "A New Israeli Invasion of Central Gaza: What Is at Stake? \u2013 Explainer - Palestine Chronicle"
+    "Trump\u2019s anger with Vance growing after VP blamed midterm losses on Iran war: report - The Independent",
+    "Crimean Bridge strike: what Russian war bloggers are saying - Around Prague",
+    "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling - The Guardian"
    ]
   },
   "today": [
