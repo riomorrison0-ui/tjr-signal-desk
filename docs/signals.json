@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T11:15:20.436148-05:00",
+ "updated": "2026-11-18T11:20:20.340608-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3746.61,
-   "feed": "real-time gold (PAXG, matched to spot +4.25)",
-   "time": "2026-11-18T11:10:00-05:00"
+   "price": 3745.26,
+   "feed": "real-time gold (PAXG, matched to spot +2.82)",
+   "time": "2026-11-18T11:15:00-05:00"
   }
  },
  "stats": {
@@ -75,9 +75,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump is trying to put the Iran war behind him, but it\u2019s not over - The Washington Post",
-    "Coalition Says Houthi Cruise Missile Destroyed Over Riyadh as Explosion Rattles Capital - houseofsaud.com",
-    "The Researchers Counting Russia\u2019s War Dead, One Name at a Time - The Moscow Times"
+    "Markel Insurance promotes Chloe Gordge to Director of War and PV&T, London - Reinsurance News",
+    "How Germany\u2019s Deutsche Bahn May Be Helping Finance Russia\u2019s War Against Ukraine - UNITED24 Media",
+    "Israeli tanks advance into central Gaza as ceasefire tensions flare - Euronews.com"
    ]
   },
   "today": [
