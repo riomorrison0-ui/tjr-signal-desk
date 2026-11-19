@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T14:10:20.246966-05:00",
+ "updated": "2026-11-19T14:15:20.262909-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3673.6,
-   "feed": "real-time gold (PAXG, matched to spot +5.30)",
-   "time": "2026-11-19T14:05:00-05:00"
+   "price": 3674.48,
+   "feed": "real-time gold (PAXG, matched to spot +5.08)",
+   "time": "2026-11-19T14:10:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "A weekend of mobilisation against austerity and the war drive - Stop the War",
-    "Andy Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - Sky News",
-    "Netanyahu reportedly tells aides renewed war with Iran \u2018unavoidable\u2019 as Trump weighs options - The Times of Israel"
+    "Oil Continues Downward Plummet As Iran War Reshapes World Energy Market For The Better - Ship & Bunker",
+    "Trump tells European leaders that Putin wants to end the war in Ukraine, but Putin says Moscow won\u2019t negotiate with Kyiv after Crimean Bridge strikes - Meduza",
+    "Iran war could leave consumers facing years of uncertainty over energy costs - NBC 15 WPMI"
    ]
   },
   "today": [
