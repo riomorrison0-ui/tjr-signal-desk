@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T20:50:20.448820-05:00",
+ "updated": "2026-11-18T20:55:20.437421-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3752.27,
-   "feed": "real-time gold (PAXG, matched to spot +2.89)",
-   "time": "2026-11-18T20:45:00-05:00"
+   "price": 3751.89,
+   "feed": "real-time gold (PAXG, matched to spot +3.59)",
+   "time": "2026-11-18T20:50:00-05:00"
   }
  },
  "stats": {
@@ -66,8 +66,8 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Cold War icon gets a new life: how Starfighters Space is repurposing the infamous F-104 - FlightGlobal",
     "Trump says US doesn\u2019t need help from China, Russia to end Iran war - Anadolu Ajans\u0131",
+    "Cold War icon gets a new life: how Starfighters Space is repurposing the infamous F-104 - FlightGlobal",
     "Trump Grows Frustrated With Vance Over Iran War Critique - The New York Times"
    ]
   },
