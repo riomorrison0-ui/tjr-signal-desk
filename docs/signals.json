@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T13:10:20.270697-05:00",
+ "updated": "2026-11-19T13:15:20.252441-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3679.18,
-   "feed": "real-time gold (PAXG, matched to spot +5.86)",
-   "time": "2026-11-19T13:05:00-05:00"
+   "price": 3676.42,
+   "feed": "real-time gold (PAXG, matched to spot +6.07)",
+   "time": "2026-11-19T13:10:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran missile strike on Tel Aviv exposes financial and bureaucratic hurdles to rebuilding - CTech",
-    "World must do more to protect children from war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "US Treasury sanctions three people linked to Southeast Asia scam centers - Reuters"
+    "West of Suez: Brent rebounds as US ponders Iran escalation - Quantum Commodity Intelligence",
+    "Marking Black History Month: Showcase of War Studies PhD research - King's College London",
+    "Home From the Vietnam War - Film Threat"
    ]
   },
   "today": [
