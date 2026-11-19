@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T03:01:28.032656-05:00",
+ "updated": "2026-11-19T03:02:54.431667-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3734.84,
-   "feed": "real-time gold (PAXG, matched to spot +5.58)",
+   "price": 3738.88,
+   "feed": "real-time gold (PAXG, matched to spot +9.62)",
    "time": "2026-11-19T02:55:00-05:00"
   }
  },
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Israeli army blows up Palestinian homes in central Gaza amid continued ceasefire violations - Anadolu Ajans\u0131",
-    "US, China can help end Ukraine war, Trump tells Xi before trilateral with Putin - Zawya",
-    "Daily Update: Russia Loses 1,970 Troops, 341 Vehicles and 515 Drones in One Day - UNITED24 Media"
+    "Saudi-led coalition says it intercepts 5 Houthi ballistic missiles, 1 cruise missile - Anadolu Ajans\u0131",
+    "Trump tells Xi they should help end war in Ukraine ahead of Putin talks - TVP World",
+    "Israeli army blows up Palestinian homes in central Gaza amid continued ceasefire violations - Anadolu Ajans\u0131"
    ]
   },
   "today": [
@@ -168,8 +168,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.55,
-  "gbpusd": 1.31373
+  "stop_cap_usd": 52.62,
+  "gbpusd": 1.31543
  },
  "backtest": {
   "portfolio": {
