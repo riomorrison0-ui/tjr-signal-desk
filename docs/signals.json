@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T09:30:20.315675-05:00",
+ "updated": "2026-11-19T09:35:20.273613-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3713.91,
-   "feed": "real-time gold (PAXG, matched to spot +9.03)",
-   "time": "2026-11-19T09:25:00-05:00"
+   "price": 3714.08,
+   "feed": "real-time gold (PAXG, matched to spot +4.99)",
+   "time": "2026-11-19T09:30:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Protecting foreign investors amid missile attacks - Arab News",
-    "No territorial concessions, retaliation for Crimean Bridge strikes, and Europeans are invited to Moscow. Putin\u2019s remarks on the war after meeting Trump and Xi. - Meduza",
-    "After near death, a leading Russian filmmaker resolves to confront Putin\u2019s war in Ukraine - AP News"
+    "Ceasefire in Name, Deprivation in Practice: One Year of Gaza's Failed Peace Plan - Oxfam",
+    "MEDIEVAL III - Recap & What's Next - Total War",
+    "MEDIEVAL III - Spring Recap & What\u2019s Next - Total War"
    ]
   },
   "today": [
