@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T09:00:20.230161-05:00",
+ "updated": "2026-11-19T09:05:20.242359-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3715.18,
-   "feed": "real-time gold (PAXG, matched to spot +6.17)",
-   "time": "2026-11-19T08:55:00-05:00"
+   "price": 3712.49,
+   "feed": "real-time gold (PAXG, matched to spot +4.30)",
+   "time": "2026-11-19T09:00:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East war claims near $3bn as insurers take loss of hire hit - TradeWinds News",
-    "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait - WSJ",
-    "Houthi Missile Damages PIF Tower in Riyadh KAFD - https://houseofsaud.com/"
+    "Putin says Russia will not negotiate ceasefire after Ukraine inflicted 'serious damage' on Crimean Bridge - Anadolu Ajans\u0131",
+    "Sanctions are preserving the colonial enterprise - Middle East Monitor",
+    "Middle East war claims near $3bn as insurers take loss of hire hit - TradeWinds News"
    ]
   },
   "today": [
