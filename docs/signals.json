@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T11:35:20.293448-05:00",
+ "updated": "2026-11-19T11:40:20.278931-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3686.61,
-   "feed": "real-time gold (PAXG, matched to spot +8.65)",
-   "time": "2026-11-19T11:30:00-05:00"
+   "price": 3686.75,
+   "feed": "real-time gold (PAXG, matched to spot +4.42)",
+   "time": "2026-11-19T11:35:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "'American War' Novel Gets Film Adaptation With 'Shrinking\u2019 Writer - Deadline",
-    "People left disgusted by Trump's 'monstrous' boast about Ukraine war: 'Soulless man' - Indy100",
-    "Watch Putin Basks in Spotlight With Trump, Xi as War in Ukraine Grinds On - Bloomberg.com"
+    "The scale of Russia\u2019s war on Ukraine laid bare as Putin embraces Trump in China - The Independent",
+    "The real-world missile defense lessons from Ukraine and Iran \u2014 and how they matter for China - Breaking Defense",
+    "The Flaming Lips, \u201cAt War with the Mystics\u201d [20th Anniversary Deluxe Edition] - FLOOD Magazine"
    ]
   },
   "today": [
