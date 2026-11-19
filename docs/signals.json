@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T06:20:20.272204-05:00",
+ "updated": "2026-11-19T06:25:20.272021-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3727.95,
-   "feed": "real-time gold (PAXG, matched to spot +5.86)",
-   "time": "2026-11-19T06:15:00-05:00"
+   "price": 3727.62,
+   "feed": "real-time gold (PAXG, matched to spot +5.81)",
+   "time": "2026-11-19T06:20:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Prince Harry urges Europe to renew support to end Ukraine-Russia war - The Independent",
-    "How Houthi-Backed Judicial Custodians Seize Private Assets and Fund the War - The Media Line",
-    "Lockheed Martin\u2019s 300kW laser takes down cruise missile in first test - Interesting Engineering"
+    "Markel appoints director of war and political violence - Intelligent Insurer",
+    "Damage from missile attack reported in Riyadh\u2019s financial district, and other Mideast news - iNFOnews.ca",
+    "MS Amlin profits hit by Iran war losses - Insurance Day"
    ]
   },
   "today": [
