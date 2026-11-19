@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-19T07:00:20.233554-05:00",
+ "updated": "2026-11-19T07:05:20.232970-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3720.76,
-   "feed": "real-time gold (PAXG, matched to spot +6.17)",
-   "time": "2026-11-19T06:55:00-05:00"
+   "price": 3720.93,
+   "feed": "real-time gold (PAXG, matched to spot +6.14)",
+   "time": "2026-11-19T07:00:00-05:00"
   }
  },
  "stats": {
-  "trades": 10,
-  "wins": 8,
-  "win_rate": 80.0,
-  "total_r": 3.71,
-  "avg_r": 0.371,
-  "balance": 2113.2,
+  "trades": 11,
+  "wins": 9,
+  "win_rate": 81.8,
+  "total_r": 4.27,
+  "avg_r": 0.388,
+  "balance": 2133.37,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -56,6 +56,10 @@
    {
     "t": "2026-11-18T10:05:00-05:00",
     "balance": 2113.2
+   },
+   {
+    "t": "2026-11-19T07:05:00-05:00",
+    "balance": 2133.37
    }
   ]
  },
@@ -6814,12 +6818,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-19T06:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-19T06:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-19T07:05:00-05:00",
+   "exit_price": 3720.93,
+   "r": 0.56,
+   "notes": [
+    "legs: TP1 tp, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-19T07:00:00-05:00",
@@ -6847,13 +6853,17 @@
      "tp": 3701.28,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3720.93,
+     "exit_time": "2026-11-19T07:05:00-05:00",
+     "r": 0.647
     }
    ],
    "news": {
     "risk": "high",
     "next": null
-   }
+   },
+   "pnl_gbp": 20.17
   },
   {
    "id": "XAUUSD-rsi2-20261118-0855-SELL",
