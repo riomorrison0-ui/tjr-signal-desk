@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T02:55:20.673080-05:00",
+ "updated": "2026-11-19T03:00:20.359501-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3734.96,
-   "feed": "real-time gold (PAXG, matched to spot +9.36)",
-   "time": "2026-11-19T02:50:00-05:00"
+   "price": 3734.74,
+   "feed": "real-time gold (PAXG, matched to spot +5.48)",
+   "time": "2026-11-19T02:55:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - The European Sting",
-    "The Cold War and structural change in global aid networks - United Nations Development Programme",
-    "Ukraine War, Day 1,729: Kyiv Strikes Putin\u2019s Kerch Bridge Again - EA WorldView"
+    "Israeli army blows up Palestinian homes in central Gaza amid continued ceasefire violations - Anadolu Ajans\u0131",
+    "US, China can help end Ukraine war, Trump tells Xi before trilateral with Putin - Zawya",
+    "Daily Update: Russia Loses 1,970 Troops, 341 Vehicles and 515 Drones in One Day - UNITED24 Media"
    ]
   },
   "today": [
