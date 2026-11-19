@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T08:10:20.241122-05:00",
+ "updated": "2026-11-19T08:15:20.253159-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3720.83,
-   "feed": "real-time gold (PAXG, matched to spot +6.88)",
-   "time": "2026-11-19T08:05:00-05:00"
+   "price": 3717.34,
+   "feed": "real-time gold (PAXG, matched to spot +5.00)",
+   "time": "2026-11-19T08:10:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Pakistan tests four missile systems despite rising poverty - AsiaNews",
-    "Saudi developer to move ahead with in Qatar projects despite Iran war - The Arab Weekly",
-    "Max Verstappen issues F1 refusal over 'invasion of privacy' concern - RacingNews365"
+    "Israeli offensive in central Gaza ends, leaving trail of destruction despite ceasefire - TRT World",
+    "Britain says its sanctions will spare trade with Israel. Will they? - The Times of Israel",
+    "War Crimes Complaint Filed Against Ex-Mossad Chief Ahead of Germany Visit - Haaretz"
    ]
   },
   "today": [
