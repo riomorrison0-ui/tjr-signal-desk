@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T09:15:20.254284-05:00",
+ "updated": "2026-11-19T09:20:20.240841-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3710.34,
-   "feed": "real-time gold (PAXG, matched to spot +4.40)",
-   "time": "2026-11-19T09:10:00-05:00"
+   "price": 3710.03,
+   "feed": "real-time gold (PAXG, matched to spot +5.66)",
+   "time": "2026-11-19T09:15:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Putin says Russia will not negotiate ceasefire after Ukraine inflicted 'serious damage' on Crimean Bridge - Anadolu Ajans\u0131",
-    "Sanctions are preserving the colonial enterprise - Middle East Monitor",
-    "Middle East war claims near $3bn as insurers take loss of hire hit - TradeWinds News"
+    "Protecting foreign investors amid missile attacks - Arab News",
+    "No territorial concessions, retaliation for Crimean Bridge strikes, and Europeans are invited to Moscow. Putin\u2019s remarks on the war after meeting Trump and Xi. - Meduza",
+    "After near death, a leading Russian filmmaker resolves to confront Putin\u2019s war in Ukraine - AP News"
    ]
   },
   "today": [
