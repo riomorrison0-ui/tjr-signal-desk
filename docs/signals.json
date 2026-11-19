@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T13:25:20.262064-05:00",
+ "updated": "2026-11-19T13:30:20.261865-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3679.52,
-   "feed": "real-time gold (PAXG, matched to spot +6.05)",
-   "time": "2026-11-19T13:20:00-05:00"
+   "price": 3684.7,
+   "feed": "real-time gold (PAXG, matched to spot +5.22)",
+   "time": "2026-11-19T13:25:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "West of Suez: Brent rebounds as US ponders Iran escalation - Quantum Commodity Intelligence",
-    "Marking Black History Month: Showcase of War Studies PhD research - King's College London",
-    "Home From the Vietnam War - Film Threat"
+    "IDF says it targeted Hezbollah missile site in Lebanon strikes - The Times of Israel",
+    "Iran war has cost US more than $48 billion, Pentagon official says - The Times of Israel",
+    "Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - V2 Radio"
    ]
   },
   "today": [
