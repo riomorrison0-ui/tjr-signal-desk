@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T09:45:20.251817-05:00",
+ "updated": "2026-11-19T09:50:20.279609-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3710.9,
-   "feed": "real-time gold (PAXG, matched to spot +5.14)",
-   "time": "2026-11-19T09:40:00-05:00"
+   "price": 3711.28,
+   "feed": "real-time gold (PAXG, matched to spot +3.33)",
+   "time": "2026-11-19T09:45:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ceasefire in Name, Deprivation in Practice: One Year of Gaza's Failed Peace Plan - Oxfam",
-    "MEDIEVAL III - Recap & What's Next - Total War",
-    "MEDIEVAL III - Spring Recap & What\u2019s Next - Total War"
+    "Sky News Presenter Effortlessly Debunks Putin's Claim Russia Never Started Ukraine War - HuffPost UK",
+    "\u201cWorkers have no interest in war with China\u201d \u2013 Australian maritime workers leader addresses CND meeting of trade unionists in London - Friends of Socialist China",
+    "Djibouti plays referee in new Gulf war between Emiratis and Saudis - The Africa Report"
    ]
   },
   "today": [
