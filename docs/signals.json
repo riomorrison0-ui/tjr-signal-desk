@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T20:05:20.475936-05:00",
+ "updated": "2026-11-18T20:10:20.450429-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3749.37,
-   "feed": "real-time gold (PAXG, matched to spot +6.59)",
-   "time": "2026-11-18T20:00:00-05:00"
+   "price": 3754.45,
+   "feed": "real-time gold (PAXG, matched to spot +4.36)",
+   "time": "2026-11-18T20:05:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Permian Growth Turns Moderate Despite War - Crude Oil Prices Today | OilPrice.com",
     "Ukraine's Zelenskyy reacts to Trump meeting Putin amid ongoing war in Ukraine - NBC News",
-    "Iran war creates rift between Trump and Vance - Middle East Online",
-    "Nearly 4 In 10 Americans Say Trump Favors Russia Too Much In Its War Against Ukraine - Yahoo News Singapore"
+    "Iran war creates rift between Trump and Vance - Middle East Online"
    ]
   },
   "today": [
