@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T05:05:20.244472-05:00",
+ "updated": "2026-11-19T05:10:20.252185-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3728.89,
-   "feed": "real-time gold (PAXG, matched to spot +6.02)",
-   "time": "2026-11-19T05:00:00-05:00"
+   "price": 3730.01,
+   "feed": "real-time gold (PAXG, matched to spot +5.97)",
+   "time": "2026-11-19T05:05:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "GTA 6 launch collides with war and internet blackout fears in Iran - The National",
-    "World must do more to protect children from war - Arab News",
-    "Albanese tells Putin to end Ukraine war 'now' - ABC News & Headlines \u2013 Australian Broadcasting Corporation"
+    "Saudi Arabia Intercepts Missile Threat Targeting Riyadh - Global Arab Network",
+    "Iran\u2019s weakening oil leverage could push it toward escalation - Mezha.net",
+    "How a Russian war-machine supplier has tried to turn Western justice on the composer who made it rich - EU Reporter"
    ]
   },
   "today": [
