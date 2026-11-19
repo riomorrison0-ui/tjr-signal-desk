@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T00:05:20.353387-05:00",
+ "updated": "2026-11-19T00:10:20.351714-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3726.3,
-   "feed": "real-time gold (PAXG, matched to spot +6.13)",
-   "time": "2026-11-19T00:00:00-05:00"
+   "price": 3730.94,
+   "feed": "real-time gold (PAXG, matched to spot +2.34)",
+   "time": "2026-11-19T00:05:00-05:00"
   }
  },
  "stats": {
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Saudi Arabia and other Gulf states among world\u2019s safest despite Iran war, survey finds - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "Kuwait, Bahrain Report Iranian Attacks After U.S. Strike on Qeshm Island Missile Site - The SOFX Report",
-    "Drones Become the Leading Killer of Civilians in Sudan\u2019s Forever War - Vision of Humanity"
+    "How the War in Iran Will Remake the Global Energy Order - The New York Times",
+    "Ukrainian families receive shatterproof windows for homes devastated by missile blasts - www.lbc.co.uk",
+    "Writer to discuss Europe\u2019s \u2018war on migration\u2019 at Cowes bookshop - Isle of Wight County Press"
    ]
   },
   "today": [
