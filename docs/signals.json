@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T23:50:20.360739-05:00",
+ "updated": "2026-11-18T23:55:20.364981-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3725.07,
-   "feed": "real-time gold (PAXG, matched to spot +3.08)",
-   "time": "2026-11-18T23:45:00-05:00"
+   "price": 3724.59,
+   "feed": "real-time gold (PAXG, matched to spot +4.08)",
+   "time": "2026-11-18T23:50:00-05:00"
   }
  },
  "stats": {
@@ -66,7 +66,7 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Saudi-led coalition says it thwarted Houthi missile launched towards kingdom's south - Middle East Eye",
+    "Saudi Arabia and other Gulf states among world\u2019s safest despite Iran war, survey finds - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
     "Kuwait, Bahrain Report Iranian Attacks After U.S. Strike on Qeshm Island Missile Site - The SOFX Report",
     "Drones Become the Leading Killer of Civilians in Sudan\u2019s Forever War - Vision of Humanity"
    ]
