@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T02:20:20.374582-05:00",
+ "updated": "2026-11-19T02:25:20.415892-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3739.2,
-   "feed": "real-time gold (PAXG, matched to spot +4.73)",
-   "time": "2026-11-19T02:15:00-05:00"
+   "price": 3741.05,
+   "feed": "real-time gold (PAXG, matched to spot +5.97)",
+   "time": "2026-11-19T02:20:00-05:00"
   }
  },
  "stats": {
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - The European Sting",
     "The Cold War and structural change in global aid networks - United Nations Development Programme",
-    "Ukraine War, Day 1,729: Kyiv Strikes Putin\u2019s Kerch Bridge Again - EA WorldView",
-    "Iran war sparked \u2018largest threat\u2019 to energy security in history, says energy agency - The Times of Israel"
+    "Ukraine War, Day 1,729: Kyiv Strikes Putin\u2019s Kerch Bridge Again - EA WorldView"
    ]
   },
   "today": [
