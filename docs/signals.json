@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T03:45:20.233402-05:00",
+ "updated": "2026-11-19T03:50:20.209531-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3732.18,
-   "feed": "real-time gold (PAXG, matched to spot +7.00)",
-   "time": "2026-11-19T03:40:00-05:00"
+   "price": 3732.31,
+   "feed": "real-time gold (PAXG, matched to spot +6.72)",
+   "time": "2026-11-19T03:45:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Sanctions in a Digital World: Do you know where your technology and services really end up? - TLT LLP",
-    "Lockheed's 300kW Valkyrie laser destroys surrogate cruise missile for first time - Dealroom",
-    "Saudi-led coalition says it intercepts 5 Houthi ballistic missiles, 1 cruise missile - Anadolu Ajans\u0131"
+    "CENTCOM Commander and Israeli Military Chief Meet Over Potential Resumption of War - IranWire",
+    "Philippines seeks wider Black Sea war risk cover for seafarers - Splash247",
+    "Sanctions in a Digital World: Do you know where your technology and services really end up? - TLT LLP"
    ]
   },
   "today": [
