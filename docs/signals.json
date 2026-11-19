@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T11:05:20.336474-05:00",
+ "updated": "2026-11-19T11:10:20.249413-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3674.86,
-   "feed": "real-time gold (PAXG, matched to spot +3.18)",
-   "time": "2026-11-19T11:00:00-05:00"
+   "price": 3678.4,
+   "feed": "real-time gold (PAXG, matched to spot +6.73)",
+   "time": "2026-11-19T11:05:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ofcom refuses sanctions over six BBC local radio failures - RadioToday \u2013 UK",
-    "Palestinian children face 'unmatched dangers' amid Israel's war | Daily Sabah - Daily Sabah",
-    "Saudi sovereign wealth fund headquarters damaged in Riyadh missile attack - Funds Global MENA"
+    "Iran war caused largest oil and gas disruption on record; Ansarallah strikes Riyadh\u2019s tallest building; ICJ rules Myanmar committed genocide against Rohingya - Drop Site News",
+    "Palestinians flee and Gaza ceasefire tested as Israeli tanks cross \u2018yellow line\u2019 - NBC News",
+    "Ofcom refuses sanctions over six BBC local radio failures - RadioToday \u2013 UK"
    ]
   },
   "today": [
