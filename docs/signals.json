@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T01:20:20.368380-05:00",
+ "updated": "2026-11-19T01:25:20.377748-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3740.13,
-   "feed": "real-time gold (PAXG, matched to spot +7.08)",
-   "time": "2026-11-19T01:15:00-05:00"
+   "price": 3734.42,
+   "feed": "real-time gold (PAXG, matched to spot +4.59)",
+   "time": "2026-11-19T01:20:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Bahrain runs into the buzzsaw of US war, reacts predictably - Responsible Statecraft",
     "EU establishes new sanctions office targeting Russia, North Korea - NK News",
-    "MAN IN THE MIRROR - War Room - U.S. Army War College",
-    "The Iran War Could Permanently Slash Reliance on Hormuz, IEA Says - WSJ"
+    "MAN IN THE MIRROR - War Room - U.S. Army War College"
    ]
   },
   "today": [
