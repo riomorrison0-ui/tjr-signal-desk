@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T17:40:20.383027-05:00",
+ "updated": "2026-11-19T17:45:20.376110-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3623.17,
-   "feed": "real-time gold (PAXG, matched to spot -4.40)",
-   "time": "2026-11-19T17:35:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -6.17)",
+   "time": "2026-11-19T17:40:00-05:00"
   }
  },
  "stats": {
@@ -67,11 +67,11 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Zelensky tells world superpowers how they can end Russia's war against Ukraine - The Kyiv Independent",
     "War Child Australia\u2019s Star-Studded \u2018Forever Young\u2019 Charity Album Is Out Now - Rolling Stone Australia",
-    "Russo-Ukrainian war, day 1730: Ukrainian Neptune missiles hit Kerch Bridge railway link for the third time in a week, halting trains to occupied Crimea - Euromaidan Press",
     "Confidence in Hormuz has been 'crushed' by war on Iran, IEA says - Middle East Eye"
    ]
   },
