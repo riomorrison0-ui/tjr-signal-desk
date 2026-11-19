@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T03:15:20.218089-05:00",
+ "updated": "2026-11-19T03:20:20.259992-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3740.47,
-   "feed": "real-time gold (PAXG, matched to spot +7.36)",
-   "time": "2026-11-19T03:10:00-05:00"
+   "price": 3737.75,
+   "feed": "real-time gold (PAXG, matched to spot +7.04)",
+   "time": "2026-11-19T03:15:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Saudi-led coalition says it intercepts 5 Houthi ballistic missiles, 1 cruise missile - Anadolu Ajans\u0131",
-    "Trump tells Xi they should help end war in Ukraine ahead of Putin talks - TVP World",
-    "Israeli army blows up Palestinian homes in central Gaza amid continued ceasefire violations - Anadolu Ajans\u0131"
+    "Lockheed's 300kW Valkyrie laser destroys surrogate cruise missile for first time - Dealroom",
+    "EU leaves seafood out of latest Russia sanctions - www.intrafish.com",
+    "Saudi-led coalition says it intercepts 5 Houthi ballistic missiles, 1 cruise missile - Anadolu Ajans\u0131"
    ]
   },
   "today": [
