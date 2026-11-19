@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T02:05:20.342482-05:00",
+ "updated": "2026-11-19T02:10:20.364811-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3738.37,
-   "feed": "real-time gold (PAXG, matched to spot +5.47)",
-   "time": "2026-11-19T02:00:00-05:00"
+   "price": 3734.05,
+   "feed": "real-time gold (PAXG, matched to spot +4.75)",
+   "time": "2026-11-19T02:05:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Panama opens criminal front in Hutchison ports war - Splash247",
-    "\u2018End your war, end it now\u2019: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - The Guardian",
-    "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia - Euronews.com"
+    "The Cold War and structural change in global aid networks - United Nations Development Programme",
+    "Ukraine War, Day 1,729: Kyiv Strikes Putin\u2019s Kerch Bridge Again - EA WorldView",
+    "Iran war sparked \u2018largest threat\u2019 to energy security in history, says energy agency - The Times of Israel"
    ]
   },
   "today": [
