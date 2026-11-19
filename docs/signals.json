@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T13:40:20.245393-05:00",
+ "updated": "2026-11-19T13:45:20.275082-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3684.52,
-   "feed": "real-time gold (PAXG, matched to spot +4.65)",
-   "time": "2026-11-19T13:35:00-05:00"
+   "price": 3679.97,
+   "feed": "real-time gold (PAXG, matched to spot +6.32)",
+   "time": "2026-11-19T13:40:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "IDF says it targeted Hezbollah missile site in Lebanon strikes - The Times of Israel",
-    "Iran war has cost US more than $48 billion, Pentagon official says - The Times of Israel",
-    "Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - V2 Radio"
+    "Netanyahu reportedly tells aides renewed war with Iran \u2018unavoidable\u2019 as Trump weighs options - The Times of Israel",
+    "Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine - Radio Royal",
+    "Iran not to accept continuation of war of attrition: IRGC spokesman - Xinhua"
    ]
   },
   "today": [
