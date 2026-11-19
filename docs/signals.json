@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T23:15:20.361151-05:00",
+ "updated": "2026-11-18T23:20:20.365430-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3725.66,
-   "feed": "real-time gold (PAXG, matched to spot +5.25)",
-   "time": "2026-11-18T23:10:00-05:00"
+   "price": 3725.87,
+   "feed": "real-time gold (PAXG, matched to spot +7.10)",
+   "time": "2026-11-18T23:15:00-05:00"
   }
  },
  "stats": {
@@ -63,12 +63,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Drones Become the Leading Killer of Civilians in Sudan\u2019s Forever War - Vision of Humanity",
-    "Iran: open to talks; ready for war - Al Majalla",
-    "Chinese President Xi pledges tariff cuts as Russian counterpart Putin criticises sanctions ahead of talks with US President Trump - Asia News Network"
+    "Saudi-led coalition says it thwarted Houthi missile launched towards kingdom's south - Middle East Eye",
+    "Kuwait, Bahrain Report Iranian Attacks After U.S. Strike on Qeshm Island Missile Site - The SOFX Report",
+    "Drones Become the Leading Killer of Civilians in Sudan\u2019s Forever War - Vision of Humanity"
    ]
   },
   "today": [
