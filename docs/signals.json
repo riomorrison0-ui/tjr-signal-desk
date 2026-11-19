@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T18:40:20.440158-05:00",
+ "updated": "2026-11-19T18:45:20.336695-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3598.36,
-   "feed": "real-time gold (PAXG, matched to spot +12.95)",
-   "time": "2026-11-19T18:35:00-05:00"
+   "price": 3608.95,
+   "feed": "real-time gold (PAXG, matched to spot +6.91)",
+   "time": "2026-11-19T18:40:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "US: Cost of war in Iran passes $48 billion not including damage to infrastructure - DW.com",
     "Iran resolution blocked in first war powers vote since midterms - Roll Call",
-    "Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - video - The Guardian",
-    "Contracts for Nov. 19, 2026 - U.S. Department of War (.gov)"
+    "Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - video - The Guardian"
    ]
   },
   "today": [
