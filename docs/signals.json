@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T08:25:20.283469-05:00",
+ "updated": "2026-11-19T08:30:20.237902-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3719.3,
-   "feed": "real-time gold (PAXG, matched to spot +10.03)",
-   "time": "2026-11-19T08:20:00-05:00"
+   "price": 3724.34,
+   "feed": "real-time gold (PAXG, matched to spot +6.61)",
+   "time": "2026-11-19T08:25:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israeli offensive in central Gaza ends, leaving trail of destruction despite ceasefire - TRT World",
-    "Britain says its sanctions will spare trade with Israel. Will they? - The Times of Israel",
-    "War Crimes Complaint Filed Against Ex-Mossad Chief Ahead of Germany Visit - Haaretz"
+    "Closures in Riyadh\u2019s financial centre following missile attack - Arabian Gulf Business Insight | AGBI",
+    "Future Warfare: AI, Deterrence and Escalation - Global Security Review",
+    "Israeli offensive in central Gaza ends, leaving trail of destruction despite ceasefire - TRT World"
    ]
   },
   "today": [
