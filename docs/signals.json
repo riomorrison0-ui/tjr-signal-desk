@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T15:50:20.329696-05:00",
+ "updated": "2026-11-19T15:55:20.351139-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3666.95,
-   "feed": "real-time gold (PAXG, matched to spot +7.88)",
-   "time": "2026-11-19T15:45:00-05:00"
+   "price": 3663.24,
+   "feed": "real-time gold (PAXG, matched to spot +4.65)",
+   "time": "2026-11-19T15:50:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi Arabia among 16 countries backing UK and Australian sanctions on Israeli settlement expansion - Arab News",
-    "Arab, Islamic states hail UK, Australia sanctions on illegal Israeli settlements - Saudi Gazette",
-    "US Senate blocks Iran war powers resolution - Anadolu Ajans\u0131"
+    "Wales weapons testing site linked to Iran war as anti-war protesters prepare to demonstrate - Nation.Cymru",
+    "Senate Republicans in US reject measure to limit Trump\u2019s war powers in Iran - Al Jazeera",
+    "Trump says Xi, Putin want the war on Iran to end - Middle East Eye"
    ]
   },
   "today": [
