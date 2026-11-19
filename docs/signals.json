@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T22:30:20.390285-05:00",
+ "updated": "2026-11-18T22:35:20.363165-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3712.16,
-   "feed": "real-time gold (PAXG, matched to spot +2.72)",
-   "time": "2026-11-18T22:25:00-05:00"
+   "price": 3713.59,
+   "feed": "real-time gold (PAXG, matched to spot +4.77)",
+   "time": "2026-11-18T22:30:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi-led coalition says forces responded to Houthi missile threat targeting Riyadh - Middle East Eye",
-    "Clashes between Ethiopia and Eritrea threaten to escalate into full-scale war - The Japan Times",
-    "Israel launches ground operation beyond Gaza ceasefire line against 'threat' - chinadailyhk"
+    "Pakistan successfully tests Fatah-3 supersonic cruise missile - Xinhua",
+    "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says - Internazionale",
+    "Saudi-led coalition says forces responded to Houthi missile threat targeting Riyadh - Middle East Eye"
    ]
   },
   "today": [
