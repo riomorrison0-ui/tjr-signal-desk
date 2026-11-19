@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T12:20:20.305561-05:00",
+ "updated": "2026-11-19T12:25:20.296582-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3688.53,
-   "feed": "real-time gold (PAXG, matched to spot +9.52)",
-   "time": "2026-11-19T12:15:00-05:00"
+   "price": 3687.64,
+   "feed": "real-time gold (PAXG, matched to spot +4.92)",
+   "time": "2026-11-19T12:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "After bridge attack by Ukraine, Putin says he will not negotiate ceasefire, vows retaliation - Deccan Herald",
     "A \u201cceasefire in name only\u201d: What life is like on the ground in Gaza - GZERO Media",
-    "How the US Civil War Impacted Presidential Elections for 70 Years - History is Now",
-    "SNC Lands $124M USAF Deal for Counter Air Missile Prototype - ExecutiveBiz"
+    "How the US Civil War Impacted Presidential Elections for 70 Years - History is Now"
    ]
   },
   "today": [
