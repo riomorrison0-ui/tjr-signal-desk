@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T08:40:20.223303-05:00",
+ "updated": "2026-11-19T08:45:20.275668-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3714.35,
-   "feed": "real-time gold (PAXG, matched to spot +5.16)",
-   "time": "2026-11-19T08:35:00-05:00"
+   "price": 3714.45,
+   "feed": "real-time gold (PAXG, matched to spot +5.13)",
+   "time": "2026-11-19T08:40:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Closures in Riyadh\u2019s financial centre following missile attack - Arabian Gulf Business Insight | AGBI",
-    "Future Warfare: AI, Deterrence and Escalation - Global Security Review",
-    "Israeli offensive in central Gaza ends, leaving trail of destruction despite ceasefire - TRT World"
+    "Houthi Missile Damages PIF Tower in Riyadh KAFD - https://houseofsaud.com/",
+    "ARTE Reportage - Ukraine: Forced into War - Watch the full documentary | ARTE in English - Arte.tv",
+    "Trump Raises Ukraine With Xi, but Beijing Keeps War Off Its Agenda - UNITED24 Media"
    ]
   },
   "today": [
