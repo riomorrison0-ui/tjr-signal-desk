@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T11:20:20.275528-05:00",
+ "updated": "2026-11-19T11:25:20.255235-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3679.47,
-   "feed": "real-time gold (PAXG, matched to spot +7.17)",
-   "time": "2026-11-19T11:15:00-05:00"
+   "price": 3678.24,
+   "feed": "real-time gold (PAXG, matched to spot +8.03)",
+   "time": "2026-11-19T11:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran war caused largest oil and gas disruption on record; Ansarallah strikes Riyadh\u2019s tallest building; ICJ rules Myanmar committed genocide against Rohingya - Drop Site News",
-    "Palestinians flee and Gaza ceasefire tested as Israeli tanks cross \u2018yellow line\u2019 - NBC News",
-    "Ofcom refuses sanctions over six BBC local radio failures - RadioToday \u2013 UK"
+    "'American War' Novel Gets Film Adaptation With 'Shrinking\u2019 Writer - Deadline",
+    "People left disgusted by Trump's 'monstrous' boast about Ukraine war: 'Soulless man' - Indy100",
+    "Watch Putin Basks in Spotlight With Trump, Xi as War in Ukraine Grinds On - Bloomberg.com"
    ]
   },
   "today": [
