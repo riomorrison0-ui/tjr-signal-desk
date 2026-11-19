@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T17:55:20.315491-05:00",
+ "updated": "2026-11-19T18:00:20.346892-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3623.17,
-   "feed": "real-time gold (PAXG, matched to spot -1.48)",
-   "time": "2026-11-19T17:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.13)",
+   "time": "2026-11-19T17:55:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Zelensky tells world superpowers how they can end Russia's war against Ukraine - The Kyiv Independent",
-    "War Child Australia\u2019s Star-Studded \u2018Forever Young\u2019 Charity Album Is Out Now - Rolling Stone Australia",
-    "Confidence in Hormuz has been 'crushed' by war on Iran, IEA says - Middle East Eye"
+    "Apple rejects Epic\u2019s \u201ccoercive\u201d sanctions demands - Global Competition Review",
+    "Doha Film Festival opens in spirit of defiance amid Iran-US war: \u201cWe could have cancelled, but we did not\u201d - Screen Daily",
+    "Ending the Iran War Is Donald Trump\u2019s Least Worst Option. Here\u2019s Why. - The National Interest"
    ]
   },
   "today": [
