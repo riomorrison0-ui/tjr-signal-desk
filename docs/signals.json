@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T04:50:20.271872-05:00",
+ "updated": "2026-11-19T04:55:20.207373-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3730.76,
-   "feed": "real-time gold (PAXG, matched to spot +6.80)",
-   "time": "2026-11-19T04:45:00-05:00"
+   "price": 3729.97,
+   "feed": "real-time gold (PAXG, matched to spot +5.99)",
+   "time": "2026-11-19T04:50:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "US imposes sanctions on Hezbollah-linked charity and companies over alleged financing activities - www.thenationalnews.com",
-    "Splash Ports latest: Liner giants go shopping, Panama's port war escalates and Durban battles gridlock - Splash247",
-    "Trump Seeks Xi's Help On Ukraine War As Putin Talks Begin - Forbes Middle East"
+    "GTA 6 launch collides with war and internet blackout fears in Iran - The National",
+    "World must do more to protect children from war - Arab News",
+    "Albanese tells Putin to end Ukraine war 'now' - ABC News & Headlines \u2013 Australian Broadcasting Corporation"
    ]
   },
   "today": [
