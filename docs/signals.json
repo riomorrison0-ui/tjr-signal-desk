@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T11:50:20.248814-05:00",
+ "updated": "2026-11-19T11:55:20.267498-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3689.3,
-   "feed": "real-time gold (PAXG, matched to spot +5.29)",
-   "time": "2026-11-19T11:45:00-05:00"
+   "price": 3690.68,
+   "feed": "real-time gold (PAXG, matched to spot +6.48)",
+   "time": "2026-11-19T11:50:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "The scale of Russia\u2019s war on Ukraine laid bare as Putin embraces Trump in China - The Independent",
-    "The real-world missile defense lessons from Ukraine and Iran \u2014 and how they matter for China - Breaking Defense",
-    "The Flaming Lips, \u201cAt War with the Mystics\u201d [20th Anniversary Deluxe Edition] - FLOOD Magazine"
+    "Ofcom refuses sanctions over six BBC local radio failures - www.radiotoday.uk",
+    "Avoiding Colombia\u2019s Escalation Trap - Foreign Affairs",
+    "Middle East nations ramp up efforts to prevent restart of Iran war - Morning Star | The People\u2019s Daily"
    ]
   },
   "today": [
@@ -128,7 +128,7 @@
     "title": "Mortgage Delinquencies",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-19T16:30:00+00:00",
+    "time": "2026-11-19T15:46:00+00:00",
     "forecast": "",
     "previous": "4.37%"
    },
