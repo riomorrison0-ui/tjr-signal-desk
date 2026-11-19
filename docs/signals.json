@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T10:35:20.442884-05:00",
+ "updated": "2026-11-19T10:40:20.297640-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3685.78,
-   "feed": "real-time gold (PAXG, matched to spot +3.72)",
-   "time": "2026-11-19T10:30:00-05:00"
+   "price": 3688.38,
+   "feed": "real-time gold (PAXG, matched to spot +9.40)",
+   "time": "2026-11-19T10:35:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Denmark ratifies Trump's Greenland deal, including potential 'Golden Dome' missile defense system - The Times of Israel",
-    "'Nuclear war cannot be won': Full text of China, Russia and US 'peace declaration' - The National",
-    "The Fallen remembered at candlelit rededication of Derbyshire First World War memorial - Derbyshire Times"
+    "Tracing the recruitment trap behind Russia\u2019s war - tol.org",
+    "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up - Reuters",
+    "Analysis \u2022 Britain's sanctions are hitting Israeli settlements where it hurts - Haaretz"
    ]
   },
   "today": [
