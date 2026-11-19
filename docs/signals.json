@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T10:50:20.259343-05:00",
+ "updated": "2026-11-19T10:55:20.249362-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3684.33,
-   "feed": "real-time gold (PAXG, matched to spot +4.33)",
-   "time": "2026-11-19T10:45:00-05:00"
+   "price": 3680.43,
+   "feed": "real-time gold (PAXG, matched to spot +5.32)",
+   "time": "2026-11-19T10:50:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Tracing the recruitment trap behind Russia\u2019s war - tol.org",
-    "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up - Reuters",
-    "Analysis \u2022 Britain's sanctions are hitting Israeli settlements where it hurts - Haaretz"
+    "Ofcom refuses sanctions over six BBC local radio failures - RadioToday \u2013 UK",
+    "Palestinian children face 'unmatched dangers' amid Israel's war | Daily Sabah - Daily Sabah",
+    "Saudi sovereign wealth fund headquarters damaged in Riyadh missile attack - Funds Global MENA"
    ]
   },
   "today": [
@@ -117,20 +117,20 @@
     "previous": "0.0%"
    },
    {
-    "title": "Mortgage Delinquencies",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-19T15:15:00+00:00",
-    "forecast": "",
-    "previous": "4.37%"
-   },
-   {
     "title": "Natural Gas Storage",
     "country": "USD",
     "impact": "Low",
     "time": "2026-11-19T15:30:00+00:00",
     "forecast": "25B",
     "previous": "61B"
+   },
+   {
+    "title": "Mortgage Delinquencies",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-19T16:30:00+00:00",
+    "forecast": "",
+    "previous": "4.37%"
    },
    {
     "title": "FOMC Member Goolsbee Speaks",
