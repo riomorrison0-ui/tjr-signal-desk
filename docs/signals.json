@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T04:15:20.247633-05:00",
+ "updated": "2026-11-19T04:20:20.268819-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3732.93,
-   "feed": "real-time gold (PAXG, matched to spot +6.67)",
-   "time": "2026-11-19T04:10:00-05:00"
+   "price": 3734.38,
+   "feed": "real-time gold (PAXG, matched to spot +5.97)",
+   "time": "2026-11-19T04:15:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Middle East War Has Wiped 2.8 Billion Barrels Off Global Oil Supply - Crude Oil Prices Today | OilPrice.com",
-    "Tories clash with peace activists over anti-war demo - Nation.Cymru",
-    "CENTCOM Commander and Israeli Military Chief Meet Over Potential Resumption of War - IranWire"
+    "Trump Seeks Xi's Help On Ukraine War As Putin Talks Begin - Forbes Middle East",
+    "Trump, Xi, and Putin made their initial statements \u2014 including about Russia's war against Ukraine - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "U.S. sanctions Lebanese charity, gold companies for aiding Hezbollah - UPI.com"
    ]
   },
   "today": [
