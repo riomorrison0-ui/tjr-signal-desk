@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T05:20:20.269159-05:00",
+ "updated": "2026-11-19T05:25:20.249229-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3731.58,
-   "feed": "real-time gold (PAXG, matched to spot +4.95)",
-   "time": "2026-11-19T05:15:00-05:00"
+   "price": 3730.05,
+   "feed": "real-time gold (PAXG, matched to spot +5.64)",
+   "time": "2026-11-19T05:20:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Saudi Arabia Intercepts Missile Threat Targeting Riyadh - Global Arab Network",
-    "Iran\u2019s weakening oil leverage could push it toward escalation - Mezha.net",
-    "How a Russian war-machine supplier has tried to turn Western justice on the composer who made it rich - EU Reporter"
+    "Adnoc Gas looks beyond the war - Arabian Gulf Business Insight | AGBI",
+    "Billions of Barrels Lost as US War on Iran Shakes Global Energy Supplies - Palestine Chronicle",
+    "Hulk War: Infernal Rage Covers And Preview Art Reveals The New Age Of Marvel Monsters - IMDb"
    ]
   },
   "today": [
