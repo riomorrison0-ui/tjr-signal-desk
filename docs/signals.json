@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T14:33:42.176227-05:00",
+ "updated": "2026-11-19T14:36:15.438486-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3677.7,
-   "feed": "real-time gold (PAXG, matched to spot +5.11)",
-   "time": "2026-11-19T14:25:00-05:00"
+   "price": 3675.72,
+   "feed": "real-time gold (PAXG, matched to spot +5.23)",
+   "time": "2026-11-19T14:30:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "INPEX sanctions Ichthys LNG expansion project, awards contract - Oil & Gas Journal",
-    "US Military Says War Against Iran Has Cost $48.3 Billion - Kurdistan24",
-    "From anti-war physicist to AI power broker, Amodei takes his safety approach public - Reuters"
+    "The Ukrainians weighed down by grief in war with Russia - Channel 4 News | Substack",
+    "Air Force bombs entrances to underground Hezbollah missile site in east Lebanon \u2014 IDF - The Times of Israel",
+    "INPEX sanctions Ichthys LNG expansion project, awards contract - Oil & Gas Journal"
    ]
   },
   "today": [
@@ -172,8 +172,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.61,
-  "gbpusd": 1.31537
+  "stop_cap_usd": 52.42,
+  "gbpusd": 1.31046
  },
  "backtest": {
   "portfolio": {
