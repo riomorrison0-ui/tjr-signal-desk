@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T05:35:20.227202-05:00",
+ "updated": "2026-11-19T05:40:20.253930-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3731.13,
-   "feed": "real-time gold (PAXG, matched to spot +7.53)",
-   "time": "2026-11-19T05:30:00-05:00"
+   "price": 3734.06,
+   "feed": "real-time gold (PAXG, matched to spot +6.80)",
+   "time": "2026-11-19T05:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Adnoc Gas looks beyond the war - Arabian Gulf Business Insight | AGBI",
-    "Billions of Barrels Lost as US War on Iran Shakes Global Energy Supplies - Palestine Chronicle",
-    "Hulk War: Infernal Rage Covers And Preview Art Reveals The New Age Of Marvel Monsters - IMDb"
+    "Middle East war: Oil gains as vessel attacks in the Persian Gulf surge - www.engine.online",
+    "European Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy - EU NEIGHBOURS east",
+    "Trump, Xi, Putin Begin Historic Talks With Ukraine War in Focus - Modern Diplomacy"
    ]
   },
   "today": [
