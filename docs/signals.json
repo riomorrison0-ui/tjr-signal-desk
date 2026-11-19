@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T18:25:20.400837-05:00",
+ "updated": "2026-11-19T18:30:20.288018-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3626.99,
-   "feed": "real-time gold (PAXG, matched to spot +7.04)",
-   "time": "2026-11-19T18:20:00-05:00"
+   "price": 3627.5,
+   "feed": "real-time gold (PAXG, matched to spot +8.78)",
+   "time": "2026-11-19T18:25:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Iran resolution blocked in first war powers vote since midterms - Roll Call",
     "Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - video - The Guardian",
-    "Israel's settlement expansion backfires as UK, Australia impose sanctions, winning backing from 5 African nations and 11 other countries - Business Insider Africa",
-    "Thursday, November 19. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes"
+    "Contracts for Nov. 19, 2026 - U.S. Department of War (.gov)"
    ]
   },
   "today": [
