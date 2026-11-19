@@ -649,7 +649,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-11-29T06:00:00-05:00",
+   "hold_until": "2026-11-19T07:00:00-05:00",
    "why": "Sharp rally (RSI(2) 87) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-19T06:00:20.256257-05:00",
    "initial_status": "open",
@@ -684,7 +684,7 @@
   }
  },
  "created": "2026-11-06T14:07:44.404822+00:00",
- "updated": "2026-11-19T06:55:20.201904-05:00",
+ "updated": "2026-11-19T07:00:20.233554-05:00",
  "tg_chat": "-5265949283",
  "tg_hello": "2026-11-06T09:11:55.080480-05:00",
  "tg_offset": 620043535,
