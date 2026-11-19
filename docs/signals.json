@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T14:45:20.341924-05:00",
+ "updated": "2026-11-19T14:50:20.599238-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3673.18,
-   "feed": "real-time gold (PAXG, matched to spot +4.23)",
-   "time": "2026-11-19T14:40:00-05:00"
+   "price": 3670.01,
+   "feed": "real-time gold (PAXG, matched to spot +5.01)",
+   "time": "2026-11-19T14:45:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Ukrainians weighed down by grief in war with Russia - Channel 4 News | Substack",
-    "Air Force bombs entrances to underground Hezbollah missile site in east Lebanon \u2014 IDF - The Times of Israel",
-    "INPEX sanctions Ichthys LNG expansion project, awards contract - Oil & Gas Journal"
+    "Ukraine war latest: Russian drones kill 1, damage 2 European embassies, cathedral in hours-long drone raid on Kyiv - The Kyiv Independent",
+    "The Debate - Three of a kind? Xi hosts Trump and Putin as Ukraine war grinds on - France 24",
+    "The Ukrainians weighed down by grief in war with Russia - Channel 4 News | Substack"
    ]
   },
   "today": [
