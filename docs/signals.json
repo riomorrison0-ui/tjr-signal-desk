@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T00:35:20.372916-05:00",
+ "updated": "2026-11-19T00:40:20.356958-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3737.68,
-   "feed": "real-time gold (PAXG, matched to spot +6.05)",
-   "time": "2026-11-19T00:30:00-05:00"
+   "price": 3737.36,
+   "feed": "real-time gold (PAXG, matched to spot +5.36)",
+   "time": "2026-11-19T00:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Democrats, Wall Street Journal and European ministers demand escalation against Russia and China as Trump meets Xi and Putin - World Socialist Web Site",
-    "US imposes new chip sanctions aimed at China - World Socialist Web Site",
-    "\u2018Extremely loud\u2019 explosions in Riyadh and smoke near airport as Houthi missile threat triggers alert - The Independent"
+    "China shields Iran and enables Russia\u2019s war, US commission says - \u0627\u0644\u062d\u0631\u0629",
+    "The Iran war\u2019s uneasy stalemate cannot last indefinitely - Energy Connects",
+    "Trump, Xi, and Putin could end the war in one meeting \u2014 Zelenskyy - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
