@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T06:35:20.246310-05:00",
+ "updated": "2026-11-19T06:40:20.241286-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3731.15,
-   "feed": "real-time gold (PAXG, matched to spot +3.74)",
-   "time": "2026-11-19T06:30:00-05:00"
+   "price": 3728.24,
+   "feed": "real-time gold (PAXG, matched to spot +5.33)",
+   "time": "2026-11-19T06:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Markel appoints director of war and political violence - Intelligent Insurer",
-    "Damage from missile attack reported in Riyadh\u2019s financial district, and other Mideast news - iNFOnews.ca",
-    "MS Amlin profits hit by Iran war losses - Insurance Day"
+    "London spy hotel names room after Walton-on-Thames war hero - InYourArea",
+    "China, Russia, US say 'nuclear war cannot be won, must never be fought' - Anadolu Ajans\u0131",
+    "IDF destroys Hamas tunnel in Gaza as ceasefire frictions grow - Ynetnews"
    ]
   },
   "today": [
