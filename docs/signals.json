@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T18:10:20.352083-05:00",
+ "updated": "2026-11-19T18:15:20.330548-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3626.53,
-   "feed": "real-time gold (PAXG, matched to spot +6.54)",
-   "time": "2026-11-19T18:05:00-05:00"
+   "price": 3629.56,
+   "feed": "real-time gold (PAXG, matched to spot +6.52)",
+   "time": "2026-11-19T18:10:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Apple rejects Epic\u2019s \u201ccoercive\u201d sanctions demands - Global Competition Review",
-    "Doha Film Festival opens in spirit of defiance amid Iran-US war: \u201cWe could have cancelled, but we did not\u201d - Screen Daily",
-    "Ending the Iran War Is Donald Trump\u2019s Least Worst Option. Here\u2019s Why. - The National Interest"
+    "Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - video - The Guardian",
+    "Israel's settlement expansion backfires as UK, Australia impose sanctions, winning backing from 5 African nations and 11 other countries - Business Insider Africa",
+    "Thursday, November 19. Russia\u2019s War On Ukraine: News And Information From Ukraine - Forbes"
    ]
   },
   "today": [
