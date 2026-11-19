@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T14:25:20.262401-05:00",
+ "updated": "2026-11-19T14:30:20.269492-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3674.82,
-   "feed": "real-time gold (PAXG, matched to spot +6.69)",
-   "time": "2026-11-19T14:20:00-05:00"
+   "price": 3676.65,
+   "feed": "real-time gold (PAXG, matched to spot +4.06)",
+   "time": "2026-11-19T14:25:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Oil Continues Downward Plummet As Iran War Reshapes World Energy Market For The Better - Ship & Bunker",
-    "Trump tells European leaders that Putin wants to end the war in Ukraine, but Putin says Moscow won\u2019t negotiate with Kyiv after Crimean Bridge strikes - Meduza",
-    "Iran war could leave consumers facing years of uncertainty over energy costs - NBC 15 WPMI"
+    "INPEX sanctions Ichthys LNG expansion project, awards contract - Oil & Gas Journal",
+    "US Military Says War Against Iran Has Cost $48.3 Billion - Kurdistan24",
+    "From anti-war physicist to AI power broker, Amodei takes his safety approach public - Reuters"
    ]
   },
   "today": [
