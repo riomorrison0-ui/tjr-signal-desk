@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T07:55:20.235007-05:00",
+ "updated": "2026-11-19T08:00:20.235070-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3718.89,
-   "feed": "real-time gold (PAXG, matched to spot +5.99)",
-   "time": "2026-11-19T07:50:00-05:00"
+   "price": 3721.2,
+   "feed": "real-time gold (PAXG, matched to spot +5.89)",
+   "time": "2026-11-19T07:55:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Nuclear weapons and the war in Ukraine take centre stage in the historic talks between Trump, Putin and Xi Jinping - Atalayar",
-    "Damage from missile attack reported in Riyadh\u2019s financial district, and other Mideast news - Boston Herald",
-    "Saipem Baked Middle East War Costs Into Its 2027 Outlook - Finimize"
+    "Pakistan tests four missile systems despite rising poverty - AsiaNews",
+    "Saudi developer to move ahead with in Qatar projects despite Iran war - The Arab Weekly",
+    "Max Verstappen issues F1 refusal over 'invasion of privacy' concern - RacingNews365"
    ]
   },
   "today": [
