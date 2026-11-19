@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T16:05:20.301508-05:00",
+ "updated": "2026-11-19T16:10:20.380915-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3658.86,
-   "feed": "real-time gold (PAXG, matched to spot +5.80)",
-   "time": "2026-11-19T16:00:00-05:00"
+   "price": 3659.14,
+   "feed": "real-time gold (PAXG, matched to spot +5.93)",
+   "time": "2026-11-19T16:05:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Wales weapons testing site linked to Iran war as anti-war protesters prepare to demonstrate - Nation.Cymru",
-    "Senate Republicans in US reject measure to limit Trump\u2019s war powers in Iran - Al Jazeera",
-    "Trump says Xi, Putin want the war on Iran to end - Middle East Eye"
+    "During Milestone Visit, Hegseth Champions U.S.-Venezuelan Partnership - U.S. Department of War (.gov)",
+    "US war against Iran has cost $48.3B, Pentagon official tells Senate - Anadolu Ajans\u0131",
+    "Russian edition of Alexandra Prokopenko\u2019s \u2018From Sovereigns to Servants: How the War Against Ukraine Reshaped Russia\u2019s Elite\u2019 wins special prize for political nonfiction - Meduza"
    ]
   },
   "today": [
