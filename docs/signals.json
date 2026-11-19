@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T00:20:20.389305-05:00",
+ "updated": "2026-11-19T00:25:20.349713-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3728.64,
-   "feed": "real-time gold (PAXG, matched to spot +3.48)",
-   "time": "2026-11-19T00:15:00-05:00"
+   "price": 3733.1,
+   "feed": "real-time gold (PAXG, matched to spot +8.00)",
+   "time": "2026-11-19T00:20:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "How the War in Iran Will Remake the Global Energy Order - The New York Times",
-    "Ukrainian families receive shatterproof windows for homes devastated by missile blasts - www.lbc.co.uk",
-    "Writer to discuss Europe\u2019s \u2018war on migration\u2019 at Cowes bookshop - Isle of Wight County Press"
+    "Democrats, Wall Street Journal and European ministers demand escalation against Russia and China as Trump meets Xi and Putin - World Socialist Web Site",
+    "US imposes new chip sanctions aimed at China - World Socialist Web Site",
+    "\u2018Extremely loud\u2019 explosions in Riyadh and smoke near airport as Houthi missile threat triggers alert - The Independent"
    ]
   },
   "today": [
