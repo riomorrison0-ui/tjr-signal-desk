@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T07:20:20.245132-05:00",
+ "updated": "2026-11-19T07:25:20.262305-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3716.51,
-   "feed": "real-time gold (PAXG, matched to spot +6.02)",
-   "time": "2026-11-19T07:15:00-05:00"
+   "price": 3715.59,
+   "feed": "real-time gold (PAXG, matched to spot +4.49)",
+   "time": "2026-11-19T07:20:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "An outsider\u2019s view of Australian cricket\u2019s civil war: conflicting \u2018truths\u2019 and Cummins in a corner - The Guardian",
-    "US Sanctions Charity Over Hezbollah Links in Southern Lebanon - Global Arab Network",
-    "Ukraine\u2019s Neptune Missiles Strike Crimean Bridge\u2014The Same Weapon That Sank Russia\u2019s Moskva - UNITED24 Media"
+    "Coventry charity plans 1,800-mile mercy drive to war-torn Ukraine - InYourArea",
+    "US Market: Cyber War Exclusions Are On The Rise - - Insurance Edge",
+    "An outsider\u2019s view of Australian cricket\u2019s civil war: conflicting \u2018truths\u2019 and Cummins in a corner | Ali Martin - The Guardian"
    ]
   },
   "today": [
