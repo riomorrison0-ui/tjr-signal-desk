@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T15:05:20.388166-05:00",
+ "updated": "2026-11-19T15:10:20.336094-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3666.12,
+   "price": 3669.18,
    "feed": "real-time gold (PAXG, matched to spot +4.15)",
-   "time": "2026-11-19T15:00:00-05:00"
+   "time": "2026-11-19T15:05:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Ukraine war latest: Russian drones kill 1, damage 2 European embassies, cathedral in hours-long drone raid on Kyiv - The Kyiv Independent",
-    "The Debate - Three of a kind? Xi hosts Trump and Putin as Ukraine war grinds on - France 24",
-    "The Ukrainians weighed down by grief in war with Russia - Channel 4 News | Substack"
+    "Germany, France, UK, Ukraine urge Russia to agree to winter energy ceasefire - Anadolu Ajans\u0131",
+    "T\u00fcrkiye, 14 other countries welcome UK, Australian sanctions over illegal Israeli settlements - Anadolu Ajans\u0131",
+    "Nearly 357,000 displaced in Yemen since August amid military escalation: UN agency - Anadolu Ajans\u0131"
    ]
   },
   "today": [
