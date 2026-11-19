@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T10:05:20.256839-05:00",
+ "updated": "2026-11-19T10:10:20.261526-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3711.05,
-   "feed": "real-time gold (PAXG, matched to spot +4.04)",
-   "time": "2026-11-19T10:00:00-05:00"
+   "price": 3708.45,
+   "feed": "real-time gold (PAXG, matched to spot +3.43)",
+   "time": "2026-11-19T10:05:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Sky News Presenter Effortlessly Debunks Putin's Claim Russia Never Started Ukraine War - HuffPost UK",
-    "\u201cWorkers have no interest in war with China\u201d \u2013 Australian maritime workers leader addresses CND meeting of trade unionists in London - Friends of Socialist China",
-    "Djibouti plays referee in new Gulf war between Emiratis and Saudis - The Africa Report"
+    "Women survivors of Duterte's drug war share stories with global church leaders - World Council of Churches",
+    "Gulf flare-up stokes fears of return to Iran war - Financial Times",
+    "Sky News Presenter Effortlessly Debunks Putin's Claim Russia Never Started Ukraine War - HuffPost UK"
    ]
   },
   "today": [
