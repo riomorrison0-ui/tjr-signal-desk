@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T10:20:20.253068-05:00",
+ "updated": "2026-11-19T10:25:20.258907-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3698.93,
-   "feed": "real-time gold (PAXG, matched to spot +4.03)",
-   "time": "2026-11-19T10:15:00-05:00"
+   "price": 3698.64,
+   "feed": "real-time gold (PAXG, matched to spot +5.64)",
+   "time": "2026-11-19T10:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Women survivors of Duterte's drug war share stories with global church leaders - World Council of Churches",
-    "Gulf flare-up stokes fears of return to Iran war - Financial Times",
-    "Sky News Presenter Effortlessly Debunks Putin's Claim Russia Never Started Ukraine War - HuffPost UK"
+    "Denmark ratifies Trump's Greenland deal, including potential 'Golden Dome' missile defense system - The Times of Israel",
+    "'Nuclear war cannot be won': Full text of China, Russia and US 'peace declaration' - The National",
+    "The Fallen remembered at candlelit rededication of Derbyshire First World War memorial - Derbyshire Times"
    ]
   },
   "today": [
