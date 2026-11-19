@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T15:20:20.329034-05:00",
+ "updated": "2026-11-19T15:25:20.389254-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3670.76,
-   "feed": "real-time gold (PAXG, matched to spot +4.19)",
-   "time": "2026-11-19T15:15:00-05:00"
+   "price": 3671.43,
+   "feed": "real-time gold (PAXG, matched to spot +7.58)",
+   "time": "2026-11-19T15:20:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Can Hezbollah\u2019s shadow financial network survive fresh US sanctions? - Arab News",
     "Germany, France, UK, Ukraine urge Russia to agree to winter energy ceasefire - Anadolu Ajans\u0131",
-    "T\u00fcrkiye, 14 other countries welcome UK, Australian sanctions over illegal Israeli settlements - Anadolu Ajans\u0131",
-    "Nearly 357,000 displaced in Yemen since August amid military escalation: UN agency - Anadolu Ajans\u0131"
+    "War-Driven Cost Squeeze Alarms Companies, Bank of America Says - Bloomberg.com"
    ]
   },
   "today": [
