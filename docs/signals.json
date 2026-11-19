@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T16:35:20.347346-05:00",
+ "updated": "2026-11-19T16:40:20.351879-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3627.2,
-   "feed": "real-time gold (PAXG, matched to spot +6.19)",
-   "time": "2026-11-19T16:30:00-05:00"
+   "price": 3630.11,
+   "feed": "real-time gold (PAXG, matched to spot +10.23)",
+   "time": "2026-11-19T16:35:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "The Pentagon revealed the colossal U.S. costs of the war with Iran and named the amount - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "The Sanctions Puzzle: 10 Key Areas to Watch in 2027 and Beyond - JD Supra",
-    "Leonardo DRS wins contract for THAAD missile infrared sensor By Investing.com - Investing.com UK"
+    "Middle Power Ties in the Gulf and Africa: The Iran War Inflection Point - CSIS | Center for Strategic and International Studies",
+    "Expeditionary Wing Sharpens Counter-Small UAS Skills - U.S. Department of War (.gov)",
+    "Syria hails historic UN resolution recognizing post-war progress - Arab News"
    ]
   },
   "today": [
