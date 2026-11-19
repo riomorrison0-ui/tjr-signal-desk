@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T21:30:20.359982-05:00",
+ "updated": "2026-11-18T21:35:20.348955-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3744.26,
-   "feed": "real-time gold (PAXG, matched to spot +2.42)",
-   "time": "2026-11-18T21:25:00-05:00"
+   "price": 3741.74,
+   "feed": "real-time gold (PAXG, matched to spot +4.02)",
+   "time": "2026-11-18T21:30:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Ukraine war briefing: Russia asks if Netherlands has joined conflict after Crimea bridge strike - The Guardian",
     "The odds of another Great War depend on the leaders we have - Strategic Analysis Australia",
-    "Netanyahu pushes for 4-7 day Iran war as Trump hesitates, NYT reports - Ynetnews",
-    "Amnesty: RSF drone strikes in El Obeid may be war crimes - Sudan Tribune"
+    "Netanyahu pushes for 4-7 day Iran war as Trump hesitates, NYT reports - Ynetnews"
    ]
   },
   "today": [
