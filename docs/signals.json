@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T01:05:20.357233-05:00",
+ "updated": "2026-11-19T01:10:20.407053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3736.07,
-   "feed": "real-time gold (PAXG, matched to spot +3.56)",
-   "time": "2026-11-19T01:00:00-05:00"
+   "price": 3733.92,
+   "feed": "real-time gold (PAXG, matched to spot +6.12)",
+   "time": "2026-11-19T01:05:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Musk says Russian soldiers deserve more empathy in Ukraine war - A News",
-    "China shields Iran and enables Russia\u2019s war, US commission says - \u0627\u0644\u062d\u0631\u0629",
-    "The Iran war\u2019s uneasy stalemate cannot last indefinitely - Energy Connects"
+    "EU establishes new sanctions office targeting Russia, North Korea - NK News",
+    "MAN IN THE MIRROR - War Room - U.S. Army War College",
+    "The Iran War Could Permanently Slash Reliance on Hormuz, IEA Says - WSJ"
    ]
   },
   "today": [
