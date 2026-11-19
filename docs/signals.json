@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T06:05:20.223358-05:00",
+ "updated": "2026-11-19T06:10:20.237363-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3733.77,
-   "feed": "real-time gold (PAXG, matched to spot +5.63)",
-   "time": "2026-11-19T06:00:00-05:00"
+   "price": 3730.48,
+   "feed": "real-time gold (PAXG, matched to spot +6.12)",
+   "time": "2026-11-19T06:05:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump, Xi, Putin conclude historic meeting on Ukraine war, nuclear arms - Al-Monitor",
-    "Who will sail tomorrow\u2019s ships if war risks are narrowing the seafarer workforce? - safety4sea",
-    "Xi Warns Trump and Putin of Nuclear \u2018Sword of Damocles,\u2019 Urges 3 Powers to Prevent Global War - Kyiv Post"
+    "Prince Harry urges Europe to renew support to end Ukraine-Russia war - The Independent",
+    "How Houthi-Backed Judicial Custodians Seize Private Assets and Fund the War - The Media Line",
+    "Lockheed Martin\u2019s 300kW laser takes down cruise missile in first test - Interesting Engineering"
    ]
   },
   "today": [
