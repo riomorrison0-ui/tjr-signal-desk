@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T19:50:20.438838-05:00",
+ "updated": "2026-11-18T19:55:20.505991-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3755.34,
-   "feed": "real-time gold (PAXG, matched to spot +4.45)",
-   "time": "2026-11-18T19:45:00-05:00"
+   "price": 3754.43,
+   "feed": "real-time gold (PAXG, matched to spot +4.34)",
+   "time": "2026-11-18T19:50:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Nearly 4 In 10 Americans Say Trump Favors Russia Too Much In Its War Against Ukraine - Yahoo News Singapore",
-    "Coalition says missile launch platform destroyed in Saada - Middle East Eye",
-    "Australia announces new sanctions on West Bank settlers and organizations - The Forward"
+    "Ukraine's Zelenskyy reacts to Trump meeting Putin amid ongoing war in Ukraine - NBC News",
+    "Iran war creates rift between Trump and Vance - Middle East Online",
+    "Nearly 4 In 10 Americans Say Trump Favors Russia Too Much In Its War Against Ukraine - Yahoo News Singapore"
    ]
   },
   "today": [
