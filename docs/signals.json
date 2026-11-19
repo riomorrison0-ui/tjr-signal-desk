@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T23:00:20.349737-05:00",
+ "updated": "2026-11-18T23:05:20.370072-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3720.55,
-   "feed": "real-time gold (PAXG, matched to spot +4.98)",
-   "time": "2026-11-18T22:55:00-05:00"
+   "price": 3725.69,
+   "feed": "real-time gold (PAXG, matched to spot +5.30)",
+   "time": "2026-11-18T23:00:00-05:00"
   }
  },
  "stats": {
@@ -64,11 +64,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Chinese President Xi pledges tariff cuts as Russian counterpart Putin criticises sanctions ahead of talks with US President Trump - Asia News Network",
-    "Tracking China\u2019s Intensifying War of Words Against Japan - The New York Times",
-    "Putin is lying again: Carney responds to claim that \u201csanctions are a thing of the past\u201d - Ukrinform"
+    "Drones Become the Leading Killer of Civilians in Sudan\u2019s Forever War - Vision of Humanity",
+    "Iran: open to talks; ready for war - Al Majalla",
+    "Chinese President Xi pledges tariff cuts as Russian counterpart Putin criticises sanctions ahead of talks with US President Trump - Asia News Network"
    ]
   },
   "today": [
