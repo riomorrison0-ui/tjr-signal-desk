@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T00:50:20.347545-05:00",
+ "updated": "2026-11-19T00:55:20.348577-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3735.17,
-   "feed": "real-time gold (PAXG, matched to spot +5.86)",
-   "time": "2026-11-19T00:45:00-05:00"
+   "price": 3740.31,
+   "feed": "real-time gold (PAXG, matched to spot +6.23)",
+   "time": "2026-11-19T00:50:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Musk says Russian soldiers deserve more empathy in Ukraine war - A News",
     "China shields Iran and enables Russia\u2019s war, US commission says - \u0627\u0644\u062d\u0631\u0629",
-    "The Iran war\u2019s uneasy stalemate cannot last indefinitely - Energy Connects",
-    "Trump, Xi, and Putin could end the war in one meeting \u2014 Zelenskyy - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "The Iran war\u2019s uneasy stalemate cannot last indefinitely - Energy Connects"
    ]
   },
   "today": [
