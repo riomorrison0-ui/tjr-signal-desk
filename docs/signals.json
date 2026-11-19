@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T19:20:20.459010-05:00",
+ "updated": "2026-11-18T19:25:20.445116-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3740.75,
-   "feed": "real-time gold (PAXG, matched to spot +3.54)",
-   "time": "2026-11-18T19:15:00-05:00"
+   "price": 3742.82,
+   "feed": "real-time gold (PAXG, matched to spot +3.28)",
+   "time": "2026-11-18T19:20:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Tehran threatens oil routes, wider missile strikes amid US sanctions - Iran International",
-    "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say - The New York Times",
-    "New EU and UK Sanctions Listings Against Russia - The National Law Review"
+    "Coalition says missile launch platform destroyed in Saada - Middle East Eye",
+    "Australia announces new sanctions on West Bank settlers and organizations - The Forward",
+    "Tehran threatens oil routes, wider missile strikes amid US sanctions - Iran International"
    ]
   },
   "today": [
