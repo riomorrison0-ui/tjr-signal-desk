@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T06:50:20.216267-05:00",
+ "updated": "2026-11-19T06:55:20.201904-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3726.86,
-   "feed": "real-time gold (PAXG, matched to spot +5.92)",
-   "time": "2026-11-19T06:45:00-05:00"
+   "price": 3723.97,
+   "feed": "real-time gold (PAXG, matched to spot +4.78)",
+   "time": "2026-11-19T06:50:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "London spy hotel names room after Walton-on-Thames war hero - InYourArea",
-    "China, Russia, US say 'nuclear war cannot be won, must never be fought' - Anadolu Ajans\u0131",
-    "IDF destroys Hamas tunnel in Gaza as ceasefire frictions grow - Ynetnews"
+    "Help me move this fight forward : For a strengthening of sanctions against animal abuse - MyPetition.org",
+    "The Spin | Sandpapergate\u2019s \u2018war of the ghosts\u2019 highlights perils of relying on recall - The Guardian",
+    "London spy hotel names room after Walton-on-Thames war hero - InYourArea"
    ]
   },
   "today": [
