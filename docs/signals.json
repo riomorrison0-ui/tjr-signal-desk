@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T08:47:35.643839-05:00",
+ "updated": "2026-11-19T08:48:59.090624-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3712.39,
-   "feed": "real-time gold (PAXG, matched to spot +3.07)",
+   "price": 3713.61,
+   "feed": "real-time gold (PAXG, matched to spot +4.29)",
    "time": "2026-11-19T08:40:00-05:00"
   }
  },
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Houthi Missile Damages PIF Tower in Riyadh KAFD - https://houseofsaud.com/",
-    "ARTE Reportage - Ukraine: Forced into War - Watch the full documentary | ARTE in English - Arte.tv",
-    "Trump Raises Ukraine With Xi, but Beijing Keeps War Off Its Agenda - UNITED24 Media"
+    "Middle East war claims near $3bn as insurers take loss of hire hit - TradeWinds News",
+    "Iran Attacks Kuwait and Bahrain, Further Escalating Fight Over Strait - WSJ",
+    "Houthi Missile Damages PIF Tower in Riyadh KAFD - https://houseofsaud.com/"
    ]
   },
   "today": [
@@ -172,8 +172,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.62,
-  "gbpusd": 1.31543
+  "stop_cap_usd": 52.61,
+  "gbpusd": 1.31537
  },
  "backtest": {
   "portfolio": {
