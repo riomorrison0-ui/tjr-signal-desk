@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T01:35:20.365536-05:00",
+ "updated": "2026-11-19T01:40:20.382349-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3737.59,
-   "feed": "real-time gold (PAXG, matched to spot +6.11)",
-   "time": "2026-11-19T01:30:00-05:00"
+   "price": 3731.28,
+   "feed": "real-time gold (PAXG, matched to spot +6.05)",
+   "time": "2026-11-19T01:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Bahrain runs into the buzzsaw of US war, reacts predictably - Responsible Statecraft",
-    "EU establishes new sanctions office targeting Russia, North Korea - NK News",
-    "MAN IN THE MIRROR - War Room - U.S. Army War College"
+    "\u2018End your war, end it now\u2019: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - The Guardian",
+    "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia - Euronews.com",
+    "Washington Targets Hezbollah Funding with More Sanctions - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
