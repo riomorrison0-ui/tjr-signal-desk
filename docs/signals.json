@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T12:40:20.240299-05:00",
+ "updated": "2026-11-19T12:45:20.250512-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3685.84,
-   "feed": "real-time gold (PAXG, matched to spot +5.59)",
-   "time": "2026-11-19T12:35:00-05:00"
+   "price": 3683.46,
+   "feed": "real-time gold (PAXG, matched to spot +7.04)",
+   "time": "2026-11-19T12:40:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "After bridge attack by Ukraine, Putin says he will not negotiate ceasefire, vows retaliation - Deccan Herald",
-    "A \u201cceasefire in name only\u201d: What life is like on the ground in Gaza - GZERO Media",
-    "How the US Civil War Impacted Presidential Elections for 70 Years - History is Now"
+    "World must do more to protect children from war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "What impact will the Shenzhen summit have on the US-China trade war? - France 24",
+    "A \u201cceasefire in name only\u201d: What life is like on the ground in Gaza - GZERO Media"
    ]
   },
   "today": [
