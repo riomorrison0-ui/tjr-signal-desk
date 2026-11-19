@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T12:05:20.279428-05:00",
+ "updated": "2026-11-19T12:10:20.283677-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3673.26,
-   "feed": "real-time gold (PAXG, matched to spot +4.83)",
-   "time": "2026-11-19T12:00:00-05:00"
+   "price": 3673.82,
+   "feed": "real-time gold (PAXG, matched to spot +6.63)",
+   "time": "2026-11-19T12:05:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ofcom refuses sanctions over six BBC local radio failures - www.radiotoday.uk",
-    "Avoiding Colombia\u2019s Escalation Trap - Foreign Affairs",
-    "Middle East nations ramp up efforts to prevent restart of Iran war - Morning Star | The People\u2019s Daily"
+    "A \u201cceasefire in name only\u201d: What life is like on the ground in Gaza - GZERO Media",
+    "How the US Civil War Impacted Presidential Elections for 70 Years - History is Now",
+    "SNC Lands $124M USAF Deal for Counter Air Missile Prototype - ExecutiveBiz"
    ]
   },
   "today": [
