@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T01:50:20.380397-05:00",
+ "updated": "2026-11-19T01:55:20.344236-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3731.9,
-   "feed": "real-time gold (PAXG, matched to spot +5.55)",
-   "time": "2026-11-19T01:45:00-05:00"
+   "price": 3729.57,
+   "feed": "real-time gold (PAXG, matched to spot +5.71)",
+   "time": "2026-11-19T01:50:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Panama opens criminal front in Hutchison ports war - Splash247",
     "\u2018End your war, end it now\u2019: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war - The Guardian",
-    "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia - Euronews.com",
-    "Washington Targets Hezbollah Funding with More Sanctions - ASHARQ AL-AWSAT English"
+    "US and China want to help end Ukraine war, Trump says ahead of trilateral with Russia - Euronews.com"
    ]
   },
   "today": [
