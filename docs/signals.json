@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T04:35:20.259690-05:00",
+ "updated": "2026-11-19T04:40:20.258068-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3732.97,
-   "feed": "real-time gold (PAXG, matched to spot +4.77)",
-   "time": "2026-11-19T04:30:00-05:00"
+   "price": 3735.71,
+   "feed": "real-time gold (PAXG, matched to spot +7.31)",
+   "time": "2026-11-19T04:35:00-05:00"
   }
  },
  "stats": {
@@ -66,9 +66,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump Seeks Xi's Help On Ukraine War As Putin Talks Begin - Forbes Middle East",
-    "Trump, Xi, and Putin made their initial statements \u2014 including about Russia's war against Ukraine - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "U.S. sanctions Lebanese charity, gold companies for aiding Hezbollah - UPI.com"
+    "US imposes sanctions on Hezbollah-linked charity and companies over alleged financing activities - www.thenationalnews.com",
+    "Splash Ports latest: Liner giants go shopping, Panama's port war escalates and Durban battles gridlock - Splash247",
+    "Trump Seeks Xi's Help On Ukraine War As Putin Talks Begin - Forbes Middle East"
    ]
   },
   "today": [
