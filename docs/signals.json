@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20T13:37:36.776375-05:00",
+ "updated": "2026-11-20T13:39:00.891162-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3520.77,
-   "feed": "real-time gold (PAXG, matched to spot +6.95)",
+   "price": 3515.97,
+   "feed": "real-time gold (PAXG, matched to spot +2.15)",
    "time": "2026-11-20T13:30:00-05:00"
   }
  },
@@ -76,7 +76,7 @@
    "examples": [
     "Trump says Vance rightly blamed GOP midterm losses on Iran war, even if he wouldn't have acted differently - The Times of Israel",
     "Russian Billionaire Behind California Tower Denies Organized-Crime Ties as US Congressman Seeks Sanctions - UNITED24 Media",
-    "Coding War: The Lieber Code as a Prototype of Modern Technological Governance - Lieber Institute West Point"
+    "\u201cI\u2019m a divorce lawyer. Here\u2019s what War gets right \u2013 and what it gets very wrong\u201d - Stylist"
    ]
   },
   "today": [
@@ -128,8 +128,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.42,
-  "gbpusd": 1.3105
+  "stop_cap_usd": 52.39,
+  "gbpusd": 1.30983
  },
  "backtest": {
   "portfolio": {
