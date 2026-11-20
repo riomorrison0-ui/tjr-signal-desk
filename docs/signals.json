@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T20:19:43.427033-05:00",
+ "updated": "2026-11-19T20:20:54.986597-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3589.91,
-   "feed": "real-time gold (PAXG, matched to spot +0.70)",
-   "time": "2026-11-19T20:10:00-05:00"
+   "price": 3588.15,
+   "feed": "real-time gold (PAXG, matched to spot +2.04)",
+   "time": "2026-11-19T20:15:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "US to boost missile defense, new sensor to modernize seeker tech to intercept incoming threats - Interesting Engineering",
     "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
-    "Houthis escalate war as missile hits Riyadh's tallest building - The New Arab",
-    "South Korea\u2019s Coal Use Is Surging \u2013 and Not Just Because of the Iran War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine"
+    "Houthis escalate war as missile hits Riyadh's tallest building - The New Arab"
    ]
   },
   "today": [
@@ -116,8 +116,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.42,
-  "gbpusd": 1.31046
+  "stop_cap_usd": 52.38,
+  "gbpusd": 1.30955
  },
  "backtest": {
   "portfolio": {
