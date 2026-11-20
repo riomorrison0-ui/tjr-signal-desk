@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T23:10:20.343436-05:00",
+ "updated": "2026-11-19T23:15:20.371579-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3538.03,
-   "feed": "real-time gold (PAXG, matched to spot +0.86)",
-   "time": "2026-11-19T23:05:00-05:00"
+   "price": 3545.22,
+   "feed": "real-time gold (PAXG, matched to spot +3.92)",
+   "time": "2026-11-19T23:10:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Analysis \u2022 Trump may start a war, but Iran will decide how and when it ends - Haaretz",
     "India opens firing ranges to Japanese missile drills after Tokyo 2+2 talks - bne IntelliNews",
-    "Ukraine\u2019s Air Force warned of possible cruise missile launches - Mezha.net",
-    "Pentagon official says US war on Iran cost $48.3B - Middle East Eye"
+    "Ukraine\u2019s Air Force warned of possible cruise missile launches - Mezha.net"
    ]
   },
   "today": [
