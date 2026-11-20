@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T10:10:20.388141-05:00",
+ "updated": "2026-11-20T10:15:20.406097-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.99,
-   "feed": "real-time gold (PAXG, matched to spot +2.74)",
-   "time": "2026-11-20T10:05:00-05:00"
+   "price": 3556.54,
+   "feed": "real-time gold (PAXG, matched to spot +0.47)",
+   "time": "2026-11-20T10:10:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,13 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "Palestinian killed, 13 injured in Israeli attacks across Gaza despite ceasefire - Anadolu Ajans\u0131",
+    "Impact of Ukraine war 'increasingly felt' by neighbours, says Streeting after Poland incident - Forces News",
+    "US Senate Rejects Iran War Limits as Pentagon Bill Tops $47 Billion - Palestine Chronicle"
+   ]
   },
   "today": [
    {
