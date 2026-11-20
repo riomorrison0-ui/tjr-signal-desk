@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T03:20:20.466172-05:00",
+ "updated": "2026-11-20T03:25:20.475063-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.66,
-   "feed": "real-time gold (PAXG, matched to spot +6.36)",
-   "time": "2026-11-20T03:15:00-05:00"
+   "price": 3580.7,
+   "feed": "real-time gold (PAXG, matched to spot +7.35)",
+   "time": "2026-11-20T03:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Mansfield war memorial vandalised during Remembrance week - West Bridgford Wire",
-    "Ukraine: Three Kyiv bridges hit during major Russian missile attack - BBC",
-    "European troops take part in exercise with eye on post-war Ukraine - Wrexham and Flintshire News, Sport, Events | The Leader"
+    "Palestinian killed as Israel continues to violate Gaza ceasefire - Anadolu Ajans\u0131",
+    "Two vessels sink off Bulgaria as missile attacks in the Black Sea continue \u2014 SMI DIGITAL - www.shipmanagementinternational.com",
+    "China\u2019s Persian Gulf oil imports hit high since start of Iran war as producers cut prices - South China Morning Post"
    ]
   },
   "today": [
