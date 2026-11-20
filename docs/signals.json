@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T07:15:20.462365-05:00",
+ "updated": "2026-11-20T07:20:20.466717-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.11,
-   "feed": "real-time gold (PAXG, matched to spot +4.06)",
-   "time": "2026-11-20T07:10:00-05:00"
+   "price": 3576.14,
+   "feed": "real-time gold (PAXG, matched to spot +4.58)",
+   "time": "2026-11-20T07:15:00-05:00"
   }
  },
  "stats": {
@@ -71,9 +71,13 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire",
+    "Russian cruise missile crashes in Poland in violation condemned as intentional - BBC",
+    "Ukraine faces harshest winter since war began, German chancellor says - A News"
+   ]
   },
   "today": [
    {
@@ -110,7 +114,7 @@
    }
   ],
   "ok_calendar": true,
-  "ok_headlines": false
+  "ok_headlines": true
  },
  "account": {
   "gbp": 2000.0,
