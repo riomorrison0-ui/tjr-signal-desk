@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T21:20:20.366678-05:00",
+ "updated": "2026-11-19T21:25:20.391715-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3537.15,
-   "feed": "real-time gold (PAXG, matched to spot +3.14)",
-   "time": "2026-11-19T21:15:00-05:00"
+   "price": 3534.44,
+   "feed": "real-time gold (PAXG, matched to spot +3.85)",
+   "time": "2026-11-19T21:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "elevated",
    "count": 3,
    "examples": [
-    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
-    "US Committee Urges Sanctions Over China\u2019s Detention of Panama-Flagged Ships - The Maritime Executive",
-    "Ukraine war briefing: Trump \u2018open\u2019 to Kyiv getting Nato-like mutual defence guarantee, says Kushner - The Guardian"
+    "Russia may have secretly tested the \"Sarmat\" nuclear missile \u2014 satellite images reveal suspicious activity - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "Xbox hardware sales reportedly surge on GTA 6 and Gears of War: E-Day \u2014 but for how long? - Windows Central",
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
    ]
   },
   "today": [
