@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T20:50:20.326905-05:00",
+ "updated": "2026-11-19T20:55:20.371200-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.4,
-   "feed": "real-time gold (PAXG, matched to spot +3.45)",
-   "time": "2026-11-19T20:45:00-05:00"
+   "price": 3563.44,
+   "feed": "real-time gold (PAXG, matched to spot +7.69)",
+   "time": "2026-11-19T20:50:00-05:00"
   }
  },
  "stats": {
@@ -67,16 +67,49 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 3,
    "examples": [
-    "Trump tells skeptical Europeans: \"Putin wants to end the war\" - Axios",
-    "Climate change is accelerating the misinformation war and eroding social cohesion - Monash University",
-    "Houthis Claim Jizan Strike as Saudi Arabia Plans 6-Month Campaign - https://houseofsaud.com/"
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
+    "US Committee Urges Sanctions Over China\u2019s Detention of Panama-Flagged Ships - The Maritime Executive",
+    "Ukraine war briefing: Trump \u2018open\u2019 to Kyiv getting Nato-like mutual defence guarantee, says Kushner - The Guardian"
    ]
   },
-  "today": null,
-  "ok_calendar": false,
+  "today": [
+   {
+    "title": "FOMC Member Waller Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-20T13:25:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Revised UoM Consumer Sentiment",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-20T15:00:00+00:00",
+    "forecast": "51.7",
+    "previous": "51.0"
+   },
+   {
+    "title": "Revised UoM Inflation Expectations",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-20T15:00:00+00:00",
+    "forecast": "",
+    "previous": "4.3%"
+   },
+   {
+    "title": "FOMC Member Cook Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-20T17:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   }
+  ],
+  "ok_calendar": true,
   "ok_headlines": true
  },
  "account": {
