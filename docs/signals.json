@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T00:25:20.373706-05:00",
+ "updated": "2026-11-20T00:30:20.390423-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3523.49,
-   "feed": "real-time gold (PAXG, matched to spot +3.21)",
-   "time": "2026-11-20T00:20:00-05:00"
+   "price": 3516.55,
+   "feed": "real-time gold (PAXG, matched to spot -6.39)",
+   "time": "2026-11-20T00:25:00-05:00"
   }
  },
  "stats": {
@@ -68,10 +68,11 @@
   "next": [],
   "risk": {
    "level": "elevated",
-   "count": 2,
+   "count": 4,
    "examples": [
-    "Von der Leyen: 22nd package of Russia sanctions on the way - AzerNews",
-    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
+    "Rival summit on Ukraine pushes for European role in talks to end war - The Independent",
+    "Oil Set for Third Weekly Drop as Ample Supply Outweighs War Risk - Energy Connects",
+    "Hillary Clinton demands escalation of US-NATO war against Russia - World Socialist Web Site"
    ]
   },
   "today": [
