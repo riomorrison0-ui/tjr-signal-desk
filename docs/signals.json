@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T22:05:20.349632-05:00",
+ "updated": "2026-11-19T22:10:20.392390-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3533.08,
-   "feed": "real-time gold (PAXG, matched to spot +2.76)",
-   "time": "2026-11-19T22:00:00-05:00"
+   "price": 3531.22,
+   "feed": "real-time gold (PAXG, matched to spot +3.42)",
+   "time": "2026-11-19T22:05:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "elevated",
-   "count": 3,
+   "count": 4,
    "examples": [
-    "Arab and Muslim countries welcome UK and Australian sanctions over Israeli settlements - The National",
-    "RSF drone strikes in Sudan must be investigated as war crimes, rights group says - Jurist.org",
-    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
+    "'War' Finale: Sienna Miller, Dominic West on Final Scene, Who Won the Divorce - Variety",
+    "U.S.-China ties set for 'slow and steady' de-escalation, says economist - CNBC",
+    "Arab and Muslim countries welcome UK and Australian sanctions over Israeli settlements - The National"
    ]
   },
   "today": [
