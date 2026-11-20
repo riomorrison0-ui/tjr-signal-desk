@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T13:30:20.412465-05:00",
+ "updated": "2026-11-20T13:35:20.364082-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3514.75,
-   "feed": "real-time gold (PAXG, matched to spot +3.87)",
-   "time": "2026-11-20T13:25:00-05:00"
+   "price": 3519.8,
+   "feed": "real-time gold (PAXG, matched to spot +5.98)",
+   "time": "2026-11-20T13:30:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump says Putin \u2018expressed his desire\u2019 for end of Ukraine war - Arab News",
-    "Putin Rules Out Ceasefire Talks with Ukraine Following Crimean Bridge Attacks - caspiannews.com",
-    "Conflict vs climate: How war takes toll on Middle East's environment - The National"
+    "Trump says Vance rightly blamed GOP midterm losses on Iran war, even if he wouldn't have acted differently - The Times of Israel",
+    "Russian Billionaire Behind California Tower Denies Organized-Crime Ties as US Congressman Seeks Sanctions - UNITED24 Media",
+    "Coding War: The Lieber Code as a Prototype of Modern Technological Governance - Lieber Institute West Point"
    ]
   },
   "today": [
