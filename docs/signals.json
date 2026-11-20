@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T08:35:20.399328-05:00",
+ "updated": "2026-11-20T08:40:20.381188-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3557.01,
-   "feed": "real-time gold (PAXG, matched to spot +3.34)",
-   "time": "2026-11-20T08:30:00-05:00"
+   "price": 3561.07,
+   "feed": "real-time gold (PAXG, matched to spot +2.80)",
+   "time": "2026-11-20T08:35:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Iran War Won\u2019t Change World Energy - Forbes",
-    "What's inside the missiles hitting Ukraine's cities? Kyiv's count shows how sanctions still leak - Euromaidan Press",
-    "Iran war drives down foreign assets at Central Bank of Kuwait - Arabian Gulf Business Insight | AGBI"
+    "Middle East latest: Saudi coalition and Houthis threaten strikes on ports - The National",
+    "Czechia considers accelerating air, missile defense expansion - Anadolu Ajans\u0131",
+    "Poland hit by at least one Russian missile, says Polish govt - Al Jazeera"
    ]
   },
   "today": [
