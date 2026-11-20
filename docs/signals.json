@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-20T07:00:20.499457-05:00",
+ "updated": "2026-11-20T07:05:20.466451-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3576.4,
-   "feed": "real-time gold (PAXG, matched to spot +4.74)",
-   "time": "2026-11-20T06:55:00-05:00"
+   "price": 3572.4,
+   "feed": "real-time gold (PAXG, matched to spot +2.84)",
+   "time": "2026-11-20T07:00:00-05:00"
   }
  },
  "stats": {
-  "trades": 11,
-  "wins": 9,
-  "win_rate": 81.8,
-  "total_r": 4.27,
-  "avg_r": 0.388,
-  "balance": 2133.37,
+  "trades": 12,
+  "wins": 10,
+  "win_rate": 83.3,
+  "total_r": 4.58,
+  "avg_r": 0.381,
+  "balance": 2144.84,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -60,6 +60,10 @@
    {
     "t": "2026-11-19T07:05:00-05:00",
     "balance": 2133.37
+   },
+   {
+    "t": "2026-11-20T07:05:00-05:00",
+    "balance": 2144.84
    }
   ]
  },
@@ -67,13 +71,9 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
-   "examples": [
-    "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-    "US Iran war costs reach $48.3B, excluding damaged base repairs | Daily Sabah - Daily Sabah",
-    "When Nazis were held responsible for war crimes - The Washington Post"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
@@ -110,7 +110,7 @@
    }
   ],
   "ok_calendar": true,
-  "ok_headlines": true
+  "ok_headlines": false
  },
  "account": {
   "gbp": 2000.0,
@@ -6762,12 +6762,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-20T06:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-20T06:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-20T07:05:00-05:00",
+   "exit_price": 3572.4,
+   "r": 0.309,
+   "notes": [
+    "legs: TP2 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-20T07:00:00-05:00",
@@ -6785,13 +6787,17 @@
      "tp": 3539.42,
      "r_mult": 1.0,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3572.4,
+     "exit_time": "2026-11-20T07:05:00-05:00",
+     "r": 0.311
     }
    ],
    "news": {
     "risk": "high",
     "next": null
-   }
+   },
+   "pnl_gbp": 11.47
   },
   {
    "id": "XAUUSD-rsi2-20261119-0555-SELL",
