@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T00:40:20.417782-05:00",
+ "updated": "2026-11-20T00:45:20.348498-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3519.76,
-   "feed": "real-time gold (PAXG, matched to spot -0.27)",
-   "time": "2026-11-20T00:35:00-05:00"
+   "price": 3523.89,
+   "feed": "real-time gold (PAXG, matched to spot +3.03)",
+   "time": "2026-11-20T00:40:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "elevated",
-   "count": 4,
+   "count": 3,
    "examples": [
-    "Rival summit on Ukraine pushes for European role in talks to end war - The Independent",
-    "Oil Set for Third Weekly Drop as Ample Supply Outweighs War Risk - Energy Connects",
-    "Hillary Clinton demands escalation of US-NATO war against Russia - World Socialist Web Site"
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
+    "Houthi militia missile aimed at southern Saudi Arabia intercepted, Saudi-led coalition says - TRT World",
+    "Russia strikes bridges in overnight attacks on Kyiv - The Telegraph"
    ]
   },
   "today": [
