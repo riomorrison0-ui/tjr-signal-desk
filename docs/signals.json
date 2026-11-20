@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-20T02:05:20.437321-05:00",
+ "updated": "2026-11-20T02:06:49.050088-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3551.72,
-   "feed": "real-time gold (PAXG, matched to spot +0.76)",
+   "price": 3550.76,
+   "feed": "real-time gold (PAXG, matched to spot -0.20)",
    "time": "2026-11-20T02:00:00-05:00"
   }
  },
@@ -70,21 +70,54 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Russian missile barrage damages Kyiv bridges - Financial Times",
     "Brazil in the Crosshairs of the Chip War - CounterPunch.org",
-    "Iran war bill reaches 48.3 bln USD: Pentagon official - Xinhua",
-    "Ukraine War, Day 1,730: Kushner\u2019s Muddled Statement on Security Guarantees for Kyiv - EA WorldView"
+    "Iran war bill reaches 48.3 bln USD: Pentagon official - Xinhua"
    ]
   },
-  "today": null,
-  "ok_calendar": false,
+  "today": [
+   {
+    "title": "FOMC Member Waller Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-20T13:25:00+00:00",
+    "forecast": "",
+    "previous": ""
+   },
+   {
+    "title": "Revised UoM Consumer Sentiment",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-20T15:00:00+00:00",
+    "forecast": "51.7",
+    "previous": "51.0"
+   },
+   {
+    "title": "Revised UoM Inflation Expectations",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-20T15:00:00+00:00",
+    "forecast": "",
+    "previous": "4.3%"
+   },
+   {
+    "title": "FOMC Member Cook Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-20T17:15:00+00:00",
+    "forecast": "",
+    "previous": ""
+   }
+  ],
+  "ok_calendar": true,
   "ok_headlines": true
  },
  "account": {
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.38,
-  "gbpusd": 1.30955
+  "stop_cap_usd": 52.46,
+  "gbpusd": 1.31156
  },
  "backtest": {
   "portfolio": {
