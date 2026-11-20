@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T07:30:20.479089-05:00",
+ "updated": "2026-11-20T07:35:20.439769-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.14,
-   "feed": "real-time gold (PAXG, matched to spot +0.28)",
-   "time": "2026-11-20T07:25:00-05:00"
+   "price": 3572.83,
+   "feed": "real-time gold (PAXG, matched to spot +4.46)",
+   "time": "2026-11-20T07:30:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "'We will not be intimidated,' ICC judge says as she berates UK's inertia on sanctions - The Law Society Gazette",
     "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire",
-    "Russian cruise missile crashes in Poland in violation condemned as intentional - BBC",
-    "Ukraine faces harshest winter since war began, German chancellor says - A News"
+    "Russian cruise missile crashes in Poland in violation condemned as intentional - BBC"
    ]
   },
   "today": [
