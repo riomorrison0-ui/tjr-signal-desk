@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T16:30:20.346567-05:00",
+ "updated": "2026-11-20T16:35:20.398759-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3523.64,
-   "feed": "real-time gold (PAXG, matched to spot +2.79)",
-   "time": "2026-11-20T16:25:00-05:00"
+   "price": 3524.89,
+   "feed": "real-time gold (PAXG, matched to spot +2.32)",
+   "time": "2026-11-20T16:30:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How one Ukrainian family gets ready for another winter at war - NPR",
-    "Edinburgh students say \u2018no to war\u2019 amid international youth strikes - STV News",
-    "Sudan\u2019s war leaves disabled children missing out on education - Al Jazeera"
+    "The New York Times. . Poland on Friday said three Russian objects, including at least one missile, crashed onto Polish territory, denouncing the episodes as a likely Russian \u201cprovocation.\u201d The incident came as Poland was hosting a two-week military exercise - Facebook",
+    "War-weary powers at trilateral summit | Daily Sabah - Daily Sabah",
+    "Vance Completes His Iran War Backflip: \u2018My Job Is To Support The President\u2019 - Yahoo News Singapore"
    ]
   },
   "today": [
