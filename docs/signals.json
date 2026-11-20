@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T19:15:20.353132-05:00",
+ "updated": "2026-11-19T19:20:20.359937-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3621.07,
-   "feed": "real-time gold (PAXG, matched to spot +6.85)",
-   "time": "2026-11-19T19:10:00-05:00"
+   "price": 3622.8,
+   "feed": "real-time gold (PAXG, matched to spot +6.83)",
+   "time": "2026-11-19T19:15:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Settler leader says municipality\u2019s foreign currency accounts frozen due to UK sanctions - The Times of Israel",
-    "Soldiers Test New Medical Training Program - U.S. Department of War (.gov)",
-    "US: Cost of war in Iran passes $48 billion not including damage to infrastructure - DW.com"
+    "Senate Republicans reject legislation to end Iran war By Investing.com - Investing.com UK",
+    "Iran war could cut global oil demand by over 4% by 2035 - IEA - Iran International",
+    "Make doves, not war \u2014 and other news in pictures - The Times"
    ]
   },
   "today": [
