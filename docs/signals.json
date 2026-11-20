@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T14:05:20.354842-05:00",
+ "updated": "2026-11-20T14:10:20.385746-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3526.62,
-   "feed": "real-time gold (PAXG, matched to spot +1.05)",
-   "time": "2026-11-20T14:00:00-05:00"
+   "price": 3522.03,
+   "feed": "real-time gold (PAXG, matched to spot +1.06)",
+   "time": "2026-11-20T14:05:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "'Warmth from Poland for Kyiv': solidarity stronger than war - TVP World",
-    "Trump says Vance rightly blamed GOP midterm losses on Iran war, even if he wouldn't have acted differently - The Times of Israel",
-    "Russian Billionaire Behind California Tower Denies Organized-Crime Ties as US Congressman Seeks Sanctions - UNITED24 Media"
+    "Russia\u2019s Changing Positions on North Korea Sanctions and Denuclearization - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+    "Ukraine war latest: Russia strikes 3 Kyiv bridges in massive aerial assault on Ukraine, at least 9 dead - The Kyiv Independent",
+    "Pressed on whether Iran war was worth losing midterms, Vance says his job is to support Trump's decisions - The Times of Israel"
    ]
   },
   "today": [
