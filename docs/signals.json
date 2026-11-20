@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T12:30:20.394708-05:00",
+ "updated": "2026-11-20T12:35:20.418025-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3529.24,
-   "feed": "real-time gold (PAXG, matched to spot +3.92)",
-   "time": "2026-11-20T12:25:00-05:00"
+   "price": 3529.28,
+   "feed": "real-time gold (PAXG, matched to spot +3.87)",
+   "time": "2026-11-20T12:30:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Sovcomflot credits sanctions adaptation for profit rebound as EU targets network behind former fleet - Lloyd's List",
-    "Polish anti-war protesters demand spending on hospitals, not weapons, dismiss concerns over Russia - Anadolu Ajans\u0131",
-    "ONE Friday Fights 179 Main Event Result: Klarob\u2019s Iron Chin Carries Him Through Pulsating War With Chartpayak - ONE Championship"
+    "Treasury Sanctions Hezbollah\u2019s Charity Network, but More Targets Remain Untouched - Foundation for Defense of Democracies",
+    "When Nazis were held responsible for war crimes - The Washington Post",
+    "Met Police reveal arrests after far-right protesters clash with anti-war rally - The National Scot"
    ]
   },
   "today": [
