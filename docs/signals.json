@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T09:55:20.395974-05:00",
+ "updated": "2026-11-20T10:00:20.360078-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.35,
-   "feed": "real-time gold (PAXG, matched to spot +1.03)",
-   "time": "2026-11-20T09:50:00-05:00"
+   "price": 3583.86,
+   "feed": "real-time gold (PAXG, matched to spot +7.40)",
+   "time": "2026-11-20T09:55:00-05:00"
   }
  },
  "stats": {
@@ -71,13 +71,9 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "When Nazis were held responsible for war crimes - The Washington Post",
-    "US Treasury presses Singapore and Malaysia on Iran sanctions compliance - Reuters",
-    "Russian missile strike in Poland \u2018utterly unacceptable\u2019, Andy Burnham says - London Evening Standard"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
