@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T13:15:20.375586-05:00",
+ "updated": "2026-11-20T13:20:20.418946-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3522.43,
-   "feed": "real-time gold (PAXG, matched to spot +2.01)",
-   "time": "2026-11-20T13:10:00-05:00"
+   "price": 3527.27,
+   "feed": "real-time gold (PAXG, matched to spot +4.32)",
+   "time": "2026-11-20T13:15:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "The cost of the US war with Iran reaches $48.3 billion - Anadolu Ajans\u0131",
-    "Pricing the Occupation: Why Sixteen Capitals Are Backing London and Canberra's Settlement Sanctions - Modern Diplomacy",
-    "When Nazis were held responsible for war crimes - The Washington Post"
+    "Trump says Putin \u2018expressed his desire\u2019 for end of Ukraine war - Arab News",
+    "Putin Rules Out Ceasefire Talks with Ukraine Following Crimean Bridge Attacks - caspiannews.com",
+    "Conflict vs climate: How war takes toll on Middle East's environment - The National"
    ]
   },
   "today": [
