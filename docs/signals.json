@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T03:05:20.433521-05:00",
+ "updated": "2026-11-20T03:10:20.449651-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.89,
-   "feed": "real-time gold (PAXG, matched to spot +6.09)",
-   "time": "2026-11-20T03:00:00-05:00"
+   "price": 3576.51,
+   "feed": "real-time gold (PAXG, matched to spot +5.23)",
+   "time": "2026-11-20T03:05:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Jamaica Warns Citizens Against Recruitment for Russia's War - Stop Russian Recruiters",
-    "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile - Naval News",
-    "Russian Missile Disappears From Radar Near Polish Town as Air Raid Sirens Sound - UNITED24 Media"
+    "Mansfield war memorial vandalised during Remembrance week - West Bridgford Wire",
+    "Ukraine: Three Kyiv bridges hit during major Russian missile attack - BBC",
+    "European troops take part in exercise with eye on post-war Ukraine - Wrexham and Flintshire News, Sport, Events | The Leader"
    ]
   },
   "today": [
