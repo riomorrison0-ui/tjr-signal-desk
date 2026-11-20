@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T09:05:20.353755-05:00",
+ "updated": "2026-11-20T09:10:20.366270-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.39,
-   "feed": "real-time gold (PAXG, matched to spot +2.17)",
-   "time": "2026-11-20T09:00:00-05:00"
+   "price": 3569.55,
+   "feed": "real-time gold (PAXG, matched to spot +2.58)",
+   "time": "2026-11-20T09:05:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Iran War: A Case Study in (Likely) Strategic Defeat - Just Security",
-    "Russian missile\u2019s crash in Poland was likely an intentional provocation, Polish prime minister says - The Washington Post",
-    "Sixteen countries back sanctions targeting Israel\u2019s illegal settlement expansion - Middle East Eye"
+    "Thousands of students strike across Europe in anti-war and cost of living protests - The National Scot",
+    "Mideast in Pictures: Too young for war - Xinhua",
+    "Russian missile strike in Poland \u2018utterly unacceptable\u2019, Andy Burnham says - The Irish News"
    ]
   },
   "today": [
