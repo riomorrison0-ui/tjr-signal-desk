@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T05:25:20.452625-05:00",
+ "updated": "2026-11-20T05:30:20.442325-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3581.28,
-   "feed": "real-time gold (PAXG, matched to spot +4.38)",
-   "time": "2026-11-20T05:20:00-05:00"
+   "price": 3582.6,
+   "feed": "real-time gold (PAXG, matched to spot +4.98)",
+   "time": "2026-11-20T05:25:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "When Nazis were held responsible for war crimes - The Washington Post",
-    "EU forecast keeps Russia sanctions in place to 2028 as Ukraine seeks \u20ac115bn - bne IntelliNews",
-    "Syria hails historic UN resolution recognizing post-war progress - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
+    "What\u2019s at Stake for Marine Life With War Spilling Into UAE Waters - WIRED Middle East",
+    "Merz Says Russia Could See Gradual Sanctions Relief in Exchange for Ukraine Peace Concessions - Kyiv Post",
+    "How Do You Identify Thousands Killed In War? Ukraine's High-Tech Forensics Experts Have The Answer - UNITED24 Media"
    ]
   },
   "today": [
