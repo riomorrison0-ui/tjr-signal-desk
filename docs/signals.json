@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T11:10:20.356478-05:00",
+ "updated": "2026-11-20T11:15:20.389922-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3550.38,
-   "feed": "real-time gold (PAXG, matched to spot +6.11)",
-   "time": "2026-11-20T11:05:00-05:00"
+   "price": 3555.32,
+   "feed": "real-time gold (PAXG, matched to spot +5.72)",
+   "time": "2026-11-20T11:10:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Pentagon\u2019s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members - Drop Site News",
-    "US Treasury presses Singapore and Malaysia on Iran sanctions compliance - Arab News",
-    "Russian Missile and Drone Hit Poland - BBC"
+    "Corbyn: Benefits shake-up for young people \u2018amounts to a sanctions regime\u2019 - Camden New Journal",
+    "When Nazis were held responsible for war crimes - The Washington Post",
+    "All\u2019s Fair in Love and \u2018War\u2019: Creator George Kay Explains His Ruling on Morgan and Carla\u2019s Divorce - The Hollywood Reporter"
    ]
   },
   "today": [
