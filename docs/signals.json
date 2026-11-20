@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T08:50:20.368501-05:00",
+ "updated": "2026-11-20T08:55:20.397472-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3563.47,
-   "feed": "real-time gold (PAXG, matched to spot +4.51)",
-   "time": "2026-11-20T08:45:00-05:00"
+   "price": 3568.36,
+   "feed": "real-time gold (PAXG, matched to spot +2.92)",
+   "time": "2026-11-20T08:50:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East latest: Saudi coalition and Houthis threaten strikes on ports - The National",
-    "Czechia considers accelerating air, missile defense expansion - Anadolu Ajans\u0131",
-    "Poland hit by at least one Russian missile, says Polish govt - Al Jazeera"
+    "The Iran War: A Case Study in (Likely) Strategic Defeat - Just Security",
+    "Russian missile\u2019s crash in Poland was likely an intentional provocation, Polish prime minister says - The Washington Post",
+    "Sixteen countries back sanctions targeting Israel\u2019s illegal settlement expansion - Middle East Eye"
    ]
   },
   "today": [
@@ -103,6 +103,14 @@
     "time": "2026-11-20T15:00:00+00:00",
     "forecast": "",
     "previous": "4.3%"
+   },
+   {
+    "title": "President Trump Speaks",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-20T17:00:00+00:00",
+    "forecast": "",
+    "previous": ""
    },
    {
     "title": "FOMC Member Cook Speaks",
