@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T16:45:20.350351-05:00",
+ "updated": "2026-11-20T16:50:20.397422-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3525.8,
-   "feed": "real-time gold (PAXG, matched to spot +0.75)",
-   "time": "2026-11-20T16:40:00-05:00"
+   "price": 3533.68,
+   "feed": "real-time gold (PAXG, matched to spot +1.69)",
+   "time": "2026-11-20T16:45:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The New York Times. . Poland on Friday said three Russian objects, including at least one missile, crashed onto Polish territory, denouncing the episodes as a likely Russian \u201cprovocation.\u201d The incident came as Poland was hosting a two-week military exercise - Facebook",
-    "War-weary powers at trilateral summit | Daily Sabah - Daily Sabah",
-    "Vance Completes His Iran War Backflip: \u2018My Job Is To Support The President\u2019 - Yahoo News Singapore"
+    "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says - DW.com",
+    "Russian ballistic missile strikes on Kryvyi Rih kill 7-year-old, paramedic, injure 42 others in double-tap attack - The Kyiv Independent",
+    "The New York Times. . Poland on Friday said three Russian objects, including at least one missile, crashed onto Polish territory, denouncing the episodes as a likely Russian \u201cprovocation.\u201d The incident came as Poland was hosting a two-week military exercise - Facebook"
    ]
   },
   "today": [
