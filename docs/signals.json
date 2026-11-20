@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T01:30:20.361098-05:00",
+ "updated": "2026-11-20T01:35:20.360708-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3556.97,
-   "feed": "real-time gold (PAXG, matched to spot +4.54)",
-   "time": "2026-11-20T01:25:00-05:00"
+   "price": 3552.29,
+   "feed": "real-time gold (PAXG, matched to spot +1.88)",
+   "time": "2026-11-20T01:30:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "UPDATES: US War on Iran, Day 267 \u2014 Houthi Missile Attacks on Saudi Arabia - EA WorldView",
-    "Rethinking marine war risk insurance - Splash247",
-    "Israeli strikes on Lebanon, a missile attack on Riyadh, and fires on tankers \u2013 the main news from the Middle East - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "US sanctions Southeast Asian cyber scam operators, armed group leaders - Anadolu Ajans\u0131",
+    "US Senate Republicans Block Resolution to Curb Trump's War Powers over Iran - ASHARQ AL-AWSAT English",
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
    ]
   },
   "today": [
