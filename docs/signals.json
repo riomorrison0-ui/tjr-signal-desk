@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T14:55:20.381989-05:00",
+ "updated": "2026-11-20T15:00:20.385013-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3518.62,
-   "feed": "real-time gold (PAXG, matched to spot +2.73)",
-   "time": "2026-11-20T14:50:00-05:00"
+   "price": 3519.24,
+   "feed": "real-time gold (PAXG, matched to spot -1.53)",
+   "time": "2026-11-20T14:55:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump: Putin \u2018would love to\u2019 end war in Ukraine - Channel 4",
-    "New Standard Missile 6 Historical Display Highlights Navy\u2019s Heritage of Weapons Testing at - NAVSEA (.mil)",
-    "Trump downplays tensions with Vance over criticism of the war with Iran - media - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "Vance: On the Iran war, \u2018my job is to support the president\u2019 - Politico",
+    "Raytheon selects Ursa Major and Avio USA to develop new Tomahawk missile booster - FlightGlobal",
+    "Trump says Putin 'clearly expressed' a desire to end Russia-Ukraine war by diplomatic means - NBC News"
    ]
   },
   "today": [
