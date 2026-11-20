@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T15:10:20.372256-05:00",
+ "updated": "2026-11-20T15:15:21.589386-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3516.72,
-   "feed": "real-time gold (PAXG, matched to spot +1.13)",
-   "time": "2026-11-20T15:05:00-05:00"
+   "price": 3514.26,
+   "feed": "real-time gold (PAXG, matched to spot +2.25)",
+   "time": "2026-11-20T15:10:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Vance: On the Iran war, \u2018my job is to support the president\u2019 - Politico",
-    "Raytheon selects Ursa Major and Avio USA to develop new Tomahawk missile booster - FlightGlobal",
-    "Trump says Putin 'clearly expressed' a desire to end Russia-Ukraine war by diplomatic means - NBC News"
+    "Troops from Europe's coalition for Ukraine train in war's shadow - France 24",
+    "Russian Ballistic Missile Hits Busy Central Kryvyi Rih, Injuring 22 Including Three Children - UNITED24 Media",
+    "Vance: On the Iran war, \u2018my job is to support the president\u2019 - Politico"
    ]
   },
   "today": [
