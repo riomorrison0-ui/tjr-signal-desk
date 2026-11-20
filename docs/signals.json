@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T08:05:20.388592-05:00",
+ "updated": "2026-11-20T08:10:20.410003-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3577.97,
-   "feed": "real-time gold (PAXG, matched to spot +2.74)",
-   "time": "2026-11-20T08:00:00-05:00"
+   "price": 3574.89,
+   "feed": "real-time gold (PAXG, matched to spot +3.17)",
+   "time": "2026-11-20T08:05:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Rights groups urge sanctions after top UN court finds Myanmar committed genocide against Rohingya - The Washington Post",
-    "Total War: Warhammer 40,000 breaks the game into star system mini-campaigns, each with their own stories and objectives - Eurogamer.net",
-    "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire"
+    "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire",
+    "War in Iran has already cost the US more than 43 billion euros - Plataforma Media",
+    "When Nazis were held responsible for war crimes - The Washington Post"
    ]
   },
   "today": [
