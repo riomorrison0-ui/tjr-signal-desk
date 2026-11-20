@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T07:45:20.474195-05:00",
+ "updated": "2026-11-20T07:50:20.447739-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.57,
-   "feed": "real-time gold (PAXG, matched to spot +3.08)",
-   "time": "2026-11-20T07:40:00-05:00"
+   "price": 3567.22,
+   "feed": "real-time gold (PAXG, matched to spot +2.13)",
+   "time": "2026-11-20T07:45:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "'We will not be intimidated,' ICC judge says as she berates UK's inertia on sanctions - The Law Society Gazette",
-    "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire",
-    "Russian cruise missile crashes in Poland in violation condemned as intentional - BBC"
+    "Rights groups urge sanctions after top UN court finds Myanmar committed genocide against Rohingya - The Washington Post",
+    "Total War: Warhammer 40,000 breaks the game into star system mini-campaigns, each with their own stories and objectives - Eurogamer.net",
+    "'We will not be intimidated,' ICC judge says as she berates UK's inertia on sanctions - The Law Society Gazette"
    ]
   },
   "today": [
