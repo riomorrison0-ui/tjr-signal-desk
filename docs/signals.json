@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T20:35:20.356375-05:00",
+ "updated": "2026-11-19T20:40:20.376363-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3582.12,
-   "feed": "real-time gold (PAXG, matched to spot +9.05)",
-   "time": "2026-11-19T20:30:00-05:00"
+   "price": 3573.99,
+   "feed": "real-time gold (PAXG, matched to spot +1.04)",
+   "time": "2026-11-19T20:35:00-05:00"
   }
  },
  "stats": {
@@ -68,48 +68,15 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "US to boost missile defense, new sensor to modernize seeker tech to intercept incoming threats - Interesting Engineering",
-    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
-    "Houthis escalate war as missile hits Riyadh's tallest building - The New Arab"
+    "Trump tells skeptical Europeans: \"Putin wants to end the war\" - Axios",
+    "Climate change is accelerating the misinformation war and eroding social cohesion - Monash University",
+    "Houthis Claim Jizan Strike as Saudi Arabia Plans 6-Month Campaign - https://houseofsaud.com/"
    ]
   },
-  "today": [
-   {
-    "title": "FOMC Member Waller Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T13:25:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Revised UoM Consumer Sentiment",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "51.7",
-    "previous": "51.0"
-   },
-   {
-    "title": "Revised UoM Inflation Expectations",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "",
-    "previous": "4.3%"
-   },
-   {
-    "title": "FOMC Member Cook Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T17:15:00+00:00",
-    "forecast": "",
-    "previous": ""
-   }
-  ],
-  "ok_calendar": true,
+  "today": null,
+  "ok_calendar": false,
   "ok_headlines": true
  },
  "account": {
