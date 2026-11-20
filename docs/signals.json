@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T23:55:20.356804-05:00",
+ "updated": "2026-11-20T00:00:20.383363-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3534.1,
-   "feed": "real-time gold (PAXG, matched to spot +1.46)",
-   "time": "2026-11-19T23:50:00-05:00"
+   "price": 3530.15,
+   "feed": "real-time gold (PAXG, matched to spot -2.34)",
+   "time": "2026-11-19T23:55:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
     "United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 Gazetted - \u5df4\u58eb\u7684\u5831",
-    "Russian Offensive Campaign Assessment, November 19, 2026 - Institute for the Study of War",
-    "US Senate Rejects Bid To Curb Trump\u2019s War Powers On Iran | LIVE BLOG - i24NEWS"
+    "Ukraine-Russia war latest: Kyiv rocked by missiles after Putin vows \u2018painful\u2019 response to Crimea bridge attack - Yahoo News UK"
    ]
   },
   "today": [
