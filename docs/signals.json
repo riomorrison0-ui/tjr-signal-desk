@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T13:00:20.365780-05:00",
+ "updated": "2026-11-20T13:05:20.405754-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3527.65,
-   "feed": "real-time gold (PAXG, matched to spot -0.19)",
-   "time": "2026-11-20T12:55:00-05:00"
+   "price": 3528.43,
+   "feed": "real-time gold (PAXG, matched to spot +3.59)",
+   "time": "2026-11-20T13:00:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "When Nazis were held responsible for war crimes - The Washington Post",
-    "Treasury Sanctions Hezbollah\u2019s Charity Network, but More Targets Remain Untouched - Foundation for Defense of Democracies",
-    "Met Police reveal arrests after far-right protesters clash with anti-war rally - The National Scot"
+    "The cost of the US war with Iran reaches $48.3 billion - Anadolu Ajans\u0131",
+    "Pricing the Occupation: Why Sixteen Capitals Are Backing London and Canberra's Settlement Sanctions - Modern Diplomacy",
+    "When Nazis were held responsible for war crimes - The Washington Post"
    ]
   },
   "today": [
