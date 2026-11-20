@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T12:00:20.380592-05:00",
+ "updated": "2026-11-20T12:05:20.381530-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3545.05,
-   "feed": "real-time gold (PAXG, matched to spot +4.23)",
-   "time": "2026-11-20T11:55:00-05:00"
+   "price": 3535.78,
+   "feed": "real-time gold (PAXG, matched to spot +5.57)",
+   "time": "2026-11-20T12:00:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Holy See: \u2018No algorithm can make war morally acceptable\u2019 - Vatican News",
-    "US-launched missile strikes outskirts of Qeshm Island in southern Iran: Iranian media - Anadolu Ajans\u0131",
-    "Tanker hit in Strait of Hormuz as missile strikes Iran's Qeshm Island - Arab News"
+    "Doncaster Knights declare intentions as PREM Rugby sparks expansion bidding war - Yorkshire Post",
+    "European leaders condemn Russia\u2019s \u2018intentional provocation\u2019 as missile hits Poland - The Independent",
+    "US-launched missile strikes outskirts of Qeshm Island in southern Iran: Iranian media - Anadolu Ajans\u0131"
    ]
   },
   "today": [
