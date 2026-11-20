@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T11:30:20.388731-05:00",
+ "updated": "2026-11-20T11:35:20.362768-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3542.99,
-   "feed": "real-time gold (PAXG, matched to spot +6.34)",
-   "time": "2026-11-20T11:25:00-05:00"
+   "price": 3545.99,
+   "feed": "real-time gold (PAXG, matched to spot +5.28)",
+   "time": "2026-11-20T11:30:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Corbyn: Benefits shake-up for young people \u2018amounts to a sanctions regime\u2019 - Camden New Journal",
-    "When Nazis were held responsible for war crimes - The Washington Post",
-    "All\u2019s Fair in Love and \u2018War\u2019: Creator George Kay Explains His Ruling on Morgan and Carla\u2019s Divorce - The Hollywood Reporter"
+    "Video: The War in Ukraine Is Killing Wildlife - The New York Times",
+    "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) - U.S. Department of War (.gov)",
+    "Rammellzee: the New York Polymath Who Sent the Alphabet to War - Frieze"
    ]
   },
   "today": [
