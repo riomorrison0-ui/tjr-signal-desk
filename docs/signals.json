@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T04:20:20.479474-05:00",
+ "updated": "2026-11-20T04:25:20.442336-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3580.95,
-   "feed": "real-time gold (PAXG, matched to spot +5.27)",
-   "time": "2026-11-20T04:15:00-05:00"
+   "price": 3577.55,
+   "feed": "real-time gold (PAXG, matched to spot +2.72)",
+   "time": "2026-11-20T04:20:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia pummels Ukraine in deadly strikes after renewed international criticism of war - SBS",
-    "Middle East war: Oil steady as Houthis attack Saudi energy infrastructure again - www.engine.online",
-    "Black Sea danger zone expanded as seafarer war risk protections widened - Splash247"
+    "More bang for less buck: Israel turns to cheaper missile defense as interceptor stocks dwindle - Ynetnews",
+    "Pakistan minister visits India for first time since 2025 war - Al Jazeera",
+    "US sanctions Australian motorcycle gang as Trump continues war on drug trafficking - The Independent"
    ]
   },
   "today": [
