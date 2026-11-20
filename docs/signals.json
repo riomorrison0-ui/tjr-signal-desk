@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T01:45:20.370772-05:00",
+ "updated": "2026-11-20T01:50:20.363453-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3555.83,
-   "feed": "real-time gold (PAXG, matched to spot +4.88)",
-   "time": "2026-11-20T01:40:00-05:00"
+   "price": 3556.76,
+   "feed": "real-time gold (PAXG, matched to spot +2.97)",
+   "time": "2026-11-20T01:45:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "US sanctions Southeast Asian cyber scam operators, armed group leaders - Anadolu Ajans\u0131",
-    "US Senate Republicans Block Resolution to Curb Trump's War Powers over Iran - ASHARQ AL-AWSAT English",
-    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
+    "Basildon Council backs war memorial honouring D-Day veteran - BBC",
+    "Vallourec's core profit falls 26%, hit by Iran war and disruption in the US - TradingView",
+    "US sanctions Southeast Asian cyber scam operators, armed group leaders - Anadolu Ajans\u0131"
    ]
   },
   "today": [
