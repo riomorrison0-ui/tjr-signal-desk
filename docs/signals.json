@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T02:20:20.428048-05:00",
+ "updated": "2026-11-20T02:25:20.475327-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3556.64,
-   "feed": "real-time gold (PAXG, matched to spot +2.57)",
-   "time": "2026-11-20T02:15:00-05:00"
+   "price": 3547.86,
+   "feed": "real-time gold (PAXG, matched to spot +0.68)",
+   "time": "2026-11-20T02:20:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russian missile barrage damages Kyiv bridges - Financial Times",
-    "Brazil in the Crosshairs of the Chip War - CounterPunch.org",
-    "Iran war bill reaches 48.3 bln USD: Pentagon official - Xinhua"
+    "Busan Director Turns His Own Tenant War Into a Bengaluru Dark Comedy - Variety",
+    "Ukraine War, Day 1,730: Kushner\u2019s Muddled Statement on Security Guarantees for Kyiv - EA WorldView",
+    "Suspected drone or missile hits Poland. Explosion reported near Ukrainian border - Defence24.com"
    ]
   },
   "today": [
