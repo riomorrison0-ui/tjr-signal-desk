@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T08:20:20.388922-05:00",
+ "updated": "2026-11-20T08:25:20.399927-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.01,
-   "feed": "real-time gold (PAXG, matched to spot +0.71)",
-   "time": "2026-11-20T08:15:00-05:00"
+   "price": 3557.45,
+   "feed": "real-time gold (PAXG, matched to spot +2.92)",
+   "time": "2026-11-20T08:20:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Pentagon: Cost of War With Iran Surpasses $48 Billion - IranWire",
-    "War in Iran has already cost the US more than 43 billion euros - Plataforma Media",
-    "When Nazis were held responsible for war crimes - The Washington Post"
+    "The Iran War Won\u2019t Change World Energy - Forbes",
+    "What's inside the missiles hitting Ukraine's cities? Kyiv's count shows how sanctions still leak - Euromaidan Press",
+    "Iran war drives down foreign assets at Central Bank of Kuwait - Arabian Gulf Business Insight | AGBI"
    ]
   },
   "today": [
