@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T04:35:20.442791-05:00",
+ "updated": "2026-11-20T04:40:20.481126-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.72,
-   "feed": "real-time gold (PAXG, matched to spot +5.99)",
-   "time": "2026-11-20T04:30:00-05:00"
+   "price": 3573.28,
+   "feed": "real-time gold (PAXG, matched to spot +4.21)",
+   "time": "2026-11-20T04:35:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "More bang for less buck: Israel turns to cheaper missile defense as interceptor stocks dwindle - Ynetnews",
-    "Pakistan minister visits India for first time since 2025 war - Al Jazeera",
-    "US sanctions Australian motorcycle gang as Trump continues war on drug trafficking - The Independent"
+    "Anti-Radiation Missile Explained: How HARM Hunts Enemy Radars - MiGFlug",
+    "\u2018We\u2019ve Got Time\u2019: Trump Suggests Iran War Will Continue Into 2027 - Time Magazine",
+    "NATO Calls on Private Sector to Prepare for War at NATO EDGE - TURDEF"
    ]
   },
   "today": [
