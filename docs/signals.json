@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T16:15:20.361373-05:00",
+ "updated": "2026-11-20T16:20:20.771910-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3519.55,
-   "feed": "real-time gold (PAXG, matched to spot +3.02)",
-   "time": "2026-11-20T16:10:00-05:00"
+   "price": 3516.93,
+   "feed": "real-time gold (PAXG, matched to spot +3.08)",
+   "time": "2026-11-20T16:15:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "How one Ukrainian family gets ready for another winter at war - NPR",
     "Edinburgh students say \u2018no to war\u2019 amid international youth strikes - STV News",
-    "Sudan\u2019s war leaves disabled children missing out on education - Al Jazeera",
-    "In 2011, Hilary Swank accidentally endorsed an accused war criminal. Four weeks later, she fired her manager and apologised - Far Out Magazine"
+    "Sudan\u2019s war leaves disabled children missing out on education - Al Jazeera"
    ]
   },
   "today": [
