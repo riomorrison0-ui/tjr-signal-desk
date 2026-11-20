@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T03:50:20.442692-05:00",
+ "updated": "2026-11-20T03:55:20.443733-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3581.94,
-   "feed": "real-time gold (PAXG, matched to spot +4.70)",
-   "time": "2026-11-20T03:45:00-05:00"
+   "price": 3583.66,
+   "feed": "real-time gold (PAXG, matched to spot +4.34)",
+   "time": "2026-11-20T03:50:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Israel boosts David's Sling capabilities to withstand weeks of missile attacks - The Jerusalem Post",
     "The EU sets up a Sanctions Office to ensure full compliance - Atalayar",
-    "Hamas rebuilds its grip on Gaza three years into war - Ynetnews",
-    "Palestinian killed as Israel continues to violate Gaza ceasefire - Anadolu Ajans\u0131"
+    "OCU accuses Patriarch of Moscow of glorifying Russia\u2019s war, sends open letter to Archbishop of Athens - Orthodox Times"
    ]
   },
   "today": [
