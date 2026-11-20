@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T06:45:20.441804-05:00",
+ "updated": "2026-11-20T06:50:20.483687-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3583.47,
-   "feed": "real-time gold (PAXG, matched to spot +3.65)",
-   "time": "2026-11-20T06:40:00-05:00"
+   "price": 3582.88,
+   "feed": "real-time gold (PAXG, matched to spot +5.35)",
+   "time": "2026-11-20T06:45:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Sovcomflot takes \u2018measures\u2019 against Western sanctions as charter book tops $12bn - TradeWinds News",
     "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-    "Ukraine Goes After Russia\u2019s Ballistic Missile Launchers\u2014Three Hit, One Confirmed Destroyed - UNITED24 Media"
+    "US Iran war costs reach $48.3B, excluding damaged base repairs | Daily Sabah - Daily Sabah",
+    "When Nazis were held responsible for war crimes - The Washington Post"
    ]
   },
   "today": [
