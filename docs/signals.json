@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T14:40:20.363536-05:00",
+ "updated": "2026-11-20T14:45:20.362640-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3532.09,
-   "feed": "real-time gold (PAXG, matched to spot +6.17)",
-   "time": "2026-11-20T14:35:00-05:00"
+   "price": 3528.01,
+   "feed": "real-time gold (PAXG, matched to spot -1.15)",
+   "time": "2026-11-20T14:40:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Naval Logistics Command Delivers Critical Care Worldwide - U.S. Department of War (.gov)",
-    "Russia\u2019s Changing Positions on North Korea Sanctions and Denuclearization - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-    "Ukraine war latest: Russia strikes 3 Kyiv bridges in massive aerial assault on Ukraine, at least 9 dead - The Kyiv Independent"
+    "Trump: Putin \u2018would love to\u2019 end war in Ukraine - Channel 4",
+    "New Standard Missile 6 Historical Display Highlights Navy\u2019s Heritage of Weapons Testing at - NAVSEA (.mil)",
+    "Trump downplays tensions with Vance over criticism of the war with Iran - media - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
