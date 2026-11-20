@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T01:10:20.357296-05:00",
+ "updated": "2026-11-20T01:15:20.378875-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3565.12,
-   "feed": "real-time gold (PAXG, matched to spot +8.84)",
-   "time": "2026-11-20T01:05:00-05:00"
+   "price": 3553.99,
+   "feed": "real-time gold (PAXG, matched to spot +3.05)",
+   "time": "2026-11-20T01:10:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran accuses US of repeating Iraq invasion \u2018deception\u2019 over bioweapons claims - TRT World",
-    "Saudi-led coalition says it intercepted Houthi missile targeting kingdom\u2019s southern region - Anadolu Ajans\u0131",
-    "U.S. Senate Republicans block war powers resolution seeking to end Iran war - Xinhua"
+    "UPDATES: US War on Iran, Day 267 \u2014 Houthi Missile Attacks on Saudi Arabia - EA WorldView",
+    "Rethinking marine war risk insurance - Splash247",
+    "Israeli strikes on Lebanon, a missile attack on Riyadh, and fires on tankers \u2013 the main news from the Middle East - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
