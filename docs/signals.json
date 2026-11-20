@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T23:25:20.364994-05:00",
+ "updated": "2026-11-19T23:30:20.399353-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3533.78,
-   "feed": "real-time gold (PAXG, matched to spot +2.79)",
-   "time": "2026-11-19T23:20:00-05:00"
+   "price": 3528.76,
+   "feed": "real-time gold (PAXG, matched to spot +0.20)",
+   "time": "2026-11-19T23:25:00-05:00"
   }
  },
  "stats": {
@@ -67,12 +67,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Analysis \u2022 Trump may start a war, but Iran will decide how and when it ends - Haaretz",
-    "India opens firing ranges to Japanese missile drills after Tokyo 2+2 talks - bne IntelliNews",
-    "Ukraine\u2019s Air Force warned of possible cruise missile launches - Mezha.net"
+    "US Senate Rejects Bid To Curb Trump\u2019s War Powers On Iran | LIVE BLOG - i24NEWS",
+    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
+    "Analysis \u2022 Trump may start a war, but Iran will decide how and when it ends - Haaretz"
    ]
   },
   "today": [
