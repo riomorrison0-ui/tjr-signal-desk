@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T11:45:20.378458-05:00",
+ "updated": "2026-11-20T11:50:20.352590-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3543.57,
-   "feed": "real-time gold (PAXG, matched to spot +2.56)",
-   "time": "2026-11-20T11:40:00-05:00"
+   "price": 3540.78,
+   "feed": "real-time gold (PAXG, matched to spot +4.02)",
+   "time": "2026-11-20T11:45:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Video: The War in Ukraine Is Killing Wildlife - The New York Times",
-    "Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) - U.S. Department of War (.gov)",
-    "Rammellzee: the New York Polymath Who Sent the Alphabet to War - Frieze"
+    "Holy See: \u2018No algorithm can make war morally acceptable\u2019 - Vatican News",
+    "US-launched missile strikes outskirts of Qeshm Island in southern Iran: Iranian media - Anadolu Ajans\u0131",
+    "Tanker hit in Strait of Hormuz as missile strikes Iran's Qeshm Island - Arab News"
    ]
   },
   "today": [
