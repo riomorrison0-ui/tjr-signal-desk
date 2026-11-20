@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T23:40:20.387626-05:00",
+ "updated": "2026-11-19T23:45:20.372606-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3525.74,
-   "feed": "real-time gold (PAXG, matched to spot +3.63)",
-   "time": "2026-11-19T23:35:00-05:00"
+   "price": 3530.35,
+   "feed": "real-time gold (PAXG, matched to spot +0.23)",
+   "time": "2026-11-19T23:40:00-05:00"
   }
  },
  "stats": {
@@ -68,11 +68,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "US Senate Rejects Bid To Curb Trump\u2019s War Powers On Iran | LIVE BLOG - i24NEWS",
-    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
-    "Analysis \u2022 Trump may start a war, but Iran will decide how and when it ends - Haaretz"
+    "United Nations Sanctions (Central African Republic) Regulation 2020 (Amendment) Regulation 2026 Gazetted - \u5df4\u58eb\u7684\u5831",
+    "Russian Offensive Campaign Assessment, November 19, 2026 - Institute for the Study of War",
+    "US Senate Rejects Bid To Curb Trump\u2019s War Powers On Iran | LIVE BLOG - i24NEWS"
    ]
   },
   "today": [
