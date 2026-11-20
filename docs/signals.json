@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T04:55:20.435023-05:00",
+ "updated": "2026-11-20T05:00:20.457515-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.6,
-   "feed": "real-time gold (PAXG, matched to spot +2.60)",
-   "time": "2026-11-20T04:50:00-05:00"
+   "price": 3567.01,
+   "feed": "real-time gold (PAXG, matched to spot +3.25)",
+   "time": "2026-11-20T04:55:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Anti-Radiation Missile Explained: How HARM Hunts Enemy Radars - MiGFlug",
-    "\u2018We\u2019ve Got Time\u2019: Trump Suggests Iran War Will Continue Into 2027 - Time Magazine",
-    "NATO Calls on Private Sector to Prepare for War at NATO EDGE - TURDEF"
+    "Syria hails historic UN resolution recognizing post-war progress - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "Vallourec's core profit falls 26%, hit by Iran war and disruption in the US - TradingView",
+    "Explosion Heard in Poland Amid Reports of Russian Missile Entering Its Airspace - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439"
    ]
   },
   "today": [
