@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T02:50:20.432916-05:00",
+ "updated": "2026-11-20T02:55:20.453657-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3564.39,
-   "feed": "real-time gold (PAXG, matched to spot +8.41)",
-   "time": "2026-11-20T02:45:00-05:00"
+   "price": 3571.89,
+   "feed": "real-time gold (PAXG, matched to spot +6.81)",
+   "time": "2026-11-20T02:50:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Palestine: More than 22,000 children killed by Israel in Gaza war - Middle East Monitor",
-    "Vallourec's core profit falls 26%, hit by Iran war and disruption in the US - Reuters",
-    "Vallourec's core profit falls 26%, hit by Iran war and disruption in the US - TradingView"
+    "Jamaica Warns Citizens Against Recruitment for Russia's War - Stop Russian Recruiters",
+    "Indian Navy Exploring Development of Rotating Detonation Engine Powered Supersonic Cruise Missile - Naval News",
+    "Russian Missile Disappears From Radar Near Polish Town as Air Raid Sirens Sound - UNITED24 Media"
    ]
   },
   "today": [
