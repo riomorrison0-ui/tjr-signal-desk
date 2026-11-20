@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T20:15:20.325744-05:00",
+ "updated": "2026-11-19T20:19:43.427033-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3598.5,
-   "feed": "real-time gold (PAXG, matched to spot +9.29)",
+   "price": 3589.91,
+   "feed": "real-time gold (PAXG, matched to spot +0.70)",
    "time": "2026-11-19T20:10:00-05:00"
   }
  },
@@ -70,8 +70,8 @@
    "level": "elevated",
    "count": 4,
    "examples": [
+    "Middle East latest: Saudi Arabia confirms strike on PIF tower and condemns Houthi attacks - The National",
     "Houthis escalate war as missile hits Riyadh's tallest building - The New Arab",
-    "Pentagon's Latest $48.3 Billion Iran War Cost Estimate Doesn't Include This $162 Billion Figure - Common Dreams",
     "South Korea\u2019s Coal Use Is Surging \u2013 and Not Just Because of the Iran War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine"
    ]
   },
