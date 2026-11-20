@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T13:50:20.389820-05:00",
+ "updated": "2026-11-20T13:55:20.356585-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3506.95,
-   "feed": "real-time gold (PAXG, matched to spot +2.41)",
-   "time": "2026-11-20T13:45:00-05:00"
+   "price": 3521.86,
+   "feed": "real-time gold (PAXG, matched to spot +4.65)",
+   "time": "2026-11-20T13:50:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "'Warmth from Poland for Kyiv': solidarity stronger than war - TVP World",
     "Trump says Vance rightly blamed GOP midterm losses on Iran war, even if he wouldn't have acted differently - The Times of Israel",
-    "Russian Billionaire Behind California Tower Denies Organized-Crime Ties as US Congressman Seeks Sanctions - UNITED24 Media",
-    "\u201cI\u2019m a divorce lawyer. Here\u2019s what War gets right \u2013 and what it gets very wrong\u201d - Stylist"
+    "Russian Billionaire Behind California Tower Denies Organized-Crime Ties as US Congressman Seeks Sanctions - UNITED24 Media"
    ]
   },
   "today": [
