@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T22:35:20.392576-05:00",
+ "updated": "2026-11-19T22:40:20.350418-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3534.0,
-   "feed": "real-time gold (PAXG, matched to spot +7.38)",
-   "time": "2026-11-19T22:30:00-05:00"
+   "price": 3545.51,
+   "feed": "real-time gold (PAXG, matched to spot +4.72)",
+   "time": "2026-11-19T22:35:00-05:00"
   }
  },
  "stats": {
@@ -70,46 +70,13 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
-    "A nuclear war must never be fought, says US-Russia-China joint declaration - VOV World",
-    "Saudi-led coalition says it intercepted Houthi missile targeting southern region - The Times of Israel"
+    "Ukraine\u2019s Air Force warned of possible cruise missile launches - Mezha.net",
+    "Pentagon official says US war on Iran cost $48.3B - Middle East Eye",
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post"
    ]
   },
-  "today": [
-   {
-    "title": "FOMC Member Waller Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T13:25:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Revised UoM Consumer Sentiment",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "51.7",
-    "previous": "51.0"
-   },
-   {
-    "title": "Revised UoM Inflation Expectations",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "",
-    "previous": "4.3%"
-   },
-   {
-    "title": "FOMC Member Cook Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T17:15:00+00:00",
-    "forecast": "",
-    "previous": ""
-   }
-  ],
-  "ok_calendar": true,
+  "today": null,
+  "ok_calendar": false,
   "ok_headlines": true
  },
  "account": {
