@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T10:55:20.439514-05:00",
+ "updated": "2026-11-20T11:00:20.410909-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3550.76,
-   "feed": "real-time gold (PAXG, matched to spot +2.08)",
-   "time": "2026-11-20T10:50:00-05:00"
+   "price": 3548.61,
+   "feed": "real-time gold (PAXG, matched to spot +2.11)",
+   "time": "2026-11-20T10:55:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "US Treasury presses Singapore and Malaysia on Iran sanctions compliance - The Arab Weekly",
-    "Signal battles AI privacy invasion by blocking text screenshots - The Independent",
-    "Russian missile strike in Poland \u2018utterly unacceptable\u2019, Andy Burnham says - London Evening Standard"
+    "Pentagon\u2019s Iran war costs top $48 billion; Saudi strikes Hodeidah port, Ansarallah vows response; Haitian police kill 34 gang members - Drop Site News",
+    "US Treasury presses Singapore and Malaysia on Iran sanctions compliance - Arab News",
+    "Russian Missile and Drone Hit Poland - BBC"
    ]
   },
   "today": [
