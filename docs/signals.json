@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T06:25:20.493870-05:00",
+ "updated": "2026-11-20T06:30:20.473398-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3588.03,
-   "feed": "real-time gold (PAXG, matched to spot +2.51)",
-   "time": "2026-11-20T06:20:00-05:00"
+   "price": 3590.46,
+   "feed": "real-time gold (PAXG, matched to spot +2.65)",
+   "time": "2026-11-20T06:25:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Sovcomflot takes \u2018measures\u2019 against Western sanctions as charter book tops $12bn - TradeWinds News",
     "Congress struggles to avert US shutdown as Iran war divides lawmakers - Reuters",
-    "IDF completes rare Gaza operation to destroy Hamas tunnel beyond ceasefire line - The Jewish Chronicle",
-    "Hive strengthens aviation claims team with senior Russian war specialist - Intelligent Insurer"
+    "Ukraine Goes After Russia\u2019s Ballistic Missile Launchers\u2014Three Hit, One Confirmed Destroyed - UNITED24 Media"
    ]
   },
   "today": [
