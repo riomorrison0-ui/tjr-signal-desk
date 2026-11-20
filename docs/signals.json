@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T19:30:20.361303-05:00",
+ "updated": "2026-11-19T19:35:20.336458-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3612.91,
-   "feed": "real-time gold (PAXG, matched to spot +7.52)",
-   "time": "2026-11-19T19:25:00-05:00"
+   "price": 3608.63,
+   "feed": "real-time gold (PAXG, matched to spot +5.54)",
+   "time": "2026-11-19T19:30:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Senate Republicans reject legislation to end Iran war By Investing.com - Investing.com UK",
-    "Iran war could cut global oil demand by over 4% by 2035 - IEA - Iran International",
-    "Make doves, not war \u2014 and other news in pictures - The Times"
+    "South Korea\u2019s Coal Use Is Surging \u2013 and Not Just Because of the Iran War - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
+    "Iran war has worsened U.S. munitions shortage, government watchdog finds - The Washington Post",
+    "Iran war could cut global oil demand by over 4% by 2035 - IEA - Iran International"
    ]
   },
   "today": [
