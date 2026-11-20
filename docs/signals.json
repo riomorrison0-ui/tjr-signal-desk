@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T12:15:20.383136-05:00",
+ "updated": "2026-11-20T12:20:20.401349-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3539.16,
-   "feed": "real-time gold (PAXG, matched to spot +9.23)",
-   "time": "2026-11-20T12:10:00-05:00"
+   "price": 3531.2,
+   "feed": "real-time gold (PAXG, matched to spot +4.76)",
+   "time": "2026-11-20T12:15:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Doncaster Knights declare intentions as PREM Rugby sparks expansion bidding war - Yorkshire Post",
-    "European leaders condemn Russia\u2019s \u2018intentional provocation\u2019 as missile hits Poland - The Independent",
-    "US-launched missile strikes outskirts of Qeshm Island in southern Iran: Iranian media - Anadolu Ajans\u0131"
+    "Sovcomflot credits sanctions adaptation for profit rebound as EU targets network behind former fleet - Lloyd's List",
+    "Polish anti-war protesters demand spending on hospitals, not weapons, dismiss concerns over Russia - Anadolu Ajans\u0131",
+    "ONE Friday Fights 179 Main Event Result: Klarob\u2019s Iron Chin Carries Him Through Pulsating War With Chartpayak - ONE Championship"
    ]
   },
   "today": [
