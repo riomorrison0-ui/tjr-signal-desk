@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T03:35:20.443786-05:00",
+ "updated": "2026-11-20T03:40:20.446499-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3587.34,
-   "feed": "real-time gold (PAXG, matched to spot +5.15)",
-   "time": "2026-11-20T03:30:00-05:00"
+   "price": 3589.2,
+   "feed": "real-time gold (PAXG, matched to spot +4.84)",
+   "time": "2026-11-20T03:35:00-05:00"
   }
  },
  "stats": {
@@ -70,9 +70,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Palestinian killed as Israel continues to violate Gaza ceasefire - Anadolu Ajans\u0131",
-    "Two vessels sink off Bulgaria as missile attacks in the Black Sea continue \u2014 SMI DIGITAL - www.shipmanagementinternational.com",
-    "China\u2019s Persian Gulf oil imports hit high since start of Iran war as producers cut prices - South China Morning Post"
+    "The EU sets up a Sanctions Office to ensure full compliance - Atalayar",
+    "Hamas rebuilds its grip on Gaza three years into war - Ynetnews",
+    "Palestinian killed as Israel continues to violate Gaza ceasefire - Anadolu Ajans\u0131"
    ]
   },
   "today": [
