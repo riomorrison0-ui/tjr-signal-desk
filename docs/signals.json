@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T16:00:20.344557-05:00",
+ "updated": "2026-11-20T16:05:20.368530-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3524.76,
-   "feed": "real-time gold (PAXG, matched to spot +2.86)",
-   "time": "2026-11-20T15:55:00-05:00"
+   "price": 3525.86,
+   "feed": "real-time gold (PAXG, matched to spot +3.90)",
+   "time": "2026-11-20T16:00:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Bomb Experts Test Emerging Technologies at Fort Knox - U.S. Department of War (.gov)",
-    "Trump and Vance take questions on the Iran war and midterms loss - NBC News",
-    "Raytheon selects Ursa Major and Avio USA to develop new Tomahawk missile booster - FlightGlobal"
+    "Edinburgh students say \u2018no to war\u2019 amid international youth strikes - STV News",
+    "Sudan\u2019s war leaves disabled children missing out on education - Al Jazeera",
+    "In 2011, Hilary Swank accidentally endorsed an accused war criminal. Four weeks later, she fired her manager and apologised - Far Out Magazine"
    ]
   },
   "today": [
