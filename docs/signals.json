@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T19:23:39.400478-05:00",
+ "updated": "2026-11-21T01:09:43.979336-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -2.12)",
-   "time": "2026-11-20T19:15:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +28.43)",
+   "time": "2026-11-21T01:00:00-05:00"
   }
  },
  "stats": {
@@ -74,9 +74,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Troops from Europe's coalition for Ukraine train in war's shadow - AFP.com",
-    "The cost of the US war with Iran reaches $48.3 billion - Anadolu Ajans\u0131",
-    "Vance declines to say Iran war was worth it, but says he supports Trump - The Washington Post"
+    "US sanctions Iranian oil facilitators as Washington ramps up economic pressure on Tehran - Rudaw",
+    "Bridges loom large in war and peace as Trump cosies up to Putin and Xi: Patrick Mercer - Yorkshire Post",
+    "Melania Trump named her main Christmas wish \u2013 it concerns the war in Ukraine - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [],
@@ -87,8 +87,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.39,
-  "gbpusd": 1.30983
+  "stop_cap_usd": 52.33,
+  "gbpusd": 1.30818
  },
  "backtest": {
   "portfolio": {
