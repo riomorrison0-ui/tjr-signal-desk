@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T16:55:20.349870-05:00",
+ "updated": "2026-11-20T19:23:39.400478-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot +1.66)",
-   "time": "2026-11-20T16:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -2.12)",
+   "time": "2026-11-20T19:15:00-05:00"
   }
  },
  "stats": {
@@ -74,53 +74,12 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says - DW.com",
-    "Russian ballistic missile strikes on Kryvyi Rih kill 7-year-old, paramedic, injure 42 others in double-tap attack - The Kyiv Independent",
-    "The New York Times. . Poland on Friday said three Russian objects, including at least one missile, crashed onto Polish territory, denouncing the episodes as a likely Russian \u201cprovocation.\u201d The incident came as Poland was hosting a two-week military exercise - Facebook"
+    "Troops from Europe's coalition for Ukraine train in war's shadow - AFP.com",
+    "The cost of the US war with Iran reaches $48.3 billion - Anadolu Ajans\u0131",
+    "Vance declines to say Iran war was worth it, but says he supports Trump - The Washington Post"
    ]
   },
-  "today": [
-   {
-    "title": "FOMC Member Waller Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T13:25:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Revised UoM Consumer Sentiment",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "51.7",
-    "previous": "51.0"
-   },
-   {
-    "title": "Revised UoM Inflation Expectations",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T15:00:00+00:00",
-    "forecast": "",
-    "previous": "4.3%"
-   },
-   {
-    "title": "President Trump Speaks",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-20T17:00:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "FOMC Member Cook Speaks",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-20T17:15:00+00:00",
-    "forecast": "",
-    "previous": ""
-   }
-  ],
+  "today": [],
   "ok_calendar": true,
   "ok_headlines": true
  },
