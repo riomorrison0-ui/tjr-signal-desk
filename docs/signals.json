@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T11:45:20.213595-05:00",
+ "updated": "2026-11-22T17:31:26.062451-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -26.59)",
-   "time": "2026-11-22T11:40:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -9.01)",
+   "time": "2026-11-22T17:25:00-05:00"
   }
  },
  "stats": {
@@ -88,12 +88,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Israeli attacks kill 3 Gazans, injure 4 in latest ceasefire violation - Anadolu Ajans\u0131",
-    "Pakistan FM hopeful for US-Iran deal, warns against prolonged war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility - The National"
+    "Today\u2019s Thanksgiving holiday was invented amid the Civil War to unite a divided country - PBS",
+    "IDF Intelligence Warns Israeli Strike On Iran Could Trigger Multifront War - Report - i24NEWS",
+    "The War And Treaty Bring Babyface, Wynonna And Soul To 'The Story of Michael and Tanya' - That Eric Alper"
    ]
   },
   "today": [],
