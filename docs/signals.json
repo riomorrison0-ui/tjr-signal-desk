@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T18:00:20.339436-05:00",
+ "updated": "2026-11-22T18:05:20.327456-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -12.89)",
-   "time": "2026-11-22T17:55:00-05:00"
+   "price": 3576.16,
+   "feed": "real-time gold (PAXG, matched to spot +6.35)",
+   "time": "2026-11-22T18:00:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
     "Ukraine war spilling into NATO territory - NPR",
-    "Man swims in Strait of Hormuz to show war's wildlife impact - NBC News",
-    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com"
+    "Man swims in Strait of Hormuz to show war's wildlife impact - NBC News"
    ]
   },
   "today": [],
