@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T17:31:26.062451-05:00",
+ "updated": "2026-11-22T18:00:20.339436-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -9.01)",
-   "time": "2026-11-22T17:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -12.89)",
+   "time": "2026-11-22T17:55:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Today\u2019s Thanksgiving holiday was invented amid the Civil War to unite a divided country - PBS",
-    "IDF Intelligence Warns Israeli Strike On Iran Could Trigger Multifront War - Report - i24NEWS",
-    "The War And Treaty Bring Babyface, Wynonna And Soul To 'The Story of Michael and Tanya' - That Eric Alper"
+    "Ukraine war spilling into NATO territory - NPR",
+    "Man swims in Strait of Hormuz to show war's wildlife impact - NBC News",
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com"
    ]
   },
   "today": [],
