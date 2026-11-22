@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T18:27:32.832895-05:00",
+ "updated": "2026-11-22T00:13:41.157119-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -17.04)",
-   "time": "2026-11-21T18:20:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +2.56)",
+   "time": "2026-11-22T00:05:00-05:00"
   }
  },
  "stats": {
@@ -72,11 +72,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran faces a \u2018silent economic war\u2019, says Iranian president - Al Jazeera",
-    "Russo-Ukrainian war, day 1732: Residents report explosions and drone activity at Russia\u2019s Baltic Fleet base in Kaliningrad - Euromaidan Press",
-    "Saudi-led coalition says it intercepted Houthi ballistic missile targeting western region - Middle East Eye"
+    "Fidan Blames Greek and Israeli Lobbies for Blocking S-400 Sanctions Relief - GreekReporter.com",
+    "Slow Burn: Diversifying the Western Solid Rocket Motor Industrial Base - Missile Matters \u2014 with Fabian Hoffmann",
+    "Pakistan FM hopeful for US-Iran deal, warns against prolonged war - Arab News PK"
    ]
   },
   "today": [],
