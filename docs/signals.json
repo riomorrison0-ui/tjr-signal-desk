@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T00:13:41.157119-05:00",
+ "updated": "2026-11-22T05:59:46.649161-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot +2.56)",
-   "time": "2026-11-22T00:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -23.31)",
+   "time": "2026-11-22T05:50:00-05:00"
   }
  },
  "stats": {
@@ -69,14 +69,31 @@
  },
  "news": {
   "blackout": null,
-  "next": [],
+  "next": [
+   {
+    "title": "Core PCE Price Index m/m",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-25T13:30:00+00:00",
+    "forecast": "0.3%",
+    "previous": "0.3%"
+   },
+   {
+    "title": "Prelim GDP q/q",
+    "country": "USD",
+    "impact": "High",
+    "time": "2026-11-25T13:30:00+00:00",
+    "forecast": "3.5%",
+    "previous": "3.4%"
+   }
+  ],
   "risk": {
    "level": "high",
    "count": 6,
    "examples": [
-    "Fidan Blames Greek and Israeli Lobbies for Blocking S-400 Sanctions Relief - GreekReporter.com",
-    "Slow Burn: Diversifying the Western Solid Rocket Motor Industrial Base - Missile Matters \u2014 with Fabian Hoffmann",
-    "Pakistan FM hopeful for US-Iran deal, warns against prolonged war - Arab News PK"
+    "Opinion: Wallabies clash with Wales was a 'middleweight fight' and not a 'war' between 'rugby\u2019s true heavyweights' - Planet Rugby",
+    "Iran's 'missile cities': Did western tunnelling equipment help dig them? - The National",
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ"
    ]
   },
   "today": [],
