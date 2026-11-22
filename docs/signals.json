@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T05:59:46.649161-05:00",
+ "updated": "2026-11-22T11:45:20.213595-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3534.41,
-   "feed": "real-time gold (PAXG, matched to spot -23.31)",
-   "time": "2026-11-22T05:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -26.59)",
+   "time": "2026-11-22T11:40:00-05:00"
   }
  },
  "stats": {
@@ -88,12 +88,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Opinion: Wallabies clash with Wales was a 'middleweight fight' and not a 'war' between 'rugby\u2019s true heavyweights' - Planet Rugby",
-    "Iran's 'missile cities': Did western tunnelling equipment help dig them? - The National",
-    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ"
+    "Israeli attacks kill 3 Gazans, injure 4 in latest ceasefire violation - Anadolu Ajans\u0131",
+    "Pakistan FM hopeful for US-Iran deal, warns against prolonged war - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility - The National"
    ]
   },
   "today": [],
