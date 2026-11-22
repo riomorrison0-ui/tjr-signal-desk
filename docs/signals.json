@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T18:45:20.296056-05:00",
+ "updated": "2026-11-22T18:50:20.334159-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3578.9,
-   "feed": "real-time gold (PAXG, matched to spot +4.99)",
-   "time": "2026-11-22T18:40:00-05:00"
+   "price": 3578.69,
+   "feed": "real-time gold (PAXG, matched to spot +6.41)",
+   "time": "2026-11-22T18:45:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Europe Is \u2018Somewhere Between Peace and War\u2019 With Russia, Former Finnish Defense Chief Says - Mezha.net",
     "Polish authorities find Russian missile remains at three sites following airspace incursion - The Kyiv Independent",
-    "Europe Is \u2018Somewhere Between Peace And War\u2019 With Russia, Former Finnish Defense Chief Says - Radio Free Europe/Radio Liberty",
-    "Russian Ships Struck in Attacks Far From Ukraine as War\u2019s Fallout Spreads - WSJ"
+    "Europe Is \u2018Somewhere Between Peace And War\u2019 With Russia, Former Finnish Defense Chief Says - Radio Free Europe/Radio Liberty"
    ]
   },
   "today": [],
