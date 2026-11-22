@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T18:30:20.425238-05:00",
+ "updated": "2026-11-22T18:35:20.323969-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3579.08,
-   "feed": "real-time gold (PAXG, matched to spot +9.19)",
-   "time": "2026-11-22T18:25:00-05:00"
+   "price": 3583.03,
+   "feed": "real-time gold (PAXG, matched to spot +6.97)",
+   "time": "2026-11-22T18:30:00-05:00"
   }
  },
  "stats": {
@@ -89,11 +89,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Polish authorities find Russian missile remains at three sites following airspace incursion - The Kyiv Independent",
     "Europe Is \u2018Somewhere Between Peace And War\u2019 With Russia, Former Finnish Defense Chief Says - Radio Free Europe/Radio Liberty",
-    "Russian Ships Struck in Attacks Far From Ukraine as War\u2019s Fallout Spreads - WSJ",
-    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ"
+    "Russian Ships Struck in Attacks Far From Ukraine as War\u2019s Fallout Spreads - WSJ"
    ]
   },
   "today": [],
