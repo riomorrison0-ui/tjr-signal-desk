@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T15:10:20.432018-05:00",
+ "updated": "2026-11-23T15:15:20.432334-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3639.85,
-   "feed": "real-time gold (PAXG, matched to spot +7.23)",
-   "time": "2026-11-23T15:05:00-05:00"
+   "price": 3640.86,
+   "feed": "real-time gold (PAXG, matched to spot +6.34)",
+   "time": "2026-11-23T15:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "US targets Iranian 'shadow banking' financial institutes with sanctions - The Jerusalem Post",
-    "\u2018Russia is testing our systems\u2019: Why Poland cannot stop every missile - TVP World",
-    "UK sanctions Myanmar\u2019s President and military figures after genocide ruling - LBC"
+    "Qalibaf Says Iran Will Not Accept \u2018No War, No Peace\u2019 Stalemate with US - Kurdistan24",
+    "Will Congress End the Iran War? - The American Prospect",
+    "Every 17th Death in Russia Since 2022 Linked to War, Leaked Rosstat Records Show - UNITED24 Media"
    ]
   },
   "today": [
