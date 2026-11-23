@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T22:40:20.317415-05:00",
+ "updated": "2026-11-22T22:45:20.354243-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3607.36,
-   "feed": "real-time gold (PAXG, matched to spot +5.91)",
-   "time": "2026-11-22T22:35:00-05:00"
+   "price": 3608.3,
+   "feed": "real-time gold (PAXG, matched to spot +6.90)",
+   "time": "2026-11-22T22:40:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Briton swims Hormuz strait to highlight environmental cost of Iran war | The Guardian - newspaper - Magzter",
     "RFI: \"US scraps Trump waiver for sanctions against Israeli mining mogul Gertler\" - https://thesentry.org/",
-    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-    "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news - Chattanooga Times Free Press"
+    "Live - Trump considers Iran strikes after new year, Israel pushes for earlier action - Iran International"
    ]
   },
   "today": [
