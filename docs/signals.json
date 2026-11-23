@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T17:25:20.405084-05:00",
+ "updated": "2026-11-23T17:30:20.401662-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3633.66,
-   "feed": "real-time gold (PAXG, matched to spot +3.13)",
-   "time": "2026-11-23T17:20:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +3.02)",
+   "time": "2026-11-23T17:25:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Contracts for Nov. 23, 2026 - U.S. Department of War (.gov)",
-    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
-    "'A war of unmanned machines, AI and total transparency of the battlefield' - France 24"
+    "EU unveils new sanctions against Russia focusing on banks, cryptocurrency, and sports events - European Interest",
+    "Could divided Libya become a new front in the Russia-Ukraine war? - Arab News",
+    "Rutte: NATO Must Prepare Civilians, Not Just Armies, for Possible War With Russia - UNITED24 Media"
    ]
   },
   "today": [
