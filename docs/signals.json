@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T22:10:20.350818-05:00",
+ "updated": "2026-11-22T22:15:20.353025-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3598.95,
-   "feed": "real-time gold (PAXG, matched to spot +6.29)",
-   "time": "2026-11-22T22:05:00-05:00"
+   "price": 3604.61,
+   "feed": "real-time gold (PAXG, matched to spot +7.07)",
+   "time": "2026-11-22T22:10:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Report: IDF warns Netanyahu strike on Iran could trigger wider regional war - chinadailyhk",
-    "Trump Sets New Year Deadline For Iran, Warns Of Military Strikes - NDTV",
-    "Dynagas LNG Earnings Rise as Russian Sanctions Threaten Key Charters - Crude Oil Prices Today | OilPrice.com"
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
+    "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news - Chattanooga Times Free Press",
+    "Report: IDF warns Netanyahu strike on Iran could trigger wider regional war - chinadailyhk"
    ]
   },
   "today": [
