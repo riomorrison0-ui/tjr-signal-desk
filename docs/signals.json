@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:50:20.434799-05:00",
+ "updated": "2026-11-23T14:55:20.436824-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3640.13,
-   "feed": "real-time gold (PAXG, matched to spot +6.63)",
-   "time": "2026-11-23T14:45:00-05:00"
+   "price": 3641.18,
+   "feed": "real-time gold (PAXG, matched to spot +6.60)",
+   "time": "2026-11-23T14:50:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 8,
    "examples": [
-    "Deborah Ann Woll to return as Faye in the God of War television series - TheSixthAxis",
-    "Russia threatens \u2018hostile\u2019 Estonia with \u2018open war\u2019 - Al Jazeera",
-    "Putin\u2019s ships burning off Libya shows how Ukraine war has gone global - The Times"
+    "US targets Iranian 'shadow banking' financial institutes with sanctions - The Jerusalem Post",
+    "\u2018Russia is testing our systems\u2019: Why Poland cannot stop every missile - TVP World",
+    "UK sanctions Myanmar\u2019s President and military figures after genocide ruling - LBC"
    ]
   },
   "today": [
