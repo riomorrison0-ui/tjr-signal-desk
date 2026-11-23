@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T03:10:20.305633-05:00",
+ "updated": "2026-11-23T03:15:20.307110-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3605.26,
-   "feed": "real-time gold (PAXG, matched to spot +4.80)",
-   "time": "2026-11-23T03:05:00-05:00"
+   "price": 3603.92,
+   "feed": "real-time gold (PAXG, matched to spot +5.18)",
+   "time": "2026-11-23T03:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Asda held takeover talks with Mothercare before Iran war - Retail Week",
-    "War update: 149 clashes on front lines over past day, heaviest fighting on Kostiantynivka, Pokrovsk axes - Ukrinform",
-    "Iran deal could be worse for Israel than war, Middle East expert warns - The Jerusalem Post"
+    "US senator warns North Korea growing \u2018more lethal\u2019 due to Ukraine war - NK News",
+    "South Korea plans to expand anti-piracy mission near Oman, denies involvement in Iran war - Anadolu Ajans\u0131",
+    "Invasion Skies Break Seven-Year Silence With \u2018Never Really Starts\u2019 - Broken 8 Music"
    ]
   },
   "today": [
