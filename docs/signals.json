@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T00:00:20.367402-05:00",
+ "updated": "2026-11-23T00:05:20.362640-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3607.03,
-   "feed": "real-time gold (PAXG, matched to spot +5.64)",
-   "time": "2026-11-22T23:55:00-05:00"
+   "price": 3608.26,
+   "feed": "real-time gold (PAXG, matched to spot +7.50)",
+   "time": "2026-11-23T00:00:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran unveils missile launcher capable of firing liquid-fueled twin missiles - Saudi Gazette",
-    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-    "Iran faces winter trouble as war damage deepens energy shortfall - Amwaj.media"
+    "Iran Unveils Missile Launcher Amid U.S. Tensions - \uc870\uc120\uc77c\ubcf4",
+    "China is winning the car war - Financial Times",
+    "Trump blames Democrats for Iran escalation, stock market decline - Arab News"
    ]
   },
   "today": [
