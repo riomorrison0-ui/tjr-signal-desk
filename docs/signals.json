@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T16:55:20.433062-05:00",
+ "updated": "2026-11-23T17:00:20.402446-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3633.66,
-   "feed": "real-time gold (PAXG, matched to spot +6.78)",
-   "time": "2026-11-23T16:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +6.62)",
+   "time": "2026-11-23T16:55:00-05:00"
   }
  },
  "stats": {
@@ -95,8 +95,8 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Dispatch from 2032: After Chinese salvos fail to defeat Taiwan, Beijing is trapped in a war of attrition - Atlantic Council",
-    "US escalates sanctions on Iran, targets \u2018shadow banking\u2019 networks - Al Jazeera",
+    "'A war of unmanned machines, AI and total transparency of the battlefield' - France 24",
+    "The 10 Best War Books of All Time, Ranked - Collider",
     "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
    ]
   },
