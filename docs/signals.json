@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:35:20.417127-05:00",
+ "updated": "2026-11-23T14:40:20.447328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3648.73,
-   "feed": "real-time gold (PAXG, matched to spot +8.25)",
-   "time": "2026-11-23T14:30:00-05:00"
+   "price": 3642.68,
+   "feed": "real-time gold (PAXG, matched to spot +8.63)",
+   "time": "2026-11-23T14:35:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Putin\u2019s ships burning off Libya shows how Ukraine war has gone global - The Times",
-    "US targets UAE-based companies in new sanctions over alleged Iran links - The New Region",
-    "Zelenskyy warned of Russia's preparations for new missile strikes - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "Deborah Ann Woll to return as Faye in the God of War television series - TheSixthAxis",
+    "Russia threatens \u2018hostile\u2019 Estonia with \u2018open war\u2019 - Al Jazeera",
+    "Putin\u2019s ships burning off Libya shows how Ukraine war has gone global - The Times"
    ]
   },
   "today": [
