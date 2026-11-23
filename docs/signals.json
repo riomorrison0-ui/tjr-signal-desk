@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T20:35:20.346355-05:00",
+ "updated": "2026-11-22T20:40:20.323016-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3610.19,
-   "feed": "real-time gold (PAXG, matched to spot +4.39)",
-   "time": "2026-11-22T20:30:00-05:00"
+   "price": 3605.68,
+   "feed": "real-time gold (PAXG, matched to spot +5.41)",
+   "time": "2026-11-22T20:35:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US eyes lasting agreement to end Iran war - China Daily Global Edition",
-    "Trump: Iran Escalated Missile and Drone Attacks After Democrats' Midterm Victory - \u0635\u062d\u064a\u0641\u0629 \u0633\u0628\u0642 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629",
-    "In 1970, Motown blocked The Temptations from releasing an anti-war anthem. It would go on to sell over 3,000,000 copies - Far Out Magazine"
+    "Game Of Thrones Is Rewriting The Show\u2019s Ending In 2027's War For Westeros - IMDb",
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
+    "Warning to Trump: Iran unveils double missile launcher in underground missile city as US weighs strikes - Gulf News"
    ]
   },
   "today": [
