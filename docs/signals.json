@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T04:25:20.397128-05:00",
+ "updated": "2026-11-23T04:30:20.326349-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3620.85,
-   "feed": "real-time gold (PAXG, matched to spot +9.28)",
-   "time": "2026-11-23T04:20:00-05:00"
+   "price": 3619.05,
+   "feed": "real-time gold (PAXG, matched to spot +5.72)",
+   "time": "2026-11-23T04:25:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Holy See to UN weapons conference: Autonomous weapons lead to \u2018even more inhumane conduct\u2019 in war - EWTN Vatican",
-    "The War & Treaty Announce First Ever Holiday EP - TotalNtertainment",
-    "Widowed amid war and displacement: Sudanese mothers struggle to survive - Al Jazeera"
+    "UK lifts sanctions on LNG carrier linked to Russian cargo - TradeWinds News",
+    "Sanctions and double standards in Judea and Samaria - JNS",
+    "Ukraine takes its naval war against Russia into the Mediterranean - The Arab Weekly"
    ]
   },
   "today": [
