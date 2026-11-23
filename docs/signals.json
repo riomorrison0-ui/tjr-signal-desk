@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T20:05:20.350517-05:00",
+ "updated": "2026-11-22T20:10:20.332168-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3589.08,
-   "feed": "real-time gold (PAXG, matched to spot +8.79)",
-   "time": "2026-11-22T20:00:00-05:00"
+   "price": 3601.32,
+   "feed": "real-time gold (PAXG, matched to spot +3.98)",
+   "time": "2026-11-22T20:05:00-05:00"
   }
  },
  "stats": {
@@ -89,11 +89,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Life during war: Kyiv\u2019s restaurant owners brace for tough winter as war pressures mount - Sight Magazine",
-    "How Ukraine is building an AI-powered government that can withstand war - GovInsider",
-    "Glasgow\u2019s young activists take to the streets against war and attacks on education - Morning Star | The People\u2019s Daily"
+    "In 1970, Motown blocked The Temptations from releasing an anti-war anthem. It would go on to sell over 3,000,000 copies - Far Out Magazine",
+    "Sensible Band go to War - the musical legacy of Cannon Fodder - Metro.co.uk",
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com"
    ]
   },
   "today": [
