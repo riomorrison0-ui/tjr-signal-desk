@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T15:55:20.432245-05:00",
+ "updated": "2026-11-23T16:00:20.429318-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3630.92,
-   "feed": "real-time gold (PAXG, matched to spot +4.90)",
-   "time": "2026-11-23T15:50:00-05:00"
+   "price": 3636.15,
+   "feed": "real-time gold (PAXG, matched to spot +7.32)",
+   "time": "2026-11-23T15:55:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 8,
    "examples": [
-    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
-    "UK sanctions Myanmar president, military figures after genocide ruling - South China Morning Post",
-    "COPD Treatment Escalation Beyond Inhalers, With Brian Bizik, PA-C - HCPLive"
+    "Investigating Russian Financial Networks Behind War and Sanctions Evasion - Pulitzer Center",
+    "New EU sanctions proposal threatens Russia\u2019s return to international sport - Sports Business Journal",
+    "UN warns Black Sea drone attacks threaten food exports as Russia-Ukraine war widens - The National"
    ]
   },
   "today": [
