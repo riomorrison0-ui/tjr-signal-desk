@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T00:50:20.325868-05:00",
+ "updated": "2026-11-23T00:55:20.361882-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3622.72,
-   "feed": "real-time gold (PAXG, matched to spot +6.10)",
-   "time": "2026-11-23T00:45:00-05:00"
+   "price": 3620.49,
+   "feed": "real-time gold (PAXG, matched to spot +7.09)",
+   "time": "2026-11-23T00:50:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Democrats back off demand to bar Iran war funding in spending bill, offer to work with Trump - World Socialist Web Site",
     "Possible Taiwan takeover not 'invasion': Chinese envoy to Australia - Yeni Safak English",
-    "Kim Jong-un's luxury fleet appears to grow despite sanctions - The Korea Herald",
-    "China is winning the car war - Financial Times"
+    "Kim Jong-un's luxury fleet appears to grow despite sanctions - The Korea Herald"
    ]
   },
   "today": [
