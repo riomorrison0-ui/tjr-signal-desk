@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T19:50:20.322429-05:00",
+ "updated": "2026-11-22T19:55:20.281624-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.35,
-   "feed": "real-time gold (PAXG, matched to spot +3.03)",
-   "time": "2026-11-22T19:45:00-05:00"
+   "price": 3578.74,
+   "feed": "real-time gold (PAXG, matched to spot +5.61)",
+   "time": "2026-11-22T19:50:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Glasgow\u2019s young activists take to the streets against war and attacks on education - Morning Star | The People\u2019s Daily",
-    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-    "Hull's hidden architectural gems revealed in new walking tour celebrating city's post-war history - Yorkshire Post"
+    "Life during war: Kyiv\u2019s restaurant owners brace for tough winter as war pressures mount - Sight Magazine",
+    "How Ukraine is building an AI-powered government that can withstand war - GovInsider",
+    "Glasgow\u2019s young activists take to the streets against war and attacks on education - Morning Star | The People\u2019s Daily"
    ]
   },
   "today": [
