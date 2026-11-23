@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T20:50:20.321573-05:00",
+ "updated": "2026-11-22T20:55:20.345124-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3607.47,
-   "feed": "real-time gold (PAXG, matched to spot +8.98)",
-   "time": "2026-11-22T20:45:00-05:00"
+   "price": 3604.28,
+   "feed": "real-time gold (PAXG, matched to spot +7.37)",
+   "time": "2026-11-22T20:50:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Skateboarding in Rubble: Young skateboarders in Gaza turn war debris into makeshift skate parks - CGTN",
     "Game Of Thrones Is Rewriting The Show\u2019s Ending In 2027's War For Westeros - IMDb",
-    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-    "Warning to Trump: Iran unveils double missile launcher in underground missile city as US weighs strikes - Gulf News"
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com"
    ]
   },
   "today": [
