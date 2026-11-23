@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T00:20:20.302056-05:00",
+ "updated": "2026-11-23T00:25:20.381008-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3611.84,
-   "feed": "real-time gold (PAXG, matched to spot +6.03)",
-   "time": "2026-11-23T00:15:00-05:00"
+   "price": 3613.54,
+   "feed": "real-time gold (PAXG, matched to spot +7.12)",
+   "time": "2026-11-23T00:20:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran Unveils Missile Launcher Amid U.S. Tensions - \uc870\uc120\uc77c\ubcf4",
     "China is winning the car war - Financial Times",
-    "Trump blames Democrats for Iran escalation, stock market decline - Arab News"
+    "Avoiding Colombia\u2019s Escalation Trap - Asociaci\u00f3n Almendr\u00f3n",
+    "Iran war impact doubled Cayman\u2019s inflation rate in second quarter - Cayman Compass"
    ]
   },
   "today": [
