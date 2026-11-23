@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T01:35:20.338396-05:00",
+ "updated": "2026-11-23T01:40:20.413307-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3619.74,
-   "feed": "real-time gold (PAXG, matched to spot +6.30)",
-   "time": "2026-11-23T01:30:00-05:00"
+   "price": 3621.28,
+   "feed": "real-time gold (PAXG, matched to spot +5.47)",
+   "time": "2026-11-23T01:35:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Drone strike on sanctioned Russian ship brings war risk to Baltic shipping lanes - Insurance Business",
-    "Iranian attacks in Hormuz, Persian Gulf, Gulf of Oman highest since war's start - The Jerusalem Post",
-    "Opinion | Democrats Must Defund Trump\u2019s War in Iran - The New York Times"
+    "Oil Prices Slip as Market Anxiety Grows Over Iran War, Threats to Gulf Shipping - Arise News",
+    "UN warns Libya must not become stage for Russia-Ukraine war after drone strikes - RFI",
+    "Iran Debates How to Achieve its Remaining War Goals - The Soufan Center"
    ]
   },
   "today": [
