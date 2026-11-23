@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T18:00:20.387826-05:00",
+ "updated": "2026-11-23T18:05:20.441212-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3633.66,
-   "feed": "real-time gold (PAXG, matched to spot +3.48)",
-   "time": "2026-11-23T17:55:00-05:00"
+   "price": 3638.69,
+   "feed": "real-time gold (PAXG, matched to spot +7.64)",
+   "time": "2026-11-23T18:00:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "EU unveils new sanctions against Russia focusing on banks, cryptocurrency, and sports events - European Interest",
-    "Could divided Libya become a new front in the Russia-Ukraine war? - Arab News",
-    "Rutte: NATO Must Prepare Civilians, Not Just Armies, for Possible War With Russia - UNITED24 Media"
+    "Missile on truck in Llangollen goes viral on TikTok - BBC",
+    "The Ukraine War Spreads - Mark Urban | Substack",
+    "Inside the \u2018war room\u2019 that lobbied Donald Trump to bring back Nvidia\u2019s Jensen Huang - Financial Times"
    ]
   },
   "today": [
