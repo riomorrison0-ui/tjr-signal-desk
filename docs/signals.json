@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T17:10:20.439576-05:00",
+ "updated": "2026-11-23T17:15:20.395089-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3633.66,
-   "feed": "real-time gold (PAXG, matched to spot +6.99)",
-   "time": "2026-11-23T17:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +3.66)",
+   "time": "2026-11-23T17:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "'A war of unmanned machines, AI and total transparency of the battlefield' - France 24",
-    "The 10 Best War Books of All Time, Ranked - Collider",
-    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
+    "Contracts for Nov. 23, 2026 - U.S. Department of War (.gov)",
+    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
+    "'A war of unmanned machines, AI and total transparency of the battlefield' - France 24"
    ]
   },
   "today": [
