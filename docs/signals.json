@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T03:25:20.316312-05:00",
+ "updated": "2026-11-23T03:30:20.423047-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3604.89,
-   "feed": "real-time gold (PAXG, matched to spot +6.68)",
-   "time": "2026-11-23T03:20:00-05:00"
+   "price": 3607.02,
+   "feed": "real-time gold (PAXG, matched to spot +6.22)",
+   "time": "2026-11-23T03:25:00-05:00"
   }
  },
  "stats": {
@@ -92,12 +92,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 7,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "US senator warns North Korea growing \u2018more lethal\u2019 due to Ukraine war - NK News",
-    "South Korea plans to expand anti-piracy mission near Oman, denies involvement in Iran war - Anadolu Ajans\u0131",
-    "Invasion Skies Break Seven-Year Silence With \u2018Never Really Starts\u2019 - Broken 8 Music"
+    "Naghdi: Enemy Dares Not Launch a Ground Invasion of Iran - WANA News Agency",
+    "Pugh\u2019s Three-Day Hormuz Swim Puts The Iran War\u2019s Wildlife Toll In Focus - 2oceansvibe News",
+    "Exclusive: Munich Re Syndicate launches affirmative cyber war cover from 1.1 - The Insurer"
    ]
   },
   "today": [
