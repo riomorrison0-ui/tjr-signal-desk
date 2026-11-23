@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T22:25:20.341239-05:00",
+ "updated": "2026-11-22T22:30:20.344135-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3606.96,
-   "feed": "real-time gold (PAXG, matched to spot +6.41)",
-   "time": "2026-11-22T22:20:00-05:00"
+   "price": 3603.58,
+   "feed": "real-time gold (PAXG, matched to spot +4.73)",
+   "time": "2026-11-22T22:25:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "RFI: \"US scraps Trump waiver for sanctions against Israeli mining mogul Gertler\" - https://thesentry.org/",
     "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
-    "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news - Chattanooga Times Free Press",
-    "Report: IDF warns Netanyahu strike on Iran could trigger wider regional war - chinadailyhk"
+    "Iran strikes 3 tankers as it shows off missile launchers, and other Mideast news - Chattanooga Times Free Press"
    ]
   },
   "today": [
