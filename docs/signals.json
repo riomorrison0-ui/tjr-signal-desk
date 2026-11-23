@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T04:40:20.384962-05:00",
+ "updated": "2026-11-23T04:45:20.478809-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3616.74,
-   "feed": "real-time gold (PAXG, matched to spot +9.17)",
-   "time": "2026-11-23T04:35:00-05:00"
+   "price": 3617.86,
+   "feed": "real-time gold (PAXG, matched to spot +6.88)",
+   "time": "2026-11-23T04:40:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Gaza turned into \u2018toxic wasteland\u2019 by Israel\u2019s war, says new report - Al Jazeera",
     "UK lifts sanctions on LNG carrier linked to Russian cargo - TradeWinds News",
-    "Sanctions and double standards in Judea and Samaria - JNS",
-    "Ukraine takes its naval war against Russia into the Mediterranean - The Arab Weekly"
+    "Sanctions and double standards in Judea and Samaria - JNS"
    ]
   },
   "today": [
