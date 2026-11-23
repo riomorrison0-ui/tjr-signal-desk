@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T18:15:20.427522-05:00",
+ "updated": "2026-11-23T18:20:20.429697-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3630.32,
-   "feed": "real-time gold (PAXG, matched to spot +6.81)",
-   "time": "2026-11-23T18:10:00-05:00"
+   "price": 3631.51,
+   "feed": "real-time gold (PAXG, matched to spot +7.01)",
+   "time": "2026-11-23T18:15:00-05:00"
   }
  },
  "stats": {
@@ -92,12 +92,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Missile on truck in Llangollen goes viral on TikTok - BBC",
-    "The Ukraine War Spreads - Mark Urban | Substack",
-    "Inside the \u2018war room\u2019 that lobbied Donald Trump to bring back Nvidia\u2019s Jensen Huang - Financial Times"
+    "Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Anadolu Ajans\u0131",
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
+    "EU sanctions neo-Nazi terror group leader of 'The Base' - The Jerusalem Post"
    ]
   },
   "today": [
