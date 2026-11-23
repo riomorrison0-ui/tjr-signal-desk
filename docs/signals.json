@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T05:03:39.284742-05:00",
+ "updated": "2026-11-23T13:38:19.538209-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3618.08,
-   "feed": "real-time gold (PAXG, matched to spot +10.05)",
-   "time": "2026-11-23T04:55:00-05:00"
+   "price": 3648.81,
+   "feed": "real-time gold (PAXG, matched to spot +4.73)",
+   "time": "2026-11-23T13:30:00-05:00"
   }
  },
  "stats": {
@@ -92,9 +92,13 @@
    }
   ],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 5,
+   "examples": [
+    "Senate GOP leaders signal openness to cutting off Iran war funding as shutdown inches closer - The Washington Post",
+    "EU Unveils 22nd Sanctions Package Against Russia: Cryptocurrency, SWIFT, Visas and Restrictions on Athletes - REFORM.news",
+    "EU Targets Russian Ex-Soldiers, Banks And Sports In Sanctions - tovima.com"
+   ]
   },
   "today": [
    {
@@ -129,8 +133,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.42,
-  "gbpusd": 1.31056
+  "stop_cap_usd": 52.09,
+  "gbpusd": 1.30229
  },
  "backtest": {
   "portfolio": {
