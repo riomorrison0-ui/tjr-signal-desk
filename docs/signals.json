@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T19:00:20.345722-05:00",
+ "updated": "2026-11-22T19:05:20.344716-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3583.41,
-   "feed": "real-time gold (PAXG, matched to spot +4.52)",
-   "time": "2026-11-22T18:55:00-05:00"
+   "price": 3575.59,
+   "feed": "real-time gold (PAXG, matched to spot +5.30)",
+   "time": "2026-11-22T19:00:00-05:00"
   }
  },
  "stats": {
@@ -91,12 +91,37 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Europe Is \u2018Somewhere Between Peace and War\u2019 With Russia, Former Finnish Defense Chief Says - Mezha.net",
-    "Polish authorities find Russian missile remains at three sites following airspace incursion - The Kyiv Independent",
-    "Europe Is \u2018Somewhere Between Peace And War\u2019 With Russia, Former Finnish Defense Chief Says - Radio Free Europe/Radio Liberty"
+    "Glasgow\u2019s young activists take to the streets against war and attacks on education - Morning Star | The People\u2019s Daily",
+    "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
+    "Hull's hidden architectural gems revealed in new walking tour celebrating city's post-war history - Yorkshire Post"
    ]
   },
-  "today": [],
+  "today": [
+   {
+    "title": "Flash Manufacturing PMI",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-23T14:45:00+00:00",
+    "forecast": "54.5",
+    "previous": "56.0"
+   },
+   {
+    "title": "Flash Services PMI",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-23T14:45:00+00:00",
+    "forecast": "55.6",
+    "previous": "57.9"
+   },
+   {
+    "title": "FOMC Member Williams Speaks",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-23T21:00:00+00:00",
+    "forecast": "",
+    "previous": ""
+   }
+  ],
   "ok_calendar": true,
   "ok_headlines": true
  },
