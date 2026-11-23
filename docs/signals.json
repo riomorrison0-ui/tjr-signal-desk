@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T02:55:20.362874-05:00",
+ "updated": "2026-11-23T03:00:20.417429-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.35,
-   "feed": "real-time gold (PAXG, matched to spot +7.07)",
-   "time": "2026-11-23T02:50:00-05:00"
+   "price": 3619.36,
+   "feed": "real-time gold (PAXG, matched to spot +7.85)",
+   "time": "2026-11-23T02:55:00-05:00"
   }
  },
  "stats": {
@@ -89,11 +89,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Daily Update: Russia Loses 2,471 Troops, 70 Artillery Systems and 5 Tanks in One Day - UNITED24 Media",
-    "No safe harbour as maritime war spreads beyond Black Sea - Splash247",
-    "President Trump is 'stuck', has not learned much from the Iran war: Analyst - CNBC"
+    "Asda held takeover talks with Mothercare before Iran war - Retail Week",
+    "War update: 149 clashes on front lines over past day, heaviest fighting on Kostiantynivka, Pokrovsk axes - Ukrinform",
+    "Iran deal could be worse for Israel than war, Middle East expert warns - The Jerusalem Post"
    ]
   },
   "today": [
@@ -6783,7 +6783,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-12-03T02:00:00-05:00",
+   "hold_until": "2026-11-23T03:00:00-05:00",
    "why": "Sharp rally (RSI(2) 96) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-23T02:00:20.370251-05:00",
    "initial_status": "open",
