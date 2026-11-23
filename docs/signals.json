@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:05:20.399724-05:00",
+ "updated": "2026-11-23T14:10:20.411836-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3655.64,
-   "feed": "real-time gold (PAXG, matched to spot +9.15)",
-   "time": "2026-11-23T14:00:00-05:00"
+   "price": 3654.58,
+   "feed": "real-time gold (PAXG, matched to spot +8.07)",
+   "time": "2026-11-23T14:05:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Russian missile incursion \u2018exposes NATO\u2019s air defense gaps\u2019 - TVP World",
-    "'God of War' TV Series Brings Back Deborah Ann Woll As Faye From The PlayStation Games - Geektown",
-    "Qatari, Egyptian top diplomats discuss regional de-escalation efforts - A News"
+    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
+    "Writers unhappy with PEN America's response to war in Gaza form new chapter - PBS",
+    "Russian missile incursion \u2018exposes NATO\u2019s air defense gaps\u2019 - TVP World"
    ]
   },
   "today": [
