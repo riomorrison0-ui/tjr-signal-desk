@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T15:25:20.427068-05:00",
+ "updated": "2026-11-23T15:30:20.438632-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3641.47,
-   "feed": "real-time gold (PAXG, matched to spot +6.49)",
-   "time": "2026-11-23T15:20:00-05:00"
+   "price": 3645.77,
+   "feed": "real-time gold (PAXG, matched to spot +8.55)",
+   "time": "2026-11-23T15:25:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "Qalibaf Says Iran Will Not Accept \u2018No War, No Peace\u2019 Stalemate with US - Kurdistan24",
-    "Will Congress End the Iran War? - The American Prospect",
-    "Every 17th Death in Russia Since 2022 Linked to War, Leaked Rosstat Records Show - UNITED24 Media"
+    "The Iran war drained U.S. missile stocks needed to deter China. The Pentagon has no plan to restock - Fortune",
+    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
+    "More Than 700,000 Russian Soldiers Killed or Missing in War Against Ukraine \u2014 Leaked Rosstat Data - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439"
    ]
   },
   "today": [
