@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T16:10:20.419473-05:00",
+ "updated": "2026-11-23T16:15:20.441027-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.57,
-   "feed": "real-time gold (PAXG, matched to spot +6.53)",
-   "time": "2026-11-23T16:05:00-05:00"
+   "price": 3637.07,
+   "feed": "real-time gold (PAXG, matched to spot +7.84)",
+   "time": "2026-11-23T16:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "Investigating Russian Financial Networks Behind War and Sanctions Evasion - Pulitzer Center",
-    "New EU sanctions proposal threatens Russia\u2019s return to international sport - Sports Business Journal",
-    "UN warns Black Sea drone attacks threaten food exports as Russia-Ukraine war widens - The National"
+    "Former President Of Kosovo Found Guilty Of War Crimes: A Victory For International Law In The Age Of Impunity? - Glasgow Guardian",
+    "DOW Launches Automated SI Solution for Classification Management - U.S. Department of War (.gov)",
+    "US sanctions target Comancheros - https://franklintimes.co.nz/"
    ]
   },
   "today": [
