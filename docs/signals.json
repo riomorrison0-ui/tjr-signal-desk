@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T23:30:20.369348-05:00",
+ "updated": "2026-11-22T23:35:20.318948-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3608.93,
-   "feed": "real-time gold (PAXG, matched to spot +7.17)",
-   "time": "2026-11-22T23:25:00-05:00"
+   "price": 3608.4,
+   "feed": "real-time gold (PAXG, matched to spot +8.15)",
+   "time": "2026-11-22T23:30:00-05:00"
   }
  },
  "stats": {
@@ -89,7 +89,7 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
     "Apple Risks Losing the AI Agent War With an Outdated Playbook - Bloomberg.com",
     "Iran faces winter trouble as war damage deepens energy shortfall - Amwaj.media",
