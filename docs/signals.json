@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T01:50:20.350121-05:00",
+ "updated": "2026-11-23T01:55:20.326208-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3625.97,
-   "feed": "real-time gold (PAXG, matched to spot +7.17)",
-   "time": "2026-11-23T01:45:00-05:00"
+   "price": 3622.51,
+   "feed": "real-time gold (PAXG, matched to spot +6.39)",
+   "time": "2026-11-23T01:50:00-05:00"
   }
  },
  "stats": {
@@ -89,11 +89,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Oil Prices Slip as Market Anxiety Grows Over Iran War, Threats to Gulf Shipping - Arise News",
-    "UN warns Libya must not become stage for Russia-Ukraine war after drone strikes - RFI",
-    "Iran Debates How to Achieve its Remaining War Goals - The Soufan Center"
+    "War of the Worlds: Competing for AI Supremacy - ARC Advisory Group",
+    "Greek Minister Tells I24NEWS Israel \u2018lost The War Of Propaganda\u2019 - i24NEWS",
+    "Beyond the Absence of War: Rethinking Afghanistan\u2019s Security Through Barry Buzan\u2019s Lens - 8AM Media"
    ]
   },
   "today": [
