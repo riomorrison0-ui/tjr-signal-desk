@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T16:25:20.392455-05:00",
+ "updated": "2026-11-23T16:30:20.389933-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3636.27,
-   "feed": "real-time gold (PAXG, matched to spot +6.87)",
-   "time": "2026-11-23T16:20:00-05:00"
+   "price": 3636.82,
+   "feed": "real-time gold (PAXG, matched to spot +7.43)",
+   "time": "2026-11-23T16:25:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 8,
+   "count": 7,
    "examples": [
-    "Former President Of Kosovo Found Guilty Of War Crimes: A Victory For International Law In The Age Of Impunity? - Glasgow Guardian",
-    "DOW Launches Automated SI Solution for Classification Management - U.S. Department of War (.gov)",
-    "US sanctions target Comancheros - https://franklintimes.co.nz/"
+    "Qatar needs US and Iran to resume talks to end war, PM says - Middle East Eye",
+    "EU moves to ban Russian flags at sports events under new sanctions - South China Morning Post",
+    "\u2018Not a coincidence\u2019: Ex-US envoy backs Poland\u2019s assessment of Russian missile incursion - TVP World"
    ]
   },
   "today": [
