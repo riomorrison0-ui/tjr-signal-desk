@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T21:55:20.332008-05:00",
+ "updated": "2026-11-22T22:00:20.346120-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3588.57,
-   "feed": "real-time gold (PAXG, matched to spot +7.14)",
-   "time": "2026-11-22T21:50:00-05:00"
+   "price": 3591.88,
+   "feed": "real-time gold (PAXG, matched to spot +7.39)",
+   "time": "2026-11-22T21:55:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Dynagas LNG Earnings Rise as Russian Sanctions Threaten Key Charters - Crude Oil Prices Today | OilPrice.com",
-    "Oil prices fall amid equity selloff though Iran war attacks limit losses - Reuters",
-    "South Korea says deployment to Middle East not indirect military participation in war on Iran - Middle East Eye"
+    "Report: IDF warns Netanyahu strike on Iran could trigger wider regional war - chinadailyhk",
+    "Trump Sets New Year Deadline For Iran, Warns Of Military Strikes - NDTV",
+    "Dynagas LNG Earnings Rise as Russian Sanctions Threaten Key Charters - Crude Oil Prices Today | OilPrice.com"
    ]
   },
   "today": [
