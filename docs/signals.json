@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T21:25:20.342163-05:00",
+ "updated": "2026-11-22T21:30:20.329045-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3584.58,
-   "feed": "real-time gold (PAXG, matched to spot +9.51)",
-   "time": "2026-11-22T21:20:00-05:00"
+   "price": 3581.26,
+   "feed": "real-time gold (PAXG, matched to spot +5.59)",
+   "time": "2026-11-22T21:25:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Skateboarding in Rubble: Young skateboarders in Gaza turn war debris into makeshift skate parks - CGTN",
-    "Resident of Japan island near Taiwan fears another war as China ties sour - Japan Wire by Kyodo News",
-    "Game Of Thrones Is Rewriting The Show\u2019s Ending In 2027's War For Westeros - IMDb"
+    "Oil prices fall amid equity selloff though Iran war attacks limit losses - marketscreener.com",
+    "Why Central Asia Fears A Renewed Iran War \u2013 Analysis - Eurasia Review",
+    "Act before escalation - Law Society Journal"
    ]
   },
   "today": [
