@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T03:55:20.408976-05:00",
+ "updated": "2026-11-23T04:00:20.386818-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3612.66,
-   "feed": "real-time gold (PAXG, matched to spot +8.11)",
-   "time": "2026-11-23T03:50:00-05:00"
+   "price": 3613.47,
+   "feed": "real-time gold (PAXG, matched to spot +8.47)",
+   "time": "2026-11-23T03:55:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Classic strategy games Warlords IV: Heroes of Etheria, Soldiers at War, and Theocracy get re-released - GamingOnLinux",
-    "Naghdi: Enemy Dares Not Launch a Ground Invasion of Iran - WANA News Agency",
-    "Pugh\u2019s Three-Day Hormuz Swim Puts The Iran War\u2019s Wildlife Toll In Focus - 2oceansvibe News"
+    "The War & Treaty Announce First Ever Holiday EP - TotalNtertainment",
+    "Holy See to UN weapons conference: Autonomous weapons lead to \u2018even more inhumane conduct\u2019 in war - EWTN Vatican",
+    "Widowed amid war and displacement: Sudanese mothers struggle to survive - Al Jazeera"
    ]
   },
   "today": [
