@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T18:30:20.459522-05:00",
+ "updated": "2026-11-23T18:35:20.417127-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.55,
-   "feed": "real-time gold (PAXG, matched to spot +9.30)",
-   "time": "2026-11-23T18:25:00-05:00"
+   "price": 3630.74,
+   "feed": "real-time gold (PAXG, matched to spot +6.98)",
+   "time": "2026-11-23T18:30:00-05:00"
   }
  },
  "stats": {
@@ -92,12 +92,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
     "Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Anadolu Ajans\u0131",
-    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
-    "EU sanctions neo-Nazi terror group leader of 'The Base' - The Jerusalem Post"
+    "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian",
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
    ]
   },
   "today": [
