@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T03:40:20.310703-05:00",
+ "updated": "2026-11-23T03:45:20.359196-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3606.28,
-   "feed": "real-time gold (PAXG, matched to spot +7.10)",
-   "time": "2026-11-23T03:35:00-05:00"
+   "price": 3613.57,
+   "feed": "real-time gold (PAXG, matched to spot +9.61)",
+   "time": "2026-11-23T03:40:00-05:00"
   }
  },
  "stats": {
@@ -92,12 +92,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Classic strategy games Warlords IV: Heroes of Etheria, Soldiers at War, and Theocracy get re-released - GamingOnLinux",
     "Naghdi: Enemy Dares Not Launch a Ground Invasion of Iran - WANA News Agency",
-    "Pugh\u2019s Three-Day Hormuz Swim Puts The Iran War\u2019s Wildlife Toll In Focus - 2oceansvibe News",
-    "Exclusive: Munich Re Syndicate launches affirmative cyber war cover from 1.1 - The Insurer"
+    "Pugh\u2019s Three-Day Hormuz Swim Puts The Iran War\u2019s Wildlife Toll In Focus - 2oceansvibe News"
    ]
   },
   "today": [
