@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T01:05:20.423110-05:00",
+ "updated": "2026-11-23T01:10:20.306035-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3618.04,
-   "feed": "real-time gold (PAXG, matched to spot +5.82)",
-   "time": "2026-11-23T01:00:00-05:00"
+   "price": 3623.12,
+   "feed": "real-time gold (PAXG, matched to spot +6.19)",
+   "time": "2026-11-23T01:05:00-05:00"
   }
  },
  "stats": {
@@ -89,11 +89,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Democrats back off demand to bar Iran war funding in spending bill, offer to work with Trump - World Socialist Web Site",
-    "Possible Taiwan takeover not 'invasion': Chinese envoy to Australia - Yeni Safak English",
-    "Kim Jong-un's luxury fleet appears to grow despite sanctions - The Korea Herald"
+    "Opinion | Democrats Must Defund Trump\u2019s War in Iran - The New York Times",
+    "\u2018Tobacco Road\u2019: the story of a British invasion one-hit wonder in 1964 - Far Out Magazine",
+    "Video: Study warns of environmental catastrophe from war in Gaza - livetube.tv"
    ]
   },
   "today": [
