@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T00:35:20.339598-05:00",
+ "updated": "2026-11-23T00:40:20.291075-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3617.48,
-   "feed": "real-time gold (PAXG, matched to spot +9.81)",
-   "time": "2026-11-23T00:30:00-05:00"
+   "price": 3624.89,
+   "feed": "real-time gold (PAXG, matched to spot +10.42)",
+   "time": "2026-11-23T00:35:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "China is winning the car war - Financial Times",
-    "Avoiding Colombia\u2019s Escalation Trap - Asociaci\u00f3n Almendr\u00f3n",
-    "Iran war impact doubled Cayman\u2019s inflation rate in second quarter - Cayman Compass"
+    "Possible Taiwan takeover not 'invasion': Chinese envoy to Australia - Yeni Safak English",
+    "Kim Jong-un's luxury fleet appears to grow despite sanctions - The Korea Herald",
+    "China is winning the car war - Financial Times"
    ]
   },
   "today": [
