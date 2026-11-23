@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T14:20:20.402592-05:00",
+ "updated": "2026-11-23T14:25:20.434155-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3656.84,
-   "feed": "real-time gold (PAXG, matched to spot +8.40)",
-   "time": "2026-11-23T14:15:00-05:00"
+   "price": 3652.99,
+   "feed": "real-time gold (PAXG, matched to spot +7.34)",
+   "time": "2026-11-23T14:20:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Jensen Huang went to war with Washington \u2014 and won a path to China - The Washington Post",
-    "Writers unhappy with PEN America's response to war in Gaza form new chapter - PBS",
-    "Russian missile incursion \u2018exposes NATO\u2019s air defense gaps\u2019 - TVP World"
+    "Putin\u2019s ships burning off Libya shows how Ukraine war has gone global - The Times",
+    "US targets UAE-based companies in new sanctions over alleged Iran links - The New Region",
+    "Zelenskyy warned of Russia's preparations for new missile strikes - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
