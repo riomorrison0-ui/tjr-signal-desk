@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T06:50:20.322084-05:00",
+ "updated": "2026-11-24T06:54:48.744543-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3633.01,
-   "feed": "real-time gold (PAXG, matched to spot +4.07)",
+   "price": 3634.2,
+   "feed": "real-time gold (PAXG, matched to spot +5.26)",
    "time": "2026-11-24T06:45:00-05:00"
   }
  },
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK sanctions Houthis and 4 top officials over attacks, prisoner abuse - Arab News PK",
-    "The \u2018eighth front\u2019: Why Israel\u2019s influence war in the US is failing - Al Jazeera",
-    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ"
+    "UK Sanctions Four Houthi Officials Over Torture, Sexual Violence Abuses - ASHARQ AL-AWSAT English",
+    "The 6 Most Uplifting War Movies of All Time, Ranked - Collider",
+    "UK sanctions Houthis over shipping attacks and alleged torture - www.thenationalnews.com"
    ]
   },
   "today": [
