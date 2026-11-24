@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T15:45:20.353424-05:00",
+ "updated": "2026-11-24T15:50:20.381933-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3548.36,
-   "feed": "real-time gold (PAXG, matched to spot +1.36)",
-   "time": "2026-11-24T15:40:00-05:00"
+   "price": 3549.97,
+   "feed": "real-time gold (PAXG, matched to spot +3.43)",
+   "time": "2026-11-24T15:45:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
-    "BREAKING: Huawei Convicted Of IP Theft, Sanctions Violations - Law360",
-    "What Congress can do about China\u2019s support for Russia\u2019s war - Atlantic Council"
+    "Poland Cements CAMM-MR Missile Interest In UK Handshake Agreement - Aviation Week",
+    "Huawei convicted in US trial that exposed corporate espionage and sanctions evasion - Financial Times",
+    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
    ]
   },
   "today": [
