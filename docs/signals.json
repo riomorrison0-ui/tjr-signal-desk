@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T11:00:20.252771-05:00",
+ "updated": "2026-11-24T11:05:20.274760-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3569.09,
-   "feed": "real-time gold (PAXG, matched to spot +8.40)",
-   "time": "2026-11-24T10:55:00-05:00"
+   "price": 3568.4,
+   "feed": "real-time gold (PAXG, matched to spot +8.69)",
+   "time": "2026-11-24T11:00:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US reminds citizens not to travel to Ukraine amid Russian missile, drone attacks - Anadolu Ajans\u0131",
-    "More than 1,000 Russian soldiers \u2018have taken own lives since war began\u2019 - The Independent",
-    "Russia razes own ballistic missile workshop months after Ukraine strike - The Independent"
+    "Why is there a Cold War missile in a field in Llangollen? - BBC",
+    "New U.S. sanctions target Iranian shadow banking system - WORLD News Group",
+    "Taxation at Heart of M23\u2019s War Economy - Africa Defense Forum"
    ]
   },
   "today": [
