@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T08:10:20.361550-05:00",
+ "updated": "2026-11-24T08:15:20.277692-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3634.74,
-   "feed": "real-time gold (PAXG, matched to spot +12.40)",
-   "time": "2026-11-24T08:05:00-05:00"
+   "price": 3629.34,
+   "feed": "real-time gold (PAXG, matched to spot +3.89)",
+   "time": "2026-11-24T08:10:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UK sanctions Houthi leaders over alleged torture and rape in Yemen - The Independent",
-    "\u2018God Of War\u2019 actor Deborah Ann Woll reprises Laufey role for Amazon adaptation - NME",
-    "EU's 22nd sanctions proposal targets former soldiers, banks and sports - Defence24.com"
+    "Did Israelis \u201cgive up their humanity\u201d in this war? - Israel from the Inside with Daniel Gordis",
+    "China walks \u2018thin line\u2019 in push to prevent another Horn of Africa war - Al Jazeera",
+    "Iran files lawsuits in US, EU courts: Will it get justice for \u2018war crimes\u2019? - Al Jazeera"
    ]
   },
   "today": [
