@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T05:15:20.331776-05:00",
+ "updated": "2026-11-24T05:20:20.307289-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.39,
-   "feed": "real-time gold (PAXG, matched to spot +7.27)",
-   "time": "2026-11-24T05:10:00-05:00"
+   "price": 3623.36,
+   "feed": "real-time gold (PAXG, matched to spot +6.13)",
+   "time": "2026-11-24T05:15:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Russian attack kills two people in Ukraine\u2019s Zaporizhzhia - Al Jazeera",
-    "Ukraine's sanctions envoy urges EU to target Rosatom and alumina sales - Euronews.com",
-    "The War Room newsletter: Is it a drone or a missile? - The Economist"
+    "Brad Piutt Shares Info on World War Z Sequel - SciFiNow",
+    "EU's 22nd sanctions package spares Russian seafood again - www.intrafish.com",
+    "U.S. Sanctions Target Financial Networks Supporting Iran\u2019s Oil and Shipping Operations - Global Trade Magazine"
    ]
   },
   "today": [
