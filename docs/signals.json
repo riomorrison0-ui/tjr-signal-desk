@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T07:55:20.241999-05:00",
+ "updated": "2026-11-24T08:00:20.268979-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3642.37,
-   "feed": "real-time gold (PAXG, matched to spot +6.64)",
-   "time": "2026-11-24T07:50:00-05:00"
+   "price": 3638.8,
+   "feed": "real-time gold (PAXG, matched to spot +4.19)",
+   "time": "2026-11-24T07:55:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Latvian president hints Moscow defeat possible in war \u2018tipping point\u2019 - The Independent",
-    "Lukoil restarts sanctions-hit Romanian refinery shut for over a year - Quantum Commodity Intelligence",
-    "Why Russia\u2019s war on Ukraine may reach a \u2018tipping point\u2019 next year - The Independent"
+    "UK sanctions Houthi leaders over alleged torture and rape in Yemen - The Independent",
+    "\u2018God Of War\u2019 actor Deborah Ann Woll reprises Laufey role for Amazon adaptation - NME",
+    "EU's 22nd sanctions proposal targets former soldiers, banks and sports - Defence24.com"
    ]
   },
   "today": [
