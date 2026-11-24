@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T19:50:20.331188-05:00",
+ "updated": "2026-11-23T19:55:20.303826-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3661.05,
-   "feed": "real-time gold (PAXG, matched to spot +7.35)",
-   "time": "2026-11-23T19:45:00-05:00"
+   "price": 3661.84,
+   "feed": "real-time gold (PAXG, matched to spot +11.75)",
+   "time": "2026-11-23T19:50:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
-    "Israeli airstrike kills at least three Palestinians in southern Gaza, medics say - Reuters",
-    "Matthew MacKinnon-Pattison obituary: Second World War veteran - The Times"
+    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
+    "Russian unmanned aerial vehicle violates Polish airspace days after missile incursion - The Kyiv Independent",
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
    ]
   },
   "today": [
