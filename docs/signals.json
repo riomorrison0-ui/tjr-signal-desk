@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T21:10:20.347312-05:00",
+ "updated": "2026-11-23T21:15:20.309319-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3655.68,
-   "feed": "real-time gold (PAXG, matched to spot +10.17)",
-   "time": "2026-11-23T21:05:00-05:00"
+   "price": 3657.71,
+   "feed": "real-time gold (PAXG, matched to spot +5.76)",
+   "time": "2026-11-23T21:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - Anadolu Ajans\u0131",
-    "How a Scientist Behind the Mediterranean Diet Got Caught in Trump\u2019s War on Harvard - The New York Times",
-    "Moscow accuses Estonia of hostile actions on \u2018verge of triggering open war\u2019 - The Japan Times"
+    "Libyan prime minister warns military groups against dragging Libya into Russia-Ukraine war - Anadolu Ajans\u0131",
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
+    "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - Anadolu Ajans\u0131"
    ]
   },
   "today": [
