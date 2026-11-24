@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T20:50:20.321412-05:00",
+ "updated": "2026-11-23T20:55:20.366701-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3668.97,
-   "feed": "real-time gold (PAXG, matched to spot +6.58)",
-   "time": "2026-11-23T20:45:00-05:00"
+   "price": 3663.36,
+   "feed": "real-time gold (PAXG, matched to spot +8.77)",
+   "time": "2026-11-23T20:50:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Moscow accuses Estonia of hostile actions on \u2018verge of triggering open war\u2019 - The Japan Times",
-    "The Inquiry | Why is there always war? - BBC",
-    "Ukraine war briefing: Kyiv\u2019s strike on Russian ships in Benghazi condemned by Libya\u2019s UN-backed government - The Guardian"
+    "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - Anadolu Ajans\u0131",
+    "How a Scientist Behind the Mediterranean Diet Got Caught in Trump\u2019s War on Harvard - The New York Times",
+    "Moscow accuses Estonia of hostile actions on \u2018verge of triggering open war\u2019 - The Japan Times"
    ]
   },
   "today": [
