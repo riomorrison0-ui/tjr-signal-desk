@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T15:00:20.381904-05:00",
+ "updated": "2026-11-24T15:05:20.413555-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3555.47,
-   "feed": "real-time gold (PAXG, matched to spot +3.04)",
-   "time": "2026-11-24T14:55:00-05:00"
+   "price": 3555.32,
+   "feed": "real-time gold (PAXG, matched to spot +4.98)",
+   "time": "2026-11-24T15:00:00-05:00"
   }
  },
  "stats": {
@@ -100,8 +100,8 @@
    "count": 5,
    "examples": [
     "Congress\u2019s Options for Ending the Iran War - Lawfare",
-    "Advance the War Against Death in Season of Tyrael\u2019s Gambit \u2014 Diablo IV - Blizzard News",
-    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
+    "Euronaval 2026 \u2013 MBDA details HYDIS2dp consortium and missile design, test flights to be conducted from Norway - EDR Magazine - European Defence Review",
+    "Advance the War Against Death in Season of Tyrael\u2019s Gambit \u2014 Diablo IV - Blizzard News"
    ]
   },
   "today": [
