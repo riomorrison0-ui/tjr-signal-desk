@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T17:50:20.378874-05:00",
+ "updated": "2026-11-24T17:55:20.416069-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3554.99,
-   "feed": "real-time gold (PAXG, matched to spot -0.47)",
-   "time": "2026-11-24T17:45:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.67)",
+   "time": "2026-11-24T17:50:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Trump: I\u2019ll pardon turkeys in my missile-proof ballroom - The Telegraph",
-    "Political Scrutiny of ESG Now Eclipses War, Inflation, and AI as Investors\u2019 Defining Risk - ESG News",
-    "The Gulf survived a short, hot war. A long, cold one will be harder - The Economist"
+    "Huawei guilty of trade theft, sanctions evasion - Global Investigations Review",
+    "Microsoft's historic cloud outage exposed an engineering \u201cfog of war\u201d - Ars Technica",
+    "Trump: I\u2019ll pardon turkeys in my missile-proof ballroom - The Telegraph"
    ]
   },
   "today": [
