@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T15:30:20.432086-05:00",
+ "updated": "2026-11-24T15:35:20.446790-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3551.39,
-   "feed": "real-time gold (PAXG, matched to spot +3.62)",
-   "time": "2026-11-24T15:25:00-05:00"
+   "price": 3550.11,
+   "feed": "real-time gold (PAXG, matched to spot +5.02)",
+   "time": "2026-11-24T15:30:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran\u2019s Rial Hits Record Low as Protesters Reject War and Regime Insiders Warn of New Uprising - National Council of Resistance of Iran - NCRI",
-    "Congress\u2019s Options for Ending the Iran War - Lawfare",
-    "Euronaval 2026 \u2013 MBDA details HYDIS2dp consortium and missile design, test flights to be conducted from Norway - EDR Magazine - European Defence Review"
+    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+    "BREAKING: Huawei Convicted Of IP Theft, Sanctions Violations - Law360",
+    "What Congress can do about China\u2019s support for Russia\u2019s war - Atlantic Council"
    ]
   },
   "today": [
