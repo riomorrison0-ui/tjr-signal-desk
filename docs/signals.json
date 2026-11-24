@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T05:00:20.384444-05:00",
+ "updated": "2026-11-24T05:05:20.328198-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3624.43,
-   "feed": "real-time gold (PAXG, matched to spot +8.89)",
-   "time": "2026-11-24T04:55:00-05:00"
+   "price": 3620.7,
+   "feed": "real-time gold (PAXG, matched to spot +7.28)",
+   "time": "2026-11-24T05:00:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Merkury Ship Sunk: UN Response and the Risk of War Spreading to Libya - Diplomacy and Law",
-    "Leaked data from Russia's statistics agency show at least 490,000 Russian war dead, and an estimate adding the missing puts the toll above 700,000 - Euromaidan Press",
-    "US writers launch alternative to PEN America amid divisions over Gaza war, Israel boycotts - Anadolu Ajans\u0131"
+    "Russian attack kills two people in Ukraine\u2019s Zaporizhzhia - Al Jazeera",
+    "Ukraine's sanctions envoy urges EU to target Rosatom and alumina sales - Euronews.com",
+    "The War Room newsletter: Is it a drone or a missile? - The Economist"
    ]
   },
   "today": [
