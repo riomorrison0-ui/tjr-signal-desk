@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-23T19:22:34.232799-05:00",
+ "updated": "2026-11-23T19:23:57.906603-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3644.14,
-   "feed": "real-time gold (PAXG, matched to spot +13.49)",
+   "price": 3645.22,
+   "feed": "real-time gold (PAXG, matched to spot +14.57)",
    "time": "2026-11-23T19:15:00-05:00"
   }
  },
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
     "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
-    "Matthew MacKinnon-Pattison obituary: Second World War veteran - The Times",
-    "How Chay Bowes Plans to Fight EU Sanctions at the General Court in Luxembourg - Around Prague"
+    "Matthew MacKinnon-Pattison obituary: Second World War veteran - The Times"
    ]
   },
   "today": [
@@ -157,8 +157,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.09,
-  "gbpusd": 1.30229
+  "stop_cap_usd": 52.13,
+  "gbpusd": 1.30337
  },
  "backtest": {
   "portfolio": {
