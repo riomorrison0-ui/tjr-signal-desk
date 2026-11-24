@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T04:25:20.471104-05:00",
+ "updated": "2026-11-24T04:30:20.350478-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3617.84,
-   "feed": "real-time gold (PAXG, matched to spot +5.93)",
-   "time": "2026-11-24T04:20:00-05:00"
+   "price": 3617.61,
+   "feed": "real-time gold (PAXG, matched to spot +6.33)",
+   "time": "2026-11-24T04:25:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran War Strains Gulf Hotel Contracts, but Owners Aren\u2019t Walking Away Yet - Skift",
-    "Council adds founder of The Base to EU terrorist sanctions list - EU Law Live",
-    "ICJ Ruling: UK formally recognises Rohingya genocide and imposes new sanctions on Myanmar military - Open Access Government"
+    "22nd package against Russia: is Europe\u2019s sanctions machine reaching its limits? - EUalive",
+    "Mamdani: Sanctions on settlers not enough, time to end US military funding for Israel - Middle East Monitor",
+    "Iran War Strains Gulf Hotel Contracts, but Owners Aren\u2019t Walking Away Yet - Skift"
    ]
   },
   "today": [
