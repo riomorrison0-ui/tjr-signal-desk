@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T21:55:20.286289-05:00",
+ "updated": "2026-11-23T22:00:20.329850-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3641.72,
-   "feed": "real-time gold (PAXG, matched to spot +9.13)",
-   "time": "2026-11-23T21:50:00-05:00"
+   "price": 3638.77,
+   "feed": "real-time gold (PAXG, matched to spot +6.18)",
+   "time": "2026-11-23T21:55:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian",
-    "Qatari prime minister warns Middle East can\u2019t afford another US-Iran escalation - Anadolu Ajans\u0131",
-    "Libyan prime minister warns military groups against dragging Libya into Russia-Ukraine war - Anadolu Ajans\u0131"
+    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
+    "The Body Creator And Star Reuniting For New War Movie After Netflix Success - IMDb",
+    "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian"
    ]
   },
   "today": [
