@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T19:00:20.446201-05:00",
+ "updated": "2026-11-23T19:05:20.401175-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3632.22,
-   "feed": "real-time gold (PAXG, matched to spot +5.94)",
-   "time": "2026-11-23T18:55:00-05:00"
+   "price": 3629.1,
+   "feed": "real-time gold (PAXG, matched to spot +1.68)",
+   "time": "2026-11-23T19:00:00-05:00"
   }
  },
  "stats": {
@@ -95,33 +95,57 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Qatar warns Middle Eas cannot afford another US-Iran escalation - FXStreet",
-    "EU plans sports ban in sweeping new Russia sanctions proposal - Al Jazeera",
-    "Iranian parliament speaker says US seeks \u2018no war, no peace\u2019 stalemate with Iran, calls for deterrence - Anadolu Ajans\u0131"
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
+    "How Chay Bowes Plans to Fight EU Sanctions at the General Court in Luxembourg - Around Prague",
+    "US sanctions Megaspeed after Nvidia scandal - The Telegraph"
    ]
   },
   "today": [
    {
-    "title": "Flash Manufacturing PMI",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-23T14:45:00+00:00",
-    "forecast": "54.5",
-    "previous": "56.0"
-   },
-   {
-    "title": "Flash Services PMI",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-23T14:45:00+00:00",
-    "forecast": "55.6",
-    "previous": "57.9"
-   },
-   {
-    "title": "FOMC Member Williams Speaks",
+    "title": "ADP Weekly Employment Change",
     "country": "USD",
     "impact": "Low",
-    "time": "2026-11-23T21:00:00+00:00",
+    "time": "2026-11-24T13:15:00+00:00",
+    "forecast": "",
+    "previous": "23.8K"
+   },
+   {
+    "title": "HPI m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-24T14:00:00+00:00",
+    "forecast": "0.2%",
+    "previous": "0.3%"
+   },
+   {
+    "title": "S&P/CS Composite-20 HPI y/y",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-24T14:00:00+00:00",
+    "forecast": "2.7%",
+    "previous": "2.7%"
+   },
+   {
+    "title": "CB Consumer Confidence",
+    "country": "USD",
+    "impact": "Medium",
+    "time": "2026-11-24T15:00:00+00:00",
+    "forecast": "92.4",
+    "previous": "91.7"
+   },
+   {
+    "title": "Richmond Manufacturing Index",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-24T15:00:00+00:00",
+    "forecast": "-2",
+    "previous": "-2"
+   },
+   {
+    "title": "API Weekly Statistical Bulletin",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-24T21:30:00+00:00",
     "forecast": "",
     "previous": ""
    }
