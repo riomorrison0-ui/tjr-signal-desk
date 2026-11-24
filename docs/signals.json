@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T12:35:20.253990-05:00",
+ "updated": "2026-11-24T12:40:20.249496-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3565.33,
-   "feed": "real-time gold (PAXG, matched to spot +4.46)",
-   "time": "2026-11-24T12:30:00-05:00"
+   "price": 3567.53,
+   "feed": "real-time gold (PAXG, matched to spot +8.17)",
+   "time": "2026-11-24T12:35:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "After Libya, where will Ukraine strike Russia next? - Al Jazeera",
-    "MEPs still split over ending Hungary\u2019s Article 7 sanctions procedure as Magyar\u2019s reforms win praise - EUobserver",
-    "Advent and the War on Christmas - Commonweal Magazine"
+    "US sanctions on Lebanon\u2019s Hezbollah-affiliates may have limited impact - Al Jazeera",
+    "Nearly 7,000 killed or injured by landmines, war remnants in 2025, highest toll in 5 years: Report - Anadolu Ajans\u0131",
+    "State Dept & OFAC Issue Four SDN Sanctions Notices - CASRAI"
    ]
   },
   "today": [
