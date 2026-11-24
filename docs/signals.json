@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T01:00:20.377585-05:00",
+ "updated": "2026-11-24T01:05:20.302234-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3632.2,
-   "feed": "real-time gold (PAXG, matched to spot +6.89)",
-   "time": "2026-11-24T00:55:00-05:00"
+   "price": 3619.76,
+   "feed": "real-time gold (PAXG, matched to spot +3.55)",
+   "time": "2026-11-24T01:00:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "UK Announces Fresh Myanmar Sanctions Following ICJ Genocide Ruling - The Diplomat \u2013 Asia-Pacific Current Affairs Magazine",
-    "European Commission proposes 22nd round of sanctions against Russia - \u5df4\u58eb\u7684\u5831",
-    "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions - CNBC"
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
+    "EU unveils 22nd Russia sanctions package as war nears sixth year - UPI.com",
+    "Oil prices fall as Qatar backs diplomacy to end Iran war - Arabian Gulf Business Insight | AGBI"
    ]
   },
   "today": [
