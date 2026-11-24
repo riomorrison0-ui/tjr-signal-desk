@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T09:15:20.238293-05:00",
+ "updated": "2026-11-24T09:20:20.228841-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3618.86,
-   "feed": "real-time gold (PAXG, matched to spot +8.56)",
-   "time": "2026-11-24T09:10:00-05:00"
+   "price": 3615.65,
+   "feed": "real-time gold (PAXG, matched to spot +4.46)",
+   "time": "2026-11-24T09:15:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "UK announces sanctions on Houthis over \u2018renewed aggression\u2019 in Middle East - The Jewish Chronicle",
     "Ukraine war becomes daily more dangerous - Morning Star | The People\u2019s Daily",
-    "Iran's Judiciary Threatens Lawsuit Against Jordan And Arab States Over War Damage - IranWire",
-    "Iranian rial hits record low after fresh US sanctions target financial network - Anadolu Ajans\u0131"
+    "Iran's Judiciary Threatens Lawsuit Against Jordan And Arab States Over War Damage - IranWire"
    ]
   },
   "today": [
