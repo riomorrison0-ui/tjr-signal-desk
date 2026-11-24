@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T06:54:48.744543-05:00",
+ "updated": "2026-11-24T06:55:41.588305-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3634.2,
-   "feed": "real-time gold (PAXG, matched to spot +5.26)",
-   "time": "2026-11-24T06:45:00-05:00"
+   "price": 3634.84,
+   "feed": "real-time gold (PAXG, matched to spot +6.13)",
+   "time": "2026-11-24T06:50:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK Sanctions Four Houthi Officials Over Torture, Sexual Violence Abuses - ASHARQ AL-AWSAT English",
-    "The 6 Most Uplifting War Movies of All Time, Ranked - Collider",
-    "UK sanctions Houthis over shipping attacks and alleged torture - www.thenationalnews.com"
+    "Britain sanctions four senior Houthi figures over detainee abuses - Middle East Online",
+    "War season 2 first-look teaser confirms Tomei and Macdonald - Radio Times",
+    "UK Sanctions Four Houthi Officials Over Torture, Sexual Violence Abuses - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
@@ -157,8 +157,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.16,
-  "gbpusd": 1.30404
+  "stop_cap_usd": 52.35,
+  "gbpusd": 1.30878
  },
  "backtest": {
   "portfolio": {
