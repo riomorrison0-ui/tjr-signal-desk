@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T22:55:20.306753-05:00",
+ "updated": "2026-11-23T23:00:20.345900-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3632.91,
-   "feed": "real-time gold (PAXG, matched to spot +8.19)",
-   "time": "2026-11-23T22:50:00-05:00"
+   "price": 3633.32,
+   "feed": "real-time gold (PAXG, matched to spot +8.02)",
+   "time": "2026-11-23T22:55:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
     "Rise in North Korea missile testing brings risks for shipping - TradeWinds News",
-    "Oman Is the Quiet Winner of the Iran War. Its Crude Premium Is the Least of It - Modern Diplomacy",
-    "Back to 1936? Civil war ghosts haunt Spanish election campaign - POLITICO.eu"
+    "Oman Is the Quiet Winner of the Iran War. Its Crude Premium Is the Least of It - Modern Diplomacy"
    ]
   },
   "today": [
