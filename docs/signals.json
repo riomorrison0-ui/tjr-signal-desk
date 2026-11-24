@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T22:25:20.290657-05:00",
+ "updated": "2026-11-23T22:30:20.300422-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3631.58,
-   "feed": "real-time gold (PAXG, matched to spot +7.55)",
-   "time": "2026-11-23T22:20:00-05:00"
+   "price": 3631.09,
+   "feed": "real-time gold (PAXG, matched to spot +4.76)",
+   "time": "2026-11-23T22:25:00-05:00"
   }
  },
  "stats": {
@@ -97,7 +97,7 @@
    "examples": [
     "Rise in North Korea missile testing brings risks for shipping - TradeWinds News",
     "Oman Is the Quiet Winner of the Iran War. Its Crude Premium Is the Least of It - Modern Diplomacy",
-    "Back to 1936? Civil war ghosts haunt Spanish election campaign - www.politico.eu"
+    "Back to 1936? Civil war ghosts haunt Spanish election campaign - POLITICO.eu"
    ]
   },
   "today": [
