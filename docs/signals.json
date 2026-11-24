@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T20:35:20.341283-05:00",
+ "updated": "2026-11-23T20:40:20.334036-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3673.76,
-   "feed": "real-time gold (PAXG, matched to spot +9.54)",
-   "time": "2026-11-23T20:30:00-05:00"
+   "price": 3676.17,
+   "feed": "real-time gold (PAXG, matched to spot +7.30)",
+   "time": "2026-11-23T20:35:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "Moscow accuses Estonia of hostile actions on \u2018verge of triggering open war\u2019 - The Japan Times",
     "The Inquiry | Why is there always war? - BBC",
-    "Ukraine war briefing: Kyiv\u2019s strike on Russian ships in Benghazi condemned by Libya\u2019s UN-backed government - The Guardian",
-    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona"
+    "Ukraine war briefing: Kyiv\u2019s strike on Russian ships in Benghazi condemned by Libya\u2019s UN-backed government - The Guardian"
    ]
   },
   "today": [
