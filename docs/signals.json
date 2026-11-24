@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T17:05:20.400925-05:00",
+ "updated": "2026-11-24T17:10:20.404521-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3554.99,
-   "feed": "real-time gold (PAXG, matched to spot +2.32)",
-   "time": "2026-11-24T17:00:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +1.34)",
+   "time": "2026-11-24T17:05:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Russo-Ukrainian war, day 1735: Ukrainian sources say Pentagon chief has not signed off on 60 Patriot missiles that allies paid for - Euromaidan Press",
     "Watch Escalation in Iran Appears As the Default - Bloomberg.com",
-    "Cher\u2019s Victory in Royalties War Under Fire as Mary Bono Pushes for Reversal - Rolling Stone",
-    "Democrats want Iran war to end now and might support government shutdown to stop it, poll shows - www.thenationalnews.com"
+    "Cher\u2019s Victory in Royalties War Under Fire as Mary Bono Pushes for Reversal - Rolling Stone"
    ]
   },
   "today": [
