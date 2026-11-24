@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T15:15:20.410379-05:00",
+ "updated": "2026-11-24T15:20:20.410388-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3557.64,
-   "feed": "real-time gold (PAXG, matched to spot +3.90)",
-   "time": "2026-11-24T15:10:00-05:00"
+   "price": 3556.65,
+   "feed": "real-time gold (PAXG, matched to spot +3.63)",
+   "time": "2026-11-24T15:15:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Iran\u2019s Rial Hits Record Low as Protesters Reject War and Regime Insiders Warn of New Uprising - National Council of Resistance of Iran - NCRI",
     "Congress\u2019s Options for Ending the Iran War - Lawfare",
-    "Euronaval 2026 \u2013 MBDA details HYDIS2dp consortium and missile design, test flights to be conducted from Norway - EDR Magazine - European Defence Review",
-    "Advance the War Against Death in Season of Tyrael\u2019s Gambit \u2014 Diablo IV - Blizzard News"
+    "Euronaval 2026 \u2013 MBDA details HYDIS2dp consortium and missile design, test flights to be conducted from Norway - EDR Magazine - European Defence Review"
    ]
   },
   "today": [
