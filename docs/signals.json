@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T16:20:20.356765-05:00",
+ "updated": "2026-11-24T16:25:20.361967-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3551.68,
-   "feed": "real-time gold (PAXG, matched to spot +4.10)",
-   "time": "2026-11-24T16:15:00-05:00"
+   "price": 3555.51,
+   "feed": "real-time gold (PAXG, matched to spot +4.74)",
+   "time": "2026-11-24T16:20:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Chinese tech giant Huawei convicted in US for evading Iran sanctions, stealing trade secrets - The Times of Israel",
     "Democrats want Iran war to end now and might support government shutdown to stop it, poll shows - www.thenationalnews.com",
-    "Poland Cements CAMM-MR Missile Interest In UK Handshake Agreement - Aviation Week",
-    "Huawei convicted in US trial that exposed corporate espionage and sanctions evasion - Financial Times"
+    "Poland Cements CAMM-MR Missile Interest In UK Handshake Agreement - Aviation Week"
    ]
   },
   "today": [
