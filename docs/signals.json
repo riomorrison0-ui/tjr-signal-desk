@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T08:40:20.228311-05:00",
+ "updated": "2026-11-24T08:45:20.259221-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.57,
-   "feed": "real-time gold (PAXG, matched to spot +10.14)",
-   "time": "2026-11-24T08:35:00-05:00"
+   "price": 3617.35,
+   "feed": "real-time gold (PAXG, matched to spot +7.10)",
+   "time": "2026-11-24T08:40:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Moldova to bring its Russia, Belarus sanctions in line with EU as part of membership requirements - The Kyiv Independent",
-    "China walks \u2018thin line\u2019 in push to prevent another Horn of Africa war - Al Jazeera",
-    "Gaza authorities record 6,405 Israeli violations of ceasefire in 410 days - Anadolu Ajans\u0131"
+    "Iranian rial hits record low after fresh US sanctions target financial network - Anadolu Ajans\u0131",
+    "A Region Trapped between Republican War and Democratic Withdrawal - Middle East Council on Global Affairs",
+    "Iran's Judiciary Threatens Lawsuit Against Jordan And Arab States Over War Damage - IranWire"
    ]
   },
   "today": [
