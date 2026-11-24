@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T01:08:40.484179-05:00",
+ "updated": "2026-11-24T01:11:17.204892-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.3,
-   "feed": "real-time gold (PAXG, matched to spot +7.09)",
-   "time": "2026-11-24T01:00:00-05:00"
+   "price": 3629.46,
+   "feed": "real-time gold (PAXG, matched to spot +11.40)",
+   "time": "2026-11-24T01:05:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
-    "EU unveils 22nd Russia sanctions package as war nears sixth year - UPI.com",
-    "Oil prices fall as Qatar backs diplomacy to end Iran war - Arabian Gulf Business Insight | AGBI"
+    "Qatari prime minister warns Middle East can\u2019t afford another US-Iran escalation - A News",
+    "Ukraine War Reaches Within 480km of Crete in Libya Strike - tovima.com",
+    "Sudan war: El Obeid becomes launchpad for SAF\u2019s westward offensive - The Africa Report"
    ]
   },
   "today": [
@@ -157,8 +157,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.13,
-  "gbpusd": 1.30337
+  "stop_cap_usd": 52.16,
+  "gbpusd": 1.30404
  },
  "backtest": {
   "portfolio": {
