@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T22:10:20.289807-05:00",
+ "updated": "2026-11-23T22:15:20.307484-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.3,
-   "feed": "real-time gold (PAXG, matched to spot +9.39)",
-   "time": "2026-11-23T22:05:00-05:00"
+   "price": 3632.14,
+   "feed": "real-time gold (PAXG, matched to spot +5.81)",
+   "time": "2026-11-23T22:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
-    "The Body Creator And Star Reuniting For New War Movie After Netflix Success - IMDb",
-    "Russia\u2019s war dead: the hidden toll of the Ukraine conflict - The Guardian"
+    "Rise in North Korea missile testing brings risks for shipping - TradeWinds News",
+    "Oman Is the Quiet Winner of the Iran War. Its Crude Premium Is the Least of It - Modern Diplomacy",
+    "Back to 1936? Civil war ghosts haunt Spanish election campaign - www.politico.eu"
    ]
   },
   "today": [
