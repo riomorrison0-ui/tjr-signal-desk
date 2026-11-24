@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T07:10:20.226387-05:00",
+ "updated": "2026-11-24T07:15:20.254734-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.03,
-   "feed": "real-time gold (PAXG, matched to spot +5.07)",
-   "time": "2026-11-24T07:05:00-05:00"
+   "price": 3625.14,
+   "feed": "real-time gold (PAXG, matched to spot +8.33)",
+   "time": "2026-11-24T07:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Britain sanctions four senior Houthi figures over detainee abuses - Middle East Online",
-    "War season 2 first-look teaser confirms Tomei and Macdonald - Radio Times",
-    "UK Sanctions Four Houthi Officials Over Torture, Sexual Violence Abuses - ASHARQ AL-AWSAT English"
+    "Historic England objects to Norfolk missile motor factory - BBC",
+    "UK Imposes New Sanctions on Houthis for Human Rights Abuses - Global Banking & Finance Review",
+    "UK targets Houthis with new sanctions - Reuters"
    ]
   },
   "today": [
