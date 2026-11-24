@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T16:50:20.433501-05:00",
+ "updated": "2026-11-24T16:55:20.370568-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3554.14,
-   "feed": "real-time gold (PAXG, matched to spot +4.04)",
-   "time": "2026-11-24T16:45:00-05:00"
+   "price": 3554.99,
+   "feed": "real-time gold (PAXG, matched to spot +3.78)",
+   "time": "2026-11-24T16:50:00-05:00"
   }
  },
  "stats": {
@@ -101,7 +101,7 @@
    "examples": [
     "Watch Escalation in Iran Appears As the Default - Bloomberg.com",
     "Cher\u2019s Victory in Royalties War Under Fire as Mary Bono Pushes for Reversal - Rolling Stone",
-    "350,000 Yemeni children in besieged Taiz miss out on measles vaccine as war hinders UN access - Arab News"
+    "Democrats want Iran war to end now and might support government shutdown to stop it, poll shows - www.thenationalnews.com"
    ]
   },
   "today": [
