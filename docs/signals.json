@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T12:20:20.270201-05:00",
+ "updated": "2026-11-24T12:25:20.248933-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.19,
-   "feed": "real-time gold (PAXG, matched to spot +6.25)",
-   "time": "2026-11-24T12:15:00-05:00"
+   "price": 3563.53,
+   "feed": "real-time gold (PAXG, matched to spot +4.85)",
+   "time": "2026-11-24T12:20:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK sanctions Yemen\u2019s Houthi group and four of its top officials - Al Jazeera",
-    "The EU threatened Germany and France with sanctions over excessive budget deficits - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-    "Some 720,000 Russian soldiers killed in the war, in leaked data deemed authentic by the independent Mediazona news website (Ukraine Battlefield update, day 1,734) - EUobserver"
+    "After Libya, where will Ukraine strike Russia next? - Al Jazeera",
+    "MEPs still split over ending Hungary\u2019s Article 7 sanctions procedure as Magyar\u2019s reforms win praise - EUobserver",
+    "Advent and the War on Christmas - Commonweal Magazine"
    ]
   },
   "today": [
