@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T01:50:20.326391-05:00",
+ "updated": "2026-11-24T01:55:20.343168-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3628.51,
-   "feed": "real-time gold (PAXG, matched to spot +8.04)",
-   "time": "2026-11-24T01:45:00-05:00"
+   "price": 3629.05,
+   "feed": "real-time gold (PAXG, matched to spot +7.77)",
+   "time": "2026-11-24T01:50:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "EU Targets Russia\u2019s Energy Services and Shadow Fleet in 22nd Sanctions Proposal - EU Today",
-    "British investigation featuring IDF soldiers\u2019 Gaza war testimonies wins International Emmy - Ynetnews",
-    "Sudan war: El Obeid becomes launchpad for SAF\u2019s westward offensive - The Africa Report"
+    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
+    "Ukraine War, Day 1,734: More Than 460,000 Invasion-Linked Russian Deaths Identified - EA WorldView",
+    "UK sanctions top Myanmar military leaders after Rohingya genocide ruling - Saudi Gazette"
    ]
   },
   "today": [
