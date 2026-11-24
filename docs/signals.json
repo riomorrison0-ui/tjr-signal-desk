@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T02:40:20.318607-05:00",
+ "updated": "2026-11-24T02:45:20.329406-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3622.12,
-   "feed": "real-time gold (PAXG, matched to spot +8.02)",
-   "time": "2026-11-24T02:35:00-05:00"
+   "price": 3623.76,
+   "feed": "real-time gold (PAXG, matched to spot +6.11)",
+   "time": "2026-11-24T02:40:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "3 Palestinians killed in Israeli strike in Gaza amid repeated ceasefire violations - Anadolu Ajans\u0131",
-    "Fighting the Last War: Why Traditional Military Doctrine Breaks in Cyberspace - S. Rajaratnam School of International Studies (RSIS)",
-    "Europe Today: EU Commission proposes new round of sanctions against Russia - AOL.co.uk"
+    "Daily Update: Russia Loses 1,848 Troops, One Ship and 55 Artillery Systems in One Day - UNITED24 Media",
+    "EU unveils new sanctions package against Russia, including visa ban for participants in the war and restrictions on Russian athletes - https://theins.press/en",
+    "Lords committee warns Britain cannot prove it is ready for war - London Business News"
    ]
   },
   "today": [
