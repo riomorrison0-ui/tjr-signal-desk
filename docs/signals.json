@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T10:45:20.207255-05:00",
+ "updated": "2026-11-24T10:50:20.258241-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3586.34,
-   "feed": "real-time gold (PAXG, matched to spot +12.94)",
-   "time": "2026-11-24T10:40:00-05:00"
+   "price": 3582.14,
+   "feed": "real-time gold (PAXG, matched to spot +8.76)",
+   "time": "2026-11-24T10:45:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia razes own ballistic missile workshop months after Ukraine strike - The Independent",
-    "For children in Ukraine, war has become a part of everyday life. - Vatican News",
-    "Land mine casualties soar in Syria, two years after war - BBC"
+    "US reminds citizens not to travel to Ukraine amid Russian missile, drone attacks - Anadolu Ajans\u0131",
+    "More than 1,000 Russian soldiers \u2018have taken own lives since war began\u2019 - The Independent",
+    "Russia razes own ballistic missile workshop months after Ukraine strike - The Independent"
    ]
   },
   "today": [
