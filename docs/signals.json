@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T19:15:20.402533-05:00",
+ "updated": "2026-11-23T19:20:20.422166-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.01,
-   "feed": "real-time gold (PAXG, matched to spot +5.07)",
-   "time": "2026-11-23T19:10:00-05:00"
+   "price": 3636.07,
+   "feed": "real-time gold (PAXG, matched to spot +5.42)",
+   "time": "2026-11-23T19:15:00-05:00"
   }
  },
  "stats": {
@@ -96,8 +96,8 @@
    "count": 6,
    "examples": [
     "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
-    "How Chay Bowes Plans to Fight EU Sanctions at the General Court in Luxembourg - Around Prague",
-    "US sanctions Megaspeed after Nvidia scandal - The Telegraph"
+    "Matthew MacKinnon-Pattison obituary: Second World War veteran - The Times",
+    "How Chay Bowes Plans to Fight EU Sanctions at the General Court in Luxembourg - Around Prague"
    ]
   },
   "today": [
