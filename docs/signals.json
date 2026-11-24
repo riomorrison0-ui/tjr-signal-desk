@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T06:30:20.306068-05:00",
+ "updated": "2026-11-24T06:35:20.348050-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3628.45,
-   "feed": "real-time gold (PAXG, matched to spot +4.53)",
-   "time": "2026-11-24T06:25:00-05:00"
+   "price": 3629.62,
+   "feed": "real-time gold (PAXG, matched to spot +6.44)",
+   "time": "2026-11-24T06:30:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Uncovering women's history in First World War medical records - Wired Gov",
-    "Drought in a War Zone: How Climate Change Is Deepening Sudan\u2019s Crisis - Next Century Foundation",
-    "Latvian president sees possible 'tipping point' in Ukraine war next year - Reuters"
+    "UK sanctions Houthis and 4 top officials over attacks, prisoner abuse - Arab News PK",
+    "The \u2018eighth front\u2019: Why Israel\u2019s influence war in the US is failing - Al Jazeera",
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ"
    ]
   },
   "today": [
