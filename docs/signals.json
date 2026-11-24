@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T08:25:20.231942-05:00",
+ "updated": "2026-11-24T08:30:20.269981-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.34,
-   "feed": "real-time gold (PAXG, matched to spot +8.52)",
-   "time": "2026-11-24T08:20:00-05:00"
+   "price": 3627.59,
+   "feed": "real-time gold (PAXG, matched to spot +8.84)",
+   "time": "2026-11-24T08:25:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Did Israelis \u201cgive up their humanity\u201d in this war? - Israel from the Inside with Daniel Gordis",
+    "Moldova to bring its Russia, Belarus sanctions in line with EU as part of membership requirements - The Kyiv Independent",
     "China walks \u2018thin line\u2019 in push to prevent another Horn of Africa war - Al Jazeera",
-    "Iran files lawsuits in US, EU courts: Will it get justice for \u2018war crimes\u2019? - Al Jazeera"
+    "Gaza authorities record 6,405 Israeli violations of ceasefire in 410 days - Anadolu Ajans\u0131"
    ]
   },
   "today": [
