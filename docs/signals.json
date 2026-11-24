@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T23:55:20.287255-05:00",
+ "updated": "2026-11-24T00:00:20.331942-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3636.17,
-   "feed": "real-time gold (PAXG, matched to spot +9.99)",
-   "time": "2026-11-23T23:50:00-05:00"
+   "price": 3632.27,
+   "feed": "real-time gold (PAXG, matched to spot +8.92)",
+   "time": "2026-11-23T23:55:00-05:00"
   }
  },
  "stats": {
@@ -93,7 +93,7 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "Iran enlists epic heroes as missile claims grow - Amwaj.media",
     "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
