@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T01:20:20.318198-05:00",
+ "updated": "2026-11-24T01:25:20.298203-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.39,
-   "feed": "real-time gold (PAXG, matched to spot +10.13)",
-   "time": "2026-11-24T01:15:00-05:00"
+   "price": 3620.78,
+   "feed": "real-time gold (PAXG, matched to spot +7.53)",
+   "time": "2026-11-24T01:20:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Qatari prime minister warns Middle East can\u2019t afford another US-Iran escalation - A News",
-    "Ukraine War Reaches Within 480km of Crete in Libya Strike - tovima.com",
-    "Sudan war: El Obeid becomes launchpad for SAF\u2019s westward offensive - The Africa Report"
+    "Sudan war: El Obeid becomes launchpad for SAF\u2019s westward offensive - The Africa Report",
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
+    "EU unveils 22nd Russia sanctions package as war nears sixth year - UPI.com"
    ]
   },
   "today": [
