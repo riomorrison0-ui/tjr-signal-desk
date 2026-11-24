@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T19:35:20.339799-05:00",
+ "updated": "2026-11-23T19:40:20.318668-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3654.49,
-   "feed": "real-time gold (PAXG, matched to spot +5.71)",
-   "time": "2026-11-23T19:30:00-05:00"
+   "price": 3655.36,
+   "feed": "real-time gold (PAXG, matched to spot +4.72)",
+   "time": "2026-11-23T19:35:00-05:00"
   }
  },
  "stats": {
@@ -96,7 +96,7 @@
    "count": 6,
    "examples": [
     "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
-    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
+    "Israeli airstrike kills at least three Palestinians in southern Gaza, medics say - Reuters",
     "Matthew MacKinnon-Pattison obituary: Second World War veteran - The Times"
    ]
   },
