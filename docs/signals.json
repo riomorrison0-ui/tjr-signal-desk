@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T07:25:20.235403-05:00",
+ "updated": "2026-11-24T07:30:20.241517-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3624.66,
-   "feed": "real-time gold (PAXG, matched to spot +5.91)",
-   "time": "2026-11-24T07:20:00-05:00"
+   "price": 3626.11,
+   "feed": "real-time gold (PAXG, matched to spot +7.04)",
+   "time": "2026-11-24T07:25:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Historic England objects to Norfolk missile motor factory - BBC",
-    "UK Imposes New Sanctions on Houthis for Human Rights Abuses - Global Banking & Finance Review",
-    "UK targets Houthis with new sanctions - Reuters"
+    "Saudi Arabia asks allies from America to Asia for help restocking missile defenses - Semafor",
+    "Cold War Concepts Are So Hot Right Now - Bloomberg.com",
+    "Sainsbury\u2019s joins Tesco in 8p-a-litre fuel price war as supermarkets battle for Christmas shoppers - London Business News"
    ]
   },
   "today": [
@@ -6811,7 +6811,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-12-04T06:00:00-05:00",
+   "hold_until": "2026-11-24T07:30:00-05:00",
    "why": "Sharp rally (RSI(2) 88) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-24T06:00:20.358642-05:00",
    "initial_status": "open",
