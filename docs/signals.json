@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T23:25:20.323955-05:00",
+ "updated": "2026-11-23T23:30:20.302053-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.47,
-   "feed": "real-time gold (PAXG, matched to spot +8.37)",
-   "time": "2026-11-23T23:20:00-05:00"
+   "price": 3627.64,
+   "feed": "real-time gold (PAXG, matched to spot +8.65)",
+   "time": "2026-11-23T23:25:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
     "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - A News",
     "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
-    "Rise in North Korea missile testing brings risks for shipping - TradeWinds News"
+    "Why was the Srebrenica massacre a major event in the Bosnian War? - Britannica"
    ]
   },
   "today": [
