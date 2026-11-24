@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T13:10:20.371873-05:00",
+ "updated": "2026-11-24T13:15:20.537526-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3562.41,
-   "feed": "real-time gold (PAXG, matched to spot +4.03)",
-   "time": "2026-11-24T13:05:00-05:00"
+   "price": 3562.32,
+   "feed": "real-time gold (PAXG, matched to spot +4.45)",
+   "time": "2026-11-24T13:10:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "US sanctions on Lebanon\u2019s Hezbollah-affiliates may have limited impact - Al Jazeera",
-    "Nearly 7,000 killed or injured by landmines, war remnants in 2025, highest toll in 5 years: Report - Anadolu Ajans\u0131",
-    "State Dept & OFAC Issue Four SDN Sanctions Notices - CASRAI"
+    "Doughty to Asharq Al-Awsat: Houthi Escalation Prompted Broad Punitive Measures - ASHARQ AL-AWSAT English",
+    "Syria group rejects planned film about \u2018Caesar\u2019 civil war whistleblower - Arab News",
+    "Trump administration debates targeting top Iranian leaders to end war: Report - Middle East Monitor"
    ]
   },
   "today": [
