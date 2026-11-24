@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T21:25:20.324163-05:00",
+ "updated": "2026-11-23T21:30:20.290773-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3652.32,
-   "feed": "real-time gold (PAXG, matched to spot +7.59)",
-   "time": "2026-11-23T21:20:00-05:00"
+   "price": 3651.38,
+   "feed": "real-time gold (PAXG, matched to spot +6.92)",
+   "time": "2026-11-23T21:25:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Qatari prime minister warns Middle East can\u2019t afford another US-Iran escalation - Anadolu Ajans\u0131",
     "Libyan prime minister warns military groups against dragging Libya into Russia-Ukraine war - Anadolu Ajans\u0131",
-    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post",
-    "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - Anadolu Ajans\u0131"
+    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
    ]
   },
   "today": [
