@@ -798,10 +798,63 @@
     }
    },
    "pnl_gbp": 10.48
+  },
+  "XAUUSD-rsi2-20261124-0555-SELL": {
+   "id": "XAUUSD-rsi2-20261124-0555-SELL",
+   "instrument": "XAUUSD",
+   "side": "SELL",
+   "level_name": "rsi2",
+   "level": 3629.09,
+   "sweep_time": "2026-11-24T06:00:00-05:00",
+   "confirm_time": "2026-11-24T06:00:00-05:00",
+   "entry": 3629.09,
+   "stop": 3658.23,
+   "target": 3599.95,
+   "rr": 1.0,
+   "bias": "",
+   "killzone": "",
+   "valid_until": "2026-11-24T06:00:00-05:00",
+   "status": "open",
+   "fill_time": "2026-11-24T06:00:00-05:00",
+   "exit_time": null,
+   "exit_price": null,
+   "r": null,
+   "notes": [],
+   "strategy": "rsi2",
+   "entry_type": "market",
+   "hold_until": "2026-12-04T06:00:00-05:00",
+   "why": "Sharp rally (RSI(2) 88) against the 30min trend: fade it back to the 5-bar average",
+   "sent_at": "2026-11-24T06:00:20.358642-05:00",
+   "initial_status": "open",
+   "feed": "real-time gold (PAXG, matched to spot +6.17)",
+   "gbpusd": 1.30404,
+   "account_gbp": 2155.32,
+   "lots": 0.01,
+   "risk_pct": 2.0,
+   "legs": [
+    {
+     "n": 2,
+     "tp": 3599.95,
+     "r_mult": 1.0,
+     "lots": 0.01,
+     "status": "open"
+    }
+   ],
+   "news": {
+    "risk": "high",
+    "next": {
+     "title": "Core PCE Price Index m/m",
+     "country": "USD",
+     "impact": "High",
+     "time": "2026-11-25T13:30:00+00:00",
+     "forecast": "0.3%",
+     "previous": "0.3%"
+    }
+   }
   }
  },
  "created": "2026-11-06T14:07:44.404822+00:00",
- "updated": "2026-11-24T05:55:20.344217-05:00",
+ "updated": "2026-11-24T06:00:20.358642-05:00",
  "tg_chat": "-5265949283",
  "tg_hello": "2026-11-06T09:11:55.080480-05:00",
  "tg_offset": 620043535,
