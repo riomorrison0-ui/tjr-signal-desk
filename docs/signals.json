@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T03:40:20.317173-05:00",
+ "updated": "2026-11-24T03:45:20.329314-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3624.36,
-   "feed": "real-time gold (PAXG, matched to spot +5.15)",
-   "time": "2026-11-24T03:35:00-05:00"
+   "price": 3626.32,
+   "feed": "real-time gold (PAXG, matched to spot +4.97)",
+   "time": "2026-11-24T03:40:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "U.S. imposes new sanctions targeting Iran\u2019s shadow banking networks - \u0633\u0627\u0646\u0627",
-    "US senators move to halt funding for a war against Iran - Egypt Independent",
-    "War Reveals a Global Food System Dependent on Fossil Fuels - Yale E360"
+    "Jet Drones Push the War Deep Into Western Ukraine - El Mundo America",
+    "Missile War Monitor: Ukraine hits Lukoil's Perm refinery and Novoshakhtinsk halts as a strike on a Zaporizhzhia apartment block injures 33 - IntelliNews",
+    "Global Landmine Casualties Hit a 5-Year High, Driven by Myanmar\u2019s Brutal Civil War and Syria - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
