@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T11:20:20.266335-05:00",
+ "updated": "2026-11-24T11:25:20.253714-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3561.06,
-   "feed": "real-time gold (PAXG, matched to spot +8.56)",
-   "time": "2026-11-24T11:15:00-05:00"
+   "price": 3568.72,
+   "feed": "real-time gold (PAXG, matched to spot +5.06)",
+   "time": "2026-11-24T11:20:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Mamdani Backs Settler Sanctions, Urges End to US Funding of Israeli Genocide - Palestine Chronicle",
     "Why is there a Cold War missile in a field in Llangollen? - BBC",
-    "New U.S. sanctions target Iranian shadow banking system - WORLD News Group",
-    "Taxation at Heart of M23\u2019s War Economy - Africa Defense Forum"
+    "New U.S. sanctions target Iranian shadow banking system - WORLD News Group"
    ]
   },
   "today": [
