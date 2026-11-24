@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T02:55:20.325957-05:00",
+ "updated": "2026-11-24T03:00:20.346167-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3620.91,
-   "feed": "real-time gold (PAXG, matched to spot +7.01)",
-   "time": "2026-11-24T02:50:00-05:00"
+   "price": 3620.03,
+   "feed": "real-time gold (PAXG, matched to spot +5.01)",
+   "time": "2026-11-24T02:55:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Daily Update: Russia Loses 1,848 Troops, One Ship and 55 Artillery Systems in One Day - UNITED24 Media",
-    "EU unveils new sanctions package against Russia, including visa ban for participants in the war and restrictions on Russian athletes - https://theins.press/en",
-    "Lords committee warns Britain cannot prove it is ready for war - London Business News"
+    "US Sanctions 29 individuals and Entities Linked to the Islamic Republic - IranWire",
+    "Ukraine government welcomes newly proposed EU sanctions package - The Kyiv Independent",
+    "EU unveils new sanctions package against Russia, including visa ban for participants in the war and restrictions on Russian athletes - https://theins.press/en"
    ]
   },
   "today": [
