@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T11:50:20.256094-05:00",
+ "updated": "2026-11-24T11:55:20.258255-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.68,
-   "feed": "real-time gold (PAXG, matched to spot +4.67)",
-   "time": "2026-11-24T11:45:00-05:00"
+   "price": 3567.31,
+   "feed": "real-time gold (PAXG, matched to spot +4.93)",
+   "time": "2026-11-24T11:50:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Mamdani Backs Settler Sanctions, Urges End to US Funding of Israeli Genocide - Palestine Chronicle",
-    "Why is there a Cold War missile in a field in Llangollen? - BBC",
-    "New U.S. sanctions target Iranian shadow banking system - WORLD News Group"
+    "Some 720,000 Russian soldiers killed in the war, in leaked data deemed authentic by the independent Mediazona news website (Ukraine Battlefield update, day 1,734) - EUobserver",
+    "Proposed UK export-control changes - Global Sanctions and Export Controls Blog",
+    "\u2018Unfinished Beginnings\u2019: Art installation for children affected by war - Al Jazeera"
    ]
   },
   "today": [
