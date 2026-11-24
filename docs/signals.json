@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T14:15:20.380344-05:00",
+ "updated": "2026-11-24T14:20:20.464758-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3560.11,
-   "feed": "real-time gold (PAXG, matched to spot +4.57)",
-   "time": "2026-11-24T14:10:00-05:00"
+   "price": 3561.82,
+   "feed": "real-time gold (PAXG, matched to spot +5.12)",
+   "time": "2026-11-24T14:15:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "France Develops Comet Missile To Outrange Adversary Weapons - Aviation Week",
-    "The expanding boundaries of the Ukraine war - Financial Times",
-    "State has spent \u20ac4.2bn on accommodating Ukrainians since Russian invasion - The Irish Times"
+    "Israel\u2019s Ben-Gvir accused of seeking \u2018religious war\u2019 over mosque raids - Al Jazeera",
+    "Is Libya a new front in the Ukraine war? - Al Jazeera",
+    "France Develops Comet Missile To Outrange Adversary Weapons - Aviation Week"
    ]
   },
   "today": [
