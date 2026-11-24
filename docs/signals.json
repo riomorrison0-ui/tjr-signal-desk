@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T05:30:20.342338-05:00",
+ "updated": "2026-11-24T05:35:20.347486-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3620.57,
-   "feed": "real-time gold (PAXG, matched to spot +3.23)",
-   "time": "2026-11-24T05:25:00-05:00"
+   "price": 3626.24,
+   "feed": "real-time gold (PAXG, matched to spot +5.89)",
+   "time": "2026-11-24T05:30:00-05:00"
   }
  },
  "stats": {
@@ -97,7 +97,7 @@
    "examples": [
     "Brad Piutt Shares Info on World War Z Sequel - SciFiNow",
     "EU's 22nd sanctions package spares Russian seafood again - www.intrafish.com",
-    "U.S. Sanctions Target Financial Networks Supporting Iran\u2019s Oil and Shipping Operations - Global Trade Magazine"
+    "OPINION - Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131"
    ]
   },
   "today": [
