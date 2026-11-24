@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T23:40:20.344639-05:00",
+ "updated": "2026-11-23T23:45:20.321107-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.36,
-   "feed": "real-time gold (PAXG, matched to spot +9.25)",
-   "time": "2026-11-23T23:35:00-05:00"
+   "price": 3632.43,
+   "feed": "real-time gold (PAXG, matched to spot +9.68)",
+   "time": "2026-11-23T23:40:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "New York City\u2019s mayor welcomes proposed sanctions on Israeli settlements - A News",
-    "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
-    "Why was the Srebrenica massacre a major event in the Bosnian War? - Britannica"
+    "Iran enlists epic heroes as missile claims grow - Amwaj.media",
+    "James Bond\u2019s Bare Wrist Sets Off Watch Industry War - WSJ",
+    "Ukraine war briefing: Kyiv\u2019s strike on Russian ships in Benghazi condemned by Libya\u2019s UN-backed government - The Guardian"
    ]
   },
   "today": [
