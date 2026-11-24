@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T20:05:20.309476-05:00",
+ "updated": "2026-11-23T20:10:20.293969-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3656.22,
-   "feed": "real-time gold (PAXG, matched to spot +7.09)",
-   "time": "2026-11-23T20:00:00-05:00"
+   "price": 3658.84,
+   "feed": "real-time gold (PAXG, matched to spot +8.41)",
+   "time": "2026-11-23T20:05:00-05:00"
   }
  },
  "stats": {
@@ -96,8 +96,8 @@
    "count": 5,
    "examples": [
     "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
-    "Russian unmanned aerial vehicle violates Polish airspace days after missile incursion - The Kyiv Independent",
-    "NATO calls urgent meeting as string of incidents escalates Russia tensions - The Washington Post"
+    "Ukraine sinks Russian warship off Libyan coast as war widens - The Japan Times",
+    "Russian unmanned aerial vehicle violates Polish airspace days after missile incursion - The Kyiv Independent"
    ]
   },
   "today": [
