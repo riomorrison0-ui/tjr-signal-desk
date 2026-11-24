@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T03:10:20.346925-05:00",
+ "updated": "2026-11-24T03:15:20.308051-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3621.56,
-   "feed": "real-time gold (PAXG, matched to spot +7.02)",
-   "time": "2026-11-24T03:05:00-05:00"
+   "price": 3620.9,
+   "feed": "real-time gold (PAXG, matched to spot +7.88)",
+   "time": "2026-11-24T03:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US Sanctions 29 individuals and Entities Linked to the Islamic Republic - IranWire",
-    "Ukraine government welcomes newly proposed EU sanctions package - The Kyiv Independent",
-    "EU unveils new sanctions package against Russia, including visa ban for participants in the war and restrictions on Russian athletes - https://theins.press/en"
+    "Indonesia Arrests Alleged Recruiter of 17 for Russia's War - Stop Russian Recruiters",
+    "Rutte has called on the people of all NATO countries to prepare for a possible war - UkrMedia News",
+    "Russia pitched oil deals to Trump\u2019s negotiators in exchange for sanctions relief - New York Magazine - Hromadske"
    ]
   },
   "today": [
