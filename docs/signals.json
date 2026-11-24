@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T14:45:20.408756-05:00",
+ "updated": "2026-11-24T14:50:20.383333-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3558.57,
-   "feed": "real-time gold (PAXG, matched to spot +3.40)",
-   "time": "2026-11-24T14:40:00-05:00"
+   "price": 3558.37,
+   "feed": "real-time gold (PAXG, matched to spot +3.34)",
+   "time": "2026-11-24T14:45:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "EU's new sanctions proposal takes aim at Russian war funding and sports participation as sporting world moves to readmit Russian athletes - Euromaidan Press",
-    "Israeli missile motor maker Tomer raises $182M in debt to expand - Dealroom",
-    "Israel\u2019s Ben-Gvir accused of seeking \u2018religious war\u2019 over mosque raids - Al Jazeera"
+    "Congress\u2019s Options for Ending the Iran War - Lawfare",
+    "Advance the War Against Death in Season of Tyrael\u2019s Gambit \u2014 Diablo IV - Blizzard News",
+    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
    ]
   },
   "today": [
