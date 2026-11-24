@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T18:26:27.562919-05:00",
+ "updated": "2026-11-24T18:27:54.617584-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3563.89,
-   "feed": "real-time gold (PAXG, matched to spot +6.81)",
+   "price": 3565.22,
+   "feed": "real-time gold (PAXG, matched to spot +8.14)",
    "time": "2026-11-24T18:20:00-05:00"
   }
  },
@@ -100,8 +100,8 @@
    "count": 4,
    "examples": [
     "Huawei guilty of trade theft, sanctions evasion - Global Investigations Review",
-    "Microsoft's historic cloud outage exposed an engineering \u201cfog of war\u201d - Ars Technica",
-    "Trump: I\u2019ll pardon turkeys in my missile-proof ballroom - The Telegraph"
+    "Contracts for Nov. 24, 2026 - U.S. Department of War (.gov)",
+    "Microsoft's historic cloud outage exposed an engineering \u201cfog of war\u201d - Ars Technica"
    ]
   },
   "today": [
@@ -161,8 +161,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.48,
-  "gbpusd": 1.31196
+  "stop_cap_usd": 52.45,
+  "gbpusd": 1.31127
  },
  "backtest": {
   "portfolio": {
