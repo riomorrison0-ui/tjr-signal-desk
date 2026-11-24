@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T10:00:20.262942-05:00",
+ "updated": "2026-11-24T10:05:20.224422-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3620.66,
-   "feed": "real-time gold (PAXG, matched to spot +6.51)",
-   "time": "2026-11-24T09:55:00-05:00"
+   "price": 3612.37,
+   "feed": "real-time gold (PAXG, matched to spot +3.93)",
+   "time": "2026-11-24T10:00:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Gripping story exploring ancient war saga lands UK premiere in Kingston - Kingston Nub News",
-    "Ukraine's sanctions envoy urges EU to target Rosatom and alumina sales - Euronews.com",
-    "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks - Reuters"
+    "Sanctions Remain on International Criminal Court Judges, for Now - Bloomberg Law News",
+    "Ukraine needs at least \u20ac115B next year to withstand war, Zelenskyy says - Anadolu Ajans\u0131",
+    "Trade war over green tech has no winners - Tech Xplore"
    ]
   },
   "today": [
