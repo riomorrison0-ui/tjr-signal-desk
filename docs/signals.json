@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T06:00:20.358642-05:00",
+ "updated": "2026-11-24T06:05:20.308840-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.09,
-   "feed": "real-time gold (PAXG, matched to spot +6.17)",
-   "time": "2026-11-24T05:55:00-05:00"
+   "price": 3627.06,
+   "feed": "real-time gold (PAXG, matched to spot +6.06)",
+   "time": "2026-11-24T06:00:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "6 Palestinians killed in Israeli strikes in Gaza amid repeated ceasefire violations - Anadolu Ajans\u0131",
-    "Russia\u2019s War Against Ukraine Could Have Been Prevented by NATO Membership in 2008, Merz Says - UNITED24 Media",
-    "Russia Accuses Estonia of Hostilities \u2018On the Verge of Triggering Open War\u2019 - Time Magazine"
+    "UK sanctions Myanmar president, military leaders over Rohingya genocide - The Business Standard",
+    "Russia\u2019s War Against Ukraine Could Have Been Prevented by NATO Membership in 2008, Merz Says - UNITED24 Media"
    ]
   },
   "today": [
