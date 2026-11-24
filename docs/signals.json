@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T06:15:20.327073-05:00",
+ "updated": "2026-11-24T06:20:20.317149-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3624.11,
-   "feed": "real-time gold (PAXG, matched to spot +4.43)",
-   "time": "2026-11-24T06:10:00-05:00"
+   "price": 3625.85,
+   "feed": "real-time gold (PAXG, matched to spot +6.55)",
+   "time": "2026-11-24T06:15:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "6 Palestinians killed in Israeli strikes in Gaza amid repeated ceasefire violations - Anadolu Ajans\u0131",
-    "UK sanctions Myanmar president, military leaders over Rohingya genocide - The Business Standard",
-    "Russia\u2019s War Against Ukraine Could Have Been Prevented by NATO Membership in 2008, Merz Says - UNITED24 Media"
+    "Uncovering women's history in First World War medical records - Wired Gov",
+    "Drought in a War Zone: How Climate Change Is Deepening Sudan\u2019s Crisis - Next Century Foundation",
+    "Latvian president sees possible 'tipping point' in Ukraine war next year - Reuters"
    ]
   },
   "today": [
