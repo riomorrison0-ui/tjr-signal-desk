@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T18:40:20.367456-05:00",
+ "updated": "2026-11-24T18:45:20.385149-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3555.07,
-   "feed": "real-time gold (PAXG, matched to spot +1.54)",
-   "time": "2026-11-24T18:35:00-05:00"
+   "price": 3554.77,
+   "feed": "real-time gold (PAXG, matched to spot +3.56)",
+   "time": "2026-11-24T18:40:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "elevated",
    "count": 4,
    "examples": [
-    "Huawei guilty of trade theft, sanctions evasion - Global Investigations Review",
-    "Contracts for Nov. 24, 2026 - U.S. Department of War (.gov)",
-    "Microsoft's historic cloud outage exposed an engineering \u201cfog of war\u201d - Ars Technica"
+    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+    "NATO Allies conduct drills in biannual Integrated Air and Missile Defence exercise Ramstein Legacy - North Atlantic Treaty Organization | NATO",
+    "As Ukraine sinks Russian ships, some NATO nations voice anxiety over war's spread to new regions - CBS News"
    ]
   },
   "today": [
