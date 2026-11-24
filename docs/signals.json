@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T10:30:20.250689-05:00",
+ "updated": "2026-11-24T10:35:20.266322-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3589.55,
-   "feed": "real-time gold (PAXG, matched to spot +6.08)",
-   "time": "2026-11-24T10:25:00-05:00"
+   "price": 3592.66,
+   "feed": "real-time gold (PAXG, matched to spot +9.28)",
+   "time": "2026-11-24T10:30:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Land mine casualties soar in Syria, two years after war - BBC",
-    "How the Iran war is reshaping the US military presence in the Middle East - Al Jazeera",
-    "New Spring Undergrad Courses Tackle AI, War, and Tomorrow's Challenges - Princeton School of Public and International Affairs"
+    "Russia razes own ballistic missile workshop months after Ukraine strike - The Independent",
+    "For children in Ukraine, war has become a part of everyday life. - Vatican News",
+    "Land mine casualties soar in Syria, two years after war - BBC"
    ]
   },
   "today": [
