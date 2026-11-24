@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T04:10:20.337634-05:00",
+ "updated": "2026-11-24T04:15:20.318103-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3617.72,
-   "feed": "real-time gold (PAXG, matched to spot +3.89)",
-   "time": "2026-11-24T04:05:00-05:00"
+   "price": 3621.39,
+   "feed": "real-time gold (PAXG, matched to spot +5.36)",
+   "time": "2026-11-24T04:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "ICJ Ruling: UK formally recognises Rohingya genocide and imposes new sanctions on Myanmar military - Open Access Government",
-    "Commission adopts guidelines implementing the visa ban on combatants in Russia\u2019s war of aggression against Ukraine - The European Sting",
-    "Pentagon delays approval for Patriot missile shipments to Ukraine: Report - A News"
+    "Iran War Strains Gulf Hotel Contracts, but Owners Aren\u2019t Walking Away Yet - Skift",
+    "Council adds founder of The Base to EU terrorist sanctions list - EU Law Live",
+    "ICJ Ruling: UK formally recognises Rohingya genocide and imposes new sanctions on Myanmar military - Open Access Government"
    ]
   },
   "today": [
