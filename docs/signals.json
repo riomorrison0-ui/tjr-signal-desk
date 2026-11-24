@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T09:00:20.241392-05:00",
+ "updated": "2026-11-24T09:05:20.264578-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3619.32,
-   "feed": "real-time gold (PAXG, matched to spot +12.12)",
-   "time": "2026-11-24T08:55:00-05:00"
+   "price": 3618.64,
+   "feed": "real-time gold (PAXG, matched to spot +9.83)",
+   "time": "2026-11-24T09:00:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Iranian rial hits record low after fresh US sanctions target financial network - Anadolu Ajans\u0131",
-    "A Region Trapped between Republican War and Democratic Withdrawal - Middle East Council on Global Affairs",
-    "Iran's Judiciary Threatens Lawsuit Against Jordan And Arab States Over War Damage - IranWire"
+    "Ukraine war becomes daily more dangerous - Morning Star | The People\u2019s Daily",
+    "Iran's Judiciary Threatens Lawsuit Against Jordan And Arab States Over War Damage - IranWire",
+    "Iranian rial hits record low after fresh US sanctions target financial network - Anadolu Ajans\u0131"
    ]
   },
   "today": [
