@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T05:45:20.320208-05:00",
+ "updated": "2026-11-24T05:50:20.348140-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.4,
-   "feed": "real-time gold (PAXG, matched to spot +5.69)",
-   "time": "2026-11-24T05:40:00-05:00"
+   "price": 3623.16,
+   "feed": "real-time gold (PAXG, matched to spot +5.75)",
+   "time": "2026-11-24T05:45:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Brad Piutt Shares Info on World War Z Sequel - SciFiNow",
-    "EU's 22nd sanctions package spares Russian seafood again - www.intrafish.com",
-    "OPINION - Where is the US/Israel-Iran war heading? - Anadolu Ajans\u0131"
+    "6 Palestinians killed in Israeli strikes in Gaza amid repeated ceasefire violations - Anadolu Ajans\u0131",
+    "Russia\u2019s War Against Ukraine Could Have Been Prevented by NATO Membership in 2008, Merz Says - UNITED24 Media",
+    "Russia Accuses Estonia of Hostilities \u2018On the Verge of Triggering Open War\u2019 - Time Magazine"
    ]
   },
   "today": [
