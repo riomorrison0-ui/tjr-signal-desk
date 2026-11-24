@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T02:10:20.339024-05:00",
+ "updated": "2026-11-24T02:15:20.306161-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3621.56,
-   "feed": "real-time gold (PAXG, matched to spot +7.18)",
-   "time": "2026-11-24T02:05:00-05:00"
+   "price": 3621.17,
+   "feed": "real-time gold (PAXG, matched to spot +7.31)",
+   "time": "2026-11-24T02:10:00-05:00"
   }
  },
  "stats": {
@@ -95,9 +95,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Europe Today: EU Commission proposes new round of sanctions against Russia - Euronews.com",
     "Russian losses in the war with Ukraine. Mediazona count, updated - Mediazona",
-    "Ukraine War, Day 1,734: More Than 460,000 Invasion-Linked Russian Deaths Identified - EA WorldView",
-    "UK sanctions top Myanmar military leaders after Rohingya genocide ruling - Saudi Gazette"
+    "Ukraine War, Day 1,734: More Than 460,000 Invasion-Linked Russian Deaths Identified - EA WorldView"
    ]
   },
   "today": [
