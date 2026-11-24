@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T12:05:20.244946-05:00",
+ "updated": "2026-11-24T12:10:20.258701-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3565.68,
-   "feed": "real-time gold (PAXG, matched to spot +6.46)",
-   "time": "2026-11-24T12:00:00-05:00"
+   "price": 3570.92,
+   "feed": "real-time gold (PAXG, matched to spot +5.43)",
+   "time": "2026-11-24T12:05:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Some 720,000 Russian soldiers killed in the war, in leaked data deemed authentic by the independent Mediazona news website (Ukraine Battlefield update, day 1,734) - EUobserver",
-    "Proposed UK export-control changes - Global Sanctions and Export Controls Blog",
-    "\u2018Unfinished Beginnings\u2019: Art installation for children affected by war - Al Jazeera"
+    "UK sanctions Yemen\u2019s Houthi group and four of its top officials - Al Jazeera",
+    "The EU threatened Germany and France with sanctions over excessive budget deficits - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "Some 720,000 Russian soldiers killed in the war, in leaked data deemed authentic by the independent Mediazona news website (Ukraine Battlefield update, day 1,734) - EUobserver"
    ]
   },
   "today": [
