@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T04:45:20.345336-05:00",
+ "updated": "2026-11-24T04:50:20.306162-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3623.92,
-   "feed": "real-time gold (PAXG, matched to spot +6.55)",
-   "time": "2026-11-24T04:40:00-05:00"
+   "price": 3622.89,
+   "feed": "real-time gold (PAXG, matched to spot +8.87)",
+   "time": "2026-11-24T04:45:00-05:00"
   }
  },
  "stats": {
@@ -93,11 +93,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "22nd package against Russia: is Europe\u2019s sanctions machine reaching its limits? - EUalive",
-    "Mamdani: Sanctions on settlers not enough, time to end US military funding for Israel - Middle East Monitor",
-    "Iran War Strains Gulf Hotel Contracts, but Owners Aren\u2019t Walking Away Yet - Skift"
+    "Merkury Ship Sunk: UN Response and the Risk of War Spreading to Libya - Diplomacy and Law",
+    "Leaked data from Russia's statistics agency show at least 490,000 Russian war dead, and an estimate adding the missing puts the toll above 700,000 - Euromaidan Press",
+    "US writers launch alternative to PEN America amid divisions over Gaza war, Israel boycotts - Anadolu Ajans\u0131"
    ]
   },
   "today": [
