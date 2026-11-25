@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T10:20:20.517541-05:00",
+ "updated": "2026-11-25T10:25:20.525789-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3429.04,
-   "feed": "real-time gold (PAXG, matched to spot -1.17)",
-   "time": "2026-11-25T10:15:00-05:00"
+   "price": 3438.58,
+   "feed": "real-time gold (PAXG, matched to spot +3.29)",
+   "time": "2026-11-25T10:20:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Slovakia\u2019s Fico snubbed Poland and Europe, insulted Ukraine veterans (again), and callously lied about Putin\u2019s war (Ukraine Battlefield update, day 1,734) - EUobserver",
-    "Caught Between War and Crime, Who Will Protect Women on Day To Eliminate Violence? - The Media Line",
-    "UK Energy Bills Set to Soar 26% as Iran War Drives Up Gas Prices - Crude Oil Prices Today | OilPrice.com"
+    "Investigation Dropped Into One Of Two Suspects In Sanctions Investigation - Legal 500",
+    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - Arab News",
+    "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war - France 24"
    ]
   },
   "today": [
