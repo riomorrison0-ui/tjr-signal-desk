@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T09:35:20.492482-05:00",
+ "updated": "2026-11-25T09:40:20.672893-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3465.81,
-   "feed": "real-time gold (PAXG, matched to spot +3.75)",
-   "time": "2026-11-25T09:30:00-05:00"
+   "price": 3460.7,
+   "feed": "real-time gold (PAXG, matched to spot +1.19)",
+   "time": "2026-11-25T09:35:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "It was \u2018meant by God\u2019 that I made anti-war movie, Russian film-maker says - The Irish News",
-    "Qatar LNG Exports Hit Busiest Month Since Start of Iran War, Despite Insurance Costs - Insurance Journal",
-    "Syrian teams clear landmines after deadly explosion - Al Jazeera"
+    "Some Drug Shipments Still Stuck Since War Began, Iran's Food and Drug Chief Says - IranWire",
+    "Britain can now sanction war criminals - could Sri Lanka's commanders be next? - Tamil Guardian",
+    "It was \u2018meant by God\u2019 that I made anti-war movie, Russian film-maker says - The Irish News"
    ]
   },
   "today": [
