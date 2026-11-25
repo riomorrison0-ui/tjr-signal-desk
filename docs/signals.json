@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T16:40:20.359478-05:00",
+ "updated": "2026-11-25T16:45:20.319691-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.8,
-   "feed": "real-time gold (PAXG, matched to spot +2.91)",
-   "time": "2026-11-25T16:35:00-05:00"
+   "price": 3578.24,
+   "feed": "real-time gold (PAXG, matched to spot +4.52)",
+   "time": "2026-11-25T16:40:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "Saudi-led coalition intercepts Houthi cruise missile, drone in western Saudi Arabia - Anadolu Ajans\u0131",
-    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "US envoy Kushner warns against Ukraine war escalation - Arab News"
+    "U.S., Mexican Army Leaders Strengthen Bilateral Partnership - U.S. Department of War (.gov)",
+    "Can Tehran Escape the Shadow of Syria\u2019s War? - The Syrian Observer",
+    "Permitted cruelty and impunity: Israel\u2019s war on Palestinian prisoners | Daily Sabah - Daily Sabah"
    ]
   },
   "today": [
