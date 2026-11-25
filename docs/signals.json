@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T03:00:20.361125-05:00",
+ "updated": "2026-11-25T03:05:20.370473-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3524.25,
-   "feed": "real-time gold (PAXG, matched to spot +4.44)",
-   "time": "2026-11-25T02:55:00-05:00"
+   "price": 3518.35,
+   "feed": "real-time gold (PAXG, matched to spot +0.99)",
+   "time": "2026-11-25T03:00:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump says US has funds to sustain Iran war until January - Anadolu Ajans\u0131",
-    "Saudi wealth fund attacks widen war from energy to finance - Asia Times",
-    "British household energy bills to jump 26% amid Iran war, regulator says - The Times of Israel"
+    "\u2018War is Peace\u2019: The Gaza Truce is a Lie, and Israel Intends to Finish the Job - Palestine Chronicle",
+    "Corrupt governor falls victim to war with FSB - Arctic Today",
+    "Trump shelves plans for business deals with Russia in bid to end Ukraine war - www.lbc.co.uk"
    ]
   },
   "today": [
