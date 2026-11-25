@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T20:45:20.399127-05:00",
+ "updated": "2026-11-24T20:50:20.372835-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3551.5,
-   "feed": "real-time gold (PAXG, matched to spot +4.07)",
-   "time": "2026-11-24T20:40:00-05:00"
+   "price": 3551.32,
+   "feed": "real-time gold (PAXG, matched to spot +4.61)",
+   "time": "2026-11-24T20:45:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Poll finds US voters want government to end Iran war regardless of terms - Al Jazeera",
-    "Reconstruction stalls in Rehovot 17 months after Iranian missile strike - The Jerusalem Post",
-    "Europe on edge as Ukraine war spreads into Mediterranean - AFR"
+    "Israel kills senior Hamas security official in airstrike on Gaza - sightmagazine.com.au",
+    "US imposes sanctions on Iran's networks - China Daily Global Edition",
+    "How war complicates the fight against Ebola - The World from PRX"
    ]
   },
   "today": [
