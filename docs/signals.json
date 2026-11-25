@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T07:15:20.403884-05:00",
+ "updated": "2026-11-25T07:20:20.429764-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3514.29,
-   "feed": "real-time gold (PAXG, matched to spot +6.54)",
-   "time": "2026-11-25T07:10:00-05:00"
+   "price": 3519.58,
+   "feed": "real-time gold (PAXG, matched to spot +4.76)",
+   "time": "2026-11-25T07:15:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Hamas security official killed in Israeli airstrike on Gaza City - Xinhua",
-    "Energy bills to jump 26% in January as Iran war sends gas prices soaring - Hounslow Herald",
-    "Kremlin dismisses Meduza\u2019s estimate of 720,000 Russian war dead, tells public to trust Defense Ministry numbers - Meduza"
+    "Von der Leyen: Energy ceasefire would show Putin is serious about peace talks - POLITICO.eu",
+    "Britain\u2019s Energy Strategy Is Hoping the War Ends Soon - Bloomberg",
+    "UK nuclear test veterans win 40-year battle for inquiry into Cold War tests they say damaged health - AP News"
    ]
   },
   "today": [
