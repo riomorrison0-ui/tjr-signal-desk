@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T12:30:20.404369-05:00",
+ "updated": "2026-11-25T12:35:20.382380-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3500.98,
-   "feed": "real-time gold (PAXG, matched to spot +2.51)",
-   "time": "2026-11-25T12:25:00-05:00"
+   "price": 3498.64,
+   "feed": "real-time gold (PAXG, matched to spot +3.59)",
+   "time": "2026-11-25T12:30:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran developing more powerful hybrid missiles for long-range strikes, experts warns - The Independent",
-    "Switzerland forced to close office in North Korea over sanctions feud - Al Jazeera",
-    "Poland and UK advance CAMM-MR missile project three years after concept unveiled - Janes Defence Intelligence"
+    "Injury toll in Russian airstrike on Sloviansk rises to 10, one person killed - Ukrinform",
+    "UN Security Council Adds Vessel to Libya Sanctions List - Mirage News",
+    "Iran developing more powerful hybrid missiles for long-range strikes, experts warns - The Independent"
    ]
   },
   "today": [
