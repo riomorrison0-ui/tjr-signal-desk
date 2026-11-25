@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T21:15:20.363437-05:00",
+ "updated": "2026-11-24T21:20:20.355064-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3557.76,
-   "feed": "real-time gold (PAXG, matched to spot +1.96)",
-   "time": "2026-11-24T21:10:00-05:00"
+   "price": 3563.4,
+   "feed": "real-time gold (PAXG, matched to spot +8.27)",
+   "time": "2026-11-24T21:15:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Israel kills senior Hamas security official in airstrike on Gaza - Sight Magazine",
-    "US imposes sanctions on Iran's networks - China Daily Global Edition",
-    "How war complicates the fight against Ebola - The World from PRX"
+    "Iran's IRGC chief: Next war not necessarily limited to West Asia - chinadailyhk",
+    "US jury convicts Huawei of violating sanctions, stealing trade secrets - DW.com",
+    "Israel kills senior Hamas security official in airstrike on Gaza - Sight Magazine"
    ]
   },
   "today": [
