@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T06:25:20.433417-05:00",
+ "updated": "2026-11-25T06:30:20.448092-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3523.76,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-25T06:20:00-05:00"
+   "price": 3518.09,
+   "feed": "real-time gold (PAXG, matched to spot +3.92)",
+   "time": "2026-11-25T06:25:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How the War Turned Sudan Into a Country Without a Newspaper - Time Magazine",
-    "Hacker attack reveals Russia\u2019s heavy war losses - eurotopics.net",
-    "Saudi Arabia\u2019s Vision 2030 faces a costly war test - Fortune"
+    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle",
+    "Martin Lewis says Middle East de-escalation remains 'big hope' for reducing energy prices - as household bills soar by 26% - LBC",
+    "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orb\u00e1n - The Guardian"
    ]
   },
   "today": [
