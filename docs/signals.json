@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T11:10:20.462652-05:00",
+ "updated": "2026-11-25T11:15:20.408244-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3448.91,
-   "feed": "real-time gold (PAXG, matched to spot +2.70)",
-   "time": "2026-11-25T11:05:00-05:00"
+   "price": 3451.67,
+   "feed": "real-time gold (PAXG, matched to spot +0.21)",
+   "time": "2026-11-25T11:10:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal - T\u00eate \u00e0 t\u00eate - France 24",
-    "Patrick Doval Brings \u2018War of the Worlds\u2019 to Life in Stop-Motion - famemagazine.co.uk",
-    "Investigation Dropped Into One Of Two Suspects In Sanctions Investigation - Legal 500"
+    "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - www.thenationalnews.com",
+    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "Cyber war products multiply as insurers search for growth - The Insurer"
    ]
   },
   "today": [
