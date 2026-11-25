@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T12:45:20.317706-05:00",
+ "updated": "2026-11-25T12:50:20.321318-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3504.37,
-   "feed": "real-time gold (PAXG, matched to spot -1.45)",
-   "time": "2026-11-25T12:40:00-05:00"
+   "price": 3507.68,
+   "feed": "real-time gold (PAXG, matched to spot +5.69)",
+   "time": "2026-11-25T12:45:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Injury toll in Russian airstrike on Sloviansk rises to 10, one person killed - Ukrinform",
-    "UN Security Council Adds Vessel to Libya Sanctions List - Mirage News",
-    "Iran developing more powerful hybrid missiles for long-range strikes, experts warns - The Independent"
+    "Democrats\u2019 push for sanctions could force Israel into fateful choice - The Jewish Chronicle",
+    "Italy warns Ukraine not to spread war into Libyan waters after attacking Russian ships - Baird Maritime",
+    "Iran Says Israel Trying to Deceive US into War with Chemical Weapons Claim - ASHARQ AL-AWSAT English"
    ]
   },
   "today": [
