@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T10:40:20.455445-05:00",
+ "updated": "2026-11-25T10:45:20.467601-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3451.21,
-   "feed": "real-time gold (PAXG, matched to spot +2.58)",
-   "time": "2026-11-25T10:35:00-05:00"
+   "price": 3440.84,
+   "feed": "real-time gold (PAXG, matched to spot -0.12)",
+   "time": "2026-11-25T10:40:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 7,
    "examples": [
     "Investigation Dropped Into One Of Two Suspects In Sanctions Investigation - Legal 500",
-    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - Arab News",
-    "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war - France 24"
+    "Uzair Paracha: A Crucible of the War on Terror - The New Arab",
+    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire"
    ]
   },
   "today": [
