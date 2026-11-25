@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T04:05:20.466603-05:00",
+ "updated": "2026-11-25T04:10:20.430678-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3535.2,
-   "feed": "real-time gold (PAXG, matched to spot +3.52)",
-   "time": "2026-11-25T04:00:00-05:00"
+   "price": 3534.91,
+   "feed": "real-time gold (PAXG, matched to spot +3.65)",
+   "time": "2026-11-25T04:05:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "EasyJet annual profit sinks 96% as Middle East war drives up fuel costs - Anadolu Ajans\u0131",
-    "Trump says US can sustain Iran war until end of January - TRT World",
-    "Trump warns Democrats could undo US gains against Iran, says war funding secured till January - Open Magazine"
+    "Old money, new power: Crafting the prestige look of War - British Cinematographer",
+    "Norwegian Krone: Gas prices to help preserve war gains \u2013 Commerzbank - FXStreet",
+    "Trump says US has funds to sustain Iran war until late January - The New Arab"
    ]
   },
   "today": [
