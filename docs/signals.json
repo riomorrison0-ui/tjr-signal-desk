@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T07:30:20.427449-05:00",
+ "updated": "2026-11-25T07:35:20.443844-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3523.37,
-   "feed": "real-time gold (PAXG, matched to spot +6.29)",
-   "time": "2026-11-25T07:25:00-05:00"
+   "price": 3525.31,
+   "feed": "real-time gold (PAXG, matched to spot +6.28)",
+   "time": "2026-11-25T07:30:00-05:00"
   }
  },
  "stats": {
@@ -101,11 +101,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 8,
    "examples": [
-    "Von der Leyen: Energy ceasefire would show Putin is serious about peace talks - POLITICO.eu",
-    "Britain\u2019s Energy Strategy Is Hoping the War Ends Soon - Bloomberg",
-    "UK nuclear test veterans win 40-year battle for inquiry into Cold War tests they say damaged health - AP News"
+    "Ukraine Hits Three Kinzhal Missile Carriers and Two Su-34s in Single Overnight Strike - UNITED24 Media",
+    "EasyJet profits nosedive as Iran war caused \u00a3244 million fuel cost hit - The Independent",
+    "Ukraine war becomes more dangerous each day - Stop the War"
    ]
   },
   "today": [
