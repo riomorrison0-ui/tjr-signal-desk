@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T14:05:20.419587-05:00",
+ "updated": "2026-11-25T14:10:20.417949-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3547.98,
-   "feed": "real-time gold (PAXG, matched to spot +3.53)",
-   "time": "2026-11-25T14:00:00-05:00"
+   "price": 3556.72,
+   "feed": "real-time gold (PAXG, matched to spot +6.98)",
+   "time": "2026-11-25T14:05:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Araghchi: Israel Seeks to Deceive US into War with Iran over Chemical Weapons Claims - Palestine Chronicle",
-    "Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI - Military Times",
-    "Classic Tracks: Eric Burdon & War\u2019s \u201cSpill the Wine\u201d - Mixonline"
+    "Will Netanyahu lead Israel into another war with Iran before a new leader takes over? - The Forward",
+    "Ukraine war latest: Poland plans no-fly zone near Ukraine border, asks NATO to intercept Russian missiles over Ukraine - The Kyiv Independent",
+    "Ukraine War, Day 1,735: Kyiv Strikes 2 Russian Refineries as Putin Fumes - EA WorldView"
    ]
   },
   "today": [
