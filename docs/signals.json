@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T09:05:20.479715-05:00",
+ "updated": "2026-11-25T09:10:20.482550-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3480.34,
-   "feed": "real-time gold (PAXG, matched to spot +4.65)",
-   "time": "2026-11-25T09:00:00-05:00"
+   "price": 3481.91,
+   "feed": "real-time gold (PAXG, matched to spot +1.05)",
+   "time": "2026-11-25T09:05:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The scale of Russia\u2019s war on Ukraine laid bare as leak shows 500,000 dead - The Independent",
-    "Billable Hours, Broken Hearts: \u201cWar\u201d Creator George Kay on Building HBO\u2019s Ruthless Legal Battlefield - Motion Picture Association",
-    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire"
+    "Syrian teams clear landmines after deadly explosion - Al Jazeera",
+    "Lessons from AU Peacemaking in Sudan for AU\u2019s reform and the current civil war - Amani Africa",
+    "More than 700,000 Russian soldiers have been killed in the Ukraine war, new estimate suggests - NBC News"
    ]
   },
   "today": [
