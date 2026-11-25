@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T13:15:20.320698-05:00",
+ "updated": "2026-11-25T13:20:20.327988-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3526.95,
-   "feed": "real-time gold (PAXG, matched to spot +1.69)",
-   "time": "2026-11-25T13:10:00-05:00"
+   "price": 3537.05,
+   "feed": "real-time gold (PAXG, matched to spot +6.06)",
+   "time": "2026-11-25T13:15:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "US risks third government shutdown over Iran war funding - The New Arab",
-    "Israel hoodwinking US into war with chemical weapons accusations: Iran - TRT World",
-    "Karan Sood\u0589 Discussing De-Escalation Approaches in Bladder Cancer at the 5th Indo Oncology Summit - Oncodaily"
+    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
+    "Ship-Killing ARRW Hypersonic Missile Variant Struggling To Get Full Support From Lawmakers - TWZ",
+    "US risks third government shutdown over Iran war funding - The New Arab"
    ]
   },
   "today": [
