@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T05:50:20.441357-05:00",
+ "updated": "2026-11-25T05:55:20.416091-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3530.78,
-   "feed": "real-time gold (PAXG, matched to spot +5.47)",
-   "time": "2026-11-25T05:45:00-05:00"
+   "price": 3530.31,
+   "feed": "real-time gold (PAXG, matched to spot +4.14)",
+   "time": "2026-11-25T05:50:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Putin\u2019s war in Ukraine has killed nearly 500,000 Russian troops \u2013 leaked data - The Independent",
     "Could Netanyahu take Israel into another war with Iran to cling to power? - Al Jazeera",
-    "EasyJet Profit Hit By Iran War as Apollo Takeover Looms - Bloomberg",
-    "Israeli airstrike kills 4 members of Palestinian family in Gaza - Yeni Safak English"
+    "Why are Tube drivers striking this week? War of words erupts over RMT walkouts - London Evening Standard"
    ]
   },
   "today": [
