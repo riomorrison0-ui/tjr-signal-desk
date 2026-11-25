@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T12:15:20.382283-05:00",
+ "updated": "2026-11-25T12:20:20.385203-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3497.98,
-   "feed": "real-time gold (PAXG, matched to spot +6.24)",
-   "time": "2026-11-25T12:10:00-05:00"
+   "price": 3514.58,
+   "feed": "real-time gold (PAXG, matched to spot +10.62)",
+   "time": "2026-11-25T12:15:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Poland and UK advance CAMM-MR missile project three years after concept unveiled - Janes Defence Intelligence",
-    "French presidential hopeful Teddy Riner says Ukraine is \u2018not our war\u2019 - POLITICO.eu",
-    "Amnesty calls for independent war crimes probe into Ethiopian shelling in Tigray - Los Angeles Times"
+    "Iran developing more powerful hybrid missiles for long-range strikes, experts warns - The Independent",
+    "Switzerland forced to close office in North Korea over sanctions feud - Al Jazeera",
+    "Poland and UK advance CAMM-MR missile project three years after concept unveiled - Janes Defence Intelligence"
    ]
   },
   "today": [
