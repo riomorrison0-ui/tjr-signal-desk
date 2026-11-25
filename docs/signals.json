@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T22:50:20.362775-05:00",
+ "updated": "2026-11-24T22:55:20.356690-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3549.16,
-   "feed": "real-time gold (PAXG, matched to spot +6.20)",
-   "time": "2026-11-24T22:45:00-05:00"
+   "price": 3548.43,
+   "feed": "real-time gold (PAXG, matched to spot +5.79)",
+   "time": "2026-11-24T22:50:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "Russian drone violates Polish airspace days after missile incursions - upi",
     "North Korea expels Swiss representative, closes diplomatic office over sanctions - Reuters",
-    "Who needs a ceasefire more: Russia or Ukraine? - www.lvivherald.com",
-    "Who Owns the Strait of Hormuz Now? How the Iran War Turned a Chokepoint into a Customs House - Modern Diplomacy"
+    "Who needs a ceasefire more: Russia or Ukraine? - www.lvivherald.com"
    ]
   },
   "today": [
