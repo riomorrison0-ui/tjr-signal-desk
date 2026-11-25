@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T07:00:20.384601-05:00",
+ "updated": "2026-11-25T07:05:20.462177-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3492.85,
-   "feed": "real-time gold (PAXG, matched to spot +5.70)",
-   "time": "2026-11-25T06:55:00-05:00"
+   "price": 3501.69,
+   "feed": "real-time gold (PAXG, matched to spot +6.83)",
+   "time": "2026-11-25T07:00:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Drums of War: The New Apostles of Others\u2019 Sacrifice - Atalayar",
-    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle",
-    "Martin Lewis says Middle East de-escalation remains 'big hope' for reducing energy prices - as household bills soar by 26% - LBC"
+    "Hamas security official killed in Israeli airstrike on Gaza City - Xinhua",
+    "Energy bills to jump 26% in January as Iran war sends gas prices soaring - Hounslow Herald",
+    "Kremlin dismisses Meduza\u2019s estimate of 720,000 Russian war dead, tells public to trust Defense Ministry numbers - Meduza"
    ]
   },
   "today": [
