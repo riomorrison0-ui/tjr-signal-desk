@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T05:20:20.429452-05:00",
+ "updated": "2026-11-25T05:25:20.434280-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3532.9,
-   "feed": "real-time gold (PAXG, matched to spot +2.82)",
-   "time": "2026-11-25T05:15:00-05:00"
+   "price": 3530.6,
+   "feed": "real-time gold (PAXG, matched to spot +4.92)",
+   "time": "2026-11-25T05:20:00-05:00"
   }
  },
  "stats": {
@@ -101,11 +101,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Iran rations electricity: How deeply are US sanctions, blockade biting? - Al Jazeera",
-    "Worthing to witness a wrestling war - SussexWorld",
-    "Report: North Korea helping Iran develop launch systems inside underground missile cities - Ynetnews"
+    "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War \u2013 FT - The Moscow Times",
+    "Russia\u2019s war of aggression against Ukraine: EU restricts trade with 15 entities linked to Russia\u2019s military and industrial complex - Council, European Union",
+    "Brussels Insists on Ceasefire Before Negotiations on Europe\u2019s Security Architecture - EU Today"
    ]
   },
   "today": [
