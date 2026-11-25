@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T08:20:20.387306-05:00",
+ "updated": "2026-11-25T08:25:20.417010-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3501.38,
-   "feed": "real-time gold (PAXG, matched to spot +1.98)",
-   "time": "2026-11-25T08:15:00-05:00"
+   "price": 3508.18,
+   "feed": "real-time gold (PAXG, matched to spot +6.65)",
+   "time": "2026-11-25T08:20:00-05:00"
   }
  },
  "stats": {
@@ -110,7 +110,7 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Iran War Is Pushing Record Numbers of Fuel Tankers Into Crude Trade - Crude Oil Prices Today | OilPrice.com",
+    "How good is Ukraine's Flamingo missile? Only 12 of 53 known launches strike their targets, OSINT count shows - Euromaidan Press",
     "Pope Leo XIV urges world to break \u2018ideological and economic chains\u2019 fueling war - Anadolu Ajans\u0131",
     "Scottish Borders: New virtual reality experience brings prisoner of war camp back to life - Rayo"
    ]
