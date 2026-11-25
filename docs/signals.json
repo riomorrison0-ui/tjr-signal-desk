@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T13:00:20.420381-05:00",
+ "updated": "2026-11-25T13:05:20.338344-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3514.04,
-   "feed": "real-time gold (PAXG, matched to spot +1.84)",
-   "time": "2026-11-25T12:55:00-05:00"
+   "price": 3525.06,
+   "feed": "real-time gold (PAXG, matched to spot +3.52)",
+   "time": "2026-11-25T13:00:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Democrats\u2019 push for sanctions could force Israel into fateful choice - The Jewish Chronicle",
-    "Italy warns Ukraine not to spread war into Libyan waters after attacking Russian ships - Baird Maritime",
-    "Iran Says Israel Trying to Deceive US into War with Chemical Weapons Claim - ASHARQ AL-AWSAT English"
+    "US risks third government shutdown over Iran war funding - The New Arab",
+    "Israel hoodwinking US into war with chemical weapons accusations: Iran - TRT World",
+    "Karan Sood\u0589 Discussing De-Escalation Approaches in Bladder Cancer at the 5th Indo Oncology Summit - Oncodaily"
    ]
   },
   "today": [
