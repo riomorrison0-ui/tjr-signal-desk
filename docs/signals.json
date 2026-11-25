@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T04:35:20.427396-05:00",
+ "updated": "2026-11-25T04:40:20.557597-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3527.7,
-   "feed": "real-time gold (PAXG, matched to spot +4.60)",
-   "time": "2026-11-25T04:30:00-05:00"
+   "price": 3527.15,
+   "feed": "real-time gold (PAXG, matched to spot +4.32)",
+   "time": "2026-11-25T04:35:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle",
-    "Israeli strike kills Hamas official, his wife and children - Reuters",
-    "Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK - Naval News"
+    "North Korea expels Swiss envoy over sanctions on children\u2019s camp - Anadolu Ajans\u0131",
+    "Energy bill increases since the start of the Iran war have been three times higher for a typical fossil fuel household than for a modern electric household - Climate Change Committee",
+    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle"
    ]
   },
   "today": [
