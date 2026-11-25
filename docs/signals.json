@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T17:10:20.435649-05:00",
+ "updated": "2026-11-25T17:15:20.379305-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3584.51,
-   "feed": "real-time gold (PAXG, matched to spot +0.47)",
-   "time": "2026-11-25T17:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +1.16)",
+   "time": "2026-11-25T17:10:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "Father\u2019s heartfelt plea to honour fallen son, 17, on Weymouth war memorial - The West Dorset Magazine",
-    "Britain can now sanction for war crimes - could Sri Lanka's commanders be next? - Tamil Guardian",
-    "Russia slams Kyiv in ballistic missile attack, hits shopping center, injures 3 - The Kyiv Independent"
+    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
+    "Russian Diesel Sanctions License Has an Expiry Date for UK Importers - StoneX",
+    "\u2018No peace, no war\u2019 limbo an unsustainable status quo for crude market - Hellenic Shipping News"
    ]
   },
   "today": [
