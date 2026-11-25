@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T17:45:20.219748-05:00",
+ "updated": "2026-11-25T17:50:20.253667-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3584.51,
-   "feed": "real-time gold (PAXG, matched to spot +0.23)",
-   "time": "2026-11-25T17:40:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.49)",
+   "time": "2026-11-25T17:45:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
+    "Contracts for Nov. 25, 2026 - U.S. Department of War (.gov)",
     "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - The National",
-    "Baghdad bargains, the Houthis advance - FDD's Long War Journal",
-    "CENTCOM praises Syria for thwarting drug and weapons smuggling - FDD's Long War Journal"
+    "Baghdad bargains, the Houthis advance - FDD's Long War Journal"
    ]
   },
   "today": [
