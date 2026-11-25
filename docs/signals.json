@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T20:30:20.362388-05:00",
+ "updated": "2026-11-24T20:35:20.358590-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3543.33,
-   "feed": "real-time gold (PAXG, matched to spot +5.35)",
-   "time": "2026-11-24T20:25:00-05:00"
+   "price": 3544.86,
+   "feed": "real-time gold (PAXG, matched to spot +4.80)",
+   "time": "2026-11-24T20:30:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Europe on edge as Ukraine war spreads into Mediterranean - AFR",
-    "Russia's own figures show almost 500,000 deaths in war in Ukraine - BBC",
-    "Sanctions, boycotts and closed ports: The economic cost of settler violence - Ynetnews"
+    "Poll finds US voters want government to end Iran war regardless of terms - Al Jazeera",
+    "Reconstruction stalls in Rehovot 17 months after Iranian missile strike - The Jerusalem Post",
+    "Europe on edge as Ukraine war spreads into Mediterranean - AFR"
    ]
   },
   "today": [
