@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T15:05:20.330286-05:00",
+ "updated": "2026-11-25T15:10:20.417031-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3551.28,
-   "feed": "real-time gold (PAXG, matched to spot +3.33)",
-   "time": "2026-11-25T15:00:00-05:00"
+   "price": 3561.59,
+   "feed": "real-time gold (PAXG, matched to spot +2.51)",
+   "time": "2026-11-25T15:05:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
+    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
     "Hegseth Directs Military Pay System Modernization Prioritizing Warfighters - U.S. Department of War (.gov)",
-    "War in Russia and Iran sends Israeli refineries' profits soaring - www.calcalistech.com",
-    "DW News. . \"Why are you not arresting him?\" Lawmakers confronted a former Mossad chief during a visit to Berlin. A human rights group filed a criminal complaint accusing the ex-spy boss, David Barnea, of committing a war crime. #dwgermanpolitics - Facebook"
+    "War in Russia and Iran sends Israeli refineries' profits soaring - www.calcalistech.com"
    ]
   },
   "today": [
