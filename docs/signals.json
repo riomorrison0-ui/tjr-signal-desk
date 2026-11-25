@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T22:20:20.352721-05:00",
+ "updated": "2026-11-24T22:25:20.363702-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3556.78,
-   "feed": "real-time gold (PAXG, matched to spot +5.66)",
-   "time": "2026-11-24T22:15:00-05:00"
+   "price": 3554.67,
+   "feed": "real-time gold (PAXG, matched to spot +4.45)",
+   "time": "2026-11-24T22:20:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Who needs a ceasefire more: Russia or Ukraine? - www.lvivherald.com",
     "Who Owns the Strait of Hormuz Now? How the Iran War Turned a Chokepoint into a Customs House - Modern Diplomacy",
-    "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orb\u00e1n - The Guardian",
-    "Iran's IRGC chief: Next war not necessarily limited to West Asia - chinadailyhk"
+    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
    ]
   },
   "today": [
