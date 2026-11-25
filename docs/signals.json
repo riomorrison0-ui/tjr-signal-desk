@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T21:30:20.382163-05:00",
+ "updated": "2026-11-24T21:35:20.360035-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.0,
-   "feed": "real-time gold (PAXG, matched to spot +11.71)",
-   "time": "2026-11-24T21:25:00-05:00"
+   "price": 3566.32,
+   "feed": "real-time gold (PAXG, matched to spot +2.78)",
+   "time": "2026-11-24T21:30:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orb\u00e1n - The Guardian",
     "Iran's IRGC chief: Next war not necessarily limited to West Asia - chinadailyhk",
-    "US jury convicts Huawei of violating sanctions, stealing trade secrets - DW.com",
-    "Israel kills senior Hamas security official in airstrike on Gaza - Sight Magazine"
+    "Donald Trump says Iran war funding lasts through January as Democratic Congress nears - The Jerusalem Post"
    ]
   },
   "today": [
