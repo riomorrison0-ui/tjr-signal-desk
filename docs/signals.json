@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T14:35:20.300134-05:00",
+ "updated": "2026-11-25T14:40:20.375376-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3545.3,
-   "feed": "real-time gold (PAXG, matched to spot +3.90)",
-   "time": "2026-11-25T14:30:00-05:00"
+   "price": 3550.11,
+   "feed": "real-time gold (PAXG, matched to spot +4.38)",
+   "time": "2026-11-25T14:35:00-05:00"
   }
  },
  "stats": {
@@ -84,7 +84,7 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
     "North Korea expels Swiss diplomat in sanctions row - BBC",
     "Energy bills to rise by 26% as Iran war causes surge in gas prices - Channel 4",
