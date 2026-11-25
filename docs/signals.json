@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T18:45:20.233316-05:00",
+ "updated": "2026-11-25T18:50:20.221405-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3581.24,
-   "feed": "real-time gold (PAXG, matched to spot -0.44)",
-   "time": "2026-11-25T18:40:00-05:00"
+   "price": 3578.74,
+   "feed": "real-time gold (PAXG, matched to spot +1.66)",
+   "time": "2026-11-25T18:45:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "\u2018We want education, not war!\u2019 Young people take over London\u2019s streets - The Real News Network",
-    "No good news from US on accelerating air defense missile deliveries, Zelensky says - The Kyiv Independent",
-    "Israel\u2019s War on Palestinian Healthcare Workers: A Pattern of Violence and Repression - Arab Center Washington DC"
+    "How did the Israel-Hamas War deepen the Palestinian Authority\u2019s financial crisis in the West Bank? - Britannica",
+    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
+    "\u2018We want education, not war!\u2019 Young people take over London\u2019s streets - The Real News Network"
    ]
   },
   "today": [
