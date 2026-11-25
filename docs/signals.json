@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T23:35:20.371165-05:00",
+ "updated": "2026-11-24T23:40:20.393945-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3549.8,
-   "feed": "real-time gold (PAXG, matched to spot +6.48)",
-   "time": "2026-11-24T23:30:00-05:00"
+   "price": 3547.47,
+   "feed": "real-time gold (PAXG, matched to spot +4.60)",
+   "time": "2026-11-24T23:35:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
-    "Sudan's Burhan hails army 'victories' as war enters 4th year - DNE Africa",
     "Russian drone violates Polish airspace days after missile incursions - upi",
-    "North Korea expels Swiss representative over sanctions related to children's camp - Reuters"
+    "North Korea expels Swiss representative over sanctions related to children's camp - Reuters",
+    "Who needs a ceasefire more: Russia or Ukraine? - www.lvivherald.com"
    ]
   },
   "today": [
