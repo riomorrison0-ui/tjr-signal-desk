@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T11:40:20.465098-05:00",
+ "updated": "2026-11-25T11:44:46.833530-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3454.19,
-   "feed": "real-time gold (PAXG, matched to spot +6.07)",
+   "price": 3453.14,
+   "feed": "real-time gold (PAXG, matched to spot +5.02)",
    "time": "2026-11-25T11:35:00-05:00"
   }
  },
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - The National",
-    "Divergent to support Raytheon development of Nuclear-Armed Sea-Launched Cruise Missile - TCT Magazine",
-    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
+    "Dynagas Partners warns of charter default risk as sanctions deadline looms - Lloyd's List",
+    "Jury convicts Huawei of stealing US trade secrets, evading Iran sanctions - Ars Technica",
+    "Raytheon wins US Navy deal for submarine-launched nuclear cruise missile - Naval Technology"
    ]
   },
   "today": [
