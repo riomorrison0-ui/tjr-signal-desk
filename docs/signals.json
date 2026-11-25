@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T05:05:20.736941-05:00",
+ "updated": "2026-11-25T05:10:20.455101-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3535.72,
-   "feed": "real-time gold (PAXG, matched to spot +5.11)",
-   "time": "2026-11-25T05:00:00-05:00"
+   "price": 3534.97,
+   "feed": "real-time gold (PAXG, matched to spot +3.68)",
+   "time": "2026-11-25T05:05:00-05:00"
   }
  },
  "stats": {
@@ -101,11 +101,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Huawei convicted of sanctions breaches, fraud and conspiracy to steal trade secrets - ICLG",
-    "Deep Dive: US Aid Has Deepened the Costs of Mexico\u2019s Drug War - Inkstick Media",
-    "North Korea expels Swiss envoy over sanctions on children\u2019s camp - Anadolu Ajans\u0131"
+    "Iran rations electricity: How deeply are US sanctions, blockade biting? - Al Jazeera",
+    "Worthing to witness a wrestling war - SussexWorld",
+    "Report: North Korea helping Iran develop launch systems inside underground missile cities - Ynetnews"
    ]
   },
   "today": [
