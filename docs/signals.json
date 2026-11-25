@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T02:45:20.363776-05:00",
+ "updated": "2026-11-25T02:50:20.351046-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3524.43,
-   "feed": "real-time gold (PAXG, matched to spot +7.77)",
-   "time": "2026-11-25T02:40:00-05:00"
+   "price": 3528.88,
+   "feed": "real-time gold (PAXG, matched to spot +7.76)",
+   "time": "2026-11-25T02:45:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
+    "Trump says US has funds to sustain Iran war until January - Anadolu Ajans\u0131",
     "Saudi wealth fund attacks widen war from energy to finance - Asia Times",
-    "British household energy bills to jump 26% amid Iran war, regulator says - The Times of Israel",
-    "Lewis Hamilton and Charles Leclerc face potential Ferrari sanctions \u2013 reports - PlanetF1"
+    "British household energy bills to jump 26% amid Iran war, regulator says - The Times of Israel"
    ]
   },
   "today": [
