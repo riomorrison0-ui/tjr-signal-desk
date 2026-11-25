@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T08:35:20.428766-05:00",
+ "updated": "2026-11-25T08:40:20.427987-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3492.86,
-   "feed": "real-time gold (PAXG, matched to spot +1.57)",
-   "time": "2026-11-25T08:30:00-05:00"
+   "price": 3477.6,
+   "feed": "real-time gold (PAXG, matched to spot +1.95)",
+   "time": "2026-11-25T08:35:00-05:00"
   }
  },
  "stats": {
@@ -110,9 +110,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How good is Ukraine's Flamingo missile? Only 12 of 53 known launches strike their targets, OSINT count shows - Euromaidan Press",
-    "Pope Leo XIV urges world to break \u2018ideological and economic chains\u2019 fueling war - Anadolu Ajans\u0131",
-    "Scottish Borders: New virtual reality experience brings prisoner of war camp back to life - Rayo"
+    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire",
+    "Watch: How the Russia-Ukraine war tore my family apart - BBC",
+    "Yemen war: Emergency aid chief calls for access to war-hit communities - UN News"
    ]
   },
   "today": [
