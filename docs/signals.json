@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T11:25:20.456799-05:00",
+ "updated": "2026-11-25T11:30:20.413539-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3459.72,
-   "feed": "real-time gold (PAXG, matched to spot +1.96)",
-   "time": "2026-11-25T11:20:00-05:00"
+   "price": 3461.74,
+   "feed": "real-time gold (PAXG, matched to spot -0.56)",
+   "time": "2026-11-25T11:25:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - www.thenationalnews.com",
-    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "Cyber war products multiply as insurers search for growth - The Insurer"
+    "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - The National",
+    "Divergent to support Raytheon development of Nuclear-Armed Sea-Launched Cruise Missile - TCT Magazine",
+    "Trump\u2019s \u2018no war, no peace\u2019 strategy on Iran has run its course - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9"
    ]
   },
   "today": [
