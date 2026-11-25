@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T14:20:20.331899-05:00",
+ "updated": "2026-11-25T14:25:20.391173-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3546.89,
-   "feed": "real-time gold (PAXG, matched to spot +2.63)",
-   "time": "2026-11-25T14:15:00-05:00"
+   "price": 3547.64,
+   "feed": "real-time gold (PAXG, matched to spot +1.38)",
+   "time": "2026-11-25T14:20:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Will Netanyahu lead Israel into another war with Iran before a new leader takes over? - The Forward",
-    "Ukraine war latest: Poland plans no-fly zone near Ukraine border, asks NATO to intercept Russian missiles over Ukraine - The Kyiv Independent",
-    "Ukraine War, Day 1,735: Kyiv Strikes 2 Russian Refineries as Putin Fumes - EA WorldView"
+    "North Korea expels Swiss diplomat in sanctions row - BBC",
+    "Energy bills to rise by 26% as Iran war causes surge in gas prices - Channel 4",
+    "Will Netanyahu lead Israel into another war with Iran before a new leader takes over? - The Forward"
    ]
   },
   "today": [
