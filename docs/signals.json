@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T00:40:20.370264-05:00",
+ "updated": "2026-11-25T00:45:20.432353-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3534.52,
-   "feed": "real-time gold (PAXG, matched to spot +4.05)",
-   "time": "2026-11-25T00:35:00-05:00"
+   "price": 3530.92,
+   "feed": "real-time gold (PAXG, matched to spot +5.02)",
+   "time": "2026-11-25T00:40:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump says war in Iran is 'funded' through January, suggesting limited window for new offensive - The Times of Israel",
-    "US shelves proposals to use business deals with Russia to end Ukraine war, FT reports - Reuters",
-    "Killing the Pope by Serhii Plokhy \u2014 a cold war mystery? - Financial Times"
+    "350,000 Yemeni children in besieged Taiz miss out on measles vaccine as war hinders UN access - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+    "North Korea expels head of Swiss diplomatic office over sanctions - France 24",
+    "Trump says war in Iran is 'funded' through January, suggesting limited window for new offensive - The Times of Israel"
    ]
   },
   "today": [
