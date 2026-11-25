@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T19:45:20.406046-05:00",
+ "updated": "2026-11-24T19:50:20.361085-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3547.22,
-   "feed": "real-time gold (PAXG, matched to spot +6.46)",
-   "time": "2026-11-24T19:40:00-05:00"
+   "price": 3551.07,
+   "feed": "real-time gold (PAXG, matched to spot +4.52)",
+   "time": "2026-11-24T19:45:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Letter: Putin will be incentivised to end his war if Kyiv is fully funded - Financial Times",
     "Is the war in the Middle East spilling into Europe? - Middle East Eye",
-    "EU proposes ban on tankers insured in Russia under latest sanctions package - Riviera Maritime Media",
-    "War and domestic bottlenecks slow investment in Syria - Arabian Gulf Business Insight | AGBI"
+    "EU proposes ban on tankers insured in Russia under latest sanctions package - Riviera Maritime Media"
    ]
   },
   "today": [
