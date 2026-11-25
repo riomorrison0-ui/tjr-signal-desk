@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T08:50:20.439805-05:00",
+ "updated": "2026-11-25T08:55:20.530394-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3479.84,
-   "feed": "real-time gold (PAXG, matched to spot +0.67)",
-   "time": "2026-11-25T08:45:00-05:00"
+   "price": 3478.35,
+   "feed": "real-time gold (PAXG, matched to spot +4.80)",
+   "time": "2026-11-25T08:50:00-05:00"
   }
  },
  "stats": {
@@ -110,9 +110,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire",
-    "Watch: How the Russia-Ukraine war tore my family apart - BBC",
-    "Yemen war: Emergency aid chief calls for access to war-hit communities - UN News"
+    "The scale of Russia\u2019s war on Ukraine laid bare as leak shows 500,000 dead - The Independent",
+    "Billable Hours, Broken Hearts: \u201cWar\u201d Creator George Kay on Building HBO\u2019s Ruthless Legal Battlefield - Motion Picture Association",
+    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire"
    ]
   },
   "today": [
