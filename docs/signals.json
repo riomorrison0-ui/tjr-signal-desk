@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T03:15:20.415755-05:00",
+ "updated": "2026-11-25T03:20:20.437367-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3524.24,
-   "feed": "real-time gold (PAXG, matched to spot +5.87)",
-   "time": "2026-11-25T03:10:00-05:00"
+   "price": 3526.53,
+   "feed": "real-time gold (PAXG, matched to spot +5.71)",
+   "time": "2026-11-25T03:15:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "\u2018War is Peace\u2019: The Gaza Truce is a Lie, and Israel Intends to Finish the Job - Palestine Chronicle",
-    "Corrupt governor falls victim to war with FSB - Arctic Today",
-    "Trump shelves plans for business deals with Russia in bid to end Ukraine war - www.lbc.co.uk"
+    "British sanctions put $390m of Dynagas charter revenues at risk - Splash247",
+    "'Nightmare Before Christmas': Donald Trump's War In Iran Sends Gas Bills Soaring - HuffPost UK",
+    "Review: Women and War - Cineuropa"
    ]
   },
   "today": [
