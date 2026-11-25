@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T06:10:20.456758-05:00",
+ "updated": "2026-11-25T06:15:20.409434-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3529.29,
-   "feed": "real-time gold (PAXG, matched to spot +5.79)",
-   "time": "2026-11-25T06:05:00-05:00"
+   "price": 3526.26,
+   "feed": "real-time gold (PAXG, matched to spot +3.39)",
+   "time": "2026-11-25T06:10:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Saudi Arabia\u2019s Vision 2030 faces a costly war test - Fortune",
-    "Putin\u2019s war in Ukraine has killed nearly 500,000 Russian troops \u2013 leaked data - The Independent",
-    "Kremlin brushes off reports of 700,000 Russian war deaths - A News"
+    "How the War Turned Sudan Into a Country Without a Newspaper - Time Magazine",
+    "Hacker attack reveals Russia\u2019s heavy war losses - eurotopics.net",
+    "Saudi Arabia\u2019s Vision 2030 faces a costly war test - Fortune"
    ]
   },
   "today": [
