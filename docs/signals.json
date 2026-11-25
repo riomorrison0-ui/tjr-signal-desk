@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T11:44:46.833530-05:00",
+ "updated": "2026-11-25T11:45:44.867088-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3453.14,
-   "feed": "real-time gold (PAXG, matched to spot +5.02)",
-   "time": "2026-11-25T11:35:00-05:00"
+   "price": 3452.4,
+   "feed": "real-time gold (PAXG, matched to spot +2.40)",
+   "time": "2026-11-25T11:40:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
+    "Amnesty calls for independent war crimes probe into Ethiopian shelling in Tigray - Los Angeles Times",
     "Dynagas Partners warns of charter default risk as sanctions deadline looms - Lloyd's List",
-    "Jury convicts Huawei of stealing US trade secrets, evading Iran sanctions - Ars Technica",
-    "Raytheon wins US Navy deal for submarine-launched nuclear cruise missile - Naval Technology"
+    "Jury convicts Huawei of stealing US trade secrets, evading Iran sanctions - Ars Technica"
    ]
   },
   "today": [
@@ -204,8 +204,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.28,
-  "gbpusd": 1.30695
+  "stop_cap_usd": 52.35,
+  "gbpusd": 1.30876
  },
  "backtest": {
   "portfolio": {
