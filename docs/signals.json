@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T05:58:39.433152-05:00",
+ "updated": "2026-11-25T06:01:18.130953-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3530.93,
-   "feed": "real-time gold (PAXG, matched to spot +4.76)",
-   "time": "2026-11-25T05:50:00-05:00"
+   "price": 3531.84,
+   "feed": "real-time gold (PAXG, matched to spot +4.10)",
+   "time": "2026-11-25T05:55:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Saudi Arabia\u2019s Vision 2030 faces a costly war test - Fortune",
     "Putin\u2019s war in Ukraine has killed nearly 500,000 Russian troops \u2013 leaked data - The Independent",
-    "Could Netanyahu take Israel into another war with Iran to cling to power? - Al Jazeera",
-    "Why are Tube drivers striking this week? War of words erupts over RMT walkouts - London Evening Standard"
+    "Kremlin brushes off reports of 700,000 Russian war deaths - A News"
    ]
   },
   "today": [
@@ -221,8 +221,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.35,
-  "gbpusd": 1.30875
+  "stop_cap_usd": 52.28,
+  "gbpusd": 1.30695
  },
  "backtest": {
   "portfolio": {
