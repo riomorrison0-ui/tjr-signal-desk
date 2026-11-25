@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T04:20:20.376476-05:00",
+ "updated": "2026-11-25T04:25:20.442156-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3530.28,
-   "feed": "real-time gold (PAXG, matched to spot +3.28)",
-   "time": "2026-11-25T04:15:00-05:00"
+   "price": 3529.15,
+   "feed": "real-time gold (PAXG, matched to spot +3.64)",
+   "time": "2026-11-25T04:20:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Old money, new power: Crafting the prestige look of War - British Cinematographer",
-    "Norwegian Krone: Gas prices to help preserve war gains \u2013 Commerzbank - FXStreet",
-    "Trump says US has funds to sustain Iran war until late January - The New Arab"
+    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle",
+    "Israeli strike kills Hamas official, his wife and children - Reuters",
+    "Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK - Naval News"
    ]
   },
   "today": [
