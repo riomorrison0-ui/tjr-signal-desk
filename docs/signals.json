@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T15:55:20.317804-05:00",
+ "updated": "2026-11-25T16:00:20.424780-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.95,
-   "feed": "real-time gold (PAXG, matched to spot +2.29)",
-   "time": "2026-11-25T15:50:00-05:00"
+   "price": 3572.95,
+   "feed": "real-time gold (PAXG, matched to spot -0.30)",
+   "time": "2026-11-25T15:55:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 8,
    "examples": [
+    "Saudi-led coalition intercepts Houthi cruise missile, drone in western Saudi Arabia - Anadolu Ajans\u0131",
     "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "More than 490,000 Russian soldiers have died during Ukraine war, leaked data suggests - CBS News",
-    "Melania Trump Announces 9 Children Reunited with Families Amid Russia-Ukraine War - East Wing Magazine"
+    "More than 490,000 Russian soldiers have died during Ukraine war, leaked data suggests - CBS News"
    ]
   },
   "today": [
