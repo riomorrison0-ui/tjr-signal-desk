@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T09:20:20.405998-05:00",
+ "updated": "2026-11-25T09:25:20.411507-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3478.58,
-   "feed": "real-time gold (PAXG, matched to spot +1.60)",
-   "time": "2026-11-25T09:15:00-05:00"
+   "price": 3476.47,
+   "feed": "real-time gold (PAXG, matched to spot +1.47)",
+   "time": "2026-11-25T09:20:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Syrian teams clear landmines after deadly explosion - Al Jazeera",
-    "Lessons from AU Peacemaking in Sudan for AU\u2019s reform and the current civil war - Amani Africa",
-    "More than 700,000 Russian soldiers have been killed in the Ukraine war, new estimate suggests - NBC News"
+    "It was \u2018meant by God\u2019 that I made anti-war movie, Russian film-maker says - The Irish News",
+    "Qatar LNG Exports Hit Busiest Month Since Start of Iran War, Despite Insurance Costs - Insurance Journal",
+    "Syrian teams clear landmines after deadly explosion - Al Jazeera"
    ]
   },
   "today": [
