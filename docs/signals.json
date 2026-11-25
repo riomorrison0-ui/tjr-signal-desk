@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T01:00:20.414320-05:00",
+ "updated": "2026-11-25T01:05:20.444301-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3520.36,
-   "feed": "real-time gold (PAXG, matched to spot +0.87)",
-   "time": "2026-11-25T00:55:00-05:00"
+   "price": 3522.72,
+   "feed": "real-time gold (PAXG, matched to spot +4.86)",
+   "time": "2026-11-25T01:00:00-05:00"
   }
  },
  "stats": {
@@ -100,8 +100,8 @@
    "count": 5,
    "examples": [
     "350,000 Yemeni children in besieged Taiz miss out on measles vaccine as war hinders UN access - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "North Korea expels head of Swiss diplomatic office over sanctions - France 24",
-    "Trump says war in Iran is 'funded' through January, suggesting limited window for new offensive - The Times of Israel"
+    "ICRC president: No weapon, technology or method of war should put the conduct of hostilities beyond the limits of human control [EN/AR] - ReliefWeb",
+    "Ukrainian defense minister, Norwegian PM discuss ballistic missile interceptors, fighter jets, drones - Ukrinform"
    ]
   },
   "today": [
