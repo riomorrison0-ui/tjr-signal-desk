@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T01:45:20.340600-05:00",
+ "updated": "2026-11-25T01:50:20.470938-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3520.16,
-   "feed": "real-time gold (PAXG, matched to spot +3.22)",
-   "time": "2026-11-25T01:40:00-05:00"
+   "price": 3520.43,
+   "feed": "real-time gold (PAXG, matched to spot +1.90)",
+   "time": "2026-11-25T01:45:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "America\u2019s rush to settle the war in Ukraine - The Economist",
     "The EU is contemplating sanctions for its own citizens who cooperate with Russia, and The Insider already has a list of potential targets - theins.press",
-    "Jury finds Huawei stole US tech, laundered money, and broke sanctions - The Register",
-    "Spies, saboteurs and assassins: Inside Russia\u2019s covert war for Ukrainian recruits - The Irish Times"
+    "Trump says Iran war is funded through January - Israel Hayom"
    ]
   },
   "today": [
