@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T00:25:20.453985-05:00",
+ "updated": "2026-11-25T00:30:20.433921-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3547.09,
-   "feed": "real-time gold (PAXG, matched to spot +7.00)",
-   "time": "2026-11-25T00:20:00-05:00"
+   "price": 3540.26,
+   "feed": "real-time gold (PAXG, matched to spot +5.25)",
+   "time": "2026-11-25T00:25:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Killing the Pope by Serhii Plokhy \u2014 a cold war mystery? - Financial Times",
-    "Houthis Threaten Saudi Red Sea Ports as Yemen-Saudi Escalation Intensifies - Modern Diplomacy",
-    "Russian drone violates Polish airspace days after missile incursions - upi"
+    "Trump says war in Iran is 'funded' through January, suggesting limited window for new offensive - The Times of Israel",
+    "US shelves proposals to use business deals with Russia to end Ukraine war, FT reports - Reuters",
+    "Killing the Pope by Serhii Plokhy \u2014 a cold war mystery? - Financial Times"
    ]
   },
   "today": [
