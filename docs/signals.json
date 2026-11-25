@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T18:30:20.251312-05:00",
+ "updated": "2026-11-25T18:35:20.226792-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.03,
-   "feed": "real-time gold (PAXG, matched to spot +3.61)",
-   "time": "2026-11-25T18:25:00-05:00"
+   "price": 3572.99,
+   "feed": "real-time gold (PAXG, matched to spot +1.79)",
+   "time": "2026-11-25T18:30:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "\u2018We want education, not war!\u2019 Young people take over London\u2019s streets - The Real News Network",
     "No good news from US on accelerating air defense missile deliveries, Zelensky says - The Kyiv Independent",
-    "Israel\u2019s War on Palestinian Healthcare Workers: A Pattern of Violence and Repression - Arab Center Washington DC",
-    "Contracts for Nov. 25, 2026 - U.S. Department of War (.gov)"
+    "Israel\u2019s War on Palestinian Healthcare Workers: A Pattern of Violence and Repression - Arab Center Washington DC"
    ]
   },
   "today": [
