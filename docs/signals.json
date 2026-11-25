@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T15:35:20.343425-05:00",
+ "updated": "2026-11-25T15:40:20.345182-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.16,
-   "feed": "real-time gold (PAXG, matched to spot +4.07)",
-   "time": "2026-11-25T15:30:00-05:00"
+   "price": 3570.52,
+   "feed": "real-time gold (PAXG, matched to spot +5.66)",
+   "time": "2026-11-25T15:35:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 8,
    "examples": [
-    "US envoy Kushner warns against Ukraine war escalation - Arab News",
     "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "Hegseth Directs Military Pay System Modernization Prioritizing Warfighters - U.S. Department of War (.gov)"
+    "More than 490,000 Russian soldiers have died during Ukraine war, leaked data suggests - CBS News",
+    "Melania Trump Announces 9 Children Reunited with Families Amid Russia-Ukraine War - East Wing Magazine"
    ]
   },
   "today": [
