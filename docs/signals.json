@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T01:15:20.362106-05:00",
+ "updated": "2026-11-25T01:20:20.392138-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3523.8,
-   "feed": "real-time gold (PAXG, matched to spot +0.74)",
-   "time": "2026-11-25T01:10:00-05:00"
+   "price": 3524.91,
+   "feed": "real-time gold (PAXG, matched to spot +4.28)",
+   "time": "2026-11-25T01:15:00-05:00"
   }
  },
  "stats": {
@@ -97,11 +97,11 @@
   ],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "350,000 Yemeni children in besieged Taiz miss out on measles vaccine as war hinders UN access - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-    "ICRC president: No weapon, technology or method of war should put the conduct of hostilities beyond the limits of human control [EN/AR] - ReliefWeb",
-    "Ukrainian defense minister, Norwegian PM discuss ballistic missile interceptors, fighter jets, drones - Ukrinform"
+    "Russia's war casualty toll in Ukraine up by 2,091 over past day - Ukrinform",
+    "Spies, saboteurs and assassins: Inside Russia\u2019s covert war for Ukrainian recruits - The Irish Times",
+    "Work begins to transform derelict World War II-era RAF watch office in Hampshire - Insider Media Ltd"
    ]
   },
   "today": [
