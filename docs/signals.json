@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T05:35:20.411534-05:00",
+ "updated": "2026-11-25T05:40:20.417596-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3528.43,
-   "feed": "real-time gold (PAXG, matched to spot +2.06)",
-   "time": "2026-11-25T05:30:00-05:00"
+   "price": 3529.94,
+   "feed": "real-time gold (PAXG, matched to spot +4.96)",
+   "time": "2026-11-25T05:35:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War \u2013 FT - The Moscow Times",
-    "Russia\u2019s war of aggression against Ukraine: EU restricts trade with 15 entities linked to Russia\u2019s military and industrial complex - Council, European Union",
-    "Brussels Insists on Ceasefire Before Negotiations on Europe\u2019s Security Architecture - EU Today"
+    "Could Netanyahu take Israel into another war with Iran to cling to power? - Al Jazeera",
+    "EasyJet Profit Hit By Iran War as Apollo Takeover Looms - Bloomberg",
+    "Israeli airstrike kills 4 members of Palestinian family in Gaza - Yeni Safak English"
    ]
   },
   "today": [
