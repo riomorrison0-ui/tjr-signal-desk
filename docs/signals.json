@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T14:50:20.330783-05:00",
+ "updated": "2026-11-25T14:55:20.320609-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3539.41,
-   "feed": "real-time gold (PAXG, matched to spot +2.11)",
-   "time": "2026-11-25T14:45:00-05:00"
+   "price": 3549.72,
+   "feed": "real-time gold (PAXG, matched to spot +2.01)",
+   "time": "2026-11-25T14:50:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "North Korea expels Swiss diplomat in sanctions row - BBC",
-    "Energy bills to rise by 26% as Iran war causes surge in gas prices - Channel 4",
-    "Will Netanyahu lead Israel into another war with Iran before a new leader takes over? - The Forward"
+    "Hegseth Directs Military Pay System Modernization Prioritizing Warfighters - U.S. Department of War (.gov)",
+    "War in Russia and Iran sends Israeli refineries' profits soaring - www.calcalistech.com",
+    "DW News. . \"Why are you not arresting him?\" Lawmakers confronted a former Mossad chief during a visit to Berlin. A human rights group filed a criminal complaint accusing the ex-spy boss, David Barnea, of committing a war crime. #dwgermanpolitics - Facebook"
    ]
   },
   "today": [
