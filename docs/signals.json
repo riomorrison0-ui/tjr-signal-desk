@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T01:30:20.473612-05:00",
+ "updated": "2026-11-25T01:35:20.396147-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3527.76,
-   "feed": "real-time gold (PAXG, matched to spot +7.04)",
-   "time": "2026-11-25T01:25:00-05:00"
+   "price": 3522.84,
+   "feed": "real-time gold (PAXG, matched to spot +5.19)",
+   "time": "2026-11-25T01:30:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia's war casualty toll in Ukraine up by 2,091 over past day - Ukrinform",
-    "Spies, saboteurs and assassins: Inside Russia\u2019s covert war for Ukrainian recruits - The Irish Times",
-    "Work begins to transform derelict World War II-era RAF watch office in Hampshire - Insider Media Ltd"
+    "The EU is contemplating sanctions for its own citizens who cooperate with Russia, and The Insider already has a list of potential targets - theins.press",
+    "Jury finds Huawei stole US tech, laundered money, and broke sanctions - The Register",
+    "Spies, saboteurs and assassins: Inside Russia\u2019s covert war for Ukrainian recruits - The Irish Times"
    ]
   },
   "today": [
