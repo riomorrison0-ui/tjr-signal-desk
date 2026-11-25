@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T20:15:20.343512-05:00",
+ "updated": "2026-11-24T20:20:20.339435-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3540.73,
-   "feed": "real-time gold (PAXG, matched to spot +4.42)",
-   "time": "2026-11-24T20:10:00-05:00"
+   "price": 3536.51,
+   "feed": "real-time gold (PAXG, matched to spot +4.06)",
+   "time": "2026-11-24T20:15:00-05:00"
   }
  },
  "stats": {
@@ -99,9 +99,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Europe on edge as Ukraine war spreads into Mediterranean - AFR",
     "Russia's own figures show almost 500,000 deaths in war in Ukraine - BBC",
-    "Sanctions, boycotts and closed ports: The economic cost of settler violence - Ynetnews",
-    "Letter: Putin will be incentivised to end his war if Kyiv is fully funded - Financial Times"
+    "Sanctions, boycotts and closed ports: The economic cost of settler violence - Ynetnews"
    ]
   },
   "today": [
