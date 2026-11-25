@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T22:35:20.358812-05:00",
+ "updated": "2026-11-24T22:40:20.360474-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3552.78,
-   "feed": "real-time gold (PAXG, matched to spot +5.65)",
-   "time": "2026-11-24T22:30:00-05:00"
+   "price": 3551.0,
+   "feed": "real-time gold (PAXG, matched to spot +5.51)",
+   "time": "2026-11-24T22:35:00-05:00"
   }
  },
  "stats": {
@@ -96,12 +96,12 @@
    }
   ],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "North Korea expels Swiss representative, closes diplomatic office over sanctions - Reuters",
     "Who needs a ceasefire more: Russia or Ukraine? - www.lvivherald.com",
-    "Who Owns the Strait of Hormuz Now? How the Iran War Turned a Chokepoint into a Customs House - Modern Diplomacy",
-    "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
+    "Who Owns the Strait of Hormuz Now? How the Iran War Turned a Chokepoint into a Customs House - Modern Diplomacy"
    ]
   },
   "today": [
