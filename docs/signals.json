@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T13:30:20.343785-05:00",
+ "updated": "2026-11-25T13:35:20.366804-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3537.11,
-   "feed": "real-time gold (PAXG, matched to spot +0.59)",
-   "time": "2026-11-25T13:25:00-05:00"
+   "price": 3530.26,
+   "feed": "real-time gold (PAXG, matched to spot +2.84)",
+   "time": "2026-11-25T13:30:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
-    "Ship-Killing ARRW Hypersonic Missile Variant Struggling To Get Full Support From Lawmakers - TWZ",
-    "US risks third government shutdown over Iran war funding - The New Arab"
+    "Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI - Military Times",
+    "Classic Tracks: Eric Burdon & War\u2019s \u201cSpill the Wine\u201d - Mixonline",
+    "A Grave Mission I: How the world\u2019s largest caretaker of war casualties is helping NATO prepare for World War Three - Legion Magazine"
    ]
   },
   "today": [
