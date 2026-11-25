@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T16:10:20.372795-05:00",
+ "updated": "2026-11-25T16:15:20.353090-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.06,
-   "feed": "real-time gold (PAXG, matched to spot +0.88)",
-   "time": "2026-11-25T16:05:00-05:00"
+   "price": 3573.38,
+   "feed": "real-time gold (PAXG, matched to spot +4.48)",
+   "time": "2026-11-25T16:10:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 8,
+   "count": 9,
    "examples": [
+    "Can Tehran Escape the Shadow of Syria\u2019s War? - The Syrian Observer",
     "Saudi-led coalition intercepts Houthi cruise missile, drone in western Saudi Arabia - Anadolu Ajans\u0131",
-    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "More than 490,000 Russian soldiers have died during Ukraine war, leaked data suggests - CBS News"
+    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post"
    ]
   },
   "today": [
