@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T04:50:20.379379-05:00",
+ "updated": "2026-11-25T04:55:20.427450-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3528.66,
-   "feed": "real-time gold (PAXG, matched to spot +4.95)",
-   "time": "2026-11-25T04:45:00-05:00"
+   "price": 3528.63,
+   "feed": "real-time gold (PAXG, matched to spot +6.10)",
+   "time": "2026-11-25T04:50:00-05:00"
   }
  },
  "stats": {
@@ -103,9 +103,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "North Korea expels Swiss envoy over sanctions on children\u2019s camp - Anadolu Ajans\u0131",
-    "Energy bill increases since the start of the Iran war have been three times higher for a typical fossil fuel household than for a modern electric household - Climate Change Committee",
-    "Today\u2019s Headlines: Two Security Chiefs Killed in Gaza | \u2018The Next Battle\u2019 | \u2018War is Peace\u2019 - Palestine Chronicle"
+    "Huawei convicted of sanctions breaches, fraud and conspiracy to steal trade secrets - ICLG",
+    "Deep Dive: US Aid Has Deepened the Costs of Mexico\u2019s Drug War - Inkstick Media",
+    "North Korea expels Swiss envoy over sanctions on children\u2019s camp - Anadolu Ajans\u0131"
    ]
   },
   "today": [
