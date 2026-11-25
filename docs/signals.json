@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T15:20:20.315269-05:00",
+ "updated": "2026-11-25T15:25:20.399067-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.47,
-   "feed": "real-time gold (PAXG, matched to spot +3.79)",
-   "time": "2026-11-25T15:15:00-05:00"
+   "price": 3576.59,
+   "feed": "real-time gold (PAXG, matched to spot +1.29)",
+   "time": "2026-11-25T15:20:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 8,
    "examples": [
+    "US envoy Kushner warns against Ukraine war escalation - Arab News",
     "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "Hegseth Directs Military Pay System Modernization Prioritizing Warfighters - U.S. Department of War (.gov)",
-    "War in Russia and Iran sends Israeli refineries' profits soaring - www.calcalistech.com"
+    "Hegseth Directs Military Pay System Modernization Prioritizing Warfighters - U.S. Department of War (.gov)"
    ]
   },
   "today": [
