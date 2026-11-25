@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T18:15:20.250848-05:00",
+ "updated": "2026-11-25T18:20:20.254397-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.93,
-   "feed": "real-time gold (PAXG, matched to spot +4.61)",
-   "time": "2026-11-25T18:10:00-05:00"
+   "price": 3578.45,
+   "feed": "real-time gold (PAXG, matched to spot +2.79)",
+   "time": "2026-11-25T18:15:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Contracts for Nov. 25, 2026 - U.S. Department of War (.gov)",
-    "Sudan war grinds on with RSF seeking to stretch SAF's resources thin - The National",
-    "Baghdad bargains, the Houthis advance - FDD's Long War Journal"
+    "No good news from US on accelerating air defense missile deliveries, Zelensky says - The Kyiv Independent",
+    "Israel\u2019s War on Palestinian Healthcare Workers: A Pattern of Violence and Repression - Arab Center Washington DC",
+    "Contracts for Nov. 25, 2026 - U.S. Department of War (.gov)"
    ]
   },
   "today": [
