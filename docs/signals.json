@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T10:55:20.398773-05:00",
+ "updated": "2026-11-25T11:05:20.414545-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3446.17,
-   "feed": "real-time gold (PAXG, matched to spot +2.40)",
-   "time": "2026-11-25T10:50:00-05:00"
+   "price": 3451.65,
+   "feed": "real-time gold (PAXG, matched to spot +3.99)",
+   "time": "2026-11-25T11:00:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Investigation Dropped Into One Of Two Suspects In Sanctions Investigation - Legal 500",
-    "Uzair Paracha: A Crucible of the War on Terror - The New Arab",
-    "Trump Says Iran War Funding Is Secured Through January 2027 - IranWire"
+    "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal - T\u00eate \u00e0 t\u00eate - France 24",
+    "Patrick Doval Brings \u2018War of the Worlds\u2019 to Life in Stop-Motion - famemagazine.co.uk",
+    "Investigation Dropped Into One Of Two Suspects In Sanctions Investigation - Legal 500"
    ]
   },
   "today": [
