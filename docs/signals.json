@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T22:10:20.214831-05:00",
+ "updated": "2026-11-25T22:15:20.213790-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3583.07,
-   "feed": "real-time gold (PAXG, matched to spot +2.56)",
-   "time": "2026-11-25T22:05:00-05:00"
+   "price": 3582.59,
+   "feed": "real-time gold (PAXG, matched to spot +3.41)",
+   "time": "2026-11-25T22:10:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 8,
+   "count": 7,
    "examples": [
-    "How did Clint Eastwood\u2019s military service during the Korean War affect his early life? - Britannica",
-    "Ukraine war briefing: Stop using tear gas on battlefield, dozens of countries tell Russia - The Guardian",
-    "Romania Owes $6M More Sanctions, Court Hears - Law360"
+    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
+    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+    "Pentagon Weighed Invoking Cold War-Era Law to Push Jensen Huang's Return as Nvidia Stock Shed 14% Over 11 Days Before Sharp Rebound - BigGo Finance"
    ]
   },
   "today": [
