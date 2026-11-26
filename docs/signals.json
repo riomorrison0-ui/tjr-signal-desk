@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T10:10:20.363005-05:00",
+ "updated": "2026-11-26T10:15:20.464131-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3577.72,
-   "feed": "real-time gold (PAXG, matched to spot +6.72)",
-   "time": "2026-11-26T10:05:00-05:00"
+   "price": 3574.93,
+   "feed": "real-time gold (PAXG, matched to spot +6.15)",
+   "time": "2026-11-26T10:10:00-05:00"
   }
  },
  "stats": {
@@ -88,11 +88,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Russia, Ukraine exchange drone and missile strikes, leaving dead and wounded - \u0633\u0627\u0646\u0627",
-    "Mass-produced, small, and cheap Russian missiles could shape the war in 2027, making Ukrainian cities into constant targets (Ukraine Battlefield update, Day 1,736) - EUobserver",
-    "Shutdown Deadline Looms: Iran War Funding Becomes the Fight in Congress's Final Weeks - Around Prague"
+    "Iran's Appliance Makers Say Shipping Costs Have Jumped Sixfold Since the War - IranWire",
+    "Norway's Fjord Defence sees military spending boom outlasting Ukraine war, CEO says - London South East",
+    "Russia Has Spent $226 Billion on Weapons for Its War in Ukraine\u2014Even Undestroyed Tanks Count - UNITED24 Media"
    ]
   },
   "today": [
