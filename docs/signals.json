@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T14:10:20.369263-05:00",
+ "updated": "2026-11-26T14:15:20.466198-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.94,
-   "feed": "real-time gold (PAXG, matched to spot +6.62)",
-   "time": "2026-11-26T14:05:00-05:00"
+   "price": 3567.18,
+   "feed": "real-time gold (PAXG, matched to spot +6.86)",
+   "time": "2026-11-26T14:10:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "The Guardian view on Russia\u2019s war dead: the toll won\u2019t stop Putin. Resolve in backing Ukraine remains essential - The Guardian",
-    "UK FCDO Chemical Weapons Sanctions Rules 2026 - CASRAI",
-    "Kushner, Putin warns war in Ukraine could \"escalate massively\" - IntelliNews"
+    "Russia accuses Ukraine of trying to spread war to Mediterranean and Baltic seas after attack on Russian ships in Libya - Business Insider Africa",
+    "Threatened by Wagner, this Nigerian journalist uncovered Russia\u2019s war machine in Africa - The Kyiv Independent",
+    "Ukraine war latest: North Korea halts military aid to Russia, Ukrainian intelligence says - The Kyiv Independent"
    ]
   },
   "today": [
