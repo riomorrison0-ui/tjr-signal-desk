@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T11:00:20.335318-05:00",
+ "updated": "2026-11-26T11:05:20.342909-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.75,
-   "feed": "real-time gold (PAXG, matched to spot +6.03)",
-   "time": "2026-11-26T10:55:00-05:00"
+   "price": 3574.92,
+   "feed": "real-time gold (PAXG, matched to spot +6.14)",
+   "time": "2026-11-26T11:00:00-05:00"
   }
  },
  "stats": {
@@ -91,12 +91,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "War of propaganda: how Russian disinformation is aiming to stop EU enlargement - EU NEIGHBOURS east",
-    "Old guard hits back at insurgents in perp futures turf war - International Financing Review",
-    "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - The Independent"
+    "Will UK settlement sanctions galvanise an EU shift on Israel? - The New Arab",
+    "China and the Iran War: Peacemaker or Profiteer? - Lowy Institute",
+    "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National"
    ]
   },
   "today": [
