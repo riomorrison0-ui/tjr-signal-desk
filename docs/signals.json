@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T23:30:20.230653-05:00",
+ "updated": "2026-11-25T23:35:20.198481-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3590.56,
-   "feed": "real-time gold (PAXG, matched to spot +4.69)",
-   "time": "2026-11-25T23:25:00-05:00"
+   "price": 3597.26,
+   "feed": "real-time gold (PAXG, matched to spot +4.34)",
+   "time": "2026-11-25T23:30:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "African insurgents take war to the skies with off-the-shelf drones - The Japan Times",
-    "Eisenkot sees no urgency to strike Iran, Netanyahu pushes for renewed war - Iran International",
-    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National"
+    "Ukraine-Russia war latest: Kyiv says five military aircraft damaged in strike on airbase east of Moscow - Yahoo News UK",
+    "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war - Reuters",
+    "Exhibition captures human dimension of war through the eyes of American journalists - China Daily Global Edition"
    ]
   },
   "today": [
