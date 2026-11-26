@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T03:40:20.196004-05:00",
+ "updated": "2026-11-26T03:45:20.204229-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.01,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-26T03:35:00-05:00"
+   "price": 3569.61,
+   "feed": "real-time gold (PAXG, matched to spot +4.35)",
+   "time": "2026-11-26T03:40:00-05:00"
   }
  },
  "stats": {
@@ -83,13 +83,9 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
-   "examples": [
-    "FIFA Appeal Committee Upholds Paredes And AFA Sanctions - Legal 500",
-    "The Priest and the General: Who is Fueling the Religious War in Palestine? - Palestine Chronicle",
-    "UK veterans win 40-year battle for inquiry into Cold War nuclear tests they say damaged health - www.yourvalley.net"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
