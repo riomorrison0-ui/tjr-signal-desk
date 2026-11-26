@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T08:35:20.403471-05:00",
+ "updated": "2026-11-26T08:40:20.429262-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.54,
-   "feed": "real-time gold (PAXG, matched to spot +5.63)",
-   "time": "2026-11-26T08:30:00-05:00"
+   "price": 3570.26,
+   "feed": "real-time gold (PAXG, matched to spot +6.15)",
+   "time": "2026-11-26T08:35:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "A war movie to his right, a nature documentary to his left -- a swimmer's view of Hormuz - Xinhua",
     "Russia\u2019s Funeral Industry Hits Record Revenues\u2014Up 50% Since Invasion as Losses Mount - UNITED24 Media",
-    "Germany calls on Russia to show peace talks readiness through Black Sea ceasefire - Anadolu Ajans\u0131",
-    "How The Hunger Games won the YA war - Little White Lies"
+    "Germany calls on Russia to show peace talks readiness through Black Sea ceasefire - Anadolu Ajans\u0131"
    ]
   },
   "today": [
