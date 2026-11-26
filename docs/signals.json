@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T19:30:20.251376-05:00",
+ "updated": "2026-11-25T19:35:20.236498-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.73,
-   "feed": "real-time gold (PAXG, matched to spot +4.24)",
-   "time": "2026-11-25T19:25:00-05:00"
+   "price": 3576.33,
+   "feed": "real-time gold (PAXG, matched to spot +3.09)",
+   "time": "2026-11-25T19:30:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 7,
    "examples": [
-    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
-    "Ukraine\u2019s Shadow War in Africa - Foreign Policy",
-    "MoD prepares veterans to be called up for war - The Telegraph"
+    "How many people were killed and displaced during the Bosnian War? - Britannica",
+    "What happened to Bosnia and Herzegovina after World War I ended? - Britannica",
+    "Indonesian Navy KSR X33: 58-Knot Missile-Capable USV - Naval News"
    ]
   },
   "today": [
