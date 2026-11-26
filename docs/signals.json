@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T10:40:20.377757-05:00",
+ "updated": "2026-11-26T10:45:20.395000-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.95,
-   "feed": "real-time gold (PAXG, matched to spot +5.17)",
-   "time": "2026-11-26T10:35:00-05:00"
+   "price": 3571.22,
+   "feed": "real-time gold (PAXG, matched to spot +5.45)",
+   "time": "2026-11-26T10:40:00-05:00"
   }
  },
  "stats": {
@@ -91,12 +91,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "War of propaganda: how Russian disinformation is aiming to stop EU enlargement - EU NEIGHBOURS east",
     "Old guard hits back at insurgents in perp futures turf war - International Financing Review",
-    "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - The Independent",
-    "Russia Has Spent $226 Billion on Weapons for Its War in Ukraine\u2014Even Undestroyed Tanks Count - UNITED24 Media"
+    "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - The Independent"
    ]
   },
   "today": [
