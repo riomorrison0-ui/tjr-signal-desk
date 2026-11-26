@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T20:50:20.213487-05:00",
+ "updated": "2026-11-25T20:55:20.225460-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3562.01,
-   "feed": "real-time gold (PAXG, matched to spot +3.33)",
-   "time": "2026-11-25T20:45:00-05:00"
+   "price": 3562.76,
+   "feed": "real-time gold (PAXG, matched to spot +4.40)",
+   "time": "2026-11-25T20:50:00-05:00"
   }
  },
  "stats": {
@@ -86,7 +86,7 @@
    "level": "high",
    "count": 10,
    "examples": [
-    "Peter Berg on the \u2018Two Truths\u2019 of War in \u2018The Mosquito Bowl\u2019 and the \u2018Incredibly Funny\u2019 \u2018Hancock 2\u2019 Script Will Smith Sent Him: \u2018I Love Will Smith, and I Always Will\u2019 - IMDb",
+    "EU's latest sanctions package includes ban on tankers insured in Russia - Baird Maritime",
     "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War - IMDb",
     "UK announces sanctions on Yemen\u2019s Houthis and senior officials - Qazinform"
    ]
