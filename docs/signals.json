@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T11:50:20.322766-05:00",
+ "updated": "2026-11-26T11:55:20.341128-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.99,
-   "feed": "real-time gold (PAXG, matched to spot +6.18)",
-   "time": "2026-11-26T11:45:00-05:00"
+   "price": 3571.49,
+   "feed": "real-time gold (PAXG, matched to spot +6.57)",
+   "time": "2026-11-26T11:50:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Italy, Germany caution against geographical expansion of Russia's war against Ukraine - The Kyiv Independent",
-    "Trump 'begs' Putin to end Ukraine war and stop attacking Europe in 'pathetic' statement - AOL.co.uk",
-    "Egypt and Qatar call for regional de-escalation, stronger economic and energy ties during Emir\u2019s Cairo visit - Dailynewsegypt"
+    "Flights suspended or operations ceased: Five airlines hit by Iran war fuel shock - The Independent",
+    "UK Security: Be Prepared for War, but Don\u2019t Panic - Stanisland Magazine",
+    "Mural near Dutch embassy in Moscow depicts missile supplies for Ukraine - Reuters"
    ]
   },
   "today": [
