@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T23:10:20.247629-05:00",
+ "updated": "2026-11-25T23:15:20.232073-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3580.28,
-   "feed": "real-time gold (PAXG, matched to spot +4.76)",
-   "time": "2026-11-25T23:05:00-05:00"
+   "price": 3585.39,
+   "feed": "real-time gold (PAXG, matched to spot +4.35)",
+   "time": "2026-11-25T23:10:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Black Friday Mac Studio price war drives M5 Max desktop down to $2,299 - AppleInsider",
     "African insurgents take war to the skies with off-the-shelf drones - The Japan Times",
-    "Eisenkot sees no urgency to strike Iran, Netanyahu pushes for renewed war - Iran International",
-    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National"
+    "Eisenkot sees no urgency to strike Iran, Netanyahu pushes for renewed war - Iran International"
    ]
   },
   "today": [
