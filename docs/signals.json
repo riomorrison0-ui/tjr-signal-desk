@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T09:55:20.355811-05:00",
+ "updated": "2026-11-26T10:00:20.557546-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3580.55,
-   "feed": "real-time gold (PAXG, matched to spot +5.11)",
-   "time": "2026-11-26T09:50:00-05:00"
+   "price": 3581.14,
+   "feed": "real-time gold (PAXG, matched to spot +5.72)",
+   "time": "2026-11-26T09:55:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Red Sea\u2019s Next War Starts in Tigray - Geopolitical Monitor",
-    "Israel has found a weapon more useful than war: The ceasefire - Middle East Monitor",
-    "Egyptian, Qatari leaders discuss regional tensions, Gaza ceasefire in Cairo talks - Middle East Monitor"
+    "Russia, Ukraine exchange drone and missile strikes, leaving dead and wounded - \u0633\u0627\u0646\u0627",
+    "Mass-produced, small, and cheap Russian missiles could shape the war in 2027, making Ukrainian cities into constant targets (Ukraine Battlefield update, Day 1,736) - EUobserver",
+    "Shutdown Deadline Looms: Iran War Funding Becomes the Fight in Congress's Final Weeks - Around Prague"
    ]
   },
   "today": [
