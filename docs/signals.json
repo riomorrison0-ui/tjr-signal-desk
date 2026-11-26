@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T19:15:20.235370-05:00",
+ "updated": "2026-11-25T19:20:20.215307-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3576.69,
-   "feed": "real-time gold (PAXG, matched to spot +1.91)",
-   "time": "2026-11-25T19:10:00-05:00"
+   "price": 3579.78,
+   "feed": "real-time gold (PAXG, matched to spot +0.99)",
+   "time": "2026-11-25T19:15:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
     "Ukraine\u2019s Shadow War in Africa - Foreign Policy",
-    "MoD prepares veterans to be called up for war - The Telegraph",
-    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post"
+    "MoD prepares veterans to be called up for war - The Telegraph"
    ]
   },
   "today": [
