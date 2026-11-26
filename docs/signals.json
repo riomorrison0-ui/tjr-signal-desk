@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T16:34:45.686559-05:00",
+ "updated": "2026-11-26T16:35:41.128007-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.199951,
-   "feed": "real-time gold (PAXG, matched to spot -2.48)",
-   "time": "2026-11-26T16:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -2.84)",
+   "time": "2026-11-26T16:30:00-05:00"
   }
  },
  "stats": {
@@ -92,7 +92,7 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "Ukrainian minister says Kiev has 'no intention' of spreading war to Libya - TRT World",
     "War in Ukraine is devastating a generation of Russians - The Times",
@@ -117,7 +117,7 @@
   "max_risk_pct": 2.0,
   "lot": 0.01,
   "stop_cap_usd": 52.43,
-  "gbpusd": 1.31075
+  "gbpusd": 1.31068
  },
  "backtest": {
   "portfolio": {
