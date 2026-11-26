@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T12:50:20.337496-05:00",
+ "updated": "2026-11-26T12:55:20.332164-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.48,
-   "feed": "real-time gold (PAXG, matched to spot +7.51)",
-   "time": "2026-11-26T12:45:00-05:00"
+   "price": 3566.88,
+   "feed": "real-time gold (PAXG, matched to spot +7.19)",
+   "time": "2026-11-26T12:50:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Italy\u2019s Meloni Vows \u201cUtmost\u201d Support for Ukraine but Warns Against Expanding War Into Mediterranean - UNITED24 Media",
-    "Ka hortagga HIV: War wanaagsan iyo rejo loo hayo malaayiin qof - BBC",
-    "Oxford United defender 'willing to go to war' in brutal League One assessment - Herald Series"
+    "Teen accused of Chelmsford murder denies being in turf war - BBC",
+    "Chapo Isidro\u2019s Capture Shakes Up the Sinaloa Cartel War - InSight Crime",
+    "Syrian children continue learning amid the ruins of war in Idlib - Al Jazeera"
    ]
   },
   "today": [
