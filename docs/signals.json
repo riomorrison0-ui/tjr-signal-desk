@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T21:20:20.233162-05:00",
+ "updated": "2026-11-25T21:25:20.240852-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3586.96,
-   "feed": "real-time gold (PAXG, matched to spot +4.37)",
-   "time": "2026-11-25T21:15:00-05:00"
+   "price": 3582.03,
+   "feed": "real-time gold (PAXG, matched to spot +1.24)",
+   "time": "2026-11-25T21:20:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 10,
+   "count": 9,
    "examples": [
+    "Over 30 countries demand Russia stop using chemical agents as weapons of war in Ukraine - The Kyiv Independent",
     "US envoy says largest prisoner swap of Russia-Ukraine war to take place 'very soon, before the holidays' - Anadolu Ajans\u0131",
-    "EU's latest sanctions package includes ban on tankers insured in Russia - Baird Maritime",
-    "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War - IMDb"
+    "EU's latest sanctions package includes ban on tankers insured in Russia - Baird Maritime"
    ]
   },
   "today": [
