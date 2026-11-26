@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T17:20:20.341403-05:00",
+ "updated": "2026-11-26T17:25:20.354492-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.199951,
-   "feed": "real-time gold (PAXG, matched to spot +0.89)",
-   "time": "2026-11-26T17:15:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +0.29)",
+   "time": "2026-11-26T17:20:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Russo-Ukrainian war, day 1737: Russian ballistic missiles hit a Kyiv shopping center and injure seven people in the city - Euromaidan Press",
     "Watch How Canada May Be Winning Trump\u2019s Trade War - Bloomberg",
-    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: minister - Arab News",
-    "\u201cFlowers of Dutch Diplomacy\u201d: Missile Mural Appears Near Dutch Embassy in Moscow - UNITED24 Media"
+    "Why Jeff Wayne\u2019s War Of The Worlds has endured - Louder"
    ]
   },
   "today": [
