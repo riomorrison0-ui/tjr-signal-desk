@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T15:10:20.314251-05:00",
+ "updated": "2026-11-26T15:15:20.410328-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.57,
-   "feed": "real-time gold (PAXG, matched to spot +2.18)",
-   "time": "2026-11-26T15:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +2.15)",
+   "time": "2026-11-26T15:10:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Documentary about Ukraine wins International Emmy; producer cites \u2018unvarnished\u2019 look at war - VOA - Voice of America English News",
     "Labour\u2019s \u00a38.7 billion for the war machine as welfare stripped bare - Socialist Worker",
-    "EU weighs sanctions on Kyrgyzstan crypto exchanges - Crypto News",
-    "Russia accuses Ukraine of trying to spread war to Mediterranean and Baltic seas after attack on Russian ships in Libya - Business Insider Africa"
+    "EU weighs sanctions on Kyrgyzstan crypto exchanges - Crypto News"
    ]
   },
   "today": [
