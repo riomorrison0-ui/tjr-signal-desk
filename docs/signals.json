@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T18:50:20.310173-05:00",
+ "updated": "2026-11-26T18:55:20.307098-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.95,
-   "feed": "real-time gold (PAXG, matched to spot +5.59)",
-   "time": "2026-11-26T18:45:00-05:00"
+   "price": 3568.8,
+   "feed": "real-time gold (PAXG, matched to spot +7.08)",
+   "time": "2026-11-26T18:50:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte",
-    "Xabi Alonso demands immediate reaction from Chelsea flops as his future rests on winning Stamford Bridge culture war - The Sun",
-    "Sanctions: EU removes Chinese textile manufacturer from the list - Table.Briefings"
+    "Malaysia declares war on AI predators targeting children - IntelliNews",
+    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy",
+    "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte"
    ]
   },
   "today": [
