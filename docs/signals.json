@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T03:20:20.218611-05:00",
+ "updated": "2026-11-26T03:25:20.198226-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.2,
-   "feed": "real-time gold (PAXG, matched to spot +3.59)",
-   "time": "2026-11-26T03:15:00-05:00"
+   "price": 3565.3,
+   "feed": "real-time gold (PAXG, matched to spot +4.48)",
+   "time": "2026-11-26T03:20:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump And NATO Chief Call On Russia To Avoid Widening Ukraine War - Arise News",
-    "Ukraine War, Day 1,736: Trump Mega-Donor Acquires Overseas Assets of Russia's Largest Private Oil Company - EA WorldView",
-    "Trump warns Russia against widening Ukraine war - The Telegraph"
+    "FIFA Appeal Committee Upholds Paredes And AFA Sanctions - Legal 500",
+    "The Priest and the General: Who is Fueling the Religious War in Palestine? - Palestine Chronicle",
+    "UK veterans win 40-year battle for inquiry into Cold War nuclear tests they say damaged health - www.yourvalley.net"
    ]
   },
   "today": [
