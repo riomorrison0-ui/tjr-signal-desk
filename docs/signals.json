@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T11:20:20.333325-05:00",
+ "updated": "2026-11-26T11:25:20.306394-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3576.38,
-   "feed": "real-time gold (PAXG, matched to spot +6.00)",
-   "time": "2026-11-26T11:15:00-05:00"
+   "price": 3573.35,
+   "feed": "real-time gold (PAXG, matched to spot +6.13)",
+   "time": "2026-11-26T11:20:00-05:00"
   }
  },
  "stats": {
@@ -95,8 +95,8 @@
    "count": 5,
    "examples": [
     "Will UK settlement sanctions galvanise an EU shift on Israel? - The New Arab",
-    "China and the Iran War: Peacemaker or Profiteer? - Lowy Institute",
-    "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National"
+    "Two dead after Iranian drone attack on Kuwait - Al Jazeera",
+    "China and the Iran War: Peacemaker or Profiteer? - Lowy Institute"
    ]
   },
   "today": [
