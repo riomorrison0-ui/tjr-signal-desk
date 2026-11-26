@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T04:25:20.194467-05:00",
+ "updated": "2026-11-26T04:30:20.235997-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.52,
-   "feed": "real-time gold (PAXG, matched to spot +2.99)",
-   "time": "2026-11-26T04:20:00-05:00"
+   "price": 3572.58,
+   "feed": "real-time gold (PAXG, matched to spot +4.65)",
+   "time": "2026-11-26T04:25:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Russia Is Losing 93 Troops Every Hour as November Sets a New Wartime Record - UNITED24 Media",
-    "Five Questions for a General: General Shawn Bratton - Modern War Institute -",
-    "Trump and NATO Chief Urge Russia to Avoid Actions That Widen Ukraine War - The Moscow Times"
+    "Khartoum Rejects Addis Ababa\u2019s Initiative to End Sudan\u2019s War - ASHARQ AL-AWSAT English",
+    "Croatia\u2019s War Victims, Mass Graves Documented by New Independent Research - Balkan Insight",
+    "Moscow Offers to Mediate Korean Tensions\u2014Kim Jong Un Responds by Freezing KN-23 Ballistic Missile Deliveries - UNITED24 Media"
    ]
   },
   "today": [
