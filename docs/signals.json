@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T05:30:20.392358-05:00",
+ "updated": "2026-11-26T05:35:20.479288-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3563.12,
-   "feed": "real-time gold (PAXG, matched to spot +5.54)",
-   "time": "2026-11-26T05:25:00-05:00"
+   "price": 3560.71,
+   "feed": "real-time gold (PAXG, matched to spot +2.71)",
+   "time": "2026-11-26T05:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 15,
-  "wins": 12,
-  "win_rate": 80.0,
-  "total_r": 4.94,
-  "avg_r": 0.33,
-  "balance": 2157.17,
+  "trades": 16,
+  "wins": 13,
+  "win_rate": 81.2,
+  "total_r": 5.4,
+  "avg_r": 0.337,
+  "balance": 2167.11,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -76,6 +76,10 @@
    {
     "t": "2026-11-25T04:35:00-05:00",
     "balance": 2157.17
+   },
+   {
+    "t": "2026-11-26T05:35:00-05:00",
+    "balance": 2167.11
    }
   ]
  },
@@ -86,9 +90,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Russia and Ukraine Hold First Exchange of War Dead Since Rebooted Peace Talks - The Moscow Times",
-    "Labour Warns Thousands Of Army Veterans To Be Ready For Call-Up In Post-Cold War First - HuffPost UK",
-    "Russo-Ukrainian war, day 1736: Ukraine needs \u20ac115 billion for 2027 - Euromaidan Press"
+    "Missile War Monitor: Ballistic missiles hit a Kyiv shopping centre as Ukraine says five Russian jets were hit at Savasleyka - IntelliNews",
+    "Sudanese women propel Gospel despite war - CHVN Radio",
+    "Russia and Ukraine Hold First Exchange of War Dead Since Rebooted Peace Talks - The Moscow Times"
    ]
   },
   "today": [
@@ -6754,12 +6758,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-26T05:00:00-05:00",
-   "status": "open",
+   "status": "win",
    "fill_time": "2026-11-26T05:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-26T05:35:00-05:00",
+   "exit_price": 3560.71,
+   "r": 0.451,
+   "notes": [
+    "legs: TP2 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-26T05:30:00-05:00",
@@ -6777,13 +6783,17 @@
      "tp": 3545.43,
      "r_mult": 1.0,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3560.71,
+     "exit_time": "2026-11-26T05:35:00-05:00",
+     "r": 0.455
     }
    ],
    "news": {
     "risk": "high",
     "next": null
-   }
+   },
+   "pnl_gbp": 9.94
   },
   {
    "id": "XAUUSD-rsi2-20261125-0325-SELL",
