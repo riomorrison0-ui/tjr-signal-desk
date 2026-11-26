@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T14:55:20.314769-05:00",
+ "updated": "2026-11-26T15:00:20.359308-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.57,
-   "feed": "real-time gold (PAXG, matched to spot +1.58)",
-   "time": "2026-11-26T14:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +1.96)",
+   "time": "2026-11-26T14:55:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Threatened by Wagner, this Nigerian journalist uncovered Russia\u2019s war machine in Africa - The Kyiv Independent",
-    "Ukraine war latest: North Korea halts military aid to Russia, Ukrainian intelligence says - The Kyiv Independent",
-    "The Guardian view on Russia\u2019s war dead: the toll won\u2019t stop Putin. Resolve in backing Ukraine remains essential - The Guardian"
+    "Labour\u2019s \u00a38.7 billion for the war machine as welfare stripped bare - Socialist Worker",
+    "EU weighs sanctions on Kyrgyzstan crypto exchanges - Crypto News",
+    "Russia accuses Ukraine of trying to spread war to Mediterranean and Baltic seas after attack on Russian ships in Libya - Business Insider Africa"
    ]
   },
   "today": [
