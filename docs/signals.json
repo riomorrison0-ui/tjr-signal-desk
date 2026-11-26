@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T08:20:20.385249-05:00",
+ "updated": "2026-11-26T08:25:20.768187-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.1,
-   "feed": "real-time gold (PAXG, matched to spot +6.07)",
-   "time": "2026-11-26T08:15:00-05:00"
+   "price": 3566.86,
+   "feed": "real-time gold (PAXG, matched to spot +4.36)",
+   "time": "2026-11-26T08:20:00-05:00"
   }
  },
  "stats": {
@@ -88,11 +88,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Factbox-Airlines strained by Iran-war fuel price shock - Global Banking & Finance Review",
-    "Airlines strained by Iran-war fuel price shock - Reuters",
-    "Britain prepares 100,000 former soldiers for war. NATO exercise planned for 2027 - Defence24.com"
+    "Russia\u2019s Funeral Industry Hits Record Revenues\u2014Up 50% Since Invasion as Losses Mount - UNITED24 Media",
+    "Germany calls on Russia to show peace talks readiness through Black Sea ceasefire - Anadolu Ajans\u0131",
+    "How The Hunger Games won the YA war - Little White Lies"
    ]
   },
   "today": [
