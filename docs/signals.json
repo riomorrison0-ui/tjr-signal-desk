@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T20:20:20.212381-05:00",
+ "updated": "2026-11-25T20:25:20.210668-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3577.22,
-   "feed": "real-time gold (PAXG, matched to spot +6.85)",
-   "time": "2026-11-25T20:15:00-05:00"
+   "price": 3569.03,
+   "feed": "real-time gold (PAXG, matched to spot +2.16)",
+   "time": "2026-11-25T20:20:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
+    "Mideast on edge of escalation - China Daily Global Edition",
     "Eurojust examines prosecution of attacks on aid and medical staff in war zones - INSIGHT EU MONITORING",
-    "How many people were killed and displaced during the Bosnian War? - Britannica",
-    "What happened to Bosnia and Herzegovina after World War I ended? - Britannica"
+    "Trump Official Says Democrats Could Start 'Civil War' With White House Investigations - Yahoo News Singapore"
    ]
   },
   "today": [
