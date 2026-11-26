@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T07:50:20.367208-05:00",
+ "updated": "2026-11-26T07:55:20.377597-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.35,
-   "feed": "real-time gold (PAXG, matched to spot +4.97)",
-   "time": "2026-11-26T07:45:00-05:00"
+   "price": 3565.07,
+   "feed": "real-time gold (PAXG, matched to spot +4.01)",
+   "time": "2026-11-26T07:50:00-05:00"
   }
  },
  "stats": {
@@ -87,11 +87,11 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
+    "Russia says EU's planned funding for Ukraine would finance war rather than peace - Anadolu Ajans\u0131",
     "Middle East latest: UAE condemns Houthis' attempted strikes on Saudi Arabia - thenationalnews.com",
-    "Denis Lacombe to Discuss Treatment De-Escalation in Oncology at EUnetCCC 2026 - EORTC - Oncodaily",
     "Airlines strained by Iran-war fuel price shock - Reuters"
    ]
   },
