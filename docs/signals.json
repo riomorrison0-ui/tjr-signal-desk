@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:30:20.305450-05:00",
+ "updated": "2026-11-26T16:34:45.686559-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump diverges from NATO statement, emphasizing Ukraine mustn\u2019t expand war - POLITICO.eu",
-    "Trump and NATO chief warn against Russian escalation as wars spread - The Brussels Times",
-    "Kushner Says Putin Shows No Interest in a Ceasefire, Calls Ukraine War a Proxy War - Around Prague"
+    "Ukrainian minister says Kiev has 'no intention' of spreading war to Libya - TRT World",
+    "War in Ukraine is devastating a generation of Russians - The Times",
+    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: Minister - Al Arabiya English"
    ]
   },
   "today": [
