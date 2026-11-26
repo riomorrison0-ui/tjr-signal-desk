@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T05:45:20.382484-05:00",
+ "updated": "2026-11-26T05:50:20.413691-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3555.05,
-   "feed": "real-time gold (PAXG, matched to spot +5.22)",
-   "time": "2026-11-26T05:40:00-05:00"
+   "price": 3555.57,
+   "feed": "real-time gold (PAXG, matched to spot +4.51)",
+   "time": "2026-11-26T05:45:00-05:00"
   }
  },
  "stats": {
@@ -88,11 +88,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 6,
    "examples": [
-    "Missile War Monitor: Ballistic missiles hit a Kyiv shopping centre as Ukraine says five Russian jets were hit at Savasleyka - IntelliNews",
-    "Sudanese women propel Gospel despite war - CHVN Radio",
-    "Russia and Ukraine Hold First Exchange of War Dead Since Rebooted Peace Talks - The Moscow Times"
+    "Ukraine's foreign minister to Putin: \"Stop complaining. End the war,\" after Putin vows \"inevitable\" retaliation for refinery strikes - Plataforma Media",
+    "Defence Intelligence of Ukraine: North Korea Halts KN-23 Missile Supplies to Russia Amid Moscow\u2019s De-escalation Statements Toward South Korea - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
+    "Missile War Monitor: Ballistic missiles hit a Kyiv shopping centre as Ukraine says five Russian jets were hit at Savasleyka - IntelliNews"
    ]
   },
   "today": [
