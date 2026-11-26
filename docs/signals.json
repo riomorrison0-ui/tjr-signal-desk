@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T19:50:20.222379-05:00",
+ "updated": "2026-11-25T19:55:20.221159-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3564.91,
-   "feed": "real-time gold (PAXG, matched to spot +3.75)",
-   "time": "2026-11-25T19:45:00-05:00"
+   "price": 3563.3,
+   "feed": "real-time gold (PAXG, matched to spot +3.48)",
+   "time": "2026-11-25T19:50:00-05:00"
   }
  },
  "stats": {
@@ -84,7 +84,7 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 8,
    "examples": [
     "How many people were killed and displaced during the Bosnian War? - Britannica",
     "What happened to Bosnia and Herzegovina after World War I ended? - Britannica",
