@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T07:35:20.389497-05:00",
+ "updated": "2026-11-26T07:40:20.416302-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.35,
-   "feed": "real-time gold (PAXG, matched to spot +7.39)",
-   "time": "2026-11-26T07:30:00-05:00"
+   "price": 3568.53,
+   "feed": "real-time gold (PAXG, matched to spot +3.12)",
+   "time": "2026-11-26T07:35:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Britain Reaches Out to 100,000 Former Troops Amid Growing Fears of Russian Threat - Kyiv Post",
-    "\u2018Symbolic\u2019: Why did UK sanction Yemen\u2019s Houthis amid attacks on Saudi? - Al Jazeera",
-    "Diesel's 30% Slide From War Peak Gives Economy a Breather, but Hormuz Risks Linger - BigGo Finance"
+    "Middle East latest: UAE condemns Houthis' attempted strikes on Saudi Arabia - thenationalnews.com",
+    "Denis Lacombe to Discuss Treatment De-Escalation in Oncology at EUnetCCC 2026 - EORTC - Oncodaily",
+    "Airlines strained by Iran-war fuel price shock - Reuters"
    ]
   },
   "today": [
