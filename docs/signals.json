@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T04:55:20.239418-05:00",
+ "updated": "2026-11-26T05:00:20.223422-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.45,
-   "feed": "real-time gold (PAXG, matched to spot +3.50)",
-   "time": "2026-11-26T04:50:00-05:00"
+   "price": 3574.03,
+   "feed": "real-time gold (PAXG, matched to spot +4.02)",
+   "time": "2026-11-26T04:55:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 7,
    "examples": [
-    "CAMERA Op-ed: A Lesson on War Reporting From Buffy the Vampire Slayer - Committee for Accuracy in Middle East Reporting in America",
-    "Mirage 2000N: The Low-Level Jet That Carried France\u2019s Nuclear Missile - MiGFlug",
-    "Thousands of army reservists told to be ready for call-up in letters sent by MoD for first time since Cold War - The Independent"
+    "Cyprus takes aim at Turkey's role in helping Russia evade sanctions - The Kyiv Independent",
+    "More investment in defence means less chance of war, says Streeting - The Irish News",
+    "Five Russian fighters reportedly damaged in Ukrainian airstrike - Aerospace Global News"
    ]
   },
   "today": [
@@ -6739,6 +6739,52 @@
   "runtime_s": 5040
  },
  "signals": [
+  {
+   "id": "XAUUSD-rsi2-20261126-0455-SELL",
+   "instrument": "XAUUSD",
+   "side": "SELL",
+   "level_name": "rsi2",
+   "level": 3574.03,
+   "sweep_time": "2026-11-26T05:00:00-05:00",
+   "confirm_time": "2026-11-26T05:00:00-05:00",
+   "entry": 3574.03,
+   "stop": 3602.63,
+   "target": 3545.43,
+   "rr": 1.0,
+   "bias": "",
+   "killzone": "",
+   "valid_until": "2026-11-26T05:00:00-05:00",
+   "status": "open",
+   "fill_time": "2026-11-26T05:00:00-05:00",
+   "exit_time": null,
+   "exit_price": null,
+   "r": null,
+   "notes": [],
+   "strategy": "rsi2",
+   "entry_type": "market",
+   "hold_until": "2026-12-06T05:00:00-05:00",
+   "why": "Sharp rally (RSI(2) 84) against the 30min trend: fade it back to the 5-bar average",
+   "sent_at": "2026-11-26T05:00:20.223422-05:00",
+   "initial_status": "open",
+   "feed": "real-time gold (PAXG, matched to spot +4.02)",
+   "gbpusd": 1.3102,
+   "account_gbp": 2157.17,
+   "lots": 0.01,
+   "risk_pct": 2.0,
+   "legs": [
+    {
+     "n": 2,
+     "tp": 3545.43,
+     "r_mult": 1.0,
+     "lots": 0.01,
+     "status": "open"
+    }
+   ],
+   "news": {
+    "risk": "high",
+    "next": null
+   }
+  },
   {
    "id": "XAUUSD-rsi2-20261125-0325-SELL",
    "instrument": "XAUUSD",
