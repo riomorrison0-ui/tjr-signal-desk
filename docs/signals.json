@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T23:45:20.237835-05:00",
+ "updated": "2026-11-25T23:50:20.201854-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3599.05,
-   "feed": "real-time gold (PAXG, matched to spot +4.48)",
-   "time": "2026-11-25T23:40:00-05:00"
+   "price": 3598.11,
+   "feed": "real-time gold (PAXG, matched to spot +4.41)",
+   "time": "2026-11-25T23:45:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Ukraine-Russia war latest: Kyiv says five military aircraft damaged in strike on airbase east of Moscow - Yahoo News UK",
-    "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war - Reuters",
-    "Exhibition captures human dimension of war through the eyes of American journalists - China Daily Global Edition"
+    "\u2018Comes Down To Who Breaks\u2019 \u2013 Worapon Braces For Southpaw War With Kongklai At The Inner Circle 40 - ONE Championship",
+    "What U.S. Elections Mean for the War on Iran: 5 Key Questions with Sina Toossi - dawnmena.org",
+    "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war - Reuters"
    ]
   },
   "today": [
