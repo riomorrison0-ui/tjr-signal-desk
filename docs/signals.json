@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T02:35:20.209349-05:00",
+ "updated": "2026-11-26T02:40:20.210849-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.2,
-   "feed": "real-time gold (PAXG, matched to spot +5.35)",
-   "time": "2026-11-26T02:30:00-05:00"
+   "price": 3572.41,
+   "feed": "real-time gold (PAXG, matched to spot +2.95)",
+   "time": "2026-11-26T02:35:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "China welcomes EU's removal of Chinese firm from sanctions list - Xinhua",
-    "General Staff: Russia has lost 1,645,899 troops in Ukraine since Feb. 24, 2022 - The Kyiv Independent",
-    "War and drought threaten livelihoods of Sudan\u2019s farmers - Al Jazeera"
+    "Araghchi Accuses Israel of Trying to Drag US into New War over Chemical Weapons Claims - IranWire",
+    "Escalation in Daraa coincides with Israeli explosion in Quneitra countryside - ANHA",
+    "Raytheon Wins US Navy Missile Deal - Raksha Anirveda"
    ]
   },
   "today": [
