@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T12:20:20.395633-05:00",
+ "updated": "2026-11-26T12:25:20.342172-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3569.76,
-   "feed": "real-time gold (PAXG, matched to spot +6.12)",
-   "time": "2026-11-26T12:15:00-05:00"
+   "price": 3570.31,
+   "feed": "real-time gold (PAXG, matched to spot +7.18)",
+   "time": "2026-11-26T12:20:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Ka hortagga HIV: War wanaagsan iyo rejo loo hayo malaayiin qof - BBC",
     "Oxford United defender 'willing to go to war' in brutal League One assessment - Oxford Mail",
-    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy",
-    "Trump 'begs' Putin to end Ukraine war and stop attacking Europe in 'pathetic' statement - AOL.co.uk"
+    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy"
    ]
   },
   "today": [
