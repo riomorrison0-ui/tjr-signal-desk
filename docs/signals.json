@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T01:50:20.233212-05:00",
+ "updated": "2026-11-26T01:55:20.223734-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3569.54,
-   "feed": "real-time gold (PAXG, matched to spot +5.48)",
-   "time": "2026-11-26T01:45:00-05:00"
+   "price": 3566.32,
+   "feed": "real-time gold (PAXG, matched to spot +2.70)",
+   "time": "2026-11-26T01:50:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "China welcomes EU's removal of Chinese firm from sanctions list - chinadailyhk",
-    "How Silicon Valley became central to Israel\u2019s war on Palestinians - Al Jazeera",
-    "How Chinese companies circumvent chips sanctions in Southeast Asia - Yahoo News UK"
+    "Trump and NATO's Rutte urge Russia not to 'expand the war' in Ukraine - TRT World",
+    "Ukraine's budget rations spending as war shrinks its tax base - KSE Institute - IntelliNews",
+    "Western estimates trail Russia's war dead by up to 107,000, Rosstat leak shows - IntelliNews"
    ]
   },
   "today": [
