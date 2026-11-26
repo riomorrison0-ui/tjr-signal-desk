@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T03:55:20.227327-05:00",
+ "updated": "2026-11-26T04:00:20.247158-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.95,
-   "feed": "real-time gold (PAXG, matched to spot +5.21)",
-   "time": "2026-11-26T03:50:00-05:00"
+   "price": 3571.81,
+   "feed": "real-time gold (PAXG, matched to spot +3.43)",
+   "time": "2026-11-26T03:55:00-05:00"
   }
  },
  "stats": {
@@ -83,9 +83,13 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "Five Questions for a General: General Shawn Bratton - Modern War Institute -",
+    "Trump and NATO Chief Urge Russia to Avoid Actions That Widen Ukraine War - The Moscow Times",
+    "Chinese recruiters offer $10,000 war zone bonuses - Splash247"
+   ]
   },
   "today": [
    {
