@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T16:50:20.333199-05:00",
+ "updated": "2026-11-26T16:55:20.285461-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.199951,
-   "feed": "real-time gold (PAXG, matched to spot -2.12)",
-   "time": "2026-11-26T16:45:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -1.18)",
+   "time": "2026-11-26T16:50:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Ukrainian minister says Kiev has 'no intention' of spreading war to Libya - TRT World",
-    "War in Ukraine is devastating a generation of Russians - The Times",
-    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: Minister - Al Arabiya English"
+    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: minister - Arab News PK",
+    "The Kushner Doctrine: How Washington Is Turning Russia\u2019s War into a Negotiating Advantage for Putin - EU Today",
+    "London: 100,000 reservists on alert to be ready for war - L'Unione Sarda"
    ]
   },
   "today": [
