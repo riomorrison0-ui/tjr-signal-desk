@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T08:05:20.463898-05:00",
+ "updated": "2026-11-26T08:10:20.735891-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3563.72,
-   "feed": "real-time gold (PAXG, matched to spot +3.47)",
-   "time": "2026-11-26T08:00:00-05:00"
+   "price": 3565.49,
+   "feed": "real-time gold (PAXG, matched to spot +5.70)",
+   "time": "2026-11-26T08:05:00-05:00"
   }
  },
  "stats": {
@@ -87,12 +87,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Russia says EU's planned funding for Ukraine would finance war rather than peace - Anadolu Ajans\u0131",
-    "Middle East latest: UAE condemns Houthis' attempted strikes on Saudi Arabia - thenationalnews.com",
-    "Airlines strained by Iran-war fuel price shock - Reuters"
+    "Factbox-Airlines strained by Iran-war fuel price shock - Global Banking & Finance Review",
+    "Airlines strained by Iran-war fuel price shock - Reuters",
+    "Britain prepares 100,000 former soldiers for war. NATO exercise planned for 2027 - Defence24.com"
    ]
   },
   "today": [
