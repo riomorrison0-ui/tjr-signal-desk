@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T21:35:20.232335-05:00",
+ "updated": "2026-11-25T21:40:20.233969-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3598.43,
-   "feed": "real-time gold (PAXG, matched to spot +3.76)",
-   "time": "2026-11-25T21:30:00-05:00"
+   "price": 3601.97,
+   "feed": "real-time gold (PAXG, matched to spot +7.55)",
+   "time": "2026-11-25T21:35:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 9,
+   "count": 7,
    "examples": [
+    "Ukraine war briefing: Stop using tear gas on battlefield, dozens of countries tell Russia - The Guardian",
     "Over 30 countries demand Russia stop using chemical agents as weapons of war in Ukraine - The Kyiv Independent",
-    "US envoy says largest prisoner swap of Russia-Ukraine war to take place 'very soon, before the holidays' - Anadolu Ajans\u0131",
-    "EU's latest sanctions package includes ban on tankers insured in Russia - Baird Maritime"
+    "US envoy says largest prisoner swap of Russia-Ukraine war to take place 'very soon, before the holidays' - Anadolu Ajans\u0131"
    ]
   },
   "today": [
