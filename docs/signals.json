@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T08:50:20.465279-05:00",
+ "updated": "2026-11-26T08:55:20.407065-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.23,
-   "feed": "real-time gold (PAXG, matched to spot +3.92)",
-   "time": "2026-11-26T08:45:00-05:00"
+   "price": 3568.35,
+   "feed": "real-time gold (PAXG, matched to spot +4.24)",
+   "time": "2026-11-26T08:50:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "A war movie to his right, a nature documentary to his left -- a swimmer's view of Hormuz - Xinhua",
-    "Russia\u2019s Funeral Industry Hits Record Revenues\u2014Up 50% Since Invasion as Losses Mount - UNITED24 Media",
-    "Germany calls on Russia to show peace talks readiness through Black Sea ceasefire - Anadolu Ajans\u0131"
+    "Egyptian, Qatari leaders discuss regional tensions, Gaza ceasefire in Cairo talks - Anadolu Ajans\u0131",
+    "UK must boost food production to prepare for war, NFU chief warns - Nation.Cymru",
+    "Mural appears near Dutch embassy in Moscow depicting missile supplies for Ukraine - Reuters"
    ]
   },
   "today": [
