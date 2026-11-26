@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T17:50:20.331185-05:00",
+ "updated": "2026-11-26T17:55:20.377993-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.199951,
    "feed": "real-time gold (PAXG, matched to spot +1.27)",
-   "time": "2026-11-26T17:45:00-05:00"
+   "time": "2026-11-26T17:50:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine flew a Flamingo cruise missile into the Kerch Bridge like an FPV drone, watching through its camera to the last seconds - Euromaidan Press",
     "Why Trump\u2019s Trade War May Benefit Canada in the Long Run - Bloomberg",
-    "The 5 Greatest Bands of the British Invasion, Ranked - Collider"
+    "Russo-Ukrainian war, day 1737: Russian ballistic missiles hit a Kyiv shopping center and injure seven people in the city - Euromaidan Press",
+    "Watch How Canada May Be Winning Trump\u2019s Trade War - Bloomberg"
    ]
   },
   "today": [
