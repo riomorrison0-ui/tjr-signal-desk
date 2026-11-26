@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T05:02:34.555344-05:00",
+ "updated": "2026-11-26T05:04:12.970433-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.8,
-   "feed": "real-time gold (PAXG, matched to spot +2.79)",
+   "price": 3572.76,
+   "feed": "real-time gold (PAXG, matched to spot +2.75)",
    "time": "2026-11-26T04:55:00-05:00"
   }
  },
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
-    "Cyprus takes aim at Turkey's role in helping Russia evade sanctions - The Kyiv Independent",
-    "More investment in defence means less chance of war, says Streeting - The Irish News",
-    "Five Russian fighters reportedly damaged in Ukrainian airstrike - Aerospace Global News"
+    "Israel \u2018officially sanctions\u2019 torture of Palestinian prisoners to extract confessions, report concludes - The Guardian",
+    "Trump and Nato chief urge Putin not to expand Ukraine war as pair issue joint statement - www.lbc.co.uk",
+    "Cyprus takes aim at Turkey's role in helping Russia evade sanctions - The Kyiv Independent"
    ]
   },
   "today": [
@@ -108,8 +108,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.41,
-  "gbpusd": 1.3102
+  "stop_cap_usd": 52.44,
+  "gbpusd": 1.31103
  },
  "backtest": {
   "portfolio": {
