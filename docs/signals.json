@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T11:35:20.324627-05:00",
+ "updated": "2026-11-26T11:40:20.318710-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.07,
-   "feed": "real-time gold (PAXG, matched to spot +6.89)",
-   "time": "2026-11-26T11:30:00-05:00"
+   "price": 3571.82,
+   "feed": "real-time gold (PAXG, matched to spot +7.28)",
+   "time": "2026-11-26T11:35:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Will UK settlement sanctions galvanise an EU shift on Israel? - The New Arab",
-    "Two dead after Iranian drone attack on Kuwait - Al Jazeera",
-    "China and the Iran War: Peacemaker or Profiteer? - Lowy Institute"
+    "Italy, Germany caution against geographical expansion of Russia's war against Ukraine - The Kyiv Independent",
+    "Trump 'begs' Putin to end Ukraine war and stop attacking Europe in 'pathetic' statement - AOL.co.uk",
+    "Egypt and Qatar call for regional de-escalation, stronger economic and energy ties during Emir\u2019s Cairo visit - Dailynewsegypt"
    ]
   },
   "today": [
