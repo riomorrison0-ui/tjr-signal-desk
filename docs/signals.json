@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T07:05:20.379347-05:00",
+ "updated": "2026-11-26T07:10:20.413058-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.68,
-   "feed": "real-time gold (PAXG, matched to spot +4.61)",
-   "time": "2026-11-26T07:00:00-05:00"
+   "price": 3573.28,
+   "feed": "real-time gold (PAXG, matched to spot +4.85)",
+   "time": "2026-11-26T07:05:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia\u2019s Budget Is a War Plan - www.lvivherald.com",
-    "The Coalition: Cruise missile launched by the terrorist Houthi militia toward the western region intercepted and destroyed - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-    "Europe\u2019s last dictator Lukashenko criticises Putin\u2019s logic for war in Ukraine: \u2018Do we give Russia back to Mongolia?\u2019 - The Independent"
+    "Moscow Accused Estonia of Provocations and Threatened War \u2014 CPD - UA.NEWS",
+    "7 War Shows Where Every Episode Is a Masterpiece - Collider",
+    "Russia\u2019s Budget Is a War Plan - www.lvivherald.com"
    ]
   },
   "today": [
