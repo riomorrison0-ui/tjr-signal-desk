@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T21:55:20.224110-05:00",
+ "updated": "2026-11-25T22:00:20.241350-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3584.22,
-   "feed": "real-time gold (PAXG, matched to spot +2.08)",
-   "time": "2026-11-25T21:50:00-05:00"
+   "price": 3589.85,
+   "feed": "real-time gold (PAXG, matched to spot +4.25)",
+   "time": "2026-11-25T21:55:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 8,
    "examples": [
+    "How did Clint Eastwood\u2019s military service during the Korean War affect his early life? - Britannica",
     "Ukraine war briefing: Stop using tear gas on battlefield, dozens of countries tell Russia - The Guardian",
-    "Over 30 countries demand Russia stop using chemical agents as weapons of war in Ukraine - The Kyiv Independent",
-    "US envoy says largest prisoner swap of Russia-Ukraine war to take place 'very soon, before the holidays' - Anadolu Ajans\u0131"
+    "Romania Owes $6M More Sanctions, Court Hears - Law360"
    ]
   },
   "today": [
