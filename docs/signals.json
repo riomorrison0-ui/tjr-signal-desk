@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T18:35:20.294287-05:00",
+ "updated": "2026-11-26T18:40:20.317833-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3564.28,
-   "feed": "real-time gold (PAXG, matched to spot +6.00)",
-   "time": "2026-11-26T18:30:00-05:00"
+   "price": 3568.26,
+   "feed": "real-time gold (PAXG, matched to spot +7.34)",
+   "time": "2026-11-26T18:35:00-05:00"
   }
  },
  "stats": {
@@ -95,8 +95,8 @@
    "count": 5,
    "examples": [
     "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte",
-    "Sanctions: EU removes Chinese textile manufacturer from the list - Table.Briefings",
-    "Why Trump\u2019s Trade War May Benefit Canada in the Long Run - Bloomberg"
+    "Xabi Alonso demands immediate reaction from Chelsea flops as his future rests on winning Stamford Bridge culture war - The Sun",
+    "Sanctions: EU removes Chinese textile manufacturer from the list - Table.Briefings"
    ]
   },
   "today": [
