@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T15:40:20.368871-05:00",
+ "updated": "2026-11-26T15:45:20.308032-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.24,
-   "feed": "real-time gold (PAXG, matched to spot +1.04)",
-   "time": "2026-11-26T15:35:00-05:00"
+   "price": 3567.3,
+   "feed": "real-time gold (PAXG, matched to spot +1.50)",
+   "time": "2026-11-26T15:40:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Ukraine Urges Canada to Join Industrial Ramstein and Contribute to War Risk Insurance Fund - UNITED24 Media",
-    "Documentary about Ukraine wins International Emmy; producer cites \u2018unvarnished\u2019 look at war - VOA - Voice of America English News",
-    "Labour\u2019s \u00a38.7 billion for the war machine as welfare stripped bare - Socialist Worker"
+    "Trump and NATO chief warn against Russian escalation as wars spread - The Brussels Times",
+    "Kushner Says Putin Shows No Interest in a Ceasefire, Calls Ukraine War a Proxy War - Around Prague",
+    "Iran\u2019s \u2018self-sanctions\u2019 compound pressure from US blockade, critics say - Iran International"
    ]
   },
   "today": [
