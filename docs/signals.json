@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T10:30:20.381655-05:00",
+ "updated": "2026-11-26T10:35:20.367544-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3572.43,
-   "feed": "real-time gold (PAXG, matched to spot +5.54)",
-   "time": "2026-11-26T10:25:00-05:00"
+   "price": 3574.22,
+   "feed": "real-time gold (PAXG, matched to spot +7.65)",
+   "time": "2026-11-26T10:30:00-05:00"
   }
  },
  "stats": {
-  "trades": 16,
+  "trades": 17,
   "wins": 13,
-  "win_rate": 81.2,
-  "total_r": 5.4,
-  "avg_r": 0.337,
-  "balance": 2167.11,
+  "win_rate": 76.5,
+  "total_r": 5.22,
+  "avg_r": 0.307,
+  "balance": 2160.38,
   "start_balance": 2000.0,
   "curve": [
    {
@@ -80,6 +80,10 @@
    {
     "t": "2026-11-26T05:35:00-05:00",
     "balance": 2167.11
+   },
+   {
+    "t": "2026-11-26T10:35:00-05:00",
+    "balance": 2160.38
    }
   ]
  },
@@ -6758,12 +6762,14 @@
    "bias": "",
    "killzone": "",
    "valid_until": "2026-11-26T08:00:00-05:00",
-   "status": "open",
+   "status": "loss",
    "fill_time": "2026-11-26T08:00:00-05:00",
-   "exit_time": null,
-   "exit_price": null,
-   "r": null,
-   "notes": [],
+   "exit_time": "2026-11-26T10:35:00-05:00",
+   "exit_price": 3574.22,
+   "r": -0.175,
+   "notes": [
+    "legs: TP1 early, TP3 early"
+   ],
    "strategy": "rsi2",
    "entry_type": "market",
    "hold_until": "2026-11-26T10:30:00-05:00",
@@ -6781,20 +6787,27 @@
      "tp": 3557.67,
      "r_mult": 0.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3574.22,
+     "exit_time": "2026-11-26T10:35:00-05:00",
+     "r": -0.177
     },
     {
      "n": 3,
      "tp": 3532.79,
      "r_mult": 1.5,
      "lots": 0.01,
-     "status": "open"
+     "status": "early",
+     "exit_price": 3574.22,
+     "exit_time": "2026-11-26T10:35:00-05:00",
+     "r": -0.177
     }
    ],
    "news": {
     "risk": "elevated",
     "next": null
-   }
+   },
+   "pnl_gbp": -6.73
   },
   {
    "id": "XAUUSD-rsi2-20261126-0455-SELL",
