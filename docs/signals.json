@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T13:55:20.416907-05:00",
+ "updated": "2026-11-26T14:00:20.316463-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3568.67,
-   "feed": "real-time gold (PAXG, matched to spot +6.84)",
-   "time": "2026-11-26T13:50:00-05:00"
+   "price": 3568.34,
+   "feed": "real-time gold (PAXG, matched to spot +6.55)",
+   "time": "2026-11-26T13:55:00-05:00"
   }
  },
  "stats": {
@@ -94,7 +94,7 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump and NATO Secretary-General Discuss Ukraine War and Iran Conflicts - 8AM Media",
+    "The Guardian view on Russia\u2019s war dead: the toll won\u2019t stop Putin. Resolve in backing Ukraine remains essential - The Guardian",
     "UK FCDO Chemical Weapons Sanctions Rules 2026 - CASRAI",
     "Kushner, Putin warns war in Ukraine could \"escalate massively\" - IntelliNews"
    ]
