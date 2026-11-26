@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T21:05:20.225659-05:00",
+ "updated": "2026-11-25T21:10:20.214961-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.37,
-   "feed": "real-time gold (PAXG, matched to spot +6.36)",
-   "time": "2026-11-25T21:00:00-05:00"
+   "price": 3577.26,
+   "feed": "real-time gold (PAXG, matched to spot +5.44)",
+   "time": "2026-11-25T21:05:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 10,
    "examples": [
+    "US envoy says largest prisoner swap of Russia-Ukraine war to take place 'very soon, before the holidays' - Anadolu Ajans\u0131",
     "EU's latest sanctions package includes ban on tankers insured in Russia - Baird Maritime",
-    "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War - IMDb",
-    "UK announces sanctions on Yemen\u2019s Houthis and senior officials - Qazinform"
+    "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War - IMDb"
    ]
   },
   "today": [
