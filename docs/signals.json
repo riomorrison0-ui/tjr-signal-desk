@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T02:20:20.193794-05:00",
+ "updated": "2026-11-26T02:25:20.238320-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.14,
-   "feed": "real-time gold (PAXG, matched to spot +5.30)",
-   "time": "2026-11-26T02:15:00-05:00"
+   "price": 3573.36,
+   "feed": "real-time gold (PAXG, matched to spot +4.23)",
+   "time": "2026-11-26T02:20:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "From missile ruins to 40-story towers: Inside Ramat Gan\u2019s rebuilding plan - Ynetnews",
-    "The world must choose between nuclear abolition and nuclear catastrophe - Al Jazeera",
-    "Russia loses another 2,319 troops and four aircraft in war against Ukraine in past 24 hours - Ukrinform"
+    "China welcomes EU's removal of Chinese firm from sanctions list - Xinhua",
+    "General Staff: Russia has lost 1,645,899 troops in Ukraine since Feb. 24, 2022 - The Kyiv Independent",
+    "War and drought threaten livelihoods of Sudan\u2019s farmers - Al Jazeera"
    ]
   },
   "today": [
