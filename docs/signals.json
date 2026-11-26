@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T07:20:20.418690-05:00",
+ "updated": "2026-11-26T07:25:20.397116-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.6,
-   "feed": "real-time gold (PAXG, matched to spot +1.86)",
-   "time": "2026-11-26T07:15:00-05:00"
+   "price": 3564.91,
+   "feed": "real-time gold (PAXG, matched to spot +3.32)",
+   "time": "2026-11-26T07:20:00-05:00"
   }
  },
  "stats": {
@@ -88,11 +88,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Moscow Accused Estonia of Provocations and Threatened War \u2014 CPD - UA.NEWS",
-    "7 War Shows Where Every Episode Is a Masterpiece - Collider",
-    "Russia\u2019s Budget Is a War Plan - www.lvivherald.com"
+    "Britain Reaches Out to 100,000 Former Troops Amid Growing Fears of Russian Threat - Kyiv Post",
+    "\u2018Symbolic\u2019: Why did UK sanction Yemen\u2019s Houthis amid attacks on Saudi? - Al Jazeera",
+    "Diesel's 30% Slide From War Peak Gives Economy a Breather, but Hormuz Risks Linger - BigGo Finance"
    ]
   },
   "today": [
