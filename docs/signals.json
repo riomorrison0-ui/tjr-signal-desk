@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T22:40:20.225880-05:00",
+ "updated": "2026-11-25T22:45:20.215116-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3576.22,
-   "feed": "real-time gold (PAXG, matched to spot +3.88)",
-   "time": "2026-11-25T22:35:00-05:00"
+   "price": 3581.1,
+   "feed": "real-time gold (PAXG, matched to spot +4.74)",
+   "time": "2026-11-25T22:40:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 7,
    "examples": [
+    "Eisenkot sees no urgency to strike Iran, Netanyahu pushes for renewed war - Iran International",
     "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
-    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
-    "Pentagon Weighed Invoking Cold War-Era Law to Push Jensen Huang's Return as Nvidia Stock Shed 14% Over 11 Days Before Sharp Rebound - BigGo Finance"
+    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ"
    ]
   },
   "today": [
