@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T06:15:20.420768-05:00",
+ "updated": "2026-11-26T06:20:20.455225-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3565.74,
-   "feed": "real-time gold (PAXG, matched to spot +3.08)",
-   "time": "2026-11-26T06:10:00-05:00"
+   "price": 3567.99,
+   "feed": "real-time gold (PAXG, matched to spot +5.06)",
+   "time": "2026-11-26T06:15:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "My Lonely War Against Leaf Blowers - The New Yorker",
-    "Ukraine's foreign minister to Putin: \"Stop complaining. End the war,\" after Putin vows \"inevitable\" retaliation for refinery strikes - Plataforma Media",
-    "19 Palestinians dead, dozens injured in Israeli attacks on Gaza despite ceasefire - A News"
+    "19 Palestinians dead, 48 injured in Israeli attacks on Gaza despite ceasefire - Anadolu Ajans\u0131",
+    "My War Against Leaf Blowers and Other Noise Crimes - The New Yorker",
+    "Ukraine's foreign minister to Putin: \"Stop complaining. End the war,\" after Putin vows \"inevitable\" retaliation for refinery strikes - Plataforma Media"
    ]
   },
   "today": [
