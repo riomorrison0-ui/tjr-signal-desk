@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T15:25:20.366147-05:00",
+ "updated": "2026-11-26T15:30:20.334159-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3567.36,
-   "feed": "real-time gold (PAXG, matched to spot +2.69)",
-   "time": "2026-11-26T15:20:00-05:00"
+   "price": 3567.39,
+   "feed": "real-time gold (PAXG, matched to spot +2.30)",
+   "time": "2026-11-26T15:25:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Ukraine Urges Canada to Join Industrial Ramstein and Contribute to War Risk Insurance Fund - UNITED24 Media",
     "Documentary about Ukraine wins International Emmy; producer cites \u2018unvarnished\u2019 look at war - VOA - Voice of America English News",
-    "Labour\u2019s \u00a38.7 billion for the war machine as welfare stripped bare - Socialist Worker",
-    "EU weighs sanctions on Kyrgyzstan crypto exchanges - Crypto News"
+    "Labour\u2019s \u00a38.7 billion for the war machine as welfare stripped bare - Socialist Worker"
    ]
   },
   "today": [
