@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T01:35:20.260395-05:00",
+ "updated": "2026-11-26T01:40:20.217756-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.94,
-   "feed": "real-time gold (PAXG, matched to spot +3.55)",
-   "time": "2026-11-26T01:30:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +2.88)",
+   "time": "2026-11-26T01:35:00-05:00"
   }
  },
  "stats": {
@@ -88,7 +88,7 @@
    "examples": [
     "China welcomes EU's removal of Chinese firm from sanctions list - chinadailyhk",
     "How Silicon Valley became central to Israel\u2019s war on Palestinians - Al Jazeera",
-    "ICC judge Kimberly Prost tries war crimes. She\u2019s a target of US sanctions - Al Jazeera"
+    "How Chinese companies circumvent chips sanctions in Southeast Asia - Yahoo News UK"
    ]
   },
   "today": [
