@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T13:40:20.377070-05:00",
+ "updated": "2026-11-26T13:45:20.290623-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3569.08,
-   "feed": "real-time gold (PAXG, matched to spot +5.92)",
-   "time": "2026-11-26T13:35:00-05:00"
+   "price": 3568.99,
+   "feed": "real-time gold (PAXG, matched to spot +7.03)",
+   "time": "2026-11-26T13:40:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine: War Crimes, Courts and Public Oversight - Institute for War & Peace Reporting - IWPR",
-    "Turkish unions call weekend rallies as anger over poverty, war and corruption mounts - World Socialist Web Site",
-    "Opinion | Putin Extends His War to Europe\u2014He\u2019s Not Our \u201cFriend\u201d - WSJ"
+    "Trump and NATO Secretary-General Discuss Ukraine War and Iran Conflicts - 8AM Media",
+    "UK FCDO Chemical Weapons Sanctions Rules 2026 - CASRAI",
+    "Kushner, Putin warns war in Ukraine could \"escalate massively\" - IntelliNews"
    ]
   },
   "today": [
