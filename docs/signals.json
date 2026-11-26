@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T17:05:20.365547-05:00",
+ "updated": "2026-11-26T17:10:20.358685-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3566.199951,
-   "feed": "real-time gold (PAXG, matched to spot -1.18)",
-   "time": "2026-11-26T17:00:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.15)",
+   "time": "2026-11-26T17:05:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: minister - Arab News PK",
-    "The Kushner Doctrine: How Washington Is Turning Russia\u2019s War into a Negotiating Advantage for Putin - EU Today",
-    "London: 100,000 reservists on alert to be ready for war - L'Unione Sarda"
+    "Watch How Canada May Be Winning Trump\u2019s Trade War - Bloomberg",
+    "Ukraine has \u2018no intention\u2019 of spreading war to Libya: minister - Arab News",
+    "\u201cFlowers of Dutch Diplomacy\u201d: Missile Mural Appears Near Dutch Embassy in Moscow - UNITED24 Media"
    ]
   },
   "today": [
