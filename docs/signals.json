@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T10:25:20.464572-05:00",
+ "updated": "2026-11-26T10:30:20.381655-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.53,
-   "feed": "real-time gold (PAXG, matched to spot +9.27)",
-   "time": "2026-11-26T10:20:00-05:00"
+   "price": 3572.43,
+   "feed": "real-time gold (PAXG, matched to spot +5.54)",
+   "time": "2026-11-26T10:25:00-05:00"
   }
  },
  "stats": {
@@ -90,8 +90,8 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Iran's Appliance Makers Say Shipping Costs Have Jumped Sixfold Since the War - IranWire",
-    "Norway's Fjord Defence sees military spending boom outlasting Ukraine war, CEO says - London South East",
+    "Old guard hits back at insurgents in perp futures turf war - International Financing Review",
+    "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid - The Independent",
     "Russia Has Spent $226 Billion on Weapons for Its War in Ukraine\u2014Even Undestroyed Tanks Count - UNITED24 Media"
    ]
   },
@@ -6766,7 +6766,7 @@
    "notes": [],
    "strategy": "rsi2",
    "entry_type": "market",
-   "hold_until": "2026-12-06T08:00:00-05:00",
+   "hold_until": "2026-11-26T10:30:00-05:00",
    "why": "Sharp rally (RSI(2) 82) against the 30min trend: fade it back to the 5-bar average",
    "sent_at": "2026-11-26T08:00:20.440253-05:00",
    "initial_status": "open",
