@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T19:00:20.222780-05:00",
+ "updated": "2026-11-25T19:05:20.283955-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3573.47,
-   "feed": "real-time gold (PAXG, matched to spot -1.59)",
-   "time": "2026-11-25T18:55:00-05:00"
+   "price": 3573.37,
+   "feed": "real-time gold (PAXG, matched to spot -1.39)",
+   "time": "2026-11-25T19:00:00-05:00"
   }
  },
  "stats": {
@@ -84,115 +84,19 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "How did the Israel-Hamas War deepen the Palestinian Authority\u2019s financial crisis in the West Bank? - Britannica",
-    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post",
-    "\u2018We want education, not war!\u2019 Young people take over London\u2019s streets - The Real News Network"
+    "Ukraine\u2019s Shadow War in Africa - Foreign Policy",
+    "MoD prepares veterans to be called up for war - The Telegraph",
+    "Melania Trump announces reunion of 9 children with families amid Ukraine war - The Washington Post"
    ]
   },
   "today": [
    {
-    "title": "FOMC Member Bowman Speaks",
+    "title": "Bank Holiday",
     "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T12:25:00+00:00",
-    "forecast": "",
-    "previous": ""
-   },
-   {
-    "title": "Core PCE Price Index m/m",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "0.3%",
-    "previous": "0.3%"
-   },
-   {
-    "title": "Prelim GDP q/q",
-    "country": "USD",
-    "impact": "High",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "3.5%",
-    "previous": "3.4%"
-   },
-   {
-    "title": "Prelim GDP Price Index q/q",
-    "country": "USD",
-    "impact": "Medium",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "2.3%",
-    "previous": "2.3%"
-   },
-   {
-    "title": "Core Durable Goods Orders m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "0.5%",
-    "previous": "0.5%"
-   },
-   {
-    "title": "Durable Goods Orders m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "0.7%",
-    "previous": "1.8%"
-   },
-   {
-    "title": "Personal Income m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "0.4%",
-    "previous": "0.2%"
-   },
-   {
-    "title": "Personal Spending m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "0.4%",
-    "previous": "0.5%"
-   },
-   {
-    "title": "Unemployment Claims",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T13:30:00+00:00",
-    "forecast": "201K",
-    "previous": "203K"
-   },
-   {
-    "title": "New Home Sales",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T15:00:00+00:00",
-    "forecast": "650K",
-    "previous": "676K"
-   },
-   {
-    "title": "Crude Oil Inventories",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T15:30:00+00:00",
-    "forecast": "2.0M",
-    "previous": "3.4M"
-   },
-   {
-    "title": "Natural Gas Storage",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T17:00:00+00:00",
-    "forecast": "-19B",
-    "previous": "20B"
-   },
-   {
-    "title": "Beige Book",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-25T19:00:00+00:00",
+    "impact": "Holiday",
+    "time": "2026-11-26T13:00:00+00:00",
     "forecast": "",
     "previous": ""
    }
