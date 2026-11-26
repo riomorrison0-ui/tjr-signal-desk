@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T09:05:20.405832-05:00",
+ "updated": "2026-11-26T09:10:20.447569-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3574.93,
-   "feed": "real-time gold (PAXG, matched to spot +6.40)",
-   "time": "2026-11-26T09:00:00-05:00"
+   "price": 3573.66,
+   "feed": "real-time gold (PAXG, matched to spot +3.23)",
+   "time": "2026-11-26T09:05:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Egyptian, Qatari leaders discuss regional tensions, Gaza ceasefire in Cairo talks - Anadolu Ajans\u0131",
-    "UK must boost food production to prepare for war, NFU chief warns - Nation.Cymru",
-    "Mural appears near Dutch embassy in Moscow depicting missile supplies for Ukraine - Reuters"
+    "Two Newtongrange servicemen could be added to war memorial - Midlothian View",
+    "War \u2018should not be extended\u2019 to Mediterranean, Meloni says - Anadolu Ajans\u0131",
+    "At least three killed in Russia's missile and drone barrage on Ukraine - Euronews.com"
    ]
   },
   "today": [
