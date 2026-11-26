@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T03:05:20.282330-05:00",
+ "updated": "2026-11-26T03:10:20.245533-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3569.53,
-   "feed": "real-time gold (PAXG, matched to spot +4.41)",
-   "time": "2026-11-26T03:00:00-05:00"
+   "price": 3567.07,
+   "feed": "real-time gold (PAXG, matched to spot +1.74)",
+   "time": "2026-11-26T03:05:00-05:00"
   }
  },
  "stats": {
@@ -83,12 +83,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "Trump and Rutte have called on Russia not to escalate the war in Ukraine - UkrMedia News",
-    "UK sanctions five Burma generals following Rohingya genocide ruling - Muslim Network TV",
-    "Daily Update: Russia Loses 2,319 Troops, Four Aircraft and Five Tanks in One Day - UNITED24 Media"
+    "Trump And NATO Chief Call On Russia To Avoid Widening Ukraine War - Arise News",
+    "Ukraine War, Day 1,736: Trump Mega-Donor Acquires Overseas Assets of Russia's Largest Private Oil Company - EA WorldView",
+    "Trump warns Russia against widening Ukraine war - The Telegraph"
    ]
   },
   "today": [
