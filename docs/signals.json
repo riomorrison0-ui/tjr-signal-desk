@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T18:20:20.383796-05:00",
+ "updated": "2026-11-26T18:25:20.275947-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3565.47,
-   "feed": "real-time gold (PAXG, matched to spot +6.62)",
-   "time": "2026-11-26T18:15:00-05:00"
+   "price": 3567.17,
+   "feed": "real-time gold (PAXG, matched to spot +5.98)",
+   "time": "2026-11-26T18:20:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte",
-    "Why Trump\u2019s Trade War May Benefit Canada in the Long Run - Bloomberg",
-    "Russo-Ukrainian war, day 1737: Russian ballistic missiles hit a Kyiv shopping center and injure seven people in the city - Euromaidan Press"
+    "Sanctions: EU removes Chinese textile manufacturer from the list - Table.Briefings",
+    "Why Trump\u2019s Trade War May Benefit Canada in the Long Run - Bloomberg"
    ]
   },
   "today": [
