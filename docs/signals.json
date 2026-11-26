@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T02:05:20.207172-05:00",
+ "updated": "2026-11-26T02:10:20.210886-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.19,
-   "feed": "real-time gold (PAXG, matched to spot +3.78)",
-   "time": "2026-11-26T02:00:00-05:00"
+   "price": 3567.39,
+   "feed": "real-time gold (PAXG, matched to spot +3.49)",
+   "time": "2026-11-26T02:05:00-05:00"
   }
  },
  "stats": {
@@ -86,9 +86,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Trump and NATO's Rutte urge Russia not to 'expand the war' in Ukraine - TRT World",
-    "Ukraine's budget rations spending as war shrinks its tax base - KSE Institute - IntelliNews",
-    "Western estimates trail Russia's war dead by up to 107,000, Rosstat leak shows - IntelliNews"
+    "From missile ruins to 40-story towers: Inside Ramat Gan\u2019s rebuilding plan - Ynetnews",
+    "The world must choose between nuclear abolition and nuclear catastrophe - Al Jazeera",
+    "Russia loses another 2,319 troops and four aircraft in war against Ukraine in past 24 hours - Ukrinform"
    ]
   },
   "today": [
