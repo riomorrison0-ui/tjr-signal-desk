@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T12:35:20.385902-05:00",
+ "updated": "2026-11-26T12:40:20.360640-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3568.8,
-   "feed": "real-time gold (PAXG, matched to spot +7.05)",
-   "time": "2026-11-26T12:30:00-05:00"
+   "price": 3566.74,
+   "feed": "real-time gold (PAXG, matched to spot +6.58)",
+   "time": "2026-11-26T12:35:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Italy\u2019s Meloni Vows \u201cUtmost\u201d Support for Ukraine but Warns Against Expanding War Into Mediterranean - UNITED24 Media",
     "Ka hortagga HIV: War wanaagsan iyo rejo loo hayo malaayiin qof - BBC",
-    "Oxford United defender 'willing to go to war' in brutal League One assessment - Oxford Mail",
-    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy"
+    "Oxford United defender 'willing to go to war' in brutal League One assessment - Herald Series"
    ]
   },
   "today": [
