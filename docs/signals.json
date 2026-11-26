@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T06:30:20.349892-05:00",
+ "updated": "2026-11-26T06:35:20.486980-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3566.8,
-   "feed": "real-time gold (PAXG, matched to spot +5.30)",
-   "time": "2026-11-26T06:25:00-05:00"
+   "price": 3566.15,
+   "feed": "real-time gold (PAXG, matched to spot +3.89)",
+   "time": "2026-11-26T06:30:00-05:00"
   }
  },
  "stats": {
@@ -88,11 +88,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "Trump and Rutte Warn Moscow Against Wider War as Europe Seeks Security Assurances - EU Today",
     "19 Palestinians dead, 48 injured in Israeli attacks on Gaza despite ceasefire - Anadolu Ajans\u0131",
-    "My War Against Leaf Blowers and Other Noise Crimes - The New Yorker",
-    "Ukraine's foreign minister to Putin: \"Stop complaining. End the war,\" after Putin vows \"inevitable\" retaliation for refinery strikes - Plataforma Media"
+    "UK Defence calls up 100,000 reservists: \u201cBe ready for a possible war\u201d - la Repubblica"
    ]
   },
   "today": [
