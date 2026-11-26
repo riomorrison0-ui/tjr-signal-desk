@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T20:35:20.208669-05:00",
+ "updated": "2026-11-25T20:40:20.213872-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3558.18,
-   "feed": "real-time gold (PAXG, matched to spot +3.47)",
-   "time": "2026-11-25T20:30:00-05:00"
+   "price": 3558.47,
+   "feed": "real-time gold (PAXG, matched to spot +4.47)",
+   "time": "2026-11-25T20:35:00-05:00"
   }
  },
  "stats": {
@@ -84,11 +84,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 10,
    "examples": [
-    "Mideast on edge of escalation - China Daily Global Edition",
-    "Eurojust examines prosecution of attacks on aid and medical staff in war zones - INSIGHT EU MONITORING",
-    "Trump Official Says Democrats Could Start 'Civil War' With White House Investigations - Yahoo News Singapore"
+    "Peter Berg on the \u2018Two Truths\u2019 of War in \u2018The Mosquito Bowl\u2019 and the \u2018Incredibly Funny\u2019 \u2018Hancock 2\u2019 Script Will Smith Sent Him: \u2018I Love Will Smith, and I Always Will\u2019 - IMDb",
+    "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War - IMDb",
+    "UK announces sanctions on Yemen\u2019s Houthis and senior officials - Qazinform"
    ]
   },
   "today": [
