@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T12:05:20.337413-05:00",
+ "updated": "2026-11-26T12:10:20.329189-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.92,
-   "feed": "real-time gold (PAXG, matched to spot +5.93)",
-   "time": "2026-11-26T12:00:00-05:00"
+   "price": 3571.24,
+   "feed": "real-time gold (PAXG, matched to spot +5.81)",
+   "time": "2026-11-26T12:05:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Flights suspended or operations ceased: Five airlines hit by Iran war fuel shock - The Independent",
-    "UK Security: Be Prepared for War, but Don\u2019t Panic - Stanisland Magazine",
-    "Mural near Dutch embassy in Moscow depicts missile supplies for Ukraine - Reuters"
+    "Oxford United defender 'willing to go to war' in brutal League One assessment - Oxford Mail",
+    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy",
+    "Trump 'begs' Putin to end Ukraine war and stop attacking Europe in 'pathetic' statement - AOL.co.uk"
    ]
   },
   "today": [
