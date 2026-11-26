@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T09:35:20.457957-05:00",
+ "updated": "2026-11-26T09:40:20.371453-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3582.1,
-   "feed": "real-time gold (PAXG, matched to spot +4.40)",
-   "time": "2026-11-26T09:30:00-05:00"
+   "price": 3576.72,
+   "feed": "real-time gold (PAXG, matched to spot +3.43)",
+   "time": "2026-11-26T09:35:00-05:00"
   }
  },
  "stats": {
@@ -90,9 +90,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Can Trump continue with Iran war despite funding restrictions? - Al Jazeera",
-    "Russia\u2019s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios - The International Institute for Strategic Studies",
-    "Minotaur: devastating betrayal in the Ukraine war - New Statesman"
+    "The Red Sea\u2019s Next War Starts in Tigray - Geopolitical Monitor",
+    "Israel has found a weapon more useful than war: The ceasefire - Middle East Monitor",
+    "Egyptian, Qatari leaders discuss regional tensions, Gaza ceasefire in Cairo talks - Middle East Monitor"
    ]
   },
   "today": [
