@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T13:25:20.315468-05:00",
+ "updated": "2026-11-26T13:30:20.343011-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3568.88,
-   "feed": "real-time gold (PAXG, matched to spot +7.42)",
-   "time": "2026-11-26T13:20:00-05:00"
+   "price": 3568.7,
+   "feed": "real-time gold (PAXG, matched to spot +6.34)",
+   "time": "2026-11-26T13:25:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Can EU sanctions tie lawyers\u2019 hands? Court adviser backs ban on legal advice to Russians - EU Perspectives",
-    "Cardinal Parolin: Bread must not become a hostage to war - Vatican News",
-    "Chapo Isidro\u2019s Capture Shakes Up the Sinaloa Cartel War - InSight Crime"
+    "Ukraine: War Crimes, Courts and Public Oversight - Institute for War & Peace Reporting - IWPR",
+    "Turkish unions call weekend rallies as anger over poverty, war and corruption mounts - World Socialist Web Site",
+    "Opinion | Putin Extends His War to Europe\u2014He\u2019s Not Our \u201cFriend\u201d - WSJ"
    ]
   },
   "today": [
