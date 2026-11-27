@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T16:05:20.222759-05:00",
+ "updated": "2026-11-27T16:10:20.221657-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +7.59)",
-   "time": "2026-11-27T16:00:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +6.92)",
+   "time": "2026-11-27T16:05:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Andy Burnham \u2018faces Labour civil war\u2019 on Rosebank as MPs plan to \u2018hijack legislation\u2019 - The Independent",
     "Human cost of Putin\u2019s war: 20,000 Russian soldiers die for 10 Ukrainian villages - The Independent",
-    "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard",
-    "Man o'War Stakes Makes Its November Debut at Belmont - BloodHorse"
+    "Bebop vs. the 'Moldy Figs': Inside Jazz's War of the Late 1940s - Ultimate Guitar"
    ]
   },
   "today": [
