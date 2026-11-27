@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T15:30:20.449982-05:00",
+ "updated": "2026-11-27T15:35:20.474883-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +8.62)",
-   "time": "2026-11-27T15:25:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +8.19)",
+   "time": "2026-11-27T15:30:00-05:00"
   }
  },
  "stats": {
@@ -98,8 +98,8 @@
    "level": "elevated",
    "count": 3,
    "examples": [
+    "Bebop vs. the 'Moldy Figs': Inside Jazz's War of the Late 1940s - Ultimate Guitar",
     "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard",
-    "Warhammer 40,000: Dawn of War IV Adds New Figurine Painter Demo - Bleeding Cool News",
     "Algerian state media accuses France of waging \u2018war\u2019 on non-hydrocarbon exports to Europe - Anadolu Ajans\u0131"
    ]
   },
