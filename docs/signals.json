@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T09:52:36.342807-05:00",
+ "updated": "2026-11-27T09:54:03.772582-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3642.01,
-   "feed": "real-time gold (PAXG, matched to spot +20.24)",
+   "price": 3643.12,
+   "feed": "real-time gold (PAXG, matched to spot +21.35)",
    "time": "2026-11-27T09:45:00-05:00"
   }
  },
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "IAEA seeks 9th local ceasefire at Ukraine's Zaporizhzhia nuclear plant - Anadolu Ajans\u0131",
     "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
-    "Constantly following war-related news can cause worry and anxiety - Phys.org",
-    "Russia\u2019s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios - Small Wars Journal"
+    "Constantly following war-related news can cause worry and anxiety - Phys.org"
    ]
   },
   "today": [
@@ -128,8 +128,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.51,
-  "gbpusd": 1.31275
+  "stop_cap_usd": 52.47,
+  "gbpusd": 1.31168
  },
  "backtest": {
   "portfolio": {
