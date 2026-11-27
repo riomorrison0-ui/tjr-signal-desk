@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T06:25:20.352274-05:00",
+ "updated": "2026-11-27T06:30:20.434285-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3674.62,
-   "feed": "real-time gold (PAXG, matched to spot +12.14)",
-   "time": "2026-11-27T06:20:00-05:00"
+   "price": 3678.73,
+   "feed": "real-time gold (PAXG, matched to spot +11.98)",
+   "time": "2026-11-27T06:25:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - The Times of Israel",
-    "Why India and Pakistan Are Heading Toward a Major War - Middle East Forum",
-    "Houthis warn Britain against backing Saudi Arabia in Yemen war - The Arab Weekly"
+    "How Does the War in Ukraine End? - CPAC",
+    "Myanmar junta airstrike kills at least 18, including schoolchildren, in Magway Region - Myanmar Now",
+    "LeoLabs buys FishEye to deliver missile tracking radars - Electronics Weekly"
    ]
   },
   "today": [
