@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T08:30:20.368274-05:00",
+ "updated": "2026-11-27T08:35:20.379520-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3647.69,
-   "feed": "real-time gold (PAXG, matched to spot +9.81)",
-   "time": "2026-11-27T08:25:00-05:00"
+   "price": 3643.75,
+   "feed": "real-time gold (PAXG, matched to spot +8.47)",
+   "time": "2026-11-27T08:30:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Hamas says Katz\u2019s displacement threats undermine Gaza ceasefire, criticises Board of Peace\u2019s silence - Middle East Monitor",
     "Ukraine denies cutting Flamingo for Neptune as heavy missile learns to fly like a drone - IntelliNews",
-    "Candles to light up Stonefall Cemetery war graves for Christmas Remembrance service - Kirklees Local TV",
-    "Russia Orders Schools to Include Ukraine War Veterans in 2027 Graduation Ceremonies - UNITED24 Media"
+    "Britain's top-secret war document hidden from public as WW3 fears explode - AOL.co.uk"
    ]
   },
   "today": [
