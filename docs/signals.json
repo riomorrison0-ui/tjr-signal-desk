@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T19:50:20.300936-05:00",
+ "updated": "2026-11-26T19:55:20.352892-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3562.09,
-   "feed": "real-time gold (PAXG, matched to spot +6.23)",
-   "time": "2026-11-26T19:45:00-05:00"
+   "price": 3560.44,
+   "feed": "real-time gold (PAXG, matched to spot +7.56)",
+   "time": "2026-11-26T19:50:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "IAEA working with Russia, Ukraine on ceasefire to repair power link at Zaporizhzhia nuclear plant - Reuters",
-    "The 10 Best Christmas War Films, Ranked - Collider",
-    "Tattoo will tell origin story of Scotland's national war memorial to honour centenary - The Herald"
+    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
+    "Inside Ukraine\u2019s power crisis amid its war with Russia - Al Jazeera",
+    "Iran war: Two Italians killed in drone attack in Kuwait - The New Arab"
    ]
   },
   "today": [
