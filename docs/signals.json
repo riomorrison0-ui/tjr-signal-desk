@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T15:00:20.467740-05:00",
+ "updated": "2026-11-27T15:05:20.469651-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +6.89)",
-   "time": "2026-11-27T14:55:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +5.02)",
+   "time": "2026-11-27T15:00:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 3,
    "examples": [
-    "Warhammer 40,000: Dawn of War IV Adds New Figurine Painter Demo - Bleeding Cool News",
     "Algerian state media accuses France of waging \u2018war\u2019 on non-hydrocarbon exports to Europe - Anadolu Ajans\u0131",
-    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ"
+    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+    "Labour\u2019s war on landlords is punishing the very people it vowed to help - The Telegraph"
    ]
   },
   "today": [
