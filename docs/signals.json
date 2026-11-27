@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T04:06:30.071498-05:00",
+ "updated": "2026-11-27T04:08:06.177920-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3683.26,
-   "feed": "real-time gold (PAXG, matched to spot +10.67)",
+   "price": 3684.28,
+   "feed": "real-time gold (PAXG, matched to spot +11.69)",
    "time": "2026-11-27T04:00:00-05:00"
   }
  },
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Liverpool could get in bidding war with Bayern for 17-year-old German playmaker - talkSPORT",
-    "Proposed immigration rules risk safety of survivors of rape as weapon of war - openDemocracy",
-    "Australia sanctions 2 alleged Iran operatives over antisemitic arson attacks - The Times of Israel"
+    "COP31: How Does Ukraine Navigate Amid Energy Crisis and Ongoing Ecocide - UNITED24 Media",
+    "Everything We Know About Tom Clancy's The Coldest War - ScreenRant",
+    "Liverpool could get in bidding war with Bayern for 17-year-old German playmaker - talkSPORT"
    ]
   },
   "today": [
@@ -124,8 +124,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.5,
-  "gbpusd": 1.31247
+  "stop_cap_usd": 52.51,
+  "gbpusd": 1.31275
  },
  "backtest": {
   "portfolio": {
