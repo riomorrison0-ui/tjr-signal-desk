@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T22:00:20.321653-05:00",
+ "updated": "2026-11-26T22:05:20.357943-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3625.1,
-   "feed": "real-time gold (PAXG, matched to spot +10.37)",
-   "time": "2026-11-26T21:55:00-05:00"
+   "price": 3631.57,
+   "feed": "real-time gold (PAXG, matched to spot +8.71)",
+   "time": "2026-11-26T22:00:00-05:00"
   }
  },
  "stats": {
@@ -95,8 +95,8 @@
    "count": 6,
    "examples": [
     "Trump adds Ukraine to warning against expanding war, diverging from joint NATO statement - The Kyiv Independent",
-    "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019 - Al Jazeera",
-    "Indonesia bourse sanctions five companies over shareholder data - Reuters"
+    "Shipping review shows further pain ahead as disruption fuels cost of living crisis - The National",
+    "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019 - Al Jazeera"
    ]
   },
   "today": [
