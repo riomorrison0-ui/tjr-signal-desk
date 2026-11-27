@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T03:30:20.416364-05:00",
+ "updated": "2026-11-27T03:35:20.432390-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3674.74,
-   "feed": "real-time gold (PAXG, matched to spot +11.20)",
-   "time": "2026-11-27T03:25:00-05:00"
+   "price": 3670.99,
+   "feed": "real-time gold (PAXG, matched to spot +10.87)",
+   "time": "2026-11-27T03:30:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
-    "Missile War Monitor: Drone raid on St Petersburg disrupts Pulkovo as the Slavyansk refinery reports its crude unit badly damaged - IntelliNews",
-    "Interview: How the Cold War Brain Drain Upended Soviet Science - Undark Magazine",
-    "Britain prepares its veterans for the unthinkable as war warnings grow - London Business News"
+    "The Fog of War - THIRTEEN - New York Public Media",
+    "The Final Days of the War - THIRTEEN - New York Public Media",
+    "NHAI Extends Cost Escalation Compensation Mechanism For Bitumen Price Increases - Legal 500"
    ]
   },
   "today": [
