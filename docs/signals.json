@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T15:50:20.216310-05:00",
+ "updated": "2026-11-27T15:55:20.215033-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
    "feed": "real-time gold (PAXG, matched to spot +6.58)",
-   "time": "2026-11-27T15:45:00-05:00"
+   "time": "2026-11-27T15:50:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Man o' War Stakes Makes Its November Debut at Belmont - BloodHorse",
-    "Bebop vs. the 'Moldy Figs': Inside Jazz's War of the Late 1940s - Ultimate Guitar",
-    "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard"
+    "Human cost of Putin\u2019s war: 20,000 Russian soldiers die for 10 Ukrainian villages - The Independent",
+    "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard",
+    "Man o'War Stakes Makes Its November Debut at Belmont - BloodHorse"
    ]
   },
   "today": [
