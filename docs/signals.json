@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T02:15:20.398223-05:00",
+ "updated": "2026-11-27T02:20:20.428265-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3660.15,
-   "feed": "real-time gold (PAXG, matched to spot +8.58)",
-   "time": "2026-11-27T02:10:00-05:00"
+   "price": 3659.06,
+   "feed": "real-time gold (PAXG, matched to spot +8.92)",
+   "time": "2026-11-27T02:15:00-05:00"
   }
  },
  "stats": {
@@ -91,13 +91,9 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
-   "examples": [
-    "Fight for Our Future, Not Their Wars: Europe\u2019s Students Reject the War Economy - CounterPunch.org",
-    "Iran\u2019s Beauty Industry is Immune to War and Inflation - WANA News Agency",
-    "Ukraine War, Day 1,737: Zelensky \u2014 Trump Camp Still Restricting Starshield - EA WorldView"
-   ]
+   "level": "normal",
+   "count": 0,
+   "examples": []
   },
   "today": [
    {
