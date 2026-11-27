@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T20:10:20.286547-05:00",
+ "updated": "2026-11-26T20:15:20.376544-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.4,
-   "feed": "real-time gold (PAXG, matched to spot +7.95)",
-   "time": "2026-11-26T20:05:00-05:00"
+   "price": 3571.93,
+   "feed": "real-time gold (PAXG, matched to spot +8.05)",
+   "time": "2026-11-26T20:10:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
+    "Ukraine says North Korea temporarily halted missile shipments to ally Russia - The Japan Times",
     "Inside Ukraine\u2019s power crisis amid its war with Russia - Al Jazeera",
-    "Iran war: Two Italians killed in drone attack in Kuwait - The New Arab"
+    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian"
    ]
   },
   "today": [
