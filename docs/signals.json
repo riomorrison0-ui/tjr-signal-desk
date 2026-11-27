@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T05:55:20.528306-05:00",
+ "updated": "2026-11-27T06:00:20.376780-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3679.36,
-   "feed": "real-time gold (PAXG, matched to spot +11.28)",
-   "time": "2026-11-27T05:50:00-05:00"
+   "price": 3678.79,
+   "feed": "real-time gold (PAXG, matched to spot +10.86)",
+   "time": "2026-11-27T05:55:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - The Washington Post",
     "Ukraine Strikes Russian Chemical Plant Producing Components for Iskander Ballistic Missile Fuel - UNITED24 Media",
-    "Australia sanctions suspects in Iran-linked anti-Semitic attacks - Al Jazeera",
-    "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - The Washington Post"
+    "Australia sanctions suspects in Iran-linked anti-Semitic attacks - Al Jazeera"
    ]
   },
   "today": [
