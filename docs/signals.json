@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T05:20:20.384154-05:00",
+ "updated": "2026-11-27T05:25:20.544770-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3671.84,
-   "feed": "real-time gold (PAXG, matched to spot +12.23)",
-   "time": "2026-11-27T05:15:00-05:00"
+   "price": 3673.3,
+   "feed": "real-time gold (PAXG, matched to spot +11.38)",
+   "time": "2026-11-27T05:20:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Rivals clubs in tug-of-war over Manu Tuilagi signature - Rugbypass.com",
-    "Honouring 100 Years of the Scottish National War Memorial - The Royal Edinburgh Military Tattoo",
-    "Edinburgh Tattoo to commemorate centenary of National War Memorial - ScottishNews.com"
+    "Russia-Ukraine war increasingly expanding out to sea - www.thenationalnews.com",
+    "\u2018I cannot go to work\u2019: Iranians contend with pollution as well as US war - Al Jazeera",
+    "Convergence Without Synchronization? The Army and the Marine Corps in a Pacific War - Modern War Institute -"
    ]
   },
   "today": [
