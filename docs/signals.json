@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T08:15:20.393703-05:00",
+ "updated": "2026-11-27T08:20:20.393574-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3658.14,
-   "feed": "real-time gold (PAXG, matched to spot +9.58)",
-   "time": "2026-11-27T08:10:00-05:00"
+   "price": 3646.84,
+   "feed": "real-time gold (PAXG, matched to spot +5.71)",
+   "time": "2026-11-27T08:15:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Ukraine denies cutting Flamingo for Neptune as heavy missile learns to fly like a drone - IntelliNews",
     "Candles to light up Stonefall Cemetery war graves for Christmas Remembrance service - Kirklees Local TV",
-    "Qatar LNG exports hit highest level since U.S.-Iran war began, Bloomberg reports - Doha News",
-    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post"
+    "Russia Orders Schools to Include Ukraine War Veterans in 2027 Graduation Ceremonies - UNITED24 Media"
    ]
   },
   "today": [
