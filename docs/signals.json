@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T11:40:20.444676-05:00",
+ "updated": "2026-11-27T11:45:20.460518-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3627.78,
-   "feed": "real-time gold (PAXG, matched to spot +12.45)",
-   "time": "2026-11-27T11:35:00-05:00"
+   "price": 3632.05,
+   "feed": "real-time gold (PAXG, matched to spot +12.96)",
+   "time": "2026-11-27T11:40:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War, Sanctions Leave 53,000 Iranian Applicants Out of This Year's Hajj - IranWire",
-    "\u2018It\u2019s ecocide\u2019: Ukraine\u2019s Black Sea wildlife is being devastated by the Russian invasion - The Irish Times",
-    "In Iran, child marriage risks complicated by war - DW.com"
+    "Warhammer 40,000: Dawn of War 4 gets a model painter demo, so you can make a mess of your Orks, Necrons, Space Marines and AdMech before they even hit the battlefield - Rock Paper Shotgun",
+    "After the war, prisoner-of-war camps in Ukraine will be converted into prisons \u2014 a decision by the Cabinet of Ministers - UkrMedia News",
+    "Campaigners accuse government of \u2018whipping up war fever\u2019 as they condemn plans to call up reservists - Morning Star | The People\u2019s Daily"
    ]
   },
   "today": [
