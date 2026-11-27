@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T11:10:20.419637-05:00",
+ "updated": "2026-11-27T11:15:20.448433-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3622.55,
-   "feed": "real-time gold (PAXG, matched to spot +9.60)",
-   "time": "2026-11-27T11:05:00-05:00"
+   "price": 3619.5,
+   "feed": "real-time gold (PAXG, matched to spot +9.77)",
+   "time": "2026-11-27T11:10:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
+    "In Iran, child marriage risks complicated by war - DW.com",
     "Putin\u2019s biggest ally questions a key claim Russia uses to justify invasion of Ukraine - CNN",
-    "More investment in defence means less chance of war, says Streeting - Nation.Cymru",
-    "Last Post for war veteran Harry, 101 - Downend Voice"
+    "More investment in defence means less chance of war, says Streeting - Nation.Cymru"
    ]
   },
   "today": [
