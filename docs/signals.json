@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T00:25:20.425007-05:00",
+ "updated": "2026-11-27T00:30:20.391356-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3648.43,
-   "feed": "real-time gold (PAXG, matched to spot +8.46)",
-   "time": "2026-11-27T00:20:00-05:00"
+   "price": 3663.03,
+   "feed": "real-time gold (PAXG, matched to spot +17.50)",
+   "time": "2026-11-27T00:25:00-05:00"
   }
  },
  "stats": {
@@ -91,9 +91,13 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "normal",
-   "count": 0,
-   "examples": []
+   "level": "high",
+   "count": 6,
+   "examples": [
+    "Secondary Lead: Tug-of-War Between Futures and Real Demand Intensifies, Market Trading Sluggish [SMM Lead Daily Review] - Shanghai Metals Market",
+    "LIG D&A Honors Dutch Korean War Veterans - Businesskorea",
+    "Recent sinking of Russian vessels abroad shows the Russia\u2011Ukraine war has officially gone global - Asociaci\u00f3n Almendr\u00f3n"
+   ]
   },
   "today": [
    {
