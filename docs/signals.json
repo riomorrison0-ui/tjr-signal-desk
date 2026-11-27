@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T09:15:20.431786-05:00",
+ "updated": "2026-11-27T09:20:20.388505-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.24,
-   "feed": "real-time gold (PAXG, matched to spot +10.24)",
-   "time": "2026-11-27T09:10:00-05:00"
+   "price": 3639.09,
+   "feed": "real-time gold (PAXG, matched to spot +9.17)",
+   "time": "2026-11-27T09:15:00-05:00"
   }
  },
  "stats": {
@@ -99,8 +99,8 @@
    "count": 6,
    "examples": [
     "Trump weighs in on veto power, Iran war and Putin - NBC News",
-    "Norse Atlantic's Norwegian unit files for bankruptcy as Iran war jolts airlines - Euronext Markets: Real-time Stock Market Data | live",
-    "Qatar LNG exports hit highest level since war began despite disruption in Strait of Hormuz - www.thenationalnews.com"
+    "A Guide to Major U.S. Sanctions Imposed During Trump\u2019s Second Term - Council on Foreign Relations",
+    "Sudanese civilians bearing brunt of war as violence spreads across Darfur and Kordofan - Vatican News"
    ]
   },
   "today": [
