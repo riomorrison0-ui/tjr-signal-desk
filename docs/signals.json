@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T06:40:20.343255-05:00",
+ "updated": "2026-11-27T06:45:20.339345-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3674.66,
-   "feed": "real-time gold (PAXG, matched to spot +9.68)",
-   "time": "2026-11-27T06:35:00-05:00"
+   "price": 3672.54,
+   "feed": "real-time gold (PAXG, matched to spot +9.59)",
+   "time": "2026-11-27T06:40:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "How Does the War in Ukraine End? - CPAC",
-    "Myanmar junta airstrike kills at least 18, including schoolchildren, in Magway Region - Myanmar Now",
-    "LeoLabs buys FishEye to deliver missile tracking radars - Electronics Weekly"
+    "Houthis report 11 killed, including children, in an airstrike, and other Mideast news - The Washington Post",
+    "Iran Exports 180,000 Tons of Fisheries Products Despite Sanctions - WANA News Agency",
+    "Get Warhammer 40K: Dawn of War 4 at Its Cheapest Price Yet - GameWatcher"
    ]
   },
   "today": [
