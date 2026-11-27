@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T11:55:20.448363-05:00",
+ "updated": "2026-11-27T12:00:20.471513-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3636.64,
-   "feed": "real-time gold (PAXG, matched to spot +13.78)",
-   "time": "2026-11-27T11:50:00-05:00"
+   "price": 3635.35,
+   "feed": "real-time gold (PAXG, matched to spot +12.47)",
+   "time": "2026-11-27T11:55:00-05:00"
   }
  },
  "stats": {
@@ -98,8 +98,8 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Warhammer 40,000: Dawn of War 4 gets a model painter demo, so you can make a mess of your Orks, Necrons, Space Marines and AdMech before they even hit the battlefield - Rock Paper Shotgun",
-    "After the war, prisoner-of-war camps in Ukraine will be converted into prisons \u2014 a decision by the Cabinet of Ministers - UkrMedia News",
+    "Israel says it killed alleged Hamas members despite Gaza \u2018ceasefire\u2019 - www.thenationalnews.com",
+    "IAEA seeks 9th local ceasefire at Ukraine's Zaporizhzhia nuclear plant - A News",
     "Campaigners accuse government of \u2018whipping up war fever\u2019 as they condemn plans to call up reservists - Morning Star | The People\u2019s Daily"
    ]
   },
