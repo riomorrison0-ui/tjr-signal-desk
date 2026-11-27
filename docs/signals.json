@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T04:50:20.414516-05:00",
+ "updated": "2026-11-27T04:55:20.420065-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3678.49,
-   "feed": "real-time gold (PAXG, matched to spot +12.91)",
-   "time": "2026-11-27T04:45:00-05:00"
+   "price": 3676.14,
+   "feed": "real-time gold (PAXG, matched to spot +10.43)",
+   "time": "2026-11-27T04:50:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Aviation Insurance Explained: Hull, War Risk and the Russia Jets - MiGFlug",
-    "Russia intensifies \u2018hybrid war\u2019 but fails to deter Ukraine support, report finds - TVP World",
-    "Atlas Impala: South Africa\u2019s MB-326 and Its Border War Record - MiGFlug"
+    "Edinburgh Tattoo to commemorate centenary of National War Memorial - ScottishNews.com",
+    "IAEA seeks local ceasefire around Zaporizhzhia nuclear plant to repair power lines - \u0633\u0627\u0646\u0627",
+    "Dawn of War IV army painter demo released - TheSixthAxis"
    ]
   },
   "today": [
