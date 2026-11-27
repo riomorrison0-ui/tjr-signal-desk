@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T07:45:20.336716-05:00",
+ "updated": "2026-11-27T07:50:20.340709-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3667.1,
-   "feed": "real-time gold (PAXG, matched to spot +8.87)",
-   "time": "2026-11-27T07:40:00-05:00"
+   "price": 3666.87,
+   "feed": "real-time gold (PAXG, matched to spot +10.07)",
+   "time": "2026-11-27T07:45:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 5,
    "examples": [
+    "Russia Orders Schools to Include Ukraine War Veterans in 2027 Graduation Ceremonies - UNITED24 Media",
     "Bayern Munich rule out Joshua Kimmich sanctions after outspoken Jamal Musiala criticism - Goal.com",
-    "Why isn\u2019t European TV drama responding to the threat of war? - EUobserver",
-    "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin - TODAY.com"
+    "Why isn\u2019t European TV drama responding to the threat of war? - EUobserver"
    ]
   },
   "today": [
