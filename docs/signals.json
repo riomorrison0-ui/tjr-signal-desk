@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T22:15:20.313769-05:00",
+ "updated": "2026-11-26T22:20:20.333693-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3626.45,
-   "feed": "real-time gold (PAXG, matched to spot +5.81)",
-   "time": "2026-11-26T22:10:00-05:00"
+   "price": 3628.89,
+   "feed": "real-time gold (PAXG, matched to spot +7.39)",
+   "time": "2026-11-26T22:15:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump adds Ukraine to warning against expanding war, diverging from joint NATO statement - The Kyiv Independent",
-    "Shipping review shows further pain ahead as disruption fuels cost of living crisis - The National",
-    "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019 - Al Jazeera"
+    "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows - The Guardian",
+    "Israel \u2018officially sanctions\u2019 torture of Palestinians to force confessions, report reveals | The Guardian - newspaper - Magzter",
+    "ABC in war of words with The Australian over Gaza freelancer, but Hugh Marks says it\u2019s \u2018fair scrutiny\u2019 - The Guardian"
    ]
   },
   "today": [
