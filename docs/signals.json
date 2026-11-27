@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T07:10:20.418980-05:00",
+ "updated": "2026-11-27T07:15:20.404921-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3669.78,
-   "feed": "real-time gold (PAXG, matched to spot +8.88)",
-   "time": "2026-11-27T07:05:00-05:00"
+   "price": 3672.86,
+   "feed": "real-time gold (PAXG, matched to spot +13.04)",
+   "time": "2026-11-27T07:10:00-05:00"
   }
  },
  "stats": {
@@ -92,32 +92,15 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "\u2018A Mistake\u2019\u2014Explaining the Talk of Mounting Civil War at Man Utd - Sports Illustrated",
-    "Lessons of war for Australia - The Australian Naval Institute",
+    "ECB eyes tokenized collateral amid stricter Russia sanctions - CoinGeek",
+    "Saudi Airstrike Kills 11 in Al-Turba, Taiz, Houthis Say - https://houseofsaud.com/",
     "Hackers breach flagship Air Force cloud system tied to missile tracking and North American radar - The Independent"
    ]
   },
-  "today": [
-   {
-    "title": "Goods Trade Balance",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-27T13:30:00+00:00",
-    "forecast": "-135.9B",
-    "previous": "-134.9B"
-   },
-   {
-    "title": "Prelim Wholesale Inventories m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-27T13:30:00+00:00",
-    "forecast": "0.5%",
-    "previous": "0.6%"
-   }
-  ],
-  "ok_calendar": true,
+  "today": null,
+  "ok_calendar": false,
   "ok_headlines": true
  },
  "account": {
