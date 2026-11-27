@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T09:50:20.368535-05:00",
+ "updated": "2026-11-27T09:52:36.342807-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3636.76,
-   "feed": "real-time gold (PAXG, matched to spot +14.99)",
+   "price": 3642.01,
+   "feed": "real-time gold (PAXG, matched to spot +20.24)",
    "time": "2026-11-27T09:45:00-05:00"
   }
  },
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War, fear drive Sudanese writer Baraka Sakin's fiction - Al-Monitor",
-    "Qatar LNG exports hit highest level since war began despite disruption in Strait of Hormuz - The National",
-    "British Swimmer Braves Strait Of Hormuz To Warn Of Iran War's Environmental Toll - Radio Free Europe/Radio Liberty"
+    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
+    "Constantly following war-related news can cause worry and anxiety - Phys.org",
+    "Russia\u2019s Unconventional War on Europe: Sabotage, Deterrence and Future Scenarios - Small Wars Journal"
    ]
   },
   "today": [
