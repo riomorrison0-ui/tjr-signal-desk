@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T19:05:20.301478-05:00",
+ "updated": "2026-11-26T19:10:20.379317-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3570.68,
-   "feed": "real-time gold (PAXG, matched to spot +4.84)",
-   "time": "2026-11-26T19:00:00-05:00"
+   "price": 3569.57,
+   "feed": "real-time gold (PAXG, matched to spot +6.52)",
+   "time": "2026-11-26T19:05:00-05:00"
   }
  },
  "stats": {
@@ -94,19 +94,27 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Malaysia declares war on AI predators targeting children - IntelliNews",
-    "\"Incredibly intense\" war drama hailed as 'the best in years' reaches number one on Netflix - Digital Spy",
-    "ACI\u2019s 16th Annual New York Forum on Economic Sanctions - McDermott Will & Schulte"
+    "Tattoo will tell origin story of Scotland's national war memorial to honour centenary - The Herald",
+    "Edinburgh Tattoo to mark 100 years since opening of national war memorial - ITVX",
+    "Lavrov said that Russians are prepared to continue enduring hardships because of the war, but opinion polls indicate otherwise - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
    ]
   },
   "today": [
    {
-    "title": "Bank Holiday",
+    "title": "Goods Trade Balance",
     "country": "USD",
-    "impact": "Holiday",
-    "time": "2026-11-26T13:00:00+00:00",
-    "forecast": "",
-    "previous": ""
+    "impact": "Low",
+    "time": "2026-11-27T13:30:00+00:00",
+    "forecast": "-135.9B",
+    "previous": "-134.9B"
+   },
+   {
+    "title": "Prelim Wholesale Inventories m/m",
+    "country": "USD",
+    "impact": "Low",
+    "time": "2026-11-27T13:30:00+00:00",
+    "forecast": "0.5%",
+    "previous": "0.6%"
    }
   ],
   "ok_calendar": true,
