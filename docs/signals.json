@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T16:40:20.235608-05:00",
+ "updated": "2026-11-27T16:45:20.243452-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +7.34)",
-   "time": "2026-11-27T16:35:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +9.01)",
+   "time": "2026-11-27T16:40:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Andy Burnham \u2018faces Labour civil war\u2019 on Rosebank as MPs plan to \u2018hijack legislation\u2019 - The Independent",
-    "Ukraine submits Black Sea ceasefire offer, awaits Russian response - France 24",
-    "Human cost of Putin\u2019s war: 20,000 Russian soldiers die for 10 Ukrainian villages - The Independent"
+    "World War II wasn\u2019t a war between fascist and \u2018democratic\u2019 rulers - The Militant",
+    "Russia\u2019s unenforced red lines fuel calls for escalation - Asia Times",
+    "The climate money went to war instead - Asia Times"
    ]
   },
   "today": [
