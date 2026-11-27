@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T20:25:20.283175-05:00",
+ "updated": "2026-11-26T20:30:20.334580-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3575.4,
-   "feed": "real-time gold (PAXG, matched to spot +9.47)",
-   "time": "2026-11-26T20:20:00-05:00"
+   "price": 3576.04,
+   "feed": "real-time gold (PAXG, matched to spot +5.33)",
+   "time": "2026-11-26T20:25:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "Russia wants to build a new security framework to end the war. This is why it won\u2019t work - The Conversation",
     "Ukraine says North Korea temporarily halted missile shipments to ally Russia - The Japan Times",
-    "Inside Ukraine\u2019s power crisis amid its war with Russia - Al Jazeera",
-    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian"
+    "Inside Ukraine\u2019s power crisis amid its war with Russia - Al Jazeera"
    ]
   },
   "today": [
