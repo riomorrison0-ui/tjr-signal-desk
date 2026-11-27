@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T19:20:20.312407-05:00",
+ "updated": "2026-11-26T19:25:20.363761-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3571.25,
-   "feed": "real-time gold (PAXG, matched to spot +8.55)",
-   "time": "2026-11-26T19:15:00-05:00"
+   "price": 3568.15,
+   "feed": "real-time gold (PAXG, matched to spot +8.21)",
+   "time": "2026-11-26T19:20:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
     "Tattoo will tell origin story of Scotland's national war memorial to honour centenary - The Herald",
-    "Edinburgh Tattoo to mark 100 years since opening of national war memorial - ITVX",
-    "Lavrov said that Russians are prepared to continue enduring hardships because of the war, but opinion polls indicate otherwise - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+    "Lavrov said that Russians are prepared to continue enduring hardships because of the war, but opinion polls indicate otherwise - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "Ukraine, Russia could hold largest prisoner exchange of war before winter holidays, Kushner says - Euromaidan Press"
    ]
   },
   "today": [
