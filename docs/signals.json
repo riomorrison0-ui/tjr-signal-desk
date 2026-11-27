@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T21:10:20.300570-05:00",
+ "updated": "2026-11-26T21:15:20.296415-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3617.7,
-   "feed": "real-time gold (PAXG, matched to spot +8.94)",
-   "time": "2026-11-26T21:05:00-05:00"
+   "price": 3616.78,
+   "feed": "real-time gold (PAXG, matched to spot +10.14)",
+   "time": "2026-11-26T21:10:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Intl journalists helped paint real war picture - China Daily",
-    "Russia wants to build a new security framework to end the war. This is why it won\u2019t work - The Conversation",
-    "Ukraine corn prices hit lowest since Russia's 2022 invasion - S&P Global"
+    "George Russell not interested in war of words with Max Verstappen after \u2018amusing\u2019 spat - The Japan Times",
+    "Trump: Iran war will be over \u2018sort of whenever I want it to be\u2019 - The Hill",
+    "Intl journalists helped paint real war picture - China Daily"
    ]
   },
   "today": [
