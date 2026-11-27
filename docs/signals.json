@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T12:25:20.496867-05:00",
+ "updated": "2026-11-27T12:30:20.459182-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3637.3,
-   "feed": "real-time gold (PAXG, matched to spot +12.93)",
-   "time": "2026-11-27T12:20:00-05:00"
+   "price": 3638.26,
+   "feed": "real-time gold (PAXG, matched to spot +10.16)",
+   "time": "2026-11-27T12:25:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "Burnham's Brexit Bonus: How The PM's EU Reset Has Triggered A Fresh Civil War On The Right - HuffPost UK",
-    "Putin has sunk trillions of roubles into the war. The scale of the losses revealed - Defence24.com",
-    "Russia\u2019s War Dead Are Far More Numerous Than We Thought. Will That Change Anything? - The Moscow Times"
+    "\u201cWar Criminals Not Welcome\u201d: add your signature to stop war criminals - Pressenza - International Press Agency",
+    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
+    "Houthi escalation, Israeli threats, and the USAID Files: The Cheat Sheet - The New Humanitarian"
    ]
   },
   "today": [
