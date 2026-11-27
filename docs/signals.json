@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T12:40:20.452025-05:00",
+ "updated": "2026-11-27T12:45:20.445412-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.06,
-   "feed": "real-time gold (PAXG, matched to spot +10.49)",
-   "time": "2026-11-27T12:35:00-05:00"
+   "price": 3631.76,
+   "feed": "real-time gold (PAXG, matched to spot +9.93)",
+   "time": "2026-11-27T12:40:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "\u201cWar Criminals Not Welcome\u201d: add your signature to stop war criminals - Pressenza - International Press Agency",
-    "No sanctions and no recrimination: Cricket Australia ball tampering forum to include 2017-18 Ashes series - The Guardian",
-    "Houthi escalation, Israeli threats, and the USAID Files: The Cheat Sheet - The New Humanitarian"
+    "Norse Atlantic\u2019s Norwegian unit files for bankruptcy as Iran war jolts airlines - Arab News",
+    "3 zombie movies that deserve sequels more than World War Z - Undead Walking",
+    "Tanker linked to first Middle East war fatalities \u2018struck for second time\u2019 - TradeWinds News"
    ]
   },
   "today": [
