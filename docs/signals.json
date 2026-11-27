@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T04:20:20.410730-05:00",
+ "updated": "2026-11-27T04:25:20.356410-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3679.36,
-   "feed": "real-time gold (PAXG, matched to spot +11.94)",
-   "time": "2026-11-27T04:15:00-05:00"
+   "price": 3680.6,
+   "feed": "real-time gold (PAXG, matched to spot +12.16)",
+   "time": "2026-11-27T04:20:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "COP31: How Does Ukraine Navigate Amid Energy Crisis and Ongoing Ecocide - UNITED24 Media",
-    "Everything We Know About Tom Clancy's The Coldest War - ScreenRant",
-    "Liverpool could get in bidding war with Bayern for 17-year-old German playmaker - talkSPORT"
+    "Russia Needs More Money for Putin\u2019s War\u2014and Citizens\u2019 Retirement Savings Could Be the Next Source - UNITED24 Media",
+    "Meituan Posts Earnings Beat as Price War Cools - WSJ",
+    "COP31: How Does Ukraine Navigate Amid Energy Crisis and Ongoing Ecocide - UNITED24 Media"
    ]
   },
   "today": [
