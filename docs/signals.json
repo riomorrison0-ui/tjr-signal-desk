@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T09:30:20.366873-05:00",
+ "updated": "2026-11-27T09:35:20.500089-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3635.93,
-   "feed": "real-time gold (PAXG, matched to spot +7.38)",
-   "time": "2026-11-27T09:25:00-05:00"
+   "price": 3636.73,
+   "feed": "real-time gold (PAXG, matched to spot +11.57)",
+   "time": "2026-11-27T09:30:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Trump weighs in on veto power, Iran war and Putin - NBC News",
-    "A Guide to Major U.S. Sanctions Imposed During Trump\u2019s Second Term - Council on Foreign Relations",
-    "Sudanese civilians bearing brunt of war as violence spreads across Darfur and Kordofan - Vatican News"
+    "War, fear drive Sudanese writer Baraka Sakin's fiction - Al-Monitor",
+    "Qatar LNG exports hit highest level since war began despite disruption in Strait of Hormuz - The National",
+    "British Swimmer Braves Strait Of Hormuz To Warn Of Iran War's Environmental Toll - Radio Free Europe/Radio Liberty"
    ]
   },
   "today": [
