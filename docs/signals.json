@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T08:45:20.436864-05:00",
+ "updated": "2026-11-27T08:50:20.449306-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3642.72,
-   "feed": "real-time gold (PAXG, matched to spot +9.97)",
-   "time": "2026-11-27T08:40:00-05:00"
+   "price": 3646.74,
+   "feed": "real-time gold (PAXG, matched to spot +8.87)",
+   "time": "2026-11-27T08:45:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Hamas says Katz\u2019s displacement threats undermine Gaza ceasefire, criticises Board of Peace\u2019s silence - Middle East Monitor",
-    "Ukraine denies cutting Flamingo for Neptune as heavy missile learns to fly like a drone - IntelliNews",
-    "Britain's top-secret war document hidden from public as WW3 fears explode - AOL.co.uk"
+    "Qatar LNG exports hit highest level since war began despite disruption in Strait of Hormuz - www.thenationalnews.com",
+    "Qatar's LNG loadings recover to half pre-war pace as heat returns to nine of 14 trains - IntelliNews",
+    "The Inner Circle 40 Co-Main Event Result: Kongklai\u2019s Iron Chin Stands Tall In Three-Round War With Worapon - ONE Championship"
    ]
   },
   "today": [
