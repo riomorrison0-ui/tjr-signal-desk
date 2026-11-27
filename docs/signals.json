@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T14:10:20.459510-05:00",
+ "updated": "2026-11-27T14:15:20.471189-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3641.46,
-   "feed": "real-time gold (PAXG, matched to spot +6.61)",
-   "time": "2026-11-27T14:05:00-05:00"
+   "price": 3644.07,
+   "feed": "real-time gold (PAXG, matched to spot +7.97)",
+   "time": "2026-11-27T14:10:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukrainian professor warns ballistic missile defense costs triple attack costs, calling strategy unsustainable - ssbulten.com.tr",
-    "Kuwait drone attack \u2018false flag\u2019 to drag more countries into war against Iran: Report - thecradle.co",
-    "Ukraine war latest: Ukraine hits missile fuel production facility in Russia's Tula Oblast, military says - The Kyiv Independent"
+    "Ukraine proposes Black Sea ceasefire, awaits Russia's response - Xinhua",
+    "Labour MPs set to go to war over Rosebank oilfield approval - The Times",
+    "Ukrainian professor warns ballistic missile defense costs triple attack costs, calling strategy unsustainable - ssbulten.com.tr"
    ]
   },
   "today": [
