@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T22:20:20.333693-05:00",
+ "updated": "2026-11-26T22:21:50.083119-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3628.89,
-   "feed": "real-time gold (PAXG, matched to spot +7.39)",
+   "price": 3628.82,
+   "feed": "real-time gold (PAXG, matched to spot +7.32)",
    "time": "2026-11-26T22:15:00-05:00"
   }
  },
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows - The Guardian",
-    "Israel \u2018officially sanctions\u2019 torture of Palestinians to force confessions, report reveals | The Guardian - newspaper - Magzter",
-    "ABC in war of words with The Australian over Gaza freelancer, but Hugh Marks says it\u2019s \u2018fair scrutiny\u2019 - The Guardian"
+    "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
+    "ABC in war of words with The Australian over Gaza freelancer, but Hugh Marks says it\u2019s \u2018fair scrutiny\u2019 | Weekly Beast - The Guardian",
+    "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows - The Guardian"
    ]
   },
   "today": [
@@ -124,8 +124,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.43,
-  "gbpusd": 1.31068
+  "stop_cap_usd": 52.5,
+  "gbpusd": 1.31247
  },
  "backtest": {
   "portfolio": {
