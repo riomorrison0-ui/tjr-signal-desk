@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T10:05:20.458581-05:00",
+ "updated": "2026-11-27T10:10:20.446342-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3634.44,
-   "feed": "real-time gold (PAXG, matched to spot +11.89)",
-   "time": "2026-11-27T10:00:00-05:00"
+   "price": 3632.09,
+   "feed": "real-time gold (PAXG, matched to spot +15.03)",
+   "time": "2026-11-27T10:05:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
+    "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies",
     "IAEA seeks 9th local ceasefire at Ukraine's Zaporizhzhia nuclear plant - Anadolu Ajans\u0131",
-    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
-    "Constantly following war-related news can cause worry and anxiety - Phys.org"
+    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post"
    ]
   },
   "today": [
