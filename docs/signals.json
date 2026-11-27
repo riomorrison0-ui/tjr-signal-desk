@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T10:20:20.485897-05:00",
+ "updated": "2026-11-27T10:25:20.446590-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.48,
-   "feed": "real-time gold (PAXG, matched to spot +10.48)",
-   "time": "2026-11-27T10:15:00-05:00"
+   "price": 3629.99,
+   "feed": "real-time gold (PAXG, matched to spot +11.27)",
+   "time": "2026-11-27T10:20:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies",
-    "IAEA seeks 9th local ceasefire at Ukraine's Zaporizhzhia nuclear plant - Anadolu Ajans\u0131",
-    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post"
+    "War, Sanctions Leave 53,000 Iranian Applicants Out of This Year's Hajj - IranWire",
+    "If sport is war minus the shooting, Marc M\u00e1rquez is the master of the art of war - Motor Sport Magazine",
+    "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies"
    ]
   },
   "today": [
