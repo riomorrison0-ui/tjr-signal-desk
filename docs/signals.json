@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T20:55:20.283167-05:00",
+ "updated": "2026-11-26T21:00:20.286473-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3580.9,
-   "feed": "real-time gold (PAXG, matched to spot +6.50)",
-   "time": "2026-11-26T20:50:00-05:00"
+   "price": 3593.94,
+   "feed": "real-time gold (PAXG, matched to spot +6.77)",
+   "time": "2026-11-26T20:55:00-05:00"
   }
  },
  "stats": {
@@ -96,7 +96,7 @@
    "examples": [
     "Intl journalists helped paint real war picture - China Daily",
     "Russia wants to build a new security framework to end the war. This is why it won\u2019t work - The Conversation",
-    "Ukraine says North Korea temporarily halted missile shipments to ally Russia - The Japan Times"
+    "Ukraine corn prices hit lowest since Russia's 2022 invasion - S&P Global"
    ]
   },
   "today": [
