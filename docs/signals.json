@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T02:45:20.392083-05:00",
+ "updated": "2026-11-27T02:50:20.395906-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3655.62,
-   "feed": "real-time gold (PAXG, matched to spot +10.02)",
-   "time": "2026-11-27T02:40:00-05:00"
+   "price": 3661.03,
+   "feed": "real-time gold (PAXG, matched to spot +12.13)",
+   "time": "2026-11-27T02:45:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Western sanctions on Israeli settlers serve to shield the Israeli state - Al Jazeera",
-    "Seven Years After US Sanctions, Huawei Emerges as AI Chip Linchpin \u2014 Ren Zhengfei Says 'Thanks to Trump' - BigGo Finance",
-    "Fight for Our Future, Not Their Wars: Europe\u2019s Students Reject the War Economy - CounterPunch.org"
+    "The Russia-Ukraine war reaches the Mediterranean: What it means for Israel - JNS",
+    "Is Russia-Ukraine war poised to suck in rest of Europe? - The Federal",
+    "Palestinian Filmmakers Document War and Displacement at Doha Film Festival - Modern Ghana"
    ]
   },
   "today": [
