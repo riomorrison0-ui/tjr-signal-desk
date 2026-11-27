@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T10:50:20.449965-05:00",
+ "updated": "2026-11-27T10:55:20.462356-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3630.18,
-   "feed": "real-time gold (PAXG, matched to spot +11.80)",
-   "time": "2026-11-27T10:45:00-05:00"
+   "price": 3622.84,
+   "feed": "real-time gold (PAXG, matched to spot +13.17)",
+   "time": "2026-11-27T10:50:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
-    "Week in Photos - U.S. Department of War (.gov)",
-    "A Democratic war over healthcare shows signs of an emergi... - London School of Business and Research (LSBR)"
+    "Putin\u2019s biggest ally questions a key claim Russia uses to justify invasion of Ukraine - CNN",
+    "More investment in defence means less chance of war, says Streeting - Nation.Cymru",
+    "Last Post for war veteran Harry, 101 - Downend Voice"
    ]
   },
   "today": [
