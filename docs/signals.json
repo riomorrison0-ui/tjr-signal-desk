@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T12:10:20.434626-05:00",
+ "updated": "2026-11-27T12:15:20.456241-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3631.93,
-   "feed": "real-time gold (PAXG, matched to spot +11.17)",
-   "time": "2026-11-27T12:05:00-05:00"
+   "price": 3634.12,
+   "feed": "real-time gold (PAXG, matched to spot +11.70)",
+   "time": "2026-11-27T12:10:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Israel says it killed alleged Hamas members despite Gaza \u2018ceasefire\u2019 - www.thenationalnews.com",
-    "IAEA seeks 9th local ceasefire at Ukraine's Zaporizhzhia nuclear plant - A News",
-    "Campaigners accuse government of \u2018whipping up war fever\u2019 as they condemn plans to call up reservists - Morning Star | The People\u2019s Daily"
+    "Burnham's Brexit Bonus: How The PM's EU Reset Has Triggered A Fresh Civil War On The Right - HuffPost UK",
+    "Putin has sunk trillions of roubles into the war. The scale of the losses revealed - Defence24.com",
+    "Russia\u2019s War Dead Are Far More Numerous Than We Thought. Will That Change Anything? - The Moscow Times"
    ]
   },
   "today": [
