@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T03:45:20.501935-05:00",
+ "updated": "2026-11-27T03:50:20.465915-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3677.03,
-   "feed": "real-time gold (PAXG, matched to spot +13.73)",
-   "time": "2026-11-27T03:40:00-05:00"
+   "price": 3678.99,
+   "feed": "real-time gold (PAXG, matched to spot +9.87)",
+   "time": "2026-11-27T03:45:00-05:00"
   }
  },
  "stats": {
@@ -91,12 +91,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 5,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "The Fog of War - THIRTEEN - New York Public Media",
-    "The Final Days of the War - THIRTEEN - New York Public Media",
-    "NHAI Extends Cost Escalation Compensation Mechanism For Bitumen Price Increases - Legal 500"
+    "\u2018Will I get taller?\u2019: Gaza\u2019s children suffer stunting amid war, blockade - Al Jazeera",
+    "Hull\u2019s post-war modernist architecture celebrated in new walking tour - Yorkshire Post",
+    "The Final Days of the War - THIRTEEN - New York Public Media"
    ]
   },
   "today": [
