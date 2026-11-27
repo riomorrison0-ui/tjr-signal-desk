@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T03:00:20.414246-05:00",
+ "updated": "2026-11-27T03:05:20.429177-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3659.51,
-   "feed": "real-time gold (PAXG, matched to spot +12.88)",
-   "time": "2026-11-27T02:55:00-05:00"
+   "price": 3663.87,
+   "feed": "real-time gold (PAXG, matched to spot +12.40)",
+   "time": "2026-11-27T03:00:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "The Russia-Ukraine war reaches the Mediterranean: What it means for Israel - JNS",
-    "Is Russia-Ukraine war poised to suck in rest of Europe? - The Federal",
-    "Palestinian Filmmakers Document War and Displacement at Doha Film Festival - Modern Ghana"
+    "Daily Update: Russia Loses 2,262 Troops, 33 Artillery Systems and 11 Armored Vehicles in One Day - UNITED24 Media",
+    "Western sanctions on Israeli settlers serve to shield the Israeli state - Al Jazeera",
+    "Seven Years After US Sanctions, Huawei Emerges as AI Chip Linchpin \u2014 Ren Zhengfei Says 'Thanks to Trump' - BigGo Finance"
    ]
   },
   "today": [
