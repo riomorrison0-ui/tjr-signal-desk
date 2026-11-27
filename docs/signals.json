@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T15:38:39.432572-05:00",
+ "updated": "2026-11-27T15:41:13.857016-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +8.19)",
-   "time": "2026-11-27T15:30:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +8.02)",
+   "time": "2026-11-27T15:35:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 3,
+   "level": "high",
+   "count": 5,
    "examples": [
+    "Man o' War Stakes Makes Its November Debut at Belmont - BloodHorse",
     "Bebop vs. the 'Moldy Figs': Inside Jazz's War of the Late 1940s - Ultimate Guitar",
-    "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard",
-    "Algerian state media accuses France of waging \u2018war\u2019 on non-hydrocarbon exports to Europe - Anadolu Ajans\u0131"
+    "Possible sanctions for Man City amid appeal update before Arsenal showdown - London Evening Standard"
    ]
   },
   "today": [
@@ -128,8 +128,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.47,
-  "gbpusd": 1.31168
+  "stop_cap_usd": 52.39,
+  "gbpusd": 1.30964
  },
  "backtest": {
   "portfolio": {
