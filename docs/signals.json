@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T06:55:20.407423-05:00",
+ "updated": "2026-11-27T07:00:20.386479-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3670.49,
-   "feed": "real-time gold (PAXG, matched to spot +10.86)",
-   "time": "2026-11-27T06:50:00-05:00"
+   "price": 3673.38,
+   "feed": "real-time gold (PAXG, matched to spot +10.00)",
+   "time": "2026-11-27T06:55:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Houthis report 11 killed, including children, in an airstrike, and other Mideast news - The Washington Post",
-    "Iran Exports 180,000 Tons of Fisheries Products Despite Sanctions - WANA News Agency",
-    "Get Warhammer 40K: Dawn of War 4 at Its Cheapest Price Yet - GameWatcher"
+    "\u2018A Mistake\u2019\u2014Explaining the Talk of Mounting Civil War at Man Utd - Sports Illustrated",
+    "Lessons of war for Australia - The Australian Naval Institute",
+    "Hackers breach flagship Air Force cloud system tied to missile tracking and North American radar - The Independent"
    ]
   },
   "today": [
