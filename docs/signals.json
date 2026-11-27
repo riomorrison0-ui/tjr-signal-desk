@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T13:40:20.476770-05:00",
+ "updated": "2026-11-27T13:45:20.429927-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3639.91,
-   "feed": "real-time gold (PAXG, matched to spot +8.47)",
-   "time": "2026-11-27T13:35:00-05:00"
+   "price": 3642.01,
+   "feed": "real-time gold (PAXG, matched to spot +8.31)",
+   "time": "2026-11-27T13:40:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Ukraine's true war bill is 3.4 times the damage it counts - IntelliNews Lambda - IntelliNews",
-    "Doctor Who Had a Time War Before the TV Series\u2014and It Happened in the Novels - IMDb",
-    "\u25b6\ufe0f INVASION 2 - IMDb"
+    "Ukraine war latest: Ukraine hits missile fuel production facility in Russia's Tula Oblast, military says - The Kyiv Independent",
+    "Experts urge European governments to shield ICC from US sanctions - Anadolu Ajans\u0131",
+    "The United States Sanctions The International Criminal Court - The Organization for World Peace"
    ]
   },
   "today": [
