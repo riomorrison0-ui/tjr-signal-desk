@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T22:35:20.440568-05:00",
+ "updated": "2026-11-26T22:40:20.373412-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3626.59,
-   "feed": "real-time gold (PAXG, matched to spot +5.31)",
-   "time": "2026-11-26T22:30:00-05:00"
+   "price": 3629.1,
+   "feed": "real-time gold (PAXG, matched to spot +7.35)",
+   "time": "2026-11-26T22:35:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
+    "Two Italians killed in Kuwait drone attack; Trump says Iran war ends \u2018whenever I want it\u2019 - CNBC",
     "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-    "ABC in war of words with The Australian over Gaza freelancer, but Hugh Marks says it\u2019s \u2018fair scrutiny\u2019 | Weekly Beast - The Guardian",
-    "Ukraine war briefing: Kyiv launched more long-range strikes in 2026 than rest of war combined, data shows - The Guardian"
+    "Australia sanctions two people over antisemitic attacks that it blames on Iran - Reuters"
    ]
   },
   "today": [
