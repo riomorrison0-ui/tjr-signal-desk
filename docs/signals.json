@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T23:20:20.462158-05:00",
+ "updated": "2026-11-26T23:25:20.406660-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3632.53,
-   "feed": "real-time gold (PAXG, matched to spot +7.53)",
-   "time": "2026-11-26T23:15:00-05:00"
+   "price": 3635.75,
+   "feed": "real-time gold (PAXG, matched to spot +8.82)",
+   "time": "2026-11-26T23:20:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "All-time great war film with 96% rating leaves Netflix on December 1 - last chance to see - AOL.co.uk",
+    "Australia sanctions two individuals over IRGC-linked antisemitic attacks - Iran International",
     "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-    "Israeli military 'dependent on Amazon and Google' for its war on Gaza, former employees says - Middle East Eye"
+    "Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera"
    ]
   },
   "today": [
