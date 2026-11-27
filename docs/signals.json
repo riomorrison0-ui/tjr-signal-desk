@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T13:25:20.446000-05:00",
+ "updated": "2026-11-27T13:30:20.451988-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3644.26,
-   "feed": "real-time gold (PAXG, matched to spot +8.51)",
-   "time": "2026-11-27T13:20:00-05:00"
+   "price": 3641.7,
+   "feed": "real-time gold (PAXG, matched to spot +8.94)",
+   "time": "2026-11-27T13:25:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
     "Ukraine's true war bill is 3.4 times the damage it counts - IntelliNews Lambda - IntelliNews",
-    "The Iran war is spreading beyond Israel. The Gulf is becoming a global front - Ynetnews",
-    "The War Room newsletter: The best armies in history - The Economist"
+    "Doctor Who Had a Time War Before the TV Series\u2014and It Happened in the Novels - IMDb",
+    "\u25b6\ufe0f INVASION 2 - IMDb"
    ]
   },
   "today": [
