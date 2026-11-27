@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T00:40:20.440836-05:00",
+ "updated": "2026-11-27T00:45:20.412347-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3648.88,
-   "feed": "real-time gold (PAXG, matched to spot +7.94)",
-   "time": "2026-11-27T00:35:00-05:00"
+   "price": 3651.13,
+   "feed": "real-time gold (PAXG, matched to spot +7.06)",
+   "time": "2026-11-27T00:40:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 8,
    "examples": [
-    "Secondary Lead: Tug-of-War Between Futures and Real Demand Intensifies, Market Trading Sluggish [SMM Lead Daily Review] - Shanghai Metals Market",
-    "LIG D&A Honors Dutch Korean War Veterans - Businesskorea",
-    "Recent sinking of Russian vessels abroad shows the Russia\u2011Ukraine war has officially gone global - Asociaci\u00f3n Almendr\u00f3n"
+    "French politician who stood up to Bush over the invasion of Iraq is back to stop Le Pen - The Washington Post",
+    "Cricket Australia rules out retroactive sanctions in Sandpapergate review forum - The Washington Post",
+    "US seizes nearly $17 billion in global war on scam rings - Help Net Security"
    ]
   },
   "today": [
