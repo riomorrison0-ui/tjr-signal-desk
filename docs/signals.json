@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T05:40:20.479987-05:00",
+ "updated": "2026-11-27T05:45:20.438208-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3676.55,
-   "feed": "real-time gold (PAXG, matched to spot +10.29)",
-   "time": "2026-11-27T05:35:00-05:00"
+   "price": 3676.52,
+   "feed": "real-time gold (PAXG, matched to spot +11.03)",
+   "time": "2026-11-27T05:40:00-05:00"
   }
  },
  "stats": {
@@ -94,9 +94,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "Russia-Ukraine war increasingly expanding out to sea - www.thenationalnews.com",
-    "\u2018I cannot go to work\u2019: Iranians contend with pollution as well as US war - Al Jazeera",
-    "Convergence Without Synchronization? The Army and the Marine Corps in a Pacific War - Modern War Institute -"
+    "Ukraine Strikes Russian Chemical Plant Producing Components for Iskander Ballistic Missile Fuel - UNITED24 Media",
+    "Australia sanctions suspects in Iran-linked anti-Semitic attacks - Al Jazeera",
+    "UN warns hunger will deepen in the Middle East as war, fuel costs and aid cuts collide - The Washington Post"
    ]
   },
   "today": [
