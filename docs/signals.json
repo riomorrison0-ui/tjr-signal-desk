@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T04:00:20.409676-05:00",
+ "updated": "2026-11-27T04:05:20.473975-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3677.8,
-   "feed": "real-time gold (PAXG, matched to spot +11.89)",
-   "time": "2026-11-27T03:55:00-05:00"
+   "price": 3683.57,
+   "feed": "real-time gold (PAXG, matched to spot +10.98)",
+   "time": "2026-11-27T04:00:00-05:00"
   }
  },
  "stats": {
@@ -91,12 +91,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 5,
    "examples": [
-    "\u2018Will I get taller?\u2019: Gaza\u2019s children suffer stunting amid war, blockade - Al Jazeera",
-    "Hull\u2019s post-war modernist architecture celebrated in new walking tour - Yorkshire Post",
-    "The Final Days of the War - THIRTEEN - New York Public Media"
+    "Liverpool could get in bidding war with Bayern for 17-year-old German playmaker - talkSPORT",
+    "Proposed immigration rules risk safety of survivors of rape as weapon of war - openDemocracy",
+    "Australia sanctions 2 alleged Iran operatives over antisemitic arson attacks - The Times of Israel"
    ]
   },
   "today": [
