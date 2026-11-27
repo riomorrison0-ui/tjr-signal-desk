@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T13:10:20.457196-05:00",
+ "updated": "2026-11-27T13:15:20.447413-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3653.36,
-   "feed": "real-time gold (PAXG, matched to spot +9.73)",
-   "time": "2026-11-27T13:05:00-05:00"
+   "price": 3646.01,
+   "feed": "real-time gold (PAXG, matched to spot +7.13)",
+   "time": "2026-11-27T13:10:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "Kyiv offers Black Sea ceasefire, as Putin expands Russia\u2019s navy - Al Jazeera",
-    "Larbert hospital's emergency waiting room conditions have been slated by patients - Falkirk Herald",
-    "New UN Report Investigates Attacks on Aid Workers During Sri Lanka\u2019s Civil War - Genocide Watch"
+    "Ukraine's true war bill is 3.4 times the damage it counts - IntelliNews Lambda - IntelliNews",
+    "The Iran war is spreading beyond Israel. The Gulf is becoming a global front - Ynetnews",
+    "The War Room newsletter: The best armies in history - The Economist"
    ]
   },
   "today": [
