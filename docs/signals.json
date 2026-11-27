@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T10:35:20.452243-05:00",
+ "updated": "2026-11-27T10:40:20.449487-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3629.28,
-   "feed": "real-time gold (PAXG, matched to spot +14.23)",
-   "time": "2026-11-27T10:30:00-05:00"
+   "price": 3631.56,
+   "feed": "real-time gold (PAXG, matched to spot +11.18)",
+   "time": "2026-11-27T10:35:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "War, Sanctions Leave 53,000 Iranian Applicants Out of This Year's Hajj - IranWire",
-    "If sport is war minus the shooting, Marc M\u00e1rquez is the master of the art of war - Motor Sport Magazine",
-    "China\u2019s SLBM test and missile pre-launch notifications - The International Institute for Strategic Studies"
+    "\u2018Friday Night Lights\u2019 team is back with a harrowing anti-war football film - The Washington Post",
+    "Week in Photos - U.S. Department of War (.gov)",
+    "A Democratic war over healthcare shows signs of an emergi... - London School of Business and Research (LSBR)"
    ]
   },
   "today": [
