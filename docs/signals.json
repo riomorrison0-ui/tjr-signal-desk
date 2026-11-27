@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T12:55:20.468276-05:00",
+ "updated": "2026-11-27T13:00:20.461175-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3638.62,
-   "feed": "real-time gold (PAXG, matched to spot +11.88)",
-   "time": "2026-11-27T12:50:00-05:00"
+   "price": 3648.43,
+   "feed": "real-time gold (PAXG, matched to spot +10.24)",
+   "time": "2026-11-27T12:55:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 5,
+   "count": 6,
    "examples": [
-    "Norse Atlantic\u2019s Norwegian unit files for bankruptcy as Iran war jolts airlines - Arab News",
-    "3 zombie movies that deserve sequels more than World War Z - Undead Walking",
-    "Tanker linked to first Middle East war fatalities \u2018struck for second time\u2019 - TradeWinds News"
+    "Kyiv offers Black Sea ceasefire, as Putin expands Russia\u2019s navy - Al Jazeera",
+    "Larbert hospital's emergency waiting room conditions have been slated by patients - Falkirk Herald",
+    "New UN Report Investigates Attacks on Aid Workers During Sri Lanka\u2019s Civil War - Genocide Watch"
    ]
   },
   "today": [
