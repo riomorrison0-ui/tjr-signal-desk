@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T01:25:20.395027-05:00",
+ "updated": "2026-11-27T01:30:20.402128-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
-   "price": 3645.77,
-   "feed": "real-time gold (PAXG, matched to spot +9.28)",
-   "time": "2026-11-27T01:20:00-05:00"
+   "price": 3651.03,
+   "feed": "real-time gold (PAXG, matched to spot +9.22)",
+   "time": "2026-11-27T01:25:00-05:00"
   }
  },
  "stats": {
@@ -92,11 +92,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 7,
+   "count": 5,
    "examples": [
-    "Chris Donnelly: The week children\u2019s education became fair game in unionists\u2019 culture war - The Irish News",
-    "Royal Edinburgh Military Tattoo marks 100 years of Scottish National War Memorial - Edinburgh News",
-    "Trump suggested that there might not have been a war in Ukraine if Russia had remained in G8 - Mezha.net"
+    "UPDATES: US War on Iran, Day 274 \u2014 Strike on Kuwait Kills 2 Italians - EA WorldView",
+    "STOP-WAR-START-TENNIS-BOOK-COVER - World Tennis Magazine",
+    "Trump and Rutte Urge Russia to Avoid Escalating the War in Ukraine - commonspace.eu"
    ]
   },
   "today": [
