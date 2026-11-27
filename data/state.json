@@ -1030,10 +1030,56 @@
     "next": null
    },
    "pnl_gbp": -6.73
+  },
+  "XAUUSD-rsi2-20261127-0725-BUY": {
+   "id": "XAUUSD-rsi2-20261127-0725-BUY",
+   "instrument": "XAUUSD",
+   "side": "BUY",
+   "level_name": "rsi2",
+   "level": 3668.39,
+   "sweep_time": "2026-11-27T07:30:00-05:00",
+   "confirm_time": "2026-11-27T07:30:00-05:00",
+   "entry": 3668.39,
+   "stop": 3639.08,
+   "target": 3697.7,
+   "rr": 1.0,
+   "bias": "",
+   "killzone": "",
+   "valid_until": "2026-11-27T07:30:00-05:00",
+   "status": "open",
+   "fill_time": "2026-11-27T07:30:00-05:00",
+   "exit_time": null,
+   "exit_price": null,
+   "r": null,
+   "notes": [],
+   "strategy": "rsi2",
+   "entry_type": "market",
+   "hold_until": "2026-12-07T07:30:00-05:00",
+   "why": "Sharp dip (RSI(2) 13) against the 30min trend: fade it back to the 5-bar average",
+   "sent_at": "2026-11-27T07:30:20.340610-05:00",
+   "initial_status": "open",
+   "feed": "real-time gold (PAXG, matched to spot +9.00)",
+   "gbpusd": 1.31275,
+   "account_gbp": 2160.38,
+   "lots": 0.01,
+   "risk_pct": 2.0,
+   "legs": [
+    {
+     "n": 2,
+     "tp": 3697.7,
+     "r_mult": 1.0,
+     "lots": 0.01,
+     "status": "open"
+    }
+   ],
+   "news": {
+    "risk": "high",
+    "next": null
+   }
   }
  },
  "created": "2026-11-06T14:07:44.404822+00:00",
- "updated": "2026-11-27T07:25:20.464338-05:00",
+ "updated": "2026-11-27T07:30:20.340610-05:00",
  "tg_chat": "-5265949283",
  "tg_hello": "2026-11-06T09:11:55.080480-05:00",
  "tg_offset": 620043535,
