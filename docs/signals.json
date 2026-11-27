@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T14:45:20.414643-05:00",
+ "updated": "2026-11-27T14:50:20.456609-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
    "feed": "real-time gold (PAXG, matched to spot +8.19)",
-   "time": "2026-11-27T14:40:00-05:00"
+   "time": "2026-11-27T14:45:00-05:00"
   }
  },
  "stats": {
@@ -96,11 +96,11 @@
   "next": [],
   "risk": {
    "level": "high",
-   "count": 6,
+   "count": 5,
    "examples": [
-    "How foreign navies could reshape Iran\u2019s grip on Hormuz after the war - Al-Monitor",
-    "Ukraine proposes Black Sea ceasefire, awaits Russia's response - Xinhua",
-    "Labour MPs set to go to war over Rosebank oilfield approval - The Times"
+    "Warhammer 40,000: Dawn of War IV Adds New Figurine Painter Demo - Bleeding Cool News",
+    "Algerian state media accuses France of waging \u2018war\u2019 on non-hydrocarbon exports to Europe - Anadolu Ajans\u0131",
+    "A \u2018Silent War\u2019 Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ"
    ]
   },
   "today": [
