@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-28T03:10:20.225346-05:00",
+ "updated": "2026-11-28T08:56:25.974069-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +4.55)",
-   "time": "2026-11-28T03:05:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +10.75)",
+   "time": "2026-11-28T08:50:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "high",
-   "count": 6,
+   "level": "elevated",
+   "count": 4,
    "examples": [
-    "WAR IN UKRAINE - Defence24.com",
-    "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan - Egypt Independent",
-    "Saudi-led coalition intercepts Houthi cruise missile over Riyadh - \u0633\u0627\u0646\u0627"
+    "Turkish aviation firm to shut down over US sanctions for Iran ties - Iran International",
+    "German Defense Giant to Help Develop New Seeker Head for Neptune Missile - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
+    "Putin unveils new nuclear submarine - Al Jazeera"
    ]
   },
   "today": [],
