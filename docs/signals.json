@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T16:55:20.230082-05:00",
+ "updated": "2026-11-27T21:24:48.571629-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +7.43)",
-   "time": "2026-11-27T16:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot -0.22)",
+   "time": "2026-11-27T21:15:00-05:00"
   }
  },
  "stats": {
@@ -98,29 +98,12 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "World War II wasn\u2019t a war between fascist and \u2018democratic\u2019 rulers - The Militant",
-    "Russia\u2019s unenforced red lines fuel calls for escalation - Asia Times",
-    "The climate money went to war instead - Asia Times"
+    "UK orders 100K reserve soldiers to prepare for war - FOX 13 Seattle",
+    "US steps up economic war against China - World Socialist Web Site",
+    "Son of Hamas chief and his family survive Israeli airstrike, group says - Sky News"
    ]
   },
-  "today": [
-   {
-    "title": "Goods Trade Balance",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-27T13:30:00+00:00",
-    "forecast": "-135.9B",
-    "previous": "-134.9B"
-   },
-   {
-    "title": "Prelim Wholesale Inventories m/m",
-    "country": "USD",
-    "impact": "Low",
-    "time": "2026-11-27T13:30:00+00:00",
-    "forecast": "0.5%",
-    "previous": "0.6%"
-   }
-  ],
+  "today": [],
   "ok_calendar": true,
   "ok_headlines": true
  },
