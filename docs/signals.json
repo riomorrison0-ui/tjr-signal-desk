@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T21:24:48.571629-05:00",
+ "updated": "2026-11-28T03:10:20.225346-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot -0.22)",
-   "time": "2026-11-27T21:15:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +4.55)",
+   "time": "2026-11-28T03:05:00-05:00"
   }
  },
  "stats": {
@@ -98,9 +98,9 @@
    "level": "high",
    "count": 6,
    "examples": [
-    "UK orders 100K reserve soldiers to prepare for war - FOX 13 Seattle",
-    "US steps up economic war against China - World Socialist Web Site",
-    "Son of Hamas chief and his family survive Israeli airstrike, group says - Sky News"
+    "WAR IN UKRAINE - Defence24.com",
+    "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan - Egypt Independent",
+    "Saudi-led coalition intercepts Houthi cruise missile over Riyadh - \u0633\u0627\u0646\u0627"
    ]
   },
   "today": [],
@@ -111,8 +111,8 @@
   "gbp": 2000.0,
   "max_risk_pct": 2.0,
   "lot": 0.01,
-  "stop_cap_usd": 52.39,
-  "gbpusd": 1.30964
+  "stop_cap_usd": 52.4,
+  "gbpusd": 1.30989
  },
  "backtest": {
   "portfolio": {
