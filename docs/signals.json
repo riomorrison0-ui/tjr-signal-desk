@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-28T08:56:25.974069-05:00",
+ "updated": "2026-11-28T14:42:33.319488-05:00",
  "params": "rsi2 {\"tf\": \"30min\", \"lo\": 20, \"hi\": 80, \"sl_atr\": 2.5, \"tp_mult\": 1.0}",
  "prices": {
   "XAUUSD": {
    "price": 3653.49,
-   "feed": "real-time gold (PAXG, matched to spot +10.75)",
-   "time": "2026-11-28T08:50:00-05:00"
+   "feed": "real-time gold (PAXG, matched to spot +7.70)",
+   "time": "2026-11-28T14:35:00-05:00"
   }
  },
  "stats": {
@@ -95,12 +95,12 @@
   "blackout": null,
   "next": [],
   "risk": {
-   "level": "elevated",
-   "count": 4,
+   "level": "high",
+   "count": 6,
    "examples": [
-    "Turkish aviation firm to shut down over US sanctions for Iran ties - Iran International",
-    "German Defense Giant to Help Develop New Seeker Head for Neptune Missile - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
-    "Putin unveils new nuclear submarine - Al Jazeera"
+    "World War II Veteran celebrates 100 years and a family legacy - VA News (.gov)",
+    "The 10 Most Action-Packed War Movies of All Time, Ranked - Collider",
+    "Floyd Mayweather's December fight canceled in further escalation of boxer's legal troubles - Yahoo Sports"
    ]
   },
   "today": [],
